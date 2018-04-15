@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.4_0_10323" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(install it globally)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075437Z" creationid="Toru Kokubun" creationdate="20180415T075437Z">
+        <seg>（グローバルへのインストール）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x1/&gt;PHP dotenv&lt;x2/&gt;, which the &lt;x3/&gt;craftcms/craft&lt;x4/&gt; project comes with pre-installed, processes the &lt;x5/&gt;.env&lt;x6/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090414Z" creationid="Toru Kokubun" creationdate="20180415T090405Z">
+        <seg>&lt;x3/&gt;craftcms/craft&lt;x4/&gt; プロジェクトと一緒にプリインストールされる &lt;x1/&gt;PHP dotenv&lt;x2/&gt; が、&lt;x5/&gt;.env&lt;x6/&gt; ファイルを処理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A minimum of 200MB of free disk space</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020539Z" creationid="Toru Kokubun" creationdate="20180415T020539Z">
+        <seg>最低200MBの空きディスク容量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A minimum of 256MB of memory allocated to PHP</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020531Z" creationid="Toru Kokubun" creationdate="20180415T020531Z">
+        <seg>最低256MBの PHP 割当メモリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A web server (Apache, Nginx, IIS)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075005Z" creationid="Toru Kokubun" creationdate="20180415T020458Z">
+        <seg>ウェブサーバー（Apache、Nginx、IIS）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>About Craft CMS</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T024728Z" creationid="Toru Kokubun" creationdate="20180414T024728Z">
+        <seg>Craft CMS について</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>About Craft CMS&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234605Z" creationid="Toru Kokubun" creationdate="20180404T234605Z">
+        <seg>Craft CMS について&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced Topics</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230234Z" creationid="Toru Kokubun" creationdate="20180414T230234Z">
+        <seg>高度なトピックス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advocating for, or encouraging, any of the above behavior.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234842Z" creationid="Toru Kokubun" creationdate="20180414T234842Z">
+        <seg>上記のいずれかを支持する。または、奨励すること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After reading those three items, you can continue on to installing Craft via the &lt;x1/&gt;Installation instructions&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032837Z" creationid="Toru Kokubun" creationdate="20180415T005418Z">
+        <seg>3つの項目を読んだ後、&lt;x1/&gt;インストールガイド&lt;x2/&gt;によって Craft のインストールを続けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After that, read through &lt;x3/&gt;The Pieces of Craft&lt;x4/&gt; and the &lt;x5/&gt;Craft Directory Structure&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T004615Z" creationid="Toru Kokubun" creationdate="20180415T004559Z">
+        <seg>その後、&lt;x3/&gt;Craft のピース&lt;x4/&gt;と&lt;x5/&gt;Craft のディレクトリ構造&lt;x6/&gt;を読み通してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Android: Chrome 4.4 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015411Z" creationid="Toru Kokubun" creationdate="20180415T015411Z">
+        <seg>Android: Chrome 4.4 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232143Z" creationid="Toru Kokubun" creationdate="20180414T232143Z">
+        <seg>あなたの意思決定はユーザーや同僚に影響を与えるでしょう。そのため、決定を下す際はどのような結果になるかを考慮すべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asset Bundles&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230850Z" creationid="Toru Kokubun" creationdate="20180414T230850Z">
+        <seg>アセットのバンドル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011934Z" creationid="Toru Kokubun" creationdate="20180414T011934Z">
+        <seg>アセット&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be careful in the words that you choose.&lt;x1/&gt; We are a community of professionals, and we conduct ourselves professionally.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233237Z" creationid="Toru Kokubun" creationdate="20180414T233237Z">
+        <seg>言葉選びに注意を払ってください。&lt;x1/&gt; わたしたちはプロフェッショナルによるコミュニティです。そのため、わたしたち自身がプロフェッショナルらしく振る舞いましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be considerate.&lt;x1/&gt; Your work will be used by other people, and you in turn will depend on the work of others.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232053Z" creationid="Toru Kokubun" creationdate="20180414T232053Z">
+        <seg>思いやりをもってください。&lt;x1/&gt; あなたの行為は他の誰かに使われ、あなたは他の誰かの行為に依存することでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be friendly and patient.&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231738Z" creationid="Toru Kokubun" creationdate="20180414T231738Z">
+        <seg>友好的、かつ、寛容でいてください。&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be kind to others.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233358Z" creationid="Toru Kokubun" creationdate="20180414T233358Z">
+        <seg>他者に親切であってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be respectful.&lt;x1/&gt; Not all of us will agree all the time, but disagreement is no excuse for poor behavior and poor manners.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073857Z" creationid="Toru Kokubun" creationdate="20180414T232900Z">
+        <seg>敬意をもってください。&lt;x1/&gt; 常に全会一致ということはないでしょう。しかし、意見の相違がひどい行為やひどいマナーの弁解にはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be welcoming.&lt;x1/&gt; We strive to be a community that welcomes and supports people of all backgrounds and identities.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231805Z" creationid="Toru Kokubun" creationdate="20180414T231805Z">
+        <seg>歓迎してください。&lt;x1/&gt; わたしたちはすべてのバックグラウンドとアイデンティティの人々を歓迎し、サポートするコミュニティであろうと努力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before you install Craft, it's important that you check that your server will meet the requirements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T220055Z" creationid="Toru Kokubun" creationdate="20180415T020014Z">
+        <seg>Craft をインストールする前に、サーバーが必須要件を満たしているか調べることは重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Being unable to understand why someone holds a viewpoint doesn’t mean that they’re wrong.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235205Z" creationid="Toru Kokubun" creationdate="20180414T235205Z">
+        <seg>誰かが持つ視点を理解できないからといって、その視点が間違っていることを意味しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CP Browser Requirements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031508Z" creationid="Toru Kokubun" creationdate="20180415T031508Z">
+        <seg>CP のブラウザ要件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Categories&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011931Z" creationid="Toru Kokubun" creationdate="20180414T011931Z">
+        <seg>カテゴリー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changelogs and Updates&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230650Z" creationid="Toru Kokubun" creationdate="20180414T230650Z">
+        <seg>更新履歴とアップデート&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in Craft 3&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234732Z" creationid="Toru Kokubun" creationdate="20180404T234732Z">
+        <seg>Craft 3 の変更点&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Character Set: &lt;x1/&gt;UTF8&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084925Z" creationid="Toru Kokubun" creationdate="20180415T084925Z">
+        <seg>文字セット： &lt;x1/&gt;UTF8&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checking Your Server</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015858Z" creationid="Toru Kokubun" creationdate="20180415T015858Z">
+        <seg>サーバーの確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chrome 29 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015406Z" creationid="Toru Kokubun" creationdate="20180415T015406Z">
+        <seg>Chrome 29 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Code of Conduct</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030740Z" creationid="Toru Kokubun" creationdate="20180414T030740Z">
+        <seg>行動規範</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Code of Conduct&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180405T002706Z" creationid="Toru Kokubun" creationdate="20180405T002706Z">
+        <seg>行動規範&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coding Guidelines&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230532Z" creationid="Toru Kokubun" creationdate="20180414T230532Z">
+        <seg>コーディングガイドライン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Common Examples&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012536Z" creationid="Toru Kokubun" creationdate="20180414T012536Z">
+        <seg>一般的な例&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Composer will take a few minutes to install everything.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084154Z" creationid="Toru Kokubun" creationdate="20180415T084154Z">
+        <seg>Composer はすべてをインストールするのに数分かかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012306Z" creationid="Toru Kokubun" creationdate="20180414T012306Z">
+        <seg>設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content Migrations&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012301Z" creationid="Toru Kokubun" creationdate="20180414T012301Z">
+        <seg>コンテンツの移行&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Control Panel Section&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231357Z" creationid="Toru Kokubun" creationdate="20180414T230745Z">
+        <seg>コントロールパネル用セクション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Core Concepts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011704Z" creationid="Toru Kokubun" creationdate="20180414T011704Z">
+        <seg>コアコンセプト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft 3 Documentation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="TORU KOKUBUN" changedate="20180220T213244Z" creationid="TORU KOKUBUN" creationdate="20180220T213244Z">
+        <seg>Craft 3 ドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft 3 is available as a &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033551Z" creationid="Toru Kokubun" creationdate="20180415T033116Z">
+        <seg>Craft 3 は &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; パッケージとして利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft 3 supports both MySQL 5.5+ and PostgreSQL 9.5+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084631Z" creationid="Toru Kokubun" creationdate="20180415T084631Z">
+        <seg>Craft 3 は MySQL 5.5 以上と PostgreSQL 9.5 以上の両方をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft is a content-first CMS that aims to make life enjoyable for developers and content managers alike.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T024846Z" creationid="Toru Kokubun" creationdate="20180414T024846Z">
+        <seg>Craft は開発者とコンテンツ管理者がお互いに楽しい生活を送れることを目的とする、コンテンツファーストな CMS（コンテンツ管理システム）です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft is a self-hosted PHP application built on &lt;x1/&gt;Yii&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030333Z" creationid="Toru Kokubun" creationdate="20180414T030333Z">
+        <seg>Craft は &lt;x1/&gt;Yii&lt;x2/&gt; をベースとするセルフホスティングの PHP アプリケーションです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft requires the following PHP extensions:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020630Z" creationid="Toru Kokubun" creationdate="20180415T020601Z">
+        <seg>Craft は次の PHP エクステンションが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft requires the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020420Z" creationid="Toru Kokubun" creationdate="20180415T020420Z">
+        <seg>Craft の必須要件は次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s Composer support has two parts:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072812Z" creationid="Toru Kokubun" creationdate="20180415T072812Z">
+        <seg>Craft の Composer サポートは2つのパートでできています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s Control Panel requires a modern browser:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031517Z" creationid="Toru Kokubun" creationdate="20180415T031517Z">
+        <seg>Craft のコントロールパネルは、モダンブラウザが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a New Craft Project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075645Z" creationid="Toru Kokubun" creationdate="20180415T075645Z">
+        <seg>新しい Craft プロジェクトの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a New Craft Project&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033212Z" creationid="Toru Kokubun" creationdate="20180415T033212Z">
+        <seg>新しい Craft プロジェクトの作成&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a new web server to host your Craft project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T220239Z" creationid="Toru Kokubun" creationdate="20180415T215402Z">
+        <seg>Craft プロジェクトをホストするための新しいウェブサーバーを用意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Credits for the sources and inspiration of this code of conduct go to the [Django Project](https://www.djangoproject.com/conduct/) and many others.&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235341Z" creationid="Toru Kokubun" creationdate="20180414T235341Z">
+        <seg>この行動規範のソース、および、インスピレーションのクレジットは [Django Project](https://www.djangoproject.com/conduct/) をはじめとする沢山のものに行き着きます。&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DOM&lt;x1/&gt; - Required for parsing XML feeds as well as &lt;x2/&gt;yii\web\XmlResponseFormatter&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031224Z" creationid="Toru Kokubun" creationdate="20180415T031224Z">
+        <seg>DOM&lt;x1/&gt; - &lt;x2/&gt;yii\web\XmlResponseFormatter&lt;x3/&gt; と同様に、XML フィードを解析するために必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default Character Set: &lt;x1/&gt;utf8&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084903Z" creationid="Toru Kokubun" creationdate="20180415T084903Z">
+        <seg>デフォルトの文字セット： &lt;x1/&gt;utf8&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default Collation: &lt;x1/&gt;utf8_unicode_ci&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084917Z" creationid="Toru Kokubun" creationdate="20180415T084917Z">
+        <seg>デフォルトの照合順： &lt;x1/&gt;utf8_unicode_ci&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Different people have different perspectives on issues.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235154Z" creationid="Toru Kokubun" creationdate="20180414T235154Z">
+        <seg>異なる人々は問題に対し異なる展望を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Directory Structure&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011655Z" creationid="Toru Kokubun" creationdate="20180414T011655Z">
+        <seg>ディレクトリ構造&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discriminatory jokes and language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233840Z" creationid="Toru Kokubun" creationdate="20180414T233840Z">
+        <seg>差別的な冗談や言葉づかい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Diversity is one of our strengths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232407Z" creationid="Toru Kokubun" creationdate="20180414T031320Z">
+        <seg>多様性はわたしたちの強みの一つです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do not insult or put down other participants.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233433Z" creationid="Toru Kokubun" creationdate="20180414T233433Z">
+        <seg>他の参加者を侮辱したり、こきおろしたりしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t forget that it is human to err and blaming each other doesn’t get us anywhere.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235249Z" creationid="Toru Kokubun" creationdate="20180414T235249Z">
+        <seg>誤ることが人間的であることを忘れないでください。そして、お互いに非難してもわたしたちのためになりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Eager-Loading Elements&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230245Z" creationid="Toru Kokubun" creationdate="20180414T230245Z">
+        <seg>エレメントの Eager-Loading&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element Action Types&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231234Z" creationid="Toru Kokubun" creationdate="20180414T231013Z">
+        <seg>エレメントアクションタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element Queries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012143Z" creationid="Toru Kokubun" creationdate="20180414T012143Z">
+        <seg>エレメントクエリー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element Types&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231007Z" creationid="Toru Kokubun" creationdate="20180414T231007Z">
+        <seg>エレメントタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Elements&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012501Z" creationid="Toru Kokubun" creationdate="20180414T012501Z">
+        <seg>エレメント&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exclusionary gendered language (guys, gentlemen, bros, etc).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072248Z" creationid="Toru Kokubun" creationdate="20180414T234008Z">
+        <seg>排他的な性差を表す言葉（guys、gentlemen、bros など）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extending Twig&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230917Z" creationid="Toru Kokubun" creationdate="20180414T230917Z">
+        <seg>Twig 拡張&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Field Types&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230929Z" creationid="Toru Kokubun" creationdate="20180414T230929Z">
+        <seg>フィールドタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011812Z" creationid="Toru Kokubun" creationdate="20180414T011812Z">
+        <seg>フィールド&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filters&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012456Z" creationid="Toru Kokubun" creationdate="20180414T012456Z">
+        <seg>フィルター&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Firefox 28 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015402Z" creationid="Toru Kokubun" creationdate="20180415T015402Z">
+        <seg>Firefox 28 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Follow Composer’s instructions to install it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075426Z" creationid="Toru Kokubun" creationdate="20180415T075426Z">
+        <seg>次の Composer のガイドに従いインストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information on the technical requirements of Craft, &lt;x1/&gt;see the Requirements section&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T225623Z" creationid="Toru Kokubun" creationdate="20180414T030539Z">
+        <seg>Craft の技術要件に関するより詳しい情報は&lt;x1/&gt;必須要件のセクションを見てください&lt;x2/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For projects that require upgrading a current Craft 2 project to Craft 3, review the &lt;x1/&gt;Craft 2 Upgrade documentation&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074742Z" creationid="Toru Kokubun" creationdate="20180415T011415Z">
+        <seg>既存の Craft 2 プロジェクトを Craft 3 にアップグレードする必要がある場合は、&lt;x1/&gt;Craft 2 アップグレードドキュメント&lt;x2/&gt;を再確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Functions&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012448Z" creationid="Toru Kokubun" creationdate="20180414T012448Z">
+        <seg>ファンクション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GD&lt;x1/&gt; or &lt;x2/&gt;ImageMagick&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020723Z" creationid="Toru Kokubun" creationdate="20180415T020638Z">
+        <seg>GD&lt;x1/&gt; または &lt;x2/&gt;ImageMagick&lt;x3/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>General Tech Specs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030251Z" creationid="Toru Kokubun" creationdate="20180414T030251Z">
+        <seg>技術仕様</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011422Z" creationid="Toru Kokubun" creationdate="20180414T011422Z">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Variables&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012444Z" creationid="Toru Kokubun" creationdate="20180414T012444Z">
+        <seg>グローバル変数&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Globals&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011944Z" creationid="Toru Kokubun" creationdate="20180414T011944Z">
+        <seg>グローバル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Harassment and other exclusionary behavior aren’t acceptable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233517Z" creationid="Toru Kokubun" creationdate="20180414T233517Z">
+        <seg>いやがらせや排他的な行動は、容認できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to Use the Documentation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235559Z" creationid="Toru Kokubun" creationdate="20180414T235509Z">
+        <seg>このドキュメントの使い方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to Use the Documentation&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235610Z" creationid="Toru Kokubun" creationdate="20180404T234621Z">
+        <seg>このドキュメントの使い方&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How you use the documentation will depend on your experience and situation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215414Z" creationid="Toru Kokubun" creationdate="20180415T001912Z">
+        <seg>どのようにドキュメンテーションを使うかは、あなたの経験と状況に依存するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I'm Just Getting Started With Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T002025Z" creationid="Toru Kokubun" creationdate="20180415T002025Z">
+        <seg>Craft を初めて使う方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I'm Moving from Craft 2 to Craft 3</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T002042Z" creationid="Toru Kokubun" creationdate="20180415T002042Z">
+        <seg>Craft 2 から Craft 3 へ移行する方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it outputs a version number, but it’s less than &lt;x1/&gt;1.3.0&lt;x2/&gt;, run the following command to update it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075608Z" creationid="Toru Kokubun" creationdate="20180415T075608Z">
+        <seg>もし、出力されたバージョンナンバーが &lt;x1/&gt;1.3.0&lt;x2/&gt; 以下なら、次のコマンドを実行してアップデートしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that outputs an error saying &lt;x1/&gt;composer&lt;x2/&gt; is not found or not recognized, then Composer isn’t installed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075333Z" creationid="Toru Kokubun" creationdate="20180415T073538Z">
+        <seg>もし &lt;x1/&gt;composer&lt;x2/&gt; が見つからない、あるいは、識別されないというエラーが出力されるなら、Composer がインストールされていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are starting a Craft 3 project from scratch, review the &lt;x1/&gt;Craft 3 Installation instructions&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074746Z" creationid="Toru Kokubun" creationdate="20180415T011745Z">
+        <seg>もしあなたがゼロから Craft 3 プロジェクトを始めるのであれば、&lt;x1/&gt;Craft 3 インストールガイド&lt;x2/&gt;を再確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you believe someone is violating the code of conduct, we ask that you report it by emailing &lt;x1/&gt;support@craftcms.com&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073713Z" creationid="Toru Kokubun" creationdate="20180414T032913Z">
+        <seg>もし誰かが行動規範に違反したと確信したなら、 &lt;x1/&gt;support@craftcms.com&lt;x2/&gt; 宛のメールで報告するようお願いします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you go that route, you can skip to step 3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072531Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
+        <seg>そのルートを選ぶ場合、ステップ3までスキップすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're familiar with Craft already but don't know where to start when it comes to moving to Craft 3, start with the &lt;x1/&gt;Changes in Craft 3&lt;x2/&gt; documentation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T010840Z" creationid="Toru Kokubun" creationdate="20180415T010738Z">
+        <seg>もしあなたが Craft 自体には慣れ親しんでいるものの、Craft 3 に移行するにあたって何から始めたらよいか判らないのであれば、&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;ドキュメントからスタートしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you're new to Craft and want to get the bigger picture, start with &lt;x1/&gt;About Craft CMS&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074300Z" creationid="Toru Kokubun" creationdate="20180415T004458Z">
+        <seg>もしあなたが新しく Craft に触れ、かつ、全体像を知りたいのであれば、&lt;x1/&gt;Craft CMS について&lt;x2/&gt;から始めてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re a glutton for punishment and want your website to look flawless on IE 6, that’s your choice.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031737Z" creationid="Toru Kokubun" creationdate="20180415T031737Z">
+        <seg>もしあなたがつらい仕事を苦にせず、IE 6 で完璧に表示されるサイトを望むのであれば、あたなの望む通りにできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re given a choice, we recommend the following database settings in most cases:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084839Z" creationid="Toru Kokubun" creationdate="20180415T084826Z">
+        <seg>もしあなたが選択可能なら、ほとんどの場合に次のデータベース設定を推奨します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re unfamiliar with Composer, it’s a package manager (like npm) that attempts to make installing and updating PHP libraries easy via terminal commands.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033814Z" creationid="Toru Kokubun" creationdate="20180415T033814Z">
+        <seg>もしあなたが Composer に不慣れであれば、PHP ライブライのインストールやアップデートをターミナルコマンドによって容易にすることを目指す（npm のような）パッケージマネージャーと考えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ImageMagick is preferred.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020710Z" creationid="Toru Kokubun" creationdate="20180415T020710Z">
+        <seg>ImageMagick が好ましいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, if someone asks you to stop, then stop.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234938Z" creationid="Toru Kokubun" creationdate="20180414T234938Z">
+        <seg>一般的に、誰かがあたなにやめるよう頼んだなら、その時点でやめてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Install Composer</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073025Z" creationid="Toru Kokubun" creationdate="20180415T073025Z">
+        <seg>Composer のインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Install Composer&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033159Z" creationid="Toru Kokubun" creationdate="20180415T033159Z">
+        <seg>Composer のインストール&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Installation Instructions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032937Z" creationid="Toru Kokubun" creationdate="20180415T032937Z">
+        <seg>インストールガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Installation&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234644Z" creationid="Toru Kokubun" creationdate="20180404T234644Z">
+        <seg>インストール&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Installing Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180220T221629Z" creationid="Toru Kokubun" creationdate="20180220T221629Z">
+        <seg>Craft のインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, focus on helping to resolve issues and learning from mistakes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235322Z" creationid="Toru Kokubun" creationdate="20180414T235322Z">
+        <seg>その代わりに、問題を解決することを手伝って失敗から学ぶことにフォーカスしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internet Explorer 11 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015348Z" creationid="Toru Kokubun" creationdate="20180415T015348Z">
+        <seg>Internet Explorer 11 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intl&lt;x1/&gt; – Adds rich internationalization support.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031151Z" creationid="Toru Kokubun" creationdate="20180415T031151Z">
+        <seg>Intl&lt;x1/&gt; – よりリッチな国際化のサポートを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Intro to Plugin Dev&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230522Z" creationid="Toru Kokubun" creationdate="20180414T230522Z">
+        <seg>プラグイン開発への導入&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032951Z" creationid="Toru Kokubun" creationdate="20180404T234556Z">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Introduction&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032943Z" creationid="Toru Kokubun" creationdate="20180415T032943Z">
+        <seg>はじめに&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It does so by offering developers a high level of flexibility, both in terms of content modeling and the front-end views, while also giving content managers an intuitive authoring experience.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T025319Z" creationid="Toru Kokubun" creationdate="20180414T025319Z">
+        <seg>コンテンツの運営者が直感的な編集体験をしている間でさえも、コンテンツモデルやフロントエンドの表示に関する高いレベルの柔軟性を開発者に提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is important that we resolve disagreements and differing views constructively.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235046Z" creationid="Toru Kokubun" creationdate="20180414T235046Z">
+        <seg>大切なのは意見の相違や異なる視点を建設的に解決することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Its document root should point to your public HTML folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T220535Z" creationid="Toru Kokubun" creationdate="20180415T220535Z">
+        <seg>ドキュメントルートはパブリックな HTML フォルダを指すべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s important to remember that a community where people feel uncomfortable or threatened is not a productive one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233034Z" creationid="Toru Kokubun" creationdate="20180414T233034Z">
+        <seg>大切なのは、そこにいる人々が不快だったり脅されているように感じるコミュニティは生産的ではないと覚えておくことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like the technical community as a whole, the Craft team and community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T031232Z" creationid="Toru Kokubun" creationdate="20180414T031232Z">
+        <seg>すべての技術的なコミュニティがそうであるように、Craft チームとコミュニティも世界中のプロフェッショナルとボランティアの混成で成り立ち、指導者・教育者・さらに繋がる人々を含め、あらゆるミッションに取り組んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Localization&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012053Z" creationid="Toru Kokubun" creationdate="20180414T012017Z">
+        <seg>ローカライゼーション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Members of the Craft community should be respectful when dealing with other members as well as with people outside the Craft community.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233124Z" creationid="Toru Kokubun" creationdate="20180414T233124Z">
+        <seg>Craft コミュニティのメンバーは、コミュニティ外の人々と同様、他のメンバーとのやりとりに敬意を表するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mobile</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031542Z" creationid="Toru Kokubun" creationdate="20180415T031542Z">
+        <seg>モバイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most sections of the documentation have detailed examples of how to use the concept we're covering.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000706Z" creationid="Toru Kokubun" creationdate="20180415T000706Z">
+        <seg>ドキュメントの大抵のセクションは、わたしたちがカバーする概念をどのように使うかの例を詳述してあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MySQL 5.5+ (with InnoDB) or PostgreSQL 9.5+</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T030735Z" creationid="Toru Kokubun" creationdate="20180415T020446Z">
+        <seg>MySQL 5.5 以降（with InnoDB）または PostgreSQL 9.5 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next up, you need to create a database for your Craft project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215842Z" creationid="Toru Kokubun" creationdate="20180415T084537Z">
+        <seg>次に、Craft プロジェクト向けのデータベースを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not in charge of the server?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020249Z" creationid="Toru Kokubun" creationdate="20180415T020239Z">
+        <seg>サーバー担当ではありませんか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090207Z" creationid="Toru Kokubun" creationdate="20180415T090207Z">
+        <seg>メモ：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: Craft’s Control Panel browser requirements have nothing to do with your actual website.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T083616Z" creationid="Toru Kokubun" creationdate="20180415T031706Z">
+        <seg>メモ：Craft の CP のブラウザ要件は、実際のウェブサイトとは関係がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: If Composer complains that your system doesn’t have PHP 7 installed, but you know it’s not an issue because Craft will run with a different PHP install (e.g. through MAMP or Vagrant), use the &lt;x1/&gt;--ignore-platform-reqs&lt;x2/&gt; flag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215750Z" creationid="Toru Kokubun" creationdate="20180415T084045Z">
+        <seg>メモ：システムに PHP 7 がインストールされていないと Composer が不満を言うかもしれません。しかし、別途インストールされた PHP（例えば MAMP や Vagrant）上で Craft を実行するつもりで、問題ないと判っているのであれば &lt;x1/&gt;--ignore-platform-reqs&lt;x2/&gt; フラグを使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once it’s finished, your project directory should have a file structure like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215814Z" creationid="Toru Kokubun" creationdate="20180415T084259Z">
+        <seg>インストールが終わったとき、プロジェクトディレクトリは以下のようなファイル構成になっているべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you create the database, you’ll need to configure your &lt;x1/&gt;.env&lt;x2/&gt; file with</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085149Z" creationid="Toru Kokubun" creationdate="20180415T085048Z">
+        <seg>データベースを作成したら、 &lt;x1/&gt;.env&lt;x2/&gt; ファイルに設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you create the database, you’ll need to configure your &lt;x1/&gt;.env&lt;x2/&gt; file with the database connection settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085920Z" creationid="Toru Kokubun" creationdate="20180415T085920Z">
+        <seg>データベースを作成したら、データベースの接続設定を &lt;x1/&gt;.env&lt;x2/&gt; ファイルに設定する必要があるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optional PHP Extensions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T030827Z" creationid="Toru Kokubun" creationdate="20180415T030827Z">
+        <seg>オプションの PHP エクステンション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PDO MySQL Driver&lt;x1/&gt; or &lt;x2/&gt;PDO PostgreSQL Driver&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020634Z" creationid="Toru Kokubun" creationdate="20180415T020634Z">
+        <seg>PDO MySQL Driver&lt;x1/&gt; または &lt;x2/&gt;PDO PostgreSQL Driver&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PHP 7.0+</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020430Z" creationid="Toru Kokubun" creationdate="20180415T020430Z">
+        <seg>PHP 7.0 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Personal insults, especially those using racist or sexist terms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234744Z" creationid="Toru Kokubun" creationdate="20180414T234744Z">
+        <seg>個人的な侮辱。とりわけ、人種差別的であったり性差別的な表現を用いるもの。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugin Development</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230252Z" creationid="Toru Kokubun" creationdate="20180414T230252Z">
+        <seg>プラグイン開発</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugin Migrations&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231313Z" creationid="Toru Kokubun" creationdate="20180414T231022Z">
+        <seg>プラグインの移行&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugin Settings&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230656Z" creationid="Toru Kokubun" creationdate="20180414T230656Z">
+        <seg>プラグイン設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Posting (or threatening to post) other people’s personally identifying information ("doxing").</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234346Z" creationid="Toru Kokubun" creationdate="20180414T234346Z">
+        <seg>他の人の身元を明らかにする情報の投稿、または、投稿すると脅すこと（「晒し」行為）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Posting sexually explicit or violent material.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234127Z" creationid="Toru Kokubun" creationdate="20180414T234127Z">
+        <seg>性的に露骨な、または、暴力的な資料の投稿。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Publishing to the Plugin Store&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231339Z" creationid="Toru Kokubun" creationdate="20180414T231116Z">
+        <seg>プラグインストアでの配布&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rather, take it in the spirit in which it’s intended - a guide to make it easier to enrich all of us and the technical communities in which we participate.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232523Z" creationid="Toru Kokubun" creationdate="20180414T032331Z">
+        <seg>むしろ、意図している「わたしたち自身や参加する技術的なコミュニティのすべてをより豊かにするためのガイドである」という精神を取り入れてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Relations&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011950Z" creationid="Toru Kokubun" creationdate="20180414T011950Z">
+        <seg>リレーション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remember that we’re a world-wide community, so you might not be communicating in someone else’s primary language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232154Z" creationid="Toru Kokubun" creationdate="20180414T232154Z">
+        <seg>世界的なコミュニティのため、あなたが他の誰かにとっての主要な言語で伝えられていないかもしれないことを覚えておきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remember that we’re different.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235115Z" creationid="Toru Kokubun" creationdate="20180414T235115Z">
+        <seg>わたしたちは同じではないことを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Repeated harassment of others.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234916Z" creationid="Toru Kokubun" creationdate="20180414T234916Z">
+        <seg>他の人に嫌がらせを繰り返すこと。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Required Database User Privileges</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031259Z" creationid="Toru Kokubun" creationdate="20180415T031259Z">
+        <seg>必須のデータベースユーザー特権</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Required PHP Extensions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020552Z" creationid="Toru Kokubun" creationdate="20180415T020552Z">
+        <seg>必須の PHP エクステンション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Review the requirements below or use the &lt;x1/&gt;Craft Server Check&lt;x2/&gt; script to quickly check whether you meet the requirements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074926Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
+        <seg>以下の必須要件を再確認してください。または、必須要件を満たすかどうかを素早くチェックできる &lt;x1/&gt;Craft Server Check&lt;x2/&gt; スクリプトを使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Routing&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011955Z" creationid="Toru Kokubun" creationdate="20180414T011955Z">
+        <seg>ルーティング&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Run the installer!&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033314Z" creationid="Toru Kokubun" creationdate="20180415T033246Z">
+        <seg>インストーラーを実行！&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Safari 9.0 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015359Z" creationid="Toru Kokubun" creationdate="20180415T015359Z">
+        <seg>Safari 9.0 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Searching&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012003Z" creationid="Toru Kokubun" creationdate="20180414T012003Z">
+        <seg>検索&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sections and Entries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011808Z" creationid="Toru Kokubun" creationdate="20180414T011808Z">
+        <seg>セクションとエントリー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;Directory Structure&lt;x2/&gt; for information on these directories and files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084425Z" creationid="Toru Kokubun" creationdate="20180415T084415Z">
+        <seg>これらのディレクトリやファイルに関する情報は&lt;x1/&gt;ディレクトリ構造&lt;x2/&gt;を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send a link to this page to your server administrator.&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020329Z" creationid="Toru Kokubun" creationdate="20180415T020315Z">
+        <seg>このページのリンクをサーバー管理者に送ってください。&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server Requirements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015307Z" creationid="Toru Kokubun" creationdate="20180415T015307Z">
+        <seg>サーバー必須要件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server Requirements&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234638Z" creationid="Toru Kokubun" creationdate="20180404T234638Z">
+        <seg>サーバー必須要件&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Services&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230856Z" creationid="Toru Kokubun" creationdate="20180414T230856Z">
+        <seg>サービス&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set up the Database&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033220Z" creationid="Toru Kokubun" creationdate="20180415T033220Z">
+        <seg>データベースのセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set up the Web Server</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215131Z" creationid="Toru Kokubun" creationdate="20180415T215131Z">
+        <seg>ウェブサーバーのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set up the Web Server&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033232Z" creationid="Toru Kokubun" creationdate="20180415T033232Z">
+        <seg>ウェブサーバーのセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting Up the Database</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084451Z" creationid="Toru Kokubun" creationdate="20180415T084451Z">
+        <seg>データベースのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sites&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012006Z" creationid="Toru Kokubun" creationdate="20180414T012006Z">
+        <seg>サイト&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011946Z" creationid="Toru Kokubun" creationdate="20180414T011946Z">
+        <seg>タグ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templates&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011818Z" creationid="Toru Kokubun" creationdate="20180414T011818Z">
+        <seg>テンプレート&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templating</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012414Z" creationid="Toru Kokubun" creationdate="20180414T012414Z">
+        <seg>テンプレート記法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Pieces of Craft&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011605Z" creationid="Toru Kokubun" creationdate="20180414T011605Z">
+        <seg>Craft のピース&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The advantage of using PHP dotenv is that it offers a place to store sensitive information (like database connection settings) in a file that doesn’t get committed to your Git repository.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090852Z" creationid="Toru Kokubun" creationdate="20180415T090628Z">
+        <seg>PHP dotenv を使うことの利点は、Git リポジトリにコミットできない（データベースの接続設定のような）機密性の高い情報をファイルに保管しておく場所を提供するということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The database user you tell Craft to connect with must have the following privileges:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031500Z" creationid="Toru Kokubun" creationdate="20180415T031500Z">
+        <seg>Craft のデータベースに接続するユーザーには、次の特権がなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The strength of Craft comes from its varied community, people from a wide range of backgrounds.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235142Z" creationid="Toru Kokubun" creationdate="20180414T235142Z">
+        <seg>Craft の強みは広範囲のバックグラウンドを持つ人々による多彩なコミュニティから来ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are new requirements for running Craft 3 and a new installation process, too.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032843Z" creationid="Toru Kokubun" creationdate="20180415T011910Z">
+        <seg>Craft 3 を動作させるにあたって、新しい必須条件とインストール手順が載っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are the requirements to successfully install and properly run Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015825Z" creationid="Toru Kokubun" creationdate="20180415T015825Z">
+        <seg>これらは Craft を正常にインストールし、適切に動作させるための必須要件です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These three pieces of documentation will help you have a better understanding of how Craft works.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074331Z" creationid="Toru Kokubun" creationdate="20180415T004756Z">
+        <seg>これら3つのドキュメントは、どのように Craft が作用するかをあなたがより理解する上で手助けになるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These will be the first three items you'll encounter in any new Craft-powered website build.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074544Z" creationid="Toru Kokubun" creationdate="20180415T010537Z">
+        <seg>これらは、Craft ベースでいかなるウェブサイトを構築する際にもあなたが遭遇するであろう、最初の3つの項目です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are there to help contextualize the Craft feature and make it easier for you to understand how to implement it on your own site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T001827Z" creationid="Toru Kokubun" creationdate="20180415T001248Z">
+        <seg>Craft の特徴を状況に応じて考えることを助け、あなた自身のサイトへどのように実装すればよいかの理解を容易にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This code applies equally to founders, mentors and those seeking help and guidance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032204Z" creationid="Toru Kokubun" creationdate="20180414T032204Z">
+        <seg>この規約は創設者や指導者はもちろん、助けや案内を求めている人たちに等しくあてはまります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This code of conduct applies to all spaces used by the Craft community for communication.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032548Z" creationid="Toru Kokubun" creationdate="20180414T032548Z">
+        <seg>Craft のコミュニティがコミュニケーションのために利用するすべての場所で、この行動規範はあてはまります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This documentation is for you.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000540Z" creationid="Toru Kokubun" creationdate="20180415T000540Z">
+        <seg>これはあなたのためのドキュメントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This includes Craft Slack, Craft CMS Stack Exchange, GitHub, Twitter, Facebook, meetups, conferences, and any other relevant forums.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032612Z" creationid="Toru Kokubun" creationdate="20180414T032612Z">
+        <seg>Craft Slack、Craft CMS Stack Exchange、GitHub、Twitter、Facebook、会合、カンファレンス、その他すべての関連するフォーラムを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This includes, but is not limited to members of any race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231929Z" creationid="Toru Kokubun" creationdate="20180414T231929Z">
+        <seg>これはいかなる人種、民族、文化、出身国、肌の色、移住ステータス、社会的・経済的地位、教育レベル、性別、性的指向、ジェンダー・アイデンティティーや表現、年齢、サイズ、家族的ステータス、政治理念、宗教、そして精神的・肉体的能力のメンバーであるかが含まれますが、これに制限されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This includes, but is not limited to:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233544Z" creationid="Toru Kokubun" creationdate="20180414T233544Z">
+        <seg>これは次のものを含みますが、この限りではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a comprehensive look at all of the changes made between Craft 2 and Craft 3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T011029Z" creationid="Toru Kokubun" creationdate="20180415T011029Z">
+        <seg>Craft 2 と Craft 3 のすべての変更点を包括的に確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This isn’t an exhaustive list of things that you can’t do.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032259Z" creationid="Toru Kokubun" creationdate="20180414T032231Z">
+        <seg>これはあなたがしてはいけないことすべてを網羅したリストではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
+        <seg>新しい Craft プロジェクトを作成するため、次のコマンドを実行してください。（Composer が作成するプロジェクトのパスの代わりに&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; と記載しています。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To that end, we have a few ground rules that we ask people to adhere to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232418Z" creationid="Toru Kokubun" creationdate="20180414T032123Z">
+        <seg>そこで、わたしたちにはみなさんにしっかり守ってもらいたい幾つかの基本ルールがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig Primer&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011925Z" creationid="Toru Kokubun" creationdate="20180414T011925Z">
+        <seg>Twig 入門編&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unwelcome sexual attention.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234820Z" creationid="Toru Kokubun" creationdate="20180414T234820Z">
+        <seg>ありがたくない性の対象としての注目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updating Craft 3&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234720Z" creationid="Toru Kokubun" creationdate="20180404T234720Z">
+        <seg>Craft 3 のアップデート&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updating Plugins for Craft 3&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231521Z" creationid="Toru Kokubun" creationdate="20180414T230559Z">
+        <seg>Craft 3 向けのプラグインアップデート&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upgrading &amp; Updating Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234700Z" creationid="Toru Kokubun" creationdate="20180404T234700Z">
+        <seg>Craft のアップグレード、および、アップデート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upgrading from Craft 2&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234710Z" creationid="Toru Kokubun" creationdate="20180404T234710Z">
+        <seg>Craft 2 からのアップグレード&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011940Z" creationid="Toru Kokubun" creationdate="20180414T011940Z">
+        <seg>ユーザー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Utility Types&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231001Z" creationid="Toru Kokubun" creationdate="20180414T231001Z">
+        <seg>ユーティリティタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Violations of this code outside of any spaces managed by the Craft team will still affect a person’s ability to participate within them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032731Z" creationid="Toru Kokubun" creationdate="20180414T032731Z">
+        <seg>Craft チームが管理していない場所でこの行動規範に違反した場合、コミュニティに参加する資格があるかどうかの判断基準に悪影響を及ぼすでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Violent threats or language directed against another person.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233718Z" creationid="Toru Kokubun" creationdate="20180414T233718Z">
+        <seg>他の人に対する暴力的な脅迫、または、言葉による命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Volume Types&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230950Z" creationid="Toru Kokubun" creationdate="20180414T230950Z">
+        <seg>ボリュームタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We created this documentation to accurately record the functionality of Craft with the purpose of helping you understand how to use it to build websites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215949Z" creationid="Toru Kokubun" creationdate="20180415T000531Z">
+        <seg>ウェブサイトの構築にあたり、どのように Craft を使うべきか理解するのを助ける目的で、わたしたちは Craft の機能性を正確に記録したこのドキュメントを作成しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We made Craft for bespoke websites and mobile applications, where strong control over branding and content types are a priority.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232609Z" creationid="Toru Kokubun" creationdate="20180414T025938Z">
+        <seg>わたしたちは、ブランディングやコンテンツタイプを強力にコントロールすることを優先するオーダーメードのウェブサイトやモバイルアプリケーションのために Craft を作りました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We might all experience some frustration now and then, but we cannot allow that frustration to turn into a personal attack.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232941Z" creationid="Toru Kokubun" creationdate="20180414T232941Z">
+        <seg>わたしたちは時折いくらかのフラストレーションを経験するかもしれません。しかし、それが個人攻撃に変わることを許容しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We optimized it for creating experiences from scratch, rather than modifying existing themes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030241Z" creationid="Toru Kokubun" creationdate="20180414T030038Z">
+        <seg>既存のテーマを修正するよりもむしろ、ゼロから創造することに最適化されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We take all reports seriously, and your identity will remain confidential.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232441Z" creationid="Toru Kokubun" creationdate="20180414T032925Z">
+        <seg>わたしたちはすべての報告を真剣に受け止め、かつ、あなたの身元は機密のままであるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What it’s For</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T025417Z" creationid="Toru Kokubun" creationdate="20180414T025417Z">
+        <seg>目的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When we disagree, try to understand why.&lt;x1/&gt; Disagreements, both social and technical, happen all the time and Craft is no exception.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235028Z" creationid="Toru Kokubun" creationdate="20180414T235028Z">
+        <seg>意見が食い違うときは、なぜそうなのか理解しようと試みてください。&lt;x1/&gt; 社会であれ技術であれ意見の相違はいつも起きていて、Craft も例外ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While getting familiar with the Craft control panel, refer to the Core Concepts section for material on &lt;x1/&gt;Sections &amp; Entries&lt;x2/&gt;, &lt;x3/&gt;Fields&lt;x4/&gt;, and &lt;x5/&gt;Templates&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074418Z" creationid="Toru Kokubun" creationdate="20180415T010136Z">
+        <seg>Craft のコントロールパネルに慣れる間に、コアコンセプトである&lt;x1/&gt;セクションとエントリー&lt;x2/&gt;、&lt;x3/&gt;フィールド&lt;x4/&gt;、&lt;x5/&gt;テンプレート&lt;x6/&gt;について資料を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Widget Types&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230924Z" creationid="Toru Kokubun" creationdate="20180414T230924Z">
+        <seg>ウィジェットタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows and macOS</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031534Z" creationid="Toru Kokubun" creationdate="20180415T031534Z">
+        <seg>Windows と macOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With that, challenges will arise that can lead to communication issues and unhappiness.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032006Z" creationid="Toru Kokubun" creationdate="20180414T031804Z">
+        <seg>しかし、それは同時にコミュニケーションの問題や不幸を生じさせることがあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can either edit the file manually, or run the &lt;x3/&gt;./craft setup&lt;x4/&gt; command from the root project directory in your terminal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090139Z" creationid="Toru Kokubun" creationdate="20180415T090139Z">
+        <seg>マニュアルでファイルを編集するか、ターミナル上のプロジェクトルートのディレクトリから &lt;x3/&gt;./craft setup&lt;x4/&gt; コマンドを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find out your installed version of Composer (if any) by opening your terminal running the following command:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073458Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
+        <seg>起動しているターミナル上で次のコマンドを実行することによって、（もし存在するのであれば）インストール済みの Composer のバージョンを確認することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You don’t need to know PHP or Yii to use it unless you intend to write your own plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215542Z" creationid="Toru Kokubun" creationdate="20180414T030438Z">
+        <seg>独自のプラグインを作成するつもりがなければ、PHP や Yii の知識は必要ありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should be running Composer 1.3.0 or later.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215716Z" creationid="Toru Kokubun" creationdate="20180415T073126Z">
+        <seg>Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[`craftcms/cms`]&lt;x1/&gt; – This is the Composer package that contains all of Craft’s source code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072905Z" creationid="Toru Kokubun" creationdate="20180415T072905Z">
+        <seg>[`craftcms/cms`]&lt;x1/&gt; – これは Craft のすべてのソースコードを含む Composer パッケージです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[`craftcms/craft`]&lt;x1/&gt; – This is a Composer “project” that can be used as a starting point for new Craft projects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073009Z" creationid="Toru Kokubun" creationdate="20180415T073009Z">
+        <seg>[`craftcms/craft`]&lt;x1/&gt; – これは新しい Craft プロジェクトのスタート地点として使うことができる Composer 「プロジェクト」です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iOS: Safari 9.1 or later</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015429Z" creationid="Toru Kokubun" creationdate="20180415T015429Z">
+        <seg>iOS: Safari 9.1 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>iconv&lt;x1/&gt; – Adds support for more character encodings than PHP’s built-in &lt;x2/&gt;mb_convert_encoding()&lt;x3/&gt; function, which Craft will take advantage of when converting strings to UTF-8.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031023Z" creationid="Toru Kokubun" creationdate="20180415T031023Z">
+        <seg>iconv&lt;x1/&gt; – Craft が文字列を UTF-8 に変換する際に利用され、PHP にビルドインされている &lt;x2/&gt;mb_convert_encoding()&lt;x3/&gt; よりも多くの文字エンコーディングのサポートを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the database connection settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085100Z" creationid="Toru Kokubun" creationdate="20180415T085100Z">
+        <seg>そのデータベースの接続設定を</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} If you’d prefer to download a zip file instead, you can download Craft 3 from the Download button in the header of &lt;x1/&gt;craftcms.com&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072457Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
+        <seg>ヒント：もしあなたが代わりに ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードすることができます。</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>

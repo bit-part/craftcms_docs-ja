@@ -1,0 +1,17 @@
+Server	サーバー
+character encoding	文字コード
+User	ユーザー
+Required	必須の	見出しでこの文字列からはじまる場合
+Browser	ブラウザ
+CP	CP	Craft の管理画面は「CP」と表現されるため、このままにしておく
+or later	以降
+glutton for punishment	「つらい仕事をいくらでもやる人」「他人がやりたがらないことを進んでやる人」	参考：http://www.eigo-eikaiwa.com/0615.html
+ground rules	根本原理
+bootstrap	起動
+Functions	ファンクション
+Locales	ロケール
+e.g.	例えば
+Settings	設定
+Relations	リレーション
+Note:	メモ：
+{tip}	ヒント：
