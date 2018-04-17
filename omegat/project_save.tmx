@@ -782,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’re using Craft’s Composer &lt;x1/&gt;starter project&lt;x2/&gt;, then it is the &lt;x3/&gt;web/&lt;x4/&gt; directory by default, but it can be renamed to anything you want as long as your web server is configured to point to it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180417T215127Z" creationid="Toru Kokubun" creationdate="20180417T215127Z">
+        <seg>もし Craft の Composer &lt;x1/&gt;スタータープロジェクト&lt;x2/&gt;を利用しているなら、デフォルトで &lt;x3/&gt;web/&lt;x4/&gt; ディレクトリになります。しかし、あなたのウェブサーバーで設定される限り、思いのままリネームすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ImageMagick is preferred.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020710Z" creationid="Toru Kokubun" creationdate="20180415T020710Z">
