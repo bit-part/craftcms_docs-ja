@@ -15,3 +15,4 @@ Settings	設定
 Relations	リレーション
 Note:	メモ：
 {tip}	ヒント：
+public HTML folder	公開ディレクトリ
