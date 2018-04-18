@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>(Note that you should create your Craft 3 project in a new location; not in the same place as your Craft 2 project).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234141Z" creationid="Toru Kokubun" creationdate="20180418T234119Z">
+        <seg>（Craft 2 プロジェクトと同じ場所ではなく、新しい場所に Craft 3 プロジェクトを作成する必要があります。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(install it globally)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075437Z" creationid="Toru Kokubun" creationdate="20180415T075437Z">
@@ -334,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configure your &lt;x1/&gt;.env&lt;x2/&gt; file with your database connection settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234601Z" creationid="Toru Kokubun" creationdate="20180418T234232Z">
+        <seg>&lt;x1/&gt;.env&lt;x2/&gt; ファイルにデータベース接続設定を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Congratulations, you’ve just installed Craft!</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025713Z" creationid="Toru Kokubun" creationdate="20180418T025713Z">
@@ -354,6 +370,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231357Z" creationid="Toru Kokubun" creationdate="20180414T230745Z">
         <seg>コントロールパネル用セクション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy any settings from your old &lt;x1/&gt;craft/config/general.php&lt;x2/&gt; file into your new project’s &lt;x3/&gt;config/general.php&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234613Z" creationid="Toru Kokubun" creationdate="20180418T234445Z">
+        <seg>古い &lt;x1/&gt;craft/config/general.php&lt;x2/&gt; ファイルのすべての設定を新しいプロジェクトの &lt;x3/&gt;config/general.php&lt;x4/&gt; ファイルにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy your old &lt;x1/&gt;craft/config/license.key&lt;x2/&gt; file into your new project’s &lt;x3/&gt;config/&lt;x4/&gt; folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234700Z" creationid="Toru Kokubun" creationdate="20180418T234700Z">
+        <seg>古い &lt;x1/&gt;craft/config/license.key&lt;x2/&gt; ファイルを新しいプロジェクトの &lt;x3/&gt;config/&lt;x4/&gt; フォルダにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy your old templates from &lt;x1/&gt;craft/templates/&lt;x2/&gt; over to your new project’s &lt;x3/&gt;templates/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234845Z" creationid="Toru Kokubun" creationdate="20180418T234845Z">
+        <seg>古いテンプレートを &lt;x1/&gt;craft/templates/&lt;x2/&gt; から新しいプロジェクトの &lt;x3/&gt;templates/&lt;x4/&gt; ディレクトリにコピーします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -714,6 +754,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075426Z" creationid="Toru Kokubun" creationdate="20180415T075426Z">
         <seg>次の Composer のガイドに従いインストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Follow steps 1 and 2 from the &lt;x1/&gt;Installation Instructions&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234034Z" creationid="Toru Kokubun" creationdate="20180418T234034Z">
+        <seg>&lt;x1/&gt;インストールガイド&lt;x2/&gt;のステップ1からステップ2に従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1934,6 +1982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To set your site up with the same directory structure (including the &lt;x1/&gt;PHP dotenv&lt;x2/&gt;-based configuration) as a brand new Craft 3 project, follow these instructions:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T233933Z" creationid="Toru Kokubun" creationdate="20180418T233933Z">
+        <seg>新しい Craft 3 プロジェクト（&lt;x1/&gt;PHP dotenv&lt;x2/&gt; をベースとした設定を含む）と同様のディレクトリ構成でサイトをセットアップする場合は、次のガイドに従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To that end, we have a few ground rules that we ask people to adhere to.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232418Z" creationid="Toru Kokubun" creationdate="20180414T032123Z">
@@ -2162,6 +2218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090139Z" creationid="Toru Kokubun" creationdate="20180415T090139Z">
         <seg>マニュアルでファイルを編集するか、ターミナル上のプロジェクトルートのディレクトリから &lt;x3/&gt;./craft setup&lt;x4/&gt; コマンドを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can either edit the file manually, or run the &lt;x3/&gt;./craft setup&lt;x4/&gt; command from your new root project directory in your terminal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234608Z" creationid="Toru Kokubun" creationdate="20180418T234329Z">
+        <seg>手動でファイルを編集するか、ターミナルの新しいプロジェクトルートディレクトリから &lt;x3/&gt;./craft setup&lt;x4/&gt; コマンドを実行します。</seg>
       </tuv>
     </tu>
     <tu>
