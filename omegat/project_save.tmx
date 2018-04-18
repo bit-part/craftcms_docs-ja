@@ -2112,8 +2112,8 @@
       <tuv lang="EN-US">
         <seg>your server meets Craft 3’s &lt;x1/&gt;**minimum requirements**&lt;x2/&gt; (Craft 3 requires PHP 7+ and at least 256 MB of memory allocated to PHP)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063844Z" creationid="Toru Kokubun" creationdate="20180418T063623Z">
-        <seg>あなたのサーバーは Craft 3 の&lt;x1/&gt;**最小要件**&lt;x2/&gt;（Craft 3 には PHP 7 以降が必要で、 PHP の割り当てメモリが少なくとも 256MB 必要です）を満たしています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063921Z" creationid="Toru Kokubun" creationdate="20180418T063623Z">
+        <seg>あなたのサーバーは Craft 3 の&lt;x1/&gt;**最小要件**&lt;x2/&gt;（Craft 3 には PHP 7 以降が必要で、 PHP 割当メモリが少なくとも 256MB 必要です）を満たしています。</seg>
       </tuv>
     </tu>
     <tu>
