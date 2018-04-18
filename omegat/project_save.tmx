@@ -2110,10 +2110,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>your &lt;x1/&gt;database is backed up&lt;x2/&gt; in case everything goes horribly wrong</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064129Z" creationid="Toru Kokubun" creationdate="20180418T064129Z">
+        <seg>なんらかの問題が起こった場合に備えて、&lt;x1/&gt;データベースをバックアップしてあります。&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>your server meets Craft 3’s &lt;x1/&gt;**minimum requirements**&lt;x2/&gt; (Craft 3 requires PHP 7+ and at least 256 MB of memory allocated to PHP)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063921Z" creationid="Toru Kokubun" creationdate="20180418T063623Z">
         <seg>あなたのサーバーは Craft 3 の&lt;x1/&gt;**最小要件**&lt;x2/&gt;（Craft 3 には PHP 7 以降が必要で、 PHP 割当メモリが少なくとも 256MB 必要です）を満たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>your site is running at least &lt;x1/&gt;Craft 2.6.2788&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063956Z" creationid="Toru Kokubun" creationdate="20180418T063956Z">
+        <seg>あなたのサイトは、少なくとも &lt;x1/&gt;Craft 2.6.2788&lt;x2/&gt; が実行されています。</seg>
       </tuv>
     </tu>
     <tu>
