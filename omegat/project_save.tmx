@@ -1214,6 +1214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that at the end of this, your “project root” (as referenced in other areas of the documentation) will be your &lt;x1/&gt;craft/&lt;x2/&gt; directory, &lt;x3/&gt;not&lt;x4/&gt; its parent directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220708Z" creationid="Toru Kokubun" creationdate="20180418T220609Z">
+        <seg>この最後にある（他の領域のドキュメント内で参照されている）"プロジェクトルート"は &lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリであり、その親ディレクトリ&lt;x3/&gt;ではない&lt;x4/&gt;ことに注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090207Z" creationid="Toru Kokubun" creationdate="20180415T090207Z">
@@ -1254,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once all the files are in place, open your &lt;x1/&gt;public/index.php&lt;x2/&gt; file, find this line:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220933Z" creationid="Toru Kokubun" creationdate="20180418T220933Z">
+        <seg>すべてのファイルがあるべき場所に配置されたら、&lt;x1/&gt;public/index.php&lt;x2/&gt; ファイルを開き、次の行を探してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once it’s finished, your project directory should have a file structure like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215814Z" creationid="Toru Kokubun" creationdate="20180415T084259Z">
@@ -1290,6 +1306,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030358Z" creationid="Toru Kokubun" creationdate="20180418T030358Z">
         <seg>セットアッププロセスが完了すると、コントロールパネルにログインできるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open your terminal and go to the &lt;x1/&gt;craft/&lt;x2/&gt; directory:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220728Z" creationid="Toru Kokubun" creationdate="20180418T220728Z">
+        <seg>ターミナルを開き &lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリに移動してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1458,6 +1482,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011955Z" creationid="Toru Kokubun" creationdate="20180414T011955Z">
         <seg>ルーティング&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Run the following command to load Craft 3 (this will take a few minutes):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220836Z" creationid="Toru Kokubun" creationdate="20180418T220836Z">
+        <seg>Craft 3 を読み込むための次のコマンドを実行してください。（これは数分かかります）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2186,6 +2218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001808Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
         <seg>ヒント：ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>…and replace everything below it with:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221032Z" creationid="Toru Kokubun" creationdate="20180418T221019Z">
+        <seg>そして、これ以下の行をすべて置き換えてください。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
