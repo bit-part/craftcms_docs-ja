@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A few seconds later, you should have a working Craft install!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025612Z" creationid="Toru Kokubun" creationdate="20180418T025403Z">
+        <seg>数秒後、Craft のインストールが実行されるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A minimum of 200MB of free disk space</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020539Z" creationid="Toru Kokubun" creationdate="20180415T020539Z">
@@ -70,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional Resources</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030627Z" creationid="Toru Kokubun" creationdate="20180418T030534Z">
+        <seg>追加リソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Advanced Topics</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230234Z" creationid="Toru Kokubun" creationdate="20180414T230234Z">
@@ -90,6 +106,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032837Z" creationid="Toru Kokubun" creationdate="20180415T005418Z">
         <seg>3つの項目を読んだ後、&lt;x1/&gt;インストールガイド&lt;x2/&gt;によって Craft のインストールを続けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After successfully creating a new project via Composer, you'll see a link to the Craft &lt;x1/&gt;setup&lt;x2/&gt; command.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030114Z" creationid="Toru Kokubun" creationdate="20180418T030049Z">
+        <seg>Composer 経由で新しいプロジェクトを作成すると、Craft の &lt;x1/&gt;setup&lt;x2/&gt; コマンドへのリンクが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -302,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Congratulations, you’ve just installed Craft!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025713Z" creationid="Toru Kokubun" creationdate="20180418T025713Z">
+        <seg>おめでとうございます！Craft がインストールされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Content Migrations&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012301Z" creationid="Toru Kokubun" creationdate="20180414T012301Z">
@@ -350,6 +382,62 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft Installation Complete&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025651Z" creationid="Toru Kokubun" creationdate="20180418T025651Z">
+        <seg>Craft インストール画面（完了）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Installation Create User Account&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023824Z" creationid="Toru Kokubun" creationdate="20180418T023824Z">
+        <seg>Craft インストール画面（ユーザーアカウントの作成）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Installation Database Connection Information&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022737Z" creationid="Toru Kokubun" creationdate="20180418T022737Z">
+        <seg>Craft インストール画面（データベース接続情報）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Installation License Agreement&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022714Z" creationid="Toru Kokubun" creationdate="20180418T022224Z">
+        <seg>Craft インストール画面（ライセンス契約の確認）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Installation Screen&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014528Z" creationid="Toru Kokubun" creationdate="20180418T014528Z">
+        <seg>Craft のインストール画面&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Installation System Settings&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024334Z" creationid="Toru Kokubun" creationdate="20180418T024334Z">
+        <seg>Craft インストール画面（システム設定）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Setup from the Command Line&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030226Z" creationid="Toru Kokubun" creationdate="20180418T030226Z">
+        <seg>コマンドラインからの Craft のセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft is a content-first CMS that aims to make life enjoyable for developers and content managers alike.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T024846Z" creationid="Toru Kokubun" creationdate="20180414T024846Z">
@@ -362,6 +450,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030333Z" creationid="Toru Kokubun" creationdate="20180414T030333Z">
         <seg>Craft は &lt;x1/&gt;Yii&lt;x2/&gt; をベースとするセルフホスティングの PHP アプリケーションです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft pre-fills all three based on other settings but you can edit each field before clicking "Finish up".</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024246Z" creationid="Toru Kokubun" creationdate="20180418T024212Z">
+        <seg>Craft は他の設定に基づいて3つの項目をあらかじめ埋めますが、「Finish up（完了）」ボタンをクリックする前にそれぞれのフィールドを編集することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -490,6 +586,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233433Z" creationid="Toru Kokubun" creationdate="20180414T233433Z">
         <seg>他の参加者を侮辱したり、こきおろしたりしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t be one of those people and be sure to pick a strong password.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023759Z" creationid="Toru Kokubun" creationdate="20180418T023759Z">
+        <seg>特別なアカウントとして、強力なパスワードを選んでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -670,6 +774,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are a couple tips:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014606Z" creationid="Toru Kokubun" creationdate="20180418T014606Z">
+        <seg>ここにいくつかのヒントがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are some additional resources for getting Craft installed in various environments:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030759Z" creationid="Toru Kokubun" creationdate="20180418T030759Z">
+        <seg>Craft をさまざまな環境にインストールするための追加リソースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to Use the Documentation</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235559Z" creationid="Toru Kokubun" creationdate="20180414T235509Z">
@@ -714,6 +834,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001839Z" creationid="Toru Kokubun" creationdate="20180415T075608Z">
         <seg>出力されたバージョンナンバーが &lt;x1/&gt;1.3.0&lt;x2/&gt; 以下なら、次のコマンドを実行してアップデートしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it was successful, Craft will redirect your browser to the Control Panel dashboard.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025534Z" creationid="Toru Kokubun" creationdate="20180418T025517Z">
+        <seg>インストールが成功したら、Craft はブラウザをコントロールパネルのダッシュボードにリダイレクトします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If successful, you will get the Craft installation wizard.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014405Z" creationid="Toru Kokubun" creationdate="20180418T014405Z">
+        <seg>成功していれば、Craft のインストールウィザードが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -782,6 +918,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’re getting a 404, your server might not be configured to redirect would-be 404’s to index.php correctly.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014752Z" creationid="Toru Kokubun" creationdate="20180418T014752Z">
+        <seg>404 が表示される場合、サーバーが 404 を index.php に正しくリダイレクトするよう設定できていないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re getting other errors then you should revisit the prior steps to ensure everything is set up properly.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T021746Z" creationid="Toru Kokubun" creationdate="20180418T021714Z">
+        <seg>もし他のエラーが表示されているのであれば、事前のステップですべての設定が適切に行われているかどうか再確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you’re given a choice, we recommend the following database settings in most cases:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001944Z" creationid="Toru Kokubun" creationdate="20180415T084826Z">
@@ -826,6 +978,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234938Z" creationid="Toru Kokubun" creationdate="20180414T234938Z">
         <seg>一般的に、誰かがあたなにやめるよう頼んだなら、その時点でやめてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In lieu of using the web browser to run the Craft installer, you can set up Craft from the command line.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025929Z" creationid="Toru Kokubun" creationdate="20180418T025929Z">
+        <seg>ウェブブラウザを利用して Craft のインストーラーを実行する代わり、コマンドラインから Craft をセットアップすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Input the information you saved in Step 3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022304Z" creationid="Toru Kokubun" creationdate="20180418T022304Z">
+        <seg>Step 3 で保存した情報を入力してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -958,6 +1126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Local Environments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030818Z" creationid="Toru Kokubun" creationdate="20180418T030818Z">
+        <seg>ローカル環境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Localization&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012053Z" creationid="Toru Kokubun" creationdate="20180414T012017Z">
@@ -1014,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Not working?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014535Z" creationid="Toru Kokubun" creationdate="20180418T014535Z">
+        <seg>動きませんか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090207Z" creationid="Toru Kokubun" creationdate="20180415T090207Z">
@@ -1038,6 +1222,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now Craft will run the installer and complete the setup process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025601Z" creationid="Toru Kokubun" creationdate="20180418T025325Z">
+        <seg>これで Craft はインストーラーを実行し、セットアッププロセスを完了できるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now get back to work.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025737Z" creationid="Toru Kokubun" creationdate="20180418T025737Z">
+        <seg>今すぐ仕事に戻ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once it’s finished, your project directory should have a file structure like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215814Z" creationid="Toru Kokubun" creationdate="20180415T084259Z">
@@ -1058,6 +1258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085920Z" creationid="Toru Kokubun" creationdate="20180415T085920Z">
         <seg>データベースを作成したら、データベースの接続設定を &lt;x1/&gt;.env&lt;x2/&gt; ファイルに設定する必要があるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you've completed the setup process you can right to the control panel to log in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030358Z" creationid="Toru Kokubun" creationdate="20180418T030358Z">
+        <seg>セットアッププロセスが完了すると、コントロールパネルにログインできるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1174,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remote Environments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030823Z" creationid="Toru Kokubun" creationdate="20180418T030823Z">
+        <seg>リモート環境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated harassment of others.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234916Z" creationid="Toru Kokubun" creationdate="20180414T234916Z">
@@ -1234,6 +1450,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015359Z" creationid="Toru Kokubun" creationdate="20180415T015359Z">
         <seg>Safari 9.0 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scroll down through the agreement (reading it all, of course) and tap or click "Got it" to accept.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024223Z" creationid="Toru Kokubun" creationdate="20180418T022156Z">
+        <seg>（もちろん、すべて目を通した上で）契約をスクロールダウンし、「Got it（了解）」ボタンをタップまたはクリックして了承してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1326,6 +1550,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setup from the Command Line</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025809Z" creationid="Toru Kokubun" creationdate="20180418T025809Z">
+        <seg>コマンドラインからのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sites&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012006Z" creationid="Toru Kokubun" creationdate="20180414T012006Z">
@@ -1382,10 +1614,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The final step is to define your System Name, Base URL, and Language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024055Z" creationid="Toru Kokubun" creationdate="20180418T023922Z">
+        <seg>最後のステップは、システム名、ベース URL、および言語の設定です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first step of the installer is to accept the license agreement.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T021850Z" creationid="Toru Kokubun" creationdate="20180418T021850Z">
+        <seg>インストーラーの最初のステップは、ライセンス契約への同意です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The second step is to enter your database connection information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022813Z" creationid="Toru Kokubun" creationdate="20180418T022244Z">
+        <seg>2つ目のステップは、データベース接続情報の入力です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The strength of Craft comes from its varied community, people from a wide range of backgrounds.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235142Z" creationid="Toru Kokubun" creationdate="20180414T235142Z">
         <seg>Craft の強みは広範囲のバックグラウンドを持つ人々による多彩なコミュニティから来ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The third step of the installer is to create a user account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023051Z" creationid="Toru Kokubun" creationdate="20180418T023051Z">
+        <seg>インストーラーの3つ目のステップは、ユーザーアカウントの作成です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The wizard will take you through a couple setup screens, and then perform the installation of Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014513Z" creationid="Toru Kokubun" creationdate="20180418T014513Z">
+        <seg>ウィザードはいくつかのセットアップ画面を表示し、Craft のインストールを実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1442,6 +1714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032548Z" creationid="Toru Kokubun" creationdate="20180414T032548Z">
         <seg>Craft のコミュニティがコミュニケーションのために利用するすべての場所で、この行動規範はあてはまります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command will run you through a similar wizard as in the web browser but all from the command line.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030331Z" creationid="Toru Kokubun" creationdate="20180418T030331Z">
+        <seg>このコマンドはウェブブラウザと同様のウィザードを実行しますが、すべてコマンドラインから実行されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1518,6 +1798,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Try going to http://example.com/index.php/admin or http://example.com/index.php?p=admin instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014814Z" creationid="Toru Kokubun" creationdate="20180418T014814Z">
+        <seg>代わりに http://example.com/index.php/admin または http://example.com/index.php?p=admin にアクセスしてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Twig Primer&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011925Z" creationid="Toru Kokubun" creationdate="20180414T011925Z">
@@ -1570,6 +1858,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011940Z" creationid="Toru Kokubun" creationdate="20180414T011940Z">
         <seg>ユーザー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Utilities</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T031023Z" creationid="Toru Kokubun" creationdate="20180418T030832Z">
+        <seg>ユーティリティ</seg>
       </tuv>
     </tu>
     <tu>
