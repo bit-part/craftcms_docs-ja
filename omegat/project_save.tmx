@@ -216,8 +216,8 @@
       <tuv lang="EN-US">
         <seg>Before you install Craft, it's important that you check that your server will meet the requirements.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T220055Z" creationid="Toru Kokubun" creationdate="20180415T020014Z">
-        <seg>Craft をインストールする前に、サーバーが必須要件を満たしているか調べることは重要です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064446Z" creationid="Toru Kokubun" creationdate="20180415T020014Z">
+        <seg>Craft をインストールする前に、サーバーが要件を満たしているか調べることは重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -480,8 +480,8 @@
       <tuv lang="EN-US">
         <seg>Craft requires the following:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020420Z" creationid="Toru Kokubun" creationdate="20180415T020420Z">
-        <seg>Craft の必須要件は次の通りです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064608Z" creationid="Toru Kokubun" creationdate="20180415T020420Z">
+        <seg>Craft は次の項目が必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to keep your current directory structure…</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070848Z" creationid="Toru Kokubun" creationdate="20180418T070848Z">
+        <seg>既存のディレクトリ構成を維持したい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you're familiar with Craft already but don't know where to start when it comes to moving to Craft 3, start with the &lt;x1/&gt;Changes in Craft 3&lt;x2/&gt; documentation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002122Z" creationid="Toru Kokubun" creationdate="20180415T010738Z">
@@ -1000,8 +1008,8 @@
       <tuv lang="EN-US">
         <seg>Input the information you saved in Step 3.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022304Z" creationid="Toru Kokubun" creationdate="20180418T022304Z">
-        <seg>Step 3 で保存した情報を入力してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T065339Z" creationid="Toru Kokubun" creationdate="20180418T022304Z">
+        <seg>ステップ3で保存した接続情報を入力してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1270,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you've completed everything listed above you can continue with the upgrade process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T065846Z" creationid="Toru Kokubun" creationdate="20180418T065846Z">
+        <seg>上記リストをすべて満たしているなら、アップグレードプロセスを続行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you've completed the setup process you can right to the control panel to log in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030358Z" creationid="Toru Kokubun" creationdate="20180418T030358Z">
@@ -1416,24 +1432,24 @@
       <tuv lang="EN-US">
         <seg>Required Database User Privileges</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031259Z" creationid="Toru Kokubun" creationdate="20180415T031259Z">
-        <seg>必須のデータベースユーザー特権</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064712Z" creationid="Toru Kokubun" creationdate="20180415T031259Z">
+        <seg>必要なデータベースユーザー特権</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Required PHP Extensions</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020552Z" creationid="Toru Kokubun" creationdate="20180415T020552Z">
-        <seg>必須の PHP エクステンション</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064554Z" creationid="Toru Kokubun" creationdate="20180415T020552Z">
+        <seg>必要な PHP エクステンション</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Review the requirements below or use the &lt;x1/&gt;Craft Server Check&lt;x2/&gt; script to quickly check whether you meet the requirements.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074926Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
-        <seg>以下の必須要件を再確認してください。または、必須要件を満たすかどうかを素早くチェックできる &lt;x1/&gt;Craft Server Check&lt;x2/&gt; スクリプトを使ってください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064457Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
+        <seg>以下の要件を再確認してください。または、要件を満たすかどうかを素早くチェックできる &lt;x1/&gt;Craft Server Check&lt;x2/&gt; スクリプトを使ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1512,16 +1528,16 @@
       <tuv lang="EN-US">
         <seg>Server Requirements</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015307Z" creationid="Toru Kokubun" creationdate="20180415T015307Z">
-        <seg>サーバー必須要件</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064434Z" creationid="Toru Kokubun" creationdate="20180415T015307Z">
+        <seg>サーバー要件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Server Requirements&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234638Z" creationid="Toru Kokubun" creationdate="20180404T234638Z">
-        <seg>サーバー必須要件&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064749Z" creationid="Toru Kokubun" creationdate="20180404T234638Z">
+        <seg>サーバー要件&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1688,16 +1704,24 @@
       <tuv lang="EN-US">
         <seg>There are new requirements for running Craft 3 and a new installation process, too.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032843Z" creationid="Toru Kokubun" creationdate="20180415T011910Z">
-        <seg>Craft 3 を動作させるにあたって、新しい必須条件とインストール手順が載っています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064849Z" creationid="Toru Kokubun" creationdate="20180415T011910Z">
+        <seg>Craft 3 を動作させるにあたって、新しい条件とインストール手順が載っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are two ways you can go about updating Craft, depending on whether you want to &lt;x1/&gt;keep your current directory structure&lt;x2/&gt;, or &lt;x3/&gt;switch things up&lt;x4/&gt; to be more like a new Craft 3 installation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070820Z" creationid="Toru Kokubun" creationdate="20180418T070554Z">
+        <seg>&lt;x1/&gt;既存のディレクトリ構成を維持する&lt;x2/&gt;か、新規の Craft 3 インストールに似た&lt;x3/&gt;新しい構成へ切り替える&lt;x4/&gt;かによって、Craft のアップデートには2つの方法があります。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>These are the requirements to successfully install and properly run Craft.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015825Z" creationid="Toru Kokubun" creationdate="20180415T015825Z">
-        <seg>これらは Craft を正常にインストールし、適切に動作させるための必須要件です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064440Z" creationid="Toru Kokubun" creationdate="20180415T015825Z">
+        <seg>これらは Craft を正常にインストールし、適切に動作させるための要件です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1822,6 +1846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To update Craft without making any major changes to your site’s directory structure, follow these instructions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070945Z" creationid="Toru Kokubun" creationdate="20180418T070945Z">
+        <seg>サイトのディレクトリ構成を大幅に変更することなく Craft をアップデートするには、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Try going to http://example.com/index.php/admin or http://example.com/index.php?p=admin instead.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014814Z" creationid="Toru Kokubun" creationdate="20180418T014814Z">
@@ -1866,6 +1898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234700Z" creationid="Toru Kokubun" creationdate="20180404T234700Z">
         <seg>Craft のアップグレード、および、アップデート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upgrading Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T065914Z" creationid="Toru Kokubun" creationdate="20180418T065914Z">
+        <seg>Craft のアップグレード</seg>
       </tuv>
     </tu>
     <tu>
@@ -2102,6 +2142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>you've installed &lt;x1/&gt;Composer&lt;x2/&gt; (see step 1 of the &lt;x3/&gt;installation instructions&lt;x4/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T065200Z" creationid="Toru Kokubun" creationdate="20180418T065024Z">
+        <seg>&lt;x1/&gt;Composer&lt;x2/&gt; をインストールしてあります。（&lt;x3/&gt;インストールガイド&lt;x4/&gt;のステップ1を参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>you've reviewed the &lt;x1/&gt;changes in Craft 3&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063539Z" creationid="Toru Kokubun" creationdate="20180418T063539Z">
@@ -2112,8 +2160,8 @@
       <tuv lang="EN-US">
         <seg>your &lt;x1/&gt;database is backed up&lt;x2/&gt; in case everything goes horribly wrong</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064129Z" creationid="Toru Kokubun" creationdate="20180418T064129Z">
-        <seg>なんらかの問題が起こった場合に備えて、&lt;x1/&gt;データベースをバックアップしてあります。&lt;x2/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064204Z" creationid="Toru Kokubun" creationdate="20180418T064129Z">
+        <seg>なんらかの問題が起こった場合に備えて、&lt;x1/&gt;データベースをバックアップ&lt;x2/&gt;してあります。</seg>
       </tuv>
     </tu>
     <tu>
