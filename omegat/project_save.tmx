@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before you begin, make sure that:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063448Z" creationid="Toru Kokubun" creationdate="20180418T063448Z">
+        <seg>はじめる前に、次のことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before you install Craft, it's important that you check that your server will meet the requirements.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T220055Z" creationid="Toru Kokubun" creationdate="20180415T020014Z">
@@ -1342,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Preparing for the Upgrade</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063025Z" creationid="Toru Kokubun" creationdate="20180418T063025Z">
+        <seg>アップグレードのための準備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Publishing to the Plugin Store&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231339Z" creationid="Toru Kokubun" creationdate="20180414T231116Z">
@@ -1630,6 +1646,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first step to upgrading your site to Craft 3 is updating the CMS itself.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063012Z" creationid="Toru Kokubun" creationdate="20180418T063012Z">
+        <seg>サイトを Craft 3 にアップグレードするための最初のステップは、CMS 自体をアップデートすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second step is to enter your database connection information.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022813Z" creationid="Toru Kokubun" creationdate="20180418T022244Z">
@@ -1842,6 +1866,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234700Z" creationid="Toru Kokubun" creationdate="20180404T234700Z">
         <seg>Craft のアップグレード、および、アップデート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upgrading from Craft 2</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T062840Z" creationid="Toru Kokubun" creationdate="20180418T062840Z">
+        <seg>Craft 2 からのアップグレード</seg>
       </tuv>
     </tu>
     <tu>
@@ -2066,6 +2098,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085100Z" creationid="Toru Kokubun" creationdate="20180415T085100Z">
         <seg>そのデータベースの接続設定を</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you've reviewed the &lt;x1/&gt;changes in Craft 3&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063539Z" creationid="Toru Kokubun" creationdate="20180418T063539Z">
+        <seg>あなたは&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;を確認しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>your server meets Craft 3’s &lt;x1/&gt;**minimum requirements**&lt;x2/&gt; (Craft 3 requires PHP 7+ and at least 256 MB of memory allocated to PHP)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063844Z" creationid="Toru Kokubun" creationdate="20180418T063623Z">
+        <seg>あなたのサーバーは Craft 3 の&lt;x1/&gt;**最小要件**&lt;x2/&gt;（Craft 3 には PHP 7 以降が必要で、 PHP の割り当てメモリが少なくとも 256MB 必要です）を満たしています。</seg>
       </tuv>
     </tu>
     <tu>
