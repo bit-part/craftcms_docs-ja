@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x1/&gt;Check out the Craft setup command&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T003130Z" creationid="Toru Kokubun" creationdate="20180418T003018Z">
+        <seg>&lt;x1/&gt;Craft をコマンドラインでセットアップする項をチェックしてください&lt;x2/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x1/&gt;PHP dotenv&lt;x2/&gt;, which the &lt;x3/&gt;craftcms/craft&lt;x4/&gt; project comes with pre-installed, processes the &lt;x5/&gt;.env&lt;x6/&gt; file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090414Z" creationid="Toru Kokubun" creationdate="20180415T090405Z">
@@ -704,24 +712,24 @@
       <tuv lang="EN-US">
         <seg>If it outputs a version number, but it’s less than &lt;x1/&gt;1.3.0&lt;x2/&gt;, run the following command to update it:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075608Z" creationid="Toru Kokubun" creationdate="20180415T075608Z">
-        <seg>もし、出力されたバージョンナンバーが &lt;x1/&gt;1.3.0&lt;x2/&gt; 以下なら、次のコマンドを実行してアップデートしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001839Z" creationid="Toru Kokubun" creationdate="20180415T075608Z">
+        <seg>出力されたバージョンナンバーが &lt;x1/&gt;1.3.0&lt;x2/&gt; 以下なら、次のコマンドを実行してアップデートしてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If that outputs an error saying &lt;x1/&gt;composer&lt;x2/&gt; is not found or not recognized, then Composer isn’t installed.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075333Z" creationid="Toru Kokubun" creationdate="20180415T073538Z">
-        <seg>もし &lt;x1/&gt;composer&lt;x2/&gt; が見つからない、あるいは、識別されないというエラーが出力されるなら、Composer がインストールされていません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001845Z" creationid="Toru Kokubun" creationdate="20180415T073538Z">
+        <seg>&lt;x1/&gt;composer&lt;x2/&gt; が見つからない、あるいは、識別されないというエラーが出力されるなら、Composer がインストールされていません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you are starting a Craft 3 project from scratch, review the &lt;x1/&gt;Craft 3 Installation instructions&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074746Z" creationid="Toru Kokubun" creationdate="20180415T011745Z">
-        <seg>もしあなたがゼロから Craft 3 プロジェクトを始めるのであれば、&lt;x1/&gt;Craft 3 インストールガイド&lt;x2/&gt;を再確認してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002126Z" creationid="Toru Kokubun" creationdate="20180415T011745Z">
+        <seg>ゼロから Craft 3 プロジェクトを始めるのであれば、&lt;x1/&gt;Craft 3 インストールガイド&lt;x2/&gt;を再確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -744,24 +752,24 @@
       <tuv lang="EN-US">
         <seg>If you're familiar with Craft already but don't know where to start when it comes to moving to Craft 3, start with the &lt;x1/&gt;Changes in Craft 3&lt;x2/&gt; documentation.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T010840Z" creationid="Toru Kokubun" creationdate="20180415T010738Z">
-        <seg>もしあなたが Craft 自体には慣れ親しんでいるものの、Craft 3 に移行するにあたって何から始めたらよいか判らないのであれば、&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;ドキュメントからスタートしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002122Z" creationid="Toru Kokubun" creationdate="20180415T010738Z">
+        <seg>Craft 自体には慣れ親しんでいるものの、Craft 3 に移行するにあたって何から始めたらよいか判らないのであれば、&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;ドキュメントからスタートしてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you're new to Craft and want to get the bigger picture, start with &lt;x1/&gt;About Craft CMS&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074300Z" creationid="Toru Kokubun" creationdate="20180415T004458Z">
-        <seg>もしあなたが新しく Craft に触れ、かつ、全体像を知りたいのであれば、&lt;x1/&gt;Craft CMS について&lt;x2/&gt;から始めてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002119Z" creationid="Toru Kokubun" creationdate="20180415T004458Z">
+        <seg>新しく Craft に触れ、かつ、全体像を知りたいのであれば、&lt;x1/&gt;Craft CMS について&lt;x2/&gt;から始めてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your web host already has a public HTML folder setup to for you that you cannot rename, then you can just copy the contents of Craft’s &lt;x1/&gt;web&lt;x2/&gt; folder to it and use your host’s default public HTML folder.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180417T220814Z" creationid="Toru Kokubun" creationdate="20180417T220039Z">
-        <seg>もしウェブホストが公開ディレクトリを変更できない状態で既にセットアップされているのであれば、Craft の &lt;x1/&gt;web&lt;x2/&gt; フォルダを目的のホストの公開ディレクトリにコピーして使うことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001343Z" creationid="Toru Kokubun" creationdate="20180417T220039Z">
+        <seg>ウェブホストがリネームできない公開ディレクトリが設定されているのであれば、Craft の &lt;x1/&gt;web&lt;x2/&gt; フォルダのコンテンツをコピーして、目的のホストのデフォルトの公開ディレクトリを利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -776,24 +784,32 @@
       <tuv lang="EN-US">
         <seg>If you’re given a choice, we recommend the following database settings in most cases:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084839Z" creationid="Toru Kokubun" creationdate="20180415T084826Z">
-        <seg>もしあなたが選択可能なら、ほとんどの場合に次のデータベース設定を推奨します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001944Z" creationid="Toru Kokubun" creationdate="20180415T084826Z">
+        <seg>選択可能であれば、ほとんどの場合に次のデータベース設定を推奨します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re not using &lt;x1/&gt;MAMP&lt;x2/&gt; or another localhosting tool, you will probably need to update your &lt;x3/&gt;hosts&lt;x4/&gt; file, so your computer knows to route requests to your chosen host name to the local computer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001005Z" creationid="Toru Kokubun" creationdate="20180418T000615Z">
+        <seg>&lt;x1/&gt;MAMP&lt;x2/&gt; や他のローカルホスティングツールを使用していない場合は、&lt;x3/&gt;hosts&lt;x4/&gt; ファイルを更新して、選択したホスト名にローカルコンピュータへ要求をルーティングする必要があるかもしれません。 </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you’re unfamiliar with Composer, it’s a package manager (like npm) that attempts to make installing and updating PHP libraries easy via terminal commands.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033814Z" creationid="Toru Kokubun" creationdate="20180415T033814Z">
-        <seg>もしあなたが Composer に不慣れであれば、PHP ライブライのインストールやアップデートをターミナルコマンドによって容易にすることを目指す（npm のような）パッケージマネージャーと考えてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001835Z" creationid="Toru Kokubun" creationdate="20180415T033814Z">
+        <seg>Composer に不慣れであれば、PHP ライブライのインストールやアップデートをターミナルコマンドによって容易にすることを目指す（npm のような）パッケージマネージャーと考えてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you’re using Craft’s Composer &lt;x1/&gt;starter project&lt;x2/&gt;, then it is the &lt;x3/&gt;web/&lt;x4/&gt; directory by default, but it can be renamed to anything you want as long as your web server is configured to point to it.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180417T220606Z" creationid="Toru Kokubun" creationdate="20180417T215127Z">
-        <seg>もし Craft の Composer &lt;x1/&gt;スタータープロジェクト&lt;x2/&gt;を利用したなら、ドキュメントルートはデフォルトで &lt;x3/&gt;web/&lt;x4/&gt; ディレクトリになります。ただし、ウェブサーバーで設定されている範囲において思いのまま変更することもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001558Z" creationid="Toru Kokubun" creationdate="20180417T215127Z">
+        <seg>Craft の Composer &lt;x1/&gt;スタータープロジェクト&lt;x2/&gt;を利用しているのであれば、ドキュメントルートはデフォルトで &lt;x3/&gt;web/&lt;x4/&gt; ディレクトリになりますが、ウェブサーバーで設定されている範囲においてリネームすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1198,10 +1214,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Run the installer!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T003223Z" creationid="Toru Kokubun" creationdate="20180418T002628Z">
+        <seg>インストーラの実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Run the installer!&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033314Z" creationid="Toru Kokubun" creationdate="20180415T033246Z">
-        <seg>インストーラーを実行！&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T003215Z" creationid="Toru Kokubun" creationdate="20180415T033246Z">
+        <seg>インストーラの実行&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1344,8 +1368,8 @@
       <tuv lang="EN-US">
         <seg>The advantage of using PHP dotenv is that it offers a place to store sensitive information (like database connection settings) in a file that doesn’t get committed to your Git repository.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090852Z" creationid="Toru Kokubun" creationdate="20180415T090628Z">
-        <seg>PHP dotenv を使うことの利点は、Git リポジトリにコミットできない（データベースの接続設定のような）機密性の高い情報をファイルに保管しておく場所を提供するということです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001648Z" creationid="Toru Kokubun" creationdate="20180415T090628Z">
+        <seg>PHP dotenv を使うことの利点は、Git リポジトリにコミットされないファイルに（データベースの接続設定のような）機密性の高い情報を保管しておく場所を提供するということです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1466,6 +1490,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032259Z" creationid="Toru Kokubun" creationdate="20180414T032231Z">
         <seg>これはあなたがしてはいけないことすべてを網羅したリストではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: Want to install Craft from the command line?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002957Z" creationid="Toru Kokubun" creationdate="20180418T002957Z">
+        <seg>ヒント：コマンドラインから Craft をインストールしたいですか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1678,6 +1710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can test whether you set everything up correctly by pointing your web browser to &lt;x1/&gt;http://HOSTNAME/index.php?p=admin&lt;x2/&gt; (substituting &lt;x3/&gt;HOSTNAME&lt;x4/&gt; with your new web server’s host name).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002851Z" creationid="Toru Kokubun" creationdate="20180418T002851Z">
+        <seg>ブラウザで &lt;x1/&gt;http://HOSTNAME/index.php?p=admin&lt;x2/&gt;（新しいウェブサーバーのホスト名で&lt;x3/&gt;HOSTNAME&lt;x4/&gt; を置き換える）にアクセスすることで、すべて正しく設定できたかどうかをテストできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You don’t need to know PHP or Yii to use it unless you intend to write your own plugins.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215542Z" creationid="Toru Kokubun" creationdate="20180414T030438Z">
@@ -1696,16 +1736,16 @@
       <tuv lang="EN-US">
         <seg>[`craftcms/cms`]&lt;x1/&gt; – This is the Composer package that contains all of Craft’s source code.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072905Z" creationid="Toru Kokubun" creationdate="20180415T072905Z">
-        <seg>[`craftcms/cms`]&lt;x1/&gt; – これは Craft のすべてのソースコードを含む Composer パッケージです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001735Z" creationid="Toru Kokubun" creationdate="20180415T072905Z">
+        <seg>[`craftcms/cms`]&lt;x1/&gt; – Craft のすべてのソースコードを含む Composer パッケージです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>[`craftcms/craft`]&lt;x1/&gt; – This is a Composer “project” that can be used as a starting point for new Craft projects.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073009Z" creationid="Toru Kokubun" creationdate="20180415T073009Z">
-        <seg>[`craftcms/craft`]&lt;x1/&gt; – これは新しい Craft プロジェクトのスタート地点として使うことができる Composer 「プロジェクト」です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001739Z" creationid="Toru Kokubun" creationdate="20180415T073009Z">
+        <seg>[`craftcms/craft`]&lt;x1/&gt; – 新しい Craft プロジェクトのスタート地点として使うことができる Composer 「プロジェクト」です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1736,8 +1776,8 @@
       <tuv lang="EN-US">
         <seg>{tip} If you’d prefer to download a zip file instead, you can download Craft 3 from the Download button in the header of &lt;x1/&gt;craftcms.com&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072457Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
-        <seg>ヒント：もしあなたが代わりに ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードすることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001808Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
+        <seg>ヒント：ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードすることができます。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
