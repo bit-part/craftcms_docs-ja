@@ -558,6 +558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Delete your old &lt;x1/&gt;craft/app/&lt;x2/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222211Z" creationid="Toru Kokubun" creationdate="20180418T222211Z">
+        <seg>古い &lt;x1/&gt;craft/app/&lt;x2/&gt; ディレクトリを削除してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Different people have different perspectives on issues.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235154Z" creationid="Toru Kokubun" creationdate="20180414T235154Z">
@@ -774,6 +782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Go ahead and click Finish Up to update your database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222144Z" creationid="Toru Kokubun" creationdate="20180418T222144Z">
+        <seg>先に進み、「Finish up（完了）」ボタンをクリックしてデータベースを更新します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Harassment and other exclusionary behavior aren’t acceptable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233517Z" creationid="Toru Kokubun" creationdate="20180414T233517Z">
@@ -910,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want your directory structure to resemble a new Craft 3 project…</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T223120Z" creationid="Toru Kokubun" creationdate="20180418T223120Z">
+        <seg>新しい Craft 3 プロジェクトのようなディレクトリ構造にしたい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you're familiar with Craft already but don't know where to start when it comes to moving to Craft 3, start with the &lt;x1/&gt;Changes in Craft 3&lt;x2/&gt; documentation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002122Z" creationid="Toru Kokubun" creationdate="20180415T010738Z">
@@ -922,6 +946,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002119Z" creationid="Toru Kokubun" creationdate="20180415T004458Z">
         <seg>新しく Craft に触れ、かつ、全体像を知りたいのであれば、&lt;x1/&gt;Craft CMS について&lt;x2/&gt;から始めてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your server is running Apache, you can do this by creating a &lt;x7/&gt;.htaccess&lt;x8/&gt; file within it, with the contents &lt;x9/&gt;Deny from all&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T223026Z" creationid="Toru Kokubun" creationdate="20180418T223005Z">
+        <seg>サーバーが Apache を実行している場合は、ディレクトリ内に &lt;x7/&gt;.htaccess&lt;x8/&gt; ファイルを作成し、内容を &lt;x9/&gt;Deny from all&lt;x10/&gt; としてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1142,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It’s no longer needed; Craft 3 is located in &lt;x3/&gt;vendor/craftcms/cms/&lt;x4/&gt; now.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222332Z" creationid="Toru Kokubun" creationdate="20180418T222332Z">
+        <seg>それは、もはや必要ありません。Craft 3 は &lt;x3/&gt;vendor/craftcms/cms/&lt;x4/&gt; に配置されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like the technical community as a whole, the Craft team and community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T031232Z" creationid="Toru Kokubun" creationdate="20180414T031232Z">
@@ -1250,6 +1290,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215750Z" creationid="Toru Kokubun" creationdate="20180415T084045Z">
         <seg>メモ：システムに PHP 7 がインストールされていないと Composer が不満を言うかもしれません。しかし、別途インストールされた PHP（例えば MAMP や Vagrant）上で Craft を実行するつもりで、問題ないと判っているのであれば &lt;x1/&gt;--ignore-platform-reqs&lt;x2/&gt; フラグを使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: If your &lt;x1/&gt;craft/&lt;x2/&gt; directory lives in a public directory on your server (e.g. within &lt;x3/&gt;public_html/&lt;x4/&gt;), you will need to make sure the new &lt;x5/&gt;craft/vendor/&lt;x6/&gt; directory is protected from web traffic.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222654Z" creationid="Toru Kokubun" creationdate="20180418T222339Z">
+        <seg>メモ：&lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリがサーバーの公開ディレクトリ（例：&lt;x3/&gt;public_html/&lt;x4/&gt; 内）にある場合、新しい &lt;x5/&gt;craft/vendor/&lt;x6/&gt; ディレクトリがウェブトラフィックから保護されるよう確認する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
