@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you see the update prompt, you did everything right!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221637Z" creationid="Toru Kokubun" creationdate="20180418T221637Z">
+        <seg>アップデートのプロンプトが表示されたら、すべてが正しく実行されています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to keep your current directory structure…</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070848Z" creationid="Toru Kokubun" creationdate="20180418T070848Z">
@@ -1370,6 +1378,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230656Z" creationid="Toru Kokubun" creationdate="20180414T230656Z">
         <seg>プラグイン設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Point your browser to your Control Panel URL (e.g. &lt;x1/&gt;http://example.dev/admin&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221553Z" creationid="Toru Kokubun" creationdate="20180418T221553Z">
+        <seg>ブラウザでコントロールパネルの URL（例：&lt;x1/&gt;http://example.dev/admin&lt;x2/&gt;）にアクセスします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2224,8 +2240,8 @@
       <tuv lang="EN-US">
         <seg>…and replace everything below it with:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221032Z" creationid="Toru Kokubun" creationdate="20180418T221019Z">
-        <seg>そして、これ以下の行をすべて置き換えてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221417Z" creationid="Toru Kokubun" creationdate="20180418T221019Z">
+        <seg>そして、それ以下の行をすべて置き換えてください。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
