@@ -294,6 +294,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Click on Utilities and then choose Updates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T002944Z" creationid="Toru Kokubun" creationdate="20180419T002944Z">
+        <seg>「ユーティリティ」をクリックし、その後「アップデート」を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking that will initiate Craft’s self-updating process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003343Z" creationid="Toru Kokubun" creationdate="20180419T003343Z">
+        <seg>クリックすると、 Craft の自動更新プロセスが開始されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code of Conduct</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030740Z" creationid="Toru Kokubun" creationdate="20180414T030740Z">
@@ -666,6 +682,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235249Z" creationid="Toru Kokubun" creationdate="20180414T235249Z">
         <seg>誤ることが人間的であることを忘れないでください。そして、お互いに非難してもわたしたちのためになりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each update its own Update button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003308Z" creationid="Toru Kokubun" creationdate="20180419T003308Z">
+        <seg>それぞれのアップデートは、それ自身の「アップデート」ボタンを利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1998,6 +2022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This section displays both Craft CMS updates and plugin updates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003212Z" creationid="Toru Kokubun" creationdate="20180419T003155Z">
+        <seg>このセクションには、Craft CMS のアップデートとプラグインのアップデートの両方を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tip: Want to install Craft from the command line?</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002957Z" creationid="Toru Kokubun" creationdate="20180418T002957Z">
@@ -2066,6 +2098,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000039Z" creationid="Toru Kokubun" creationdate="20180419T000018Z">
         <seg>新しいプロジェクトの &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリを参照するよう、ウェブサーバーの設定をアップデートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updating</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T002234Z" creationid="Toru Kokubun" creationdate="20180419T002234Z">
+        <seg>アップデート</seg>
       </tuv>
     </tu>
     <tu>
@@ -2214,6 +2254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When an update is available, users with the permission to update Craft will see a badge in the CP next to the Utilities navigation item in the sidebar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003019Z" creationid="Toru Kokubun" creationdate="20180419T002815Z">
+        <seg>アップデートが可能になると、Craft のアップデート権限を持つユーザーは CP のサイドバーにあるナビゲーション項目「ユーティリティ」の横にバッジを確認できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When we disagree, try to understand why.&lt;x1/&gt; Disagreements, both social and technical, happen all the time and Craft is no exception.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235028Z" creationid="Toru Kokubun" creationdate="20180414T235028Z">
@@ -2254,6 +2302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use the Updates widget on the Control Panel dashboard, which is installed by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003705Z" creationid="Toru Kokubun" creationdate="20180419T003106Z">
+        <seg>デフォルトでインストールされているコントロールパネルのダッシュボードにあるアップデートウィジェットを利用することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can either edit the file manually, or run the &lt;x3/&gt;./craft setup&lt;x4/&gt; command from the root project directory in your terminal.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090139Z" creationid="Toru Kokubun" creationdate="20180415T090139Z">
@@ -2274,6 +2330,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073458Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
         <seg>起動しているターミナル上で次のコマンドを実行することによって、（もし存在するのであれば）インストール済みの Composer のバージョンを確認することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can run all of the updates (Craft, all plugin updates available) using the Update All button at the top left of the Updates page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003649Z" creationid="Toru Kokubun" creationdate="20180419T003628Z">
+        <seg>アップデートページの左上にある「すべてを更新」ボタンを使用して、（アップデート可能な Craft とプラグイン）すべてのアップデートを実行することができます。</seg>
       </tuv>
     </tu>
     <tu>
