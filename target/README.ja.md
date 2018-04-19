@@ -1,7 +1,7 @@
 Craft 3 ドキュメント
 =====================
 
-## はじめに
+## 序論
 
 - [Craft CMS について](ja/index.md)
 - [行動規範](ja/coc.md)
@@ -18,7 +18,7 @@ Craft 3 ドキュメント
 - [Craft 3 のアップデート](ja/updating.md)
 - [Craft 3 の変更点](ja/changes-in-craft-3.md)
 
-## はじめに
+## はじめよう
 
 - [Craft のピース](ja/the-pieces-of-craft.md)
 - [ディレクトリ構造](ja/directory-structure.md)
