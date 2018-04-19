@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copy any other files in your old &lt;x1/&gt;public/&lt;x2/&gt; directory into your new project’s &lt;x3/&gt;web/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235923Z" creationid="Toru Kokubun" creationdate="20180418T235923Z">
+        <seg>古い &lt;x1/&gt;public/&lt;x2/&gt; ディレクトリに含まれるすべてのファイルを新しいプロジェクトの &lt;x3/&gt;web/&lt;x4/&gt; ディレクトリにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copy any settings from your old &lt;x1/&gt;craft/config/general.php&lt;x2/&gt; file into your new project’s &lt;x3/&gt;config/general.php&lt;x4/&gt; file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234613Z" creationid="Toru Kokubun" creationdate="20180418T234445Z">
@@ -832,8 +840,16 @@
       <tuv lang="EN-US">
         <seg>Go ahead and click Finish Up to update your database.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222144Z" creationid="Toru Kokubun" creationdate="20180418T222144Z">
-        <seg>先に進み、「Finish up（完了）」ボタンをクリックしてデータベースを更新します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000152Z" creationid="Toru Kokubun" creationdate="20180418T222144Z">
+        <seg>「Finish up（完了）」ボタンをクリックしてデータベースを更新してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Go ahead and click “Finish up” to update your database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000145Z" creationid="Toru Kokubun" creationdate="20180419T000145Z">
+        <seg>「Finish up（完了）」ボタンをクリックしてデータベースを更新してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -954,6 +970,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072531Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
         <seg>そのルートを選ぶ場合、ステップ3までスキップすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you had made any changes to your &lt;x1/&gt;public/index.php&lt;x2/&gt; file, copy them to your new project’s &lt;x3/&gt;web/index.php&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235831Z" creationid="Toru Kokubun" creationdate="20180418T235807Z">
+        <seg>&lt;x1/&gt;public/index.php&lt;x2/&gt; ファイルに何らかの変更を加えていた場合は、それらを新しいプロジェクトの &lt;x3/&gt;web/index.php&lt;x4/&gt; ファイルにコピーします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1362,6 +1386,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025737Z" creationid="Toru Kokubun" creationdate="20180418T025737Z">
         <seg>今すぐ仕事に戻ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now that you have successfully upgraded your Craft 2 project to Craft 3, please take some time to review the &lt;x1/&gt;changes in Craft 3&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000355Z" creationid="Toru Kokubun" creationdate="20180419T000355Z">
+        <seg>これで Craft 2 プロジェクトから Craft 3 へのアップグレードが完了しました。&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;を確認する時間を設けてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2030,6 +2062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Update your web server to point to your new project’s &lt;x1/&gt;web/&lt;x2/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000039Z" creationid="Toru Kokubun" creationdate="20180419T000018Z">
+        <seg>新しいプロジェクトの &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリを参照するよう、ウェブサーバーの設定をアップデートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Updating Craft 3&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234720Z" creationid="Toru Kokubun" creationdate="20180404T234720Z">
@@ -2338,6 +2378,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063956Z" creationid="Toru Kokubun" creationdate="20180418T063956Z">
         <seg>あなたのサイトは、少なくとも &lt;x1/&gt;Craft 2.6.2788&lt;x2/&gt; が実行されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} Note that the default table prefix is now blank, whereas it used to be &lt;x1/&gt;craft_&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235658Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
+        <seg>メモ：デフォルトのテーブル接頭辞は「空」になりましたが、&lt;x1/&gt;craft_&lt;x2/&gt; が使われていることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
