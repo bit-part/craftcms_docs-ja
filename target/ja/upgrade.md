@@ -44,14 +44,14 @@
 
    ```php
    defined('CRAFT_BASE_PATH') || define('CRAFT_BASE_PATH', realpath($craftPath));
-//
-if (!is_dir(CRAFT_BASE_PATH.'/vendor')) {
- exit('Could not find your vendor/ folder. Please ensure that <strong><code>$craftPath</code></strong> is set correctly in '.__FILE__);
-}
-//
-require_once CRAFT_BASE_PATH.'/vendor/autoload.php';
-$app = require CRAFT_BASE_PATH.'/vendor/craftcms/cms/bootstrap/web.php';
-$app->run();
+   
+   if (!is_dir(CRAFT_BASE_PATH.'/vendor')) {
+      exit('Could not find your vendor/ folder. Please ensure that <strong><code>$craftPath</code></strong> is set correctly in '.__FILE__);
+   }
+    
+   require_once CRAFT_BASE_PATH.'/vendor/autoload.php';
+   $app = require CRAFT_BASE_PATH.'/vendor/craftcms/cms/bootstrap/web.php';
+   $app->run();
    ```
 
 4. ブラウザでコントロールパネルの URL（例：`http://example.dev/admin`）にアクセスします。アップデートのプロンプトが表示されたら、すべてが正しく実行されています！「Finish up（完了）」ボタンをクリックしてデータベースを更新してください。
