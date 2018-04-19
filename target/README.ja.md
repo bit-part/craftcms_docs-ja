@@ -9,7 +9,7 @@ Craft 3 ドキュメント
 
 ## Craft のインストール
 
-- [サーバー必須要件](ja/requirements.md)
+- [サーバー要件](ja/requirements.md)
 - [インストール](ja/installation.md)
 
 ## Craft のアップグレード、および、アップデート

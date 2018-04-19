@@ -1,16 +1,16 @@
-# サーバー必須要件
+# サーバー要件
 
-これらは Craft を正常にインストールし、適切に動作させるための必須要件です。
+これらは Craft を正常にインストールし、適切に動作させるための要件です。
 
 ## サーバーの確認
 
-Craft をインストールする前に、サーバーが必須要件を満たしているか調べることは重要です。以下の必須要件を再確認してください。または、必須要件を満たすかどうかを素早くチェックできる [Craft Server Check](https://github.com/craftcms/server-check) スクリプトを使ってください。
+Craft をインストールする前に、サーバーが要件を満たしているか調べることは重要です。以下の要件を再確認してください。または、要件を満たすかどうかを素早くチェックできる [Craft Server Check](https://github.com/craftcms/server-check) スクリプトを使ってください。
 
 _サーバー担当ではありませんか？このページのリンクをサーバー管理者に送ってください。_
 
-## サーバー必須要件
+## サーバー要件
 
-Craft の必須要件は次の通りです。
+Craft は次の項目が必要です。
 
 * PHP 7.0 以降
 * MySQL 5.5 以降（with InnoDB）または PostgreSQL 9.5 以降
@@ -18,7 +18,7 @@ Craft の必須要件は次の通りです。
 * 最低256MBの PHP 割当メモリ
 * 最低200MBの空きディスク容量
 
-## 必須の PHP エクステンション
+## 必要な PHP エクステンション
 
 Craft は次の PHP エクステンションが必要です。
 
@@ -40,7 +40,7 @@ Craft は次の PHP エクステンションが必要です。
 * [Intl](http://php.net/manual/en/book.intl.php) – よりリッチな国際化のサポートを追加します。
 * [DOM](http://php.net/manual/en/book.dom.php) - `yii\web\XmlResponseFormatter` と同様に、XML フィードを解析するために必要です。
 
-## 必須のデータベースユーザー特権
+## 必要なデータベースユーザー特権
 
 Craft のデータベースに接続するユーザーには、次の特権がなければなりません。
 
@@ -55,6 +55,7 @@ Craft のデータベースに接続するユーザーには、次の特権が�
 * `INDEX`
 * `DROP`
 * `REFERENCES`
+* `LOCK TABLES`
 
 #### PostgreSQL
 
