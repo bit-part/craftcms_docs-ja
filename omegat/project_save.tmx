@@ -134,6 +134,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All object properties (the config setting names) must be wrapped in double quotes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221629Z" creationid="Toru Kokubun" creationdate="20180419T221629Z">
+        <seg>（コンフィグ設定名である）すべてのオブジェクトプロパティは、ダブルクォートで囲まれていなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All strings must use double quotes rather than single quotes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221727Z" creationid="Toru Kokubun" creationdate="20180419T221727Z">
+        <seg>すべての文字列は、シングルクォートではなくダブルクォートを使用しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android: Chrome 4.4 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015411Z" creationid="Toru Kokubun" creationdate="20180415T015411Z">
@@ -246,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CSRF Token Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220222Z" creationid="Toru Kokubun" creationdate="20180419T220156Z">
+        <seg>CSRF Token パラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Categories&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011931Z" creationid="Toru Kokubun" creationdate="20180414T011931Z">
@@ -258,6 +282,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230650Z" creationid="Toru Kokubun" creationdate="20180414T230650Z">
         <seg>更新履歴とアップデート&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes in Craft 3</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215502Z" creationid="Toru Kokubun" creationdate="20180419T215502Z">
+        <seg>Craft 3 の変更点</seg>
       </tuv>
     </tu>
     <tu>
@@ -346,6 +378,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084154Z" creationid="Toru Kokubun" creationdate="20180415T084154Z">
         <seg>Composer はすべてをインストールするのに数分かかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Config Settings&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220440Z" creationid="Toru Kokubun" creationdate="20180419T215747Z">
+        <seg>コンフィグ設定&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,10 +638,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currency Formatting&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220454Z" creationid="Toru Kokubun" creationdate="20180419T215954Z">
+        <seg>通貨フォーマット&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DOM&lt;x1/&gt; - Required for parsing XML feeds as well as &lt;x2/&gt;yii\web\XmlResponseFormatter&lt;x3/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031224Z" creationid="Toru Kokubun" creationdate="20180415T031224Z">
         <seg>DOM&lt;x1/&gt; - &lt;x2/&gt;yii\web\XmlResponseFormatter&lt;x3/&gt; と同様に、XML フィードを解析するために必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date Formatting&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220451Z" creationid="Toru Kokubun" creationdate="20180419T215924Z">
+        <seg>データフォーマット&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -990,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you do install the Redactor plugin, you will need to ensure that your Redactor configs in &lt;x1/&gt;config/redactor/&lt;x2/&gt; are valid JSON.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221428Z" creationid="Toru Kokubun" creationdate="20180419T221428Z">
+        <seg>Redactor プラグインをインストールする場合、&lt;x1/&gt;config/redactor/&lt;x2/&gt; に定義された Redactor 設定が有効な JSON であることを確認する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you go that route, you can skip to step 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072531Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
@@ -1002,6 +1066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235831Z" creationid="Toru Kokubun" creationdate="20180418T235807Z">
         <seg>&lt;x1/&gt;public/index.php&lt;x2/&gt; ファイルに何らかの変更を加えていた場合は、それらを新しいプロジェクトの &lt;x3/&gt;web/index.php&lt;x4/&gt; ファイルにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have any existing Rich Text fields, they will be automatically converted to Redactor fields when you install the Redactor plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221114Z" creationid="Toru Kokubun" creationdate="20180419T221035Z">
+        <seg>いくつかのリッチテキストフィールドが既に存在する場合、Redactor プラグインをインストールした時点で自動的に Redactor フィールドに変換されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1294,6 +1366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Locales&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220307Z" creationid="Toru Kokubun" creationdate="20180419T220307Z">
+        <seg>ロケール&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Localization&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012053Z" creationid="Toru Kokubun" creationdate="20180414T012017Z">
@@ -1318,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Models&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220106Z" creationid="Toru Kokubun" creationdate="20180419T220106Z">
+        <seg>モデル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most sections of the documentation have detailed examples of how to use the concept we're covering.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000706Z" creationid="Toru Kokubun" creationdate="20180415T000706Z">
@@ -1338,6 +1426,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215842Z" creationid="Toru Kokubun" creationdate="20180415T084537Z">
         <seg>次に、Craft プロジェクト向けのデータベースを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No comments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221529Z" creationid="Toru Kokubun" creationdate="20180419T221529Z">
+        <seg>コメントは使えません</seg>
       </tuv>
     </tu>
     <tu>
@@ -1502,6 +1598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PHP Constants&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215834Z" creationid="Toru Kokubun" creationdate="20180419T215834Z">
+        <seg>PHP 定数&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Personal insults, especially those using racist or sexist terms.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234744Z" creationid="Toru Kokubun" creationdate="20180414T234744Z">
@@ -1530,6 +1634,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230656Z" creationid="Toru Kokubun" creationdate="20180414T230656Z">
         <seg>プラグイン設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220207Z" creationid="Toru Kokubun" creationdate="20180419T220207Z">
+        <seg>プラグイン&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,10 +1686,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Query Methods&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220044Z" creationid="Toru Kokubun" creationdate="20180419T220044Z">
+        <seg>クエリーメソッド&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Query Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220029Z" creationid="Toru Kokubun" creationdate="20180419T220029Z">
+        <seg>クエリーパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rather, take it in the spirit in which it’s intended - a guide to make it easier to enrich all of us and the technical communities in which we participate.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232523Z" creationid="Toru Kokubun" creationdate="20180414T032331Z">
         <seg>むしろ、意図している「わたしたち自身や参加する技術的なコミュニティのすべてをより豊かにするためのガイドである」という精神を取り入れてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Redactor Configs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221130Z" creationid="Toru Kokubun" creationdate="20180419T221130Z">
+        <seg>Redactor 設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Redactor Configs&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220513Z" creationid="Toru Kokubun" creationdate="20180419T215525Z">
+        <seg>Redactor 設定&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1614,10 +1758,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remote Volumes&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215535Z" creationid="Toru Kokubun" creationdate="20180419T215535Z">
+        <seg>リモートボリューム&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated harassment of others.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234916Z" creationid="Toru Kokubun" creationdate="20180414T234916Z">
         <seg>他の人に嫌がらせを繰り返すこと。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Request Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220118Z" creationid="Toru Kokubun" creationdate="20180419T220118Z">
+        <seg>リクエストパラメータ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1642,6 +1802,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064457Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
         <seg>以下の要件を再確認してください。または、要件を満たすかどうかを素早くチェックできる &lt;x1/&gt;Craft Server Check&lt;x2/&gt; スクリプトを使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rich Text Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220743Z" creationid="Toru Kokubun" creationdate="20180419T220743Z">
+        <seg>リッチテキストフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rich Text Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215511Z" creationid="Toru Kokubun" creationdate="20180419T215511Z">
+        <seg>リッチテキストフィールド&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1798,10 +1974,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Static Translation Files&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215850Z" creationid="Toru Kokubun" creationdate="20180419T215850Z">
+        <seg>静的な翻訳ファイル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tags&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011946Z" creationid="Toru Kokubun" creationdate="20180414T011946Z">
         <seg>タグ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Template Functions&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215913Z" creationid="Toru Kokubun" creationdate="20180419T215913Z">
+        <seg>テンプレートファンクション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Template Tags&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215904Z" creationid="Toru Kokubun" creationdate="20180419T215904Z">
+        <seg>テンプレートタグ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1818,6 +2018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012414Z" creationid="Toru Kokubun" creationdate="20180414T012414Z">
         <seg>テンプレート記法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That means:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221451Z" creationid="Toru Kokubun" creationdate="20180419T221451Z">
+        <seg>すなわち、</seg>
       </tuv>
     </tu>
     <tu>
@@ -1898,6 +2106,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014513Z" creationid="Toru Kokubun" creationdate="20180418T014513Z">
         <seg>ウィザードはいくつかのセットアップ画面を表示し、Craft のインストールを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “Rich Text” field type has been removed from Craft 3, in favor of new &lt;x1/&gt;Redactor&lt;x2/&gt; and &lt;x3/&gt;CKEditor&lt;x4/&gt; plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220913Z" creationid="Toru Kokubun" creationdate="20180419T220859Z">
+        <seg>「リッチテキスト」フィールドタイプは Craft 3 から削除され、新しい &lt;x1/&gt;Redactor&lt;x2/&gt; プラグインと &lt;x3/&gt;CKEditor&lt;x4/&gt; プラグインが追加されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2070,6 +2286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Treating Queries as Arrays&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220101Z" creationid="Toru Kokubun" creationdate="20180419T220101Z">
+        <seg>クエリーを配列として扱う&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Try going to http://example.com/index.php/admin or http://example.com/index.php?p=admin instead.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014814Z" creationid="Toru Kokubun" creationdate="20180418T014814Z">
@@ -2082,6 +2306,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011925Z" creationid="Toru Kokubun" creationdate="20180414T011925Z">
         <seg>Twig 入門編&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>URL Rules&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215758Z" creationid="Toru Kokubun" creationdate="20180419T215758Z">
+        <seg>URL ルール&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2154,6 +2386,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234710Z" creationid="Toru Kokubun" creationdate="20180404T234710Z">
         <seg>Craft 2 からのアップグレード&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User Photos&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215857Z" creationid="Toru Kokubun" creationdate="20180419T215857Z">
+        <seg>ユーザーフォト&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2378,6 +2618,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001739Z" creationid="Toru Kokubun" creationdate="20180415T073009Z">
         <seg>[`craftcms/craft`]&lt;x1/&gt; – 新しい Craft プロジェクトのスタート地点として使うことができる Composer 「プロジェクト」です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`action` Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220142Z" creationid="Toru Kokubun" creationdate="20180419T220142Z">
+        <seg>`action` パラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`omitScriptNameInUrls` and `usePathInfo`&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215751Z" creationid="Toru Kokubun" creationdate="20180419T215751Z">
+        <seg>`omitScriptNameInUrls` と `usePathInfo`&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`redirect` Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220147Z" creationid="Toru Kokubun" creationdate="20180419T220147Z">
+        <seg>`redirect` パラメータ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
