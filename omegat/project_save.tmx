@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Category</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013021Z" creationid="Toru Kokubun" creationdate="20180420T013021Z">
+        <seg>カテゴリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changelogs and Updates&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230650Z" creationid="Toru Kokubun" creationdate="20180414T230650Z">
@@ -542,6 +550,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft 3 still supports &lt;x1/&gt;static translations&lt;x2/&gt;, but the directory structure has changed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012704Z" creationid="Toru Kokubun" creationdate="20180420T012644Z">
+        <seg>Craft 3 でも&lt;x1/&gt;静的な翻訳&lt;x2/&gt;をサポートしていますが、ディレクトリ構成が変わりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft 3 supports both MySQL 5.5+ and PostgreSQL 9.5+.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084631Z" creationid="Toru Kokubun" creationdate="20180415T084631Z">
@@ -662,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft’s translation messages</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013123Z" creationid="Toru Kokubun" creationdate="20180420T013123Z">
+        <seg>Craft 向けの翻訳メッセージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a New Craft Project</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075645Z" creationid="Toru Kokubun" creationdate="20180415T075645Z">
@@ -738,6 +762,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222211Z" creationid="Toru Kokubun" creationdate="20180418T222211Z">
         <seg>古い &lt;x1/&gt;craft/app/&lt;x2/&gt; ディレクトリを削除してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013101Z" creationid="Toru Kokubun" creationdate="20180420T013101Z">
+        <seg>説明</seg>
       </tuv>
     </tu>
     <tu>
@@ -1310,6 +1342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Craft 3, your &lt;x1/&gt;translations/&lt;x2/&gt; folder might look something like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013329Z" creationid="Toru Kokubun" creationdate="20180420T013314Z">
+        <seg>Craft 3 の &lt;x1/&gt;translations/&lt;x2/&gt; フォルダの構成は、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, if someone asks you to stop, then stop.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234938Z" creationid="Toru Kokubun" creationdate="20180414T234938Z">
@@ -1542,6 +1582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>New</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012455Z" creationid="Toru Kokubun" creationdate="20180420T012455Z">
+        <seg>新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New Setting</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T000438Z" creationid="Toru Kokubun" creationdate="20180420T000438Z">
@@ -1642,6 +1690,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000355Z" creationid="Toru Kokubun" creationdate="20180419T000355Z">
         <seg>これで Craft 2 プロジェクトから Craft 3 へのアップグレードが完了しました。&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;を確認する時間を設けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now within your &lt;x3/&gt;translations/&lt;x4/&gt; folder, you should create subdirectories for each locale, and within them, PHP files for each &lt;x5/&gt;translation category&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013024Z" creationid="Toru Kokubun" creationdate="20180420T012845Z">
+        <seg>&lt;x3/&gt;translations/&lt;x4/&gt; フォルダの中にローケルごとのサブディレクトリを作成し、それぞれに&lt;x5/&gt;翻訳カテゴリー&lt;x6/&gt;ごとの PHP ファイルを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Old</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012446Z" creationid="Toru Kokubun" creationdate="20180420T012446Z">
+        <seg>旧</seg>
       </tuv>
     </tu>
     <tu>
@@ -1786,6 +1850,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220207Z" creationid="Toru Kokubun" creationdate="20180419T220207Z">
         <seg>プラグイン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins’ translation messages</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013228Z" creationid="Toru Kokubun" creationdate="20180420T013220Z">
+        <seg>プラグイン向けの翻訳メッセージ</seg>
       </tuv>
     </tu>
     <tu>
@@ -2158,6 +2230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Static Translation Files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012556Z" creationid="Toru Kokubun" creationdate="20180420T012556Z">
+        <seg>静的な翻訳ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Static Translation Files&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215850Z" creationid="Toru Kokubun" creationdate="20180419T215850Z">
@@ -2246,6 +2326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The acceptable translation categories are:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013027Z" creationid="Toru Kokubun" creationdate="20180420T013005Z">
+        <seg>許可されている翻訳カテゴリーは、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The advantage of using PHP dotenv is that it offers a place to store sensitive information (like database connection settings) in a file that doesn’t get committed to your Git repository.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001648Z" creationid="Toru Kokubun" creationdate="20180415T090628Z">
@@ -2296,8 +2384,8 @@
       <tuv lang="EN-US">
         <seg>The following PHP constants have been deprecated in Craft 3, and will no longer work in Craft 4:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012407Z" creationid="Toru Kokubun" creationdate="20180420T012407Z">
-        <seg>次の PHP 定数は Craft 3 で非推奨となり、Craft 4 で削除されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012426Z" creationid="Toru Kokubun" creationdate="20180420T012407Z">
+        <seg>次の PHP 定数は Craft 3 で非推奨となり、Craft 4 で動作しなくなります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2830,6 +2918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Yii’s translation messages</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013139Z" creationid="Toru Kokubun" creationdate="20180420T013139Z">
+        <seg>Yii 向けの翻訳メッセージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use the Updates widget on the Control Panel dashboard, which is installed by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003705Z" creationid="Toru Kokubun" creationdate="20180419T003106Z">
@@ -2938,6 +3034,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002219Z" creationid="Toru Kokubun" creationdate="20180420T002219Z">
         <seg>cacheMethod&lt;x1/&gt;（&lt;x2/&gt;コンフィギュレーション → データキャッシュ設定&lt;x3/&gt;をみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>custom site-specific translation messages</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013203Z" creationid="Toru Kokubun" creationdate="20180420T013203Z">
+        <seg>サイト固有の翻訳メッセージ</seg>
       </tuv>
     </tu>
     <tu>
