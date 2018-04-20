@@ -438,6 +438,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cloning Element Queries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T215732Z" creationid="Toru Kokubun" creationdate="20180420T215732Z">
+        <seg>エレメントクエリの複製</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code of Conduct</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030740Z" creationid="Toru Kokubun" creationdate="20180414T030740Z">
@@ -1062,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220315Z" creationid="Toru Kokubun" creationdate="20180420T220315Z">
+        <seg>例えば、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information on the technical requirements of Craft, &lt;x1/&gt;see the Requirements section&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T225623Z" creationid="Toru Kokubun" creationdate="20180414T030539Z">
@@ -1154,6 +1170,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233517Z" creationid="Toru Kokubun" creationdate="20180414T233517Z">
         <seg>いやがらせや排他的な行動は、容認できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here &lt;x1/&gt;.type()&lt;x2/&gt; is applying the &lt;x3/&gt;type&lt;x4/&gt; parameter to a &lt;x5/&gt;clone&lt;x6/&gt; of &lt;x7/&gt;query&lt;x8/&gt;, so it had no effect on &lt;x9/&gt;query.total()&lt;x10/&gt;, which will still return the total number of News entries, regardless of their entry types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220938Z" creationid="Toru Kokubun" creationdate="20180420T220453Z">
+        <seg>この &lt;x1/&gt;.type()&lt;x2/&gt; は &lt;x3/&gt;type&lt;x4/&gt; パラメータを &lt;x7/&gt;query&lt;x8/&gt; の &lt;x5/&gt;clone&lt;x6/&gt; に適用しているため、 &lt;x9/&gt;query.total()&lt;x10/&gt; には影響を与えません。エントリータイプに関わらず、News エントリの総数を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1342,6 +1366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have any templates that count on the Craft 2 behavior, you can fix them using the &lt;x1/&gt;clone()&lt;x2/&gt; function.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222648Z" creationid="Toru Kokubun" creationdate="20180420T222626Z">
+        <seg>Craft 2 動作に影響を与えるテンプレートがある場合、&lt;x1/&gt;clone()&lt;x2/&gt; ファンクションを用いて修正できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you haven’t set it yet, set it to the value in `storage/runtime/validation.key` (if the file exists).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001817Z" creationid="Toru Kokubun" creationdate="20180420T001817Z">
@@ -1370,6 +1402,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070848Z" creationid="Toru Kokubun" creationdate="20180418T070848Z">
         <seg>既存のディレクトリ構成を維持したい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to set a param value to an array, you now &lt;x1/&gt;must&lt;x2/&gt; type out the array brackets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T215608Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
+        <seg>パラメータ値を配列にセットする場合は、配列の大括弧を入力&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1482,6 +1522,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020710Z" creationid="Toru Kokubun" creationdate="20180415T020710Z">
         <seg>ImageMagick が好ましいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Craft 2, each time you call a parameter-setter method (e.g. &lt;x1/&gt;.type('article')&lt;x2/&gt;), the method would:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221945Z" creationid="Toru Kokubun" creationdate="20180420T215924Z">
+        <seg>Craft 2 では、パラメータ設定メソッド（例：&lt;x1/&gt;.type('article')&lt;x2/&gt;）を呼び出すときは、次のような手順になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1870,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now any time you call a parameter-setter method, the method will:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221707Z" creationid="Toru Kokubun" creationdate="20180420T221232Z">
+        <seg>今では、パラメータ設定メソッドを呼び出すときは、次のような手順になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now get back to work.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025737Z" creationid="Toru Kokubun" creationdate="20180418T025737Z">
@@ -2106,6 +2162,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231339Z" creationid="Toru Kokubun" creationdate="20180414T231116Z">
         <seg>プラグインストアでの配布&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Query Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222733Z" creationid="Toru Kokubun" creationdate="20180420T222733Z">
+        <seg>クエリメソッド</seg>
       </tuv>
     </tu>
     <tu>
@@ -2422,6 +2486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting Params to Arrays</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T215320Z" creationid="Toru Kokubun" creationdate="20180420T215225Z">
+        <seg>パラメータを配列にセットする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting Up the Database</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084451Z" creationid="Toru Kokubun" creationdate="20180415T084451Z">
@@ -2554,6 +2626,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012414Z" creationid="Toru Kokubun" creationdate="20180414T012414Z">
         <seg>テンプレート記法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That made it possible to execute variations of an element query, without affecting subsequent queries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221715Z" creationid="Toru Kokubun" creationdate="20180420T220249Z">
+        <seg>これによって、後続のクエリに影響を与えることなく、エレメントクエリのバリエーションを実行できるようにしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2834,6 +2914,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011814Z" creationid="Toru Kokubun" creationdate="20180420T011814Z">
         <seg>新しい名前付けされたパラメータ構文（&lt;x3/&gt;&lt;ParamName:RegExp&gt;&lt;x4/&gt;）に変換しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This behavior has changed in Craft 3, though.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221857Z" creationid="Toru Kokubun" creationdate="20180420T221111Z">
+        <seg>しかし、この動作は Craft 3 で変更されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3270,6 +3358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Which means in the above code example, &lt;x1/&gt;totalEntries&lt;x2/&gt; will be set to the total &lt;x3/&gt;Article&lt;x4/&gt; entries, as the &lt;x5/&gt;type&lt;x6/&gt; parameter will still be applied.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222317Z" creationid="Toru Kokubun" creationdate="20180420T222317Z">
+        <seg>つまり、上記のサンプルコードでは &lt;x5/&gt;type&lt;x6/&gt; パラメータが適用されてしまうため、&lt;x1/&gt;totalEntries&lt;x2/&gt; には &lt;x3/&gt;Article&lt;x4/&gt; エントリの総数がセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Which means you will need to explicitly set it to &lt;x5/&gt;true&lt;x6/&gt; in &lt;x7/&gt;config/general.php&lt;x8/&gt; if you’ve configured your server to route HTTP requests to &lt;x9/&gt;index.php&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010138Z" creationid="Toru Kokubun" creationdate="20180420T010138Z">
@@ -3430,6 +3526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>clone the &lt;x1/&gt;ElementCriteriaModel&lt;x2/&gt; object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220025Z" creationid="Toru Kokubun" creationdate="20180420T215944Z">
+        <seg>&lt;x1/&gt;ElementCriteriaModel&lt;x2/&gt; オブジェクトを複製する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>custom site-specific translation messages</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013203Z" creationid="Toru Kokubun" creationdate="20180420T013203Z">
@@ -3474,6 +3578,38 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065758Z" creationid="Toru Kokubun" creationdate="20180420T065758Z">
         <seg>ownerSite&lt;x1/&gt; または &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return the cloned object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220045Z" creationid="Toru Kokubun" creationdate="20180420T220045Z">
+        <seg>複製したオブジェクトを返す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return the element query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222023Z" creationid="Toru Kokubun" creationdate="20180420T222023Z">
+        <seg>エレメントクエリを返す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>set the parameter value on the cloned object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222513Z" creationid="Toru Kokubun" creationdate="20180420T220020Z">
+        <seg>複製したオブジェクトのパラメータ値を設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>set the parameter value on the current element query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222519Z" creationid="Toru Kokubun" creationdate="20180420T222012Z">
+        <seg>現在のエレメントクエリにパラメータ値を設定する</seg>
       </tuv>
     </tu>
     <tu>
