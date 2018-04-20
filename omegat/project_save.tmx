@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The DateTime object is represented by the &lt;x1/&gt;d&lt;x2/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063639Z" creationid="Toru Kokubun" creationdate="20180420T063639Z">
+        <seg>（DateTime オブジェクトは、変数 &lt;x1/&gt;d&lt;x2/&gt; で表されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(install it globally)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075437Z" creationid="Toru Kokubun" creationdate="20180415T075437Z">
@@ -22,10 +30,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(no replacement needed; just delete it)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062530Z" creationid="Toru Kokubun" creationdate="20180420T062530Z">
+        <seg>（置き換えが必要なのではなく、単に削除してください）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(treated as a string)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063221Z" creationid="Toru Kokubun" creationdate="20180420T063221Z">
+        <seg>（文字列として扱われる）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(write your own media selector)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062732Z" creationid="Toru Kokubun" creationdate="20180420T062732Z">
+        <seg>（自身のメディアセレクタを記述します）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*&lt;x1/&gt;3&lt;x2/&gt; Settings that supported Environment Variables in Craft 2 now support &lt;x3/&gt;Aliases&lt;x4/&gt; in Craft 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001628Z" creationid="Toru Kokubun" creationdate="20180420T001231Z">
         <seg>*&lt;x1/&gt;3&lt;x2/&gt; Craft 2 で環境変数をサポートしていた設定は、Craft 3 の &lt;x3/&gt;エイリアス&lt;x4/&gt; でサポートされるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; Only available if the `queue` component implements `craft\queue\QueueInterface`.&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063012Z" creationid="Toru Kokubun" creationdate="20180420T063012Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; `queue` コンポーネントが `craft\queue\QueueInterface` を実装している場合のみ、使用可能です。&lt;x3/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -174,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All of them</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065521Z" creationid="Toru Kokubun" creationdate="20180420T065521Z">
+        <seg>すべて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All strings must use double quotes rather than single quotes</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221727Z" creationid="Toru Kokubun" creationdate="20180419T221727Z">
@@ -194,6 +242,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232143Z" creationid="Toru Kokubun" creationdate="20180414T232143Z">
         <seg>あなたの意思決定はユーザーや同僚に影響を与えるでしょう。そのため、決定を下す際はどのような結果になるかを考慮すべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asset</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065548Z" creationid="Toru Kokubun" creationdate="20180420T065548Z">
+        <seg>アセット</seg>
       </tuv>
     </tu>
     <tu>
@@ -566,6 +622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft 3 uses Twig 2, which has its own breaking changes for templates:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061619Z" creationid="Toru Kokubun" creationdate="20180420T061551Z">
+        <seg>Craft 3 では、テンプレート向けに独自の変更を加えた Twig 2 を使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft Installation Complete&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025651Z" creationid="Toru Kokubun" creationdate="20180418T025651Z">
@@ -678,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft’s extended DateTime class has been removed in Craft 3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063150Z" creationid="Toru Kokubun" creationdate="20180420T063150Z">
+        <seg>Craft によって拡張された DateTime クラスは Craft 3 で削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft’s translation messages</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013123Z" creationid="Toru Kokubun" creationdate="20180420T013123Z">
@@ -718,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currency Formatting</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063739Z" creationid="Toru Kokubun" creationdate="20180420T063739Z">
+        <seg>通貨フォーマット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Currency Formatting&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220454Z" creationid="Toru Kokubun" creationdate="20180419T215954Z">
@@ -730,6 +810,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031224Z" creationid="Toru Kokubun" creationdate="20180415T031224Z">
         <seg>DOM&lt;x1/&gt; - &lt;x2/&gt;yii\web\XmlResponseFormatter&lt;x3/&gt; と同様に、XML フィードを解析するために必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date Formatting</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063113Z" creationid="Toru Kokubun" creationdate="20180420T063113Z">
+        <seg>日付フォーマット</seg>
       </tuv>
     </tu>
     <tu>
@@ -854,10 +942,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Element Queries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065152Z" creationid="Toru Kokubun" creationdate="20180420T065152Z">
+        <seg>エレメントクエリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Element Queries&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012143Z" creationid="Toru Kokubun" creationdate="20180414T012143Z">
-        <seg>エレメントクエリー&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065201Z" creationid="Toru Kokubun" creationdate="20180414T012143Z">
+        <seg>エレメントクエリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Element Type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065435Z" creationid="Toru Kokubun" creationdate="20180420T065435Z">
+        <seg>エレメントタイプ</seg>
       </tuv>
     </tu>
     <tu>
@@ -874,6 +978,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012501Z" creationid="Toru Kokubun" creationdate="20180414T012501Z">
         <seg>エレメント&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable the “Assets in this volume have public URLs” setting</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061006Z" creationid="Toru Kokubun" creationdate="20180420T061006Z">
+        <seg>「このボリュームのアセットにはパブリック URL が含まれます」設定を有効化します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1030,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Go to Settings → Assets → Volumes → User Photos and configure the volume based on the new folder location:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T060804Z" creationid="Toru Kokubun" creationdate="20180420T055058Z">
+        <seg>「設定 &gt; アセット &gt; ボリューム &gt; User Photos」に移動し、新しいフォルダのロケーションに基づいてボリュームを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Harassment and other exclusionary behavior aren’t acceptable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233517Z" creationid="Toru Kokubun" creationdate="20180414T233517Z">
@@ -1054,6 +1174,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s a list of things you used to be able to do in your templates, and what the Craft 3 equivalent is.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063604Z" creationid="Toru Kokubun" creationdate="20180420T063537Z">
+        <seg>ここに、テンプレート内で使用可能だったものと、Craft 3 で同様の働きをするもののリストを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s how you can resolve this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054736Z" creationid="Toru Kokubun" creationdate="20180420T054729Z">
+        <seg>次の方法で解決してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to Use the Documentation</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235559Z" creationid="Toru Kokubun" creationdate="20180414T235509Z">
@@ -1074,6 +1210,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215414Z" creationid="Toru Kokubun" creationdate="20180415T001912Z">
         <seg>どのようにドキュメンテーションを使うかは、あなたの経験と状況に依存するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However this folder is above your web root and inaccessible to HTTP requests, so until you make this volume publicly accessible, user photos will not work on the front end.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054640Z" creationid="Toru Kokubun" creationdate="20180420T054640Z">
+        <seg>しかしながら、このフォルダはウェブルートよりも上位階層にあるため、HTTP リクエストでアクセスできません。 そのため、このボリュームをアクセスできる状態にするまで、ユーサーフォトはフロントエンドで動作しません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1366,6 +1510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In reality it could be &lt;x3/&gt;entry.postDate&lt;x4/&gt;, &lt;x5/&gt;now&lt;x6/&gt;, etc.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063703Z" creationid="Toru Kokubun" creationdate="20180420T063703Z">
+        <seg>実際には &lt;x3/&gt;entry.postDate&lt;x4/&gt; や &lt;x5/&gt;now&lt;x6/&gt; などになる可能性があります。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Input the information you saved in Step 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T065339Z" creationid="Toru Kokubun" creationdate="20180418T022304Z">
@@ -1478,6 +1630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It still works the same, but the &lt;x5/&gt;stripZeroCents&lt;x6/&gt; argument has been renamed to &lt;x7/&gt;stripZeros&lt;x8/&gt;, and pushed back a couple notches, so you will need to update your templates if you were setting that argument.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065056Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
+        <seg>それでも同じ働きとなりますが、引数 &lt;x5/&gt;stripZeroCents&lt;x6/&gt; は &lt;x7/&gt;stripZeros&lt;x8/&gt; にリネームされ、2つのノッチが必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Its document root should point to your public HTML folder.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180417T220501Z" creationid="Toru Kokubun" creationdate="20180415T220535Z">
@@ -1534,6 +1694,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Macros</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061630Z" creationid="Toru Kokubun" creationdate="20180420T061630Z">
+        <seg>マクロ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matrix Block</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065600Z" creationid="Toru Kokubun" creationdate="20180420T065600Z">
+        <seg>マトリックスブロック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Members of the Craft community should be respectful when dealing with other members as well as with people outside the Craft community.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233124Z" creationid="Toru Kokubun" creationdate="20180414T233124Z">
@@ -1566,6 +1742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Move the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder somewhere below your web root (e.g. &lt;x3/&gt;public_html/userphotos/&lt;x4/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054846Z" creationid="Toru Kokubun" creationdate="20180420T054846Z">
+        <seg>&lt;x1/&gt;storage/userphotos/&lt;x2/&gt; フォルダをウェブルート下層のどこかに移動します。（例： &lt;x3/&gt;public_html/userphotos/&lt;x4/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MySQL 5.5+ (with InnoDB) or PostgreSQL 9.5+</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T030735Z" creationid="Toru Kokubun" creationdate="20180415T020446Z">
@@ -1586,6 +1770,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012455Z" creationid="Toru Kokubun" creationdate="20180420T012455Z">
         <seg>新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Param</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065447Z" creationid="Toru Kokubun" creationdate="20180420T065447Z">
+        <seg>新しいパラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -1706,6 +1898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012446Z" creationid="Toru Kokubun" creationdate="20180420T012446Z">
         <seg>旧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Old Param</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065441Z" creationid="Toru Kokubun" creationdate="20180420T065441Z">
+        <seg>古いパラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -1912,16 +2112,24 @@
       <tuv lang="EN-US">
         <seg>Query Methods&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220044Z" creationid="Toru Kokubun" creationdate="20180419T220044Z">
-        <seg>クエリーメソッド&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065210Z" creationid="Toru Kokubun" creationdate="20180419T220044Z">
+        <seg>クエリメソッド&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065408Z" creationid="Toru Kokubun" creationdate="20180420T065408Z">
+        <seg>クエリパラメータ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Query Params&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220029Z" creationid="Toru Kokubun" creationdate="20180419T220029Z">
-        <seg>クエリーパラメータ&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065208Z" creationid="Toru Kokubun" creationdate="20180419T220029Z">
+        <seg>クエリパラメータ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2094,6 +2302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Save the volume</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061358Z" creationid="Toru Kokubun" creationdate="20180420T061358Z">
+        <seg>ボリュームを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scroll down through the agreement (reading it all, of course) and tap or click "Got it" to accept.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024223Z" creationid="Toru Kokubun" creationdate="20180418T022156Z">
@@ -2114,6 +2330,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011808Z" creationid="Toru Kokubun" creationdate="20180414T011808Z">
         <seg>セクションとエントリー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;Asset Bundles&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062804Z" creationid="Toru Kokubun" creationdate="20180420T062804Z">
+        <seg>&lt;x1/&gt;アセットバンドル&lt;x2/&gt;を見てください</seg>
       </tuv>
     </tu>
     <tu>
@@ -2154,6 +2378,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230856Z" creationid="Toru Kokubun" creationdate="20180414T230856Z">
         <seg>サービス&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the correct URL setting for the folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061349Z" creationid="Toru Kokubun" creationdate="20180420T061349Z">
+        <seg>フォルダに対応する正しい「ベース URL」を設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2254,6 +2486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tag</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065533Z" creationid="Toru Kokubun" creationdate="20180420T065533Z">
+        <seg>タグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tags&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011946Z" creationid="Toru Kokubun" creationdate="20180414T011946Z">
@@ -2262,10 +2502,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Template Functions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062823Z" creationid="Toru Kokubun" creationdate="20180420T062823Z">
+        <seg>テンプレートファンクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Template Functions&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215913Z" creationid="Toru Kokubun" creationdate="20180419T215913Z">
         <seg>テンプレートファンクション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Template Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062428Z" creationid="Toru Kokubun" creationdate="20180420T062428Z">
+        <seg>テンプレートタグ</seg>
       </tuv>
     </tu>
     <tu>
@@ -2310,10 +2566,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;limit&lt;x2/&gt; param is now set to &lt;x3/&gt;null&lt;x4/&gt; (no limit) by default, rather than 100.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065925Z" creationid="Toru Kokubun" creationdate="20180420T065925Z">
+        <seg>&lt;x1/&gt;limit&lt;x2/&gt; パラメータは、100ではなく、デフォルトで &lt;x3/&gt;null&lt;x4/&gt;（無制限）がセットされるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;omitScriptNameInUrls&lt;x2/&gt; setting can no longer be set to &lt;x3/&gt;'auto'&lt;x4/&gt;, as it was by default in Craft 2.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T005919Z" creationid="Toru Kokubun" creationdate="20180420T005919Z">
         <seg>&lt;x1/&gt;omitScriptNameInUrls&lt;x2/&gt; 設定は、Craft 2 のデフォルトがそうであったように &lt;x3/&gt;'auto'&lt;x4/&gt; にすることはもはやできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
+        <seg>&lt;x1/&gt;|currency&lt;x2/&gt; フィルタは &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt; にマップされるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2390,6 +2662,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following Twig template tags have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062642Z" creationid="Toru Kokubun" creationdate="20180420T062616Z">
+        <seg>次の Twig テンプレートタグは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following Twig template tags have been removed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062445Z" creationid="Toru Kokubun" creationdate="20180420T062445Z">
+        <seg>次の Twig タグは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following config settings have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T000407Z" creationid="Toru Kokubun" creationdate="20180420T000407Z">
@@ -2402,6 +2690,38 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002022Z" creationid="Toru Kokubun" creationdate="20180420T002022Z">
         <seg>次の設定は完全に削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following params are now deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065733Z" creationid="Toru Kokubun" creationdate="20180420T065733Z">
+        <seg>次のパラメータは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following params have been removed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065655Z" creationid="Toru Kokubun" creationdate="20180420T065655Z">
+        <seg>次のパラメータは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following template functions have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063040Z" creationid="Toru Kokubun" creationdate="20180420T063040Z">
+        <seg>次のテンプレートファンクションは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following template functions have been removed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062837Z" creationid="Toru Kokubun" creationdate="20180420T062837Z">
+        <seg>次のテンプレートファンクションは削除されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2490,6 +2810,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074544Z" creationid="Toru Kokubun" creationdate="20180415T010537Z">
         <seg>これらは、Craft ベースでいかなるウェブサイトを構築する際にもあなたが遭遇するであろう、最初の3つの項目です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are no longer automatically available if a parent template is including them, or even if they were defined in the same template file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062044Z" creationid="Toru Kokubun" creationdate="20180420T062007Z">
+        <seg>親テンプレートでインクルードしている場合だけでなく、同じテンプレートファイルで定義されているときでさえも、自動的に利用することはできません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2640,8 +2968,8 @@
       <tuv lang="EN-US">
         <seg>Treating Queries as Arrays&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220101Z" creationid="Toru Kokubun" creationdate="20180419T220101Z">
-        <seg>クエリーを配列として扱う&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065216Z" creationid="Toru Kokubun" creationdate="20180419T220101Z">
+        <seg>クエリを配列として扱う&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2650,6 +2978,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014814Z" creationid="Toru Kokubun" creationdate="20180418T014814Z">
         <seg>代わりに http://example.com/index.php/admin または http://example.com/index.php?p=admin にアクセスしてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig 1 let you call &lt;x1/&gt;block()&lt;x2/&gt; even for blocks that didn’t exist:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062236Z" creationid="Toru Kokubun" creationdate="20180420T062236Z">
+        <seg>Twig 1 では、存在しないブロックでさえも &lt;x1/&gt;block()&lt;x2/&gt; で呼び出すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig 2 requires that you explicitly import macros in each template where you are using them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061759Z" creationid="Toru Kokubun" creationdate="20180420T061759Z">
+        <seg>Twig 2 では、利用先となる各テンプレートで明示的にマクロをインポートする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig 2 will throw an error unless it’s a &lt;x1/&gt;defined&lt;x2/&gt; test:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062349Z" creationid="Toru Kokubun" creationdate="20180420T062349Z">
+        <seg>Twig 2 では、&lt;x1/&gt;defined&lt;x2/&gt; のテストでない限り、エラーを返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2678,6 +3030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Undefined Blocks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062117Z" creationid="Toru Kokubun" creationdate="20180420T062117Z">
+        <seg>未定義のブロック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unnamed parameters are no longer allowed (e.g. &lt;x1/&gt;([^\/]+)&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011731Z" creationid="Toru Kokubun" creationdate="20180420T011731Z">
@@ -2690,6 +3050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234820Z" creationid="Toru Kokubun" creationdate="20180414T234820Z">
         <seg>ありがたくない性の対象としての注目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update the File System Path setting to point to the new folder location</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T060926Z" creationid="Toru Kokubun" creationdate="20180420T060926Z">
+        <seg>「ファイルシステムのパス」設定を新しいフォルダのロケーションにしてアップデートします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2758,10 +3126,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User Photos</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054208Z" creationid="Toru Kokubun" creationdate="20180420T054208Z">
+        <seg>ユーザーフォト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Photos&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215857Z" creationid="Toru Kokubun" creationdate="20180419T215857Z">
         <seg>ユーザーフォト&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User photos are stored as assets now.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054311Z" creationid="Toru Kokubun" creationdate="20180420T054311Z">
+        <seg>ユーザーフォトはアセットとして保存されるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2866,6 +3250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003019Z" creationid="Toru Kokubun" creationdate="20180419T002815Z">
         <seg>アップデートが可能になると、Craft のアップデート権限を持つユーザーは CP のサイドバーにあるナビゲーション項目「ユーティリティ」の横にバッジを確認できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos”, set to the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder, where Craft previously stored all user photos.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055254Z" creationid="Toru Kokubun" creationdate="20180420T054448Z">
+        <seg>Craft 3 にアップグレードすると、Craft は「User Photos」と呼ばれる新しいアセットボリュームを作成し、過去にアップロードされたファイルを &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; フォルダにセットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3032,8 +3424,8 @@
       <tuv lang="EN-US">
         <seg>cacheMethod&lt;x1/&gt; (see &lt;x2/&gt;Configuration → Data Caching Config&lt;x3/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002219Z" creationid="Toru Kokubun" creationdate="20180420T002219Z">
-        <seg>cacheMethod&lt;x1/&gt;（&lt;x2/&gt;コンフィギュレーション → データキャッシュ設定&lt;x3/&gt;をみてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055207Z" creationid="Toru Kokubun" creationdate="20180420T002219Z">
+        <seg>cacheMethod&lt;x1/&gt;（&lt;x2/&gt;コンフィギュレーション &gt; データキャッシュ設定&lt;x3/&gt;をみてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3062,10 +3454,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>limit&lt;x1/&gt; Param</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065825Z" creationid="Toru Kokubun" creationdate="20180420T065825Z">
+        <seg>limit&lt;x1/&gt; パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>omitScriptNameInUrls&lt;x1/&gt; and &lt;x2/&gt;usePathInfo&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002302Z" creationid="Toru Kokubun" creationdate="20180420T002302Z">
         <seg>omitScriptNameInUrls&lt;x1/&gt; と &lt;x2/&gt;usePathInfo&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ownerSite&lt;x1/&gt; or &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065758Z" creationid="Toru Kokubun" creationdate="20180420T065758Z">
+        <seg>ownerSite&lt;x1/&gt; または &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>siteId&lt;x1/&gt; or &lt;x2/&gt;site&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065749Z" creationid="Toru Kokubun" creationdate="20180420T065749Z">
+        <seg>siteId&lt;x1/&gt; または &lt;x2/&gt;site&lt;x3/&gt;</seg>
       </tuv>
     </tu>
     <tu>
