@@ -16,3 +16,4 @@ Relations	リレーション
 Note:	メモ：
 {tip}	ヒント：
 public HTML folder	公開ディレクトリ
+syntax	構文
