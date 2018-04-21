@@ -19,3 +19,7 @@ public HTML folder	公開ディレクトリ
 syntax	構文
 param	パラメータ
 method	メソッド、手順
+column	カラム、列	DB であれば「カラム」、表組みであれば「列」とする
+clause	句
+controller	コントローラー
+Token	トークン
