@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A section can have one or many entries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010946Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
+        <seg>セクションは、1つまたは複数のエントリーを持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A web server (Apache, Nginx, IIS)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075005Z" creationid="Toru Kokubun" creationdate="20180415T020458Z">
@@ -346,6 +354,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063448Z" creationid="Toru Kokubun" creationdate="20180418T063448Z">
         <seg>はじめる前に、次のことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before you get started using Craft CMS to build your website, let's first talk about the pieces of Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004432Z" creationid="Toru Kokubun" creationdate="20180421T004432Z">
+        <seg>Craft CMS でウェブサイトを構築する前に、 Craft のピースについて説明しましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -766,10 +782,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft is agnostic to your website's layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014616Z" creationid="Toru Kokubun" creationdate="20180421T014413Z">
+        <seg>Craft は、あなたのウェブサイトのレイアウトに無関心です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft pre-fills all three based on other settings but you can edit each field before clicking "Finish up".</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024246Z" creationid="Toru Kokubun" creationdate="20180418T024212Z">
         <seg>Craft は他の設定に基づいて3つの項目をあらかじめ埋めますが、「Finish up（完了）」ボタンをクリックする前にそれぞれのフィールドを編集することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft provides some fields automatically (Title, Slug, Post Date, and more) but we can also define our own fields so we can mold Craft &lt;x1/&gt;around&lt;x2/&gt; our content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012209Z" creationid="Toru Kokubun" creationdate="20180421T011935Z">
+        <seg>Craft はいくつかのフィールド（タイトル、スラグ、投稿日など）を自動的に提供しますが、独自フィールドを定義してコンテンツ&lt;x1/&gt;に即した&lt;x2/&gt; Craft を形作ることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -786,6 +818,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064608Z" creationid="Toru Kokubun" creationdate="20180415T020420Z">
         <seg>Craft は次の項目が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft uses the &lt;x1/&gt;Twig templating engine&lt;x2/&gt; to make it really easy for you to bring the website templates to life using the data you’ve saved in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015252Z" creationid="Toru Kokubun" creationdate="20180421T015016Z">
+        <seg>Craft は保存されたデータをウェブサイトのテンプレートで使いやすくするために &lt;x1/&gt;Twig テンプレートエンジン&lt;x2/&gt;を利用しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -934,6 +974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Directory Structure</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020056Z" creationid="Toru Kokubun" creationdate="20180421T020056Z">
+        <seg>ディレクトリ構造</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Directory Structure&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011655Z" creationid="Toru Kokubun" creationdate="20180414T011655Z">
@@ -978,6 +1026,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235249Z" creationid="Toru Kokubun" creationdate="20180414T235249Z">
         <seg>誤ることが人間的であることを忘れないでください。そして、お互いに非難してもわたしたちのためになりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each entry can only belong to one Section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010933Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
+        <seg>それぞれのエントリーは、1つのセクションにしか属することができません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each of these types allows you to store your content with a slightly different set of features.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010248Z" creationid="Toru Kokubun" creationdate="20180421T005616Z">
+        <seg>それぞれのセクションタイプには、わずかに異なる機能とともにコンテンツを保存しておくことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,6 +1126,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004702Z" creationid="Toru Kokubun" creationdate="20180421T004702Z">
+        <seg>エントリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries are your individual pieces of content (like a cocktail recipe).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010628Z" creationid="Toru Kokubun" creationdate="20180421T010553Z">
+        <seg>エントリーは（カクテルレシピのような）コンテンツの独立したピースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exclusionary gendered language (guys, gentlemen, bros, etc).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072248Z" creationid="Toru Kokubun" creationdate="20180414T234008Z">
@@ -1082,6 +1162,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230929Z" creationid="Toru Kokubun" creationdate="20180414T230929Z">
         <seg>フィールドタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004707Z" creationid="Toru Kokubun" creationdate="20180421T004707Z">
+        <seg>フィールド</seg>
       </tuv>
     </tu>
     <tu>
@@ -1138,6 +1226,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220315Z" creationid="Toru Kokubun" creationdate="20180420T220315Z">
         <seg>例えば、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more depth on each piece, click through to the Core Concepts section of the documentation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015953Z" creationid="Toru Kokubun" creationdate="20180421T015953Z">
+        <seg>各項目の詳細は、ドキュメントのコアコンセプトのセクションをクリックしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1274,6 +1370,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054736Z" creationid="Toru Kokubun" creationdate="20180420T054729Z">
         <seg>次の方法で解決してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Holds all of your Craft and plugin &lt;x1/&gt;configuration files&lt;x2/&gt;, as well as your &lt;x3/&gt;license.key&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020519Z" creationid="Toru Kokubun" creationdate="20180421T020513Z">
+        <seg>すべての Craft とプラグインの&lt;x1/&gt;設定ファイル&lt;x2/&gt;と &lt;x3/&gt;license.key&lt;x4/&gt; ファイルを保持します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inside of the Sections are Entries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010443Z" creationid="Toru Kokubun" creationdate="20180421T010443Z">
+        <seg>セクションの内側にエントリーがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Install Composer</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073025Z" creationid="Toru Kokubun" creationdate="20180415T073025Z">
@@ -1782,6 +1894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It doesn't use themes or impose any content layout or structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014644Z" creationid="Toru Kokubun" creationdate="20180421T014644Z">
+        <seg>テーマを使わず、また、 いかなるコンテンツレイアウトや構造を強要しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is important that we resolve disagreements and differing views constructively.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235046Z" creationid="Toru Kokubun" creationdate="20180414T235046Z">
@@ -1818,6 +1938,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222332Z" creationid="Toru Kokubun" creationdate="20180418T222332Z">
         <seg>それは、もはや必要ありません。Craft 3 は &lt;x3/&gt;vendor/craftcms/cms/&lt;x4/&gt; に配置されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's say we are working on our cocktail lounge website and want to build out the Recipes section for the house drinks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T013852Z" creationid="Toru Kokubun" creationdate="20180421T012350Z">
+        <seg>わたしたちがカクテルラウンジのウェブサイトに取り組んでいて、ハウスドリンクのためのレシピセクションを作りたいとしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's say you have a cocktail lounge website with various types of content: news, events, and recipes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T005310Z" creationid="Toru Kokubun" creationdate="20180421T005310Z">
+        <seg>様々なタイプのコンテンツ（ニュース、イベント、レシピ）を持つカクテルラウンジのウェブサイトを保有しているとします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1906,6 +2042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220106Z" creationid="Toru Kokubun" creationdate="20180419T220106Z">
         <seg>モデル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More Information</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004827Z" creationid="Toru Kokubun" creationdate="20180421T004743Z">
+        <seg>詳細情報</seg>
       </tuv>
     </tu>
     <tu>
@@ -2062,6 +2206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nothing that Craft couldn’t live without, if the folder happened to get deleted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T022716Z" creationid="Toru Kokubun" creationdate="20180421T022449Z">
+        <seg>もしフォルダが削除されたとしても、Craft の存続に影響はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now Craft will run the installer and complete the setup process.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025601Z" creationid="Toru Kokubun" creationdate="20180418T025325Z">
@@ -2090,6 +2242,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T000355Z" creationid="Toru Kokubun" creationdate="20180419T000355Z">
         <seg>これで Craft 2 プロジェクトから Craft 3 へのアップグレードが完了しました。&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;を確認する時間を設けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we need to create the fields to hold our content within that Section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012700Z" creationid="Toru Kokubun" creationdate="20180421T012649Z">
+        <seg>今度は、そのセクション内にコンテンツを保持するため、フィールドを作る必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2202,6 +2362,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T030827Z" creationid="Toru Kokubun" creationdate="20180415T030827Z">
         <seg>オプションの PHP エクステンション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Our recipes are pretty simple but we do need to define some Fields:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012738Z" creationid="Toru Kokubun" creationdate="20180421T012738Z">
+        <seg>レシピはとてもシンプルながら、いくつかのフィールド定義が必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2378,6 +2546,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232523Z" creationid="Toru Kokubun" creationdate="20180414T032331Z">
         <seg>むしろ、意図している「わたしたち自身や参加する技術的なコミュニティのすべてをより豊かにするためのガイドである」という精神を取り入れてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recipe Content (ingredients and instructions)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012944Z" creationid="Toru Kokubun" creationdate="20180421T012944Z">
+        <seg>レシピのコンテンツ（材料と作り方）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recipe Image</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012754Z" creationid="Toru Kokubun" creationdate="20180421T012754Z">
+        <seg>レシピ画像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Recipe Snapshot (short description)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012828Z" creationid="Toru Kokubun" creationdate="20180421T012828Z">
+        <seg>レシピのスナップショット（簡単な説明）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2574,10 +2766,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sections</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004655Z" creationid="Toru Kokubun" creationdate="20180421T004655Z">
+        <seg>セクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sections and Entries&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011808Z" creationid="Toru Kokubun" creationdate="20180414T011808Z">
         <seg>セクションとエントリー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sections are how we organize our content or data in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T005142Z" creationid="Toru Kokubun" creationdate="20180421T005102Z">
+        <seg>セクションは、Craft のコンテンツやデータを整理するための手段です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2726,6 +2934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some of the folders you might find in there include:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020939Z" creationid="Toru Kokubun" creationdate="20180421T020939Z">
+        <seg>そこにはいくつかのフォルダが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Static Translation Files</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012556Z" creationid="Toru Kokubun" creationdate="20180420T012556Z">
@@ -2814,6 +3030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004723Z" creationid="Toru Kokubun" creationdate="20180421T004723Z">
+        <seg>テンプレート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Templates&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011818Z" creationid="Toru Kokubun" creationdate="20180414T011818Z">
@@ -2886,10 +3110,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Pieces of Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004341Z" creationid="Toru Kokubun" creationdate="20180421T004341Z">
+        <seg>Craft のピース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Pieces of Craft&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011605Z" creationid="Toru Kokubun" creationdate="20180414T011605Z">
         <seg>Craft のピース&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Twig website has a solid overview of what Twig is and how you can use it in your HTML templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015715Z" creationid="Toru Kokubun" creationdate="20180421T015715Z">
+        <seg>Twig のウェブサイトには、Twig についての概要や HTML テンプレートでどのように利用できるかが載っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2922,6 +3162,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031500Z" creationid="Toru Kokubun" creationdate="20180415T031500Z">
         <seg>Craft のデータベースに接続するユーザーには、次の特権がなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entries are typically inputted via the Entry Form in the Craft Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T011029Z" creationid="Toru Kokubun" creationdate="20180421T010849Z">
+        <seg>エントリーは、通常コントロールパネルの入力フォームから入力されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3142,6 +3390,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are three different Section Types in Craft: Channels, Structures, and Singles.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T005416Z" creationid="Toru Kokubun" creationdate="20180421T005416Z">
+        <seg>Craft には3つの異なるセクションタイプ（チャンネル、ストラクチャー、シングル）があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are two cases where &lt;x1/&gt;inReverse()&lt;x2/&gt; won’t work as expected, though:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232352Z" creationid="Toru Kokubun" creationdate="20180420T232352Z">
@@ -3154,6 +3410,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070820Z" creationid="Toru Kokubun" creationdate="20180418T070554Z">
         <seg>&lt;x1/&gt;既存のディレクトリ構成を維持する&lt;x2/&gt;か、新規の Craft 3 インストールに似た&lt;x3/&gt;新しい構成へ切り替える&lt;x4/&gt;かによって、Craft のアップデートには2つの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are a large components that you'll use to implement your website's content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004607Z" creationid="Toru Kokubun" creationdate="20180421T004600Z">
+        <seg>これらは、ウェブサイトのコンテンツを実装するために利用する大きなコンポーネントです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3286,6 +3550,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is where Craft stores a bunch of files that get dynamically generated at runtime.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020854Z" creationid="Toru Kokubun" creationdate="20180421T020658Z">
+        <seg>ランタイムで動的に生成される一連のファイルを Craft が格納する場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This isn’t an exhaustive list of things that you can’t do.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032259Z" creationid="Toru Kokubun" creationdate="20180414T032231Z">
@@ -3314,6 +3586,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
         <seg>新しい Craft プロジェクトを作成するため、次のコマンドを実行してください。（Composer が作成するプロジェクトのパスの代わりに&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; と記載しています。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To review the specifics of each type, check out the &lt;x1/&gt;Sections and Entries&lt;x2/&gt; page of this documentation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010355Z" creationid="Toru Kokubun" creationdate="20180421T010355Z">
+        <seg>各タイプの詳細を確認するには、このドキュメントの&lt;x1/&gt;セクションとエントリー&lt;x2/&gt;ページをチェックしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3394,6 +3674,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011925Z" creationid="Toru Kokubun" creationdate="20180414T011925Z">
         <seg>Twig 入門編&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig is fantastic because it is flexible and fast.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015317Z" creationid="Toru Kokubun" creationdate="20180421T015317Z">
+        <seg>柔軟で高速なため、Twig は素晴らしいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig isn’t specific to Craft; it’s developed and maintained by the Symfony project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015825Z" creationid="Toru Kokubun" creationdate="20180421T015825Z">
+        <seg>Twig は Craft 特有のものではなく、Symfony プロジェクトによって開発され、メンテナンスされています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3582,6 +3878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We could get even more detailed with the Recipe Content but this will be fine for now.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T013319Z" creationid="Toru Kokubun" creationdate="20180421T013319Z">
+        <seg>レシピのコンテンツをより詳細にするかもしれませんが、今のところは十分でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We created this documentation to accurately record the functionality of Craft with the purpose of helping you understand how to use it to build websites.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215949Z" creationid="Toru Kokubun" creationdate="20180415T000531Z">
@@ -3622,10 +3926,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We use Fields in Craft to define the different content types that are stored in an Entry.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012129Z" creationid="Toru Kokubun" creationdate="20180421T011208Z">
+        <seg>Craft のフィールドを利用して、エントリーに格納する様々なコンテンツタイプを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We use Templates in Craft to output our website design and content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014150Z" creationid="Toru Kokubun" creationdate="20180421T014150Z">
+        <seg>ウェブサイトのデザインやコンテンツを出力するために、Craft のテンプレートを利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We've already created the Section called "Recipes" to hold our entries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012555Z" creationid="Toru Kokubun" creationdate="20180421T012555Z">
+        <seg>エントリーを保持するため「レシピ」と呼ばれるセクションをすでに作成してあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What it’s For</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T025417Z" creationid="Toru Kokubun" creationdate="20180414T025417Z">
         <seg>目的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a Craft project is initiated using the &lt;x1/&gt;`craftcms/craft`&lt;x2/&gt; Composer project, it will have the following files and directories:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020407Z" creationid="Toru Kokubun" creationdate="20180421T020329Z">
+        <seg>Composer プロジェクトの &lt;x1/&gt;`craftcms/craft`&lt;x2/&gt; を使用して Craft プロジェクトを初期化すると、次のファイルおよびディレクトリが含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3774,6 +4110,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can think of a template as a HTML document.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014304Z" creationid="Toru Kokubun" creationdate="20180421T014223Z">
+        <seg>テンプレートは HTML ドキュメントだと考えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use your own HTML/CSS/JS layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014817Z" creationid="Toru Kokubun" creationdate="20180421T014806Z">
+        <seg>独自の HTML / CSS / JS レイアウトを利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You don’t need to know PHP or Yii to use it unless you intend to write your own plugins.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215542Z" creationid="Toru Kokubun" creationdate="20180414T030438Z">
@@ -3854,6 +4206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>backups/&lt;x1/&gt; – Stores database backups that get created when you update Craft or run the DB Backup utility.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021142Z" creationid="Toru Kokubun" creationdate="20180421T021142Z">
+        <seg>backups/&lt;x1/&gt; – Craft のアップデートやデータベースバックアップユーティリティの実行時に生成される、データベースのバックアップを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cacheMethod&lt;x1/&gt; (see &lt;x2/&gt;Configuration → Data Caching Config&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055207Z" creationid="Toru Kokubun" creationdate="20180420T002219Z">
@@ -3918,6 +4278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>logs/&lt;x1/&gt; – Stores Craft’s logs and PHP error logs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021158Z" creationid="Toru Kokubun" creationdate="20180421T021158Z">
+        <seg>logs/&lt;x1/&gt; – Craft のログや PHP エラーログを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>omitScriptNameInUrls&lt;x1/&gt; and &lt;x2/&gt;usePathInfo&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002302Z" creationid="Toru Kokubun" creationdate="20180420T002302Z">
@@ -3930,6 +4298,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065758Z" creationid="Toru Kokubun" creationdate="20180420T065758Z">
         <seg>ownerSite&lt;x1/&gt; または &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rebrand/&lt;x1/&gt; – Stores the custom Login Page Logo and Site Icon files, if you’ve uploaded them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021332Z" creationid="Toru Kokubun" creationdate="20180421T021320Z">
+        <seg>rebrand/&lt;x1/&gt; – アップロードしてある場合、カスタムログインページのロゴとサイトアイコンファイルを格納します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3962,6 +4338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222023Z" creationid="Toru Kokubun" creationdate="20180420T222023Z">
         <seg>エレメントクエリを返す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime/&lt;x1/&gt; – Pretty much everything in here is there for caching and logging purposes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021908Z" creationid="Toru Kokubun" creationdate="20180421T021433Z">
+        <seg>runtime/&lt;x1/&gt; – ここにあるすべては、おおよそキャッシングやロギングを目的とするものです。</seg>
       </tuv>
     </tu>
     <tu>
