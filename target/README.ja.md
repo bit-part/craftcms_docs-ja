@@ -39,9 +39,9 @@ Craft 3 ドキュメント
 - [検索](ja/searching.md)
 - [サイト](ja/sites.md)
 - [ローカライゼーション](ja/localization.md)
-- [エレメントクエリー](ja/element-queries.md)
+- [エレメントクエリ](ja/element-queries.md)
 - [コンテンツの移行](ja/content-migrations.md)
-- [設定](ja/configuration.md)
+- [コンフィギュレーション](ja/configuration.md)
 
 ## テンプレート記法
 
