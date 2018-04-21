@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>(&lt;x5/&gt;inReverse()&lt;x6/&gt; will reverse the sort direction of all of the &lt;x7/&gt;ORDER BY&lt;x8/&gt; columns in the generated SQL.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232257Z" creationid="Toru Kokubun" creationdate="20180420T232059Z">
+        <seg>（&lt;x5/&gt;inReverse()&lt;x6/&gt; は、生成された SQL のすべての &lt;x7/&gt;ORDER BY&lt;x8/&gt; カラムのソート方向を反転させます。） </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Note that you should create your Craft 3 project in a new location; not in the same place as your Craft 2 project).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234141Z" creationid="Toru Kokubun" creationdate="20180418T234119Z">
@@ -34,6 +42,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062530Z" creationid="Toru Kokubun" creationdate="20180420T062530Z">
         <seg>（置き換えが必要なのではなく、単に削除してください）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(see [`last()`](&lt;x1/&gt;last))&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230053Z" creationid="Toru Kokubun" creationdate="20180420T230048Z">
+        <seg>（ [`last()`](&lt;x1/&gt;last) を見てください）&lt;x2/&gt; </seg>
       </tuv>
     </tu>
     <tu>
@@ -230,6 +246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, if you already needed to fetch the actual query results, and you didn’t set the &lt;x1/&gt;offset&lt;x2/&gt; or &lt;x3/&gt;limit&lt;x4/&gt; params, you can use the &lt;x5/&gt;`|length`&lt;x6/&gt; filter to find the total size of the results array without the need for an extra database query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T231726Z" creationid="Toru Kokubun" creationdate="20180420T231124Z">
+        <seg>代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ、&lt;x1/&gt;offset&lt;x2/&gt; や &lt;x3/&gt;limit&lt;x4/&gt; パラメータをセットしていない場合は、 &lt;x5/&gt;`|length`&lt;x6/&gt; フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android: Chrome 4.4 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015411Z" creationid="Toru Kokubun" creationdate="20180415T015411Z">
@@ -350,10 +374,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CSRF Token Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235149Z" creationid="Toru Kokubun" creationdate="20180420T235149Z">
+        <seg>CSRF トークンパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CSRF Token Params&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220222Z" creationid="Toru Kokubun" creationdate="20180419T220156Z">
-        <seg>CSRF Token パラメータ&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234640Z" creationid="Toru Kokubun" creationdate="20180419T220156Z">
+        <seg>CSRF トークンパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CSRF protection is enabled by default in Craft 3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235241Z" creationid="Toru Kokubun" creationdate="20180420T235241Z">
+        <seg>CSRF プロテクションは、Craft 3 ではデフォルトで有効になりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -550,9 +590,17 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Controller Action</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234722Z" creationid="Toru Kokubun" creationdate="20180420T234722Z">
+        <seg>コントローラーアクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Controller action routes should be defined as a string (&lt;x1/&gt;'action/path'&lt;x2/&gt;) rather than an array with an &lt;x3/&gt;action&lt;x4/&gt; key (&lt;x5/&gt;['action' =&gt; 'action/path']&lt;x6/&gt;).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012313Z" creationid="Toru Kokubun" creationdate="20180420T012145Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233834Z" creationid="Toru Kokubun" creationdate="20180420T012145Z">
         <seg>コントローラーアクションのルーティングは、&lt;x3/&gt;action&lt;x4/&gt; キーを持つ配列（&lt;x5/&gt;['action' =&gt; 'action/path']&lt;x6/&gt;）ではなく、文字列（&lt;x1/&gt;'action/path'&lt;x2/&gt;）として定義する必要があります。</seg>
       </tuv>
     </tu>
@@ -634,6 +682,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061619Z" creationid="Toru Kokubun" creationdate="20180420T061551Z">
         <seg>Craft 3 では、テンプレート向けに独自の変更を加えた Twig 2 を使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft 3 will only use it because there is not a PHP 7 compatible version of memcache available.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001103Z" creationid="Toru Kokubun" creationdate="20180421T001053Z">
+        <seg>Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、をれを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -982,6 +1038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232926Z" creationid="Toru Kokubun" creationdate="20180420T232926Z">
+        <seg>エレメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Elements&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012501Z" creationid="Toru Kokubun" creationdate="20180414T012501Z">
@@ -1302,10 +1366,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are using &lt;x1/&gt;db&lt;x2/&gt; for your &lt;x3/&gt;cacheMethod&lt;x4/&gt; config setting, you'll need to manually execute some SQL before attempting the Craft 3 update.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001336Z" creationid="Toru Kokubun" creationdate="20180421T001336Z">
+        <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;db&lt;x2/&gt; を指定している場合は、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are using &lt;x1/&gt;memcache&lt;x2/&gt; for your &lt;x3/&gt;cacheMethod&lt;x4/&gt; config setting and you did not have &lt;x5/&gt;useMemcached&lt;x6/&gt; set to &lt;x7/&gt;true&lt;x8/&gt; in your &lt;x9/&gt;craft/config/memcache.php&lt;x10/&gt; config file, you'll need to install memcached on your server.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001204Z" creationid="Toru Kokubun" creationdate="20180421T000630Z">
+        <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;memcache&lt;x2/&gt; を指定し、設定ファイル &lt;x9/&gt;craft/config/memcache.php&lt;x10/&gt; で &lt;x5/&gt;useMemcached&lt;x6/&gt; に &lt;x7/&gt;true&lt;x8/&gt; をセットしていない場合は、サーバーに memcached をインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you believe someone is violating the code of conduct, we ask that you report it by emailing &lt;x1/&gt;support@craftcms.com&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073713Z" creationid="Toru Kokubun" creationdate="20180414T032913Z">
         <seg>もし誰かが行動規範に違反したと確信したなら、 &lt;x1/&gt;support@craftcms.com&lt;x2/&gt; 宛のメールで報告するようお願いします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you didn’t already have it enabled (via the &lt;x1/&gt;enableCsrfProtection&lt;x2/&gt; config setting), each of your front-end &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;s and JS scripts that submit to a controller action will need to be updated with a new CSRF token param, named after your &lt;x6/&gt;csrfTokenName&lt;x7/&gt; config setting value (set to &lt;x8/&gt;'CRAFT_CSRF_TOKEN'&lt;x9/&gt; by default).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T000104Z" creationid="Toru Kokubun" creationdate="20180420T235655Z">
+        <seg>（コンフィグ設定の &lt;x1/&gt;enableCsrfProtection&lt;x2/&gt; で）有効化していなかった場合は、 コントローラーアクションで送信するフロントエンドのすべての &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; と JavaScript に新しい CSRF トークンパラメータを追加するアップデートが必要です。 あわせて、コンフィグ設定の &lt;x6/&gt;csrfTokenName&lt;x7/&gt; をセットする必要があります（デフォルトは &lt;x8/&gt;'CRAFT_CSRF_TOKEN'&lt;x9/&gt; となります）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1370,6 +1458,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222648Z" creationid="Toru Kokubun" creationdate="20180420T222626Z">
         <seg>Craft 2 動作に影響を与えるテンプレートがある場合、&lt;x1/&gt;clone()&lt;x2/&gt; ファンクションを用いて修正できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have changed that config setting, you will want to adjust the examples accordingly.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001626Z" creationid="Toru Kokubun" creationdate="20180421T001626Z">
+        <seg>コンフィグ設定を変更している場合は、それに応じて前述のサンプルを調整してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1558,10 +1654,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In most cases you can replace calls to &lt;x1/&gt;.last()&lt;x2/&gt; with &lt;x3/&gt;.inReverse().one()&lt;x4/&gt; and get the same result, without the extra database query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T231810Z" creationid="Toru Kokubun" creationdate="20180420T231648Z">
+        <seg>ほとんどのケースでは、&lt;x1/&gt;.last()&lt;x2/&gt; の呼び出しを &lt;x3/&gt;.inReverse().one()&lt;x4/&gt; に置き換えることで、余分なデータベースクエリを必要とせず、同じ結果を得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In reality it could be &lt;x3/&gt;entry.postDate&lt;x4/&gt;, &lt;x5/&gt;now&lt;x6/&gt;, etc.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063703Z" creationid="Toru Kokubun" creationdate="20180420T063703Z">
         <seg>実際には &lt;x3/&gt;entry.postDate&lt;x4/&gt; や &lt;x5/&gt;now&lt;x6/&gt; などになる可能性があります。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In those cases, you can just replace the &lt;x1/&gt;.last()&lt;x2/&gt; call with what it’s already doing internally:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232908Z" creationid="Toru Kokubun" creationdate="20180420T232908Z">
+        <seg>このようなケースでは、 &lt;x1/&gt;.last()&lt;x2/&gt; の呼び出しを内部的な処理で置き換えることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Locales</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233208Z" creationid="Toru Kokubun" creationdate="20180420T233208Z">
+        <seg>ロケール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Locales&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220307Z" creationid="Toru Kokubun" creationdate="20180419T220307Z">
@@ -1770,6 +1890,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031542Z" creationid="Toru Kokubun" creationdate="20180415T031542Z">
         <seg>モバイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Models</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233118Z" creationid="Toru Kokubun" creationdate="20180420T233118Z">
+        <seg>モデル</seg>
       </tuv>
     </tu>
     <tu>
@@ -1824,16 +1952,32 @@
       <tuv lang="EN-US">
         <seg>New Param</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065447Z" creationid="Toru Kokubun" creationdate="20180420T065447Z">
-        <seg>新しいパラメータ</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234930Z" creationid="Toru Kokubun" creationdate="20180420T065447Z">
+        <seg>新パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Property</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235000Z" creationid="Toru Kokubun" creationdate="20180420T233004Z">
+        <seg>新プロパティ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>New Setting</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T000438Z" creationid="Toru Kokubun" creationdate="20180420T000438Z">
-        <seg>新しい設定</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234948Z" creationid="Toru Kokubun" creationdate="20180420T000438Z">
+        <seg>新設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New Token</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235011Z" creationid="Toru Kokubun" creationdate="20180420T234733Z">
+        <seg>新トークン</seg>
       </tuv>
     </tu>
     <tu>
@@ -1874,6 +2018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220708Z" creationid="Toru Kokubun" creationdate="20180418T220609Z">
         <seg>この最後にある（他の領域のドキュメント内で参照されている）"プロジェクトルート"は &lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリであり、その親ディレクトリ&lt;x3/&gt;ではない&lt;x4/&gt;ことに注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that these examples use the default &lt;x1/&gt;craft/config/db.php&lt;x2/&gt; config setting of &lt;x3/&gt;craft&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001508Z" creationid="Toru Kokubun" creationdate="20180421T001508Z">
+        <seg>これらの例では、&lt;x3/&gt;craft&lt;x4/&gt;のコンフィグ設定にデフォルトの &lt;x1/&gt;craft/config/db.php&lt;x2/&gt; を使用している点に注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1960,16 +2112,32 @@
       <tuv lang="EN-US">
         <seg>Old Param</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065441Z" creationid="Toru Kokubun" creationdate="20180420T065441Z">
-        <seg>古いパラメータ</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234928Z" creationid="Toru Kokubun" creationdate="20180420T065441Z">
+        <seg>旧パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Old Property</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234958Z" creationid="Toru Kokubun" creationdate="20180420T232956Z">
+        <seg>旧プロパティ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Old Setting</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T000442Z" creationid="Toru Kokubun" creationdate="20180420T000425Z">
-        <seg>古い設定</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234946Z" creationid="Toru Kokubun" creationdate="20180420T000425Z">
+        <seg>旧設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Old Token</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235008Z" creationid="Toru Kokubun" creationdate="20180420T234728Z">
+        <seg>旧トークン</seg>
       </tuv>
     </tu>
     <tu>
@@ -2098,6 +2266,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230656Z" creationid="Toru Kokubun" creationdate="20180414T230656Z">
         <seg>プラグイン設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001634Z" creationid="Toru Kokubun" creationdate="20180421T001634Z">
+        <seg>プラグイン</seg>
       </tuv>
     </tu>
     <tu>
@@ -2278,6 +2454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Request Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233254Z" creationid="Toru Kokubun" creationdate="20180420T233254Z">
+        <seg>リクエストパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Request Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220118Z" creationid="Toru Kokubun" creationdate="20180419T220118Z">
@@ -2410,6 +2594,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084425Z" creationid="Toru Kokubun" creationdate="20180415T084415Z">
         <seg>これらのディレクトリやファイルに関する情報は&lt;x1/&gt;ディレクトリ構造&lt;x2/&gt;を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;Updating Plugins for Craft 3&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001727Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
+        <seg>&lt;x1/&gt;Craft 3 のためのプラグインアップデート&lt;x2/&gt;を見てください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2558,6 +2750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Support for treating element queries as if they’re arrays has been deprecated in Craft 3, and will be completely removed in Craft 4.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230307Z" creationid="Toru Kokubun" creationdate="20180420T230307Z">
+        <seg>エレメントクエリを配列のように扱うサポートは Craft 3 で非推奨になり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065533Z" creationid="Toru Kokubun" creationdate="20180420T065533Z">
@@ -2646,6 +2846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;csrfInput()&lt;x2/&gt; function is provided as a shortcut.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T000207Z" creationid="Toru Kokubun" creationdate="20180421T000207Z">
+        <seg>&lt;x1/&gt;csrfInput()&lt;x2/&gt; ファンクションは、ショートカットとして提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;limit&lt;x2/&gt; param is now set to &lt;x3/&gt;null&lt;x4/&gt; (no limit) by default, rather than 100.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065925Z" creationid="Toru Kokubun" creationdate="20180420T065925Z">
@@ -2658,6 +2866,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T005919Z" creationid="Toru Kokubun" creationdate="20180420T005919Z">
         <seg>&lt;x1/&gt;omitScriptNameInUrls&lt;x2/&gt; 設定は、Craft 2 のデフォルトがそうであったように &lt;x3/&gt;'auto'&lt;x4/&gt; にすることはもはやできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;redirectInput()&lt;x2/&gt; function is provided as a shortcut.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234438Z" creationid="Toru Kokubun" creationdate="20180420T234438Z">
+        <seg>&lt;x1/&gt;redirectInput()&lt;x2/&gt; ファンクションは、ショートカットとして提供されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2734,6 +2950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following &lt;x1/&gt;redirect&lt;x2/&gt; param tokens are no longer supported:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234703Z" creationid="Toru Kokubun" creationdate="20180420T234703Z">
+        <seg>次の &lt;x1/&gt;redirect&lt;x2/&gt; パラメータトークンは、サポートされなくなりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following PHP constants have been deprecated in Craft 3, and will no longer work in Craft 4:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012426Z" creationid="Toru Kokubun" creationdate="20180420T012407Z">
@@ -2770,6 +2994,62 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002022Z" creationid="Toru Kokubun" creationdate="20180420T002022Z">
         <seg>次の設定は完全に削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following controller actions have been removed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234149Z" creationid="Toru Kokubun" creationdate="20180420T234149Z">
+        <seg>次のコントローラーアクションは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following element properties have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233041Z" creationid="Toru Kokubun" creationdate="20180420T233041Z">
+        <seg>次のエレメントプロパティは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following element properties have been removed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232944Z" creationid="Toru Kokubun" creationdate="20180420T232944Z">
+        <seg>次のエレメントプロパティは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following locale methods have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233232Z" creationid="Toru Kokubun" creationdate="20180420T233232Z">
+        <seg>次のロケールメソッドは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following methods are now deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T225941Z" creationid="Toru Kokubun" creationdate="20180420T225922Z">
+        <seg>次のメソッドは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following methods have been removed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T225851Z" creationid="Toru Kokubun" creationdate="20180420T225851Z">
+        <seg>次のメソッドは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following model methods have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233152Z" creationid="Toru Kokubun" creationdate="20180420T233152Z">
+        <seg>次のモデルメソッドは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2858,6 +3138,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064849Z" creationid="Toru Kokubun" creationdate="20180415T011910Z">
         <seg>Craft 3 を動作させるにあたって、新しい条件とインストール手順が載っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are two cases where &lt;x1/&gt;inReverse()&lt;x2/&gt; won’t work as expected, though:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232352Z" creationid="Toru Kokubun" creationdate="20180420T232352Z">
+        <seg>&lt;x1/&gt;inReverse()&lt;x2/&gt; が期待した通りに動作しないケースが2つあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3050,6 +3338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070945Z" creationid="Toru Kokubun" creationdate="20180418T070945Z">
         <seg>サイトのディレクトリ構成を大幅に変更することなく Craft をアップデートするには、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Treating Queries as Arrays</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230131Z" creationid="Toru Kokubun" creationdate="20180420T230131Z">
+        <seg>クエリを配列として扱う</seg>
       </tuv>
     </tu>
     <tu>
@@ -3358,6 +3654,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you need to loop over an element query, you should start explicitly calling &lt;x1/&gt;.all()&lt;x2/&gt;, which will execute the database query and return the array of results:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230542Z" creationid="Toru Kokubun" creationdate="20180420T230503Z">
+        <seg>エレメントクエリをループする必要があるときは、明示的に &lt;x1/&gt;.all()&lt;x2/&gt; をコールし、データベースクエリを実行して得られる結果の配列を返す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you need to to get the total number of results from an element query, you should call the &lt;x1/&gt;.count()&lt;x2/&gt; method:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230712Z" creationid="Toru Kokubun" creationdate="20180420T230712Z">
+        <seg>エレメントクエリから結果の総数を取得したいときは、&lt;x1/&gt;.count()&lt;x2/&gt; メソッドを呼び出す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Which means in the above code example, &lt;x1/&gt;totalEntries&lt;x2/&gt; will be set to the total &lt;x3/&gt;Article&lt;x4/&gt; entries, as the &lt;x5/&gt;type&lt;x6/&gt; parameter will still be applied.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222317Z" creationid="Toru Kokubun" creationdate="20180420T222317Z">
@@ -3478,6 +3790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Your front-end &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;s and JS scripts that submit to a controller action will need to be updated with the following changes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234005Z" creationid="Toru Kokubun" creationdate="20180420T233415Z">
+        <seg>コントローラーアクションに送信するフロントエンドの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;や JavaScript は、次の変更を加えてアップデートする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[`craftcms/cms`]&lt;x1/&gt; – This is the Composer package that contains all of Craft’s source code.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001735Z" creationid="Toru Kokubun" creationdate="20180415T072905Z">
@@ -3514,6 +3834,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220147Z" creationid="Toru Kokubun" creationdate="20180419T220147Z">
         <seg>`redirect` パラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>action&lt;x1/&gt; Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234016Z" creationid="Toru Kokubun" creationdate="20180420T234016Z">
+        <seg>action&lt;x1/&gt; パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>action&lt;x1/&gt; params must be rewritten in in &lt;x2/&gt;kebab-case&lt;x3/&gt; rather than &lt;x4/&gt;camelCase&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234122Z" creationid="Toru Kokubun" creationdate="20180420T234115Z">
+        <seg>action&lt;x1/&gt; パラメータは &lt;x4/&gt;camelCase&lt;x5/&gt; ではなく &lt;x2/&gt;kebab-case&lt;x3/&gt; に書き換えなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3558,6 +3894,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ids()&lt;x1/&gt; (setting criteria params here is now deprecated)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230018Z" creationid="Toru Kokubun" creationdate="20180420T230018Z">
+        <seg>ids()&lt;x1/&gt;（criteria パラメータは非推奨になりました）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>last()&lt;x1/&gt; was deprecated in Craft 3 because it isn’t clear that it needs to run two database queries behind the scenes (the equivalent of &lt;x2/&gt;query.nth(query.count() - 1)&lt;x3/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T231459Z" creationid="Toru Kokubun" creationdate="20180420T231459Z">
+        <seg>last()&lt;x1/&gt; は Craft 3 で非推奨になりました。なぜなら、（&lt;x2/&gt;query.nth(query.count() - 1)&lt;x3/&gt; に相当する）2つのデータベースクエリを背後で実行する必要があることが明確ではないからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>limit&lt;x1/&gt; Param</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065825Z" creationid="Toru Kokubun" creationdate="20180420T065825Z">
@@ -3578,6 +3930,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065758Z" creationid="Toru Kokubun" creationdate="20180420T065758Z">
         <seg>ownerSite&lt;x1/&gt; または &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>redirect&lt;x1/&gt; Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234224Z" creationid="Toru Kokubun" creationdate="20180420T234224Z">
+        <seg>redirect&lt;x1/&gt; パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>redirect&lt;x1/&gt; params must be hashed now.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234351Z" creationid="Toru Kokubun" creationdate="20180420T234351Z">
+        <seg>redirect&lt;x1/&gt; パラメータは、ハッシュ値に変換しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3622,10 +3990,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>siteId&lt;x1/&gt;, &lt;x2/&gt;site.handle&lt;x3/&gt;, or &lt;x4/&gt;site.language&lt;x5/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233057Z" creationid="Toru Kokubun" creationdate="20180420T233057Z">
+        <seg>siteId&lt;x1/&gt;、&lt;x2/&gt;site.handle&lt;x3/&gt;、または、&lt;x4/&gt;site.language&lt;x5/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the database connection settings.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085100Z" creationid="Toru Kokubun" creationdate="20180415T085100Z">
         <seg>そのデータベースの接続設定を</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when the &lt;x1/&gt;orderBy&lt;x2/&gt; param contains a &lt;x3/&gt;`yii\db\Expression`&lt;x4/&gt; object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232703Z" creationid="Toru Kokubun" creationdate="20180420T232703Z">
+        <seg>&lt;x1/&gt;orderBy&lt;x2/&gt; パラメータに &lt;x3/&gt;`yii\db\Expression`&lt;x4/&gt; オブジェクトが含まれている場合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when there is no &lt;x1/&gt;ORDER BY&lt;x2/&gt; clause in the SQL, therefore nothing to reverse</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232621Z" creationid="Toru Kokubun" creationdate="20180420T232449Z">
+        <seg>SQL に &lt;x1/&gt;ORDER BY&lt;x2/&gt; 句が存在しない場合、反転できるものがありません</seg>
       </tuv>
     </tu>
     <tu>
