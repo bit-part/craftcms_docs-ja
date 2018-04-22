@@ -24,3 +24,4 @@ clause	句
 controller	コントローラー
 Token	トークン
 runtime	ランタイム
+make sense	意味をなす、筋が通っている
