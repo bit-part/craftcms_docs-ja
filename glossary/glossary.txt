@@ -25,3 +25,12 @@ controller	コントローラー
 Token	トークン
 runtime	ランタイム
 make sense	意味をなす、筋が通っている
+Expiration Date	有効期限日
+Entry URI Formats	エントリー URI 形式
+Entry Types	入力タイプ	エントリーに関する説明では、管理画面の訳文に合わせて「入力タイプ」とする
+Author	投稿者	管理画面の訳文に合わせて「投稿者」とする
+Title Format	タイトル形式
+filters	フィルタ
+Conditionals	条件文
+fair game	公正なゲーム、かっこうの標的
+primary CP nav	CP のメインナビゲーション	管理画面の左側に表示されるナビゲーションのこと
