@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before you can create entries, you must create Sections to contain them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014422Z" creationid="Toru Kokubun" creationdate="20180422T014422Z">
+        <seg>エントリーを作成する前に、それらを含むセクションを作成しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before you get started using Craft CMS to build your website, let's first talk about the pieces of Craft.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004432Z" creationid="Toru Kokubun" creationdate="20180421T004432Z">
@@ -466,6 +474,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234732Z" creationid="Toru Kokubun" creationdate="20180404T234732Z">
         <seg>Craft 3 の変更点&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Channels</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020507Z" creationid="Toru Kokubun" creationdate="20180422T020507Z">
+        <seg>チャンネル</seg>
       </tuv>
     </tu>
     <tu>
@@ -1054,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each entry has an Author, a Post Date, an Expiration Date (if desired), a status (enabled or disabled), and of course, content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T013221Z" creationid="Toru Kokubun" creationdate="20180422T013111Z">
+        <seg>すべてのエントリーは作成者、投稿日、（もし望むなら）有効期限、（有効・無効の）ステータスと、もちろん、コンテンツを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each of these types allows you to store your content with a slightly different set of features.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010248Z" creationid="Toru Kokubun" creationdate="20180421T005616Z">
@@ -1154,6 +1178,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010628Z" creationid="Toru Kokubun" creationdate="20180421T010553Z">
         <seg>エントリーは（カクテルレシピのような）コンテンツの独立したピースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries hold the content that you want to display on your web pages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T013226Z" creationid="Toru Kokubun" creationdate="20180422T012941Z">
+        <seg>エントリーはウェブページに表示させたいコンテンツを保持します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1670,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you're using Craft with multiple sites then you can also define in your Section:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T015009Z" creationid="Toru Kokubun" creationdate="20180422T015009Z">
+        <seg>Craft のマルチサイト機能を利用しているなら、次のこともセクションで定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your server is configured to support &lt;x5/&gt;PATH_INFO&lt;x6/&gt;, you can set this to &lt;x7/&gt;true&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010352Z" creationid="Toru Kokubun" creationdate="20180420T010337Z">
@@ -1770,6 +1810,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013329Z" creationid="Toru Kokubun" creationdate="20180420T013314Z">
         <seg>Craft 3 の &lt;x1/&gt;translations/&lt;x2/&gt; フォルダの構成は、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In each Section you can define the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014513Z" creationid="Toru Kokubun" creationdate="20180422T014503Z">
+        <seg>それぞれのセクションには、次のことを定義できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2822,10 +2870,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Section Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020440Z" creationid="Toru Kokubun" creationdate="20180422T020413Z">
+        <seg>セクションタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sections</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004655Z" creationid="Toru Kokubun" creationdate="20180421T004655Z">
         <seg>セクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sections and Entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T012757Z" creationid="Toru Kokubun" creationdate="20180422T012757Z">
+        <seg>セクションとエントリー</seg>
       </tuv>
     </tu>
     <tu>
@@ -2974,6 +3038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Singles</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020455Z" creationid="Toru Kokubun" creationdate="20180422T020455Z">
+        <seg>シングル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Site URL and Local volume settings will automatically be converted to the new Alias syntax when updating to Craft 3 (&lt;x5/&gt;@variable&lt;x6/&gt; instead of &lt;x7/&gt;{variable}&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001648Z" creationid="Toru Kokubun" creationdate="20180420T001616Z">
@@ -3018,6 +3090,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215850Z" creationid="Toru Kokubun" creationdate="20180419T215850Z">
         <seg>静的な翻訳ファイル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020518Z" creationid="Toru Kokubun" creationdate="20180422T020518Z">
+        <seg>ストラクチャー</seg>
       </tuv>
     </tu>
     <tu>
@@ -3710,6 +3790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a new section, go to Settings → Sections and click the “New Section” button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020357Z" creationid="Toru Kokubun" creationdate="20180422T020226Z">
+        <seg>新しいセクションを作るには、「設定 &gt; セクション」に移動し、「新規セクション」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To review the specifics of each type, check out the &lt;x1/&gt;Sections and Entries&lt;x2/&gt; page of this documentation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010355Z" creationid="Toru Kokubun" creationdate="20180421T010355Z">
@@ -3810,6 +3898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015825Z" creationid="Toru Kokubun" creationdate="20180421T015825Z">
         <seg>Twig は Craft 特有のものではなく、Symfony プロジェクトによって開発され、メンテナンスされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typically each entry will have a stake in its own primary URL on your site, though Craft can fetch any entry from anywhere if your template needs it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014309Z" creationid="Toru Kokubun" creationdate="20180422T013755Z">
+        <seg>一般的に、それぞれのエントリーはサイトの独自のプライマリー URL に関わり合いを持ちますが、Craft ではテンプレートが必要とするならば、どこからでもエントリーを取得できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4078,6 +4174,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What the entries’ URLs should look like</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014631Z" creationid="Toru Kokubun" creationdate="20180422T014631Z">
+        <seg>エントリーの URL をどのように表示するか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What types of entries should be available in the section, and which fields each of those entry types should have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014817Z" creationid="Toru Kokubun" creationdate="20180422T014817Z">
+        <seg>セクション内でどのようなエントリータイプが利用可能か、それらのエントリータイプはどのようなフィールドを持つ必要があるか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a Craft project is initiated using the &lt;x1/&gt;`craftcms/craft`&lt;x2/&gt; Composer project, it will have the following files and directories:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020407Z" creationid="Toru Kokubun" creationdate="20180421T020329Z">
@@ -4126,6 +4238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether entries in the section have URLs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014557Z" creationid="Toru Kokubun" creationdate="20180422T014547Z">
+        <seg>セクション内のエントリーが URL を持つかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Which means in the above code example, &lt;x1/&gt;totalEntries&lt;x2/&gt; will be set to the total &lt;x3/&gt;Article&lt;x4/&gt; entries, as the &lt;x5/&gt;type&lt;x6/&gt; parameter will still be applied.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222317Z" creationid="Toru Kokubun" creationdate="20180420T222317Z">
@@ -4138,6 +4258,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010138Z" creationid="Toru Kokubun" creationdate="20180420T010138Z">
         <seg>HTTP リクエストを &lt;x9/&gt;index.php&lt;x10/&gt; にルーティングするようにサーバーを設定した場合は、&lt;x7/&gt;config/general.php&lt;x8/&gt; で明示的に &lt;x5/&gt;true&lt;x6/&gt; にする必要があることを意味しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Which sites are enabled by default for new entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T015224Z" creationid="Toru Kokubun" creationdate="20180422T015204Z">
+        <seg>新しいエントリー向けに、どのサイトをデフォルトで有効にするか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Which sites entries in the section should target</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T015106Z" creationid="Toru Kokubun" creationdate="20180422T015106Z">
+        <seg>セクション内のどのサイトのエントリーをターゲットにするか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Which template should get loaded if an entry’s URL is requested</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014712Z" creationid="Toru Kokubun" creationdate="20180422T014703Z">
+        <seg>エントリーの URL がリクエストされたとき、どのテンプレートを読み込むか</seg>
       </tuv>
     </tu>
     <tu>
@@ -4178,6 +4322,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013139Z" creationid="Toru Kokubun" creationdate="20180420T013139Z">
         <seg>Yii 向けの翻訳メッセージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also create drafts of entries that live alongside the current live version of the entry.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T013532Z" creationid="Toru Kokubun" creationdate="20180422T013416Z">
+        <seg>エントリーの現在の公開バージョンと並行して、エントリーのドラフトを作成することもできます。</seg>
       </tuv>
     </tu>
     <tu>
