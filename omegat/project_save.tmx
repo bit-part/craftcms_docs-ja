@@ -78,6 +78,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>.env&lt;x1/&gt; configuration file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005820Z" creationid="Toru Kokubun" creationdate="20180422T005820Z">
+        <seg>.env&lt;x1/&gt; 設定ファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>.env&lt;x1/&gt; file template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005917Z" creationid="Toru Kokubun" creationdate="20180422T005758Z">
+        <seg>.env&lt;x1/&gt; ファイルのひな形です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; Only available if the `queue` component implements `craft\queue\QueueInterface`.&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063012Z" creationid="Toru Kokubun" creationdate="20180420T063012Z">
@@ -704,8 +720,8 @@
       <tuv lang="EN-US">
         <seg>Craft 3 will only use it because there is not a PHP 7 compatible version of memcache available.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001103Z" creationid="Toru Kokubun" creationdate="20180421T001053Z">
-        <seg>Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、をれを使用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T002305Z" creationid="Toru Kokubun" creationdate="20180421T001053Z">
+        <seg>Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、それを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1072,7 +1088,7 @@
       <tuv lang="EN-US">
         <seg>Element Queries</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065152Z" creationid="Toru Kokubun" creationdate="20180420T065152Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003328Z" creationid="Toru Kokubun" creationdate="20180420T065152Z">
         <seg>エレメントクエリ</seg>
       </tuv>
     </tu>
@@ -1154,6 +1170,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230917Z" creationid="Toru Kokubun" creationdate="20180414T230917Z">
         <seg>Twig 拡張&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Feel free to delete this file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011846Z" creationid="Toru Kokubun" creationdate="20180422T011846Z">
+        <seg>このファイルは、自由に削除してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1250,6 +1274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074742Z" creationid="Toru Kokubun" creationdate="20180415T011415Z">
         <seg>既存の Craft 2 プロジェクトを Craft 3 にアップグレードする必要がある場合は、&lt;x1/&gt;Craft 2 アップグレードドキュメント&lt;x2/&gt;を再確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the curious, here are the types of things you will find in craft/storage/runtime (though this is not a comprehensive list):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003855Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
+        <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtim で確認できるものを掲載します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1886,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It defines sensitive or environment-specific config values that don’t make sense to commit to version control.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T010346Z" creationid="Toru Kokubun" creationdate="20180422T010223Z">
+        <seg>バージョン管理でコミットする必要のない、機密性が高い、または、特定の環境に依存する設定値を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It does so by offering developers a high level of flexibility, both in terms of content modeling and the front-end views, while also giving content managers an intuitive authoring experience.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T025319Z" creationid="Toru Kokubun" creationdate="20180414T025319Z">
@@ -1910,10 +1950,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It should be used as a starting point for any actual &lt;x2/&gt;.env&lt;x3/&gt; files, stored alongside it but out of version control on each of the environments your Craft project is running in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011532Z" creationid="Toru Kokubun" creationdate="20180422T011113Z">
+        <seg>実際の &lt;x2/&gt;.env&lt;x3/&gt; ファイルの出発点として使用する必要があります。ファイルとして格納されていますが、動作している Craft プロジェクトの各環境のバージョン管理からは除外してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It still works the same, but the &lt;x5/&gt;stripZeroCents&lt;x6/&gt; argument has been renamed to &lt;x7/&gt;stripZeros&lt;x8/&gt;, and pushed back a couple notches, so you will need to update your templates if you were setting that argument.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065056Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
-        <seg>それでも同じ働きとなりますが、引数 &lt;x5/&gt;stripZeroCents&lt;x6/&gt; は &lt;x7/&gt;stripZeros&lt;x8/&gt; にリネームされ、2つのノッチが必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003315Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
+        <seg>それでも同じ働きとなりますが、引数 &lt;x5/&gt;stripZeroCents&lt;x6/&gt; は &lt;x7/&gt;stripZeros&lt;x8/&gt; にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2550,6 +2598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Readme for the &lt;x1/&gt;craftcms/craft&lt;x2/&gt; repo.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011932Z" creationid="Toru Kokubun" creationdate="20180422T011932Z">
+        <seg>&lt;x1/&gt;craftcms/craft&lt;x2/&gt; リポジトリの README ファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Recipe Content (ingredients and instructions)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012944Z" creationid="Toru Kokubun" creationdate="20180421T012944Z">
@@ -2942,6 +2998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Standard MIT license, which covers all the code in the &lt;x1/&gt;craftcms/craft&lt;x2/&gt; repo, but NOT any Composer-installed libraries in the &lt;x3/&gt;vendor/&lt;x4/&gt; folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011832Z" creationid="Toru Kokubun" creationdate="20180422T011832Z">
+        <seg>&lt;x1/&gt;craftcms/craft&lt;x2/&gt; リポジトリのすべてのコードをカバーするのは標準の MIT ライセンスですが、&lt;x3/&gt;vendor/&lt;x4/&gt; フォルダの Composer がインストールしたライブラリはその限りではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Static Translation Files</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012556Z" creationid="Toru Kokubun" creationdate="20180420T012556Z">
@@ -2986,6 +3050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011946Z" creationid="Toru Kokubun" creationdate="20180414T011946Z">
         <seg>タグ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tells Git which files it should ignore when committing changes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011615Z" creationid="Toru Kokubun" creationdate="20180422T011615Z">
+        <seg>変更をコミットするときに、無視するファイルを Git に伝えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3342,6 +3414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The starting point &lt;x1/&gt;composer.json&lt;x2/&gt; file that should be used for all Craft projects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T012110Z" creationid="Toru Kokubun" creationdate="20180422T012110Z">
+        <seg>すべての Craft プロジェクトで使用する必要がある、出発点の &lt;x1/&gt;composer.json&lt;x2/&gt; ファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The strength of Craft comes from its varied community, people from a wide range of backgrounds.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235142Z" creationid="Toru Kokubun" creationdate="20180414T235142Z">
@@ -3502,6 +3582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This directory represents your web root.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005621Z" creationid="Toru Kokubun" creationdate="20180422T005621Z">
+        <seg>このディレクトリはウェブルートを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This documentation is for you.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000540Z" creationid="Toru Kokubun" creationdate="20180415T000540Z">
@@ -3534,6 +3622,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a Windows Command Prompt wrapper for the &lt;x1/&gt;craft&lt;x2/&gt; executable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T012418Z" creationid="Toru Kokubun" creationdate="20180422T012418Z">
+        <seg>これは &lt;x1/&gt;craft&lt;x2/&gt; 実行可能プログラムの Windows コマンドプロンプト向けラッパーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a command line executable that will bootstrap a Craft console application.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T012257Z" creationid="Toru Kokubun" creationdate="20180422T012257Z">
+        <seg>これは、Craft のコンソールアプリケーションを起動するコマンドライン実行可能プログラムです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a comprehensive look at all of the changes made between Craft 2 and Craft 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T011029Z" creationid="Toru Kokubun" creationdate="20180415T011029Z">
@@ -3554,6 +3658,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020854Z" creationid="Toru Kokubun" creationdate="20180421T020658Z">
         <seg>ランタイムで動的に生成される一連のファイルを Craft が格納する場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is where all of your Composer dependencies go, including Craft itself, and any plugins you’ve installed via Composer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005627Z" creationid="Toru Kokubun" creationdate="20180422T005503Z">
+        <seg>これは Composer で依存関係にあるすべてのもので、Craft 自身や Composer 経由でインストールしたすべてのプラグインが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is your &lt;x1/&gt;PHP dotenv&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005843Z" creationid="Toru Kokubun" creationdate="20180422T005654Z">
+        <seg>&lt;x1/&gt;PHP dotenv&lt;x2/&gt; の</seg>
       </tuv>
     </tu>
     <tu>
@@ -4150,6 +4270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Your front-end templates go in here.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005315Z" creationid="Toru Kokubun" creationdate="20180422T005304Z">
+        <seg>フロントエンド向けのテンプレートをここにまとめます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[`craftcms/cms`]&lt;x1/&gt; – This is the Composer package that contains all of Craft’s source code.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001735Z" creationid="Toru Kokubun" creationdate="20180415T072905Z">
@@ -4206,10 +4334,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assets/&lt;x1/&gt; – Stores image thumbnails, resized file icons, and copies of images stored on remote asset sources, to save Craft an HTTP request when it needs the images to generate new thumbnails or transforms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004539Z" creationid="Toru Kokubun" creationdate="20180422T004255Z">
+        <seg>assets/&lt;x1/&gt; – 新しいサムネイルやトランスフォームの生成にあたり画像が必要なときに Craft の HTTP リクエストを節約する目的で、画像サムネイル、リサイズされたファイルのアイコン、リモートアセットソースに保存された画像のコピーを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>backups/&lt;x1/&gt; – Stores database backups that get created when you update Craft or run the DB Backup utility.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021142Z" creationid="Toru Kokubun" creationdate="20180421T021142Z">
         <seg>backups/&lt;x1/&gt; – Craft のアップデートやデータベースバックアップユーティリティの実行時に生成される、データベースのバックアップを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cache/&lt;x1/&gt; – Stores data caches.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004548Z" creationid="Toru Kokubun" creationdate="20180422T004548Z">
+        <seg>cache/&lt;x1/&gt; – データキャッシュを格納します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4226,6 +4370,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220025Z" creationid="Toru Kokubun" creationdate="20180420T215944Z">
         <seg>&lt;x1/&gt;ElementCriteriaModel&lt;x2/&gt; オブジェクトを複製する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compiled_classes/&lt;x1/&gt; – Stores some dynamically-defined PHP classes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004609Z" creationid="Toru Kokubun" creationdate="20180422T004609Z">
+        <seg>compiled_classes/&lt;x1/&gt; – いくつかの動的に定義された PHP クラスを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compiled_templates/&lt;x1/&gt; – Stores compiled Twig templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004621Z" creationid="Toru Kokubun" creationdate="20180422T004621Z">
+        <seg>compiled_templates/&lt;x1/&gt; – コンパイル済みのテンプレートを格納します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4282,6 +4442,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021158Z" creationid="Toru Kokubun" creationdate="20180421T021158Z">
         <seg>logs/&lt;x1/&gt; – Craft のログや PHP エラーログを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mutex/&lt;x1/&gt; – Stores file lock data.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004630Z" creationid="Toru Kokubun" creationdate="20180422T004630Z">
+        <seg>mutex/&lt;x1/&gt; – ファイルロックデータを格納します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4382,10 +4550,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>temp/&lt;x1/&gt; – Stores temp files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004640Z" creationid="Toru Kokubun" creationdate="20180422T004640Z">
+        <seg>temp/&lt;x1/&gt; – 一時ファイルを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the database connection settings.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085100Z" creationid="Toru Kokubun" creationdate="20180415T085100Z">
         <seg>そのデータベースの接続設定を</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>validation.key&lt;x1/&gt; – A randomly-generated, cryptographically secure key that is used for hashing and validating data between requests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005225Z" creationid="Toru Kokubun" creationdate="20180422T004909Z">
+        <seg>validation.key&lt;x1/&gt; – リクエスト間のハッシングやデータ検証に使われる、ランダムに生成され、暗号化された安全な鍵です。</seg>
       </tuv>
     </tu>
     <tu>
