@@ -270,10 +270,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All fields share a few common settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221411Z" creationid="Toru Kokubun" creationdate="20180422T221411Z">
+        <seg>すべてのフィールドはいくつかの共通の設定があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All object properties (the config setting names) must be wrapped in double quotes</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221629Z" creationid="Toru Kokubun" creationdate="20180419T221629Z">
         <seg>（コンフィグ設定名である）すべてのオブジェクトプロパティは、ダブルクォートで囲まれていなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the content on your site will get entered into fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T220922Z" creationid="Toru Kokubun" creationdate="20180422T220922Z">
+        <seg>サイトのすべてのコンテンツはフィールドに入力されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1446,6 +1462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Field Settings&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221753Z" creationid="Toru Kokubun" creationdate="20180422T221753Z">
+        <seg>フィールドの設定画面&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Field Types&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230929Z" creationid="Toru Kokubun" creationdate="20180414T230929Z">
@@ -1458,6 +1482,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004707Z" creationid="Toru Kokubun" creationdate="20180421T004707Z">
         <seg>フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fields are defined globally from Settings → Fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221007Z" creationid="Toru Kokubun" creationdate="20180422T221007Z">
+        <seg>フィールドは「設定 &gt; フィールド」からグローバルに定義されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,6 +1662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Handle</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221623Z" creationid="Toru Kokubun" creationdate="20180422T221623Z">
+        <seg>ハンドル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Handle&lt;x1/&gt; – The entry type’s template-facing handle</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090823Z" creationid="Toru Kokubun" creationdate="20180422T090823Z">
@@ -1778,6 +1818,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001845Z" creationid="Toru Kokubun" creationdate="20180415T073538Z">
         <seg>&lt;x1/&gt;composer&lt;x2/&gt; が見つからない、あるいは、識別されないというエラーが出力されるなら、Composer がインストールされていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that setting is checked, the field’s values are stored on a per-site basis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221959Z" creationid="Toru Kokubun" creationdate="20180422T221959Z">
+        <seg>この設定がチェックされている場合、フィールドの値はサイトごとに格納されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2054,6 +2102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’re running a multi-language site with Craft you have the option to mark the field as translatable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221853Z" creationid="Toru Kokubun" creationdate="20180422T221853Z">
+        <seg>Craft で多言語サイトを運用している場合、フィールドを翻訳可能にするオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you’re unfamiliar with Composer, it’s a package manager (like npm) that attempts to make installing and updating PHP libraries easy via terminal commands.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001835Z" creationid="Toru Kokubun" creationdate="20180415T033814Z">
@@ -2202,6 +2258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235322Z" creationid="Toru Kokubun" creationdate="20180414T235322Z">
         <seg>その代わりに、問題を解決することを手伝って失敗から学ぶことにフォーカスしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instruction text</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221630Z" creationid="Toru Kokubun" creationdate="20180422T221630Z">
+        <seg>説明</seg>
       </tuv>
     </tu>
     <tu>
@@ -2450,6 +2514,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T030735Z" creationid="Toru Kokubun" creationdate="20180415T020446Z">
         <seg>MySQL 5.5 以降（with InnoDB）または PostgreSQL 9.5 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221620Z" creationid="Toru Kokubun" creationdate="20180422T221620Z">
+        <seg>名前</seg>
       </tuv>
     </tu>
     <tu>
@@ -2762,6 +2834,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T030827Z" creationid="Toru Kokubun" creationdate="20180415T030827Z">
         <seg>オプションの PHP エクステンション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, the values are always copied across all sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T222154Z" creationid="Toru Kokubun" creationdate="20180422T222145Z">
+        <seg>さもなければ、すべてのサイトに常に同一の値がコピーされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3646,6 +3726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Field Group to which it belongs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221431Z" creationid="Toru Kokubun" creationdate="20180422T221431Z">
+        <seg>所属するフィールドグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Pieces of Craft</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004341Z" creationid="Toru Kokubun" creationdate="20180421T004341Z">
@@ -4046,6 +4134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They are organized into Field Groups for convenience, but Field Groups have very little relevance anywhere else in the system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221347Z" creationid="Toru Kokubun" creationdate="20180422T221347Z">
+        <seg>それらは、便宜上フィールドグループ内に整理されていますが、フィールドグループはシステムの他の場所との関連性をほとんど持ちません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are there to help contextualize the Craft feature and make it easier for you to understand how to implement it on your own site.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T001827Z" creationid="Toru Kokubun" creationdate="20180415T001248Z">
@@ -4274,6 +4370,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070945Z" creationid="Toru Kokubun" creationdate="20180418T070945Z">
         <seg>サイトのディレクトリ構成を大幅に変更することなく Craft をアップデートするには、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Translatable Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221759Z" creationid="Toru Kokubun" creationdate="20180422T221759Z">
+        <seg>翻訳可能なフィールド</seg>
       </tuv>
     </tu>
     <tu>
