@@ -46,10 +46,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(normal Twig syntax)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094117Z" creationid="Toru Kokubun" creationdate="20180422T094117Z">
+        <seg>（標準の Twig 構文）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(see [`last()`](&lt;x1/&gt;last))&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230053Z" creationid="Toru Kokubun" creationdate="20180420T230048Z">
         <seg>（ [`last()`](&lt;x1/&gt;last) を見てください）&lt;x2/&gt; </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(shortcut syntax)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094125Z" creationid="Toru Kokubun" creationdate="20180422T094125Z">
+        <seg>（ショートカット構文）&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -170,6 +186,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010946Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
         <seg>セクションは、1つまたは複数のエントリーを持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A shortcut syntax is also available for output tags that reference a property on the entry:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084852Z" creationid="Toru Kokubun" creationdate="20180422T084852Z">
+        <seg>ショートカット構文は、エントリーのプロパティを参照する出力タグでも利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -406,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Both Channel and Structure sections let you define multiple types of entries using Entry Types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090120Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
+        <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリーを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CP Browser Requirements</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031508Z" creationid="Toru Kokubun" creationdate="20180415T031508Z">
@@ -478,10 +510,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Channel and Structure sections can choose whether their entries should be assigned URLs in the system, by filling in the “Entry URI Format” setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084208Z" creationid="Toru Kokubun" creationdate="20180422T084208Z">
+        <seg>チャンネルとストラクチャーセクションでは、「エントリー URI 形式」設定を入力することでシステム内のエントリーに URL を割り当てるかどうかを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Channels</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020507Z" creationid="Toru Kokubun" creationdate="20180422T020507Z">
         <seg>チャンネル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Channels are used for streams of similar content, such as:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083401Z" creationid="Toru Kokubun" creationdate="20180422T083401Z">
+        <seg>チャンネルは、次のような類似するコンテンツのストリームに利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -502,6 +550,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choose the entry type (if there’s at least two to choose from)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100815Z" creationid="Toru Kokubun" creationdate="20180422T100815Z">
+        <seg>（選択候補が2つ以上ある場合）入力タイプの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose the entry’s Expiration Date (optional)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101118Z" creationid="Toru Kokubun" creationdate="20180422T101118Z">
+        <seg>エントリーの有効期限の選択（オプション）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose the entry’s Post Date</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101059Z" creationid="Toru Kokubun" creationdate="20180422T101059Z">
+        <seg>エントリーの投稿日の選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose the entry’s author (Users required)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100938Z" creationid="Toru Kokubun" creationdate="20180422T100938Z">
+        <seg>エントリーの投稿者の選択（ユーザーが必要）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose the entry’s parent (if it’s within a Structure section)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101027Z" creationid="Toru Kokubun" creationdate="20180422T101007Z">
+        <seg>（ストラクチャーセクションに含まれる場合）エントリーの親の選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose whether the entry is enabled or not</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101139Z" creationid="Toru Kokubun" creationdate="20180422T101129Z">
+        <seg>エントリーを有効にするかどうかの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chrome 29 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015406Z" creationid="Toru Kokubun" creationdate="20180415T015406Z">
@@ -514,6 +610,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T002944Z" creationid="Toru Kokubun" creationdate="20180419T002944Z">
         <seg>「ユーティリティ」をクリックし、その後「アップデート」を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking on an entry type’s name takes you to its settings page:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090526Z" creationid="Toru Kokubun" creationdate="20180422T090509Z">
+        <seg>いずれかの入力タイプの名前をクリックすると、その設定ページへ移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking on it will take you to the entry index.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100358Z" creationid="Toru Kokubun" creationdate="20180422T100358Z">
+        <seg>クリックすると、エントリーのインデックスに移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -570,6 +682,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084154Z" creationid="Toru Kokubun" creationdate="20180415T084154Z">
         <seg>Composer はすべてをインストールするのに数分かかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conditionals are also fair game.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095535Z" creationid="Toru Kokubun" creationdate="20180422T095535Z">
+        <seg>条件文もまた、かっこうの標的です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -704,8 +824,8 @@
       <tuv lang="EN-US">
         <seg>Craft 3 is available as a &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; package.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033551Z" creationid="Toru Kokubun" creationdate="20180415T033116Z">
-        <seg>Craft 3 は &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; パッケージとして利用可能です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095113Z" creationid="Toru Kokubun" creationdate="20180415T033116Z">
+        <seg>Craft 3 は &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; パッケージとして利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -798,6 +918,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft has three different types of sections:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082719Z" creationid="Toru Kokubun" creationdate="20180422T082719Z">
+        <seg>Craft には3つの異なるタイプのセクションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft is a content-first CMS that aims to make life enjoyable for developers and content managers alike.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T024846Z" creationid="Toru Kokubun" creationdate="20180414T024846Z">
@@ -824,8 +952,8 @@
       <tuv lang="EN-US">
         <seg>Craft pre-fills all three based on other settings but you can edit each field before clicking "Finish up".</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024246Z" creationid="Toru Kokubun" creationdate="20180418T024212Z">
-        <seg>Craft は他の設定に基づいて3つの項目をあらかじめ埋めますが、「Finish up（完了）」ボタンをクリックする前にそれぞれのフィールドを編集することができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093745Z" creationid="Toru Kokubun" creationdate="20180418T024212Z">
+        <seg>Craft は他の設定に基づいて3つの項目をあらかじめ埋めますが、「Finish up（完了）」ボタンをクリックする前にそれぞれのフィールドを編集できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -858,6 +986,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015252Z" creationid="Toru Kokubun" creationdate="20180421T015016Z">
         <seg>Craft は保存されたデータをウェブサイトのテンプレートで使いやすくするために &lt;x1/&gt;Twig テンプレートエンジン&lt;x2/&gt;を利用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s &lt;x1/&gt;global variables&lt;x2/&gt; are available to these templates as well:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095055Z" creationid="Toru Kokubun" creationdate="20180422T095055Z">
+        <seg>Craft の &lt;x1/&gt;グローバル変数&lt;x2/&gt; は、これらのテンプレートでも利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1046,6 +1182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Documentation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083733Z" creationid="Toru Kokubun" creationdate="20180422T083733Z">
+        <seg>ドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Don’t be one of those people and be sure to pick a strong password.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023759Z" creationid="Toru Kokubun" creationdate="20180418T023759Z">
@@ -1062,6 +1206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dynamic Entry Titles</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091015Z" creationid="Toru Kokubun" creationdate="20180422T091015Z">
+        <seg>動的なエントリータイトル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each entry can only belong to one Section.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010933Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
@@ -1072,8 +1224,8 @@
       <tuv lang="EN-US">
         <seg>Each entry has an Author, a Post Date, an Expiration Date (if desired), a status (enabled or disabled), and of course, content.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T013221Z" creationid="Toru Kokubun" creationdate="20180422T013111Z">
-        <seg>すべてのエントリーは作成者、投稿日、（もし望むなら）有効期限、（有効・無効の）ステータスと、もちろん、コンテンツを持っています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091338Z" creationid="Toru Kokubun" creationdate="20180422T013111Z">
+        <seg>すべてのエントリーは投稿者、投稿日、（もし望むなら）有効期限日、（有効・無効の）ステータスと、もちろん、コンテンツを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1098,6 +1250,38 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230245Z" creationid="Toru Kokubun" creationdate="20180414T230245Z">
         <seg>エレメントの Eager-Loading&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit the entry’s custom field content</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100900Z" creationid="Toru Kokubun" creationdate="20180422T100900Z">
+        <seg>エントリーのカスタムフィールドコンテンツの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit the entry’s slug</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100845Z" creationid="Toru Kokubun" creationdate="20180422T100845Z">
+        <seg>エントリーのスラグの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit the entry’s title</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100831Z" creationid="Toru Kokubun" creationdate="20180422T100831Z">
+        <seg>エントリーのタイトルの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Editing Entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095959Z" creationid="Toru Kokubun" creationdate="20180422T095959Z">
+        <seg>エントリーの編集</seg>
       </tuv>
     </tu>
     <tu>
@@ -1190,6 +1374,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entry Type Edit Settings&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090553Z" creationid="Toru Kokubun" creationdate="20180422T090553Z">
+        <seg>入力タイプの設定編集画面&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090017Z" creationid="Toru Kokubun" creationdate="20180422T085912Z">
+        <seg>入力タイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry URI Formats</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083956Z" creationid="Toru Kokubun" creationdate="20180422T083908Z">
+        <seg>エントリー URI 形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry URI Formats are mini Twig templates, which will be rendered each time an entry in the section is saved.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084342Z" creationid="Toru Kokubun" creationdate="20180422T084342Z">
+        <seg>エントリー URL 形式は、セクション内のエントリーが保存されるごとにレンダリングされる小さな Twig テンプレートです。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry types have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090638Z" creationid="Toru Kokubun" creationdate="20180422T090638Z">
+        <seg>入力タイプの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples include:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083722Z" creationid="Toru Kokubun" creationdate="20180422T083722Z">
+        <seg>例として次のものを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exclusionary gendered language (guys, gentlemen, bros, etc).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072248Z" creationid="Toru Kokubun" creationdate="20180414T234008Z">
@@ -1248,8 +1480,8 @@
       <tuv lang="EN-US">
         <seg>Filters&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012456Z" creationid="Toru Kokubun" creationdate="20180414T012456Z">
-        <seg>フィルター&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094804Z" creationid="Toru Kokubun" creationdate="20180414T012456Z">
+        <seg>フィルタ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1314,6 +1546,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003855Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
         <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtim で確認できるものを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From there you can navigate to the entry you wish to edit, or create a new one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100501Z" creationid="Toru Kokubun" creationdate="20180422T100501Z">
+        <seg>そこから、編集したいエントリーに移動したり、新しいエントリーを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1386,6 +1626,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T060804Z" creationid="Toru Kokubun" creationdate="20180420T055058Z">
         <seg>「設定 &gt; アセット &gt; ボリューム &gt; User Photos」に移動し、新しいフォルダのロケーションに基づいてボリュームを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Handle&lt;x1/&gt; – The entry type’s template-facing handle</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090823Z" creationid="Toru Kokubun" creationdate="20180422T090823Z">
+        <seg>ハンドル&lt;x1/&gt; – 入力タイプのテンプレートに対応するハンドル</seg>
       </tuv>
     </tu>
     <tu>
@@ -1494,6 +1742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If Craft finds any of these in your Title Format, it will replace the &lt;x1/&gt;{&lt;x2/&gt; with &lt;x3/&gt;{{object.&lt;x4/&gt; and the &lt;x5/&gt;}&lt;x6/&gt; with &lt;x7/&gt;}}&lt;x8/&gt;, before passing the template off to Twig for parsing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094600Z" creationid="Toru Kokubun" creationdate="20180422T094600Z">
+        <seg>Craft がタイトル形式の中でショートカット構文を見つけた場合、Twig の解析にあたりテンプレートへ渡す前に &lt;x1/&gt;{&lt;x2/&gt; を &lt;x3/&gt;{{object.&lt;x4/&gt; 、&lt;x5/&gt;}&lt;x6/&gt; を &lt;x7/&gt;}}&lt;x8/&gt; に置換します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it outputs a version number, but it’s less than &lt;x1/&gt;1.3.0&lt;x2/&gt;, run the following command to update it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001839Z" creationid="Toru Kokubun" creationdate="20180415T075608Z">
@@ -1576,8 +1832,8 @@
       <tuv lang="EN-US">
         <seg>If you go that route, you can skip to step 3.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072531Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
-        <seg>そのルートを選ぶ場合、ステップ3までスキップすることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093732Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
+        <seg>そのルートを選ぶ場合、ステップ3までスキップできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,6 +1886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have at least one section, there will be an “Entries” tab in the primary CP nav.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100310Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
+        <seg>少なくとも1つのセクションがあれば、CP のメインナビゲーションに「エントリー」タブが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have changed that config setting, you will want to adjust the examples accordingly.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001626Z" creationid="Toru Kokubun" creationdate="20180421T001626Z">
@@ -1642,6 +1906,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001817Z" creationid="Toru Kokubun" creationdate="20180420T001817Z">
         <seg>まだ設定していない場合は、（ファイルが存在していれば）`storage/runtime/validation.key` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you leave the Post Date blank, Craft will automatically set it the first time an entry is saved as enabled.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101636Z" creationid="Toru Kokubun" creationdate="20180422T101450Z">
+        <seg>投稿日を空のままにした場合、Craft はエントリーが有効な状態で保存された最初のタイミングで自動的にセットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1682,6 +1954,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T223120Z" creationid="Toru Kokubun" creationdate="20180418T223120Z">
         <seg>新しい Craft 3 プロジェクトのようなディレクトリ構造にしたい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want your entries to have auto-generated titles rather than requiring authors to enter them, you can uncheck the “Show the Title field?” checkbox.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091547Z" creationid="Toru Kokubun" creationdate="20180422T091123Z">
+        <seg>投稿者に入力を求めるのではなく、自動生成されたタイトルにする場合は、「タイトルのフィールドを見る。」チェックボックスをオフにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1832,8 +2112,8 @@
       <tuv lang="EN-US">
         <seg>In lieu of using the web browser to run the Craft installer, you can set up Craft from the command line.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025929Z" creationid="Toru Kokubun" creationdate="20180418T025929Z">
-        <seg>ウェブブラウザを利用して Craft のインストーラーを実行する代わり、コマンドラインから Craft をセットアップすることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093752Z" creationid="Toru Kokubun" creationdate="20180418T025929Z">
+        <seg>ウェブブラウザを利用して Craft のインストーラーを実行する代わり、コマンドラインから Craft をセットアップできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2174,6 +2454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Name&lt;x1/&gt; – The entry type’s name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090656Z" creationid="Toru Kokubun" creationdate="20180422T090656Z">
+        <seg>名前&lt;x1/&gt; – 入力タイプの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Named parameters in the pattern should be defined using the format (&lt;x1/&gt;&lt;ParamName:RegExp&gt;&lt;x2/&gt;) rather than as a regular expression subpattern (&lt;x3/&gt;(?P&lt;x4/&gt;RegExp)&lt;x5/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011643Z" creationid="Toru Kokubun" creationdate="20180420T011626Z">
@@ -2238,6 +2526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Not all sections are created equal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082635Z" creationid="Toru Kokubun" creationdate="20180422T082635Z">
+        <seg>すべてのセクションが同じように作成されるわけではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not in charge of the server?</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020249Z" creationid="Toru Kokubun" creationdate="20180415T020239Z">
@@ -2258,6 +2554,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220708Z" creationid="Toru Kokubun" creationdate="20180418T220609Z">
         <seg>この最後にある（他の領域のドキュメント内で参照されている）"プロジェクトルート"は &lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリであり、その親ディレクトリ&lt;x3/&gt;ではない&lt;x4/&gt;ことに注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that the shortcut syntax only has one set of curly braces&lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094227Z" creationid="Toru Kokubun" creationdate="20180422T094227Z">
+        <seg>ショートカット構文には、中括弧が1つしかないことに注意してください&lt;x1/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2598,6 +2902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Publish a draft (Craft Client or Craft Pro required)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101248Z" creationid="Toru Kokubun" creationdate="20180422T101241Z">
+        <seg>ドラフトの公開（Craft Client または Craft Pro が必要）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Publishing to the Plugin Store&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231339Z" creationid="Toru Kokubun" creationdate="20180414T231116Z">
@@ -2846,6 +3158,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Save a new draft of the entry (Craft Client or Craft Pro required)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101227Z" creationid="Toru Kokubun" creationdate="20180422T101227Z">
+        <seg>エントリーの新しいドラフトの保存（Craft Client または Craft Pro が必要）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save changes to the entry</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101156Z" creationid="Toru Kokubun" creationdate="20180422T101156Z">
+        <seg>エントリーの変更を保存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Save the volume</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061358Z" creationid="Toru Kokubun" creationdate="20180420T061358Z">
@@ -3030,6 +3358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Show the Title field?&lt;x1/&gt; – Whether a Title field is displayed for entries of this type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090921Z" creationid="Toru Kokubun" creationdate="20180422T090921Z">
+        <seg>タイトルのフィールドの見る&lt;x1/&gt; – この入力タイプのエントリーでタイトルフィールドを表示するかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, the &lt;x1/&gt;usePathInfo&lt;x2/&gt; setting can no longer be set to &lt;x3/&gt;'auto'&lt;x4/&gt; either.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010235Z" creationid="Toru Kokubun" creationdate="20180420T010235Z">
@@ -3046,6 +3382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Singles are used for one-off pages that have unique content requirements, such as:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083409Z" creationid="Toru Kokubun" creationdate="20180422T082856Z">
+        <seg>シングルは、次のようなユニークなコンテンツを持つ1回限りのページで利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Site URL and Local volume settings will automatically be converted to the new Alias syntax when updating to Craft 3 (&lt;x5/&gt;@variable&lt;x6/&gt; instead of &lt;x7/&gt;{variable}&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001648Z" creationid="Toru Kokubun" creationdate="20180420T001616Z">
@@ -3058,6 +3402,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012006Z" creationid="Toru Kokubun" creationdate="20180414T012006Z">
         <seg>サイト&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So something like this is possible:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084802Z" creationid="Toru Kokubun" creationdate="20180422T084802Z">
+        <seg>そのため、次のようなことが可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3094,10 +3446,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Structure sections may wish to have an Entry URI Format that differs depending on whether it’s a top-level entry or a nested one:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T085622Z" creationid="Toru Kokubun" creationdate="20180422T085023Z">
+        <seg>ストラクチャーセクションでは、エントリーがトップレベルかネストされているかによって、異なるエントリー URI 形式を持つことを望むかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Structures</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020518Z" creationid="Toru Kokubun" creationdate="20180422T020518Z">
         <seg>ストラクチャー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structures are good for times when you need to store multiple similar entries, and sort them into a specific order.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083634Z" creationid="Toru Kokubun" creationdate="20180422T083619Z">
+        <seg>ストラクチャーは、複数の類似するエントリーを格納し、かつ、特定の順序で並び替える必要がある場合に適しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3206,6 +3574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tests&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094814Z" creationid="Toru Kokubun" creationdate="20180422T094814Z">
+        <seg>テスト&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That made it possible to execute variations of an element query, without affecting subsequent queries.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221715Z" creationid="Toru Kokubun" creationdate="20180420T220249Z">
@@ -3218,6 +3594,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221451Z" creationid="Toru Kokubun" creationdate="20180419T221451Z">
         <seg>すなわち、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That’ll take you to the section’s entry type index.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090435Z" creationid="Toru Kokubun" creationdate="20180422T090435Z">
+        <seg>セクションの入力タイプのインデックスに移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3278,6 +3662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Title Format is a full-blown Twig template, and it will get parsed whenever your entries are saved.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093422Z" creationid="Toru Kokubun" creationdate="20180422T093422Z">
+        <seg>タイトル形式は本格的な Twig テンプレートで、エントリーが保存されるたびに解析されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Twig website has a solid overview of what Twig is and how you can use it in your HTML templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015715Z" creationid="Toru Kokubun" creationdate="20180421T015715Z">
@@ -3322,6 +3714,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T011029Z" creationid="Toru Kokubun" creationdate="20180421T010849Z">
         <seg>エントリーは、通常コントロールパネルの入力フォームから入力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entry being saved will be available to the template as an &lt;x1/&gt;object&lt;x2/&gt; variable, and each of the entry’s properties and custom field values will also be available as their own variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093758Z" creationid="Toru Kokubun" creationdate="20180422T084703Z">
+        <seg>保存されているエントリーは、&lt;x1/&gt;object&lt;x2/&gt; 変数としてテンプレートで利用できます。さらに、各エントリーのプロパティやカスタムフィールドの値は、それぞれの変数として利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entry is passed to this template as a variable named &lt;x1/&gt;object&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093616Z" creationid="Toru Kokubun" creationdate="20180422T093616Z">
+        <seg>エントリーは &lt;x1/&gt;object&lt;x2/&gt; という名称の変数としてこのテンプレートに渡されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3486,6 +3894,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The rendering result will be saved as the entry’s URI in the system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084424Z" creationid="Toru Kokubun" creationdate="20180422T084424Z">
+        <seg>レンダリング結果は、システムのエントリー URI として保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same template could also be expressed with this syntax:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T085456Z" creationid="Toru Kokubun" creationdate="20180422T085456Z">
+        <seg>同じテンプレートは次の構文で表すこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second step is to enter your database connection information.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022813Z" creationid="Toru Kokubun" creationdate="20180418T022244Z">
@@ -3574,6 +3998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There’s no shortcut syntax for those, so if you want to use a conditional on one of the entry’s properties, you will need to reference it with the &lt;x1/&gt;object&lt;x2/&gt; variable:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095825Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
+        <seg>ショートカット構文がないため、エントリープロパティの1つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These are a large components that you'll use to implement your website's content.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004607Z" creationid="Toru Kokubun" creationdate="20180421T004600Z">
@@ -3618,6 +4050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T001827Z" creationid="Toru Kokubun" creationdate="20180415T001248Z">
         <seg>Craft の特徴を状況に応じて考えることを助け、あなた自身のサイトへどのように実装すればよいかの理解を容易にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They can also be hierarchical.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083710Z" creationid="Toru Kokubun" creationdate="20180422T083710Z">
+        <seg>それらは階層構造を持つこともできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3782,6 +4222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Title Field Label&lt;x1/&gt; – What the “Title” field label should be.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090946Z" creationid="Toru Kokubun" creationdate="20180422T090946Z">
+        <seg>タイトルフィールドラベル&lt;x1/&gt; – 「タイトル」フィールドのラベルをどうするか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
@@ -3934,6 +4382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unlike the other section types, Singles only have one entry associated with them, and they don’t have an editable Author, Slug, Post Date, or Expiration Date.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091253Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
+        <seg>他のセクションタイプと異なり、シングルは1つのエントリーしか関連づけられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unnamed parameters are no longer allowed (e.g. &lt;x1/&gt;([^\/]+)&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011731Z" creationid="Toru Kokubun" creationdate="20180420T011731Z">
@@ -4066,6 +4522,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231001Z" creationid="Toru Kokubun" creationdate="20180414T231001Z">
         <seg>ユーティリティタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>View past versions of the entry (Craft Client or Craft Pro required)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101316Z" creationid="Toru Kokubun" creationdate="20180422T101316Z">
+        <seg>エントリーの過去のバージョンの閲覧（Craft Client または Craft Pro が必要）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4222,6 +4686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you do, a new “Title Format” setting will appear, where you can define what the auto-generated titles should look like.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091753Z" creationid="Toru Kokubun" creationdate="20180422T091725Z">
+        <seg>その際、新たに「タイトル形式」欄が表示され、自動生成されるタイトルの見え方を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you need to loop over an element query, you should start explicitly calling &lt;x1/&gt;.all()&lt;x2/&gt;, which will execute the database query and return the array of results:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230542Z" creationid="Toru Kokubun" creationdate="20180420T230503Z">
@@ -4310,6 +4782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With that Entry URI Format, a top-level entry might end up with the URI &lt;x1/&gt;docs/templating&lt;x2/&gt;, whereas a nested entry might end up with the URI &lt;x3/&gt;docs/templating/tags&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T085836Z" creationid="Toru Kokubun" creationdate="20180422T085228Z">
+        <seg>このエントリー URI 形式では、トップレベルエントリーは URI &lt;x1/&gt;docs/templating&lt;x2/&gt; で終わるかもしれないのに対して、ネスとされているエントリーの URI &lt;x3/&gt;docs/templating/tags&lt;x4/&gt; で終わるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With that, challenges will arise that can lead to communication issues and unhappiness.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032006Z" creationid="Toru Kokubun" creationdate="20180414T031804Z">
@@ -4360,16 +4840,40 @@
       <tuv lang="EN-US">
         <seg>You can find out your installed version of Composer (if any) by opening your terminal running the following command:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073458Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
-        <seg>起動しているターミナル上で次のコマンドを実行することによって、（もし存在するのであれば）インストール済みの Composer のバージョンを確認することができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093739Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
+        <seg>起動しているターミナル上で次のコマンドを実行することによって、（もし存在するのであれば）インストール済みの Composer のバージョンを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can manage your sections’ Entry Types by clicking the “Edit Entry Types” link beside the section’s name in Settings → Sections.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090327Z" creationid="Toru Kokubun" creationdate="20180422T090327Z">
+        <seg>「設定 &gt;  セクション」のセクション名の横にある「入力タイプを変更してください。」リンクをクリックして、セクションの入力タイプを管理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can perform the following actions from the Edit Entry page:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100613Z" creationid="Toru Kokubun" creationdate="20180422T100613Z">
+        <seg>エントリーの編集ページでは、次のアクションを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can reference the entry’s &lt;x3/&gt;properties&lt;x4/&gt; in two ways:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093648Z" creationid="Toru Kokubun" creationdate="20180422T093648Z">
+        <seg>エントリーの &lt;x3/&gt;プロパティ&lt;x4/&gt; は、次の2つの方法で参照できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>You can run all of the updates (Craft, all plugin updates available) using the Update All button at the top left of the Updates page.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003649Z" creationid="Toru Kokubun" creationdate="20180419T003628Z">
-        <seg>アップデートページの左上にある「すべてを更新」ボタンを使用して、（アップデート可能な Craft とプラグイン）すべてのアップデートを実行することができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093805Z" creationid="Toru Kokubun" creationdate="20180419T003628Z">
+        <seg>アップデートページの左上にある「すべてを更新」ボタンを使用して、（アップデート可能な Craft とプラグイン）すべてのアップデートを実行できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4386,6 +4890,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014304Z" creationid="Toru Kokubun" creationdate="20180421T014223Z">
         <seg>テンプレートは HTML ドキュメントだと考えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use Twig filters in both syntaxes:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095003Z" creationid="Toru Kokubun" creationdate="20180422T094723Z">
+        <seg>いずれの構文でも Twig フィルタを使えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4470,6 +4982,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a Blog</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083427Z" creationid="Toru Kokubun" creationdate="20180422T083427Z">
+        <seg>ブログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a Contact Us page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082927Z" creationid="Toru Kokubun" creationdate="20180422T082927Z">
+        <seg>お問い合わせページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a News section</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083843Z" creationid="Toru Kokubun" creationdate="20180422T083432Z">
+        <seg>ニュースのセクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a Services section, where the order of services matters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083839Z" creationid="Toru Kokubun" creationdate="20180422T083839Z">
+        <seg>サービスの順序が重要なサービスのセクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a company organization chart</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083853Z" creationid="Toru Kokubun" creationdate="20180422T083853Z">
+        <seg>会社の組織図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>action&lt;x1/&gt; Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234016Z" creationid="Toru Kokubun" creationdate="20180420T234016Z">
@@ -4482,6 +5034,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234122Z" creationid="Toru Kokubun" creationdate="20180420T234115Z">
         <seg>action&lt;x1/&gt; パラメータは &lt;x4/&gt;camelCase&lt;x5/&gt; ではなく &lt;x2/&gt;kebab-case&lt;x3/&gt; に書き換えなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>an About Us page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082921Z" creationid="Toru Kokubun" creationdate="20180422T082921Z">
+        <seg>会社概要ページ</seg>
       </tuv>
     </tu>
     <tu>
@@ -4630,6 +5190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>recipes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083436Z" creationid="Toru Kokubun" creationdate="20180422T083436Z">
+        <seg>レシピ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>redirect&lt;x1/&gt; Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234224Z" creationid="Toru Kokubun" creationdate="20180420T234224Z">
@@ -4718,6 +5286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>the homepage</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082914Z" creationid="Toru Kokubun" creationdate="20180422T082914Z">
+        <seg>ホームページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>validation.key&lt;x1/&gt; – A randomly-generated, cryptographically secure key that is used for hashing and validating data between requests.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005225Z" creationid="Toru Kokubun" creationdate="20180422T004909Z">
@@ -4792,8 +5368,8 @@
       <tuv lang="EN-US">
         <seg>{tip} If you’d prefer to download a zip file instead, you can download Craft 3 from the Download button in the header of &lt;x1/&gt;craftcms.com&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001808Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
-        <seg>ヒント：ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードすることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093724Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
+        <seg>ヒント：ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードできます。</seg>
       </tuv>
     </tu>
     <tu>
