@@ -403,7 +403,7 @@ Craft によって拡張された DateTime クラスは Craft 3 で削除され�
 
 ## 通貨フォーマット
 
-`|currency` フィルタは [`craft\i18n\Formatter::asCurrency()`](https://docs.craftcms.com/api/v3/craft-i18n-formatter.html#asCurrency()-detail) にマップされるようになりました。それでも同じ働きとなりますが、引数 `stripZeroCents` は `stripZeros` にリネームされ、2つのノッチが必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。
+`|currency` フィルタは [`craft\i18n\Formatter::asCurrency()`](https://docs.craftcms.com/api/v3/craft-i18n-formatter.html#asCurrency()-detail) にマップされるようになりました。それでも同じ働きとなりますが、引数 `stripZeroCents` は `stripZeros` にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。
 
 ```twig
 Old:
@@ -682,7 +682,7 @@ CSRF プロテクションは、Craft 3 ではデフォルトで有効になり�
 
 ## Memcache
 
-コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `memcache` を指定し、設定ファイル `craft/config/memcache.php` で `useMemcached` に `true` をセットしていない場合は、サーバーに memcached をインストールする必要があります。Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、をれを使用します。
+コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `memcache` を指定し、設定ファイル `craft/config/memcache.php` で `useMemcached` に `true` をセットしていない場合は、サーバーに memcached をインストールする必要があります。Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、それを使用します。
 
 ## DbCache
 
