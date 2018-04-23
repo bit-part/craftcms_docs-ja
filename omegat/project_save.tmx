@@ -184,16 +184,16 @@
       <tuv lang="EN-US">
         <seg>A section can have one or many entries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010946Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
-        <seg>セクションは、1つまたは複数のエントリーを持つことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013549Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
+        <seg>セクションは、1つまたは複数のエントリを持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>A shortcut syntax is also available for output tags that reference a property on the entry:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084852Z" creationid="Toru Kokubun" creationdate="20180422T084852Z">
-        <seg>ショートカット構文は、エントリーのプロパティを参照する出力タグでも利用できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012839Z" creationid="Toru Kokubun" creationdate="20180422T084852Z">
+        <seg>ショートカット構文は、エントリのプロパティを参照する出力タグでも利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assets&lt;x1/&gt; use the field layout defined by their asset source in Settings → Assets → &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; → Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023507Z" creationid="Toru Kokubun" creationdate="20180423T023229Z">
+        <seg>アセット&lt;x1/&gt;は、「設定 &gt; アセット &gt; &lt;x2/&gt;アセットソース名&lt;x4/&gt; &gt; フィールドレイアウト」のアセットソースごとに定義されたフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Be careful in the words that you choose.&lt;x1/&gt; We are a community of professionals, and we conduct ourselves professionally.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233237Z" creationid="Toru Kokubun" creationdate="20180414T233237Z">
@@ -416,8 +424,8 @@
       <tuv lang="EN-US">
         <seg>Before you can create entries, you must create Sections to contain them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014422Z" creationid="Toru Kokubun" creationdate="20180422T014422Z">
-        <seg>エントリーを作成する前に、それらを含むセクションを作成しなければなりません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012537Z" creationid="Toru Kokubun" creationdate="20180422T014422Z">
+        <seg>エントリを作成する前に、それらを含むセクションを作成しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -448,8 +456,8 @@
       <tuv lang="EN-US">
         <seg>Both Channel and Structure sections let you define multiple types of entries using Entry Types.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090120Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
-        <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリーを定義できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012918Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
+        <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリを定義できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -488,16 +496,24 @@
       <tuv lang="EN-US">
         <seg>Categories&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011931Z" creationid="Toru Kokubun" creationdate="20180414T011931Z">
-        <seg>カテゴリー&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011817Z" creationid="Toru Kokubun" creationdate="20180414T011931Z">
+        <seg>カテゴリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Categories&lt;x1/&gt; use the field layout defined by their Category Group in Settings → Categories → &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; → Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023510Z" creationid="Toru Kokubun" creationdate="20180423T023428Z">
+        <seg>カテゴリ&lt;x1/&gt;は、「設定 &gt; カテゴリ → &lt;x2/&gt;カテゴリグループ名&lt;x4/&gt; &gt; フィールドレイアウト」のカテゴリグループごとに定義されたフィールドレイアウトを使用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Category</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013021Z" creationid="Toru Kokubun" creationdate="20180420T013021Z">
-        <seg>カテゴリー</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011809Z" creationid="Toru Kokubun" creationdate="20180420T013021Z">
+        <seg>カテゴリ</seg>
       </tuv>
     </tu>
     <tu>
@@ -528,8 +544,8 @@
       <tuv lang="EN-US">
         <seg>Channel and Structure sections can choose whether their entries should be assigned URLs in the system, by filling in the “Entry URI Format” setting.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084208Z" creationid="Toru Kokubun" creationdate="20180422T084208Z">
-        <seg>チャンネルとストラクチャーセクションでは、「エントリー URI 形式」設定を入力することでシステム内のエントリーに URL を割り当てるかどうかを選択できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012735Z" creationid="Toru Kokubun" creationdate="20180422T084208Z">
+        <seg>チャンネルとストラクチャーセクションでは、「エントリー URI 形式」設定を入力することでシステム内のエントリに URL を割り当てるかどうかを選択できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -558,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Checkboxes&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011608Z" creationid="Toru Kokubun" creationdate="20180423T011608Z">
+        <seg>チェックボックス&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Checking Your Server</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015858Z" creationid="Toru Kokubun" creationdate="20180415T015858Z">
@@ -576,40 +600,40 @@
       <tuv lang="EN-US">
         <seg>Choose the entry’s Expiration Date (optional)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101118Z" creationid="Toru Kokubun" creationdate="20180422T101118Z">
-        <seg>エントリーの有効期限の選択（オプション）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013649Z" creationid="Toru Kokubun" creationdate="20180422T101118Z">
+        <seg>エントリの有効期限の選択（オプション）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Choose the entry’s Post Date</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101059Z" creationid="Toru Kokubun" creationdate="20180422T101059Z">
-        <seg>エントリーの投稿日の選択</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013653Z" creationid="Toru Kokubun" creationdate="20180422T101059Z">
+        <seg>エントリの投稿日の選択</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Choose the entry’s author (Users required)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100938Z" creationid="Toru Kokubun" creationdate="20180422T100938Z">
-        <seg>エントリーの投稿者の選択（ユーザーが必要）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013659Z" creationid="Toru Kokubun" creationdate="20180422T100938Z">
+        <seg>エントリの投稿者の選択（ユーザーが必要）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Choose the entry’s parent (if it’s within a Structure section)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101027Z" creationid="Toru Kokubun" creationdate="20180422T101007Z">
-        <seg>（ストラクチャーセクションに含まれる場合）エントリーの親の選択</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013657Z" creationid="Toru Kokubun" creationdate="20180422T101007Z">
+        <seg>（ストラクチャーセクションに含まれる場合）エントリの親の選択</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Choose whether the entry is enabled or not</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101139Z" creationid="Toru Kokubun" creationdate="20180422T101129Z">
-        <seg>エントリーを有効にするかどうかの選択</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013630Z" creationid="Toru Kokubun" creationdate="20180422T101129Z">
+        <seg>エントリを有効にするかどうかの選択</seg>
       </tuv>
     </tu>
     <tu>
@@ -638,10 +662,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Clicking on it will reveal a context menu with two options:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025236Z" creationid="Toru Kokubun" creationdate="20180423T025158Z">
+        <seg>クリックすると2つのオプションを含むコンテキストメニューを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clicking on it will take you to the entry index.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100358Z" creationid="Toru Kokubun" creationdate="20180422T100358Z">
-        <seg>クリックすると、エントリーのインデックスに移動します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013721Z" creationid="Toru Kokubun" creationdate="20180422T100358Z">
+        <seg>クリックすると、エントリのインデックスに移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -650,6 +682,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003343Z" creationid="Toru Kokubun" creationdate="20180419T003343Z">
         <seg>クリックすると、 Craft の自動更新プロセスが開始されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking “Make required” will add an asterisk (&lt;x1/&gt;*&lt;x2/&gt;) beside the field’s name, indicating that it’s now required.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030305Z" creationid="Toru Kokubun" creationdate="20180423T030246Z">
+        <seg>「必須にする」をクリックすると、フィールド名の横にアスタリスク（&lt;x1/&gt;*&lt;x2/&gt;）が追加され、必須項目になったことを示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -682,6 +722,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230532Z" creationid="Toru Kokubun" creationdate="20180414T230532Z">
         <seg>コーディングガイドライン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Color&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011657Z" creationid="Toru Kokubun" creationdate="20180423T011612Z">
+        <seg>色&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -934,6 +982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft comes with the following built-in field types:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011558Z" creationid="Toru Kokubun" creationdate="20180423T011558Z">
+        <seg>Craft は次の組み込みのフィールドタイプがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft has three different types of sections:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082719Z" creationid="Toru Kokubun" creationdate="20180422T082719Z">
@@ -1118,6 +1174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Date/Time&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011644Z" creationid="Toru Kokubun" creationdate="20180423T011644Z">
+        <seg>日/時&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default Character Set: &lt;x1/&gt;utf8&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084903Z" creationid="Toru Kokubun" creationdate="20180415T084903Z">
@@ -1222,26 +1286,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dropdown&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013904Z" creationid="Toru Kokubun" creationdate="20180423T013904Z">
+        <seg>セレクトボックス&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dynamic Entry Titles</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091015Z" creationid="Toru Kokubun" creationdate="20180422T091015Z">
-        <seg>動的なエントリータイトル</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012933Z" creationid="Toru Kokubun" creationdate="20180422T091015Z">
+        <seg>動的なエントリタイトル</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Each entry can only belong to one Section.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010933Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
-        <seg>それぞれのエントリーは、1つのセクションにしか属することができません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013540Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
+        <seg>それぞれのエントリは、1つのセクションにしか属することができません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Each entry has an Author, a Post Date, an Expiration Date (if desired), a status (enabled or disabled), and of course, content.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091338Z" creationid="Toru Kokubun" creationdate="20180422T013111Z">
-        <seg>すべてのエントリーは投稿者、投稿日、（もし望むなら）有効期限日、（有効・無効の）ステータスと、もちろん、コンテンツを持っています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012510Z" creationid="Toru Kokubun" creationdate="20180422T013111Z">
+        <seg>すべてのエントリは投稿者、投稿日、（もし望むなら）有効期限日、（有効・無効の）ステータスと、もちろん、コンテンツを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1272,32 +1344,32 @@
       <tuv lang="EN-US">
         <seg>Edit the entry’s custom field content</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100900Z" creationid="Toru Kokubun" creationdate="20180422T100900Z">
-        <seg>エントリーのカスタムフィールドコンテンツの編集</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013701Z" creationid="Toru Kokubun" creationdate="20180422T100900Z">
+        <seg>エントリのカスタムフィールドコンテンツの編集</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Edit the entry’s slug</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100845Z" creationid="Toru Kokubun" creationdate="20180422T100845Z">
-        <seg>エントリーのスラグの編集</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013704Z" creationid="Toru Kokubun" creationdate="20180422T100845Z">
+        <seg>エントリのスラグの編集</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Edit the entry’s title</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100831Z" creationid="Toru Kokubun" creationdate="20180422T100831Z">
-        <seg>エントリーのタイトルの編集</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013708Z" creationid="Toru Kokubun" creationdate="20180422T100831Z">
+        <seg>エントリのタイトルの編集</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Editing Entries</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095959Z" creationid="Toru Kokubun" creationdate="20180422T095959Z">
-        <seg>エントリーの編集</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013730Z" creationid="Toru Kokubun" creationdate="20180422T095959Z">
+        <seg>エントリの編集</seg>
       </tuv>
     </tu>
     <tu>
@@ -1368,24 +1440,40 @@
       <tuv lang="EN-US">
         <seg>Entries</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004702Z" creationid="Toru Kokubun" creationdate="20180421T004702Z">
-        <seg>エントリー</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012409Z" creationid="Toru Kokubun" creationdate="20180421T004702Z">
+        <seg>エントリ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Entries are your individual pieces of content (like a cocktail recipe).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010628Z" creationid="Toru Kokubun" creationdate="20180421T010553Z">
-        <seg>エントリーは（カクテルレシピのような）コンテンツの独立したピースです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013557Z" creationid="Toru Kokubun" creationdate="20180421T010553Z">
+        <seg>エントリは（カクテルレシピのような）コンテンツの独立したピースです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Entries hold the content that you want to display on your web pages.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T013226Z" creationid="Toru Kokubun" creationdate="20180422T012941Z">
-        <seg>エントリーはウェブページに表示させたいコンテンツを保持します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012503Z" creationid="Toru Kokubun" creationdate="20180422T012941Z">
+        <seg>エントリはウェブページに表示させたいコンテンツを保持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013912Z" creationid="Toru Kokubun" creationdate="20180423T013912Z">
+        <seg>エントリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries&lt;x1/&gt; use the field layout defined by their entry type in Settings → Sections → Edit Entry Types → &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; → Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023501Z" creationid="Toru Kokubun" creationdate="20180423T015708Z">
+        <seg>エントリ&lt;x1/&gt;は、「設定 &gt; セクション &gt; 入力タイプ &gt; &lt;x2/&gt;入力タイプ名&lt;x4/&gt; &gt; フィールドレイアウト」の入力タイプごとに定義されたフィールドレイアウトを使用します。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -1416,8 +1504,8 @@
       <tuv lang="EN-US">
         <seg>Entry URI Formats are mini Twig templates, which will be rendered each time an entry in the section is saved.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084342Z" creationid="Toru Kokubun" creationdate="20180422T084342Z">
-        <seg>エントリー URL 形式は、セクション内のエントリーが保存されるごとにレンダリングされる小さな Twig テンプレートです。 </seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012813Z" creationid="Toru Kokubun" creationdate="20180422T084342Z">
+        <seg>エントリー URI 形式は、セクション内のエントリが保存されるごとにレンダリングされる小さな Twig テンプレートです。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -1426,6 +1514,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090638Z" creationid="Toru Kokubun" creationdate="20180422T090638Z">
         <seg>入力タイプの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Everything in Craft that has content associated with it will provide a field layout for selecting fields:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T015528Z" creationid="Toru Kokubun" creationdate="20180423T015420Z">
+        <seg>関連するコンテンツを持つ Craft 内のすべての場所で、フィールドを選択するためのフィールドレイアウトを提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1462,6 +1558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Field Layouts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T014943Z" creationid="Toru Kokubun" creationdate="20180423T014836Z">
+        <seg>フィールドレイアウト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Field Settings&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221753Z" creationid="Toru Kokubun" creationdate="20180422T221753Z">
@@ -1470,10 +1574,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Field Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T010714Z" creationid="Toru Kokubun" creationdate="20180423T010714Z">
+        <seg>フィールドタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Field Types&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230929Z" creationid="Toru Kokubun" creationdate="20180414T230929Z">
         <seg>フィールドタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Field layouts for entry types have another feature: they let you define the</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030552Z" creationid="Toru Kokubun" creationdate="20180423T030552Z">
+        <seg>入力タイプのフィールドレイアウトは、異なる機能があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1584,8 +1704,8 @@
       <tuv lang="EN-US">
         <seg>From there you can navigate to the entry you wish to edit, or create a new one.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100501Z" creationid="Toru Kokubun" creationdate="20180422T100501Z">
-        <seg>そこから、編集したいエントリーに移動したり、新しいエントリーを作成できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013717Z" creationid="Toru Kokubun" creationdate="20180422T100501Z">
+        <seg>そこから、編集したいエントリに移動したり、新しいエントリを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1626,6 +1746,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012444Z" creationid="Toru Kokubun" creationdate="20180414T012444Z">
         <seg>グローバル変数&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global sets&lt;x1/&gt; each get their own field layout, defined in Settings → Globals → &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; → Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024126Z" creationid="Toru Kokubun" creationdate="20180423T015924Z">
+        <seg>グローバル設定&lt;x1/&gt;は、「設定 &gt; グローバル &gt; &lt;x2/&gt;グローバル設定名&lt;x4/&gt; &gt; フィールドレイアウト」で定義されたそれぞれのフィールドレイアウトを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1688,8 +1816,8 @@
       <tuv lang="EN-US">
         <seg>Here &lt;x1/&gt;.type()&lt;x2/&gt; is applying the &lt;x3/&gt;type&lt;x4/&gt; parameter to a &lt;x5/&gt;clone&lt;x6/&gt; of &lt;x7/&gt;query&lt;x8/&gt;, so it had no effect on &lt;x9/&gt;query.total()&lt;x10/&gt;, which will still return the total number of News entries, regardless of their entry types.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220938Z" creationid="Toru Kokubun" creationdate="20180420T220453Z">
-        <seg>この &lt;x1/&gt;.type()&lt;x2/&gt; は &lt;x3/&gt;type&lt;x4/&gt; パラメータを &lt;x7/&gt;query&lt;x8/&gt; の &lt;x5/&gt;clone&lt;x6/&gt; に適用しているため、 &lt;x9/&gt;query.total()&lt;x10/&gt; には影響を与えません。エントリータイプに関わらず、News エントリの総数を返します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012125Z" creationid="Toru Kokubun" creationdate="20180420T220453Z">
+        <seg>この &lt;x1/&gt;.type()&lt;x2/&gt; は &lt;x3/&gt;type&lt;x4/&gt; パラメータを &lt;x7/&gt;query&lt;x8/&gt; の &lt;x5/&gt;clone&lt;x6/&gt; に適用しているため、 &lt;x9/&gt;query.total()&lt;x10/&gt; には影響を与えません。入力タイプに関わらず、News エントリの総数を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1936,8 +2064,8 @@
       <tuv lang="EN-US">
         <seg>If you have at least one section, there will be an “Entries” tab in the primary CP nav.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100310Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
-        <seg>少なくとも1つのセクションがあれば、CP のメインナビゲーションに「エントリー」タブが表示されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013725Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
+        <seg>少なくとも1つのセクションがあれば、CP のメインナビゲーションに「エントリ」タブが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1960,8 +2088,8 @@
       <tuv lang="EN-US">
         <seg>If you leave the Post Date blank, Craft will automatically set it the first time an entry is saved as enabled.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101636Z" creationid="Toru Kokubun" creationdate="20180422T101450Z">
-        <seg>投稿日を空のままにした場合、Craft はエントリーが有効な状態で保存された最初のタイミングで自動的にセットします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013617Z" creationid="Toru Kokubun" creationdate="20180422T101450Z">
+        <seg>投稿日を空のままにした場合、Craft はエントリが有効な状態で保存された最初のタイミングで自動的にセットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2208,8 +2336,8 @@
       <tuv lang="EN-US">
         <seg>Inside of the Sections are Entries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010443Z" creationid="Toru Kokubun" creationdate="20180421T010443Z">
-        <seg>セクションの内側にエントリーがあります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013600Z" creationid="Toru Kokubun" creationdate="20180421T010443Z">
+        <seg>セクションの内側にエントリがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2446,10 +2574,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make required</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025214Z" creationid="Toru Kokubun" creationdate="20180423T025214Z">
+        <seg>必須にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Matrix Block</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065600Z" creationid="Toru Kokubun" creationdate="20180420T065600Z">
-        <seg>マトリックスブロック</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T014120Z" creationid="Toru Kokubun" creationdate="20180420T065600Z">
+        <seg>行列ブロック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matrix&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013924Z" creationid="Toru Kokubun" creationdate="20180423T013924Z">
+        <seg>行列&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2506,6 +2650,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054846Z" creationid="Toru Kokubun" creationdate="20180420T054846Z">
         <seg>&lt;x1/&gt;storage/userphotos/&lt;x2/&gt; フォルダをウェブルート下層のどこかに移動します。（例： &lt;x3/&gt;public_html/userphotos/&lt;x4/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-select&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013936Z" creationid="Toru Kokubun" creationdate="20180423T013936Z">
+        <seg>マルチセレクトボックス&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2728,8 +2880,16 @@
       <tuv lang="EN-US">
         <seg>Now within your &lt;x3/&gt;translations/&lt;x4/&gt; folder, you should create subdirectories for each locale, and within them, PHP files for each &lt;x5/&gt;translation category&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013024Z" creationid="Toru Kokubun" creationdate="20180420T012845Z">
-        <seg>&lt;x3/&gt;translations/&lt;x4/&gt; フォルダの中にローケルごとのサブディレクトリを作成し、それぞれに&lt;x5/&gt;翻訳カテゴリー&lt;x6/&gt;ごとの PHP ファイルを作成する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011748Z" creationid="Toru Kokubun" creationdate="20180420T012845Z">
+        <seg>&lt;x3/&gt;translations/&lt;x4/&gt; フォルダの中にローケルごとのサブディレクトリを作成し、それぞれに&lt;x5/&gt;翻訳カテゴリ&lt;x6/&gt;ごとの PHP ファイルを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013940Z" creationid="Toru Kokubun" creationdate="20180423T013940Z">
+        <seg>数字&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2770,6 +2930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235008Z" creationid="Toru Kokubun" creationdate="20180420T234728Z">
         <seg>旧トークン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once a field is selected, a gear icon will appear beside it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025245Z" creationid="Toru Kokubun" creationdate="20180423T025044Z">
+        <seg>フィールドが選択されると、歯車のアイコンが横に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2818,6 +2986,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030358Z" creationid="Toru Kokubun" creationdate="20180418T030358Z">
         <seg>セットアッププロセスが完了すると、コントロールパネルにログインできるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you’ve created your fields, you can get it to show up in your edit forms by adding them to a “field layouts”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T015022Z" creationid="Toru Kokubun" creationdate="20180423T014939Z">
+        <seg>フィールドを作成すると、「フィールドレイアウト」にそれらを加えることによって編集フォームに表示させることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2890,6 +3066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234744Z" creationid="Toru Kokubun" creationdate="20180414T234744Z">
         <seg>個人的な侮辱。とりわけ、人種差別的であったり性差別的な表現を用いるもの。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plain Text&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013950Z" creationid="Toru Kokubun" creationdate="20180423T013950Z">
+        <seg>プレーンテキスト&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3030,6 +3214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Radio Buttons&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013952Z" creationid="Toru Kokubun" creationdate="20180423T013952Z">
+        <seg>ラジオボタン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rather, take it in the spirit in which it’s intended - a guide to make it easier to enrich all of us and the technical communities in which we participate.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232523Z" creationid="Toru Kokubun" creationdate="20180414T032331Z">
@@ -3130,6 +3322,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215535Z" creationid="Toru Kokubun" creationdate="20180419T215535Z">
         <seg>リモートボリューム&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025219Z" creationid="Toru Kokubun" creationdate="20180423T025219Z">
+        <seg>削除</seg>
       </tuv>
     </tu>
     <tu>
@@ -3240,16 +3440,16 @@
       <tuv lang="EN-US">
         <seg>Save a new draft of the entry (Craft Client or Craft Pro required)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101227Z" creationid="Toru Kokubun" creationdate="20180422T101227Z">
-        <seg>エントリーの新しいドラフトの保存（Craft Client または Craft Pro が必要）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013625Z" creationid="Toru Kokubun" creationdate="20180422T101227Z">
+        <seg>エントリの新しいドラフトの保存（Craft Client または Craft Pro が必要）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Save changes to the entry</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101156Z" creationid="Toru Kokubun" creationdate="20180422T101156Z">
-        <seg>エントリーの変更を保存</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013628Z" creationid="Toru Kokubun" creationdate="20180422T101156Z">
+        <seg>エントリの変更を保存</seg>
       </tuv>
     </tu>
     <tu>
@@ -3296,16 +3496,16 @@
       <tuv lang="EN-US">
         <seg>Sections and Entries</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T012757Z" creationid="Toru Kokubun" creationdate="20180422T012757Z">
-        <seg>セクションとエントリー</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012429Z" creationid="Toru Kokubun" creationdate="20180422T012757Z">
+        <seg>セクションとエントリ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Sections and Entries&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011808Z" creationid="Toru Kokubun" creationdate="20180414T011808Z">
-        <seg>セクションとエントリー&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013524Z" creationid="Toru Kokubun" creationdate="20180414T011808Z">
+        <seg>セクションとエントリ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3338,6 +3538,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001727Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
         <seg>&lt;x1/&gt;Craft 3 のためのプラグインアップデート&lt;x2/&gt;を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Selecting a field is as simple as dragging it from the bottom area to the top, positioning it wherever you want alongside the other selected fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024904Z" creationid="Toru Kokubun" creationdate="20180423T024820Z">
+        <seg>フィールドの選択は下のエリアから上にドラッグするだけの簡単な操作で、すでに配置されたフィールドの前後の好きな場所に配置できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3440,8 +3648,8 @@
       <tuv lang="EN-US">
         <seg>Show the Title field?&lt;x1/&gt; – Whether a Title field is displayed for entries of this type</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090921Z" creationid="Toru Kokubun" creationdate="20180422T090921Z">
-        <seg>タイトルのフィールドの見る&lt;x1/&gt; – この入力タイプのエントリーでタイトルフィールドを表示するかどうか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012926Z" creationid="Toru Kokubun" creationdate="20180422T090921Z">
+        <seg>タイトルのフィールドの見る&lt;x1/&gt; – この入力タイプのエントリでタイトルフィールドを表示するかどうか</seg>
       </tuv>
     </tu>
     <tu>
@@ -3528,8 +3736,8 @@
       <tuv lang="EN-US">
         <seg>Structure sections may wish to have an Entry URI Format that differs depending on whether it’s a top-level entry or a nested one:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T085622Z" creationid="Toru Kokubun" creationdate="20180422T085023Z">
-        <seg>ストラクチャーセクションでは、エントリーがトップレベルかネストされているかによって、異なるエントリー URI 形式を持つことを望むかもしれません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012847Z" creationid="Toru Kokubun" creationdate="20180422T085023Z">
+        <seg>ストラクチャーセクションでは、エントリがトップレベルかネストされているかによって、異なるエントリー URI 形式を持つことを望むかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3544,8 +3752,16 @@
       <tuv lang="EN-US">
         <seg>Structures are good for times when you need to store multiple similar entries, and sort them into a specific order.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083634Z" creationid="Toru Kokubun" creationdate="20180422T083619Z">
-        <seg>ストラクチャーは、複数の類似するエントリーを格納し、かつ、特定の順序で並び替える必要がある場合に適しています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012725Z" creationid="Toru Kokubun" creationdate="20180422T083619Z">
+        <seg>ストラクチャーは、複数の類似するエントリを格納し、かつ、特定の順序で並び替える必要がある場合に適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subsequent gear icon clicks will reveal a new “Make not required” option which does as you’d expect.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030517Z" creationid="Toru Kokubun" creationdate="20180423T030517Z">
+        <seg>それ以降、歯車のアイコンをクリックすると、期待通り「必須にしない」オプションを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3566,6 +3782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T014014Z" creationid="Toru Kokubun" creationdate="20180423T014014Z">
+        <seg>テーブル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065533Z" creationid="Toru Kokubun" creationdate="20180420T065533Z">
@@ -3578,6 +3802,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011946Z" creationid="Toru Kokubun" creationdate="20180414T011946Z">
         <seg>タグ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags&lt;x1/&gt; use the field layout defined by their Tag Group in Settings → Tags → &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; → Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023733Z" creationid="Toru Kokubun" creationdate="20180423T023654Z">
+        <seg>タグ&lt;x1/&gt;は、 「設定 &gt; タグ &gt; &lt;x2/&gt;タググループ名&lt;x4/&gt; &gt; フィールドレイアウト」のタググループごとに定義されたフィールドレイアウトを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3752,8 +3984,8 @@
       <tuv lang="EN-US">
         <seg>The Title Format is a full-blown Twig template, and it will get parsed whenever your entries are saved.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093422Z" creationid="Toru Kokubun" creationdate="20180422T093422Z">
-        <seg>タイトル形式は本格的な Twig テンプレートで、エントリーが保存されるたびに解析されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013756Z" creationid="Toru Kokubun" creationdate="20180422T093422Z">
+        <seg>タイトル形式は本格的な Twig テンプレートで、エントリが保存されるたびに解析されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3768,8 +4000,8 @@
       <tuv lang="EN-US">
         <seg>The acceptable translation categories are:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013027Z" creationid="Toru Kokubun" creationdate="20180420T013005Z">
-        <seg>許可されている翻訳カテゴリーは、次の通りです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011801Z" creationid="Toru Kokubun" creationdate="20180420T013005Z">
+        <seg>許可されている翻訳カテゴリは、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3800,24 +4032,32 @@
       <tuv lang="EN-US">
         <seg>The entries are typically inputted via the Entry Form in the Craft Control Panel.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T011029Z" creationid="Toru Kokubun" creationdate="20180421T010849Z">
-        <seg>エントリーは、通常コントロールパネルの入力フォームから入力されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013545Z" creationid="Toru Kokubun" creationdate="20180421T010849Z">
+        <seg>エントリは、通常コントロールパネルの入力フォームから入力されます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The entry being saved will be available to the template as an &lt;x1/&gt;object&lt;x2/&gt; variable, and each of the entry’s properties and custom field values will also be available as their own variables.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093758Z" creationid="Toru Kokubun" creationdate="20180422T084703Z">
-        <seg>保存されているエントリーは、&lt;x1/&gt;object&lt;x2/&gt; 変数としてテンプレートで利用できます。さらに、各エントリーのプロパティやカスタムフィールドの値は、それぞれの変数として利用できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012829Z" creationid="Toru Kokubun" creationdate="20180422T084703Z">
+        <seg>保存されているエントリは、&lt;x1/&gt;object&lt;x2/&gt; 変数としてテンプレートで利用できます。さらに、各エントリのプロパティやカスタムフィールドの値は、それぞれの変数として利用できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The entry is passed to this template as a variable named &lt;x1/&gt;object&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093616Z" creationid="Toru Kokubun" creationdate="20180422T093616Z">
-        <seg>エントリーは &lt;x1/&gt;object&lt;x2/&gt; という名称の変数としてこのテンプレートに渡されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013751Z" creationid="Toru Kokubun" creationdate="20180422T093616Z">
+        <seg>エントリは &lt;x1/&gt;object&lt;x2/&gt; という名称の変数としてこのテンプレートに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The final setting that all fields have is the “Field Type” setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T010838Z" creationid="Toru Kokubun" creationdate="20180423T010838Z">
+        <seg>すべてのフィールドに設定されるのが「フィールドタイプ」の設定です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3984,8 +4224,8 @@
       <tuv lang="EN-US">
         <seg>The rendering result will be saved as the entry’s URI in the system.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T084424Z" creationid="Toru Kokubun" creationdate="20180422T084424Z">
-        <seg>レンダリング結果は、システムのエントリー URI として保存されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012754Z" creationid="Toru Kokubun" creationdate="20180422T084424Z">
+        <seg>レンダリング結果は、システムのエントリ URI として保存されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4088,8 +4328,8 @@
       <tuv lang="EN-US">
         <seg>There’s no shortcut syntax for those, so if you want to use a conditional on one of the entry’s properties, you will need to reference it with the &lt;x1/&gt;object&lt;x2/&gt; variable:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095825Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
-        <seg>ショートカット構文がないため、エントリープロパティの1つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013736Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
+        <seg>ショートカット構文がないため、エントリプロパティの1つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4194,6 +4434,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030331Z" creationid="Toru Kokubun" creationdate="20180418T030331Z">
         <seg>このコマンドはウェブブラウザと同様のウィザードを実行しますが、すべてコマンドラインから実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This determines what type of field it is – what its input UI is going to look like, what type of data it can store, and how you’ll be able to interact with that data from your templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011411Z" creationid="Toru Kokubun" creationdate="20180423T011307Z">
+        <seg>これは、フィールドがどんな種類か（入力 UI の外観、格納可能なデータ型、テンプレートからデータをどのようにやりとりできるか）を決定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4344,8 +4592,8 @@
       <tuv lang="EN-US">
         <seg>To review the specifics of each type, check out the &lt;x1/&gt;Sections and Entries&lt;x2/&gt; page of this documentation.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010355Z" creationid="Toru Kokubun" creationdate="20180421T010355Z">
-        <seg>各タイプの詳細を確認するには、このドキュメントの&lt;x1/&gt;セクションとエントリー&lt;x2/&gt;ページをチェックしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013605Z" creationid="Toru Kokubun" creationdate="20180421T010355Z">
+        <seg>各タイプの詳細を確認するには、このドキュメントの&lt;x1/&gt;セクションとエントリ&lt;x2/&gt;ページをチェックしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4456,8 +4704,8 @@
       <tuv lang="EN-US">
         <seg>Typically each entry will have a stake in its own primary URL on your site, though Craft can fetch any entry from anywhere if your template needs it.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014309Z" creationid="Toru Kokubun" creationdate="20180422T013755Z">
-        <seg>一般的に、それぞれのエントリーはサイトの独自のプライマリー URL に関わり合いを持ちますが、Craft ではテンプレートが必要とするならば、どこからでもエントリーを取得できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012529Z" creationid="Toru Kokubun" creationdate="20180422T013755Z">
+        <seg>一般的に、それぞれのエントリはサイトの独自のプライマリー URL に関わり合いを持ちますが、Craft ではテンプレートが必要とするならば、どこからでもエントリを取得できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4488,8 +4736,8 @@
       <tuv lang="EN-US">
         <seg>Unlike the other section types, Singles only have one entry associated with them, and they don’t have an editable Author, Slug, Post Date, or Expiration Date.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091253Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
-        <seg>他のセクションタイプと異なり、シングルは1つのエントリーしか関連づけられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012623Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
+        <seg>他のセクションタイプと異なり、シングルは1つのエントリしか関連づけられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4614,6 +4862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Users&lt;x1/&gt; all share a single field layout defined in Settings → Users → Fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024028Z" creationid="Toru Kokubun" creationdate="20180423T024028Z">
+        <seg>ユーザー&lt;x1/&gt;は、「設定 &gt; ユーザー &gt; フィールド」で定義された単一のフィールドレイアウトを共有します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Utilities</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T031023Z" creationid="Toru Kokubun" creationdate="20180418T030832Z">
@@ -4632,8 +4888,8 @@
       <tuv lang="EN-US">
         <seg>View past versions of the entry (Craft Client or Craft Pro required)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101316Z" creationid="Toru Kokubun" creationdate="20180422T101316Z">
-        <seg>エントリーの過去のバージョンの閲覧（Craft Client または Craft Pro が必要）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013623Z" creationid="Toru Kokubun" creationdate="20180422T101316Z">
+        <seg>エントリの過去のバージョンの閲覧（Craft Client または Craft Pro が必要）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4712,8 +4968,8 @@
       <tuv lang="EN-US">
         <seg>We use Fields in Craft to define the different content types that are stored in an Entry.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012129Z" creationid="Toru Kokubun" creationdate="20180421T011208Z">
-        <seg>Craft のフィールドを利用して、エントリーに格納する様々なコンテンツタイプを定義します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013535Z" creationid="Toru Kokubun" creationdate="20180421T011208Z">
+        <seg>Craft のフィールドを利用して、エントリに格納する様々なコンテンツタイプを定義します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4728,8 +4984,8 @@
       <tuv lang="EN-US">
         <seg>We've already created the Section called "Recipes" to hold our entries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012555Z" creationid="Toru Kokubun" creationdate="20180421T012555Z">
-        <seg>エントリーを保持するため「レシピ」と呼ばれるセクションをすでに作成してあります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013531Z" creationid="Toru Kokubun" creationdate="20180421T012555Z">
+        <seg>エントリを保持するため「レシピ」と呼ばれるセクションをすでに作成してあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4744,16 +5000,16 @@
       <tuv lang="EN-US">
         <seg>What the entries’ URLs should look like</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014631Z" creationid="Toru Kokubun" creationdate="20180422T014631Z">
-        <seg>エントリーの URL をどのように表示するか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012552Z" creationid="Toru Kokubun" creationdate="20180422T014631Z">
+        <seg>エントリの URL をどのように表示するか</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>What types of entries should be available in the section, and which fields each of those entry types should have</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014817Z" creationid="Toru Kokubun" creationdate="20180422T014817Z">
-        <seg>セクション内でどのようなエントリータイプが利用可能か、それらのエントリータイプはどのようなフィールドを持つ必要があるか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012147Z" creationid="Toru Kokubun" creationdate="20180422T014817Z">
+        <seg>セクション内でどのような入力タイプが利用可能か、それらの入力タイプはどのようなフィールドを持つ必要があるか</seg>
       </tuv>
     </tu>
     <tu>
@@ -4770,6 +5026,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003019Z" creationid="Toru Kokubun" creationdate="20180419T002815Z">
         <seg>アップデートが可能になると、Craft のアップデート権限を持つユーザーは CP のサイドバーにあるナビゲーション項目「ユーティリティ」の横にバッジを確認できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When editing a field layout, you will find a “Content” tab at the top, and a list of all of your site’s fields, grouped into their field groups, at the bottom.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024542Z" creationid="Toru Kokubun" creationdate="20180423T024542Z">
+        <seg>フィールドレイアウトを編集すると、一番上に「コンテンツ」タブが、下段にフィールドグループごとに分類されたすべてのサイトのフィールドのリストが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4816,8 +5080,8 @@
       <tuv lang="EN-US">
         <seg>Whether entries in the section have URLs</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014557Z" creationid="Toru Kokubun" creationdate="20180422T014547Z">
-        <seg>セクション内のエントリーが URL を持つかどうか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012559Z" creationid="Toru Kokubun" creationdate="20180422T014547Z">
+        <seg>セクション内のエントリが URL を持つかどうか</seg>
       </tuv>
     </tu>
     <tu>
@@ -4840,32 +5104,32 @@
       <tuv lang="EN-US">
         <seg>Which sites are enabled by default for new entries</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T015224Z" creationid="Toru Kokubun" creationdate="20180422T015204Z">
-        <seg>新しいエントリー向けに、どのサイトをデフォルトで有効にするか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012635Z" creationid="Toru Kokubun" creationdate="20180422T015204Z">
+        <seg>新しいエントリ向けに、どのサイトをデフォルトで有効にするか</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Which sites entries in the section should target</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T015106Z" creationid="Toru Kokubun" creationdate="20180422T015106Z">
-        <seg>セクション内のどのサイトのエントリーをターゲットにするか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012630Z" creationid="Toru Kokubun" creationdate="20180422T015106Z">
+        <seg>セクション内のどのサイトのエントリをターゲットにするか</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Which template should get loaded if an entry’s URL is requested</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014712Z" creationid="Toru Kokubun" creationdate="20180422T014703Z">
-        <seg>エントリーの URL がリクエストされたとき、どのテンプレートを読み込むか</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012604Z" creationid="Toru Kokubun" creationdate="20180422T014703Z">
+        <seg>エントリの URL がリクエストされたとき、どのテンプレートを読み込むか</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>While getting familiar with the Craft control panel, refer to the Core Concepts section for material on &lt;x1/&gt;Sections &amp; Entries&lt;x2/&gt;, &lt;x3/&gt;Fields&lt;x4/&gt;, and &lt;x5/&gt;Templates&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074418Z" creationid="Toru Kokubun" creationdate="20180415T010136Z">
-        <seg>Craft のコントロールパネルに慣れる間に、コアコンセプトである&lt;x1/&gt;セクションとエントリー&lt;x2/&gt;、&lt;x3/&gt;フィールド&lt;x4/&gt;、&lt;x5/&gt;テンプレート&lt;x6/&gt;について資料を参照してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012422Z" creationid="Toru Kokubun" creationdate="20180415T010136Z">
+        <seg>Craft のコントロールパネルに慣れる間に、コアコンセプトである&lt;x1/&gt;セクションとエントリ&lt;x2/&gt;、&lt;x3/&gt;フィールド&lt;x4/&gt;、&lt;x5/&gt;テンプレート&lt;x6/&gt;について資料を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4888,8 +5152,8 @@
       <tuv lang="EN-US">
         <seg>With that Entry URI Format, a top-level entry might end up with the URI &lt;x1/&gt;docs/templating&lt;x2/&gt;, whereas a nested entry might end up with the URI &lt;x3/&gt;docs/templating/tags&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T085836Z" creationid="Toru Kokubun" creationdate="20180422T085228Z">
-        <seg>このエントリー URI 形式では、トップレベルエントリーは URI &lt;x1/&gt;docs/templating&lt;x2/&gt; で終わるかもしれないのに対して、ネスとされているエントリーの URI &lt;x3/&gt;docs/templating/tags&lt;x4/&gt; で終わるかもしれません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012905Z" creationid="Toru Kokubun" creationdate="20180422T085228Z">
+        <seg>このエントリー URI 形式では、トップレベルエントリは URI &lt;x1/&gt;docs/templating&lt;x2/&gt; で終わるかもしれないのに対して、ネスとされているエントリの URI &lt;x3/&gt;docs/templating/tags&lt;x4/&gt; で終わるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4912,8 +5176,16 @@
       <tuv lang="EN-US">
         <seg>You can also create drafts of entries that live alongside the current live version of the entry.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T013532Z" creationid="Toru Kokubun" creationdate="20180422T013416Z">
-        <seg>エントリーの現在の公開バージョンと並行して、エントリーのドラフトを作成することもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012518Z" creationid="Toru Kokubun" creationdate="20180422T013416Z">
+        <seg>エントリの現在の公開バージョンと並行して、エントリのドラフトを作成することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also drag selected fields around to change their order.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024932Z" creationid="Toru Kokubun" creationdate="20180423T024932Z">
+        <seg>選択されたフィールドをドラッグして、順番を入れ替えることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4952,24 +5224,24 @@
       <tuv lang="EN-US">
         <seg>You can manage your sections’ Entry Types by clicking the “Edit Entry Types” link beside the section’s name in Settings → Sections.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090327Z" creationid="Toru Kokubun" creationdate="20180422T090327Z">
-        <seg>「設定 &gt;  セクション」のセクション名の横にある「入力タイプを変更してください。」リンクをクリックして、セクションの入力タイプを管理できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T020259Z" creationid="Toru Kokubun" creationdate="20180422T090327Z">
+        <seg>「設定 &gt; セクション」のセクション名の横にある「入力タイプを変更してください。」リンクをクリックして、セクションの入力タイプを管理できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>You can perform the following actions from the Edit Entry page:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T100613Z" creationid="Toru Kokubun" creationdate="20180422T100613Z">
-        <seg>エントリーの編集ページでは、次のアクションを実行できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013713Z" creationid="Toru Kokubun" creationdate="20180422T100613Z">
+        <seg>エントリの編集ページでは、次のアクションを実行できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>You can reference the entry’s &lt;x3/&gt;properties&lt;x4/&gt; in two ways:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093648Z" creationid="Toru Kokubun" creationdate="20180422T093648Z">
-        <seg>エントリーの &lt;x3/&gt;プロパティ&lt;x4/&gt; は、次の2つの方法で参照できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013747Z" creationid="Toru Kokubun" creationdate="20180422T093648Z">
+        <seg>エントリの &lt;x3/&gt;プロパティ&lt;x4/&gt; は、次の2つの方法で参照できます。</seg>
       </tuv>
     </tu>
     <tu>
