@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each content tab will get its own gear icon allowing you to rename or delete it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031332Z" creationid="Toru Kokubun" creationdate="20180423T031249Z">
+        <seg>各コンテンツタブには歯車アイコンが表示され、リネームや削除ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each entry can only belong to one Section.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013540Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
@@ -1586,6 +1594,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230929Z" creationid="Toru Kokubun" creationdate="20180414T230929Z">
         <seg>フィールドタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Field layouts for entry types have another feature:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030956Z" creationid="Toru Kokubun" creationdate="20180423T030956Z">
+        <seg>入力タイプのフィールドレイアウトは、異なる特徴があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2936,8 +2952,8 @@
       <tuv lang="EN-US">
         <seg>Once a field is selected, a gear icon will appear beside it.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025245Z" creationid="Toru Kokubun" creationdate="20180423T025044Z">
-        <seg>フィールドが選択されると、歯車のアイコンが横に表示されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031255Z" creationid="Toru Kokubun" creationdate="20180423T025044Z">
+        <seg>フィールドが選択されると、歯車アイコンが横に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3760,8 +3776,8 @@
       <tuv lang="EN-US">
         <seg>Subsequent gear icon clicks will reveal a new “Make not required” option which does as you’d expect.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030517Z" creationid="Toru Kokubun" creationdate="20180423T030517Z">
-        <seg>それ以降、歯車のアイコンをクリックすると、期待通り「必須にしない」オプションを表示します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031305Z" creationid="Toru Kokubun" creationdate="20180423T030517Z">
+        <seg>それ以降、歯車アイコンをクリックすると、期待通り「必須にしない」オプションを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5198,6 +5214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can create as many content tabs as you want, and use them to organize similar fields together.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031202Z" creationid="Toru Kokubun" creationdate="20180423T031153Z">
+        <seg>必要数のコンテンツタブを作成し、類似するフィールドをまとめて分類するために利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can either edit the file manually, or run the &lt;x3/&gt;./craft setup&lt;x4/&gt; command from the root project directory in your terminal.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090139Z" creationid="Toru Kokubun" creationdate="20180415T090139Z">
@@ -5666,6 +5690,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082914Z" creationid="Toru Kokubun" creationdate="20180422T082914Z">
         <seg>ホームページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>they let you define the content tabs that contain the fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031357Z" creationid="Toru Kokubun" creationdate="20180423T031029Z">
+        <seg>それらはフィールドを含むコンテンツタブを定義できます。</seg>
       </tuv>
     </tu>
     <tu>
