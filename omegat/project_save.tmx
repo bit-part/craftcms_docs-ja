@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After an element is saved, the subfolder path will be parsed for any tags representing properties of the source element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T220349Z" creationid="Toru Kokubun" creationdate="20180423T220134Z">
+        <seg>エレメントが保存されると、サブフォルダパスはソースエレメントのプロパティに相当するタグで解析されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After reading those three items, you can continue on to installing Craft via the &lt;x1/&gt;Installation instructions&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032837Z" creationid="Toru Kokubun" creationdate="20180415T005418Z">
@@ -1342,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dynamic Subfolder Paths</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T215729Z" creationid="Toru Kokubun" creationdate="20180423T215723Z">
+        <seg>動的なサブフォルダパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each content tab will get its own gear icon allowing you to rename or delete it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031332Z" creationid="Toru Kokubun" creationdate="20180423T031249Z">
@@ -1718,6 +1734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you intend to use the field with &lt;x1/&gt;entries&lt;x2/&gt;, then you can use any properties listed in the &lt;x3/&gt;craft\elements\entries&lt;x4/&gt; documentation, such as &lt;x5/&gt;{id}&lt;x6/&gt;, &lt;x7/&gt;{slug}&lt;x8/&gt;, or even nested object properties like &lt;x9/&gt;{author.username}&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T220751Z" creationid="Toru Kokubun" creationdate="20180423T220707Z">
+        <seg>例えば、&lt;x1/&gt;エントリ&lt;x2/&gt;フィールドを利用したい場合、&lt;x5/&gt;{id}&lt;x6/&gt; や &lt;x7/&gt;{slug}&lt;x8/&gt;、または &lt;x9/&gt;{author.username}&lt;x10/&gt; のようなネストされたオブジェクトのプロパティなど、&lt;x3/&gt;craft\elements\entries&lt;x4/&gt; ドキュメントに記載されているすべてのプロパティを利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220315Z" creationid="Toru Kokubun" creationdate="20180420T220315Z">
@@ -2010,6 +2034,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221959Z" creationid="Toru Kokubun" creationdate="20180422T221959Z">
         <seg>この設定がチェックされている場合、フィールドの値はサイトごとに格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the “Restrict allowed file types?” setting is checked, a list of file types will appear below it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T215650Z" creationid="Toru Kokubun" creationdate="20180423T215650Z">
+        <seg>「許可されるファイルの種類を制限しますか？」がオンの場合、その下にファイルの種類の一覧が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the “Restrict uploads to a single folder?” setting is checked, the “Sources” and “Default Upload Location” settings will be replaced with an “Upload Location” setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T215426Z" creationid="Toru Kokubun" creationdate="20180423T215349Z">
+        <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2814,6 +2854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normal Twig tags are supported as well, in case you want to include &lt;x1/&gt;{% if %}&lt;x2/&gt; conditionals in your path, or access other objects besides the source element, such as &lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T221100Z" creationid="Toru Kokubun" creationdate="20180423T221100Z">
+        <seg>パスに条件文の &lt;x1/&gt;{% if %}&lt;x2/&gt; を含めたり、or access other objects besides the source element, such as &lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt;、通常の Twig タグがサポートされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all sections are created equal.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082635Z" creationid="Toru Kokubun" creationdate="20180422T082635Z">
@@ -3454,10 +3502,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Restricting Allowed File Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T215600Z" creationid="Toru Kokubun" creationdate="20180423T215530Z">
+        <seg>許可されるファイルの種類を制限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Restricting Uploads to a Single Folder</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T093623Z" creationid="Toru Kokubun" creationdate="20180423T093623Z">
-        <seg>アップロードを単一のフォルダに限定する</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T215552Z" creationid="Toru Kokubun" creationdate="20180423T093623Z">
+        <seg>アップロードを単一のフォルダに限定</seg>
       </tuv>
     </tu>
     <tu>
@@ -4394,6 +4450,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014513Z" creationid="Toru Kokubun" creationdate="20180418T014513Z">
         <seg>ウィザードはいくつかのセットアップ画面を表示し、Craft のインストールを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “Default Upload Location” setting, and the “Upload Location” setting that replaces it if “Restrict uploads to a single folder?” is checked, support dynamic subfolder paths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T215925Z" creationid="Toru Kokubun" creationdate="20180423T215812Z">
+        <seg>「既定のアップロードロケーション」と「アップロードを単一のフォルダに制限しますか？」をオンにしたときに置き換えられる「ロケーションをアップロードする」は、動的なサブフォルダパスをサポートしています。</seg>
       </tuv>
     </tu>
     <tu>
