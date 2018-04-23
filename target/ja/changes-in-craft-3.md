@@ -146,11 +146,11 @@ Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポー�
 
 ## 静的な翻訳ファイル
 
-Craft 3 でも[静的な翻訳](https://craftcms.com/support/static-translations)をサポートしていますが、ディレクトリ構成が変わりました。`translations/` フォルダの中にローケルごとのサブディレクトリを作成し、それぞれに**翻訳カテゴリー**ごとの PHP ファイルを作成する必要があります。
+Craft 3 でも[静的な翻訳](https://craftcms.com/support/static-translations)をサポートしていますが、ディレクトリ構成が変わりました。`translations/` フォルダの中にローケルごとのサブディレクトリを作成し、それぞれに**翻訳カテゴリ**ごとの PHP ファイルを作成する必要があります。
 
-許可されている翻訳カテゴリーは、次の通りです。
+許可されている翻訳カテゴリは、次の通りです。
 
-| カテゴリー | 説明 |
+| カテゴリ | 説明 |
 | --------------- | ----------------------------------------- |
 | `app` | Craft 向けの翻訳メッセージ |
 | `yii` | Yii 向けの翻訳メッセージ |
@@ -442,7 +442,7 @@ New:
 | すべて | `relatedTo.sourceLocale` | `relatedTo.sourceSite` |
 | アセット | `source` | `volume` |
 | アセット | `sourceId` | `volumeId` |
-| マトリックスブロック | `ownerLocale` | `ownerSite` または `ownerSiteId` |
+| 行列ブロック | `ownerLocale` | `ownerSite` または `ownerSiteId` |
 
 #### `limit` パラメータ
 
@@ -478,7 +478,7 @@ Craft 2 では、パラメータ設定メソッド（例：`.type('article')`）
 {% set totalEntries = query.total() %}
 ```
 
-この `.type()` は `type` パラメータを `query` の _clone_ に適用しているため、 `query.total()` には影響を与えません。エントリータイプに関わらず、News エントリの総数を返します。
+この `.type()` は `type` パラメータを `query` の _clone_ に適用しているため、 `query.total()` には影響を与えません。入力タイプに関わらず、News エントリの総数を返します。
 
 しかし、この動作は Craft 3 で変更されました。今では、パラメータ設定メソッドを呼び出すときは、次のような手順になります。
 

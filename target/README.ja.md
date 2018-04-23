@@ -25,11 +25,11 @@ Craft 3 ドキュメント
 
 ## コアコンセプト
 
-- [セクションとエントリー](ja/sections-and-entries.md)
+- [セクションとエントリ](ja/sections-and-entries.md)
 - [フィールド](ja/fields.md)
 - [テンプレート](ja/templates.md)
    - [Twig 入門編](ja/twig-primer.md)
-- [カテゴリー](ja/categories.md)
+- [カテゴリ](ja/categories.md)
 - [アセット](ja/assets.md)
 - [ユーザー](ja/users.md)
 - [グローバル](ja/globals.md)
@@ -47,7 +47,7 @@ Craft 3 ドキュメント
 
 - [グローバル変数](ja/templating/global-variables.md)
 - [ファンクション](ja/templating/functions.md)
-- [フィルター](ja/templating/filters.md)
+- [フィルタ](ja/templating/filters.md)
 - [タグ](ja/templating/tags.md)
 - [エレメント](ja/templating/elements.md)
 - [一般的な例](ja/templating/examples/index.md)
