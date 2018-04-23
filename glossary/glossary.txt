@@ -38,4 +38,4 @@ Category	カテゴリ	管理画面の「設定」画面の表記に合わせる
 Entries	エントリ	管理画面のグローバルナビゲーションの表記に合わせる
 Matrix	行列	管理画面の表記に合わせる
 Global sets	グローバル設定
-gear icon	歯車のアイコン
+gear icon	歯車アイコン
