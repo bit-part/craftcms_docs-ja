@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Default is no limit.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T093416Z" creationid="Toru Kokubun" creationdate="20180423T093409Z">
+        <seg>（デフォルトは無制限です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Note that you should create your Craft 3 project in a new location; not in the same place as your Craft 2 project).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234141Z" creationid="Toru Kokubun" creationdate="20180418T234119Z">
@@ -346,6 +354,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230850Z" creationid="Toru Kokubun" creationdate="20180414T230850Z">
         <seg>アセットのバンドル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T090613Z" creationid="Toru Kokubun" creationdate="20180423T090613Z">
+        <seg>アセットフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets fields allow you to select related &lt;x1/&gt;assets&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T090734Z" creationid="Toru Kokubun" creationdate="20180423T090650Z">
+        <seg>アセットフィールドでは、関連する&lt;x1/&gt;アセット&lt;x2/&gt;を選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T090830Z" creationid="Toru Kokubun" creationdate="20180423T090752Z">
+        <seg>アセットフィールドの設定は、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1194,6 +1226,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084917Z" creationid="Toru Kokubun" creationdate="20180415T084917Z">
         <seg>デフォルトの照合順： &lt;x1/&gt;utf8_unicode_ci&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default Upload Location&lt;x1/&gt; – The default location that files dragged directly onto the field should be saved in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T091428Z" creationid="Toru Kokubun" creationdate="20180423T091428Z">
+        <seg>既定のアップロードロケーション&lt;x1/&gt; – フィールドに直接ドラッグされたファイルを保存するデフォルトのロケーション</seg>
       </tuv>
     </tu>
     <tu>
@@ -2550,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Limit&lt;x1/&gt; – The maximum number of assets that can be related with the field at once.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T093433Z" creationid="Toru Kokubun" creationdate="20180423T093354Z">
+        <seg>リミット&lt;x1/&gt; – フィールドに関連付けできるアセット数の上限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Local Environments</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030818Z" creationid="Toru Kokubun" creationdate="20180418T030818Z">
@@ -3390,6 +3438,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Restrict allowed file types?&lt;x1/&gt; Whether the field should only be able to select/upload files of a certain type(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T091545Z" creationid="Toru Kokubun" creationdate="20180423T091545Z">
+        <seg>許可されるファイルの種類を制限しますか？&lt;x1/&gt; 特定の種類のファイルだけを選択・アップロードできるフィールドにするかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restrict uploads to a single folder?&lt;x1/&gt; – Whether file uploads/selections should be constrained to a single folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T091226Z" creationid="Toru Kokubun" creationdate="20180423T091025Z">
+        <seg>アップロードを単一のフォルダに限定しますか?&lt;x1/&gt; – ファイルのアップロード・選択を単一のフォルダに制限するかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restricting Uploads to a Single Folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T093623Z" creationid="Toru Kokubun" creationdate="20180423T093623Z">
+        <seg>アップロードを単一のフォルダに限定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Review the requirements below or use the &lt;x1/&gt;Craft Server Check&lt;x2/&gt; script to quickly check whether you meet the requirements.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064457Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
@@ -3566,6 +3638,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Selection Label&lt;x1/&gt; – The label that should be used on the field’s selection button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T093527Z" creationid="Toru Kokubun" creationdate="20180423T093527Z">
+        <seg>選択ラベル&lt;x1/&gt; – フィールドの選択ボタンのラベルに使用されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Send a link to this page to your server administrator.&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020329Z" creationid="Toru Kokubun" creationdate="20180415T020315Z">
@@ -3654,6 +3734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T090738Z" creationid="Toru Kokubun" creationdate="20180423T090738Z">
+        <seg>設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setup from the Command Line</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025809Z" creationid="Toru Kokubun" creationdate="20180418T025809Z">
@@ -3722,6 +3810,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020939Z" creationid="Toru Kokubun" creationdate="20180421T020939Z">
         <seg>そこにはいくつかのフォルダが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sources&lt;x1/&gt; – Which asset sources the field should be able to select/upload files from</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T091305Z" creationid="Toru Kokubun" creationdate="20180423T091220Z">
+        <seg>ソース&lt;x1/&gt; – ファイルの選択・アップロードを可能とするアセットソース</seg>
       </tuv>
     </tu>
     <tu>
@@ -3826,6 +3922,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023733Z" creationid="Toru Kokubun" creationdate="20180423T023654Z">
         <seg>タグ&lt;x1/&gt;は、 「設定 &gt; タグ &gt; &lt;x2/&gt;タググループ名&lt;x4/&gt; &gt; フィールドレイアウト」のタググループごとに定義されたフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Target Locale&lt;x1/&gt; – Which locale assets should be related with (this setting only appears if you’re running Craft Pro with more than one site locale)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T093302Z" creationid="Toru Kokubun" creationdate="20180423T092208Z">
+        <seg>ターゲットロケール&lt;x1/&gt; – 関連付けするアセットのロケール（この設定は複数のサイトロケールを持つ Craft Pro が実行されている場合のみ、表示されます）</seg>
       </tuv>
     </tu>
     <tu>
