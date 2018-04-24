@@ -10,7 +10,6 @@ ground rules	根本原理
 bootstrap	起動
 Functions	ファンクション
 Locales	ロケール
-e.g.	例えば
 Settings	設定
 Relations	リレーション
 Note:	メモ：
@@ -39,3 +38,6 @@ Entries	エントリ	管理画面のグローバルナビゲーションの表�
 Matrix	行列	管理画面の表記に合わせる
 Global sets	グローバル設定
 gear icon	歯車アイコン
+e.g.	例：	括弧内で利用されている場合
+Examples	実例	見出しなど「名詞」として使われている場合のみ、実例とする
+See Also	関連項目
