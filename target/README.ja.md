@@ -50,7 +50,7 @@ Craft 3 ドキュメント
 - [フィルタ](ja/templating/filters.md)
 - [タグ](ja/templating/tags.md)
 - [エレメント](ja/templating/elements.md)
-- [一般的な例](ja/templating/examples/index.md)
+- [一般的な実例](ja/templating/examples/index.md)
 
 ## 高度なトピックス
 

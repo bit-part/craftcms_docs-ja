@@ -35,7 +35,7 @@
 
 「リッチテキスト」フィールドタイプは Craft 3 から削除され、新しい [Redactor](https://github.com/craftcms/redactor) プラグインと [CKEditor](https://github.com/craftcms/ckeditor) プラグインが追加されました。
 
-いくつかのリッチテキストフィールドが既に存在する場合、Redactor プラグインをインストールした時点で自動的に Redactor フィールドに変換されます。
+いくつかのリッチテキストフィールドがすでに存在する場合、Redactor プラグインをインストールした時点で自動的に Redactor フィールドに変換されます。
 
 ### Redactor 設定
 
