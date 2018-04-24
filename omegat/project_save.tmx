@@ -14,6 +14,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Default is no limit.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215452Z" creationid="Toru Kokubun" creationdate="20180424T215452Z">
+        <seg>（デフォルトは無制限です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Default is no limit.) Note that this does include parent categories, if your category group has multiple levels.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T024130Z" creationid="Toru Kokubun" creationdate="20180424T023840Z">
@@ -200,8 +208,8 @@
       <tuv lang="EN-US">
         <seg>A section can have one or many entries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013549Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
-        <seg>セクションは、1つまたは複数のエントリを持つことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
+        <seg>セクションは、一つまたは複数のエントリを持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -266,6 +274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234842Z" creationid="Toru Kokubun" creationdate="20180414T234842Z">
         <seg>上記のいずれかを支持する。または、奨励すること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After an element is saved, the subfolder path will be parsed for any tags representing properties of the source element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215614Z" creationid="Toru Kokubun" creationdate="20180424T215614Z">
+        <seg>エレメントが保存されると、サブフォルダパスはソースエレメントのプロパティに相当するタグで解析されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -378,6 +394,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022219Z" creationid="Toru Kokubun" creationdate="20180424T021942Z">
         <seg>アセットのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215247Z" creationid="Toru Kokubun" creationdate="20180424T215247Z">
+        <seg>アセットフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets fields allow you to select related &lt;x1/&gt;assets&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215306Z" creationid="Toru Kokubun" creationdate="20180424T215306Z">
+        <seg>アセットフィールドでは、関連する&lt;x1/&gt;アセット&lt;x2/&gt;を選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215333Z" creationid="Toru Kokubun" creationdate="20180424T215333Z">
+        <seg>アセットフィールドの設定は、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -650,6 +690,46 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084925Z" creationid="Toru Kokubun" creationdate="20180415T084925Z">
         <seg>文字セット： &lt;x1/&gt;UTF8&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkbox Options&lt;x1/&gt; – Define the checkboxes that will be available in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T213711Z" creationid="Toru Kokubun" creationdate="20180424T213711Z">
+        <seg>チェックボックスのオプション&lt;x1/&gt; – フィールドで利用可能なチェックボックスを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkboxes Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T213112Z" creationid="Toru Kokubun" creationdate="20180424T213112Z">
+        <seg>チェックボックスフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkboxes fields give you a group of checkboxes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T213622Z" creationid="Toru Kokubun" creationdate="20180424T213622Z">
+        <seg>チェックボックスフィールドでは、チェックボックスのグループが提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkboxes fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T213217Z" creationid="Toru Kokubun" creationdate="20180424T213217Z">
+        <seg>チェックボックスの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkboxes fields will show each of the checkbox options as defined in the field settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T213930Z" creationid="Toru Kokubun" creationdate="20180424T213930Z">
+        <seg>チェックボックスフィールドでは、フィールド設定で定義された各チェックボックスのオプションが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1294,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default Upload Location&lt;x1/&gt; – The default location that files dragged directly onto the field should be saved in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215419Z" creationid="Toru Kokubun" creationdate="20180424T215419Z">
+        <seg>既定のアップロードロケーション&lt;x1/&gt; – フィールドに直接ドラッグされたファイルを保存するデフォルトのロケーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Delete your old &lt;x1/&gt;craft/app/&lt;x2/&gt; directory.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222211Z" creationid="Toru Kokubun" creationdate="20180418T222211Z">
@@ -1406,6 +1494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dynamic Subfolder Paths</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215600Z" creationid="Toru Kokubun" creationdate="20180424T215600Z">
+        <seg>動的なサブフォルダパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each content tab will get its own gear icon allowing you to rename or delete it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031332Z" creationid="Toru Kokubun" creationdate="20180423T031249Z">
@@ -1416,8 +1512,8 @@
       <tuv lang="EN-US">
         <seg>Each entry can only belong to one Section.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013540Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
-        <seg>それぞれのエントリは、1つのセクションにしか属することができません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
+        <seg>それぞれのエントリは、一つのセクションにしか属することができません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1806,6 +1902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you intend to use the field with &lt;x1/&gt;entries&lt;x2/&gt;, then you can use any properties listed in the &lt;x3/&gt;craft\elements\entries&lt;x4/&gt; documentation, such as &lt;x5/&gt;{id}&lt;x6/&gt;, &lt;x7/&gt;{slug}&lt;x8/&gt;, or even nested object properties like &lt;x9/&gt;{author.username}&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215806Z" creationid="Toru Kokubun" creationdate="20180424T215806Z">
+        <seg>例えば、&lt;x1/&gt;entries&lt;x2/&gt;フィールドを利用したい場合、&lt;x5/&gt;{id}&lt;x6/&gt; や &lt;x7/&gt;{slug}&lt;x8/&gt;、または &lt;x9/&gt;{author.username}&lt;x10/&gt; のようなネストされたオブジェクトのプロパティなど、&lt;x3/&gt;craft\elements\entries&lt;x4/&gt; ドキュメントに記載されているすべてのプロパティを利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, this would output the source element’s slug if it has one, otherwise its ID:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T001846Z" creationid="Toru Kokubun" creationdate="20180424T001758Z">
@@ -2110,6 +2214,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the “Restrict allowed file types?” setting is checked, a list of file types will appear below it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215551Z" creationid="Toru Kokubun" creationdate="20180424T215551Z">
+        <seg>「許可されるファイルの種類を制限しますか？」がオンの場合、その下にファイルの種類の一覧が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the “Restrict uploads to a single folder?” setting is checked, the “Sources” and “Default Upload Location” settings will be replaced with an “Upload Location” setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215522Z" creationid="Toru Kokubun" creationdate="20180424T215522Z">
+        <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are starting a Craft 3 project from scratch, review the &lt;x1/&gt;Craft 3 Installation instructions&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002126Z" creationid="Toru Kokubun" creationdate="20180415T011745Z">
@@ -2130,6 +2250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001204Z" creationid="Toru Kokubun" creationdate="20180421T000630Z">
         <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;memcache&lt;x2/&gt; を指定し、設定ファイル &lt;x9/&gt;craft/config/memcache.php&lt;x10/&gt; で &lt;x5/&gt;useMemcached&lt;x6/&gt; に &lt;x7/&gt;true&lt;x8/&gt; をセットしていない場合は、サーバーに memcached をインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are using normal Twig tags, you can still access the source element, via an “object” variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215930Z" creationid="Toru Kokubun" creationdate="20180424T215930Z">
+        <seg>通常の Twig タグでは、 変数「object」を使用してソースエレメントにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2232,8 +2360,8 @@
       <tuv lang="EN-US">
         <seg>If you have at least one section, there will be an “Entries” tab in the primary CP nav.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013725Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
-        <seg>少なくとも1つのセクションがあれば、CP のメインナビゲーションに「エントリ」タブが表示されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
+        <seg>少なくとも一つのセクションがあれば、CP のメインナビゲーションに「エントリ」タブが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2266,6 +2394,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235835Z" creationid="Toru Kokubun" creationdate="20180419T235835Z">
         <seg>位置選択フィールドが必要な場合は、&lt;x1/&gt;Position Fieldtype&lt;x2/&gt; プラグインをインストールしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you only have one checkbox, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214332Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
+        <seg>チェックボックスを一つしかもたつ, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2352,16 +2488,16 @@
       <tuv lang="EN-US">
         <seg>If your Assets field is only meant to have a single asset selected, remember that calling your Assets field will still give you the same ElementCriteriaModel, not the selected asset.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T020505Z" creationid="Toru Kokubun" creationdate="20180424T020321Z">
-        <seg>意図的にアセットフィールドへ1つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T020321Z">
+        <seg>意図的にアセットフィールドへ一つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your Categories field is only meant to have a single category selected, remember that calling your Categories field will still give you the same ElementCriteriaModel, not the selected category.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025920Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
-        <seg>意図的にカテゴリフィールドへ1つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
+        <seg>意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2750,6 +2886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Limit&lt;x1/&gt; – The maximum number of assets that can be related with the field at once.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215448Z" creationid="Toru Kokubun" creationdate="20180424T215448Z">
+        <seg>リミット&lt;x1/&gt; – フィールドに関連付けできるアセット数の上限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Limit&lt;x1/&gt; – The maximum number of categories that can be related with the field at once.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T023656Z" creationid="Toru Kokubun" creationdate="20180424T023656Z">
@@ -2974,6 +3118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normal Twig tags are supported as well, in case you want to include &lt;x1/&gt;{% if %}&lt;x2/&gt; conditionals in your path, or access other objects besides the source element, such as &lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt; or &lt;x5/&gt;{{ currentUser.username }}&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215905Z" creationid="Toru Kokubun" creationdate="20180424T215905Z">
+        <seg>通常の Twig タグもサポートされています。パスに条件文 &lt;x1/&gt;{% if %}&lt;x2/&gt; を含めたり、&lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt; や &lt;x5/&gt;{{ currentUser.username }}&lt;x6/&gt; のようなソースエレメント以外のオブジェクトにもアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not all sections are created equal.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082635Z" creationid="Toru Kokubun" creationdate="20180422T082635Z">
@@ -3016,8 +3168,8 @@
       <tuv lang="EN-US">
         <seg>Note that the shortcut syntax only has one set of curly braces&lt;x1/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094227Z" creationid="Toru Kokubun" creationdate="20180422T094227Z">
-        <seg>ショートカット構文には、中括弧が1つしかないことに注意してください&lt;x1/&gt;。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T094227Z">
+        <seg>ショートカット構文には、中括弧が一つしかないことに注意してください&lt;x1/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3622,6 +3774,39 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Restrict allowed file types?&lt;x1/&gt; Whether the field should only be able to select/upload files of a certain type(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215432Z" creationid="Toru Kokubun" creationdate="20180424T215432Z">
+        <seg>許可されるファイルの種類を制限しますか？&lt;x1/&gt; 特定の種類のファイルだけを選択・アップロードできるフィールドにするかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restrict uploads to a single folder?&lt;x1/&gt; – Whether file uploads/selections should be constrained to a single folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215346Z" creationid="Toru Kokubun" creationdate="20180424T215346Z">
+        <seg>アップロードを単一のフォルダに限定しますか？&lt;x1/&gt; – ファイルのアップロード・選択を単一のフォルダに制限するかどうか
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restricting Allowed File Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215547Z" creationid="Toru Kokubun" creationdate="20180424T215547Z">
+        <seg>許可されるファイルの種類を制限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Restricting Uploads to a Single Folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215512Z" creationid="Toru Kokubun" creationdate="20180424T215512Z">
+        <seg>アップロードを単一のフォルダに限定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Review the requirements below or use the &lt;x1/&gt;Craft Server Check&lt;x2/&gt; script to quickly check whether you meet the requirements.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064457Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
@@ -3806,6 +3991,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Selection Label&lt;x1/&gt; – The label that should be used on the field’s selection button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215507Z" creationid="Toru Kokubun" creationdate="20180424T215507Z">
+        <seg>選択ラベル&lt;x1/&gt; – フィールドの選択ボタンのラベルに使用されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Send a link to this page to your server administrator.&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020329Z" creationid="Toru Kokubun" creationdate="20180415T020315Z">
@@ -3894,6 +4087,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T213144Z" creationid="Toru Kokubun" creationdate="20180424T213144Z">
+        <seg>設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setup from the Command Line</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025809Z" creationid="Toru Kokubun" creationdate="20180418T025809Z">
@@ -3978,6 +4179,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T023354Z" creationid="Toru Kokubun" creationdate="20180424T023155Z">
         <seg>ソース&lt;x1/&gt; – カテゴリを関連付けるカテゴリグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sources&lt;x1/&gt; – Which asset sources the field should be able to select/upload files from</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215404Z" creationid="Toru Kokubun" creationdate="20180424T215404Z">
+        <seg>ソース&lt;x1/&gt; – ファイルの選択・アップロードを可能とするアセットソース</seg>
       </tuv>
     </tu>
     <tu>
@@ -4590,6 +4799,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “Default Upload Location” setting, and the “Upload Location” setting that replaces it if “Restrict uploads to a single folder?” is checked, support dynamic subfolder paths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215603Z" creationid="Toru Kokubun" creationdate="20180424T215603Z">
+        <seg>「既定のアップロードロケーション」と「アップロードを単一のフォルダに制限しますか？」をオンにしたときに置き換えられる「ロケーションをアップロードする」は、動的なサブフォルダパスをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The “Position Select” field type has been removed from Craft 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235350Z" creationid="Toru Kokubun" creationdate="20180419T235350Z">
@@ -4640,8 +4857,8 @@
       <tuv lang="EN-US">
         <seg>There’s no shortcut syntax for those, so if you want to use a conditional on one of the entry’s properties, you will need to reference it with the &lt;x1/&gt;object&lt;x2/&gt; variable:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013736Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
-        <seg>ショートカット構文がないため、エントリプロパティの1つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
+        <seg>ショートカット構文がないため、エントリプロパティの一つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4920,16 +5137,16 @@
       <tuv lang="EN-US">
         <seg>To get the first (and only) asset selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T030123Z" creationid="Toru Kokubun" creationdate="20180424T020417Z">
-        <seg>選択された最初の（1つだけの）アセットを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T020417Z">
+        <seg>選択された最初の（一つだけの）アセットを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>To get the first (and only) tag selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T030111Z" creationid="Toru Kokubun" creationdate="20180424T030009Z">
-        <seg>選択された最初の（1つだけの）カテゴリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T030009Z">
+        <seg>選択された最初の（一つだけの）カテゴリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5096,8 +5313,8 @@
       <tuv lang="EN-US">
         <seg>Unlike the other section types, Singles only have one entry associated with them, and they don’t have an editable Author, Slug, Post Date, or Expiration Date.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022748Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
-        <seg>他のセクションタイプと異なり、シングルは1つのエントリしか関連付けられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
+        <seg>他のセクションタイプと異なり、シングルは一つのエントリしか関連付けられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5682,6 +5899,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215542Z" creationid="Toru Kokubun" creationdate="20180414T030438Z">
         <seg>独自のプラグインを作成するつもりがなければ、PHP や Yii の知識は必要ありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You even get to set the option values and labels separately, and choose which ones should be checked by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214300Z" creationid="Toru Kokubun" creationdate="20180424T213830Z">
+        <seg>オプションの値とラベルを別々に設定したり、デフォルトでチェックしておくものを選択できます。</seg>
       </tuv>
     </tu>
     <tu>
