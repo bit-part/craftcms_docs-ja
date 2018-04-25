@@ -41,3 +41,4 @@ gear icon	歯車アイコン
 e.g.	例：	括弧内で利用されている場合
 Examples	実例	見出しなど「名詞」として使われている場合のみ、実例とする
 See Also	関連項目
+Date/Time Fields	日/時フィールド
