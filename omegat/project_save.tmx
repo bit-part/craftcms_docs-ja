@@ -270,6 +270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adjusting the limit</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213502Z" creationid="Toru Kokubun" creationdate="20180425T213427Z">
+        <seg>リミットの調整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Advanced Topics</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230234Z" creationid="Toru Kokubun" creationdate="20180414T230234Z">
@@ -330,6 +338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221629Z" creationid="Toru Kokubun" creationdate="20180419T221629Z">
         <seg>（コンフィグ設定名である）すべてのオブジェクトプロパティは、ダブルクォートで囲まれていなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the code you put within the for-loop will be repeated for each Matrix block in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214311Z" creationid="Toru Kokubun" creationdate="20180425T212235Z">
+        <seg>for ループ内に記述されたすべてのコードは、 フィールドに含まれるそれぞれの行列ブロックに対して繰り返されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -558,6 +574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, your Matrix field will return the first 100 blocks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213534Z" creationid="Toru Kokubun" creationdate="20180425T213534Z">
+        <seg>デフォルトでは、行列フィールドは最初の100ブロックを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CP Browser Requirements</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031508Z" creationid="Toru Kokubun" creationdate="20180415T031508Z">
@@ -602,6 +626,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012656Z" creationid="Toru Kokubun" creationdate="20180425T012656Z">
         <seg>テンプレート内で日付フィールドを呼び出すと、選択された日付の &lt;x1/&gt;DateTime&lt;x2/&gt; オブジェクトが返ります。フィールドに値がない場合は、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling a Number field in your templates will return the number that was entered in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T221546Z" creationid="Toru Kokubun" creationdate="20180425T221546Z">
+        <seg>テンプレート内で数字フィールドを呼び出すと、フィールドに入力された数字を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2070,6 +2102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Filtering by block type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213048Z" creationid="Toru Kokubun" creationdate="20180425T213048Z">
+        <seg>ブロックタイプのフィルタリング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Filters&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094804Z" creationid="Toru Kokubun" creationdate="20180414T012456Z">
@@ -2206,6 +2246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Getting the total number of blocks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214220Z" creationid="Toru Kokubun" creationdate="20180425T214037Z">
+        <seg>ブロックの総数の取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Global Variables&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012444Z" creationid="Toru Kokubun" creationdate="20180414T012444Z">
@@ -2306,6 +2354,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063604Z" creationid="Toru Kokubun" creationdate="20180420T063537Z">
         <seg>ここに、テンプレート内で使用可能だったものと、Craft 3 で同様の働きをするもののリストを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s an example of what the template might look like for a Matrix field with four Block Types (Heading, Text, Image, and Quote).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212644Z" creationid="Toru Kokubun" creationdate="20180425T212644Z">
+        <seg>次に、4つのブロックタイプ（見出し、テキスト、画像、および引用）を持つ行列フィールドのテンプレートの実例を示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2622,6 +2678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you just want to output blocks of a certain type, you can do that by appending a ‘type’ filter to your Matrix field:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213209Z" creationid="Toru Kokubun" creationdate="20180425T213209Z">
+        <seg>特定のタイプのブロックだけを出力したい場合は、行列フィールドに「type」フィルタを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you leave the Post Date blank, Craft will automatically set it the first time an entry is saved as enabled.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013617Z" creationid="Toru Kokubun" creationdate="20180422T101450Z">
@@ -2650,6 +2714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221637Z" creationid="Toru Kokubun" creationdate="20180418T221637Z">
         <seg>アップデートのプロンプトが表示されたら、すべてが正しく実行されています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you think you might have more that 100 blocks, and you want all of them to be returned, you can also set that parameter to &lt;x1/&gt;null&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213755Z" creationid="Toru Kokubun" creationdate="20180425T213729Z">
+        <seg>100以上のブロックがあり、それらすべてのブロックを返したいと考えるなら、パラメータを &lt;x1/&gt;null&lt;x2/&gt; にセットすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3342,6 +3414,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Multi-select Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214343Z" creationid="Toru Kokubun" creationdate="20180425T214343Z">
+        <seg>マルチセレクトボックスフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-select Options&lt;x1/&gt; – Define the options that will be available in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T215316Z" creationid="Toru Kokubun" creationdate="20180425T215316Z">
+        <seg>マルチセレクトボックスのオプション&lt;x1/&gt; – フィールドで利用可能なオプションを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-select fields give you a multi-select input.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T215935Z" creationid="Toru Kokubun" creationdate="20180425T214603Z">
+        <seg>マルチセレクトボックスフィールドは、複数選択形式の入力を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-select fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214626Z" creationid="Toru Kokubun" creationdate="20180425T214626Z">
+        <seg>マルチセレクトボックスフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-select fields will show a multi-select input with each of the Multi-select Options as defined in the field settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T215926Z" creationid="Toru Kokubun" creationdate="20180425T215926Z">
+        <seg>マルチセレクトボックスフィールドでは、フィールド設定で定義されたマルチセレクトボックスのオプションが複数選択形式で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi-select&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013936Z" creationid="Toru Kokubun" creationdate="20180423T013936Z">
@@ -3586,6 +3698,38 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011748Z" creationid="Toru Kokubun" creationdate="20180420T012845Z">
         <seg>&lt;x3/&gt;translations/&lt;x4/&gt; フォルダの中にローケルごとのサブディレクトリを作成し、それぞれに&lt;x5/&gt;翻訳カテゴリ&lt;x6/&gt;ごとの PHP ファイルを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T220114Z" creationid="Toru Kokubun" creationdate="20180425T220114Z">
+        <seg>数字フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number fields give you a text input that accepts a numeric value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T220421Z" creationid="Toru Kokubun" creationdate="20180425T220421Z">
+        <seg>数字フィールドでは、数値を受け入れるテキスト入力を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T220839Z" creationid="Toru Kokubun" creationdate="20180425T220839Z">
+        <seg>数字フィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Number fields will show a text box where you can enter a number:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T221028Z" creationid="Toru Kokubun" creationdate="20180425T221028Z">
+        <seg>数字フィールドでは、数字を入力できるテキストボックスを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4926,6 +5070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The current block will get set to that &lt;x1/&gt;block&lt;x2/&gt; variable we’ve defined, and it will be a &lt;x3/&gt;craft\elements\MatrixBlock&lt;x4/&gt; model.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212430Z" creationid="Toru Kokubun" creationdate="20180425T212412Z">
+        <seg>定義済みの変数 &lt;x1/&gt;block&lt;x2/&gt; にセットされる現在のブロックは、&lt;x3/&gt;craft\elements\MatrixBlock&lt;x4/&gt; モデルになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The database user you tell Craft to connect with must have the following privileges:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031500Z" creationid="Toru Kokubun" creationdate="20180415T031500Z">
@@ -5342,6 +5494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This code can be simplified using the &lt;x1/&gt;`{% switch %}`&lt;x2/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213023Z" creationid="Toru Kokubun" creationdate="20180425T213023Z">
+        <seg>このコードは &lt;x1/&gt;`{% switch %}`&lt;x2/&gt; タグを利用して、簡略化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This code of conduct applies to all spaces used by the Craft community for communication.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032548Z" creationid="Toru Kokubun" creationdate="20180414T032548Z">
@@ -5586,6 +5746,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025545Z" creationid="Toru Kokubun" creationdate="20180425T025545Z">
         <seg>選択されたエントリをループするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To output your Matrix blocks in a template, use a &lt;x1/&gt;for-loop&lt;x2/&gt; pointed at your Matrix field:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212100Z" creationid="Toru Kokubun" creationdate="20180425T212050Z">
+        <seg>テンプレート内で行列フィールドを出力するには、行列フィールドに対して &lt;x1/&gt;for ループ&lt;x2/&gt; を使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5926,6 +6094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can determine the current block type’s handle by checking &lt;x1/&gt;`block.type`&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212846Z" creationid="Toru Kokubun" creationdate="20180425T212846Z">
+        <seg>&lt;x1/&gt;`block.type`&lt;x2/&gt; をチェックすることによって、現在のブロックタイプのハンドルを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We could get even more detailed with the Recipe Content but this will be fine for now.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T013319Z" creationid="Toru Kokubun" creationdate="20180421T013319Z">
@@ -6254,6 +6430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can change that by overriding the &lt;x1/&gt;limit&lt;x2/&gt; parameter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213903Z" creationid="Toru Kokubun" creationdate="20180425T213609Z">
+        <seg>変更するには &lt;x1/&gt;limit&lt;x2/&gt; パラメータで上書きします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can collapse Matrix blocks by clicking the “Collapse” menu option, or by double-clicking on a block’s title bar.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T123341Z" creationid="Toru Kokubun" creationdate="20180425T123341Z">
@@ -6294,6 +6478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can get the total number of blocks using the &lt;x1/&gt;length filter&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214225Z" creationid="Toru Kokubun" creationdate="20180425T214125Z">
+        <seg>&lt;x1/&gt;length フィルタ&lt;x2/&gt;を利用して、ブロックの総数を取得できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can loop through your selected options like so:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T001716Z" creationid="Toru Kokubun" creationdate="20180424T220914Z">
@@ -6330,6 +6522,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013919Z" creationid="Toru Kokubun" creationdate="20180425T013845Z">
         <seg>選択されたオプションの値を次のように出力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can pass multiple block types if you want:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213355Z" creationid="Toru Kokubun" creationdate="20180425T213325Z">
+        <seg>あなたが望むなら、複数のブロックタイプを渡すことができます。</seg>
       </tuv>
     </tu>
     <tu>
