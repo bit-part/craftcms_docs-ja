@@ -1,7 +1,7 @@
 カテゴリフィールド
 =================
 
-カテゴリフィールドでは、[カテゴリ](categories.md)を親要素に関連付けることができます。
+カテゴリフィールドでは、[カテゴリ](categories.md)を親エレメントに関連付けることができます。
 
 ## 設定
 
@@ -22,7 +22,7 @@
 
 ## テンプレート記法
 
-テンプレートにカテゴリフィールドのエレメントを持たせる場合、カテゴリフィールドのハンドルを利用して、選択されたカテゴリにアクセスできます。
+テンプレート内でカテゴリフィールドのエレメントを取得する場合、カテゴリフィールドのハンドルを利用して、選択されたカテゴリにアクセスできます。
 
 ```twig
 {% set categories = entry.categoriesFieldHandle %}
@@ -57,7 +57,7 @@
 {% endnav %}
 ```
 
-常に「`entry.categoriesFieldHandle`」を入力するよりもむしろ、一度呼び出して別の変数にセットします。
+常に「`entry.categoriesFieldHandle`」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。
 
 ```twig
 {% set categories = entry.categoriesFieldHandle %}
@@ -78,7 +78,7 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 {% set categories = entry.categoriesFieldHandle.orderBy('name') %}
 ```
 
-意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。選択された最初の（一つだけの）カテゴリを取得するには、`one()` を利用します。
+意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（一つだけの）カテゴリを取得するには、`one()` を利用します。
 
 ```twig
 {% set category = entry.myCategoriesField.one() %}
