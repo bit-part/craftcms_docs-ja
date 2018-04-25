@@ -1904,8 +1904,8 @@
       <tuv lang="EN-US">
         <seg>For example, if you intend to use the field with &lt;x1/&gt;entries&lt;x2/&gt;, then you can use any properties listed in the &lt;x3/&gt;craft\elements\entries&lt;x4/&gt; documentation, such as &lt;x5/&gt;{id}&lt;x6/&gt;, &lt;x7/&gt;{slug}&lt;x8/&gt;, or even nested object properties like &lt;x9/&gt;{author.username}&lt;x10/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215806Z" creationid="Toru Kokubun" creationdate="20180424T215806Z">
-        <seg>例えば、&lt;x1/&gt;entries&lt;x2/&gt;フィールドを利用したい場合、&lt;x5/&gt;{id}&lt;x6/&gt; や &lt;x7/&gt;{slug}&lt;x8/&gt;、または &lt;x9/&gt;{author.username}&lt;x10/&gt; のようなネストされたオブジェクトのプロパティなど、&lt;x3/&gt;craft\elements\entries&lt;x4/&gt; ドキュメントに記載されているすべてのプロパティを利用できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220101Z" creationid="Toru Kokubun" creationdate="20180424T215806Z">
+        <seg>例えば、&lt;x1/&gt;エントリ&lt;x2/&gt;フィールドを利用したい場合、&lt;x5/&gt;{id}&lt;x6/&gt; や &lt;x7/&gt;{slug}&lt;x8/&gt;、または &lt;x9/&gt;{author.username}&lt;x10/&gt; のようなネストされたオブジェクトのプロパティなど、&lt;x3/&gt;craft\elements\entries&lt;x4/&gt; ドキュメントに記載されているすべてのプロパティを利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2400,8 +2400,8 @@
       <tuv lang="EN-US">
         <seg>If you only have one checkbox, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214332Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
-        <seg>チェックボックスを一つしかもたつ, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220802Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
+        <seg>チェックボックスを一つしかもたつ、それが選択されているかを知りたい場合は、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用して確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2618,6 +2618,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014513Z" creationid="Toru Kokubun" creationdate="20180422T014503Z">
         <seg>それぞれのセクションには、次のことを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In either case, you can output an option’s label by typing &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; instead, and you can tell if the option is selected or not via &lt;x3/&gt;option.selected&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T221511Z" creationid="Toru Kokubun" creationdate="20180424T221431Z">
+        <seg>いずれの場合も、オプションのラベルを出力するには &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; と入力します。オプションが選択されているかどうかは &lt;x3/&gt;option.selected&lt;x4/&gt; で確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3398,6 +3406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Or you can loop through all of the available options rather than just the selected ones:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T221101Z" creationid="Toru Kokubun" creationdate="20180424T221101Z">
+        <seg>または、選択されたものだけでなく、利用可能なすべてのオプションをループすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, the values are always copied across all sites.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T222154Z" creationid="Toru Kokubun" creationdate="20180422T222145Z">
@@ -3784,9 +3800,8 @@
       <tuv lang="EN-US">
         <seg>Restrict uploads to a single folder?&lt;x1/&gt; – Whether file uploads/selections should be constrained to a single folder</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215346Z" creationid="Toru Kokubun" creationdate="20180424T215346Z">
-        <seg>アップロードを単一のフォルダに限定しますか？&lt;x1/&gt; – ファイルのアップロード・選択を単一のフォルダに制限するかどうか
-</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220021Z" creationid="Toru Kokubun" creationdate="20180424T215346Z">
+        <seg>アップロードを単一のフォルダに限定しますか？&lt;x1/&gt; – ファイルのアップロード・選択を単一のフォルダに制限するかどうか</seg>
       </tuv>
     </tu>
     <tu>
@@ -5827,6 +5842,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093739Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
         <seg>起動しているターミナル上で次のコマンドを実行することによって、（もし存在するのであれば）インストール済みの Composer のバージョンを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can loop through your selected options like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220914Z" creationid="Toru Kokubun" creationdate="20180424T220914Z">
+        <seg>選択されたオプションを次のようにループすることができます。</seg>
       </tuv>
     </tu>
     <tu>
