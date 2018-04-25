@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Blocks can also be reordered by dragging the “Move” icon at the end of the block’s title bar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T124719Z" creationid="Toru Kokubun" creationdate="20180425T124719Z">
+        <seg>ブロックは、そのブロックのタイトルバーの最後にある「移動」アイコンをドラックして並び替えることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Both Channel and Structure sections let you define multiple types of entries using Entry Types.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012918Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
@@ -1010,6 +1018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002223Z" creationid="Toru Kokubun" creationdate="20180414T012306Z">
         <seg>コンフィギュレーション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration&lt;x1/&gt; – This is where you configure which block types should be available to your Matrix field, and which sub-fields each of those block types should have.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T121523Z" creationid="Toru Kokubun" creationdate="20180425T115311Z">
+        <seg>構成&lt;x1/&gt; – ここでは、行列フィールドでどのようなブロックタイプが利用可能か、それらのブロックタイプがどのようなサブフィールドを持つ必要があるかを設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1634,6 +1650,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215600Z" creationid="Toru Kokubun" creationdate="20180424T215600Z">
         <seg>動的なサブフォルダパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each block has a settings menu that reveals additional things you can do with the block.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122853Z" creationid="Toru Kokubun" creationdate="20180425T122758Z">
+        <seg>各ブロックは設定メニューを持ち、そのブロックに対して追加でできることを開示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2374,6 +2398,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If multiple blocks are selected, all of the selected blocks will be going along for the ride.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T124832Z" creationid="Toru Kokubun" creationdate="20180425T124832Z">
+        <seg>複数のブロックが選択されている場合は、選択されたすべてのブロックが一緒に移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If multiple blocks are selected, the Collapse/Expand, Disable/Enable, and Delete options will apply to all of the selected blocks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T123153Z" creationid="Toru Kokubun" creationdate="20180425T123153Z">
+        <seg>複数のブロックが選択されている場合は、選択されたすべてのブロックに対して「折りたたむ / 展開する」「無効 / 有効」および「削除」オプションが適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If successful, you will get the Craft installation wizard.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014405Z" creationid="Toru Kokubun" creationdate="20180418T014405Z">
@@ -3094,6 +3134,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Lightswitch Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T113908Z" creationid="Toru Kokubun" creationdate="20180425T113908Z">
+        <seg>Lightswitch フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lightswitch fields give you a simple toggle input for times when all you need is a “Yes” or “No” answer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114116Z" creationid="Toru Kokubun" creationdate="20180425T113915Z">
+        <seg>Lightswitch フィールドでは、「はい」または「いいえ」の答えが必要なとき向けに、トグル入力を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like the technical community as a whole, the Craft team and community is made up of a mixture of professionals and volunteers from all over the world, working on every aspect of the mission - including mentorship, teaching, and connecting people.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T031232Z" creationid="Toru Kokubun" creationdate="20180414T031232Z">
@@ -3190,10 +3246,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Matrix Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114510Z" creationid="Toru Kokubun" creationdate="20180425T114510Z">
+        <seg>行列フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matrix fields allow you to create multiple blocks of content within a single field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114556Z" creationid="Toru Kokubun" creationdate="20180425T114556Z">
+        <seg>行列フィールドでは、一つのフィールド内に複数のコンテンツブロックを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matrix fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114615Z" creationid="Toru Kokubun" creationdate="20180425T114615Z">
+        <seg>行列フィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Matrix&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013924Z" creationid="Toru Kokubun" creationdate="20180423T013924Z">
         <seg>行列&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Max Blocks&lt;x1/&gt; – The maximum number of blocks that can be created within the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T121618Z" creationid="Toru Kokubun" creationdate="20180425T121618Z">
+        <seg>最大ブロック数&lt;x1/&gt; – フィールドに作成できるブロック数の上限</seg>
       </tuv>
     </tu>
     <tu>
@@ -3546,6 +3634,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235008Z" creationid="Toru Kokubun" creationdate="20180420T234728Z">
         <seg>旧トークン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a fresh entry, Matrix fields will just show a group of buttons – one for each of the Block Types you created in the field’s settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T121814Z" creationid="Toru Kokubun" creationdate="20180425T121814Z">
+        <seg>新しいエントリでは、行列フィールドにはボタンのグループが表示されます。フィールド設定で作成したブロックタイプごとに一つのボタンが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4750,6 +4846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Block Type’s name will be shown in the block’s title bar, and each of the Block Type’s fields will be present within the body of the block.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122124Z" creationid="Toru Kokubun" creationdate="20180425T122124Z">
+        <seg>ブロックタイプの名前はブロックのタイトルバーに表示され、それぞれのブロックタイプのフィールドにはブロックの本体が存在しているでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Field</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T004234Z" creationid="Toru Kokubun" creationdate="20180424T004234Z">
@@ -5274,6 +5378,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000540Z" creationid="Toru Kokubun" creationdate="20180415T000540Z">
         <seg>これはあなたのためのドキュメントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field will either return a &lt;x1/&gt;1&lt;x2/&gt; or &lt;x3/&gt;0&lt;x4/&gt; from the database, so you can test if it is in the &lt;x5/&gt;on&lt;x6/&gt; position from a template like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114433Z" creationid="Toru Kokubun" creationdate="20180425T114243Z">
+        <seg>このフィールドは、データベースから &lt;x1/&gt;1&lt;x2/&gt; または &lt;x3/&gt;0&lt;x4/&gt; のいずれかを返します。そのため、&lt;x5/&gt;on&lt;x6/&gt; の状態にあるかどうかを次のようにテンプレートからテストできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5918,6 +6030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a block is collapsed, its title bar will show a preview of its content, so you can still identify which block it is.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T123528Z" creationid="Toru Kokubun" creationdate="20180425T123514Z">
+        <seg>ブロックが折りたたまれている場合、タイトルバーはコンテンツのプレビューを表示するため、それがどんなブロックかを識別できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an update is available, users with the permission to update Craft will see a badge in the CP next to the Utilities navigation item in the sidebar.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003019Z" creationid="Toru Kokubun" creationdate="20180419T002815Z">
@@ -5946,6 +6066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235028Z" creationid="Toru Kokubun" creationdate="20180414T235028Z">
         <seg>意見が食い違うときは、なぜそうなのか理解しようと試みてください。&lt;x1/&gt; 社会であれ技術であれ意見の相違はいつも起きていて、Craft も例外ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you click on one of those buttons, a new block will be created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T121854Z" creationid="Toru Kokubun" creationdate="20180425T121854Z">
+        <seg>それらのボタンの一つをクリックすると、新しいブロックが作成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6078,6 +6206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can add as many blocks to your Matrix field as you’d like (or at least as many as the field’s Max Blocks setting will allow).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122526Z" creationid="Toru Kokubun" creationdate="20180425T122352Z">
+        <seg>あなたは好きなだけ（または、最大ブロック数の設定で許可されている範囲内で）、行列フィールドへブロックを追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add parameters to the ElementCriteriaModel object as well:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T013904Z" creationid="Toru Kokubun" creationdate="20180424T013840Z">
@@ -6114,6 +6250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003705Z" creationid="Toru Kokubun" creationdate="20180419T003106Z">
         <seg>デフォルトでインストールされているコントロールパネルのダッシュボードにあるアップデートウィジェットを利用することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can collapse Matrix blocks by clicking the “Collapse” menu option, or by double-clicking on a block’s title bar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T123341Z" creationid="Toru Kokubun" creationdate="20180425T123341Z">
+        <seg>メニューオプションの「折りたたむ」 をクリックするか、ブロックのタイトルバーをダブルクリックすることで、行列ブロックを折りたたむことができます。</seg>
       </tuv>
     </tu>
     <tu>
