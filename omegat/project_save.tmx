@@ -5806,6 +5806,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also tell if a particular option is selected outside the scope of looping through the options like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T001531Z" creationid="Toru Kokubun" creationdate="20180425T001531Z">
+        <seg>オプションのループのスコープ外でも、特定のオプションが選択されているかを知ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use the Updates widget on the Control Panel dashboard, which is installed by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003705Z" creationid="Toru Kokubun" creationdate="20180419T003106Z">
