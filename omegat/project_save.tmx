@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Default is “All”.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015022Z" creationid="Toru Kokubun" creationdate="20180425T015012Z">
+        <seg>（デフォルトは「すべて」です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Note that you should create your Craft 3 project in a new location; not in the same place as your Craft 2 project).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234141Z" creationid="Toru Kokubun" creationdate="20180418T234119Z">
@@ -574,6 +582,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling a Color field in your templates will return a &lt;x1/&gt;craft\fields\data\ColorData&lt;x2/&gt; object, or &lt;x3/&gt;null&lt;x4/&gt; if no color was selected.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T003858Z" creationid="Toru Kokubun" creationdate="20180425T003809Z">
+        <seg>テンプレート内でカラーフィルドを呼び出すと、&lt;x1/&gt;craft\fields\data\ColorData&lt;x2/&gt; オブジェクトが返ります。カラーが選択されていなければ、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling a Date field in your templates will return a &lt;x1/&gt;DateTime&lt;x2/&gt; object set to the selected date, or &lt;x3/&gt;null&lt;x4/&gt; if the field doesn’t have a value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012656Z" creationid="Toru Kokubun" creationdate="20180425T012656Z">
+        <seg>テンプレート内で日付フィールドを呼び出すと、選択された日付の &lt;x1/&gt;DateTime&lt;x2/&gt; オブジェクトが返ります。フィールドに値がない場合は、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Categories Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022511Z" creationid="Toru Kokubun" creationdate="20180424T022511Z">
@@ -584,8 +608,8 @@
       <tuv lang="EN-US">
         <seg>Categories fields allow you to relate &lt;x1/&gt;categories&lt;x2/&gt; to the parent element.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T023111Z" creationid="Toru Kokubun" creationdate="20180424T022635Z">
-        <seg>カテゴリフィールドでは、&lt;x1/&gt;カテゴリ&lt;x2/&gt;を親要素に関連付けることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014737Z" creationid="Toru Kokubun" creationdate="20180424T022635Z">
+        <seg>カテゴリフィールドでは、&lt;x1/&gt;カテゴリ&lt;x2/&gt;を親エレメントに関連付けることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -862,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Clicking the “Add an entry” button will bring up a modal window where you can find and select additional entries:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015801Z" creationid="Toru Kokubun" creationdate="20180425T015801Z">
+        <seg>「エントリを追加」ボタンをクリックすると、すでに追加されているエントリの検索や選択ができるモーダルウィンドウが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clicking “Make required” will add an asterisk (&lt;x1/&gt;*&lt;x2/&gt;) beside the field’s name, indicating that it’s now required.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030305Z" creationid="Toru Kokubun" creationdate="20180423T030246Z">
@@ -898,6 +930,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230532Z" creationid="Toru Kokubun" creationdate="20180414T230532Z">
         <seg>コーディングガイドライン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Color Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T002203Z" creationid="Toru Kokubun" creationdate="20180425T002203Z">
+        <seg>色フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Color fields give you a hexadecimal color input with a preview of the current color, and on browsers that support &lt;x1/&gt;&lt;input type="color"&gt;&lt;x2/&gt;, clicking on the preview will open the browser’s color picker.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T003653Z" creationid="Toru Kokubun" creationdate="20180425T003209Z">
+        <seg>色フィールドでは、現在のカラーのプレビューが付いた16進数のカラー入力を提供します。&lt;x1/&gt;&lt;input type="color"&gt;&lt;x2/&gt; をサポートしているブラウザでは、プレビューのクリックでブラウザのカラーピッカーを開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1350,10 +1398,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Date fields give you a date picker, and optionally a time picker as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T004216Z" creationid="Toru Kokubun" creationdate="20180425T004042Z">
+        <seg>日付フィールドは date picker を提供します。同様に、オプションで time picker を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date/Time Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T003931Z" creationid="Toru Kokubun" creationdate="20180425T003931Z">
+        <seg>日/時フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date/Time fields let you choose whether you want to show the date, the time, or both.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T004424Z" creationid="Toru Kokubun" creationdate="20180425T004424Z">
+        <seg>日/時フィールドは、日付、時間、もしくはその両方にするか、お好みで選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date/Time fields show either a date picker, a time picker, or both, depending on the settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012314Z" creationid="Toru Kokubun" creationdate="20180425T012314Z">
+        <seg>日/時フィールドでは、設定に応じて date picker、time picker、または両方が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Date/Time&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011644Z" creationid="Toru Kokubun" creationdate="20180423T011644Z">
         <seg>日/時&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dates and times are both formatted for the user’s preferred locale.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012401Z" creationid="Toru Kokubun" creationdate="20180425T012401Z">
+        <seg>日付と時刻は、いずれもユーザーが優先するロケールに応じてフォーマットされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1478,6 +1566,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Double-clicking on a selected entry will open a modal where you can edit the entry’s title and custom fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T020352Z" creationid="Toru Kokubun" creationdate="20180425T020352Z">
+        <seg>選択されたエントリをダブルクリックすると、エントリのタイトルやカスタムフィールドを編集できるモーダルウィンドウが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dropdown Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012802Z" creationid="Toru Kokubun" creationdate="20180425T012802Z">
+        <seg>セレクトボックスフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dropdown Options&lt;x1/&gt; – Define the options that will be available in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013601Z" creationid="Toru Kokubun" creationdate="20180425T013542Z">
+        <seg>セレクトボックスのオプション&lt;x1/&gt; – フィールドで利用可能なオプションを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dropdown fields give you a dropdown input.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013452Z" creationid="Toru Kokubun" creationdate="20180425T013452Z">
+        <seg>セレクトボックスフィールドは、ドロップダウン形式の入力を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dropdown fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013519Z" creationid="Toru Kokubun" creationdate="20180425T013519Z">
+        <seg>セレクトボックスフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dropdown fields will show a dropdown input with each of the Dropdown Options as defined in the field settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013809Z" creationid="Toru Kokubun" creationdate="20180425T013809Z">
+        <seg>セレクトボックスフィールドでは、フィールド設定で定義されたセレクトボックスのオプションがドロップダウン形式で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dropdown&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013904Z" creationid="Toru Kokubun" creationdate="20180423T013904Z">
@@ -1590,6 +1726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Editing Entry Content</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T020256Z" creationid="Toru Kokubun" creationdate="20180425T020256Z">
+        <seg>エントリコンテンツの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Element Action Types&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231234Z" creationid="Toru Kokubun" creationdate="20180414T231013Z">
@@ -1662,10 +1806,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entries Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014539Z" creationid="Toru Kokubun" creationdate="20180425T014539Z">
+        <seg>エントリフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entries are your individual pieces of content (like a cocktail recipe).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013557Z" creationid="Toru Kokubun" creationdate="20180421T010553Z">
         <seg>エントリは（カクテルレシピのような）コンテンツの独立したピースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries fields allow you to relate &lt;x1/&gt;entries&lt;x2/&gt; to the parent element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014817Z" creationid="Toru Kokubun" creationdate="20180425T014719Z">
+        <seg>エントリフィールドでは、&lt;x1/&gt;エントリ&lt;x2/&gt;を親エレメントに関連付けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014843Z" creationid="Toru Kokubun" creationdate="20180425T014843Z">
+        <seg>エントリフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries fields list all of the currently selected entries, with a button to select new ones:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015644Z" creationid="Toru Kokubun" creationdate="20180425T015644Z">
+        <seg>エントリフィールドには、現在選択されているすべてのエントリのリストと、新しいエントリを追加するためのボタンがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1690,6 +1866,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023501Z" creationid="Toru Kokubun" creationdate="20180423T015708Z">
         <seg>エントリ&lt;x1/&gt;は、「設定 &gt; セクション &gt; 入力タイプ &gt; &lt;x2/&gt;入力タイプ名&lt;x4/&gt; &gt; フィールドレイアウト」の入力タイプごとに定義されたフィールドレイアウトを使用します。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry Query Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025434Z" creationid="Toru Kokubun" creationdate="20180425T025434Z">
+        <seg>エントリのクエリパラメータ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2230,6 +2414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are including a Checkboxes field on a front-end &lt;x1/&gt;entry from&lt;x2/&gt;, make sure to include a hidden input before the checkboxes, so that an empty value is submitted if no checkboxes are checked.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T002130Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
+        <seg>フロントエンドの&lt;x1/&gt;エントリフォーム&lt;x2/&gt;にチェックボックスフィールドを含める場合は、チェックボックスの前に不可視フィールドを含め、チェックボックスがチェックされなかった場合でも、空の値が送信されるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are starting a Craft 3 project from scratch, review the &lt;x1/&gt;Craft 3 Installation instructions&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002126Z" creationid="Toru Kokubun" creationdate="20180415T011745Z">
@@ -2312,16 +2504,24 @@
       <tuv lang="EN-US">
         <seg>If you have an element with a Categories field in your template, you can access its selected categories using your Category field’s handle:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025345Z" creationid="Toru Kokubun" creationdate="20180424T024946Z">
-        <seg>テンプレートにカテゴリフィールドのエレメントを持たせる場合、カテゴリフィールドのハンドルを利用して、選択されたカテゴリにアクセスできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022054Z" creationid="Toru Kokubun" creationdate="20180424T024946Z">
+        <seg>テンプレート内でカテゴリフィールドのエレメントを取得する場合、カテゴリフィールドのハンドルを利用して、選択されたカテゴリにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you have an element with an Assets field in your template, you can access its selected assets using your Assets field’s handle:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025350Z" creationid="Toru Kokubun" creationdate="20180424T010208Z">
-        <seg>テンプレートにアセットフィールドのエレメントを持たせる場合、アセットフィールドのハンドルを利用して、選択されたアセットにアクセスできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022034Z" creationid="Toru Kokubun" creationdate="20180424T010208Z">
+        <seg>テンプレート内でアセットフィールドのエレメントを取得する場合、アセットフィールドのハンドルを利用して、選択されたアセットにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have an element with an Entries field in your template, you can access its selected entries using your Entries field’s handle:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022016Z" creationid="Toru Kokubun" creationdate="20180425T022016Z">
+        <seg>テンプレート内でエントリフィールドのエレメントを取得する場合、エントリフィールドのハンドルを利用して、選択されたエントリにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2432,8 +2632,8 @@
       <tuv lang="EN-US">
         <seg>If you want to set a param value to an array, you now &lt;x1/&gt;must&lt;x2/&gt; type out the array brackets.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T215608Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
-        <seg>パラメータ値を配列にセットする場合は、配列の大括弧を入力&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025951Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
+        <seg>パラメータ値を配列にセットする場合は、配列の大括弧を記述&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2488,16 +2688,24 @@
       <tuv lang="EN-US">
         <seg>If your Assets field is only meant to have a single asset selected, remember that calling your Assets field will still give you the same ElementCriteriaModel, not the selected asset.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T020321Z">
-        <seg>意図的にアセットフィールドへ一つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025346Z" creationid="Toru Kokubun" creationdate="20180424T020321Z">
+        <seg>意図的にアセットフィールドへ一つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your Categories field is only meant to have a single category selected, remember that calling your Categories field will still give you the same ElementCriteriaModel, not the selected category.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
-        <seg>意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として与えられることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025338Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
+        <seg>意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your Entries field is only meant to have a single entry selected, remember that calling your Entries field will still give you the same ElementCriteriaModel, not the selected entry.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025323Z" creationid="Toru Kokubun" creationdate="20180425T025323Z">
+        <seg>意図的にエントリフィールドへ一つだけセットしている場合でも、エントリフィールドを呼び出すと、選択されたエントリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2554,6 +2762,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001944Z" creationid="Toru Kokubun" creationdate="20180415T084826Z">
         <seg>選択可能であれば、ほとんどの場合に次のデータベース設定を推奨します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re not directly outputting the value of the field, like assigning it to a variable for example, you will need to use &lt;x1/&gt;dropdownFieldHandle.value&lt;x2/&gt;, like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014419Z" creationid="Toru Kokubun" creationdate="20180425T014406Z">
+        <seg>例えば、変数に割り当てるなどフィールドの値を直接出力しない場合は、次のように &lt;x1/&gt;dropdownFieldHandle.value&lt;x2/&gt; を利用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2624,8 +2840,8 @@
       <tuv lang="EN-US">
         <seg>In either case, you can output an option’s label by typing &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; instead, and you can tell if the option is selected or not via &lt;x3/&gt;option.selected&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T221511Z" creationid="Toru Kokubun" creationdate="20180424T221431Z">
-        <seg>いずれの場合も、オプションのラベルを出力するには &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; と入力します。オプションが選択されているかどうかは &lt;x3/&gt;option.selected&lt;x4/&gt; で確認できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014100Z" creationid="Toru Kokubun" creationdate="20180424T221431Z">
+        <seg>いずれの場合も、オプションのラベルを出力するには &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; と記述します。オプションが選択されているかどうかは &lt;x3/&gt;option.selected&lt;x4/&gt; で知ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2906,6 +3122,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T023656Z" creationid="Toru Kokubun" creationdate="20180424T023656Z">
         <seg>ブランチ制限&lt;x1/&gt; – フィールドと一度に関連付けできるカテゴリ数の上限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Limit&lt;x1/&gt; – The maximum number of entries that can be related with the field at once.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015555Z" creationid="Toru Kokubun" creationdate="20180425T015555Z">
+        <seg>リミット&lt;x1/&gt; – フィールドと一度に関連付けできるエントリ数の上限</seg>
       </tuv>
     </tu>
     <tu>
@@ -3406,6 +3630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Or you can loop through all of the available options rather than just the selected one:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013956Z" creationid="Toru Kokubun" creationdate="20180425T013956Z">
+        <seg>または、選択されたものだけでなく、利用可能なすべてのオプションをループすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or you can loop through all of the available options rather than just the selected ones:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T221101Z" creationid="Toru Kokubun" creationdate="20180424T221101Z">
@@ -3624,16 +3856,24 @@
       <tuv lang="EN-US">
         <seg>Rather than typing “&lt;x1/&gt;entry.assetsFieldHandle&lt;x2/&gt;” every time, you can call it once and set it to another variable:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025802Z" creationid="Toru Kokubun" creationdate="20180424T013641Z">
-        <seg>常に「&lt;x1/&gt;entry.assetsFieldHandle&lt;x2/&gt;」を入力するよりむしろ、一度呼び出して別の変数にセットします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025715Z" creationid="Toru Kokubun" creationdate="20180424T013641Z">
+        <seg>常に「&lt;x1/&gt;entry.assetsFieldHandle&lt;x2/&gt;」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Rather than typing “&lt;x1/&gt;entry.categoriesFieldHandle&lt;x2/&gt;” every time, you can call it once and set it to another variable:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025755Z" creationid="Toru Kokubun" creationdate="20180424T025755Z">
-        <seg>常に「&lt;x1/&gt;entry.categoriesFieldHandle&lt;x2/&gt;」を入力するよりもむしろ、一度呼び出して別の変数にセットします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025707Z" creationid="Toru Kokubun" creationdate="20180424T025755Z">
+        <seg>常に「&lt;x1/&gt;entry.categoriesFieldHandle&lt;x2/&gt;」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rather than typing “&lt;x1/&gt;entry.entriesFieldHandle&lt;x2/&gt;” every time, you can call it once and set it to another variable:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025644Z" creationid="Toru Kokubun" creationdate="20180425T025638Z">
+        <seg>常に「&lt;x1/&gt;entry.entriesFieldHandle&lt;x2/&gt;」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4168,8 +4408,8 @@
       <tuv lang="EN-US">
         <seg>So if your Matrix field is attached to an entry, and you want to output the entry ID in your dynamic subfolder path, you would type &lt;x5/&gt;{owner.id}&lt;x6/&gt; not just &lt;x7/&gt;{id}&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T004026Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
-        <seg>そのため、行列フィールドがエントリに紐づけられていて、動的なサブフォルダパスにエントリ ID を出力したい場合は、&lt;x7/&gt;{id}&lt;x8/&gt; ではなく &lt;x5/&gt;{owner.id}&lt;x6/&gt; と入力します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025908Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
+        <seg>そのため、行列フィールドがエントリに紐づけられていて、動的なサブフォルダパスにエントリ ID を出力したい場合は、&lt;x7/&gt;{id}&lt;x8/&gt; ではなく &lt;x5/&gt;{owner.id}&lt;x6/&gt; と記述します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4202,6 +4442,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215404Z" creationid="Toru Kokubun" creationdate="20180424T215404Z">
         <seg>ソース&lt;x1/&gt; – ファイルの選択・アップロードを可能とするアセットソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sources&lt;x1/&gt; – The sections you want to relate entries from.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014951Z" creationid="Toru Kokubun" creationdate="20180425T014951Z">
+        <seg>ソース&lt;x1/&gt; – エントリを関連付けるセクション</seg>
       </tuv>
     </tu>
     <tu>
@@ -4326,6 +4574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Target Locale&lt;x1/&gt; – Which locale entries should be related with (this setting only appears if you’re running Craft Pro with more than one site locale)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015522Z" creationid="Toru Kokubun" creationdate="20180425T015522Z">
+        <seg>ターゲットロケール&lt;x1/&gt; – 関連付けするエントリーのロケール（この設定は複数のサイトロケールを持つ Craft Pro が実行されている場合のみ、表示されます）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tells Git which files it should ignore when committing changes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011615Z" creationid="Toru Kokubun" creationdate="20180422T011615Z">
@@ -4434,6 +4690,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025457Z" creationid="Toru Kokubun" creationdate="20180424T025457Z">
         <seg>これは、所定のフィールドで選択されたすべてのカテゴリを出力するよう準備された&lt;x1/&gt;エレメントクエリ&lt;x2/&gt;を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That will give you an &lt;x1/&gt;element query&lt;x2/&gt;, prepped to output all of the selected entries for the given field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022208Z" creationid="Toru Kokubun" creationdate="20180425T022208Z">
+        <seg>これは、所定のフィールドで選択されたすべてのエントリを出力するよう定義された&lt;x1/&gt;エレメントクエリ&lt;x2/&gt;を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4910,6 +5174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They are displayed in the site’s timezone, however they get stored in UTC like all other dates in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012519Z" creationid="Toru Kokubun" creationdate="20180425T012458Z">
+        <seg>それらは、サイトのタイムゾーンで表示されますが、Craft の他のすべての日付と同様に UTC で格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are no longer automatically available if a parent template is including them, or even if they were defined in the same template file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062044Z" creationid="Toru Kokubun" creationdate="20180420T062007Z">
@@ -5134,6 +5406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To check if your Entries field has any selected entries, you can use the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025530Z" creationid="Toru Kokubun" creationdate="20180425T025530Z">
+        <seg>エントリフィールドに選択されたエントリがあるかどうかを調べるには、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
@@ -5158,6 +5438,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get the first (and only) entry selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025420Z" creationid="Toru Kokubun" creationdate="20180425T025420Z">
+        <seg>選択された最初の（一つだけの）エントリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get the first (and only) tag selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T030009Z">
@@ -5178,6 +5466,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T025657Z" creationid="Toru Kokubun" creationdate="20180424T025632Z">
         <seg>選択されたカテゴリをループするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To loop through the selected entries:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025545Z" creationid="Toru Kokubun" creationdate="20180425T025545Z">
+        <seg>選択されたエントリをループするには</seg>
       </tuv>
     </tu>
     <tu>
@@ -5808,8 +6104,8 @@
       <tuv lang="EN-US">
         <seg>You can also tell if a particular option is selected outside the scope of looping through the options like so:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T001531Z" creationid="Toru Kokubun" creationdate="20180425T001531Z">
-        <seg>オプションのループのスコープ外でも、特定のオプションが選択されているかを知ることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T001723Z" creationid="Toru Kokubun" creationdate="20180425T001531Z">
+        <seg>オプションのループのスコープ外でも、次のように特定のオプションが選択されているかを知ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5856,7 +6152,7 @@
       <tuv lang="EN-US">
         <seg>You can loop through your selected options like so:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220914Z" creationid="Toru Kokubun" creationdate="20180424T220914Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T001716Z" creationid="Toru Kokubun" creationdate="20180424T220914Z">
         <seg>選択されたオプションを次のようにループすることができます。</seg>
       </tuv>
     </tu>
@@ -5866,6 +6162,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T020259Z" creationid="Toru Kokubun" creationdate="20180422T090327Z">
         <seg>「設定 &gt; セクション」のセクション名の横にある「入力タイプを変更してください。」リンクをクリックして、セクションの入力タイプを管理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can output an option’s label by typing &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; instead, and you can tell if the option is selected or not via &lt;x3/&gt;option.selected&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014139Z" creationid="Toru Kokubun" creationdate="20180425T014044Z">
+        <seg>いずれの場合も、オプションのラベルを出力するには &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; と記述します。オプションが選択されているかどうかは &lt;x3/&gt;option.selected&lt;x4/&gt; で知ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can output the selected option’s label like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013905Z" creationid="Toru Kokubun" creationdate="20180425T013905Z">
+        <seg>選択されたオプションのラベルを次のように出力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can output the selected option’s value like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013919Z" creationid="Toru Kokubun" creationdate="20180425T013845Z">
+        <seg>選択されたオプションの値を次のように出力できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5930,6 +6250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215542Z" creationid="Toru Kokubun" creationdate="20180414T030438Z">
         <seg>独自のプラグインを作成するつもりがなければ、PHP や Yii の知識は必要ありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You even get to set the option values and labels separately, and choose which one should be selected by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013651Z" creationid="Toru Kokubun" creationdate="20180425T013651Z">
+        <seg>オプションの値とラベルを別々に設定したり、デフォルトで選択状態にしておくものを選択できます。</seg>
       </tuv>
     </tu>
     <tu>
