@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(This can be renamed if needed.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T031329Z" creationid="Toru Kokubun" creationdate="20180426T031319Z">
+        <seg>（必要ならリネームできます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(install it globally)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075437Z" creationid="Toru Kokubun" creationdate="20180415T075437Z">
@@ -594,6 +602,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012918Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
         <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, there will be some settings in here that can safely be changed or removed, including:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T030733Z" creationid="Toru Kokubun" creationdate="20180426T030733Z">
+        <seg>デフォルトで安全に変更したり削除できる設定には、次のものが含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2126,6 +2142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Feel free to delete this file, or replace its contents with something more relevant to your project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T030610Z" creationid="Toru Kokubun" creationdate="20180426T030610Z">
+        <seg>このファイルを削除するか、プロジェクトに関連性の高いコンテンツに置き換えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Feel free to delete this file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011846Z" creationid="Toru Kokubun" creationdate="20180422T011846Z">
@@ -3278,6 +3302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It comes with the &lt;x1/&gt;craft&lt;x2/&gt; executable file, enabling various CLI features in your terminal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T030300Z" creationid="Toru Kokubun" creationdate="20180426T030300Z">
+        <seg>&lt;x1/&gt;craft&lt;x2/&gt; 実行可能ファイルが付属しているため、ターミナルから様々な CLI 機能を利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It defines sensitive or environment-specific config values that don’t make sense to commit to version control.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T010346Z" creationid="Toru Kokubun" creationdate="20180422T010223Z">
@@ -3338,6 +3370,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233034Z" creationid="Toru Kokubun" creationdate="20180414T233034Z">
         <seg>大切なのは、そこにいる人々が不快だったり脅されているように感じるコミュニティは生産的ではないと覚えておくことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s more secure, as sensitive information like database credentials are stored in &lt;x1/&gt;.env&lt;x2/&gt; files that aren’t committed to Git (utilizing &lt;x3/&gt;PHP dotenv&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T030200Z" creationid="Toru Kokubun" creationdate="20180426T030200Z">
+        <seg>データベースの認証情報のような機密性の高い情報は、Git にコミットしない &lt;x1/&gt;.env&lt;x2/&gt; ファイルに格納される（&lt;x3/&gt;PHP dotenv&lt;x4/&gt; を利用）ため、より安全です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3602,6 +3642,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054846Z" creationid="Toru Kokubun" creationdate="20180420T054846Z">
         <seg>&lt;x1/&gt;storage/userphotos/&lt;x2/&gt; フォルダをウェブルート下層のどこかに移動します。（例： &lt;x3/&gt;public_html/userphotos/&lt;x4/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Moving to the new structure is generally recommended, for a couple reasons:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T025531Z" creationid="Toru Kokubun" creationdate="20180426T025531Z">
+        <seg>いくつかの理由から、新しい構造への移行が一般的に推奨されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5502,6 +5550,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The documentation will generally assume the new structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T025616Z" creationid="Toru Kokubun" creationdate="20180426T025616Z">
+        <seg>ドキュメントは全般的に新しい構造を想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The entries are typically inputted via the Entry Form in the Craft Control Panel.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013545Z" creationid="Toru Kokubun" creationdate="20180421T010849Z">
@@ -5986,6 +6042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233544Z" creationid="Toru Kokubun" creationdate="20180414T233544Z">
         <seg>これは次のものを含みますが、この限りではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a Composer file that tells Composer exactly which dependencies and versions should be currently installed in &lt;x1/&gt;vendor/&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T031100Z" creationid="Toru Kokubun" creationdate="20180426T031100Z">
+        <seg>これは、&lt;x1/&gt;vendor/&lt;x2/&gt;へ現在インストールされている必要がある依存関係やバージョンを Composer へ正確に伝える Composer ファイルです。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6770,6 +6834,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091753Z" creationid="Toru Kokubun" creationdate="20180422T091725Z">
         <seg>その際、新たに「タイトル形式」欄が表示され、自動生成されるタイトルの見え方を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you download a fresh copy of Craft 3, your project will have the following files and directories:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T030442Z" creationid="Toru Kokubun" creationdate="20180426T030442Z">
+        <seg>Craft 3 の新しいコピーをダウンロードすると、プロジェクトには次のファイルやディレクトリがあります。</seg>
       </tuv>
     </tu>
     <tu>
