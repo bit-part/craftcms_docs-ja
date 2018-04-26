@@ -1086,6 +1086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Composer will take a couple minutes to load everything.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111058Z" creationid="Toru Kokubun" creationdate="20180426T111058Z">
+        <seg>Composer がすべてをロードするのに、数分かかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Composer will take a few minutes to install everything.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084154Z" creationid="Toru Kokubun" creationdate="20180415T084154Z">
@@ -1330,6 +1338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030226Z" creationid="Toru Kokubun" creationdate="20180418T030226Z">
         <seg>コマンドラインからの Craft のセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft can be downloaded with &lt;x1/&gt;Composer&lt;x2/&gt; or by &lt;x3/&gt;manually downloading&lt;x4/&gt; a zip or tar.gz archive.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110411Z" creationid="Toru Kokubun" creationdate="20180426T110411Z">
+        <seg>Craft は &lt;x1/&gt;Composer&lt;x2/&gt; でダウンロードするか、zip または tar.gz アーカイブを&lt;x3/&gt;手動でダウンロード&lt;x4/&gt;できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1722,6 +1738,46 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014016Z" creationid="Toru Kokubun" creationdate="20180426T014016Z">
         <seg>選択されたタグをダブルクリックすると、タグのタイトルや「設定 &gt; タグ &gt; フィールド」でタグに関連づけられたフィールドを編集できるモーダルウィンドウが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download the archive format you prefer to work with:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111314Z" creationid="Toru Kokubun" creationdate="20180426T111314Z">
+        <seg>作業に適したアーカイブ形式をダウンロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading an Archive File Manually</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111231Z" creationid="Toru Kokubun" creationdate="20180426T111231Z">
+        <seg>アーカイブファイルを手動でダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading an Archive File Manually&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T105958Z" creationid="Toru Kokubun" creationdate="20180426T105723Z">
+        <seg>アーカイブファイルを手動でダウンロード&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading with Composer</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110532Z" creationid="Toru Kokubun" creationdate="20180426T110532Z">
+        <seg>Composer でダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading with Composer&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T105954Z" creationid="Toru Kokubun" creationdate="20180426T105711Z">
+        <seg>Composer でダウンロード&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2138,6 +2194,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230917Z" creationid="Toru Kokubun" creationdate="20180414T230917Z">
         <seg>Twig 拡張&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extract the archive wherever you want your new Craft project to live.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111506Z" creationid="Toru Kokubun" creationdate="20180426T111506Z">
+        <seg>新しい Craft プロジェクトを実行したい場所でアーカイブを展開します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2634,6 +2698,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001845Z" creationid="Toru Kokubun" creationdate="20180415T073538Z">
         <seg>&lt;x1/&gt;composer&lt;x2/&gt; が見つからない、あるいは、識別されないというエラーが出力されるなら、Composer がインストールされていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that outputs something lower than 1.3.0, run &lt;x3/&gt;composer self-update&lt;x4/&gt; to update your Composer installation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110944Z" creationid="Toru Kokubun" creationdate="20180426T110944Z">
+        <seg>1.3.0 より前のバージョンであれば、Composer をアップデートするために &lt;x3/&gt;composer self-update&lt;x4/&gt; を実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4030,6 +4102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once Craft’s files are in place, your project directory should have a file structure like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T112112Z" creationid="Toru Kokubun" creationdate="20180426T111948Z">
+        <seg>Craft のファイルが適切な場所にあれば、プロジェクトディレクトリは次のようなファイル構造になっているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once a field is selected, a gear icon will appear beside it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031255Z" creationid="Toru Kokubun" creationdate="20180423T025044Z">
@@ -4042,6 +4122,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220933Z" creationid="Toru Kokubun" creationdate="20180418T220933Z">
         <seg>すべてのファイルがあるべき場所に配置されたら、&lt;x1/&gt;public/index.php&lt;x2/&gt; ファイルを開き、次の行を探してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once it’s done you will be shown a success message:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111119Z" creationid="Toru Kokubun" creationdate="20180426T111119Z">
+        <seg>完了すると、成功メッセージが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4870,6 +4958,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the Key Manually&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110001Z" creationid="Toru Kokubun" creationdate="20180426T105903Z">
+        <seg>キーを手動で設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the Key from Your Terminal&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110003Z" creationid="Toru Kokubun" creationdate="20180426T105917Z">
+        <seg>キーをターミナルから設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the correct URL setting for the folder</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061349Z" creationid="Toru Kokubun" creationdate="20180420T061349Z">
@@ -5074,6 +5178,62 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215850Z" creationid="Toru Kokubun" creationdate="20180419T215850Z">
         <seg>静的な翻訳ファイル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 1: Download Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110140Z" creationid="Toru Kokubun" creationdate="20180426T110140Z">
+        <seg>ステップ 1：Craft のダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 1: Download Craft&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T105555Z" creationid="Toru Kokubun" creationdate="20180426T105555Z">
+        <seg>ステップ 1：Craft のダウンロード&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 2: Set the File Permissions&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T105804Z" creationid="Toru Kokubun" creationdate="20180426T105804Z">
+        <seg>ステップ 2：ファイルパーミッションの設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 3: Set a Security Key&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T105854Z" creationid="Toru Kokubun" creationdate="20180426T105820Z">
+        <seg>ステップ 3：セキュリティキーの設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 4: Create a Database&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110017Z" creationid="Toru Kokubun" creationdate="20180426T110017Z">
+        <seg>ステップ 4：データベースの作成&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 5: Set up the Web Server&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110034Z" creationid="Toru Kokubun" creationdate="20180426T110034Z">
+        <seg>ステップ 5：ウェブサーバーのセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 6: Run the Setup Wizard&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110106Z" creationid="Toru Kokubun" creationdate="20180426T110106Z">
+        <seg>ステップ 6：セットアップウィザードの実行&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5342,6 +5502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Terminal Setup&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110209Z" creationid="Toru Kokubun" creationdate="20180426T110116Z">
+        <seg>ターミナルによるセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tests&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094814Z" creationid="Toru Kokubun" creationdate="20180422T094814Z">
@@ -5554,6 +5722,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T025616Z" creationid="Toru Kokubun" creationdate="20180426T025616Z">
         <seg>ドキュメントは全般的に新しい構造を想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The end result will be the same, so go with whichever route you feel more comfortable with.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110512Z" creationid="Toru Kokubun" creationdate="20180426T110501Z">
+        <seg>最終的な結果は同じになるため、あなたにとってより快適な方法を選んでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +5962,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235142Z" creationid="Toru Kokubun" creationdate="20180414T235142Z">
         <seg>Craft の強みは広範囲のバックグラウンドを持つ人々による多彩なコミュニティから来ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The success message shown after loading Craft with Composer&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111213Z" creationid="Toru Kokubun" creationdate="20180426T111213Z">
+        <seg>Composer で Craft をロード後に表示される成功メッセージ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6750,6 +6934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Web Browser Setup&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110218Z" creationid="Toru Kokubun" creationdate="20180426T110124Z">
+        <seg>ウェブブラウザによるセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What it’s For</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T025417Z" creationid="Toru Kokubun" creationdate="20180414T025417Z">
@@ -7066,6 +7258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093739Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
         <seg>起動しているターミナル上で次のコマンドを実行することによって、（もし存在するのであれば）インストール済みの Composer のバージョンを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find out your installed version of Composer by running &lt;x1/&gt;composer -V&lt;x2/&gt; from your terminal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110718Z" creationid="Toru Kokubun" creationdate="20180426T110718Z">
+        <seg>起動しているターミナル上で &lt;x1/&gt;composer -V&lt;x2/&gt; を実行することによって、インストールされている Composer のバージョンを確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7662,10 +7862,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{note} If you’re on macOS, be careful not to lose the hidden files in there (&lt;x1/&gt;.env&lt;x2/&gt;, &lt;x3/&gt;.env.example&lt;x4/&gt;, &lt;x5/&gt;.gitignore&lt;x6/&gt;, and &lt;x7/&gt;web/.htaccess&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T112021Z" creationid="Toru Kokubun" creationdate="20180426T111748Z">
+        <seg>{メモ} macOS を使用している場合、そこにある不可視ファイル（&lt;x1/&gt;.env&lt;x2/&gt;、&lt;x3/&gt;.env.example&lt;x4/&gt;、&lt;x5/&gt;.gitignore&lt;x6/&gt;、および &lt;x7/&gt;web/.htaccess&lt;x8/&gt;）を失わないよう注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{note} Note that the default table prefix is now blank, whereas it used to be &lt;x1/&gt;craft_&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235658Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
         <seg>メモ：デフォルトのテーブル接頭辞は「空」になりましたが、&lt;x1/&gt;craft_&lt;x2/&gt; が使われていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} You should be running Composer 1.3.0 or later.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111540Z" creationid="Toru Kokubun" creationdate="20180426T110617Z">
+        <seg>{メモ} Composer 1.3.0 以降を稼働させるべきです。</seg>
       </tuv>
     </tu>
     <tu>
