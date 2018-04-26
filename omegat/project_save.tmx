@@ -3302,6 +3302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Craft, you define your site’s HTML output with templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220958Z" creationid="Toru Kokubun" creationdate="20180426T220958Z">
+        <seg>Craft では、テンプレートを利用してサイトの HTML 出力を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In each Section you can define the following:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014513Z" creationid="Toru Kokubun" creationdate="20180422T014503Z">
@@ -5706,6 +5714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004723Z" creationid="Toru Kokubun" creationdate="20180421T004723Z">
         <seg>テンプレート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templates are files that live within your craft/templates folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T221028Z" creationid="Toru Kokubun" creationdate="20180426T221028Z">
+        <seg>テンプレートは craft/templates フォルダ内に存在するファイルです。</seg>
       </tuv>
     </tu>
     <tu>
