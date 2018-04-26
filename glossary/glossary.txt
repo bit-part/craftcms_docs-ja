@@ -13,7 +13,6 @@ Locales	ロケール
 Settings	設定
 Relations	リレーション
 Note:	メモ：
-{tip}	ヒント：
 public HTML folder	公開ディレクトリ
 syntax	構文
 param	パラメータ
@@ -43,3 +42,5 @@ Examples	実例	見出しなど「名詞」として使われている場合の�
 See Also	関連項目
 Date/Time Fields	日/時フィールド
 Multi-select Fields	マルチセレクトボックスフィールド
+{note}	【メモ】
+{tip}	【ヒント】
