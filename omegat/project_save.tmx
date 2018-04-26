@@ -2350,6 +2350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For Craft to run properly, PHP needs to be able to write to the following places:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211016Z" creationid="Toru Kokubun" creationdate="20180426T210926Z">
+        <seg>Craft が正しく動作するためには、PHP が次の場所への書き込める必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you intend to use the field with &lt;x1/&gt;entries&lt;x2/&gt;, then you can use any properties listed in the &lt;x3/&gt;craft\elements\entries&lt;x4/&gt; documentation, such as &lt;x5/&gt;{id}&lt;x6/&gt;, &lt;x7/&gt;{slug}&lt;x8/&gt;, or even nested object properties like &lt;x9/&gt;{author.username}&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220101Z" creationid="Toru Kokubun" creationdate="20180424T215806Z">
@@ -2730,6 +2738,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215522Z" creationid="Toru Kokubun" creationdate="20180424T215522Z">
         <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If they are the same user, use &lt;x1/&gt;744&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211258Z" creationid="Toru Kokubun" creationdate="20180426T211258Z">
+        <seg>同じユーザーであれば、&lt;x1/&gt;744&lt;x2/&gt; を利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If they’re in the same group, then use &lt;x1/&gt;774&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211325Z" creationid="Toru Kokubun" creationdate="20180426T211325Z">
+        <seg>同じグループであれば、&lt;x1/&gt;774&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3138,6 +3162,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014419Z" creationid="Toru Kokubun" creationdate="20180425T014406Z">
         <seg>例えば、変数に割り当てるなどフィールドの値を直接出力しない場合は、次のように &lt;x1/&gt;dropdownFieldHandle.value&lt;x2/&gt; を利用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’re not sure and like to live life on the edge, use &lt;x1/&gt;777&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211438Z" creationid="Toru Kokubun" creationdate="20180426T211438Z">
+        <seg>確信が持てず、緊張感がある生活を好むなら、&lt;x1/&gt;777&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5198,10 +5230,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Step 2: Set the File Permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T210611Z" creationid="Toru Kokubun" creationdate="20180426T210611Z">
+        <seg>ステップ 2：ファイルパーミッションの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Step 2: Set the File Permissions&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T105804Z" creationid="Toru Kokubun" creationdate="20180426T105804Z">
         <seg>ステップ 2：ファイルパーミッションの設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 3: Set a Security Key</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211729Z" creationid="Toru Kokubun" creationdate="20180426T211729Z">
+        <seg>ステップ 3：セキュリティキーの設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -5754,6 +5802,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013751Z" creationid="Toru Kokubun" creationdate="20180422T093616Z">
         <seg>エントリは &lt;x1/&gt;object&lt;x2/&gt; という名称の変数としてこのテンプレートに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The exact permissions you should be setting depends on the relationship between the system user that PHP is running as, and who owns the actual folders/files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211216Z" creationid="Toru Kokubun" creationdate="20180426T211216Z">
+        <seg>設定されるべき正確なパーミッションは、PHP を実行しているシステムユーザーと実際にフォルダやファイルを所有しているユーザーとの関係性に依存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7862,26 +7918,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{note} &lt;x1/&gt;IIS fans:&lt;x2/&gt; Make sure your site’s AppPool account has write permissions to these folders/files as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211922Z" creationid="Toru Kokubun" creationdate="20180426T211617Z">
+        <seg>【メモ】 &lt;x1/&gt;IIS ファン：&lt;x2/&gt; サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{note} If you’re on macOS, be careful not to lose the hidden files in there (&lt;x1/&gt;.env&lt;x2/&gt;, &lt;x3/&gt;.env.example&lt;x4/&gt;, &lt;x5/&gt;.gitignore&lt;x6/&gt;, and &lt;x7/&gt;web/.htaccess&lt;x8/&gt;).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T112021Z" creationid="Toru Kokubun" creationdate="20180426T111748Z">
-        <seg>{メモ} macOS を使用している場合、そこにある不可視ファイル（&lt;x1/&gt;.env&lt;x2/&gt;、&lt;x3/&gt;.env.example&lt;x4/&gt;、&lt;x5/&gt;.gitignore&lt;x6/&gt;、および &lt;x7/&gt;web/.htaccess&lt;x8/&gt;）を失わないよう注意してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211917Z" creationid="Toru Kokubun" creationdate="20180426T111748Z">
+        <seg>【メモ】macOS を使用している場合、そこにある不可視ファイル（&lt;x1/&gt;.env&lt;x2/&gt;、&lt;x3/&gt;.env.example&lt;x4/&gt;、&lt;x5/&gt;.gitignore&lt;x6/&gt;、および &lt;x7/&gt;web/.htaccess&lt;x8/&gt;）を失わないよう注意してください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>{note} Note that the default table prefix is now blank, whereas it used to be &lt;x1/&gt;craft_&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235658Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
-        <seg>メモ：デフォルトのテーブル接頭辞は「空」になりましたが、&lt;x1/&gt;craft_&lt;x2/&gt; が使われていることに注意してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211903Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
+        <seg>【メモ】デフォルトのテーブル接頭辞は「空」になりましたが、&lt;x1/&gt;craft_&lt;x2/&gt; が使われていることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>{note} You should be running Composer 1.3.0 or later.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111540Z" creationid="Toru Kokubun" creationdate="20180426T110617Z">
-        <seg>{メモ} Composer 1.3.0 以降を稼働させるべきです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211943Z" creationid="Toru Kokubun" creationdate="20180426T110617Z">
+        <seg>【メモ】Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} If you used Composer to download Craft, you can probably safely skip this step.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212032Z" creationid="Toru Kokubun" creationdate="20180426T210622Z">
+        <seg>【ヒント】Craft のダウンロードに Composer を利用した場合は、おそらく安全にこのステップをスキップできます。</seg>
       </tuv>
     </tu>
     <tu>
