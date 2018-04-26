@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(There’s no length limit.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213011Z" creationid="Toru Kokubun" creationdate="20180426T213011Z">
+        <seg>（長さに制限はありません。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(This can be renamed if needed.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T031329Z" creationid="Toru Kokubun" creationdate="20180426T031319Z">
@@ -942,6 +950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Click “Finish up” to complete the setup process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220220Z" creationid="Toru Kokubun" creationdate="20180426T220220Z">
+        <seg>「Finish up（完了）」 ボタンをクリックしてセットアッププロセスを完了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clicking on an entry type’s name takes you to its settings page:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090526Z" creationid="Toru Kokubun" creationdate="20180422T090509Z">
@@ -1702,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don’t be one of &lt;x1/&gt;those people&lt;x2/&gt; and be sure to pick a strong password.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220057Z" creationid="Toru Kokubun" creationdate="20180426T220057Z">
+        <seg>&lt;x1/&gt;特別なアカウント&lt;x2/&gt;として、強力なパスワードを選んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Don’t be one of those people and be sure to pick a strong password.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023759Z" creationid="Toru Kokubun" creationdate="20180418T023759Z">
@@ -1842,6 +1866,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215600Z" creationid="Toru Kokubun" creationdate="20180424T215600Z">
         <seg>動的なサブフォルダパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each Craft project should have a unique security key, which is shared between each of the environments that the project in installed on.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212450Z" creationid="Toru Kokubun" creationdate="20180426T212450Z">
+        <seg>それぞれの Craft プロジェクトでは、そのプロジェクトがインストールされている各環境で共有されるユニークなセキュリティキーが必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2318,10 +2350,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, it’s time to run Craft’s Setup Wizard.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214354Z" creationid="Toru Kokubun" creationdate="20180426T214325Z">
+        <seg>ついに、Craft のセットアップウィザードを実行するときがきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Firefox 28 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015402Z" creationid="Toru Kokubun" creationdate="20180415T015402Z">
         <seg>Firefox 28 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First generate a cryptographically secure key, preferably using a password generator like &lt;x1/&gt;1Password&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212955Z" creationid="Toru Kokubun" creationdate="20180426T212955Z">
+        <seg>はじめに、なるべく &lt;x1/&gt;1Password&lt;x2/&gt; のようなパスワードジェネレーターを使って、暗号化された安全なキーを生成してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2352,8 +2400,8 @@
       <tuv lang="EN-US">
         <seg>For Craft to run properly, PHP needs to be able to write to the following places:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211016Z" creationid="Toru Kokubun" creationdate="20180426T210926Z">
-        <seg>Craft が正しく動作するためには、PHP が次の場所への書き込める必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212309Z" creationid="Toru Kokubun" creationdate="20180426T210926Z">
+        <seg>Craft が正しく動作するためには、PHP が次の場所への書き込み権限が必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2654,6 +2702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If Craft’s Setup Wizard is shown, the host name is correctly resolving to your Craft installation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214228Z" creationid="Toru Kokubun" creationdate="20180426T214217Z">
+        <seg>Craft のセットアップウィザードが表示された場合、そのホスト名は Craft のインストールのために適切に処理されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an exact match is not found, the first option in the menu will actually create a new tag with the title that you typed in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013830Z" creationid="Toru Kokubun" creationdate="20180426T013830Z">
@@ -2674,6 +2730,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025534Z" creationid="Toru Kokubun" creationdate="20180418T025517Z">
         <seg>インストールが成功したら、Craft はブラウザをコントロールパネルのダッシュボードにリダイレクトします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If it was successful, Craft will redirect your browser to the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220312Z" creationid="Toru Kokubun" creationdate="20180426T220256Z">
+        <seg>インストールが成功したら、Craft はブラウザをコントロールパネルにリダイレクトします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3206,6 +3270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’ve done everything right so far, you should be greeted by Craft’s Setup Wizard.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215503Z" creationid="Toru Kokubun" creationdate="20180426T215436Z">
+        <seg>ここまでのステップがうまくいっていれば、Craft のセットアップウィザードが迎えてくれるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ImageMagick is preferred.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020710Z" creationid="Toru Kokubun" creationdate="20180415T020710Z">
@@ -3290,6 +3362,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232908Z" creationid="Toru Kokubun" creationdate="20180420T232908Z">
         <seg>このようなケースでは、 &lt;x1/&gt;.last()&lt;x2/&gt; の呼び出しを内部的な処理で置き換えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In your terminal, go to your project’s root directory and run the following command to kick off the Setup Wizard:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214700Z" creationid="Toru Kokubun" creationdate="20180426T214609Z">
+        <seg>ターミナル上でプロジェクトのルートディレクトリに移動し、次のコマンドを実行してセットアップウィザードを開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In your terminal, go to your project’s root directory and run the following command:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214657Z" creationid="Toru Kokubun" creationdate="20180426T213426Z">
+        <seg>ターミナル上でプロジェクトのルートディレクトリへ移動し、次のコマンドを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In your web browser, go to &lt;x1/&gt;http://&lt;x2/&gt;/index.php?p=admin&lt;x3/&gt; (substituting &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; with your web server’s host name).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215347Z" creationid="Toru Kokubun" creationdate="20180426T215300Z">
+        <seg>ウェブブラウザで &lt;x1/&gt;http://&lt;x2/&gt;/index.php?p=admin&lt;x3/&gt;（新しいウェブサーバーのホスト名で &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; を置き換える）に移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3458,6 +3554,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003315Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
         <seg>それでも同じ働きとなりますが、引数 &lt;x5/&gt;stripZeroCents&lt;x6/&gt; は &lt;x7/&gt;stripZeros&lt;x8/&gt; にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Its document root should point to your &lt;x1/&gt;web/&lt;x2/&gt; directory (or whatever you’ve renamed it to).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213835Z" creationid="Toru Kokubun" creationdate="20180426T213815Z">
+        <seg>ドキュメントルートは &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリ（または、リネームしたディレクトリ）を指すようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4014,6 +4118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now build something incredible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220509Z" creationid="Toru Kokubun" creationdate="20180426T220413Z">
+        <seg>さぁ、素晴らしいものを築きあげましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now get back to work.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025737Z" creationid="Toru Kokubun" creationdate="20180418T025737Z">
@@ -4166,6 +4278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once it’s done, you should be able to access your new Craft site from your web browser.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215117Z" creationid="Toru Kokubun" creationdate="20180426T215117Z">
+        <seg>それが終われば、ウェブブラウザから新しい Craft サイトにアクセスできるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once it’s finished, your project directory should have a file structure like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215814Z" creationid="Toru Kokubun" creationdate="20180415T084259Z">
@@ -4290,6 +4410,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215834Z" creationid="Toru Kokubun" creationdate="20180419T215834Z">
         <seg>PHP 定数&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Paste your security key inside the quotes and save the file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213320Z" creationid="Toru Kokubun" creationdate="20180426T213320Z">
+        <seg>ダブルクォートの内側にセキュリティキーをペーストし、ファイルを保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4846,6 +4974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Scroll down through the agreement (reading it all, of course) and click the “Got it” button to accept.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215641Z" creationid="Toru Kokubun" creationdate="20180426T215641Z">
+        <seg>（もちろん、すべて目を通した上で）契約をスクロールダウンし、「Got it（了解）」ボタンをクリックして了承してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Scroll down through the agreement (reading it all, of course) and tap or click "Got it" to accept.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024223Z" creationid="Toru Kokubun" creationdate="20180418T022156Z">
@@ -4990,10 +5126,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the Key Manually</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212814Z" creationid="Toru Kokubun" creationdate="20180426T212814Z">
+        <seg>キーを手動で設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the Key Manually&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110001Z" creationid="Toru Kokubun" creationdate="20180426T105903Z">
         <seg>キーを手動で設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the Key from Your Terminal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213350Z" creationid="Toru Kokubun" creationdate="20180426T213350Z">
+        <seg>キーをターミナルから設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -5262,6 +5414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Step 4: Create a Database</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213450Z" creationid="Toru Kokubun" creationdate="20180426T213450Z">
+        <seg>ステップ 4：データベースの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Step 4: Create a Database&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110017Z" creationid="Toru Kokubun" creationdate="20180426T110017Z">
@@ -5270,10 +5430,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Step 5: Set up the Web Server</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213638Z" creationid="Toru Kokubun" creationdate="20180426T213638Z">
+        <seg>ステップ 5：ウェブサーバーのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Step 5: Set up the Web Server&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110034Z" creationid="Toru Kokubun" creationdate="20180426T110034Z">
         <seg>ステップ 5：ウェブサーバーのセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Step 6: Run the Setup Wizard</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214256Z" creationid="Toru Kokubun" creationdate="20180426T214256Z">
+        <seg>ステップ 6：セットアップウィザードの実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -5550,6 +5726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Terminal Setup</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214519Z" creationid="Toru Kokubun" creationdate="20180426T214519Z">
+        <seg>ターミナルによるセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Terminal Setup&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110209Z" creationid="Toru Kokubun" creationdate="20180426T110116Z">
@@ -5750,6 +5934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command will ask you a few questions to learn how to connect to your database, and then kick off Craft’s installer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215024Z" creationid="Toru Kokubun" creationdate="20180426T214849Z">
+        <seg>このコマンドは、データベースへの接続方法を学んだ上で Craft のインストーラーを開始するために、いくつかの質問をします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The current block will get set to that &lt;x1/&gt;block&lt;x2/&gt; variable we’ve defined, and it will be a &lt;x3/&gt;craft\elements\MatrixBlock&lt;x4/&gt; model.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212430Z" creationid="Toru Kokubun" creationdate="20180425T212412Z">
@@ -5826,6 +6018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024055Z" creationid="Toru Kokubun" creationdate="20180418T023922Z">
         <seg>最後のステップは、システム名、ベース URL、および言語の設定です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first step of the installer is to accept the &lt;x1/&gt;license agreement&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215604Z" creationid="Toru Kokubun" creationdate="20180426T215604Z">
+        <seg>インストーラーの最初のステップは、&lt;x1/&gt;ライセンス契約&lt;x2/&gt;への同意です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6038,6 +6238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The third step of the installer is to create an admin account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215954Z" creationid="Toru Kokubun" creationdate="20180426T215954Z">
+        <seg>インストーラーの3つ目のステップは、管理者アカウントの作成です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The wizard will take you through a couple setup screens, and then perform the installation of Craft.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014513Z" creationid="Toru Kokubun" creationdate="20180418T014513Z">
@@ -6066,6 +6274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220913Z" creationid="Toru Kokubun" creationdate="20180419T220859Z">
         <seg>「リッチテキスト」フィールドタイプは Craft 3 から削除され、新しい &lt;x1/&gt;Redactor&lt;x2/&gt; プラグインと &lt;x3/&gt;CKEditor&lt;x4/&gt; プラグインが追加されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then open up your &lt;x1/&gt;.env&lt;x2/&gt; file (you may need to use an app like &lt;x3/&gt;Transmit&lt;x4/&gt; to do this if you’re running macOS), and find this line:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213236Z" creationid="Toru Kokubun" creationdate="20180426T213208Z">
+        <seg>そして、（macOS であれば、&lt;x3/&gt;Transmit&lt;x4/&gt; のようなアプリを利用して）&lt;x1/&gt;.env&lt;x2/&gt; ファイルを開き、次の行を探してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6990,6 +7206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Web Browser Setup</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215147Z" creationid="Toru Kokubun" creationdate="20180426T215147Z">
+        <seg>ウェブブラウザによるセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Web Browser Setup&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110218Z" creationid="Toru Kokubun" creationdate="20180426T110124Z">
@@ -7310,6 +7534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can either run that from your &lt;x1/&gt;terminal&lt;x2/&gt; or your &lt;x3/&gt;web browser&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214505Z" creationid="Toru Kokubun" creationdate="20180426T214429Z">
+        <seg>&lt;x1/&gt;ターミナル&lt;x2/&gt; または &lt;x3/&gt;ウェブブラウザ&lt;x4/&gt; から実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can find out your installed version of Composer (if any) by opening your terminal running the following command:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093739Z" creationid="Toru Kokubun" creationdate="20180415T073458Z">
@@ -7322,6 +7554,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110718Z" creationid="Toru Kokubun" creationdate="20180426T110718Z">
         <seg>起動しているターミナル上で &lt;x1/&gt;composer -V&lt;x2/&gt; を実行することによって、インストールされている Composer のバージョンを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can generate and assign the key &lt;x1/&gt;manually&lt;x2/&gt;, or have Craft do it for you with a &lt;x3/&gt;terminal command&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212739Z" creationid="Toru Kokubun" creationdate="20180426T212718Z">
+        <seg>&lt;x1/&gt;手動&lt;x2/&gt;でキーの生成と割り当てを行うか、&lt;x3/&gt;ターミナルコマンド&lt;x4/&gt;で Craft に任せることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7410,6 +7650,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093805Z" creationid="Toru Kokubun" creationdate="20180419T003628Z">
         <seg>アップデートページの左上にある「すべてを更新」ボタンを使用して、（アップデート可能な Craft とプラグイン）すべてのアップデートを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can test whether you set everything up correctly by pointing your web browser to &lt;x1/&gt;http://&lt;x2/&gt;/index.php?p=admin&lt;x3/&gt; (substituting &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; with your web server’s host name).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214020Z" creationid="Toru Kokubun" creationdate="20180426T214020Z">
+        <seg>プラウザで &lt;x1/&gt;http://&lt;x2/&gt;/index.php?p=admin&lt;x3/&gt;（新しいウェブサーバーのホスト名で &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; を置き換える）にアクセスすることで、すべて正しく設定できたかどうかをテストできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7922,6 +8170,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211922Z" creationid="Toru Kokubun" creationdate="20180426T211617Z">
         <seg>【メモ】 &lt;x1/&gt;IIS ファン：&lt;x2/&gt; サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} If the Setup Wizard skips this step, it’s because Craft is already able to connect to your database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215919Z" creationid="Toru Kokubun" creationdate="20180426T215736Z">
+        <seg>【メモ】 Craft がすでにデータベースに接続可能な状態であれば、このステップはスキップされます。</seg>
       </tuv>
     </tu>
     <tu>
