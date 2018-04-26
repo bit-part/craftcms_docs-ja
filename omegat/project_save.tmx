@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Allow line breaks&lt;x1/&gt; – Whether or not to allow line breaks in this field</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T235838Z" creationid="Toru Kokubun" creationdate="20180425T235437Z">
+        <seg>改行を許可&lt;x1/&gt; – フィールド内で改行を許可するかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, if you already needed to fetch the actual query results, and you didn’t set the &lt;x1/&gt;offset&lt;x2/&gt; or &lt;x3/&gt;limit&lt;x4/&gt; params, you can use the &lt;x5/&gt;`|length`&lt;x6/&gt; filter to find the total size of the results array without the need for an extra database query.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T231726Z" creationid="Toru Kokubun" creationdate="20180420T231124Z">
@@ -394,6 +402,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232143Z" creationid="Toru Kokubun" creationdate="20180414T232143Z">
         <seg>あなたの意思決定はユーザーや同僚に影響を与えるでしょう。そのため、決定を下す際はどのような結果になるかを考慮すべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As you type into the text input, the Tags field will search through the existing tags that belong to the field’s tag group, and suggest tags in a menu below the text input.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013526Z" creationid="Toru Kokubun" creationdate="20180426T013526Z">
+        <seg>テキスト入力欄に入力すると、タグフィールドはそのタググループに属する既存のタグを検索し、入力欄の下のメニューにタグのサジェストを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -638,6 +654,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling a Plain Text field in your templates will return the value that was entered in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T000044Z" creationid="Toru Kokubun" creationdate="20180426T000044Z">
+        <seg>テンプレート内でプレーンテキストフィールドを呼び出すと、フィールドに入力された値を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling a Table field in your templates will return an array of the rows.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011702Z" creationid="Toru Kokubun" creationdate="20180426T011702Z">
+        <seg>テンプレート内でテーブルフィールドを呼び出すと、行の配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Categories Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022511Z" creationid="Toru Kokubun" creationdate="20180424T022511Z">
@@ -810,6 +842,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015858Z" creationid="Toru Kokubun" creationdate="20180415T015858Z">
         <seg>サーバーの確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose from Single-line text, Multi-line text, Number, and Checkbox.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011055Z" creationid="Toru Kokubun" creationdate="20180426T011055Z">
+        <seg>一行テキスト、複数行のテキスト、数字、チェックボックスから選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -994,6 +1034,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011657Z" creationid="Toru Kokubun" creationdate="20180423T011612Z">
         <seg>色&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Column Heading&lt;x1/&gt; – The name that will appear in the head of the table</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011248Z" creationid="Toru Kokubun" creationdate="20180426T010958Z">
+        <seg>列の見出し&lt;x1/&gt; – テーブルのヘッダに表示する名前</seg>
       </tuv>
     </tu>
     <tu>
@@ -1494,6 +1542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Decimal Points&lt;x1/&gt; – The maximum number of decimal points that may be entered in the field</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T235325Z" creationid="Toru Kokubun" creationdate="20180425T234836Z">
+        <seg>小数点&lt;x1/&gt; – フィールドに入力できる小数点以下の最大の桁数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default Character Set: &lt;x1/&gt;utf8&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084903Z" creationid="Toru Kokubun" creationdate="20180415T084903Z">
@@ -1514,6 +1570,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215419Z" creationid="Toru Kokubun" creationdate="20180424T215419Z">
         <seg>既定のアップロードロケーション&lt;x1/&gt; – フィールドに直接ドラッグされたファイルを保存するデフォルトのロケーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Default Values&lt;x1/&gt; – Define the default row and column values for new instances of the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T010827Z" creationid="Toru Kokubun" creationdate="20180426T010632Z">
+        <seg>デフォルトの変数&lt;x1/&gt; – フィールドの新しいインスタンスを作成したときにセットされる行および列のデフォルト値を定義します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1622,6 +1686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Double-clicking on a selected tag will open a modal where you can edit the tag’s title, and any fields you have associated with your tags from Settings → Tags → Fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014016Z" creationid="Toru Kokubun" creationdate="20180426T014016Z">
+        <seg>選択されたタグをダブルクリックすると、タグのタイトルや「設定 &gt; タグ &gt; フィールド」でタグに関連づけられたフィールドを編集できるモーダルウィンドウが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dropdown Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012802Z" creationid="Toru Kokubun" creationdate="20180425T012802Z">
@@ -1694,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each column has the following properties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T010938Z" creationid="Toru Kokubun" creationdate="20180426T010859Z">
+        <seg>それぞれの列には、次のプロパティがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each content tab will get its own gear icon allowing you to rename or delete it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031332Z" creationid="Toru Kokubun" creationdate="20180423T031249Z">
@@ -1722,6 +1802,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T010248Z" creationid="Toru Kokubun" creationdate="20180421T005616Z">
         <seg>それぞれのセクションタイプには、わずかに異なる機能とともにコンテンツを保存しておくことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each row is a sub-array which holds each of the columns’ values for that row.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011823Z" creationid="Toru Kokubun" creationdate="20180426T011756Z">
+        <seg>それぞれの行は、その行の列ごとの値を保持するサブ配列です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1786,6 +1874,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T020256Z" creationid="Toru Kokubun" creationdate="20180425T020256Z">
         <seg>エントリコンテンツの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Editing Tag Content</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013900Z" creationid="Toru Kokubun" creationdate="20180426T013900Z">
+        <seg>タグコンテンツの編集</seg>
       </tuv>
     </tu>
     <tu>
@@ -2310,6 +2406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Handle&lt;x1/&gt; – How you’ll refer to this column from your templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011314Z" creationid="Toru Kokubun" creationdate="20180426T011006Z">
+        <seg>ハンドル&lt;x1/&gt; – テンプレートから、この列を参照する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Handle&lt;x1/&gt; – The entry type’s template-facing handle</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090823Z" creationid="Toru Kokubun" creationdate="20180422T090823Z">
@@ -2434,6 +2538,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094600Z" creationid="Toru Kokubun" creationdate="20180422T094600Z">
         <seg>Craft がタイトル形式の中でショートカット構文を見つけた場合、Twig の解析にあたりテンプレートへ渡す前に &lt;x1/&gt;{&lt;x2/&gt; を &lt;x3/&gt;{{object.&lt;x4/&gt; 、&lt;x5/&gt;}&lt;x6/&gt; を &lt;x7/&gt;}}&lt;x8/&gt; に置換します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an exact match is not found, the first option in the menu will actually create a new tag with the title that you typed in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013830Z" creationid="Toru Kokubun" creationdate="20180426T013830Z">
+        <seg>完全に一致するものが見つからない場合、メニューの最初のオプションからあなたが入力したタイトルの新しいタグを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2602,6 +2714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022054Z" creationid="Toru Kokubun" creationdate="20180424T024946Z">
         <seg>テンプレート内でカテゴリフィールドのエレメントを取得する場合、カテゴリフィールドのハンドルを利用して、選択されたカテゴリにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have an element with a Tags field in your template, you can access its selected tags using your Tags field’s handle:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014109Z" creationid="Toru Kokubun" creationdate="20180426T014109Z">
+        <seg>テンプレート内でタグフィールドのエレメントを取得する場合、タグフィールドのハンドルを利用して、選択されたタグにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2818,6 +2938,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025323Z" creationid="Toru Kokubun" creationdate="20180425T025323Z">
         <seg>意図的にエントリフィールドへ一つだけセットしている場合でも、エントリフィールドを呼び出すと、選択されたエントリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your Tags field is only meant to have a single tag selected, remember that calling your Tags field will still give you the same ElementCriteriaModel, not the selected tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014509Z" creationid="Toru Kokubun" creationdate="20180426T014509Z">
+        <seg>意図的にタグフィールドへ一つだけセットしている場合でも、タグフィールドを呼び出すと、選択されたタグではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3358,10 +3486,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Max Length&lt;x1/&gt; – The maximum number of characters the field can contain</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T235818Z" creationid="Toru Kokubun" creationdate="20180425T235429Z">
+        <seg>文字数制限&lt;x1/&gt; – フィールドに含めることができる文字数の上限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Max Value&lt;x1/&gt; – The highest number that may be entered in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T234928Z" creationid="Toru Kokubun" creationdate="20180425T234831Z">
+        <seg>最大値&lt;x1/&gt; – フィールドに入力できる最大の数字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Members of the Craft community should be respectful when dealing with other members as well as with people outside the Craft community.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233124Z" creationid="Toru Kokubun" creationdate="20180414T233124Z">
         <seg>Craft コミュニティのメンバーは、コミュニティ外の人々と同様、他のメンバーとのやりとりに敬意を表するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Min Value&lt;x1/&gt; – The lowest number that may be entered in the field</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T234919Z" creationid="Toru Kokubun" creationdate="20180425T234824Z">
+        <seg>最小値&lt;x1/&gt; – フィールドに入力できる最小の数字</seg>
       </tuv>
     </tu>
     <tu>
@@ -3942,6 +4094,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Placeholder Text&lt;x1/&gt; – The field’s placeholder text, to be displayed if the field has no value yet</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T235758Z" creationid="Toru Kokubun" creationdate="20180425T235419Z">
+        <seg>プレースホルダーのテキスト&lt;x1/&gt; – フィールドが値を持たない場合に表示されるプレースホルダーのテキスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plain Text Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T235352Z" creationid="Toru Kokubun" creationdate="20180425T235352Z">
+        <seg>プレーンテキストフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plain Text fields give you either a normal text input or a multi-line textarea, where plain text can be entered.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011141Z" creationid="Toru Kokubun" creationdate="20180425T235637Z">
+        <seg>プレーンテキストフィールドでは、プレーンなテキストを入力できる、一行テキストまたは複数行のテキストエリアのいずれかが提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plain Text fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T235711Z" creationid="Toru Kokubun" creationdate="20180425T235711Z">
+        <seg>プレーンテキストフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plain Text fields will either show a normal text input or a multi-line textarea, depending on whether the “Allow line breaks” setting was checked.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011136Z" creationid="Toru Kokubun" creationdate="20180426T000002Z">
+        <seg>プレーンテキストフィールドでは、設定の「改行を許可」がチェックされているかどうかによって、一行テキストまたは複数行のテキストエリアのいずれかが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plain Text&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013950Z" creationid="Toru Kokubun" creationdate="20180423T013950Z">
@@ -4086,6 +4278,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Radio Button Options&lt;x1/&gt; – Define the radio buttons that will be available in the field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T003227Z" creationid="Toru Kokubun" creationdate="20180426T003227Z">
+        <seg>ラジオボタンのオプション&lt;x1/&gt; – フィールドで利用可能なラジオボタンを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Radio Buttons Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T000133Z" creationid="Toru Kokubun" creationdate="20180426T000133Z">
+        <seg>ラジオボタンフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Radio Buttons fields give you a group of radio buttons.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T000519Z" creationid="Toru Kokubun" creationdate="20180426T000519Z">
+        <seg>ラジオボタンフィールドでは、ラジオボタンのグループが提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Radio Buttons fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T003151Z" creationid="Toru Kokubun" creationdate="20180426T003151Z">
+        <seg>ラジオボタンフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Radio Buttons fields will show a radio group with each of the Radio Button Options as defined in the field settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T003440Z" creationid="Toru Kokubun" creationdate="20180426T003336Z">
+        <seg>ラジオボタンフィールドでは、フィールド設定で定義されたラジオボタンのオプションがラジオグループとして表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Radio Buttons&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013952Z" creationid="Toru Kokubun" creationdate="20180423T013952Z">
@@ -4114,6 +4346,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025644Z" creationid="Toru Kokubun" creationdate="20180425T025638Z">
         <seg>常に「&lt;x1/&gt;entry.entriesFieldHandle&lt;x2/&gt;」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rather than typing “&lt;x1/&gt;entry.tagsFieldHandle&lt;x2/&gt;” every time, you can call it once and set it to another variable:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014400Z" creationid="Toru Kokubun" creationdate="20180426T014400Z">
+        <seg>常に「&lt;x1/&gt;entry.tagsFieldHandle&lt;x2/&gt;」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4494,6 +4734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Selection Label&lt;x1/&gt; – The label that should be used on the field’s tag search input.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013109Z" creationid="Toru Kokubun" creationdate="20180426T013109Z">
+        <seg>選択ラベル&lt;x1/&gt; – タグの検索と入力を行うフィールドのラベルに使用されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Send a link to this page to your server administrator.&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020329Z" creationid="Toru Kokubun" creationdate="20180415T020315Z">
@@ -4678,6 +4926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Source&lt;x1/&gt; – The tag group you want to relate tags from.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013210Z" creationid="Toru Kokubun" creationdate="20180426T012838Z">
+        <seg>ソース&lt;x1/&gt; – タグを関連付けるタググループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sources&lt;x1/&gt; – Which asset sources the field should be able to select/upload files from</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215404Z" creationid="Toru Kokubun" creationdate="20180424T215404Z">
@@ -4766,6 +5022,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table Columns&lt;x1/&gt; – Define the columns that will be available to your Table field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T010923Z" creationid="Toru Kokubun" creationdate="20180426T010608Z">
+        <seg>テーブルの欄&lt;x1/&gt; – テーブルフィールドで利用可能な列を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T003501Z" creationid="Toru Kokubun" creationdate="20180426T003501Z">
+        <seg>テーブルフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table fields give you a customizable table, where you can create multiple rows of content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T010506Z" creationid="Toru Kokubun" creationdate="20180426T010506Z">
+        <seg>テーブルフィールドでは、複数行のコンテンツを作成できるカスタマイズ可能なテーブルを提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T010531Z" creationid="Toru Kokubun" creationdate="20180426T010531Z">
+        <seg>テーブルフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table fields will show the table as configured based on the field settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011519Z" creationid="Toru Kokubun" creationdate="20180426T011519Z">
+        <seg>テーブルフィールドでは、フィールド設定で定義されたテーブルが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T014014Z" creationid="Toru Kokubun" creationdate="20180423T014014Z">
@@ -4778,6 +5074,46 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065533Z" creationid="Toru Kokubun" creationdate="20180420T065533Z">
         <seg>タグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag Query Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011923Z" creationid="Toru Kokubun" creationdate="20180426T011923Z">
+        <seg>タグのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011846Z" creationid="Toru Kokubun" creationdate="20180426T011846Z">
+        <seg>タグフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags fields allow you create &lt;x1/&gt;tags&lt;x2/&gt; and relate them to the parent element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T012754Z" creationid="Toru Kokubun" creationdate="20180426T012754Z">
+        <seg>タグフィールドでは、&lt;x1/&gt;タグ&lt;x2/&gt; を作成し、それを親エレメントに関連付けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T012809Z" creationid="Toru Kokubun" creationdate="20180426T012809Z">
+        <seg>タグフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags fields list all of the currently selected tags, with a text input to add new ones.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013256Z" creationid="Toru Kokubun" creationdate="20180426T013256Z">
+        <seg>タグフィールドには、現在選択されているすべてのタグのリストと、新しいタグを追加するための入力欄があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4818,6 +5154,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015522Z" creationid="Toru Kokubun" creationdate="20180425T015522Z">
         <seg>ターゲットロケール&lt;x1/&gt; – 関連付けするエントリーのロケール（この設定は複数のサイトロケールを持つ Craft Pro が実行されている場合のみ、表示されます）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Target Locale&lt;x1/&gt; – Which locale tags should be created/related with (this setting only appears if you’re running Craft Pro with more than one site locale)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013154Z" creationid="Toru Kokubun" creationdate="20180426T012845Z">
+        <seg>ターゲットロケール&lt;x1/&gt; – 作成・関連付けされるタグのロケール（この設定は複数のサイトロケールを持つ Craft Pro が実行されている場合のみ、表示されます）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4914,6 +5258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221451Z" creationid="Toru Kokubun" creationdate="20180419T221451Z">
         <seg>すなわち、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That will give you an &lt;x1/&gt;Element Query&lt;x2/&gt;, prepped to output all of the selected tags for the given field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014156Z" creationid="Toru Kokubun" creationdate="20180426T014156Z">
+        <seg>これは、所定のフィールドで選択されたすべてのタグを出力するよう準備された&lt;x1/&gt;エレメントクエリ&lt;x2/&gt;を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5686,6 +6038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To check if your Tags field has any selected tags, you can use the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014235Z" creationid="Toru Kokubun" creationdate="20180426T014235Z">
+        <seg>タグフィールドに選択されたタグがあるかどうかを調べるには、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
@@ -5718,6 +6078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get the first (and only) tag selected, use &lt;x1/&gt;first()&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014536Z" creationid="Toru Kokubun" creationdate="20180426T014536Z">
+        <seg>選択された最初の（一つだけの）タグを取得するには、&lt;x1/&gt;first()&lt;x2/&gt; を利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get the first (and only) tag selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T030009Z">
@@ -5746,6 +6114,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025545Z" creationid="Toru Kokubun" creationdate="20180425T025545Z">
         <seg>選択されたエントリをループするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To loop through the selected tags, you can treat the field like an array:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014308Z" creationid="Toru Kokubun" creationdate="20180426T014308Z">
+        <seg>選択されたタグをループするには、フィールドを配列のように扱います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5866,6 +6242,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015825Z" creationid="Toru Kokubun" creationdate="20180421T015825Z">
         <seg>Twig は Craft 特有のものではなく、Symfony プロジェクトによって開発され、メンテナンスされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Type&lt;x1/&gt; – The type of content allowed in the column.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011446Z" creationid="Toru Kokubun" creationdate="20180426T011020Z">
+        <seg>タイプ&lt;x1/&gt; – 列に許可されるコンテンツのタイプ</seg>
       </tuv>
     </tu>
     <tu>
@@ -6022,10 +6406,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User Query Params&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014629Z" creationid="Toru Kokubun" creationdate="20180426T014629Z">
+        <seg>ユーザーのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User photos are stored as assets now.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054311Z" creationid="Toru Kokubun" creationdate="20180420T054311Z">
         <seg>ユーザーフォトはアセットとして保存されるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014611Z" creationid="Toru Kokubun" creationdate="20180426T014611Z">
+        <seg>ユーザーフィールド</seg>
       </tuv>
     </tu>
     <tu>
@@ -6350,6 +6750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Width&lt;x1/&gt; – The width for this column specified in either pixels or a percentage</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011404Z" creationid="Toru Kokubun" creationdate="20180426T011012Z">
+        <seg>幅&lt;x1/&gt; – ピクセルまたはパーセントで指定された、この列の幅</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Windows and macOS</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031534Z" creationid="Toru Kokubun" creationdate="20180415T031534Z">
@@ -6546,6 +6954,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013747Z" creationid="Toru Kokubun" creationdate="20180422T093648Z">
         <seg>エントリの &lt;x3/&gt;プロパティ&lt;x4/&gt; は、次の2つの方法で参照できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can reorder, delete, and add new rows, and modify their values.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011621Z" creationid="Toru Kokubun" creationdate="20180426T011616Z">
+        <seg>並び替えや削除、新しい行の追加、値の変更ができます。</seg>
       </tuv>
     </tu>
     <tu>
