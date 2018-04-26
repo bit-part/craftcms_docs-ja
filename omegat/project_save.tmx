@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Default is “All”)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023523Z" creationid="Toru Kokubun" creationdate="20180426T023523Z">
+        <seg>（デフォルトは「すべて」です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Default is “All”.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015022Z" creationid="Toru Kokubun" creationdate="20180425T015012Z">
@@ -954,6 +962,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T024351Z" creationid="Toru Kokubun" creationdate="20180424T024351Z">
         <seg>「カテゴリーを追加」ボタンをクリックすると、すでに追加されているカテゴリの検索や選択ができるモーダルウィンドウが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking the “Add a user button will bring up a modal window where you can find and select additional users:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023852Z" creationid="Toru Kokubun" creationdate="20180426T023852Z">
+        <seg>「ユーザーを追加」ボタンをクリックすると、すでに追加されているユーザーの検索や選択ができるモーダルウィンドウが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2726,6 +2742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have an element with a Users field in your template, you can access its selected users using your Users field’s handle:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023936Z" creationid="Toru Kokubun" creationdate="20180426T023936Z">
+        <seg>テンプレート内でユーザーフィールドのエレメントを取得する場合、ユーザーフィールドのハンドルを利用して、選択されたユーザーにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have an element with an Assets field in your template, you can access its selected assets using your Assets field’s handle:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022034Z" creationid="Toru Kokubun" creationdate="20180424T010208Z">
@@ -2946,6 +2970,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014509Z" creationid="Toru Kokubun" creationdate="20180426T014509Z">
         <seg>意図的にタグフィールドへ一つだけセットしている場合でも、タグフィールドを呼び出すと、選択されたタグではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your Users field is only meant to have a single user selected, remember that calling your Users field will still give you the same ElementCriteriaModel, not the selected user.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024322Z" creationid="Toru Kokubun" creationdate="20180426T024322Z">
+        <seg>意図的にユーザーフィールドへ一つだけセットしている場合でも、ユーザーフィールドを呼び出すと、選択されたユーザーではなく、同じ ElementCriteriaModel が提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3386,6 +3418,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015555Z" creationid="Toru Kokubun" creationdate="20180425T015555Z">
         <seg>リミット&lt;x1/&gt; – フィールドと一度に関連付けできるエントリ数の上限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Limit&lt;x1/&gt; – The maximum number of users that can be related with the field at once.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023655Z" creationid="Toru Kokubun" creationdate="20180426T023531Z">
+        <seg>リミット&lt;x1/&gt; – フィールドと一度に関連付けできるユーザー数の上限</seg>
       </tuv>
     </tu>
     <tu>
@@ -4358,6 +4398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rather than typing “&lt;x1/&gt;entry.usersFieldHandle&lt;x2/&gt;” every time, you can call it once and set it to another variable:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024221Z" creationid="Toru Kokubun" creationdate="20180426T024221Z">
+        <seg>常に「&lt;x1/&gt;entry.usersFieldHandle&lt;x2/&gt;」を記述するよりもむしろ、一度呼び出して別の変数にセットしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rather, take it in the spirit in which it’s intended - a guide to make it easier to enrich all of us and the technical communities in which we participate.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232523Z" creationid="Toru Kokubun" creationdate="20180414T032331Z">
@@ -4934,6 +4982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sources&lt;x1/&gt; – The user groups you want to relate users from.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023629Z" creationid="Toru Kokubun" creationdate="20180426T023504Z">
+        <seg>ソース&lt;x1/&gt; – ユーザーを関連付けるユーザーグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sources&lt;x1/&gt; – Which asset sources the field should be able to select/upload files from</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215404Z" creationid="Toru Kokubun" creationdate="20180424T215404Z">
@@ -5290,6 +5346,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T022208Z" creationid="Toru Kokubun" creationdate="20180425T022208Z">
         <seg>これは、所定のフィールドで選択されたすべてのエントリを出力するよう定義された&lt;x1/&gt;エレメントクエリ&lt;x2/&gt;を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That will give you an &lt;x1/&gt;element query&lt;x2/&gt;, prepped to output all of the selected users for the given field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024021Z" creationid="Toru Kokubun" creationdate="20180426T024021Z">
+        <seg>これは、所定のフィールドで選択されたすべてのユーザーを出力するよう準備された&lt;x1/&gt;エレメントクエリ&lt;x2/&gt;を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6046,6 +6110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To check if your Users field has any selected users, you can use the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024122Z" creationid="Toru Kokubun" creationdate="20180426T024122Z">
+        <seg>ユーザーフィールドに選択されたユーザーがあるかどうかを調べるには、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
@@ -6094,6 +6166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get the first (and only) user selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024352Z" creationid="Toru Kokubun" creationdate="20180426T024352Z">
+        <seg>選択された最初の（一つだけの）ユーザーを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To loop through the selected assets, you can treat the field like an array:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T013312Z" creationid="Toru Kokubun" creationdate="20180424T013228Z">
@@ -6122,6 +6202,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014308Z" creationid="Toru Kokubun" creationdate="20180426T014308Z">
         <seg>選択されたタグをループするには、フィールドを配列のように扱います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To loop through the selected users:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024145Z" creationid="Toru Kokubun" creationdate="20180426T024145Z">
+        <seg>選択されたユーザーをループするには</seg>
       </tuv>
     </tu>
     <tu>
@@ -6426,6 +6514,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014611Z" creationid="Toru Kokubun" creationdate="20180426T014611Z">
         <seg>ユーザーフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users fields have the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023417Z" creationid="Toru Kokubun" creationdate="20180426T023417Z">
+        <seg>ユーザーフィールドの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users fields list all of the currently selected users, with a button to select new ones:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023739Z" creationid="Toru Kokubun" creationdate="20180426T023739Z">
+        <seg>ユーザーフィールドには、現在選択されているすべてのユーザーのリストと、新しいユーザーを追加するためのボタンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users fields type allow you relate &lt;x1/&gt;users&lt;x2/&gt; to the parent element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023400Z" creationid="Toru Kokubun" creationdate="20180426T023400Z">
+        <seg>ユーザーフィールドでは、&lt;x1/&gt;ユーザー&lt;x2/&gt;を親エントリに関連付けることができます。</seg>
       </tuv>
     </tu>
     <tu>
