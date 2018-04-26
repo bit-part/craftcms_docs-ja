@@ -1,6 +1,6 @@
 # ディレクトリ構造
 
-Composer プロジェクトの [`craftcms/craft`](https://github.com/craftcms/craft) を使用して Craft プロジェクトを初期化すると、次のファイルおよびディレクトリが含まれます。
+Craft 3 の新しいコピーをダウンロードすると、プロジェクトには次のファイルやディレクトリがあります。
 
 #### `config/`
 
@@ -39,7 +39,7 @@ Composer プロジェクトの [`craftcms/craft`](https://github.com/craftcms/cr
 
 #### `web/`
 
-このディレクトリはウェブルートを表します。
+このディレクトリはウェブルートを表します。(This can be renamed if needed.)
 
 #### `.env`
 
@@ -59,11 +59,25 @@ Composer プロジェクトの [`craftcms/craft`](https://github.com/craftcms/cr
 
 #### `README.md`
 
-`craftcms/craft` リポジトリの README ファイルです。このファイルは、自由に削除してください。
+[craftcms/craft](https://github.com/craftcms/craft) リポジトリの README ファイルです。このファイルを削除するか、プロジェクトに関連性の高いコンテンツに置き換えてください。
 
 #### `composer.json`
 
 すべての Craft プロジェクトで使用する必要がある、出発点の `composer.json` ファイルです。
+
+デフォルトで安全に変更したり削除できる設定には、次のものが含まれます。
+
+- `name`
+- `description`
+- `keywords`
+- `license`
+- `homepage`
+- `type`
+- `support`
+
+#### `composer.lock`
+
+これは、`vendor/`へ現在インストールされている必要がある依存関係やバージョンを Composer へ正確に伝える Composer ファイルです。.
 
 #### `craft`
 
