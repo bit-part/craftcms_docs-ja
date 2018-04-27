@@ -240,8 +240,8 @@
       <tuv lang="EN-US">
         <seg>A section can have one or many entries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
-        <seg>セクションは、一つまたは複数のエントリを持つことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180421T010717Z">
+        <seg>セクションは、1つまたは複数のエントリを持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -354,6 +354,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T004615Z" creationid="Toru Kokubun" creationdate="20180415T004559Z">
         <seg>その後、&lt;x3/&gt;Craft のピース&lt;x4/&gt;と&lt;x5/&gt;Craft のディレクトリ構造&lt;x6/&gt;を読み通してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After you create at least one category group, you will be able to create categories for that group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180427T212708Z">
+        <seg>少なくとも1つのカテゴリグループを作成すると、そのグループのカテゴリを作成できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -478,10 +486,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assets</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220438Z" creationid="Toru Kokubun" creationdate="20180427T220438Z">
+        <seg>アセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assets Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215247Z" creationid="Toru Kokubun" creationdate="20180424T215247Z">
         <seg>アセットフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets are files managed by Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220501Z" creationid="Toru Kokubun" creationdate="20180427T220501Z">
+        <seg>アセットは Craft で管理されているファイルです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -522,6 +546,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023507Z" creationid="Toru Kokubun" creationdate="20180423T023229Z">
         <seg>アセット&lt;x1/&gt;は、「設定 &gt; アセット &gt; &lt;x2/&gt;アセットソース名&lt;x4/&gt; &gt; フィールドレイアウト」のアセットソースごとに定義されたフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assigning Categories</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215401Z" creationid="Toru Kokubun" creationdate="20180427T215401Z">
+        <seg>カテゴリの割り当て</seg>
       </tuv>
     </tu>
     <tu>
@@ -582,6 +614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before you can create categories, you must create Category Groups to contain them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211748Z" creationid="Toru Kokubun" creationdate="20180427T211748Z">
+        <seg>カテゴリを作成する前に、それらを含むカテゴリグループを作成しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before you can create entries, you must create Sections to contain them.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012537Z" creationid="Toru Kokubun" creationdate="20180422T014422Z">
@@ -626,6 +666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012918Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
         <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, every category will have a Title filed (the category name).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213118Z" creationid="Toru Kokubun" creationdate="20180427T213118Z">
+        <seg>デフォルトでは、すべてのカテゴリはタイトルフィールド（カテゴリ名）を持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -718,6 +766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Categories</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211328Z" creationid="Toru Kokubun" creationdate="20180427T211328Z">
+        <seg>カテゴリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Categories Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022511Z" creationid="Toru Kokubun" creationdate="20180424T022511Z">
@@ -770,6 +826,54 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011809Z" creationid="Toru Kokubun" creationdate="20180420T013021Z">
         <seg>カテゴリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category Edit Modal&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214257Z" creationid="Toru Kokubun" creationdate="20180427T214257Z">
+        <seg>カテゴリの編集モーダル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category Field Layout</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212740Z" creationid="Toru Kokubun" creationdate="20180427T212740Z">
+        <seg>カテゴリフィールドレイアウト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category Group handle (how you'll refer to the Category Group in your templates)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212014Z" creationid="Toru Kokubun" creationdate="20180427T211920Z">
+        <seg>カテゴリグループのハンドル（テンプレートから、そのカテゴリグループを参照する方法）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category Group name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211926Z" creationid="Toru Kokubun" creationdate="20180427T211819Z">
+        <seg>カテゴリグループの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category Groups</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211525Z" creationid="Toru Kokubun" creationdate="20180427T211525Z">
+        <seg>カテゴリグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category Index&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214126Z" creationid="Toru Kokubun" creationdate="20180427T214126Z">
+        <seg>カテゴリのインデックス&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -894,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choose a Parent category.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214736Z" creationid="Toru Kokubun" creationdate="20180427T214625Z">
+        <seg>親カテゴリの選択。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Choose from Single-line text, Multi-line text, Number, and Checkbox.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011055Z" creationid="Toru Kokubun" creationdate="20180426T011055Z">
@@ -986,6 +1098,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025236Z" creationid="Toru Kokubun" creationdate="20180423T025158Z">
         <seg>クリックすると2つのオプションを含むコンテキストメニューを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking on it will take you to the category index.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213754Z" creationid="Toru Kokubun" creationdate="20180427T213754Z">
+        <seg>クリックすると、カテゴリのインデックスに移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,6 +1718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating and Editing Categories</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213620Z" creationid="Toru Kokubun" creationdate="20180427T213620Z">
+        <seg>カテゴリの作成と編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Credits for the sources and inspiration of this code of conduct go to the [Django Project](https://www.djangoproject.com/conduct/) and many others.&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235341Z" creationid="Toru Kokubun" creationdate="20180414T235341Z">
@@ -1784,8 +1912,8 @@
       <tuv lang="EN-US">
         <seg>Diversity is one of our strengths.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232407Z" creationid="Toru Kokubun" creationdate="20180414T031320Z">
-        <seg>多様性はわたしたちの強みの一つです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180414T031320Z">
+        <seg>多様性はわたしたちの強みの1つです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1826,6 +1954,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235249Z" creationid="Toru Kokubun" creationdate="20180414T235249Z">
         <seg>誤ることが人間的であることを忘れないでください。そして、お互いに非難してもわたしたちのためになりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Double-clicking on a category will bring up a modal that lets you edit its name, slug, and any fields you’ve assigned to the group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214232Z" creationid="Toru Kokubun" creationdate="20180427T214232Z">
+        <seg>カテゴリをダブルクリックすると、カテゴリの名前やスラグ、およびグループに関連づけられたすべてのフィールドを編集できるモーダルウィンドウが開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1958,6 +2094,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each Categories field is connected to a single category group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180427T215633Z">
+        <seg>それぞれのカテゴリフィールドは、1つのカテゴリグループに接続されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each Category Group lets you define the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211808Z" creationid="Toru Kokubun" creationdate="20180427T211808Z">
+        <seg>それぞれのカテゴリグループには、次のことを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each Category Groups can have its own Field Layout, which allows you to customize the data that is associated with each category in the group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213030Z" creationid="Toru Kokubun" creationdate="20180427T213030Z">
+        <seg>それぞれのカテゴリグループは、グループ内のカテゴリに関連付けられたデータをカスタマイズできる独自のフィールドレイアウトを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each Craft project should have a unique security key, which is shared between each of the environments that the project in installed on.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212450Z" creationid="Toru Kokubun" creationdate="20180426T212450Z">
@@ -1992,8 +2152,8 @@
       <tuv lang="EN-US">
         <seg>Each entry can only belong to one Section.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
-        <seg>それぞれのエントリは、一つのセクションにしか属することができません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180421T010933Z">
+        <seg>それぞれのエントリは、1つのセクションにしか属することができません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2058,6 +2218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013708Z" creationid="Toru Kokubun" creationdate="20180422T100831Z">
         <seg>エントリのタイトルの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit the slug (it's automatically populated based on the title).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214616Z" creationid="Toru Kokubun" creationdate="20180427T214527Z">
+        <seg>スラグの編集（タイトルに基づいて、自動的に入力されます）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2422,6 +2590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fill out the category fields (if you didn't define any then the only field available will be Title)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214504Z" creationid="Toru Kokubun" creationdate="20180427T214504Z">
+        <seg>カテゴリフィールドへの記入（フィールドを定義していなければ、タイトルフィールドだけが利用可能となります）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Filtering by block type</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213048Z" creationid="Toru Kokubun" creationdate="20180425T213048Z">
@@ -2586,6 +2762,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003855Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
         <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtim で確認できるものを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From there you can choose a category group from the sidebar, and add/reorder/delete categories within it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214336Z" creationid="Toru Kokubun" creationdate="20180427T213956Z">
+        <seg>サイドバーからカテゴリグループを選択すると、そのグループに含まれるカテゴリを追加・並び替え・削除できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2870,6 +3054,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a field doesn't yet exist, you must first create it via Settings → Fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213432Z" creationid="Toru Kokubun" creationdate="20180427T213432Z">
+        <seg>まだフィールドが存在しなければ、先に「設定 &gt; フィールド」から作成しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an exact match is not found, the first option in the menu will actually create a new tag with the title that you typed in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013830Z" creationid="Toru Kokubun" creationdate="20180426T013830Z">
@@ -2914,6 +3106,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T123153Z" creationid="Toru Kokubun" creationdate="20180425T123153Z">
         <seg>複数のブロックが選択されている場合は、選択されたすべてのブロックに対して「折りたたむ / 展開する」「無効 / 有効」および「削除」オプションが適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no level is specified then the nesting level is unlimited.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215330Z" creationid="Toru Kokubun" creationdate="20180427T215330Z">
+        <seg>レベルを指定していない場合は、無制限にネストできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3158,10 +3358,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have at least one category group, there will be a “Categories” tab in the primary Control Panel navigation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180427T213733Z">
+        <seg>少なくとも1つのカテゴリグループがあれば、コントロールパネルのメインナビゲーションに「カテゴリ」タブが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have at least one section, there will be an “Entries” tab in the primary CP nav.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
-        <seg>少なくとも一つのセクションがあれば、CP のメインナビゲーションに「エントリ」タブが表示されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T100120Z">
+        <seg>少なくとも1つのセクションがあれば、CP のメインナビゲーションに「エントリ」タブが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3224,8 +3432,8 @@
       <tuv lang="EN-US">
         <seg>If you only have one checkbox, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220802Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
-        <seg>チェックボックスを一つしかもたつ、それが選択されているかを知りたい場合は、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用して確認できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
+        <seg>チェックボックスを1つしかもたつ、それが選択されているかを知りたい場合は、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用して確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3320,40 +3528,40 @@
       <tuv lang="EN-US">
         <seg>If your Assets field is only meant to have a single asset selected, remember that calling your Assets field will still give you the same ElementCriteriaModel, not the selected asset.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025346Z" creationid="Toru Kokubun" creationdate="20180424T020321Z">
-        <seg>意図的にアセットフィールドへ一つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T020321Z">
+        <seg>意図的にアセットフィールドへ1つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your Categories field is only meant to have a single category selected, remember that calling your Categories field will still give you the same ElementCriteriaModel, not the selected category.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025338Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
-        <seg>意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
+        <seg>意図的にカテゴリフィールドへ1つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your Entries field is only meant to have a single entry selected, remember that calling your Entries field will still give you the same ElementCriteriaModel, not the selected entry.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025323Z" creationid="Toru Kokubun" creationdate="20180425T025323Z">
-        <seg>意図的にエントリフィールドへ一つだけセットしている場合でも、エントリフィールドを呼び出すと、選択されたエントリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T025323Z">
+        <seg>意図的にエントリフィールドへ1つだけセットしている場合でも、エントリフィールドを呼び出すと、選択されたエントリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your Tags field is only meant to have a single tag selected, remember that calling your Tags field will still give you the same ElementCriteriaModel, not the selected tag.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014509Z" creationid="Toru Kokubun" creationdate="20180426T014509Z">
-        <seg>意図的にタグフィールドへ一つだけセットしている場合でも、タグフィールドを呼び出すと、選択されたタグではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180426T014509Z">
+        <seg>意図的にタグフィールドへ1つだけセットしている場合でも、タグフィールドを呼び出すと、選択されたタグではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your Users field is only meant to have a single user selected, remember that calling your Users field will still give you the same ElementCriteriaModel, not the selected user.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024322Z" creationid="Toru Kokubun" creationdate="20180426T024322Z">
-        <seg>意図的にユーザーフィールドへ一つだけセットしている場合でも、ユーザーフィールドを呼び出すと、選択されたユーザーではなく、同じ ElementCriteriaModel が提供されることを覚えておいてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180426T024322Z">
+        <seg>意図的にユーザーフィールドへ1つだけセットしている場合でも、ユーザーフィールドを呼び出すと、選択されたユーザーではなく、同じ ElementCriteriaModel が提供されることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3934,6 +4142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Local volumes have two important settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221528Z" creationid="Toru Kokubun" creationdate="20180427T221329Z">
+        <seg>ローカルボリュームには、2つの重要な設定があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Locales</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233208Z" creationid="Toru Kokubun" creationdate="20180420T233208Z">
@@ -4016,8 +4232,8 @@
       <tuv lang="EN-US">
         <seg>Matrix fields allow you to create multiple blocks of content within a single field.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114556Z" creationid="Toru Kokubun" creationdate="20180425T114556Z">
-        <seg>行列フィールドでは、一つのフィールド内に複数のコンテンツブロックを作成できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T114556Z">
+        <seg>行列フィールドでは、1つのフィールド内に複数のコンテンツブロックを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4058,6 +4274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T234928Z" creationid="Toru Kokubun" creationdate="20180425T234831Z">
         <seg>最大値&lt;x1/&gt; – フィールドに入力できる最大の数字</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maximum number of levels you can nest categories in the group</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212114Z" creationid="Toru Kokubun" creationdate="20180427T212114Z">
+        <seg>そのグループの中にネストできるカテゴリの最大レベル</seg>
       </tuv>
     </tu>
     <tu>
@@ -4320,8 +4544,8 @@
       <tuv lang="EN-US">
         <seg>Note that the shortcut syntax only has one set of curly braces&lt;x1/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T094227Z">
-        <seg>ショートカット構文には、中括弧が一つしかないことに注意してください&lt;x1/&gt;。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T094227Z">
+        <seg>ショートカット構文には、中括弧が1つしかないことに注意してください&lt;x1/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4520,8 +4744,8 @@
       <tuv lang="EN-US">
         <seg>On a fresh entry, Matrix fields will just show a group of buttons – one for each of the Block Types you created in the field’s settings.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T121814Z" creationid="Toru Kokubun" creationdate="20180425T121814Z">
-        <seg>新しいエントリでは、行列フィールドにはボタンのグループが表示されます。フィールド設定で作成したブロックタイプごとに一つのボタンが表示されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T121814Z">
+        <seg>新しいエントリでは、行列フィールドにはボタンのグループが表示されます。フィールド設定で作成したブロックタイプごとに1つのボタンが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6366,6 +6590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default installation of Craft only supports local volumes (directories on the same server on which Craft is running) but you can also set up remote Asset Volumes that live on &lt;x1/&gt;Amazon S3&lt;x2/&gt;, &lt;x3/&gt;Rackspace Cloud&lt;x4/&gt;, and &lt;x5/&gt;Google Cloud&lt;x6/&gt; using one of the first-party plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221137Z" creationid="Toru Kokubun" creationdate="20180427T221056Z">
+        <seg>Craft のデフォルトインストールでは、ローカルボリューム（Craft が実行されている同じサーバー上のディレクトリ）だけをサポートしていますが、サードパーティのプラグインを利用して、&lt;x1/&gt;Amazon S3&lt;x2/&gt;、&lt;x3/&gt;Rackspace Cloud&lt;x4/&gt;、および &lt;x5/&gt;Google Cloud&lt;x6/&gt; をリモートのアセットボリュームとしてセットアップすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The documentation will generally assume the new structure.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T025616Z" creationid="Toru Kokubun" creationdate="20180426T025616Z">
@@ -6590,6 +6822,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The format of the category URI</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212144Z" creationid="Toru Kokubun" creationdate="20180427T212144Z">
+        <seg>カテゴリ URI 形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The new category will have a hierarchical relationship with its parent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214721Z" creationid="Toru Kokubun" creationdate="20180427T214721Z">
+        <seg>新しいカテゴリは、親カテゴリと階層的な関係を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The new field will then be available to assign to the Field Layout of your Category Group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213604Z" creationid="Toru Kokubun" creationdate="20180427T213528Z">
+        <seg>新しいフィールドは、カテゴリグループのフィールドレイアウトに割り当てられるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The rendering result will be saved as the entry’s URI in the system.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012754Z" creationid="Toru Kokubun" creationdate="20180422T084424Z">
@@ -6792,8 +7048,8 @@
       <tuv lang="EN-US">
         <seg>There’s no shortcut syntax for those, so if you want to use a conditional on one of the entry’s properties, you will need to reference it with the &lt;x1/&gt;object&lt;x2/&gt; variable:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
-        <seg>ショートカット構文がないため、エントリプロパティの一つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
+        <seg>ショートカット構文がないため、エントリプロパティの1つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6890,6 +7146,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T022749Z" creationid="Toru Kokubun" creationdate="20180427T022749Z">
         <seg>変数を設定したり、条件文をテストしたり、配列をループしたり、他にもいろいろなことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They live in Asset Volumes, which represent physical directories.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220727Z" creationid="Toru Kokubun" creationdate="20180427T220616Z">
+        <seg>それらは、物理的なディレクトリに相当するアセットボリュームの中にいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7030,6 +7294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is helpful for creating taxonomies with multiple levels.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214832Z" creationid="Toru Kokubun" creationdate="20180427T214832Z">
+        <seg>これは複数レベルで分類を作成する際に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is only meant as a primer, not a comprehensive documentation of everything Twig can do.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T012904Z" creationid="Toru Kokubun" creationdate="20180427T012828Z">
@@ -7110,6 +7382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To assign categories to things (entries, assets, users, etc.), you must first create a &lt;x1/&gt;Categories field&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215519Z" creationid="Toru Kokubun" creationdate="20180427T215505Z">
+        <seg>項目（エントリ、アセット、ユーザーなど）にカテゴリを割り当てるには、先に&lt;x1/&gt;カテゴリフィールド&lt;x2/&gt;を作成しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To check if your Assets field has any selected assets, you can use the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T013059Z" creationid="Toru Kokubun" creationdate="20180424T013059Z">
@@ -7158,6 +7438,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a new category group, go to Settings → Categories and click the “New Category Group” button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212553Z" creationid="Toru Kokubun" creationdate="20180427T212553Z">
+        <seg>新しいカテゴリグループを作るには、「設定 &gt; カテゴリ」に移動し、「新しいカテゴリーグループ」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new section, go to Settings → Sections and click the “New Section” button.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020357Z" creationid="Toru Kokubun" creationdate="20180422T020226Z">
@@ -7168,40 +7456,40 @@
       <tuv lang="EN-US">
         <seg>To get the first (and only) asset selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T020417Z">
-        <seg>選択された最初の（一つだけの）アセットを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T020417Z">
+        <seg>選択された最初の（1つだけの）アセットを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>To get the first (and only) entry selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025420Z" creationid="Toru Kokubun" creationdate="20180425T025420Z">
-        <seg>選択された最初の（一つだけの）エントリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T025420Z">
+        <seg>選択された最初の（1つだけの）エントリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>To get the first (and only) tag selected, use &lt;x1/&gt;first()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014536Z" creationid="Toru Kokubun" creationdate="20180426T014536Z">
-        <seg>選択された最初の（一つだけの）タグを取得するには、&lt;x1/&gt;first()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180426T014536Z">
+        <seg>選択された最初の（1つだけの）タグを取得するには、&lt;x1/&gt;first()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>To get the first (and only) tag selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180424T030009Z">
-        <seg>選択された最初の（一つだけの）カテゴリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T030009Z">
+        <seg>選択された最初の（1つだけの）カテゴリを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>To get the first (and only) user selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024352Z" creationid="Toru Kokubun" creationdate="20180426T024352Z">
-        <seg>選択された最初の（一つだけの）ユーザーを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180426T024352Z">
+        <seg>選択された最初の（1つだけの）ユーザーを取得するには、&lt;x1/&gt;one()&lt;x2/&gt; を利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7472,8 +7760,8 @@
       <tuv lang="EN-US">
         <seg>Unlike the other section types, Singles only have one entry associated with them, and they don’t have an editable Author, Slug, Post Date, or Expiration Date.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214636Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
-        <seg>他のセクションタイプと異なり、シングルは一つのエントリしか関連付けられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
+        <seg>他のセクションタイプと異なり、シングルは1つのエントリしか関連付けられておらず、編集可能な投稿者、スラグ、投稿日、または有効期限日がありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7856,8 +8144,16 @@
       <tuv lang="EN-US">
         <seg>Whatever works for your site’s needs.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T233941Z" creationid="Toru Kokubun" creationdate="20180426T233907Z">
-        <seg>サイトに必要なものは、なんでも機能します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215911Z" creationid="Toru Kokubun" creationdate="20180426T233907Z">
+        <seg>サイトに必要なものは、何でも機能します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whatever you attach the field to will be able to create &lt;x1/&gt;relations&lt;x2/&gt; to any of the categories within that group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220021Z" creationid="Toru Kokubun" creationdate="20180427T215839Z">
+        <seg>そのフィールドが付加されたものは何でも、グループに含まれるすべてのカテゴリとの&lt;x1/&gt;リレーション&lt;x2/&gt;を持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7928,8 +8224,16 @@
       <tuv lang="EN-US">
         <seg>When you click on one of those buttons, a new block will be created.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T121854Z" creationid="Toru Kokubun" creationdate="20180425T121854Z">
-        <seg>それらのボタンの一つをクリックすると、新しいブロックが作成されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T121854Z">
+        <seg>それらのボタンの1つをクリックすると、新しいブロックが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you create a category, you have the following options:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214327Z" creationid="Toru Kokubun" creationdate="20180427T214327Z">
+        <seg>カテゴリを作成するときのオプションは、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7982,6 +8286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Which &lt;x1/&gt;fields&lt;x2/&gt; categories in the group should have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212446Z" creationid="Toru Kokubun" creationdate="20180427T212332Z">
+        <seg>グループ内のカテゴリがどんな&lt;x1/&gt;フィールド&lt;x2/&gt;を持つべきか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Which means in the above code example, &lt;x1/&gt;totalEntries&lt;x2/&gt; will be set to the total &lt;x3/&gt;Article&lt;x4/&gt; entries, as the &lt;x5/&gt;type&lt;x6/&gt; parameter will still be applied.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222317Z" creationid="Toru Kokubun" creationdate="20180420T222317Z">
@@ -8018,6 +8330,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012604Z" creationid="Toru Kokubun" creationdate="20180422T014703Z">
         <seg>エントリの URL がリクエストされたとき、どのテンプレートを読み込むか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Which template should load if a category’s URL is accessed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212224Z" creationid="Toru Kokubun" creationdate="20180427T212224Z">
+        <seg>カテゴリ URL にアクセスされたとき、どのテンプレートを読み込むか</seg>
       </tuv>
     </tu>
     <tu>
@@ -8086,6 +8406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You also have the option of creating a new category while assigning the Parent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214928Z" creationid="Toru Kokubun" creationdate="20180427T214928Z">
+        <seg>親を割り当てる際に新しいカテゴリを作成するオプションもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add as many blocks to your Matrix field as you’d like (or at least as many as the field’s Max Blocks setting will allow).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122526Z" creationid="Toru Kokubun" creationdate="20180425T122352Z">
@@ -8098,6 +8426,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T013904Z" creationid="Toru Kokubun" creationdate="20180424T013840Z">
         <seg>ElementCriteriaModel オブジェクトにパラメータを追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also add additional fields using all of the available field types in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213333Z" creationid="Toru Kokubun" creationdate="20180427T213333Z">
+        <seg>Craft 内で利用可能なすべてのフィールドタイプを使って、フィールドを追加することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8162,6 +8498,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031202Z" creationid="Toru Kokubun" creationdate="20180423T031153Z">
         <seg>必要数のコンテンツタブを作成し、類似するフィールドをまとめて分類するために利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create taxonomies for your &lt;x1/&gt;entries&lt;x2/&gt;, &lt;x3/&gt;users&lt;x4/&gt;, and &lt;x5/&gt;assets&lt;x6/&gt; using Categories.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220155Z" creationid="Toru Kokubun" creationdate="20180427T211513Z">
+        <seg>カテゴリを利用して、&lt;x1/&gt;エントリ&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、および&lt;x5/&gt;アセット&lt;x6/&gt;の分類を作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8330,6 +8674,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093805Z" creationid="Toru Kokubun" creationdate="20180419T003628Z">
         <seg>アップデートページの左上にある「すべてを更新」ボタンを使用して、（アップデート可能な Craft とプラグイン）すべてのアップデートを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can set up your asset volumes from Settings → Assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221236Z" creationid="Toru Kokubun" creationdate="20180427T221236Z">
+        <seg>アセットボリュームは「設定 &gt; アセット」から設定することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8914,6 +9266,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093724Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
         <seg>ヒント：ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} You can only nest categories up to the level specified in the Max Level field Category Group settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215255Z" creationid="Toru Kokubun" creationdate="20180427T215144Z">
+        <seg>【ヒント】カテゴリグループの設定にある最大レベル欄で指定したレベルまでしか、カテゴリをネストできません。</seg>
       </tuv>
     </tu>
     <tu>
