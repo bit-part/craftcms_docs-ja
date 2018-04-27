@@ -44,3 +44,4 @@ Date/Time Fields	日/時フィールド
 Multi-select Fields	マルチセレクトボックスフィールド
 {note}	【メモ】
 {tip}	【ヒント】
+rundown	要約
