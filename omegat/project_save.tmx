@@ -296,8 +296,8 @@
       <tuv lang="EN-US">
         <seg>Additionally, all of your Craft templates are pre-loaded with a few &lt;x1/&gt;global variables&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031404Z" creationid="Toru Kokubun" creationdate="20180427T031404Z">
-        <seg>加えて、すべての Craft テンプレートは、いくつかの&lt;x1/&gt;グローバル変数&lt;x2/&gt;を事前にロードしています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031601Z" creationid="Toru Kokubun" creationdate="20180427T031404Z">
+        <seg>さらに、すべての Craft テンプレートは、いくつかの&lt;x1/&gt;グローバル変数&lt;x2/&gt;があらかじめロードされています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2438,6 +2438,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Filters that come with Twig&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T033343Z" creationid="Toru Kokubun" creationdate="20180427T033343Z">
+        <seg>Twig に付随するフィルタ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Filters&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094804Z" creationid="Toru Kokubun" creationdate="20180414T012456Z">
@@ -2594,6 +2602,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T025230Z" creationid="Toru Kokubun" creationdate="20180427T025230Z">
         <seg>ファンクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Functions that come with Twig&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T033330Z" creationid="Toru Kokubun" creationdate="20180427T033330Z">
+        <seg>Twig に付随するファンクション&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3714,6 +3730,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T032943Z" creationid="Toru Kokubun" creationdate="20180415T032943Z">
         <seg>はじめに&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be overly technical at times, but we still recommend you read through it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032804Z" creationid="Toru Kokubun" creationdate="20180427T032752Z">
+        <seg>時として過度に専門的なところもありますが、読んでおくことをお勧めします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5598,6 +5622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some filters accept parameters::</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032245Z" creationid="Toru Kokubun" creationdate="20180427T032245Z">
+        <seg>いくつかのフィルタは、パラメータを受け取ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some of the folders you might find in there include:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020939Z" creationid="Toru Kokubun" creationdate="20180421T020939Z">
@@ -5766,6 +5798,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Straight up Craft&lt;x1/&gt; has some great articles on how to use Twig within Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032951Z" creationid="Toru Kokubun" creationdate="20180427T032951Z">
+        <seg>Straight up Craft&lt;x1/&gt; は、Craft での Twig の使い方に関する素晴らしい記事があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Structure sections may wish to have an Entry URI Format that differs depending on whether it’s a top-level entry or a nested one:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012847Z" creationid="Toru Kokubun" creationdate="20180422T085023Z">
@@ -5910,6 +5950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tags that come with Twig&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T033304Z" creationid="Toru Kokubun" creationdate="20180427T033304Z">
+        <seg>Twig に付随するタグ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tags&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011946Z" creationid="Toru Kokubun" creationdate="20180414T011946Z">
@@ -6034,6 +6082,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T221028Z" creationid="Toru Kokubun" creationdate="20180426T221028Z">
         <seg>テンプレートは craft/templates フォルダ内に存在するファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templates that are loaded as a result of a matching &lt;x1/&gt;route&lt;x2/&gt; get pre-loaded with the variables defined by the route’s tokens</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031623Z" creationid="Toru Kokubun" creationdate="20180427T031553Z">
+        <seg>一致する&lt;x1/&gt;ルート&lt;x2/&gt;の結果として読み込まれたテンプレートには、ルートのトークンによって定義された変数があらかじめロードされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templates that are loaded as the result of a matching &lt;x1/&gt;entry&lt;x2/&gt; URL get an &lt;x3/&gt;entry&lt;x4/&gt; variable (see &lt;x5/&gt;Routing&lt;x6/&gt; for more details).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031905Z" creationid="Toru Kokubun" creationdate="20180427T031815Z">
+        <seg>一致する&lt;x1/&gt;エントリ&lt;x2/&gt; URL の結果として読み込まれたテンプレートでは、変数 &lt;x3/&gt;entry&lt;x4/&gt; を取得できます。（詳細は、&lt;x5/&gt;ルーティング&lt;x6/&gt;を見てください）</seg>
       </tuv>
     </tu>
     <tu>
@@ -6582,6 +6646,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The syntax is the variable name followed by a pipe (&lt;x1/&gt;|&lt;x2/&gt;) followed by the filter name:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032215Z" creationid="Toru Kokubun" creationdate="20180427T032215Z">
+        <seg>構文は、変数名に続けてパイプ（&lt;x1/&gt;|&lt;x2/&gt;）とフィルタ名となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The third step of the installer is to create a user account.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023051Z" creationid="Toru Kokubun" creationdate="20180418T023051Z">
@@ -6666,6 +6738,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064849Z" creationid="Toru Kokubun" creationdate="20180415T011910Z">
         <seg>Craft 3 を動作させるにあたって、新しい条件とインストール手順が載っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several learning resources available online for learning Twig:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032455Z" creationid="Toru Kokubun" creationdate="20180427T032455Z">
+        <seg>Twig を学ぶためにオンラインで利用できるいくつかの学習リソースがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7282,6 +7362,38 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T012936Z" creationid="Toru Kokubun" creationdate="20180414T011925Z">
         <seg>Twig 入門書&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig Templates in Craft&lt;x1/&gt; is a video course by Mijingo that aims to get you comfortable with using Twig in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032859Z" creationid="Toru Kokubun" creationdate="20180427T032859Z">
+        <seg>Twig Templates in Craft&lt;x1/&gt; は、Craft の Twig を快適に使えるようになることを目的とした、Mijingo によるビデオコースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig and Craft provide several functions that you can use within your template tags:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032340Z" creationid="Toru Kokubun" creationdate="20180427T032340Z">
+        <seg>Twig と Craft は、テンプレートタグ内で利用できるいくつかのファンクションを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig for Designers&lt;x1/&gt; is an in-progress eBook that aims to explain how Twig works to non-developers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T033130Z" creationid="Toru Kokubun" creationdate="20180427T033130Z">
+        <seg>Twig for Designers&lt;x1/&gt; は進行中の eBook で、非開発者が Twig をどのように使えるか説明することを目的としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig for Template Designers&lt;x1/&gt; documents all of Twig’s features in detail.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032717Z" creationid="Toru Kokubun" creationdate="20180427T032717Z">
+        <seg>Twig for Template Designers&lt;x1/&gt; は、すべての Twig の機能を詳細なドキュメントです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8134,6 +8246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can manipulate variables with filters.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032039Z" creationid="Toru Kokubun" creationdate="20180427T032039Z">
+        <seg>フィルタで変数を操作できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can output an option’s label by typing &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; instead, and you can tell if the option is selected or not via &lt;x3/&gt;option.selected&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014139Z" creationid="Toru Kokubun" creationdate="20180425T014044Z">
@@ -8472,8 +8592,8 @@
       <tuv lang="EN-US">
         <seg>craft/templates/recipes/ingredients/index.html&lt;x1/&gt;, the template path &lt;x2/&gt;recipes/ingredients&lt;x3/&gt; will match &lt;x4/&gt;ingredients.html&lt;x5/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T001108Z" creationid="Toru Kokubun" creationdate="20180427T001031Z">
-        <seg>craft/templates/recipes/ingredients/index.html&lt;x1/&gt; の両方にテンプレートがあれば、&lt;x2/&gt;recipes/ingredients&lt;x3/&gt; は &lt;x4/&gt;ingredients.html&lt;x5/&gt; にマッチします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031950Z" creationid="Toru Kokubun" creationdate="20180427T001031Z">
+        <seg>craft/templates/recipes/ingredients/index.html&lt;x1/&gt; の両方にテンプレートがあれば、&lt;x2/&gt;recipes/ingredients&lt;x3/&gt; は &lt;x4/&gt;ingredients.html&lt;x5/&gt; と一致します。</seg>
       </tuv>
     </tu>
     <tu>
