@@ -80,7 +80,7 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 {% set tags = entry.tagsFieldHandle.order('title') %}
 ```
 
-意図的にタグフィールドへ一つだけセットしている場合でも、タグフィールドを呼び出すと、選択されたタグではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（一つだけの）タグを取得するには、`first()` を利用します。
+意図的にタグフィールドへ1つだけセットしている場合でも、タグフィールドを呼び出すと、選択されたタグではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（1つだけの）タグを取得するには、`first()` を利用します。
 
 ```twig
 {% set tag = entry.myTagsField.first() %}

@@ -81,7 +81,7 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 {% set newsEntries = entry.entriesFieldHandle.section('news') %}
 ```
 
-意図的にエントリフィールドへ一つだけセットしている場合でも、エントリフィールドを呼び出すと、選択されたエントリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（一つだけの）エントリを取得するには、`one()` を利用します。
+意図的にエントリフィールドへ1つだけセットしている場合でも、エントリフィールドを呼び出すと、選択されたエントリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（1つだけの）エントリを取得するには、`one()` を利用します。
 
 ```twig
 {% set entry = entry.myEntriesField.one() %}

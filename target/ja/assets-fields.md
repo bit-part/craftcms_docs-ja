@@ -110,7 +110,7 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 {% set images = entry.assetsFieldHandle.kind('image') %}
 ```
 
-意図的にアセットフィールドへ一つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（一つだけの）アセットを取得するには、`one()` を利用します。
+意図的にアセットフィールドへ1つだけセットしている場合でも、アセットフィールドを呼び出すと、選択されたアセットではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（1つだけの）アセットを取得するには、`one()` を利用します。
 
 ```twig
 {% set asset = entry.myAssetsField.one() %}

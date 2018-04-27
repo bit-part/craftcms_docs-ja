@@ -76,7 +76,7 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 {% set authors = entry.usersFieldHandle.group('authors') %}
 ```
 
-意図的にユーザーフィールドへ一つだけセットしている場合でも、ユーザーフィールドを呼び出すと、選択されたユーザーではなく、同じ ElementCriteriaModel が提供されることを覚えておいてください。選択された最初の（一つだけの）ユーザーを取得するには、`one()` を利用します。
+意図的にユーザーフィールドへ1つだけセットしている場合でも、ユーザーフィールドを呼び出すと、選択されたユーザーではなく、同じ ElementCriteriaModel が提供されることを覚えておいてください。選択された最初の（1つだけの）ユーザーを取得するには、`one()` を利用します。
 
 ```twig
 {% set user = entry.myUsersField.one() %}

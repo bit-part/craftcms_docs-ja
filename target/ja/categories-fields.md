@@ -78,7 +78,7 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 {% set categories = entry.categoriesFieldHandle.orderBy('name') %}
 ```
 
-意図的にカテゴリフィールドへ一つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（一つだけの）カテゴリを取得するには、`one()` を利用します。
+意図的にカテゴリフィールドへ1つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。選択された最初の（1つだけの）カテゴリを取得するには、`one()` を利用します。
 
 ```twig
 {% set category = entry.myCategoriesField.one() %}
