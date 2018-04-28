@@ -17,7 +17,7 @@ Craft はテンプレートを解析するために [Twig](http://twig.sensiolab
 * テンプレートを[ルート](routing.md#dynamic-routes)に割り当てるとき
 * [`{% include %}`](http://twig.sensiolabs.org/doc/tags/include.html)、[`{% extends %}`](http://twig.sensiolabs.org/doc/tags/extends.html)、および [`{% embed %}`](http://twig.sensiolabs.org/doc/tags/embed.html) テンプレートタグ内
 
-Craft には、これらのケース（ `craft/templates` ディレクトリからそのテンプレートファイルまでの相対的な Unix スタイルのファイルシステムパス）それぞれに当てはまる、標準的なテンプレートパスのフォーマットがあります。
+Craft には、これらのケース（ `craft/templates` ディレクトリからそのテンプレートファイルまでの相対的な Unix スタイルのファイルシステムのパス）それぞれに当てはまる、標準的なテンプレートパスのフォーマットがあります。
 
 例えば、`craft/templates/recipes/entry.html` にテンプレートがある場合、次のテンプレートパスで指し示すことができます。
 

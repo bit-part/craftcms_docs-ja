@@ -724,5 +724,5 @@ CREATE TABLE craft_cache (
 
 ## プラグイン
 
-[Craft 3 のためのプラグインアップデート](updating-plugins.md)を見てください。
+[Craft 3 のためのプラグインアップデート](updating-plugins.md)を参照してください。
 
