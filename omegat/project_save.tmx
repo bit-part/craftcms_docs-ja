@@ -278,6 +278,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Access the CP</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011105Z" creationid="Toru Kokubun" creationdate="20180428T011105Z">
+        <seg>管理画面にアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Access the site when the system is off</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011051Z" creationid="Toru Kokubun" creationdate="20180428T011051Z">
+        <seg>システムがオフの場合にサイトにアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add a file input to the form, in the same way you would add a textarea for a Plain Text field:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T021759Z" creationid="Toru Kokubun" creationdate="20180424T021207Z">
@@ -306,6 +322,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213502Z" creationid="Toru Kokubun" creationdate="20180425T213427Z">
         <seg>リミットの調整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Admin Accounts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001138Z" creationid="Toru Kokubun" creationdate="20180428T001138Z">
+        <seg>管理者アカウント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Admin accounts are special accounts that can do absolutely everything within Craft, including some things that there aren’t even explicit permissions for:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001650Z" creationid="Toru Kokubun" creationdate="20180428T001419Z">
+        <seg>管理者アカウントは、明示的な権限がない次のことを含め、 Craft 内のすべての操作を確実に行うことができる特別なアカウントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Administrate other Admins (Craft Pro only)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001541Z" creationid="Toru Kokubun" creationdate="20180428T001541Z">
+        <seg>他の管理者を管理する（Craft Pro のみ）</seg>
       </tuv>
     </tu>
     <tu>
@@ -362,6 +402,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180427T212708Z">
         <seg>少なくとも1つのカテゴリグループを作成すると、そのグループのカテゴリを作成できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After you create your groups, you can assign users to groups by going into their account settings and clicking on the Permissions tab.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T012724Z" creationid="Toru Kokubun" creationdate="20180428T012724Z">
+        <seg>グループの作成後は、アカウント設定の「権利」タブをクリックして、ユーザーをグループに割り当てることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -478,6 +526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Asset Meta Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233526Z" creationid="Toru Kokubun" creationdate="20180427T233514Z">
+        <seg>アセットメタフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Asset Query Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022219Z" creationid="Toru Kokubun" creationdate="20180424T021942Z">
@@ -498,6 +554,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215247Z" creationid="Toru Kokubun" creationdate="20180424T215247Z">
         <seg>アセットフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets Index</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235224Z" creationid="Toru Kokubun" creationdate="20180427T234205Z">
+        <seg>アセットインデックス</seg>
       </tuv>
     </tu>
     <tu>
@@ -872,8 +936,8 @@
       <tuv lang="EN-US">
         <seg>Category Index&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214126Z" creationid="Toru Kokubun" creationdate="20180427T214126Z">
-        <seg>カテゴリのインデックス&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235305Z" creationid="Toru Kokubun" creationdate="20180427T214126Z">
+        <seg>カテゴリインデックス&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1102,6 +1166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Clicking on it will take you to the Assets Index with a list of all of your volumes in the left sidebar, and the selected volume’s files in the main content area.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234635Z" creationid="Toru Kokubun" creationdate="20180427T234527Z">
+        <seg>それをクリックすると、左サイドバーにすべてのボリュームのリスト、メインコンテンツエリアに選択されたボリュームのファイルが表示されたアセットのインデックスに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clicking on it will take you to the category index.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213754Z" creationid="Toru Kokubun" creationdate="20180427T213754Z">
@@ -1326,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Considering the amount of damage an admin can do, it’s strongly recommended that you be conservative with creating new admin accounts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001940Z" creationid="Toru Kokubun" creationdate="20180428T001940Z">
+        <seg>管理者が行うことができるダメージの量を考えると、新しい管理者アカウントの作成は慎重に行うことを強くお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Content Migrations&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012301Z" creationid="Toru Kokubun" creationdate="20180414T012301Z">
@@ -1502,10 +1582,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft Pro allows you to set permissions on users and groups, such as the ability to access the control panel, edit content within certain sections, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014404Z" creationid="Toru Kokubun" creationdate="20180428T014250Z">
+        <seg>Craft Pro では、コントロールパネルにアクセスしたり、特定セクションのコンテンツを編集するといった権限をユーザーやグループに許可できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft Pro has the option of allowing public user registration, which is disabled by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015453Z" creationid="Toru Kokubun" creationdate="20180428T015419Z">
+        <seg>Craft Pro には、一般ユーザーの登録を許可するオプションがあり、デフォルトで無効化されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft Setup from the Command Line&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030226Z" creationid="Toru Kokubun" creationdate="20180418T030226Z">
         <seg>コマンドラインからの Craft のセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft calls all member accounts of the system “users”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000659Z" creationid="Toru Kokubun" creationdate="20180428T000659Z">
+        <seg>Craft はシステムのすべてのメンバーアカウントを「ユーザー」と呼びます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1526,10 +1630,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft creates the first user account during &lt;x1/&gt;installation&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000738Z" creationid="Toru Kokubun" creationdate="20180428T000738Z">
+        <seg>Craft は&lt;x1/&gt;インストール&lt;x2/&gt;中に最初のユーザーアカウントを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft has a standard template path format that applies to each of these cases: a Unix-style file system path to the template file, relative from your &lt;x1/&gt;craft/templates&lt;x2/&gt; directory.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000159Z" creationid="Toru Kokubun" creationdate="20180426T235648Z">
-        <seg>Craft には、これらのケース（ &lt;x1/&gt;craft/templates&lt;x2/&gt; ディレクトリからそのテンプレートファイルまでの相対的な Unix スタイルのファイルシステムパス）それぞれに当てはまる、標準的なテンプレートパスのフォーマットがあります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232529Z" creationid="Toru Kokubun" creationdate="20180426T235648Z">
+        <seg>Craft には、これらのケース（ &lt;x1/&gt;craft/templates&lt;x2/&gt; ディレクトリからそのテンプレートファイルまでの相対的な Unix スタイルのファイルシステムのパス）それぞれに当てはまる、標準的なテンプレートパスのフォーマットがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1570,6 +1682,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093745Z" creationid="Toru Kokubun" creationdate="20180418T024212Z">
         <seg>Craft は他の設定に基づいて3つの項目をあらかじめ埋めますが、「Finish up（完了）」ボタンをクリックする前にそれぞれのフィールドを編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft provides a way to perform a large variety of image transformations to your assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000300Z" creationid="Toru Kokubun" creationdate="20180428T000248Z">
+        <seg>Craft はアセットに多種多様な画像変換を行う手段を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1718,6 +1838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create new subfolders (right-click on folder name)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234927Z" creationid="Toru Kokubun" creationdate="20180427T234927Z">
+        <seg>（フォルダ名を右クリックして）新しいサブフォルダの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating and Editing Categories</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213620Z" creationid="Toru Kokubun" creationdate="20180427T213620Z">
@@ -1858,6 +1986,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T010827Z" creationid="Toru Kokubun" creationdate="20180426T010632Z">
         <seg>デフォルトの変数&lt;x1/&gt; – フィールドの新しいインスタンスを作成したときにセットされる行および列のデフォルト値を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234848Z" creationid="Toru Kokubun" creationdate="20180427T234848Z">
+        <seg>ファイルの削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete subfolders</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234949Z" creationid="Toru Kokubun" creationdate="20180427T234949Z">
+        <seg>サブフォルダの削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delete users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011353Z" creationid="Toru Kokubun" creationdate="20180428T011353Z">
+        <seg>ユーザーを削除する</seg>
       </tuv>
     </tu>
     <tu>
@@ -2174,6 +2326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each of your asset volumes has a field layout, where you can attach &lt;x1/&gt;fields&lt;x2/&gt; that will be available to any assets within that volume.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233654Z" creationid="Toru Kokubun" creationdate="20180427T233654Z">
+        <seg>それぞれのアセットボリュームはフィールドレイアウトを持っていて、そのボリュームに含まれるすべてのアセットが利用可能な&lt;x1/&gt;フィールド&lt;x2/&gt;を付加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each row is a sub-array which holds each of the columns’ values for that row.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011823Z" creationid="Toru Kokubun" creationdate="20180426T011756Z">
@@ -2194,6 +2354,54 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230245Z" creationid="Toru Kokubun" creationdate="20180414T230245Z">
         <seg>エレメントの Eager-Loading&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit &lt;x1/&gt;[Category Group Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011723Z" creationid="Toru Kokubun" creationdate="20180428T011723Z">
+        <seg>&lt;x1/&gt;「カテゴリグループ名」&lt;x2/&gt;を編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit &lt;x1/&gt;[Global Set Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011656Z" creationid="Toru Kokubun" creationdate="20180428T011656Z">
+        <seg>&lt;x1/&gt;「グローバル設定名」&lt;x2/&gt;を編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit &lt;x1/&gt;[Locale Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011459Z" creationid="Toru Kokubun" creationdate="20180428T011441Z">
+        <seg>&lt;x1/&gt;「サイト名」&lt;x2/&gt;を編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit an image using the built-in image editor</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234809Z" creationid="Toru Kokubun" creationdate="20180427T234809Z">
+        <seg>組み込みのイメージエディタを利用した、画像の編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011509Z" creationid="Toru Kokubun" creationdate="20180428T011509Z">
+        <seg>エントリを編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit files’ titles and filename</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234729Z" creationid="Toru Kokubun" creationdate="20180427T234729Z">
+        <seg>ファイルのタイトルやファイル名の編集</seg>
       </tuv>
     </tu>
     <tu>
@@ -2226,6 +2434,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214616Z" creationid="Toru Kokubun" creationdate="20180427T214527Z">
         <seg>スラグの編集（タイトルに基づいて、自動的に入力されます）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011229Z" creationid="Toru Kokubun" creationdate="20180428T011229Z">
+        <seg>ユーザーを編集する</seg>
       </tuv>
     </tu>
     <tu>
@@ -2450,6 +2666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T015528Z" creationid="Toru Kokubun" creationdate="20180423T015420Z">
         <seg>関連するコンテンツを持つ Craft 内のすべての場所で、フィールドを選択するためのフィールドレイアウトを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Everything within the Settings section</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001439Z" creationid="Toru Kokubun" creationdate="20180428T001439Z">
+        <seg>設定セクションに含まれるすべてのこと</seg>
       </tuv>
     </tu>
     <tu>
@@ -2778,6 +3002,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013717Z" creationid="Toru Kokubun" creationdate="20180422T100501Z">
         <seg>そこから、編集したいエントリに移動したり、新しいエントリを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From this page, you can do the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234654Z" creationid="Toru Kokubun" creationdate="20180427T234654Z">
+        <seg>このページでは、次のことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3278,6 +3510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have Craft Pro, you can create User Groups to help organize your site’s user accounts, as well as batch-set permissions on them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014818Z" creationid="Toru Kokubun" creationdate="20180428T012225Z">
+        <seg>Craft Pro を使っている場合、サイトのユーザーアカウントを整理したり、権限を一括設定するためにユーザーグループを作成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have a need to do something that is not possible out-of-the-box with Craft or Twig, you can create a &lt;x1/&gt;plugin&lt;x2/&gt; that provides a new &lt;x3/&gt;Twig extension&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T234821Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
@@ -3430,6 +3670,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need more, you will need to &lt;x3/&gt;upgrade&lt;x4/&gt; to either Craft Client or Craft Pro, which offer additional user accounts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001120Z" creationid="Toru Kokubun" creationdate="20180428T001120Z">
+        <seg>さらに必要であれば、追加のユーザーアカウントを提供する Craft Client か Craft Pro のどちらかに&lt;x3/&gt;アップグレード&lt;x4/&gt; する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you only have one checkbox, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
@@ -3442,6 +3690,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221637Z" creationid="Toru Kokubun" creationdate="20180418T221637Z">
         <seg>アップデートのプロンプトが表示されたら、すべてが正しく実行されています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you stick with Craft Personal, this is the only account you will be able to create.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000921Z" creationid="Toru Kokubun" creationdate="20180428T000904Z">
+        <seg>Craft Personal を使い続けるなら、あなたが作成可能な唯一のアカウントとなります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3474,6 +3730,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025951Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
         <seg>パラメータ値を配列にセットする場合は、配列の大括弧を記述&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to use a relative file system path, note that it should be relative from the directory that holds your &lt;x1/&gt;index.php&lt;x2/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232725Z" creationid="Toru Kokubun" creationdate="20180427T232722Z">
+        <seg>ファイルシステムの相対パスを使用する場合は、&lt;x1/&gt;index.php&lt;x2/&gt; ファイルを保持するディレクトリからの相対パスでなければならないことに注意してくください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3690,6 +3954,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215503Z" creationid="Toru Kokubun" creationdate="20180426T215436Z">
         <seg>ここまでのステップがうまくいっていれば、Craft のセットアップウィザードが迎えてくれるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Image Transforms</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000340Z" creationid="Toru Kokubun" creationdate="20180428T000037Z">
+        <seg>画像の変換</seg>
       </tuv>
     </tu>
     <tu>
@@ -4046,6 +4318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Learn more about what need to go in the &lt;x3/&gt;volumes.php&lt;x4/&gt; file in the &lt;x5/&gt;Overriding Volume Settings&lt;x6/&gt; section in the Configuration documentation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233436Z" creationid="Toru Kokubun" creationdate="20180427T233436Z">
+        <seg>より詳しくは、コンフィギュレーションドキュメントにある&lt;x5/&gt;ボリューム設定の上書き&lt;x6/&gt;セクションの &lt;x3/&gt;volumes.php&lt;x4/&gt; ファイルを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's review each one in more detail.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T021242Z" creationid="Toru Kokubun" creationdate="20180427T021229Z">
@@ -4206,6 +4486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Make other users Admins (Craft Pro only)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001513Z" creationid="Toru Kokubun" creationdate="20180428T001513Z">
+        <seg>他のユーザーを管理者にする（Craft Pro のみ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Make required</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025214Z" creationid="Toru Kokubun" creationdate="20180423T025214Z">
@@ -4338,6 +4626,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000706Z" creationid="Toru Kokubun" creationdate="20180415T000706Z">
         <seg>ドキュメントの大抵のセクションは、わたしたちがカバーする概念をどのように使うかの例を詳述してあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move files to a different folder (via drag and drop)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234836Z" creationid="Toru Kokubun" creationdate="20180427T234836Z">
+        <seg>（ドラッグアンドドロップによる）別フォルダへのファイルの移動</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move subfolders</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234939Z" creationid="Toru Kokubun" creationdate="20180427T234939Z">
+        <seg>サブフォルダの移動</seg>
       </tuv>
     </tu>
     <tu>
@@ -4522,6 +4826,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014535Z" creationid="Toru Kokubun" creationdate="20180418T014535Z">
         <seg>動きませんか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that Craft/PHP must be able to write to the directory you created.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233110Z" creationid="Toru Kokubun" creationdate="20180427T233041Z">
+        <seg>Craft もしくは PHP が、作成したディレクトリに書き込み可能でなければならないことに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4814,6 +5126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you set up your site to allow public user registration, the last step is to create a &lt;x1/&gt;user registration form&lt;x2/&gt; on your site’s front end.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015933Z" creationid="Toru Kokubun" creationdate="20180428T015933Z">
+        <seg>サイトに一般ユーザーの登録を許可する設定を行ったら、最後のステップとしてフロントエンドに&lt;x1/&gt;ユーザー登録フォーム&lt;x2/&gt;を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you've completed everything listed above you can continue with the upgrade process.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T065846Z" creationid="Toru Kokubun" creationdate="20180418T065846Z">
@@ -4830,10 +5150,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once your asset volume has some fields associated with it, you can edit the fields’ content by double-clicking on your assets, either from within the Assets index, or within an &lt;x1/&gt;Assets field&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234210Z" creationid="Toru Kokubun" creationdate="20180427T234014Z">
+        <seg>アセットボリュームにフィールドが関連づけられると、アセットのインデックスだけでなく&lt;x1/&gt;アセットフィールド&lt;x2/&gt;内にあるアセットをダブルクリックすることで、フィールドのコンテンツを編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you’ve created your fields, you can get it to show up in your edit forms by adding them to a “field layouts”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T015022Z" creationid="Toru Kokubun" creationdate="20180423T014939Z">
         <seg>フィールドを作成すると、「フィールドレイアウト」にそれらを加えることによって編集フォームに表示させることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only do it if you trust that they know what they’re doing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T002252Z" creationid="Toru Kokubun" creationdate="20180428T002103Z">
+        <seg>彼（彼女）らが自分が実行することの意味を理解できていると確信できる場合のみに留めてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4954,6 +5290,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213320Z" creationid="Toru Kokubun" creationdate="20180426T213320Z">
         <seg>ダブルクォートの内側にセキュリティキーをペーストし、ファイルを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Permission</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014835Z" creationid="Toru Kokubun" creationdate="20180428T010510Z">
+        <seg>権限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014829Z" creationid="Toru Kokubun" creationdate="20180428T010459Z">
+        <seg>権限</seg>
       </tuv>
     </tu>
     <tu>
@@ -5098,6 +5450,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063025Z" creationid="Toru Kokubun" creationdate="20180418T063025Z">
         <seg>アップグレードのための準備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Public Registration</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015323Z" creationid="Toru Kokubun" creationdate="20180428T015323Z">
+        <seg>公開登録</seg>
       </tuv>
     </tu>
     <tu>
@@ -5350,6 +5710,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rename files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234715Z" creationid="Toru Kokubun" creationdate="20180427T234715Z">
+        <seg>ファイルのリネーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rename subfolders</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234933Z" creationid="Toru Kokubun" creationdate="20180427T234933Z">
+        <seg>サブフォルダのリネーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repeated harassment of others.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234916Z" creationid="Toru Kokubun" creationdate="20180414T234916Z">
@@ -5598,10 +5974,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;Image Transforms&lt;x2/&gt; for more information.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000439Z" creationid="Toru Kokubun" creationdate="20180428T000439Z">
+        <seg>詳細については、&lt;x1/&gt;画像の変換&lt;x2/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;x1/&gt;Updating Plugins for Craft 3&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001727Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
-        <seg>&lt;x1/&gt;Craft 3 のためのプラグインアップデート&lt;x2/&gt;を見てください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000454Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
+        <seg>&lt;x1/&gt;Craft 3 のためのプラグインアップデート&lt;x2/&gt;を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5834,6 +6218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025908Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
         <seg>そのため、行列フィールドがエントリに紐づけられていて、動的なサブフォルダパスにエントリ ID を出力したい場合は、&lt;x7/&gt;{id}&lt;x8/&gt; ではなく &lt;x5/&gt;{owner.id}&lt;x6/&gt; と記述します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So if your files are set up like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232915Z" creationid="Toru Kokubun" creationdate="20180427T232822Z">
+        <seg>ファイルが次のようにセットアップされているとすれば</seg>
       </tuv>
     </tu>
     <tu>
@@ -6534,6 +6926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The URL to the directory containing the files, assuming the files are meant to be publicly accessed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232405Z" creationid="Toru Kokubun" creationdate="20180427T232405Z">
+        <seg>ファイルが公開されることを前提とした、ファイルを含むディレクトリへの URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The acceptable translation categories are:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011801Z" creationid="Toru Kokubun" creationdate="20180420T013005Z">
@@ -6642,6 +7042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211216Z" creationid="Toru Kokubun" creationdate="20180426T211216Z">
         <seg>設定されるべき正確なパーミッションは、PHP を実行しているシステムユーザーと実際にフォルダやファイルを所有しているユーザーとの関係性に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The file system path to the directory containing the files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232427Z" creationid="Toru Kokubun" creationdate="20180427T232427Z">
+        <seg>ファイルを含むディレクトリのファイルシステムのパス</seg>
       </tuv>
     </tu>
     <tu>
@@ -6846,6 +7254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The permissions Craft comes with are:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014742Z" creationid="Toru Kokubun" creationdate="20180428T014742Z">
+        <seg>Craft の権限は次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The rendering result will be saved as the entry’s URI in the system.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012754Z" creationid="Toru Kokubun" creationdate="20180422T084424Z">
@@ -6922,6 +7338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215954Z" creationid="Toru Kokubun" creationdate="20180426T215954Z">
         <seg>インストーラーの3つ目のステップは、管理者アカウントの作成です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user account you create during installation is an admin by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001737Z" creationid="Toru Kokubun" creationdate="20180428T001732Z">
+        <seg>インストール中に作成したユーザーアカウントが、デフォルトで管理者になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7238,6 +7662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This file is not in the default Craft installation so you may have to create it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233304Z" creationid="Toru Kokubun" creationdate="20180427T233304Z">
+        <seg>このファイルは、デフォルトの Craft のインストールに含まれていないため、作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This includes Craft Slack, Craft CMS Stack Exchange, GitHub, Twitter, Facebook, meetups, conferences, and any other relevant forums.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032612Z" creationid="Toru Kokubun" creationdate="20180414T032612Z">
@@ -7438,6 +7870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a new User Group, go to Settings → Users and click the “New Group” button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T012327Z" creationid="Toru Kokubun" creationdate="20180428T012327Z">
+        <seg>新しいユーザーグループを作るには、「設定 &gt; ユーザー」に移動し、「新しいユーザーグループ」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new category group, go to Settings → Categories and click the “New Category Group” button.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212553Z" creationid="Toru Kokubun" creationdate="20180427T212553Z">
@@ -7450,6 +7890,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020357Z" creationid="Toru Kokubun" creationdate="20180422T020226Z">
         <seg>新しいセクションを作るには、「設定 &gt; セクション」に移動し、「新規セクション」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To enable public registration, go to Settings → Users → Settings, and check the “Allow public registration?” setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015620Z" creationid="Toru Kokubun" creationdate="20180428T015620Z">
+        <seg>公開登録を有効にするには、「設定 &gt; ユーザー &gt; 設定」に移動し、「公的登録を許可しますか？」をチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7784,7 +8232,7 @@
       <tuv lang="EN-US">
         <seg>Update the File System Path setting to point to the new folder location</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T060926Z" creationid="Toru Kokubun" creationdate="20180420T060926Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232505Z" creationid="Toru Kokubun" creationdate="20180420T060926Z">
         <seg>「ファイルシステムのパス」設定を新しいフォルダのロケーションにしてアップデートします。</seg>
       </tuv>
     </tu>
@@ -7822,6 +8270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Updating Your Asset Indexes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235037Z" creationid="Toru Kokubun" creationdate="20180427T235015Z">
+        <seg>アセットインデックスのアップデート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Upgrading &amp; Updating Craft</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180404T234700Z" creationid="Toru Kokubun" creationdate="20180404T234700Z">
@@ -7854,10 +8310,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Upload new files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234709Z" creationid="Toru Kokubun" creationdate="20180427T234709Z">
+        <seg>新しいファイルのアップロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Uploading Files from Front-end Entry Forms</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T020610Z" creationid="Toru Kokubun" creationdate="20180424T020534Z">
         <seg>フロントエンドフォームからのファイルアップロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User Groups</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T010446Z" creationid="Toru Kokubun" creationdate="20180428T010446Z">
+        <seg>ユーザーグループ</seg>
       </tuv>
     </tu>
     <tu>
@@ -7890,6 +8362,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054311Z" creationid="Toru Kokubun" creationdate="20180420T054311Z">
         <seg>ユーザーフォトはアセットとして保存されるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000539Z" creationid="Toru Kokubun" creationdate="20180428T000539Z">
+        <seg>ユーザー</seg>
       </tuv>
     </tu>
     <tu>
@@ -7970,6 +8450,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031027Z" creationid="Toru Kokubun" creationdate="20180427T031027Z">
         <seg>Twig の変数は、JavaScript や他のプログラミング言語の変数に似ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>View &lt;x1/&gt;[Asset Source Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011814Z" creationid="Toru Kokubun" creationdate="20180428T011814Z">
+        <seg>&lt;x1/&gt;「アセットソース名」&lt;x2/&gt;を表示する</seg>
       </tuv>
     </tu>
     <tu>
@@ -8222,6 +8710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you apply permissions to a user group, all users that belong to that group will inherit them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014708Z" creationid="Toru Kokubun" creationdate="20180428T014708Z">
+        <seg>ユーザーグループに権限を適用すると、そのグループに所属するすべてのユーザーがそれを継承します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you click on one of those buttons, a new block will be created.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T121854Z">
@@ -8254,6 +8750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you have at least one asset volume, Craft will add a new Assets item to the Control Panel's main navigation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234333Z" creationid="Toru Kokubun" creationdate="20180427T234323Z">
+        <seg>少なくとも1つのアセットボリュームがあれば、Craft はコントロールパネルのメインナビゲーションに「アセット」項目を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you need to loop over an element query, you should start explicitly calling &lt;x1/&gt;.all()&lt;x2/&gt;, which will execute the database query and return the array of results:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230542Z" creationid="Toru Kokubun" creationdate="20180420T230503Z">
@@ -8274,6 +8778,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T024851Z" creationid="Toru Kokubun" creationdate="20180424T024555Z">
         <seg>ネストされたカテゴリを選択すると、そのカテゴリに至るすべての先祖カテゴリも自動的に選択されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whenever there are files within your asset volume that were not added directly by Craft (e.g. via FTP), you will need to tell Craft to go and look for them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235959Z" creationid="Toru Kokubun" creationdate="20180427T235719Z">
+        <seg>Craft が直接追加しなかったファイル（例えば、FTP 経由など）がアセットボリュームに含まれる場合は、それらを探し出せるよう Craft に教える必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8382,6 +8894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With that checked, you will also have the ability to choose a default user group to which Craft will assign the publicly-registered users.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015815Z" creationid="Toru Kokubun" creationdate="20180428T015815Z">
+        <seg>チェックすると、Craft が公開登録したユーザーを割り当てるデフォルトのユーザーグループを選択できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With that, challenges will arise that can lead to communication issues and unhappiness.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032006Z" creationid="Toru Kokubun" creationdate="20180414T031804Z">
@@ -8470,6 +8990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can apply these permissions directly to user accounts as well as to user groups.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014612Z" creationid="Toru Kokubun" creationdate="20180428T014612Z">
+        <seg>これらの権限はユーザーアカウントと同様にユーザーグループにも直接適用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can assign your own variables using the &lt;x1/&gt;set&lt;x2/&gt; tag:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031247Z" creationid="Toru Kokubun" creationdate="20180427T031247Z">
@@ -8506,6 +9034,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220155Z" creationid="Toru Kokubun" creationdate="20180427T211513Z">
         <seg>カテゴリを利用して、&lt;x1/&gt;エントリ&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、および&lt;x5/&gt;アセット&lt;x6/&gt;の分類を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can do that from the “Update Asset Indexes” tool within Settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235832Z" creationid="Toru Kokubun" creationdate="20180427T235815Z">
+        <seg>設定内の「アセットインデックスの更新」ツールから、それを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can edit an asset volume’s field layout by clicking on the Field Layout tab when editing the volume.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233749Z" creationid="Toru Kokubun" creationdate="20180427T233749Z">
+        <seg>ボリュームの編集中に、フィールドレイアウトタブをクリックすることでアセットボリュームのフィールドレイアウトを編集できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8562,6 +9106,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214225Z" creationid="Toru Kokubun" creationdate="20180425T214125Z">
         <seg>&lt;x1/&gt;length フィルタ&lt;x2/&gt;を利用して、ブロックの総数を取得できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can give your group a Name and Handle, plus any permissions you want every user within the group to have.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T012518Z" creationid="Toru Kokubun" creationdate="20180428T012518Z">
+        <seg>グループには、名前とハンドルに加え、グループに含まれるすべてのユーザーに与える権限をセットすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9278,10 +9830,170 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{tip} You can override the Volume settings using the &lt;x1/&gt;config/volumes.php&lt;x2/&gt; configuration file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233211Z" creationid="Toru Kokubun" creationdate="20180427T233211Z">
+        <seg>【ヒント】設定ファイルの &lt;x1/&gt;config/volumes.php&lt;x2/&gt; を利用して、ボリューム設定を上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>…and replace everything below it with:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221417Z" creationid="Toru Kokubun" creationdate="20180418T221019Z">
         <seg>そして、それ以下の行をすべて置き換えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>…then the correct relative path to &lt;x1/&gt;images/&lt;x2/&gt; would be &lt;x3/&gt;images/&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232849Z" creationid="Toru Kokubun" creationdate="20180427T232849Z">
+        <seg>&lt;x1/&gt;images/&lt;x2/&gt; への正しい相対パスは &lt;x3/&gt;images/&lt;x4/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Access &lt;x1/&gt;[Plugin Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011453Z" creationid="Toru Kokubun" creationdate="20180428T011205Z">
+        <seg>↳  &lt;x1/&gt;「プラグイン名」&lt;x2/&gt;のアクセス </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Access the CP when the system is off</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011120Z" creationid="Toru Kokubun" creationdate="20180428T011120Z">
+        <seg>↳  システムがオフの場合に管理画面にアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Administrate users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011337Z" creationid="Toru Kokubun" creationdate="20180428T011337Z">
+        <seg>↳  ユーザーを管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Assign permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011308Z" creationid="Toru Kokubun" creationdate="20180428T011308Z">
+        <seg>↳  ユーザー権限を割り当てる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Create entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011511Z" creationid="Toru Kokubun" creationdate="20180428T011511Z">
+        <seg>↳  エントリを作る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Create subfolders</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011841Z" creationid="Toru Kokubun" creationdate="20180428T011841Z">
+        <seg>↳  サブフォルダを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Delete entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011526Z" creationid="Toru Kokubun" creationdate="20180428T011526Z">
+        <seg>↳  エントリを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Delete other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011626Z" creationid="Toru Kokubun" creationdate="20180428T011626Z">
+        <seg>↳  他の投稿者の下書きを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Delete other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011603Z" creationid="Toru Kokubun" creationdate="20180428T011603Z">
+        <seg>↳  他の投稿者のエントリを削除する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Edit other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011613Z" creationid="Toru Kokubun" creationdate="20180428T011613Z">
+        <seg>↳  他の投稿者の下書きを編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Edit other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011536Z" creationid="Toru Kokubun" creationdate="20180428T011536Z">
+        <seg>↳  他の投稿者のエントリを編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Perform Craft and plugin updates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011133Z" creationid="Toru Kokubun" creationdate="20180428T011133Z">
+        <seg>↳  Craft CMS起動とプラグインのアップデート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Publish entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011518Z" creationid="Toru Kokubun" creationdate="20180428T011518Z">
+        <seg>↳  ライブの変更を発表する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Publish other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011620Z" creationid="Toru Kokubun" creationdate="20180428T011620Z">
+        <seg>↳  他の投稿者の下書きを投稿する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Publish other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011548Z" creationid="Toru Kokubun" creationdate="20180428T011548Z">
+        <seg>↳  他の作成者の入力のためライブを変更する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Register users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011300Z" creationid="Toru Kokubun" creationdate="20180428T011300Z">
+        <seg>↳  ユーザーを登録する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Remove files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011845Z" creationid="Toru Kokubun" creationdate="20180428T011845Z">
+        <seg>↳  ファイルとフォルダーを削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳  Upload files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011833Z" creationid="Toru Kokubun" creationdate="20180428T011833Z">
+        <seg>↳  アップロード</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
