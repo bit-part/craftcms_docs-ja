@@ -45,3 +45,6 @@ Multi-select Fields	マルチセレクトボックスフィールド
 {note}	【メモ】
 {tip}	【ヒント】
 rundown	要約
+batch-set	一括設定
+Permission	権限	ユーザーに関する場合は「権限」
+Permission	パーミッション	サーバー設定に関する場合は「パーミッション」
