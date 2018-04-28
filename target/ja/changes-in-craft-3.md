@@ -142,7 +142,7 @@ Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポー�
 | 旧 | 新 |
 | ---------------- | ---------------------------------------- |
 | `CRAFT_LOCALE` | `CRAFT_SITE` |
-| `CRAFT_SITE_URL` | Use the `siteUrl` config setting instead |
+| `CRAFT_SITE_URL` | 代わりに、コンフィグ設定の `siteUrl` を使ってください |
 
 ## 静的な翻訳ファイル
 

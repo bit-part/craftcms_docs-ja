@@ -3,7 +3,7 @@
 
 Craft はシステムのすべてのメンバーアカウントを「ユーザー」と呼びます。
 
-Craft は[インストール](installation.md)中に最初のユーザーアカウントを作成します。Craft Personal を使い続けるなら、あなたが作成可能な唯一のアカウントとなります。さらに必要であれば、追加のユーザーアカウントを提供する Craft Client か Craft Pro のどちらかに[アップグレード](/pricing) する必要があります。
+最初のユーザーアカウントは、[インストール](installation.md)中に作成されます。Solo エディションを使い続けるなら、あなたが作成可能な唯一のアカウントとなります。さらに必要であれば、追加のユーザーアカウントを提供する Pro エディションにアップグレードできます。
 
 ## 管理者アカウント
 
@@ -16,18 +16,6 @@ Craft は[インストール](installation.md)中に最初のユーザーアカ�
 インストール中に作成したユーザーアカウントが、デフォルトで管理者になります。
 
 > 管理者が行うことができるダメージの量を考えると、新しい管理者アカウントの作成は慎重に行うことを強くお勧めします。彼（彼女）らが自分が実行することの意味を理解できていると確信できる場合のみに留めてください。
-
-## Client’s Account
-
-Craft Client allows you to add one additional user account to the system: the “Client’s Account”. You can create the Client’s Account via the Account menu in the bottom left of the Control Panel.
-
-![Access the Client User Account](images/users-client-user.png)
-
-The first time you click that option, you need to complete the registration page where you can create the Client’s Account. Once you create a Client Account, you will see an account settings page if you visit the "Client's Account" page again.
-
-The Client’s Account is _not_ an Admin account like yours, so they will not be able to access the Settings section or administrate your Admin account. They’ll be able to do everything else, though.
-
-If you ever upgrade from Craft Client to Craft Pro, note that the Client’s Account will become just like any other user account. You will need to manually assign any permissions you want that account to have at that point.
 
 ## ユーザーグループ
 

@@ -28,7 +28,7 @@ Craft 3 ドキュメント
 - [セクションとエントリ](ja/sections-and-entries.md)
 - [フィールド](ja/fields.md)
 - [テンプレート](ja/templates.md)
-   - [Twig 入門編](ja/twig-primer.md)
+   - [Twig 入門書](ja/twig-primer.md)
 - [カテゴリ](ja/categories.md)
 - [アセット](ja/assets.md)
 - [ユーザー](ja/users.md)
