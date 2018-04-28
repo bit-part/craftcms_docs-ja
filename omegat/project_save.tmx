@@ -1102,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choose the entry’s author (Pro edition only)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214714Z" creationid="Toru Kokubun" creationdate="20180428T214714Z">
+        <seg>エントリーの投稿者の選択（Pro エディションのみ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Choose the entry’s author (Users required)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013659Z" creationid="Toru Kokubun" creationdate="20180422T100938Z">
@@ -3670,6 +3678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need more you can upgrade to the Pro edition, which offers additional user accounts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214953Z" creationid="Toru Kokubun" creationdate="20180428T214937Z">
+        <seg>さらに必要であれば、追加のユーザーアカウントを提供する Pro エディションにアップグレードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need more, you will need to &lt;x3/&gt;upgrade&lt;x4/&gt; to either Craft Client or Craft Pro, which offer additional user accounts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001120Z" creationid="Toru Kokubun" creationdate="20180428T001120Z">
@@ -3698,6 +3714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000921Z" creationid="Toru Kokubun" creationdate="20180428T000904Z">
         <seg>Craft Personal を使い続けるなら、あなたが作成可能な唯一のアカウントとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you stick with the Solo edition, this is the only account you will be able to create.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214906Z" creationid="Toru Kokubun" creationdate="20180428T214906Z">
+        <seg>Solo エディションを使い続けるなら、あなたが作成可能な唯一のアカウントとなります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5462,6 +5486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Publish a draft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214608Z" creationid="Toru Kokubun" creationdate="20180428T214608Z">
+        <seg>ドラフトの公開</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Publish a draft (Craft Client or Craft Pro required)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T101248Z" creationid="Toru Kokubun" creationdate="20180422T101241Z">
@@ -5866,6 +5898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015359Z" creationid="Toru Kokubun" creationdate="20180415T015359Z">
         <seg>Safari 9.0 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save a new draft of the entry</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214600Z" creationid="Toru Kokubun" creationdate="20180428T214600Z">
+        <seg>エントリの新しいドラフトの保存</seg>
       </tuv>
     </tu>
     <tu>
@@ -7090,6 +7130,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063012Z" creationid="Toru Kokubun" creationdate="20180418T063012Z">
         <seg>サイトを Craft 3 にアップグレードするための最初のステップは、CMS 自体をアップデートすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first user account is created during &lt;x1/&gt;installation&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214824Z" creationid="Toru Kokubun" creationdate="20180428T214824Z">
+        <seg>最初のユーザーアカウントは、&lt;x1/&gt;インストール&lt;x2/&gt;中に作成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8326,6 +8374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use the &lt;x1/&gt;siteUrl&lt;x2/&gt; config setting instead</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215216Z" creationid="Toru Kokubun" creationdate="20180428T215202Z">
+        <seg>代わりに、コンフィグ設定の &lt;x1/&gt;siteUrl&lt;x2/&gt; を使ってください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Groups</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T010446Z" creationid="Toru Kokubun" creationdate="20180428T010446Z">
@@ -8458,6 +8514,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011814Z" creationid="Toru Kokubun" creationdate="20180428T011814Z">
         <seg>&lt;x1/&gt;「アセットソース名」&lt;x2/&gt;を表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>View past versions of the entry</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214623Z" creationid="Toru Kokubun" creationdate="20180428T214623Z">
+        <seg>エントリの過去のバージョンの閲覧</seg>
       </tuv>
     </tu>
     <tu>
