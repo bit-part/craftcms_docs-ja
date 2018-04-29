@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The “year” token, for example, represents four consecutive digits.) When you click on a token, Craft inserts it into the URI setting wherever the cursor is.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214059Z" creationid="Toru Kokubun" creationdate="20180429T213840Z">
+        <seg>（例えば、“year” トークンは4桁の連続する数字を表します。） トークンをクリックすると、Craft は URI 設定欄のカーソル位置にそれを挿入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(There’s no length limit.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213011Z" creationid="Toru Kokubun" creationdate="20180426T213011Z">
@@ -246,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A good example of this is a yearly archive page, where you want the year to be one of the segments in the URL (e.g. &lt;x1/&gt;news/archive/2017&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212300Z" creationid="Toru Kokubun" creationdate="20180429T212300Z">
+        <seg>年を URL のセグメントの1つ（例：&lt;x1/&gt;news/archive/2017&lt;x2/&gt;）にする年別アーカイブページが、よい例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A minimum of 200MB of free disk space</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020539Z" creationid="Toru Kokubun" creationdate="20180415T020539Z">
@@ -258,6 +274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020531Z" creationid="Toru Kokubun" creationdate="20180415T020531Z">
         <seg>最低256MBの PHP 割当メモリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A modal window will appear where you can define the route settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212930Z" creationid="Toru Kokubun" creationdate="20180429T212930Z">
+        <seg>ルートの設定を定義できるモーダルウィンドウが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -314,6 +338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011051Z" creationid="Toru Kokubun" creationdate="20180428T011051Z">
         <seg>システムがオフの場合にサイトにアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Accessing Subpatterns in your Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220919Z" creationid="Toru Kokubun" creationdate="20180429T220856Z">
+        <seg>テンプレート内のサブパターンへのアクセス</seg>
       </tuv>
     </tu>
     <tu>
@@ -382,6 +414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Advanced Routing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215534Z" creationid="Toru Kokubun" creationdate="20180429T215534Z">
+        <seg>高度なルーティング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Advanced Topics</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230234Z" creationid="Toru Kokubun" creationdate="20180414T230234Z">
@@ -402,6 +442,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215614Z" creationid="Toru Kokubun" creationdate="20180424T215614Z">
         <seg>エレメントが保存されると、サブフォルダパスはソースエレメントのプロパティに相当するタグで解析されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After defining your URI pattern and entering a template path, click the Save button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214403Z" creationid="Toru Kokubun" creationdate="20180429T214403Z">
+        <seg>UIRI パターンを定義しテンプレートパスを入力したら、「保存」ボタンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -690,6 +738,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231801Z" creationid="Toru Kokubun" creationdate="20180428T231801Z">
         <seg>タグの割り当て</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Available Tokens</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214734Z" creationid="Toru Kokubun" creationdate="20180429T214734Z">
+        <seg>利用可能なトークン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Basic Syntax</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220217Z" creationid="Toru Kokubun" creationdate="20180429T220217Z">
+        <seg>基本構文</seg>
       </tuv>
     </tu>
     <tu>
@@ -2046,6 +2110,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating Routes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212758Z" creationid="Toru Kokubun" creationdate="20180429T212704Z">
+        <seg>ルートの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating a New Route&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212740Z" creationid="Toru Kokubun" creationdate="20180429T212543Z">
+        <seg>新しいルートの作成画面&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating and Editing Categories</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213620Z" creationid="Toru Kokubun" creationdate="20180427T213620Z">
@@ -2458,6 +2538,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012933Z" creationid="Toru Kokubun" creationdate="20180422T091015Z">
         <seg>動的なエントリタイトル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dynamic Routes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T211751Z" creationid="Toru Kokubun" creationdate="20180429T211751Z">
+        <seg>動的なルート</seg>
       </tuv>
     </tu>
     <tu>
@@ -3238,6 +3326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, with this route:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T221935Z" creationid="Toru Kokubun" creationdate="20180429T221935Z">
+        <seg>例として、次のルートがあるとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220315Z" creationid="Toru Kokubun" creationdate="20180420T220315Z">
@@ -3776,8 +3872,8 @@
       <tuv lang="EN-US">
         <seg>If the URI matches an &lt;x1/&gt;entry’s&lt;x2/&gt; or &lt;x3/&gt;category’s&lt;x4/&gt; URI, Craft loads the section’s template or category group’s template.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032822Z" creationid="Toru Kokubun" creationdate="20180429T032822Z">
-        <seg>URL が&lt;x1/&gt;エントリ&lt;x2/&gt;や&lt;x3/&gt;カテゴリ&lt;x4/&gt;の URI にマッチする場合、Craft はセクションのテンプレートかカテゴリグループのテンプレートを読み込みます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213136Z" creationid="Toru Kokubun" creationdate="20180429T032822Z">
+        <seg>URL が&lt;x1/&gt;エントリ&lt;x2/&gt;や&lt;x3/&gt;カテゴリ&lt;x4/&gt;の URI にマッチする場合、Craft はセクションのテンプレートかカテゴリグループのテンプレートをロードします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3850,6 +3946,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001310Z" creationid="Toru Kokubun" creationdate="20180429T001310Z">
         <seg>ドリンクレシピの原材料リストを出力したい場合は、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you access &lt;x1/&gt;http://example.com/news/2020/10&lt;x2/&gt;, your &lt;x3/&gt;news/_archive.html&lt;x4/&gt; template will get loaded with a &lt;x5/&gt;matches&lt;x6/&gt; variable set to this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T222342Z" creationid="Toru Kokubun" creationdate="20180429T222108Z">
+        <seg>&lt;x1/&gt;http://example.com/news/2020/10&lt;x2/&gt; にアクセスすると、&lt;x3/&gt;news/_archive.html&lt;x4/&gt; テンプレートは、変数 &lt;x5/&gt;matches&lt;x6/&gt; をセットした状態で読み込まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3962,6 +4066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T234821Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
         <seg>Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合は、新しい&lt;x3/&gt;Twig 拡張&lt;x4/&gt;を提供する&lt;x1/&gt;プラグイン&lt;x2/&gt;を作成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have a template route that contains subpatterns, Craft passes a &lt;x1/&gt;matches&lt;x2/&gt; array to the matched template containing them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T221854Z" creationid="Toru Kokubun" creationdate="20180429T220959Z">
+        <seg>テンプレートのルートがサブパターンを含む場合、Craft はマッチしたテンプレートに &lt;x1/&gt;matches&lt;x2/&gt; 配列を渡します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4134,6 +4246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need to set up routes to controller actions, or you need to create a template route that matches a URI pattern that’s not covered by the available route tokens in Settings → Routes, you can set up your routes in &lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220035Z" creationid="Toru Kokubun" creationdate="20180429T220010Z">
+        <seg>コントローラーアクションへのルートをセットアップする必要がある場合や、「設定 &gt; ルート」で利用可能なトークンがカバーされていない URI パターンにマッチさせるテンプレートルートを作成する必要がある場合は、&lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; にルートを設定することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you only have one checkbox, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
@@ -4154,6 +4274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221637Z" creationid="Toru Kokubun" creationdate="20180418T221637Z">
         <seg>アップデートのプロンプトが表示されたら、すべてが正しく実行されています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you specify any named subpatterns, then those matches will also get their own variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T222741Z" creationid="Toru Kokubun" creationdate="20180429T222729Z">
+        <seg>名前付けされたサブパターンを指定する場合、マッチしたものも同様に独自の変数を取得します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4210,6 +4338,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070848Z" creationid="Toru Kokubun" creationdate="20180418T070848Z">
         <seg>既存のディレクトリ構成を維持したい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to match URIs that look like &lt;x1/&gt;news/archive/2017&lt;x2/&gt;, you type &lt;x3/&gt;news/archive/&lt;x4/&gt; into the URI field, and then click on the “year” token.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214043Z" creationid="Toru Kokubun" creationdate="20180429T214043Z">
+        <seg>&lt;x1/&gt;news/archive/2017&lt;x2/&gt; のような URI とマッチさせる場合は、URI フィールドに &lt;x3/&gt;news/archive/&lt;x4/&gt; と入力し、“year” トークンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4290,6 +4426,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T025920Z">
         <seg>意図的にカテゴリフィールドへ1つだけセットしている場合でも、カテゴリフィールドを呼び出すと、選択されたカテゴリではなく、同じ ElementCriteriaModel として提供されることを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your Craft installation has multiple sites, then you can target locale specific routes via:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220400Z" creationid="Toru Kokubun" creationdate="20180429T220400Z">
+        <seg>Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4558,6 +4702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases you want a URL to load a template, but you don’t want the URI to match the template path.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212017Z" creationid="Toru Kokubun" creationdate="20180429T211905Z">
+        <seg>テンプレートを読み込むための URL が必要なものの、URI とテンプレートパスをマッチさせたくない場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example there is no reason to access the template directly because it's only ever used as part of an entry URL.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T010125Z" creationid="Toru Kokubun" creationdate="20180427T010125Z">
@@ -4674,6 +4826,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235322Z" creationid="Toru Kokubun" creationdate="20180414T235322Z">
         <seg>その代わりに、問題を解決することを手伝って失敗から学ぶことにフォーカスしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead, you should set up a new Dynamic Route.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212526Z" creationid="Toru Kokubun" creationdate="20180429T212526Z">
+        <seg>代わりに、新しい動的なルートをセットアップしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4802,6 +4962,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003315Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
         <seg>それでも同じ働きとなりますが、引数 &lt;x5/&gt;stripZeroCents&lt;x6/&gt; は &lt;x7/&gt;stripZeros&lt;x8/&gt; にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It would be silly to create a new template for every year.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212411Z" creationid="Toru Kokubun" creationdate="20180429T212411Z">
+        <seg>毎年新しいテンプレートを作成するのは、賢明とは言えません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5442,6 +5610,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222654Z" creationid="Toru Kokubun" creationdate="20180418T222339Z">
         <seg>メモ：&lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリがサーバーの公開ディレクトリ（例：&lt;x3/&gt;public_html/&lt;x4/&gt; 内）にある場合、新しい &lt;x5/&gt;craft/vendor/&lt;x6/&gt; ディレクトリがウェブトラフィックから保護されるよう確認する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: Your URI should &lt;x1/&gt;not&lt;x2/&gt; begin with a slash (/).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214241Z" creationid="Toru Kokubun" creationdate="20180429T214241Z">
+        <seg>メモ：URI はスラッシュ（/）ではじめるべき&lt;x1/&gt;ではありません&lt;x2/&gt;。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -6418,6 +6594,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215511Z" creationid="Toru Kokubun" creationdate="20180419T215511Z">
         <seg>リッチテキストフィールド&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Routes in &lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; generally follow this syntax:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220239Z" creationid="Toru Kokubun" creationdate="20180429T220239Z">
+        <seg>&lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; のルートは、一般的に次のような構文になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7814,6 +7998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first setting can contain “tokens”, which represent a range of possible matches, rather than a specific string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213620Z" creationid="Toru Kokubun" creationdate="20180429T213620Z">
+        <seg>最初の設定には、特定の文字列ではなく、マッチ可能な範囲を意味する「トークン」を含めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first step of the installer is to accept the &lt;x1/&gt;license agreement&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215604Z" creationid="Toru Kokubun" creationdate="20180426T215604Z">
@@ -7982,10 +8174,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following tokens are available to the URI setting:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214806Z" creationid="Toru Kokubun" creationdate="20180429T214806Z">
+        <seg>URI 設定では、次のトークンが利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The format of the category URI</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212144Z" creationid="Toru Kokubun" creationdate="20180427T212144Z">
         <seg>カテゴリ URI 形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The modal has the following settings:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213023Z" creationid="Toru Kokubun" creationdate="20180429T213009Z">
+        <seg>モーダルの設定は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The modal will close, revealing your new route on the page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214455Z" creationid="Toru Kokubun" creationdate="20180429T214455Z">
+        <seg>モーダルが閉じ、ページに新しいルートが表示されるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8002,6 +8218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213604Z" creationid="Toru Kokubun" creationdate="20180427T213528Z">
         <seg>新しいフィールドは、カテゴリグループのフィールドレイアウトに割り当てられるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The only Craft-specific addition is support for template routes (&lt;x3/&gt;['template' =&gt; 'some/template']&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T221005Z" creationid="Toru Kokubun" creationdate="20180429T220635Z">
+        <seg>Craft が独自に追加しているのは、テンプレートのルート（&lt;x3/&gt;['template' =&gt; 'some/template']&lt;x4/&gt;）のサポートだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8106,6 +8330,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001737Z" creationid="Toru Kokubun" creationdate="20180428T001732Z">
         <seg>インストール中に作成したユーザーアカウントが、デフォルトで管理者になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The value of the "year" token will also be available to the template as a variable called &lt;x1/&gt;year&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214657Z" creationid="Toru Kokubun" creationdate="20180429T214657Z">
+        <seg>"year" トークンの値は、&lt;x1/&gt;year&lt;x2/&gt; と呼ばれる変数としてテンプレートで利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8472,7 +8704,7 @@
       <tuv lang="EN-US">
         <seg>This information can helpful to you when troubleshooting template loading, plugin action URLs, dynamic routes, and unexpected 404 errors.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035045Z" creationid="Toru Kokubun" creationdate="20180429T020311Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T222242Z" creationid="Toru Kokubun" creationdate="20180429T020311Z">
         <seg>この情報は、テンプレートの読み込み、プラグインのアクション URL、動的なルート、および、予期しない 404 エラーのトラブルシューティングに役立ちます。</seg>
       </tuv>
     </tu>
@@ -8666,6 +8898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
         <seg>新しい Craft プロジェクトを作成するため、次のコマンドを実行してください。（Composer が作成するプロジェクトのパスの代わりに&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; と記載しています。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a new Route, go to Settings → Routes and click the New Route button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212849Z" creationid="Toru Kokubun" creationdate="20180429T212849Z">
+        <seg>新しいルートを作成するには、「設定 &gt; ルート」に移動し、「新規ルート」ボタンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9494,6 +9734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What should the URI look like?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213048Z" creationid="Toru Kokubun" creationdate="20180429T213048Z">
+        <seg>URI がどのように見えるか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What the entries’ URLs should look like</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012552Z" creationid="Toru Kokubun" creationdate="20180422T014631Z">
@@ -9554,6 +9802,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015740Z" creationid="Toru Kokubun" creationdate="20180429T015701Z">
         <seg>Craft にリクエストが届くと、リクエストの送り先を決定するためにチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a request comes in, Craft checks this file first, and then the routes defined in Settings → Routes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220147Z" creationid="Toru Kokubun" creationdate="20180429T220147Z">
+        <seg>リクエストが届くと、Craft は初めにこのファイルをチェックし、次に「設定 &gt; ルート」に定義されたルートをチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9670,6 +9926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you point your browser to &lt;x1/&gt;http://example.com/news/archive/2017&lt;x2/&gt;, it will match your new route, and Craft will load the specified template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T222326Z" creationid="Toru Kokubun" creationdate="20180429T214604Z">
+        <seg>ブラウザが &lt;x1/&gt;http://example.com/news/archive/2017&lt;x2/&gt; を指し示すとき、新しいルートがマッチし、Craft は指定されたテンプレートを読み込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you select a nested category, all of the ancestors leading up to that category will also automatically be selected.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T024851Z" creationid="Toru Kokubun" creationdate="20180424T024555Z">
@@ -9738,6 +10002,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012604Z" creationid="Toru Kokubun" creationdate="20180422T014703Z">
         <seg>エントリの URL がリクエストされたとき、どのテンプレートを読み込むか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Which template should get loaded?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T222203Z" creationid="Toru Kokubun" creationdate="20180429T213058Z">
+        <seg>どのテンプレートを読み込むか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -10002,6 +10274,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214505Z" creationid="Toru Kokubun" creationdate="20180426T214429Z">
         <seg>&lt;x1/&gt;ターミナル&lt;x2/&gt; または &lt;x3/&gt;ウェブブラウザ&lt;x4/&gt; から実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find a full specification for defining URL rules and routes at the &lt;x1/&gt;Yii documentation&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220546Z" creationid="Toru Kokubun" creationdate="20180429T220546Z">
+        <seg>URL ルールとルートを定義するための完全な仕様は、&lt;x1/&gt;Yii documentation&lt;x2/&gt; を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10470,6 +10750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>day&lt;x1/&gt; – Day of a month (1-31 or 01-31)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215220Z" creationid="Toru Kokubun" creationdate="20180429T215220Z">
+        <seg>day&lt;x1/&gt; – 月の特定の日（1-31 または 01-31）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>element&lt;x1/&gt;, &lt;x2/&gt;sourceElement&lt;x3/&gt;, or &lt;x4/&gt;targetElement&lt;x5/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002621Z" creationid="Toru Kokubun" creationdate="20180429T002555Z">
@@ -10526,10 +10814,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>month&lt;x1/&gt; – Numeric representation of a month (1-12 or 01-12)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215308Z" creationid="Toru Kokubun" creationdate="20180429T215308Z">
+        <seg>month&lt;x1/&gt; – 月の数値表現（1-12 または 01-12）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mutex/&lt;x1/&gt; – Stores file lock data.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004630Z" creationid="Toru Kokubun" creationdate="20180422T004630Z">
         <seg>mutex/&lt;x1/&gt; – ファイルロックデータを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>number&lt;x1/&gt; – Any positive integer</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215332Z" creationid="Toru Kokubun" creationdate="20180429T215332Z">
+        <seg>number&lt;x1/&gt; – 任意の正の整数</seg>
       </tuv>
     </tu>
     <tu>
@@ -10546,6 +10850,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065758Z" creationid="Toru Kokubun" creationdate="20180420T065758Z">
         <seg>ownerSite&lt;x1/&gt; または &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>page&lt;x1/&gt; – Any positive integer</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215345Z" creationid="Toru Kokubun" creationdate="20180429T215345Z">
+        <seg>page&lt;x1/&gt; – 任意の正の整数</seg>
       </tuv>
     </tu>
     <tu>
@@ -10638,6 +10950,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>slug&lt;x1/&gt; – Any string of characters, except for a forward slash (/)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215358Z" creationid="Toru Kokubun" creationdate="20180429T215358Z">
+        <seg>slug&lt;x1/&gt; – スラッシュ（/）を除く、任意の文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tag&lt;x1/&gt; – Any string of characters, except for a forward slash (/)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215403Z" creationid="Toru Kokubun" creationdate="20180429T215403Z">
+        <seg>tag&lt;x1/&gt; – スラッシュ（/）を除く、任意の文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>temp/&lt;x1/&gt; – Stores temp files.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004640Z" creationid="Toru Kokubun" creationdate="20180422T004640Z">
@@ -10690,6 +11018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232621Z" creationid="Toru Kokubun" creationdate="20180420T232449Z">
         <seg>SQL に &lt;x1/&gt;ORDER BY&lt;x2/&gt; 句が存在しない場合、反転できるものがありません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>year&lt;x1/&gt; – Four consecutive digits</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215429Z" creationid="Toru Kokubun" creationdate="20180429T215429Z">
+        <seg>year&lt;x1/&gt; – 4桁の連続する数字</seg>
       </tuv>
     </tu>
     <tu>
@@ -10814,10 +11150,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>– Any string of characters, except for a forward slash (/)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215058Z" creationid="Toru Kokubun" creationdate="20180429T215058Z">
+        <seg>– スラッシュ（/）を除く、任意の文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>…and replace everything below it with:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221417Z" creationid="Toru Kokubun" creationdate="20180418T221019Z">
         <seg>そして、それ以下の行をすべて置き換えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>…if you access &lt;x1/&gt;http://example.com/news/2020/10&lt;x2/&gt;, your &lt;x3/&gt;news/_archive.html&lt;x4/&gt; template will get loaded with &lt;x5/&gt;year&lt;x6/&gt; and &lt;x7/&gt;month&lt;x8/&gt; variables set to &lt;x9/&gt;'2017'&lt;x10/&gt; and &lt;x11/&gt;'04'&lt;x12/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T223102Z" creationid="Toru Kokubun" creationdate="20180429T222858Z">
+        <seg>&lt;x1/&gt;http://example.com/news/2020/10&lt;x2/&gt; にアクセスすると、&lt;x3/&gt;news/_archive.html&lt;x4/&gt; テンプレートは &lt;x5/&gt;year&lt;x6/&gt; と &lt;x7/&gt;month&lt;x8/&gt; 変数に &lt;x9/&gt;2017&lt;x10/&gt; と &lt;x11/&gt;04&lt;x12/&gt; をセットした状態で読み込まれます。</seg>
       </tuv>
     </tu>
     <tu>
