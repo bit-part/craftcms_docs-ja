@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(optional)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002628Z" creationid="Toru Kokubun" creationdate="20180429T002628Z">
+        <seg>（オプション）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(see [`last()`](&lt;x1/&gt;last))&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230053Z" creationid="Toru Kokubun" creationdate="20180420T230048Z">
@@ -210,6 +218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090414Z" creationid="Toru Kokubun" creationdate="20180415T090405Z">
         <seg>&lt;x3/&gt;craftcms/craft&lt;x4/&gt; プロジェクトと一緒にプリインストールされる &lt;x1/&gt;PHP dotenv&lt;x2/&gt; が、&lt;x5/&gt;.env&lt;x6/&gt; ファイルを処理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;x1/&gt;craft\elements\Asset&lt;x2/&gt;, &lt;x3/&gt;craft\elements\Category&lt;x4/&gt;, &lt;x5/&gt;craft\elements\Entry&lt;x6/&gt;, &lt;x7/&gt;craft\elements\User&lt;x8/&gt;, or &lt;x9/&gt;craft\elements\Tag&lt;x10/&gt; object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001900Z" creationid="Toru Kokubun" creationdate="20180429T001900Z">
+        <seg>&lt;x1/&gt;craft\elements\Asset&lt;x2/&gt;、&lt;x3/&gt;craft\elements\Category&lt;x4/&gt;、&lt;x5/&gt;craft\elements\Entry&lt;x6/&gt;、&lt;x7/&gt;craft\elements\User&lt;x8/&gt;、または &lt;x9/&gt;craft\elements\Tag&lt;x10/&gt; オブジェクト</seg>
       </tuv>
     </tu>
     <tu>
@@ -478,6 +494,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An array of element objects and/or IDs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004330Z" creationid="Toru Kokubun" creationdate="20180429T002023Z">
+        <seg>エレメントオブジェクト、および／または、 ID の配列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An element’s ID</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001922Z" creationid="Toru Kokubun" creationdate="20180429T001922Z">
+        <seg>エレメントの ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Android: Chrome 4.4 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015411Z" creationid="Toru Kokubun" creationdate="20180415T015411Z">
@@ -558,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assets Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232811Z" creationid="Toru Kokubun" creationdate="20180428T232811Z">
+        <seg>アセットフィールド&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assets Index</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235224Z" creationid="Toru Kokubun" creationdate="20180427T234205Z">
@@ -598,6 +638,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assets, Categories, Entries, Users, and Tags each support a &lt;x1/&gt;relatedTo&lt;x2/&gt; parameter, enabling all kinds of crazy things.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001657Z" creationid="Toru Kokubun" creationdate="20180429T001540Z">
+        <seg>アセット、カテゴリ、エントリ、ユーザー、およびタグは、それぞれ &lt;x1/&gt;relatedTo&lt;x2/&gt; パラメータをサポートし、あらゆる種類のとんでもないことを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assets&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011934Z" creationid="Toru Kokubun" creationdate="20180414T011934Z">
@@ -618,6 +666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215401Z" creationid="Toru Kokubun" creationdate="20180427T215401Z">
         <seg>カテゴリの割り当て</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assigning Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231801Z" creationid="Toru Kokubun" creationdate="20180428T231801Z">
+        <seg>タグの割り当て</seg>
       </tuv>
     </tu>
     <tu>
@@ -670,6 +726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before working with relations in Craft, it's important to grasp the following terms, as they are relevant to the templating side of things.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234717Z" creationid="Toru Kokubun" creationdate="20180428T233535Z">
+        <seg>Craft のリレーションを操作する前に、それがテンプレート記法に関連するため、次の用語を把握することが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before you begin, make sure that:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063448Z" creationid="Toru Kokubun" creationdate="20180418T063448Z">
@@ -680,16 +744,24 @@
       <tuv lang="EN-US">
         <seg>Before you can create categories, you must create Category Groups to contain them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211748Z" creationid="Toru Kokubun" creationdate="20180427T211748Z">
-        <seg>カテゴリを作成する前に、それらを含むカテゴリグループを作成しなければなりません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231046Z" creationid="Toru Kokubun" creationdate="20180427T211748Z">
+        <seg>カテゴリを作成する前に、それらを含めるためのカテゴリグループを作成しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Before you can create entries, you must create Sections to contain them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012537Z" creationid="Toru Kokubun" creationdate="20180422T014422Z">
-        <seg>エントリを作成する前に、それらを含むセクションを作成しなければなりません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231059Z" creationid="Toru Kokubun" creationdate="20180422T014422Z">
+        <seg>エントリを作成する前に、それらを含めるためのセクションを作成しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before you can create tags, you must create Tag Groups to contain them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231038Z" creationid="Toru Kokubun" creationdate="20180428T231038Z">
+        <seg>タグを作成する前に、それらを含めるためのタググループを作成しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -754,6 +826,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213534Z" creationid="Toru Kokubun" creationdate="20180425T213534Z">
         <seg>デフォルトでは、行列フィールドは最初の100ブロックを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By doing that, Craft will return all of the elements related to the given element(s), regardless of which one’s the source or target.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002244Z" creationid="Toru Kokubun" creationdate="20180429T002244Z">
+        <seg>それによって、ソースかターゲットかに関わらず、Craft は与えられたエレメントに関連するすべてのエレメントを返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -830,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling the source's relational field handle (&lt;x1/&gt;ingredients&lt;x2/&gt;) returns an Element Criteria Model that can output the field’s target elements, in the field-defined order.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001230Z" creationid="Toru Kokubun" creationdate="20180429T000942Z">
+        <seg>ソースの関連フィールドのハンドル（&lt;x1/&gt;ingredients&lt;x2/&gt;）を呼び出すと、そのフィールドのターゲットエレメントをフィールドに定義された順番で出力することができる Element Criteria Model が返ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Categories</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T211328Z" creationid="Toru Kokubun" creationdate="20180427T211328Z">
@@ -842,6 +930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022511Z" creationid="Toru Kokubun" creationdate="20180424T022511Z">
         <seg>カテゴリフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Categories Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232821Z" creationid="Toru Kokubun" creationdate="20180428T232821Z">
+        <seg>カテゴリフィールド&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1194,6 +1290,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013721Z" creationid="Toru Kokubun" creationdate="20180422T100358Z">
         <seg>クリックすると、エントリのインデックスに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clicking on this will take you to a page that lists all of your Global Sets in a sidebar, as well as all of the fields associated with the selected Global Set in the main content area.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221531Z" creationid="Toru Kokubun" creationdate="20180428T221531Z">
+        <seg>これをクリックすると、サイドバーにすべてのグローバル設定のリスト、メインコンテンツエリアに選択されたグローバル設定に関連するすべてのフィールドが表示されたページに移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,6 +1734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft comes with five relational field types:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001127Z" creationid="Toru Kokubun" creationdate="20180428T232638Z">
+        <seg>Craft は次の5つの関連フィールドタイプがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft comes with the following built-in field types:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011558Z" creationid="Toru Kokubun" creationdate="20180423T011558Z">
@@ -1642,6 +1754,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000738Z" creationid="Toru Kokubun" creationdate="20180428T000738Z">
         <seg>Craft は&lt;x1/&gt;インストール&lt;x2/&gt;中に最初のユーザーアカウントを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft has a powerful engine for relating elements to one another.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232354Z" creationid="Toru Kokubun" creationdate="20180428T232354Z">
+        <seg>Craft は、エレメントを互いに関連付けるための強力なエンジンを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1682,6 +1802,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014616Z" creationid="Toru Kokubun" creationdate="20180421T014413Z">
         <seg>Craft は、あなたのウェブサイトのレイアウトに無関心です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft organizes Globals into Global Sets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221218Z" creationid="Toru Kokubun" creationdate="20180428T220248Z">
+        <seg>Craft はグローバル設定内でグローバルを整理します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2190,6 +2318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Drink Recipe Entry: Source</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234552Z" creationid="Toru Kokubun" creationdate="20180428T234552Z">
+        <seg>ドリンクレシピエントリ：ソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dropdown Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012802Z" creationid="Toru Kokubun" creationdate="20180425T012802Z">
@@ -2286,6 +2422,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each Global Set has its own &lt;x1/&gt;field layout&lt;x2/&gt; using any of the existing fields or new fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221223Z" creationid="Toru Kokubun" creationdate="20180428T220357Z">
+        <seg>それぞれのグローバル設定は、存在するすべてのフィールドや新しいフィールドを利用する独自の&lt;x1/&gt;フィールドレイアウト&lt;x2/&gt;を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each Tags field is connected to a single tag group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232026Z" creationid="Toru Kokubun" creationdate="20180428T232026Z">
+        <seg>それぞれのタグフィールドは、1つのタググループに接続されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each block has a settings menu that reveals additional things you can do with the block.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122853Z" creationid="Toru Kokubun" creationdate="20180425T122758Z">
@@ -2342,10 +2494,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each relation involves two elements:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T233830Z" creationid="Toru Kokubun" creationdate="20180428T233830Z">
+        <seg>それぞれのリレーションは2つのエレメントを必要とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each row is a sub-array which holds each of the columns’ values for that row.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011823Z" creationid="Toru Kokubun" creationdate="20180426T011756Z">
         <seg>それぞれの行は、その行の列ごとの値を保持するサブ配列です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each tag group holds a unique set of tags, and lets you define a custom set of &lt;x1/&gt;fields&lt;x2/&gt; that should be available to tags within the group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231400Z" creationid="Toru Kokubun" creationdate="20180428T231400Z">
+        <seg>それぞれのタググループには、ユニークなタグのセットがあり、グループ内のタグが利用可能な独自の&lt;x1/&gt;フィールド&lt;x2/&gt;のセットを定義できます。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -2562,6 +2730,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014539Z" creationid="Toru Kokubun" creationdate="20180425T014539Z">
         <seg>エントリフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entries Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232827Z" creationid="Toru Kokubun" creationdate="20180428T232827Z">
+        <seg>エントリフィールド&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2918,6 +3094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For additional Global Set properties you can ise besides your custom fields see &lt;x1/&gt;craft\elements\GlobalSet&lt;x2/&gt; for a full reference.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223116Z" creationid="Toru Kokubun" creationdate="20180428T222851Z">
+        <seg>カスフィールド以外で利用できる追加のグローバル設定のプロパティについては、リファレンスの &lt;x1/&gt;craft\elements\GlobalSet&lt;x2/&gt; を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you have a template located at &lt;x1/&gt;craft/templates/recipes/entry.html&lt;x2/&gt;, the following template paths would point to it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000616Z" creationid="Toru Kokubun" creationdate="20180427T000251Z">
@@ -3070,10 +3254,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Getting Target Elements via the Source Element</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T000108Z" creationid="Toru Kokubun" creationdate="20180429T000108Z">
+        <seg>ソースエレメントを経由したターゲットエレメントの取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Getting the total number of blocks</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214220Z" creationid="Toru Kokubun" creationdate="20180425T214037Z">
         <seg>ブロックの総数の取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Sets in Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221910Z" creationid="Toru Kokubun" creationdate="20180428T221910Z">
+        <seg>テンプレートでのグローバル設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Sets with Multiple Sites</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223153Z" creationid="Toru Kokubun" creationdate="20180428T223153Z">
+        <seg>複数サイトとグローバル設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -3090,6 +3298,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024126Z" creationid="Toru Kokubun" creationdate="20180423T015924Z">
         <seg>グローバル設定&lt;x1/&gt;は、「設定 &gt; グローバル &gt; &lt;x2/&gt;グローバル設定名&lt;x4/&gt; &gt; フィールドレイアウト」で定義されたそれぞれのフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Globals</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215524Z" creationid="Toru Kokubun" creationdate="20180428T215524Z">
+        <seg>グローバル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Globals store content that is available globally throughout your templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215939Z" creationid="Toru Kokubun" creationdate="20180428T215939Z">
+        <seg>グローバルは、テンプレート全体で包括的に利用可能なコンテンツを格納できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3230,6 +3454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How does this look in practice?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234238Z" creationid="Toru Kokubun" creationdate="20180428T234224Z">
+        <seg>これは実際にどのように見えるのでしょう？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to Use the Documentation</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235559Z" creationid="Toru Kokubun" creationdate="20180414T235509Z">
@@ -3258,6 +3490,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054640Z" creationid="Toru Kokubun" creationdate="20180420T054640Z">
         <seg>しかしながら、このフォルダはウェブルートよりも上位階層にあるため、HTTP リクエストでアクセスできません。 そのため、このボリュームをアクセスできる状態にするまで、ユーサーフォトはフロントエンドで動作しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, you can set the values in those sets on a per site basis, even leaving some fields blank, if desired.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223522Z" creationid="Toru Kokubun" creationdate="20180428T223522Z">
+        <seg>しかしながら、必要に応じていくつかのフィールドを空のままにするなど、それぞれの設定値をサイトごとにセットできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, you don't need to assign any fields to the Tag Group Field Layout in order to use the group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231745Z" creationid="Toru Kokubun" creationdate="20180428T231657Z">
+        <seg>しかしながら、そのグループを利用するために、必ずしもタググループのフィールドレイアウトでフィールドを割り当てる必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3430,6 +3678,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If we have an entry for a drink recipe where we select the ingredients as relationships (via an Entries Field), we'd label the elements as follows:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234623Z" creationid="Toru Kokubun" creationdate="20180428T234505Z">
+        <seg>（エントリフィールド経由で）関連する要素を選択したドリンクレシピ向けのエントリがある場合、エレメントに次のようにラベル付けします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If we want to output the ingredients list for a drink recipe, we'd use the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001310Z" creationid="Toru Kokubun" creationdate="20180429T001310Z">
+        <seg>ドリンクレシピの原材料リストを出力したい場合は、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are including a Checkboxes field on a front-end &lt;x1/&gt;entry from&lt;x2/&gt;, make sure to include a hidden input before the checkboxes, so that an empty value is submitted if no checkboxes are checked.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T002130Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
@@ -3526,6 +3790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have a Global Set with the handle &lt;x1/&gt;companyInfo&lt;x2/&gt; and it has a field with the handle &lt;x3/&gt;yearEstablished&lt;x4/&gt;, you can access that field anywhere using this code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T222238Z" creationid="Toru Kokubun" creationdate="20180428T222217Z">
+        <seg>&lt;x1/&gt;companyInfo&lt;x2/&gt; というハンドルのグローバル設定があり、&lt;x3/&gt;yearEstablished&lt;x4/&gt; というハンドルのフィールドがある場合、次のコードを使用してそのフィールドへどこからでもアクセスすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have a need to do something that is not possible out-of-the-box with Craft or Twig, you can create a &lt;x1/&gt;plugin&lt;x2/&gt; that provides a new &lt;x3/&gt;Twig extension&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T234821Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
@@ -3602,6 +3874,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T222648Z" creationid="Toru Kokubun" creationdate="20180420T222626Z">
         <seg>Craft 2 動作に影響を与えるテンプレートがある場合、&lt;x1/&gt;clone()&lt;x2/&gt; ファンクションを用いて修正できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have at least one Global Set, Craft will add a new “Globals” item added to the Control Panel primary navigation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221357Z" creationid="Toru Kokubun" creationdate="20180428T221357Z">
+        <seg>少なくとも1つのグローバル設定があれば、Craft はコントロールパネルのメインナビゲーションに「グローバル」項目を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3702,6 +3982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you run multiple sites with Craft, Global Sets are available in all sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223255Z" creationid="Toru Kokubun" creationdate="20180428T223255Z">
+        <seg>Craft で複数サイトを実行している場合、グローバル設定はすべてのサイトで利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you see the update prompt, you did everything right!</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221637Z" creationid="Toru Kokubun" creationdate="20180418T221637Z">
@@ -3738,6 +4026,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T020905Z" creationid="Toru Kokubun" creationdate="20180424T020905Z">
         <seg>フロントエンドの&lt;x1/&gt;エントリフォーム&lt;x2/&gt;から、アセットフィールドへのファイルアップロードをユーザーに許可するには、2つの調整が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to be a little more specific, &lt;x1/&gt;relatedTo&lt;x2/&gt; also accepts an object that contains the following properties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002527Z" creationid="Toru Kokubun" creationdate="20180429T002436Z">
+        <seg>もう少し具体的であることを望むなら、&lt;x1/&gt;relatedTo&lt;x2/&gt; は次のプロパティを含むオブジェクトも受け入れます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3974,6 +4270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’ve already got a hold of the source element in your template, like in the example below where we're outputting the Drink entry, you can access its target elements for a particular field in the same way you access any other field’s value: by the handle.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T000720Z" creationid="Toru Kokubun" creationdate="20180429T000230Z">
+        <seg>「ドリンク」エントリを出力している以下の例のように、すでにテンプレート内でソースレメントを保持している場合は、他のフィールドの値にアクセスするのと同じ方法、すなわちハンドルによって、特定のフィールドのターゲットエレメントにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you’ve done everything right so far, you should be greeted by Craft’s Setup Wizard.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215503Z" creationid="Toru Kokubun" creationdate="20180426T215436Z">
@@ -4042,6 +4346,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234938Z" creationid="Toru Kokubun" creationdate="20180414T234938Z">
         <seg>一般的に、誰かがあたなにやめるよう頼んだなら、その時点でやめてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In its simplest form, you can pass in one of these things to it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001828Z" creationid="Toru Kokubun" creationdate="20180429T001828Z">
+        <seg>最も単純な書式としては、次のいずれかを渡すことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4122,6 +4434,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000432Z" creationid="Toru Kokubun" creationdate="20180427T000432Z">
         <seg>インデックステンプレート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ingredients: Target</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234602Z" creationid="Toru Kokubun" creationdate="20180428T234602Z">
+        <seg>原材料：ターゲット</seg>
       </tuv>
     </tu>
     <tu>
@@ -4338,6 +4658,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222332Z" creationid="Toru Kokubun" creationdate="20180418T222332Z">
         <seg>それは、もはや必要ありません。Craft 3 は &lt;x3/&gt;vendor/craftcms/cms/&lt;x4/&gt; に配置されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just like the other field types, you can add these to your &lt;x1/&gt;section&lt;x2/&gt;, &lt;x3/&gt;user&lt;x4/&gt;, &lt;x5/&gt;asset&lt;x6/&gt;, &lt;x7/&gt;category group&lt;x8/&gt;, &lt;x9/&gt;tag group&lt;x10/&gt;, and &lt;x11/&gt;global sets&lt;x12/&gt;’ field layouts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001553Z" creationid="Toru Kokubun" creationdate="20180428T233021Z">
+        <seg>他のフィールドタイプと同様に、これらを&lt;x1/&gt;セクション&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、&lt;x5/&gt;アセット&lt;x6/&gt;、&lt;x7/&gt;カテゴリグループ&lt;x8/&gt;、&lt;x9/&gt;タググループ&lt;x10/&gt;、および&lt;x11/&gt;グローバル設定&lt;x12/&gt;のフィールドレイアウトに追加できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4974,6 +5302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now we can assign the ingredients to each Drink entry via the new Ingredients relation field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T235621Z" creationid="Toru Kokubun" creationdate="20180428T235557Z">
+        <seg>これで、それぞれのドリンクエントリに新しい「原材料」フィールドから原材料を割り当てることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now we need to create the fields to hold our content within that Section.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012700Z" creationid="Toru Kokubun" creationdate="20180421T012649Z">
@@ -5130,6 +5466,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215814Z" creationid="Toru Kokubun" creationdate="20180415T084259Z">
         <seg>インストールが終わったとき、プロジェクトディレクトリは以下のようなファイル構成になっているべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once we have our relations field set up, we can look at the options for outputting related elements in our templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T000036Z" creationid="Toru Kokubun" creationdate="20180429T000036Z">
+        <seg>リレーションフィールドをセットアップすると、テンプレート内で関連するエレメントを出力するためのオプションを見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5686,6 +6030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Relations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232236Z" creationid="Toru Kokubun" creationdate="20180428T232236Z">
+        <seg>リレーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Relations&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011950Z" creationid="Toru Kokubun" creationdate="20180414T011950Z">
@@ -6102,6 +6454,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set the &lt;x1/&gt;field&lt;x2/&gt; property if you want to limit the scope to relations created by a particular field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004527Z" creationid="Toru Kokubun" creationdate="20180429T003931Z">
+        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合は、&lt;x1/&gt;field&lt;x2/&gt; プロパティをセットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;x1/&gt;sourceLocale&lt;x2/&gt; property if you want to limit the scope to relations created from a particular field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004630Z" creationid="Toru Kokubun" creationdate="20180429T004630Z">
+        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合は、&lt;x1/&gt;sourceLocale&lt;x2/&gt; プロパティをセットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the Key Manually</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212814Z" creationid="Toru Kokubun" creationdate="20180426T212814Z">
@@ -6138,6 +6506,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061349Z" creationid="Toru Kokubun" creationdate="20180420T061349Z">
         <seg>フォルダに対応する正しい「ベース URL」を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the first property’s key depending on what you want to get back:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002849Z" creationid="Toru Kokubun" creationdate="20180429T002808Z">
+        <seg>最初のプロパティのキーは、取得したいものにあわせてセットしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6290,6 +6666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020939Z" creationid="Toru Kokubun" creationdate="20180421T020939Z">
         <seg>そこにはいくつかのフォルダが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source&lt;x1/&gt; element - it has the relational field, where you selected the other element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234121Z" creationid="Toru Kokubun" creationdate="20180428T233840Z">
+        <seg>ソース&lt;x1/&gt;エレメント - 他のエレメントを選択した関連フィールドを持つもの</seg>
       </tuv>
     </tu>
     <tu>
@@ -6566,6 +6950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tag Groups</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231002Z" creationid="Toru Kokubun" creationdate="20180428T231002Z">
+        <seg>タググループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag Query Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011923Z" creationid="Toru Kokubun" creationdate="20180426T011923Z">
@@ -6574,10 +6966,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223842Z" creationid="Toru Kokubun" creationdate="20180428T223842Z">
+        <seg>タグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tags Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011846Z" creationid="Toru Kokubun" creationdate="20180426T011846Z">
         <seg>タグフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232834Z" creationid="Toru Kokubun" creationdate="20180428T232834Z">
+        <seg>タグフィールド&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6658,6 +7066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013154Z" creationid="Toru Kokubun" creationdate="20180426T012845Z">
         <seg>ターゲットロケール&lt;x1/&gt; – 作成・関連付けされるタグのロケール（この設定は複数のサイトロケールを持つ Craft Pro が実行されている場合のみ、表示されます）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Target&lt;x1/&gt; element - the one selected by the source.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T233957Z" creationid="Toru Kokubun" creationdate="20180428T233850Z">
+        <seg>ターゲット&lt;x1/&gt;エレメント - ソースによって選択されたエレメント</seg>
       </tuv>
     </tu>
     <tu>
@@ -6790,6 +7206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Terminology</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T233135Z" creationid="Toru Kokubun" creationdate="20180428T233126Z">
+        <seg>専門用語</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tests&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094814Z" creationid="Toru Kokubun" creationdate="20180422T094814Z">
@@ -6898,6 +7322,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234438Z" creationid="Toru Kokubun" creationdate="20180420T234438Z">
         <seg>&lt;x1/&gt;redirectInput()&lt;x2/&gt; ファンクションは、ショートカットとして提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;relatedTo&lt;x2/&gt; Parameter</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001431Z" creationid="Toru Kokubun" creationdate="20180429T001431Z">
+        <seg>&lt;x1/&gt;relatedTo&lt;x2/&gt; パラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -7638,6 +8070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They're a convenient way to make non-Entry content easily editable via the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T220140Z" creationid="Toru Kokubun" creationdate="20180428T220039Z">
+        <seg>これは、コントロールパネル経由でエントリではないコンテンツを簡単に編集できるようにする便利な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This behavior has changed in Craft 3, though.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221857Z" creationid="Toru Kokubun" creationdate="20180420T221111Z">
@@ -7870,6 +8310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To assign tags to things (like Entries), you must create a &lt;x1/&gt;Tags field&lt;x2/&gt; and add it to a Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231954Z" creationid="Toru Kokubun" creationdate="20180428T231906Z">
+        <seg>どこか（エントリなど）にタグを割り当てるには、&lt;x1/&gt;タグフィールド&lt;x2/&gt;を作成し、フィールドレイアウトで追加しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To check if your Assets field has any selected assets, you can use the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T013059Z" creationid="Toru Kokubun" creationdate="20180424T013059Z">
@@ -7910,6 +8358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a Global Set, go to Settings → Globals.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221245Z" creationid="Toru Kokubun" creationdate="20180428T220900Z">
+        <seg>グローバル設定を作るには、「設定 &gt; グローバル」に移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
@@ -7938,6 +8394,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020357Z" creationid="Toru Kokubun" creationdate="20180422T020226Z">
         <seg>新しいセクションを作るには、「設定 &gt; セクション」に移動し、「新規セクション」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a new tag group, go to Settings → Tags and click New Tag Group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231149Z" creationid="Toru Kokubun" creationdate="20180428T231149Z">
+        <seg>新しいタググループを作るには、「設定 &gt; タグ」に移動し、「新しいタググループ」ボタンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8054,6 +8518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To set this up, we create a new field of the Entries Field Type, give it the name Ingredients, check Ingredients as the source (the available elements will be from the Ingredients section), and leave the Limit field blank so we can choose as many ingredients as each recipe dictates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T235459Z" creationid="Toru Kokubun" creationdate="20180428T234900Z">
+        <seg>これを設定するために、エントリフィールドタイプの新しいフィールドを作成し、「原材料」という名前を付け、ソース（利用可能なエレメントが原材料セクションに存在するとします）から「原材料」を選択し、それぞれのレシピが必要とする多くの原材料を選択できるようリミット欄を空白のままにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To set your site up with the same directory structure (including the &lt;x1/&gt;PHP dotenv&lt;x2/&gt;-based configuration) as a brand new Craft 3 project, follow these instructions:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T233933Z" creationid="Toru Kokubun" creationdate="20180418T233933Z">
@@ -8070,10 +8542,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To toggle between sites while viewing Global Sets, use the drop-down menu at the top left of the Global Sets page in the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223753Z" creationid="Toru Kokubun" creationdate="20180428T223648Z">
+        <seg>グローバル設定を表示中にサイトを切り替えるには、コントロールパネルのグローバル設定ページの左上にあるドロップダウンメニューを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To update Craft without making any major changes to your site’s directory structure, follow these instructions.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070945Z" creationid="Toru Kokubun" creationdate="20180418T070945Z">
         <seg>サイトのディレクトリ構成を大幅に変更することなく Craft をアップデートするには、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Toggling between sites in Globals&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223814Z" creationid="Toru Kokubun" creationdate="20180428T223728Z">
+        <seg>グローバル内のサイトの切り替え&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8374,6 +8862,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;element&lt;x2/&gt; if you don’t care whether the returned elements are the source or the target of a relation with the element(s) you’re passing in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T003641Z" creationid="Toru Kokubun" creationdate="20180429T003229Z">
+        <seg>返されるエレメントが、渡したエレメントとソースまたはターゲットのどちらで関連付くかを気にしない場合は、&lt;x1/&gt;element&lt;x2/&gt;を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;sourceElement&lt;x2/&gt; if you want to find elements related to the given element, where the given element is the source of the relation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T003715Z" creationid="Toru Kokubun" creationdate="20180429T003303Z">
+        <seg>与えられたエレメントのソースとして関連付くエレメントだけを見つけたい場合は、&lt;x1/&gt;sourceElement&lt;x2/&gt; を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;targetElement&lt;x2/&gt; if you want to find elements related to the given element, where the given element is the target of the relation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T003810Z" creationid="Toru Kokubun" creationdate="20180429T003810Z">
+        <seg>与えられたエレメントのターゲットとして関連付くエレメントだけを見つけたい場合は、&lt;x1/&gt;targetElement&lt;x2/&gt; を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use the &lt;x1/&gt;siteUrl&lt;x2/&gt; config setting instead</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215216Z" creationid="Toru Kokubun" creationdate="20180428T215202Z">
@@ -8434,6 +8946,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014611Z" creationid="Toru Kokubun" creationdate="20180426T014611Z">
         <seg>ユーザーフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users Fields&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232840Z" creationid="Toru Kokubun" creationdate="20180428T232840Z">
+        <seg>ユーザーフィールド&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8698,6 +9218,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215911Z" creationid="Toru Kokubun" creationdate="20180426T233907Z">
         <seg>サイトに必要なものは、何でも機能します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whatever you attach the field to (entries, assets, users, etc.) will be able to create new tags and create &lt;x1/&gt;relations&lt;x2/&gt; to any of the tags within that group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T232218Z" creationid="Toru Kokubun" creationdate="20180428T232218Z">
+        <seg>そのフィールドが付加されたもの（エントリ、アセット、ユーザーなど）は何でも、新しいタグを作成したり、グループに含まれるタグとの&lt;x1/&gt;リレーション&lt;x2/&gt;を持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8998,6 +9526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can access your Global Sets from any template via their handles.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T222010Z" creationid="Toru Kokubun" creationdate="20180428T222010Z">
+        <seg>任意のテンプレートからハンドル経由でグローバル設定にアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add as many blocks to your Matrix field as you’d like (or at least as many as the field’s Max Blocks setting will allow).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122526Z" creationid="Toru Kokubun" creationdate="20180425T122352Z">
@@ -9018,6 +9554,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213333Z" creationid="Toru Kokubun" creationdate="20180427T213333Z">
         <seg>Craft 内で利用可能なすべてのフィールドタイプを使って、フィールドを追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also add any additional parameters supported by the element type:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001410Z" creationid="Toru Kokubun" creationdate="20180429T001410Z">
+        <seg>エレメントタイプでサポートされている追加パラメータを付加することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9090,6 +9634,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031202Z" creationid="Toru Kokubun" creationdate="20180423T031153Z">
         <seg>必要数のコンテンツタブを作成し、類似するフィールドをまとめて分類するために利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create folksonomies for your &lt;x1/&gt;entries&lt;x2/&gt;, &lt;x3/&gt;users&lt;x4/&gt;, and &lt;x5/&gt;assets&lt;x6/&gt; using Tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T230909Z" creationid="Toru Kokubun" creationdate="20180428T230909Z">
+        <seg>タグを利用して、&lt;x1/&gt;エントリ&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、および&lt;x5/&gt;アセット&lt;x6/&gt;の分類を作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9294,6 +9846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can set this to either a field handle or a field ID (or an array of handles and/or IDs).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004405Z" creationid="Toru Kokubun" creationdate="20180429T004148Z">
+        <seg>フィールドハンドルかフィールド ID のいずれか（もしくは、ハンドル、および／または、ID の配列）をセットできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can set up your asset volumes from Settings → Assets.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221236Z" creationid="Toru Kokubun" creationdate="20180427T221236Z">
@@ -9338,6 +9898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014817Z" creationid="Toru Kokubun" creationdate="20180421T014806Z">
         <seg>独自の HTML / CSS / JS レイアウトを利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You create those relationships using relational field types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001118Z" creationid="Toru Kokubun" creationdate="20180428T232600Z">
+        <seg>関連フィールドタイプを利用して、それらの関連性を作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9570,6 +10138,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013203Z" creationid="Toru Kokubun" creationdate="20180420T013203Z">
         <seg>サイト固有の翻訳メッセージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>element&lt;x1/&gt;, &lt;x2/&gt;sourceElement&lt;x3/&gt;, or &lt;x4/&gt;targetElement&lt;x5/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002621Z" creationid="Toru Kokubun" creationdate="20180429T002555Z">
+        <seg>element&lt;x1/&gt;, &lt;x2/&gt;sourceElement&lt;x3/&gt;、または &lt;x4/&gt;targetElement&lt;x5/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9882,6 +10458,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093724Z" creationid="Toru Kokubun" creationdate="20180415T072457Z">
         <seg>ヒント：ZIP ファイルのダウンロードを望むなら、&lt;x1/&gt;craftcms.com&lt;x2/&gt; のヘッダーにあるダウンロードボタンから Craft 3 をダウンロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} Unlike &lt;x1/&gt;entries&lt;x2/&gt;, Global Sets don’t have the Live Preview feature, since they aren’t associated with any one particular URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221835Z" creationid="Toru Kokubun" creationdate="20180428T221815Z">
+        <seg>【ヒント】&lt;x1/&gt;エントリ&lt;x2/&gt;とは異なり、特定の URL と関連付けられていないグローバル設定では、ライブプレビュー機能がありません。</seg>
       </tuv>
     </tu>
     <tu>
