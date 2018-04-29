@@ -88,8 +88,8 @@
       <tuv lang="EN-US">
         <seg>(This step is not limited to entries and categories – plugins are also capable of adding their own types of elements, which can opt to have their own dedicated URLs.)</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T033756Z" creationid="Toru Kokubun" creationdate="20180429T033437Z">
-        <seg>（このステップは、エントリやカテゴリに制限されません。プラグインもまた、自身専用の URL を決めることができる独自のエレメントの種類を追加できます。）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T034950Z" creationid="Toru Kokubun" creationdate="20180429T033437Z">
+        <seg>（このステップは、エントリやカテゴリに制限されません。プラグインもまた、エレメントの種類を追加したり、専用の URL を持つように決めることができます。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -320,8 +320,8 @@
       <tuv lang="EN-US">
         <seg>Action requests either have a URL that begins with &lt;x1/&gt;actions/&lt;x2/&gt; (or whatever your &lt;x3/&gt;actionTrigger&lt;x4/&gt; config setting is set to), or an &lt;x5/&gt;action&lt;x6/&gt; parameter in the POST request or the query string.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T031918Z" creationid="Toru Kokubun" creationdate="20180429T031652Z">
-        <seg>アクションリクエストは、&lt;x1/&gt;actions/&lt;x2/&gt;（または、コンフィグ設定の &lt;x3/&gt;actionTrigger&lt;x4/&gt; にセットされたもの）で始まる URL か、POST リクエストやクエリ文字列に &lt;x5/&gt;action&lt;x6/&gt; パラメータのいずれかを持っています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035834Z" creationid="Toru Kokubun" creationdate="20180429T031652Z">
+        <seg>アクションリクエストは、&lt;x1/&gt;actions/&lt;x2/&gt;（または、コンフィグ設定の &lt;x3/&gt;actionTrigger&lt;x4/&gt; にセットされたもの）ではじまる URL か、POST リクエストやクエリ文字列に &lt;x5/&gt;action&lt;x6/&gt; パラメータのいずれかを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1822,6 +1822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft hides from direct access any template path segments that begin with an underscore.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040120Z" creationid="Toru Kokubun" creationdate="20180429T040056Z">
+        <seg>Craft はアンダースコアではじまるテンプレートパスのセグメントに直接アクセスすることから隠します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft is a content-first CMS that aims to make life enjoyable for developers and content managers alike.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T024846Z" creationid="Toru Kokubun" creationdate="20180414T024846Z">
@@ -2274,6 +2282,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083733Z" creationid="Toru Kokubun" creationdate="20180422T083733Z">
         <seg>ドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Does the URI match a template?&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035440Z" creationid="Toru Kokubun" creationdate="20180429T035433Z">
+        <seg>URI がテンプレートとマッチするか？&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Does the URI match any Dynamic Routes?&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035527Z" creationid="Toru Kokubun" creationdate="20180429T035137Z">
+        <seg>URI が動的なルートとマッチするか？&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3094,6 +3118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, Craft will check if the URI is a valid &lt;x1/&gt;template path&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035652Z" creationid="Toru Kokubun" creationdate="20180429T035601Z">
+        <seg>最後に、Craft はその URI が有効な&lt;x1/&gt;テンプレートパス&lt;x2/&gt;かどうかをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finally, it’s time to run Craft’s Setup Wizard.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214354Z" creationid="Toru Kokubun" creationdate="20180426T214325Z">
@@ -3638,6 +3670,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If it is, Craft will return the matched template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035711Z" creationid="Toru Kokubun" creationdate="20180429T035711Z">
+        <seg>そうであれば、Craft はマッチしたテンプレートを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it outputs a version number, but it’s less than &lt;x1/&gt;1.3.0&lt;x2/&gt;, run the following command to update it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001839Z" creationid="Toru Kokubun" creationdate="20180415T075608Z">
@@ -3686,6 +3726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If none of the above checks are successful, Craft will return a 404.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040455Z" creationid="Toru Kokubun" creationdate="20180429T040455Z">
+        <seg>上記のチェックがいずれも成功しなかった場合、Craf は 404 を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If successful, you will get the Craft installation wizard.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014405Z" creationid="Toru Kokubun" creationdate="20180418T014405Z">
@@ -3730,6 +3778,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032822Z" creationid="Toru Kokubun" creationdate="20180429T032822Z">
         <seg>URL が&lt;x1/&gt;エントリ&lt;x2/&gt;や&lt;x3/&gt;カテゴリ&lt;x4/&gt;の URI にマッチする場合、Craft はセクションのテンプレートかカテゴリグループのテンプレートを読み込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the URI matches any &lt;x1/&gt;dynamic routes&lt;x2/&gt;, the template specified by that route will get loaded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035258Z" creationid="Toru Kokubun" creationdate="20180429T035258Z">
+        <seg>URI がいずれかの&lt;x1/&gt;動的なルート&lt;x2/&gt;にマッチする場合、そのルートで指定されたテンプレートが読み込まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the route contains any tokens, they will be available as variables to that template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035350Z" creationid="Toru Kokubun" creationdate="20180429T035350Z">
+        <seg>ルートにトークンが含まれる場合、そのテンプレートの変数として利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5378,6 +5442,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T222654Z" creationid="Toru Kokubun" creationdate="20180418T222339Z">
         <seg>メモ：&lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリがサーバーの公開ディレクトリ（例：&lt;x3/&gt;public_html/&lt;x4/&gt; 内）にある場合、新しい &lt;x5/&gt;craft/vendor/&lt;x6/&gt; ディレクトリがウェブトラフィックから保護されるよう確認する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: if any of the URI segments begin with an underscore (&lt;x3/&gt;_&lt;x4/&gt;), Craft will return a 404.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035838Z" creationid="Toru Kokubun" creationdate="20180429T035803Z">
+        <seg>メモ：URL セグメントがアンダースコア（&lt;x3/&gt;_&lt;x4/&gt;）ではじまる場合、Craft は 404 を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8400,8 +8472,8 @@
       <tuv lang="EN-US">
         <seg>This information can helpful to you when troubleshooting template loading, plugin action URLs, dynamic routes, and unexpected 404 errors.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T020311Z" creationid="Toru Kokubun" creationdate="20180429T020311Z">
-        <seg>この情報は、テンプレートの読み込み、プラグインのアクション URL、動的なルーティング、および、予期しない 404 エラーのトラブルシューティングに役立ちます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035045Z" creationid="Toru Kokubun" creationdate="20180429T020311Z">
+        <seg>この情報は、テンプレートの読み込み、プラグインのアクション URL、動的なルート、および、予期しない 404 エラーのトラブルシューティングに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9882,6 +9954,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220155Z" creationid="Toru Kokubun" creationdate="20180427T211513Z">
         <seg>カテゴリを利用して、&lt;x1/&gt;エントリ&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、および&lt;x5/&gt;アセット&lt;x6/&gt;の分類を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize your site’s 404 page by placing a &lt;x1/&gt;404.html&lt;x2/&gt; template at the root of your &lt;x3/&gt;craft/templates/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040611Z" creationid="Toru Kokubun" creationdate="20180429T040547Z">
+        <seg>&lt;x3/&gt;craft/templates/&lt;x4/&gt; ディレクトリのルートにある &lt;x1/&gt;404.html&lt;x2/&gt; テンプレートで、サイトの 404 ページをカスタマイズできます。</seg>
       </tuv>
     </tu>
     <tu>
