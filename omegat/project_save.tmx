@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(This step is not limited to entries and categories – plugins are also capable of adding their own types of elements, which can opt to have their own dedicated URLs.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T033756Z" creationid="Toru Kokubun" creationdate="20180429T033437Z">
+        <seg>（このステップは、エントリやカテゴリに制限されません。プラグインもまた、自身専用の URL を決めることができる独自のエレメントの種類を追加できます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(install it globally)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075437Z" creationid="Toru Kokubun" creationdate="20180415T075437Z">
@@ -306,6 +314,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011051Z" creationid="Toru Kokubun" creationdate="20180428T011051Z">
         <seg>システムがオフの場合にサイトにアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Action requests either have a URL that begins with &lt;x1/&gt;actions/&lt;x2/&gt; (or whatever your &lt;x3/&gt;actionTrigger&lt;x4/&gt; config setting is set to), or an &lt;x5/&gt;action&lt;x6/&gt; parameter in the POST request or the query string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T031918Z" creationid="Toru Kokubun" creationdate="20180429T031652Z">
+        <seg>アクションリクエストは、&lt;x1/&gt;actions/&lt;x2/&gt;（または、コンフィグ設定の &lt;x3/&gt;actionTrigger&lt;x4/&gt; にセットされたもの）で始まる URL か、POST リクエストやクエリ文字列に &lt;x5/&gt;action&lt;x6/&gt; パラメータのいずれかを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,6 +742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because of this Craft responds to URLs that don’t point to a valid directory or file in your web root.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T030956Z" creationid="Toru Kokubun" creationdate="20180429T030933Z">
+        <seg>これによって、Craft はウェブルート内の有効なディレクトリやファイルを指し示さない URL に応答します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before working with relations in Craft, it's important to grasp the following terms, as they are relevant to the templating side of things.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234717Z" creationid="Toru Kokubun" creationdate="20180428T233535Z">
@@ -802,6 +826,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012918Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
         <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But if you point your browser directly at a file that &lt;x7/&gt;does&lt;x8/&gt; exist (such as an image URL), your web server will serve that file directly without Craft intervening.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T031403Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
+        <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合は、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1774,6 +1806,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft has system Controller actions for core actions, but plugins may also have Controllers that define their own custom actions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032339Z" creationid="Toru Kokubun" creationdate="20180429T032249Z">
+        <seg>Craft にはコアアクションのためのシステムコントローラーアクションがありますが、プラグインが同様に独自のカスタムアクションを定義したコントローラーを持っている場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft has three different types of sections:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082719Z" creationid="Toru Kokubun" creationdate="20180422T082719Z">
@@ -1802,6 +1842,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014616Z" creationid="Toru Kokubun" creationdate="20180421T014413Z">
         <seg>Craft は、あなたのウェブサイトのレイアウトに無関心です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft makes the matched element available to the template via a pre-populated &lt;x5/&gt;entry&lt;x6/&gt; or &lt;x7/&gt;category&lt;x8/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T033057Z" creationid="Toru Kokubun" creationdate="20180429T033057Z">
+        <seg>Craft はあらかじめ用意された変数 &lt;x5/&gt;entry&lt;x6/&gt; や &lt;x7/&gt;category&lt;x8/&gt; を経由して、マッチしたエレメントをテンプレートで利用可能にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1850,6 +1898,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064608Z" creationid="Toru Kokubun" creationdate="20180415T020420Z">
         <seg>Craft は次の項目が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft routes action requests to a controller action that perform actions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032039Z" creationid="Toru Kokubun" creationdate="20180429T032039Z">
+        <seg>Craft は、アクションを実行するコントローラーアクションに、アクションリクエストをルーティングします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3134,6 +3190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, outputting all of the current user’s favorite drinks that include espresso:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T014854Z" creationid="Toru Kokubun" creationdate="20180429T014757Z">
+        <seg>例えば、エスプレッソを含む現在のユーザーのお気に入りの飲み物をすべて出力するには、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, this would output the source element’s slug if it has one, otherwise its ID:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T001846Z" creationid="Toru Kokubun" creationdate="20180424T001758Z">
@@ -3414,6 +3478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is how Craft handles each request:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T025320Z" creationid="Toru Kokubun" creationdate="20180429T025312Z">
+        <seg>Craft はリクエストを次のように処理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here’s a list of things you used to be able to do in your templates, and what the Craft 3 equivalent is.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063604Z" creationid="Toru Kokubun" creationdate="20180420T063537Z">
@@ -3650,6 +3722,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221959Z" creationid="Toru Kokubun" creationdate="20180422T221959Z">
         <seg>この設定がチェックされている場合、フィールドの値はサイトごとに格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the URI matches an &lt;x1/&gt;entry’s&lt;x2/&gt; or &lt;x3/&gt;category’s&lt;x4/&gt; URI, Craft loads the section’s template or category group’s template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032822Z" creationid="Toru Kokubun" creationdate="20180429T032822Z">
+        <seg>URL が&lt;x1/&gt;エントリ&lt;x2/&gt;や&lt;x3/&gt;カテゴリ&lt;x4/&gt;の URI にマッチする場合、Craft はセクションのテンプレートかカテゴリグループのテンプレートを読み込みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4582,6 +4662,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Is it an action request?&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T031450Z" creationid="Toru Kokubun" creationdate="20180429T031445Z">
+        <seg>それはアクションリクエストか？&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Is it an entry/category request?&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032716Z" creationid="Toru Kokubun" creationdate="20180429T032708Z">
+        <seg>エントリ／カテゴリのリクエストか？&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can be overly technical at times, but we still recommend you read through it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032804Z" creationid="Toru Kokubun" creationdate="20180427T032752Z">
@@ -4658,6 +4754,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180417T220501Z" creationid="Toru Kokubun" creationdate="20180415T220535Z">
         <seg>ドキュメントルートは公開ディレクトリを指しているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s important to keep in mind that Craft doesn’t actually get involved for &lt;x1/&gt;every&lt;x2/&gt; request that touches your server – only requests that go to your &lt;x3/&gt;index.php&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T030407Z" creationid="Toru Kokubun" creationdate="20180429T030149Z">
+        <seg>サーバーに到達する&lt;x1/&gt;すべての&lt;x2/&gt;リクエストに Craft が実際に関係しているわけではなく、&lt;x3/&gt;index.php&lt;x4/&gt; ファイルへのリクエストだけであると念頭におくことが重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6246,6 +6350,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Routing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015420Z" creationid="Toru Kokubun" creationdate="20180429T015420Z">
+        <seg>ルーティング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Routing helps Craft smartly handle requests to your site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015519Z" creationid="Toru Kokubun" creationdate="20180429T015519Z">
+        <seg>ルーティングは、Craft がサイトのリクエストをスマートに処理するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Routing&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011955Z" creationid="Toru Kokubun" creationdate="20180414T011955Z">
@@ -6618,6 +6738,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025809Z" creationid="Toru Kokubun" creationdate="20180418T025809Z">
         <seg>コマンドラインからのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Should Craft handle this request in the first place?&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T025533Z" creationid="Toru Kokubun" creationdate="20180429T025503Z">
+        <seg>このリクエストを Craft が最初に処理するべきか？&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7262,6 +7390,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That first argument (&lt;x1/&gt;'and'&lt;x2/&gt;) specified that the query must match &lt;x3/&gt;all&lt;x4/&gt; of the relation criteria.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015117Z" creationid="Toru Kokubun" creationdate="20180429T015117Z">
+        <seg>最初の引数（&lt;x1/&gt;'and'&lt;x2/&gt;）は、クエリがリレーションの判断基準と&lt;x3/&gt;すべて&lt;x4/&gt;一致しなければならないことを指定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That made it possible to execute variations of an element query, without affecting subsequent queries.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221715Z" creationid="Toru Kokubun" creationdate="20180420T220249Z">
@@ -7330,6 +7466,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090435Z" creationid="Toru Kokubun" creationdate="20180422T090435Z">
         <seg>セクションの入力タイプのインデックスに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;.htaccess&lt;x2/&gt; file that &lt;x3/&gt;comes with Craft&lt;x4/&gt; will redirect all would-be 404 requests over to &lt;x5/&gt;index.php&lt;x6/&gt; behind the scenes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T030714Z" creationid="Toru Kokubun" creationdate="20180429T030636Z">
+        <seg>&lt;x3/&gt;Craft に付属する&lt;x4/&gt; &lt;x1/&gt;.htaccess&lt;x2/&gt; ファイルは、 404 になるであろうすべてのリクエストを内部で &lt;x5/&gt;index.php&lt;x6/&gt; にリダイレクトします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7470,6 +7614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The checks detailed below explain how this process works.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T020128Z" creationid="Toru Kokubun" creationdate="20180429T020128Z">
+        <seg>以下に詳述されたチェック項目は、このプロセスの仕組みを説明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command will ask you a few questions to learn how to connect to your database, and then kick off Craft’s installer.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215024Z" creationid="Toru Kokubun" creationdate="20180426T214849Z">
@@ -7482,6 +7634,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T030337Z" creationid="Toru Kokubun" creationdate="20180427T030327Z">
         <seg>コメント構文は常に &lt;x1/&gt;{&lt;x2/&gt;&lt;x3/&gt; で始まり &lt;x4/&gt;&lt;x5/&gt;}&lt;x6/&gt; で終わります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The controller may allow it to keep going.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032626Z" creationid="Toru Kokubun" creationdate="20180429T032626Z">
+        <seg>コントローラーがそれをキープし続けることを許可するかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7790,6 +7950,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The request doesn’t necessarily end after a controller call.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032558Z" creationid="Toru Kokubun" creationdate="20180429T032558Z">
+        <seg>リクエストが、コントローラーの呼び出し後に必ずしも終了するとは限りません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The same template could also be expressed with this syntax:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T085456Z" creationid="Toru Kokubun" creationdate="20180422T085456Z">
@@ -7986,6 +8154,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070820Z" creationid="Toru Kokubun" creationdate="20180418T070554Z">
         <seg>&lt;x1/&gt;既存のディレクトリ構成を維持する&lt;x2/&gt;か、新規の Craft 3 インストールに似た&lt;x3/&gt;新しい構成へ切り替える&lt;x4/&gt;かによって、Craft のアップデートには2つの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There might be times when you need to factor multiple types of relations into the mix.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T014704Z" creationid="Toru Kokubun" creationdate="20180429T014704Z">
+        <seg>複数のタイプのリレーションを組み合わせる必要がある場合があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8218,6 +8394,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233544Z" creationid="Toru Kokubun" creationdate="20180414T233544Z">
         <seg>これは次のものを含みますが、この限りではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This information can helpful to you when troubleshooting template loading, plugin action URLs, dynamic routes, and unexpected 404 errors.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T020311Z" creationid="Toru Kokubun" creationdate="20180429T020311Z">
+        <seg>この情報は、テンプレートの読み込み、プラグインのアクション URL、動的なルーティング、および、予期しない 404 エラーのトラブルシューティングに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9294,6 +9478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a request comes in to Craft, it checks to determine where to route the request.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015740Z" creationid="Toru Kokubun" creationdate="20180429T015701Z">
+        <seg>Craft にリクエストが届くと、リクエストの送り先を決定するためにチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an update is available, users with the permission to update Craft will see a badge in the CP next to the Utilities navigation item in the sidebar.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003019Z" creationid="Toru Kokubun" creationdate="20180419T002815Z">
@@ -9826,6 +10018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013919Z" creationid="Toru Kokubun" creationdate="20180425T013845Z">
         <seg>選択されたオプションの値を次のように出力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can pass &lt;x5/&gt;'or'&lt;x6/&gt; instead if you want &lt;x7/&gt;any&lt;x8/&gt; of the relation criteria to match.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015304Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
+        <seg>リレーション判断基準の&lt;x7/&gt;いずれか&lt;x8/&gt;とマッチさせたい場合は、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
       </tuv>
     </tu>
     <tu>
