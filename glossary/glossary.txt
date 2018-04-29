@@ -54,3 +54,4 @@ relational field	関連フィールド
 and/or	、および／または、
 Criteria	判定基準
 Element Criteria Model	Element Criteria Model	「エレメントの判定基準モデル」でも問題ないが、モデル名であることから、このままの表記とする
+load	ロード	テンプレートに関わる場合は「ロード」と表現する
