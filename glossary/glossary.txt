@@ -52,3 +52,5 @@ folksonomies	分類
 taxonomies	分類
 relational field	関連フィールド
 and/or	、および／または、
+Criteria	判定基準
+Element Criteria Model	Element Criteria Model	「エレメントの判定基準モデル」でも問題ないが、モデル名であることから、このままの表記とする
