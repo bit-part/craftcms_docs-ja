@@ -48,3 +48,7 @@ rundown	要約
 batch-set	一括設定
 Permission	権限	ユーザーに関する場合は「権限」
 Permission	パーミッション	サーバー設定に関する場合は「パーミッション」
+folksonomies	分類
+taxonomies	分類
+relational field	関連フィールド
+and/or	、および／または、
