@@ -3350,6 +3350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Going Through Matrix</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T005954Z" creationid="Toru Kokubun" creationdate="20180429T005954Z">
+        <seg>行列を経由する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Handle</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221623Z" creationid="Toru Kokubun" creationdate="20180422T221623Z">
@@ -3610,6 +3618,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014405Z" creationid="Toru Kokubun" creationdate="20180418T014405Z">
         <seg>成功していれば、Craft のインストールウィザードが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If that Matrix field has more than one relational field and you want to target a specific one, you can specify the block type field’s handle using a dot notation:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T013703Z" creationid="Toru Kokubun" creationdate="20180429T013628Z">
+        <seg>複数の関連フィールドを持つ行列フィールドにある特定のフィールドだけをターゲットにしたい場合は、ドット表記を利用してブロックタイプのフィールドハンドルを指定できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4034,6 +4050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002527Z" creationid="Toru Kokubun" creationdate="20180429T002436Z">
         <seg>もう少し具体的であることを望むなら、&lt;x1/&gt;relatedTo&lt;x2/&gt; は次のプロパティを含むオブジェクトも受け入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to find elements related to a source element through a &lt;x1/&gt;Matrix&lt;x2/&gt; field, just pass the Matrix field’s handle to the &lt;x3/&gt;field&lt;x4/&gt; parameter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T013334Z" creationid="Toru Kokubun" creationdate="20180429T013214Z">
+        <seg>&lt;x1/&gt;行列&lt;x2/&gt;フィールド内のソースエレメントに関連するエレメントを見つけたい場合は、行列フィールドのハンドルを &lt;x3/&gt;field&lt;x4/&gt; パラメータに渡します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5654,6 +5678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Passing Multiple Relation Criteria</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T014122Z" creationid="Toru Kokubun" creationdate="20180429T013851Z">
+        <seg>複数のリレーションの判定基準を渡す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Paste your security key inside the quotes and save the file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213320Z" creationid="Toru Kokubun" creationdate="20180426T213320Z">
@@ -6458,6 +6490,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004527Z" creationid="Toru Kokubun" creationdate="20180429T003931Z">
         <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合は、&lt;x1/&gt;field&lt;x2/&gt; プロパティをセットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;x1/&gt;sourceLocale&lt;x2/&gt; property if you want to limit the scope to relations created from a particular field (Only do this if you set your relational field to be translatable.).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T005617Z" creationid="Toru Kokubun" creationdate="20180429T005432Z">
+        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合は、&lt;x1/&gt;sourceLocale&lt;x2/&gt; プロパティをセットします（関連フィールドを翻訳可能に設定している場合のみ）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9842,6 +9882,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093805Z" creationid="Toru Kokubun" creationdate="20180419T003628Z">
         <seg>アップデートページの左上にある「すべてを更新」ボタンを使用して、（アップデート可能な Craft とプラグイン）すべてのアップデートを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can set this to a locale ID.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T005658Z" creationid="Toru Kokubun" creationdate="20180429T005658Z">
+        <seg>ロケール ID をここにセットします。</seg>
       </tuv>
     </tu>
     <tu>
