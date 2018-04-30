@@ -36,7 +36,7 @@ Composer がすべてをロードするのに、数分かかるでしょう。�
 - **zip:** <https://craftcms.com/latest-v3.zip>
 - **tar.gz:** <https://craftcms.com/latest-v3.tar.gz>
 
-新しい Craft プロジェクトを実行したい場所でアーカイブを展開します。
+新しい Craft プロジェクトを稼働したい場所でアーカイブを展開します。
 
 > 【メモ】macOS を使用している場合、そこにある不可視ファイル（`.env`、`.env.example`、`.gitignore`、および `web/.htaccess`）を失わないよう注意してください。
 
