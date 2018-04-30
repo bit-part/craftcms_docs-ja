@@ -99,7 +99,7 @@ URI 設定では、次のトークンが利用可能です。
 'news/archive/<year:\d{4}>' => ['template' => 'news/_archive'],
 ```
 
-Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。
+インストールした Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。
 
 ```php
 'news/archive/<year:\d{4}>' => 'news/_archive',
