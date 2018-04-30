@@ -54,3 +54,6 @@ relational field	関連フィールド
 and/or	、および／または、
 Criteria	判定基準
 Element Criteria Model	Element Criteria Model	「エレメントの判定基準モデル」でも問題ないが、モデル名であることから、このままの表記とする
+Beyond that	その他に
+starting point	出発点
+live	稼働	「Craft が動作する」という文脈の場合
