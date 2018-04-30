@@ -238,6 +238,166 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x104/&gt;where the ‘body’ field begins with “salty”.&lt;x105/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233243Z" creationid="Toru Kokubun" creationdate="20180429T233243Z">
+        <seg>&lt;x104/&gt;‘body’ フィールドが「salty」ではじまる&lt;x105/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x110/&gt;where the ‘body’ field is set to “salty dog” and nothing more.&lt;x111/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233342Z" creationid="Toru Kokubun" creationdate="20180429T233342Z">
+        <seg>&lt;x110/&gt;‘body’ フィールドに「salty dog」がセットされ、それ以外のものがない&lt;x111/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x116/&gt;where the ‘body’ field contains &lt;x117/&gt;any&lt;x118/&gt; value.&lt;x119/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233716Z" creationid="Toru Kokubun" creationdate="20180429T233424Z">
+        <seg>&lt;x116/&gt;‘body’ フィールドに&lt;x117/&gt;なんらかの&lt;x118/&gt;値を含む&lt;x119/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x14/&gt;containing the word “salty”.&lt;x15/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233033Z" creationid="Toru Kokubun" creationdate="20180429T231850Z">
+        <seg>&lt;x14/&gt;「salty」という単語を含んでいる&lt;x15/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x20/&gt;where the ‘body’ field contains “salty”.&lt;x21/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231929Z" creationid="Toru Kokubun" creationdate="20180429T231929Z">
+        <seg>&lt;x20/&gt;‘body’ フィールドに「salty」を含む&lt;x21/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x26/&gt;containing both “salty” and “dog”.&lt;x27/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233037Z" creationid="Toru Kokubun" creationdate="20180429T232256Z">
+        <seg>&lt;x26/&gt;「salty」と「dog」の両方を含んでいる&lt;x27/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x32/&gt;where the ‘body’ field contains both “salty” and “dog”.&lt;x33/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232339Z" creationid="Toru Kokubun" creationdate="20180429T232334Z">
+        <seg>&lt;x32/&gt;‘body’ フィールドに「salty」と「dog」の両方を含む&lt;x33/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x38/&gt;containing either “salty” or “dog” (or both).&lt;x39/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233050Z" creationid="Toru Kokubun" creationdate="20180429T232418Z">
+        <seg>&lt;x38/&gt;「salty」または「dog」のいずれか（または、両方）を含んでいる&lt;x39/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x4/&gt;Searching for…&lt;x5/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233758Z" creationid="Toru Kokubun" creationdate="20180429T231714Z">
+        <seg>&lt;x4/&gt;この検索によって&lt;x5/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x44/&gt;where the ‘body’ field contains either “salty” or “dog”.&lt;x45/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232453Z" creationid="Toru Kokubun" creationdate="20180429T232453Z">
+        <seg>&lt;x44/&gt;‘body’ フィールドに「salty」または「dog」のいずれかを含む&lt;x45/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x50/&gt;containing “salty” but not “dog”.&lt;x51/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233102Z" creationid="Toru Kokubun" creationdate="20180429T232527Z">
+        <seg>&lt;x50/&gt;「salty」を含むが「dog」を含んでいない&lt;x51/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x56/&gt;where the ‘body’ field contains “salty” but not “dog”.&lt;x57/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232554Z" creationid="Toru Kokubun" creationdate="20180429T232554Z">
+        <seg>&lt;x56/&gt;‘body’ フィールドに「salty」を含むが「dog」を含まない&lt;x57/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x6/&gt;will find elements…&lt;x7/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233838Z" creationid="Toru Kokubun" creationdate="20180429T231742Z">
+        <seg>&lt;x6/&gt;こちらのエレメントが見つかるでしょう&lt;x7/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x62/&gt;containing the exact phrase “salty dog”.&lt;x63/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233108Z" creationid="Toru Kokubun" creationdate="20180429T232634Z">
+        <seg>&lt;x62/&gt;正確なフレーズとして「salty dog」を含んでいる&lt;x63/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x68/&gt;where the ‘body’ field contains the exact phrase “salty dog”.&lt;x69/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232645Z" creationid="Toru Kokubun" creationdate="20180429T232645Z">
+        <seg>&lt;x68/&gt;‘body’ フィールドに正確なフレーズとして「salty dog」を含む&lt;x69/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x74/&gt;containing “salty” in the ‘en_us’ locale.&lt;x75/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233110Z" creationid="Toru Kokubun" creationdate="20180429T232731Z">
+        <seg>&lt;x74/&gt;‘en_us’ ロケールに「salty」を含んでいる&lt;x75/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x80/&gt;containing a word that begins with “sal”.&lt;x81/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233113Z" creationid="Toru Kokubun" creationdate="20180429T232857Z">
+        <seg>&lt;x80/&gt;「sal」ではじまる単語を含んでいる&lt;x81/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x86/&gt;containing a word that ends with “ty”.&lt;x87/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233117Z" creationid="Toru Kokubun" creationdate="20180429T232914Z">
+        <seg>&lt;x86/&gt;「ty」で終わる単語を含んでいる&lt;x87/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x92/&gt;containing a word that contains “alt”.&lt;x93/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233120Z" creationid="Toru Kokubun" creationdate="20180429T233007Z">
+        <seg>&lt;x92/&gt;「alt」を含む単語を含んでいる&lt;x93/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x98/&gt;where the ‘body’ field contains a word that begins with “sal”.&lt;x99/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233152Z" creationid="Toru Kokubun" creationdate="20180429T233152Z">
+        <seg>&lt;x98/&gt;‘body’ フィールドが「sal」ではじまる単語を含む&lt;x99/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;x1/&gt;craft\elements\Asset&lt;x2/&gt;, &lt;x3/&gt;craft\elements\Category&lt;x4/&gt;, &lt;x5/&gt;craft\elements\Entry&lt;x6/&gt;, &lt;x7/&gt;craft\elements\User&lt;x8/&gt;, or &lt;x9/&gt;craft\elements\Tag&lt;x10/&gt; object</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001900Z" creationid="Toru Kokubun" creationdate="20180429T001900Z">
@@ -710,6 +870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assets, categories, entries, users, and tags each support their own set of additional attributes to search against:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234035Z" creationid="Toru Kokubun" creationdate="20180429T234035Z">
+        <seg>アセット、カテゴリ、エントリ、ユーザー、およびタグは、それぞれ独自の属性を追加して検索することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assets&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011934Z" creationid="Toru Kokubun" creationdate="20180414T011934Z">
@@ -746,6 +914,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214734Z" creationid="Toru Kokubun" creationdate="20180429T214734Z">
         <seg>利用可能なトークン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Base URL</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004711Z" creationid="Toru Kokubun" creationdate="20180430T004711Z">
+        <seg>ベース URL</seg>
       </tuv>
     </tu>
     <tu>
@@ -874,6 +1050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235205Z" creationid="Toru Kokubun" creationdate="20180414T235205Z">
         <seg>誰かが持つ視点を理解できないからといって、その視点が間違っていることを意味しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beyond that, you can use all of the same keys available to the &lt;x3/&gt;defaultSearchTermOptions&lt;x4/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234904Z" creationid="Toru Kokubun" creationdate="20180429T234904Z">
+        <seg>その他に、コンフィグ設定の &lt;x3/&gt;defaultSearchTermOptions&lt;x4/&gt; で利用可能なすべてのキーを使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1322,6 +1506,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013630Z" creationid="Toru Kokubun" creationdate="20180422T101129Z">
         <seg>エントリを有効にするかどうかの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choosing the language for the site tells Craft the language to use when formatting dates, times, and numbers, and translating static messages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005654Z" creationid="Toru Kokubun" creationdate="20180430T005646Z">
+        <seg>サイトの言語を選択すると、日付、時間、および数字の書式と、翻訳の静的メッセージで使用するための言語を Craft に伝えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1846,10 +2038,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft creates the first Site Group for you – named after the default site – and assigns the default site to that group.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005100Z" creationid="Toru Kokubun" creationdate="20180430T005100Z">
+        <seg>Craft は（デフォルトサイトの名前を付けた）最初のサイトグループを作成し、そのグループにデフォルトサイトを割り当てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft creates the first user account during &lt;x1/&gt;installation&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000738Z" creationid="Toru Kokubun" creationdate="20180428T000738Z">
         <seg>Craft は&lt;x1/&gt;インストール&lt;x2/&gt;中に最初のユーザーアカウントを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft does its best to keep its search indexes as up-to-date as possible, but there are a couple things that might render portions of them inaccurate.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T000429Z" creationid="Toru Kokubun" creationdate="20180430T000023Z">
+        <seg>Craft は検索インデックスを可能な限り最新に保つよう、最善を尽くしています。しかし、その一部を不正確にするかもしれない可能性がいくつかあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1982,6 +2190,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft sets the default site as the Primary site, meaning Craft will load it by default on the front end, if it is unable to determine which site to load.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010947Z" creationid="Toru Kokubun" creationdate="20180430T010840Z">
+        <seg>Craft はデフォルトサイトをプライマリサイトとしてセットします。すなわち、どのサイトをロードするか決定できない場合に Craft がフロントエンドのデフォルトとしてロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft supports the following search syntax:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231308Z" creationid="Toru Kokubun" creationdate="20180429T231308Z">
+        <seg>Craft は次の検索構文をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft treats templates with names prefixed with an underscore, for example &lt;x1/&gt;recipes/_entry.html&lt;x2/&gt;, as hidden templates that are not directly accessible.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T001422Z" creationid="Toru Kokubun" creationdate="20180427T001309Z">
@@ -2002,6 +2226,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015252Z" creationid="Toru Kokubun" creationdate="20180421T015016Z">
         <seg>Craft は保存されたデータをウェブサイトのテンプレートで使いやすくするために &lt;x1/&gt;Twig テンプレートエンジン&lt;x2/&gt;を利用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft will automatically toggle the current Primary site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011342Z" creationid="Toru Kokubun" creationdate="20180430T011331Z">
+        <seg>Craft は現在のプライマリサイトを自動的に切り替えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2122,6 +2354,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212740Z" creationid="Toru Kokubun" creationdate="20180429T212543Z">
         <seg>新しいルートの作成画面&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating a Site</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004345Z" creationid="Toru Kokubun" creationdate="20180430T004345Z">
+        <seg>サイトの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -2678,6 +2918,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each site has a Base URL, which Craft uses as the starting point when generating dynamic links to entries and other site content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011746Z" creationid="Toru Kokubun" creationdate="20180430T011505Z">
+        <seg>すべてのサイトはベース URL を持っていて、Craft がエントリや他のサイトコンテンツの動的なリンクを生成する際に出発点として使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each site has the following attributes:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004627Z" creationid="Toru Kokubun" creationdate="20180430T004627Z">
+        <seg>それぞれのサイトは、次の属性を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each tag group holds a unique set of tags, and lets you define a custom set of &lt;x1/&gt;fields&lt;x2/&gt; that should be available to tags within the group.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231400Z" creationid="Toru Kokubun" creationdate="20180428T231400Z">
@@ -3014,6 +3270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every Craft installation starts with one default site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004435Z" creationid="Toru Kokubun" creationdate="20180430T004435Z">
+        <seg>Craft をインストールすると、1つのデフォルトサイトから開始されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Everything in Craft that has content associated with it will provide a field layout for selecting fields:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T015528Z" creationid="Toru Kokubun" creationdate="20180423T015420Z">
@@ -3064,8 +3328,8 @@
       <tuv lang="EN-US">
         <seg>Extract the archive wherever you want your new Craft project to live.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111506Z" creationid="Toru Kokubun" creationdate="20180426T111506Z">
-        <seg>新しい Craft プロジェクトを実行したい場所でアーカイブを展開します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T012248Z" creationid="Toru Kokubun" creationdate="20180426T111506Z">
+        <seg>新しい Craft プロジェクトを稼働したい場所でアーカイブを展開します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3472,8 +3736,8 @@
       <tuv lang="EN-US">
         <seg>Global Sets with Multiple Sites</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223153Z" creationid="Toru Kokubun" creationdate="20180428T223153Z">
-        <seg>複数サイトとグローバル設定</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003830Z" creationid="Toru Kokubun" creationdate="20180428T223153Z">
+        <seg>マルチサイトでのグローバル設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -3546,6 +3810,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T005954Z" creationid="Toru Kokubun" creationdate="20180429T005954Z">
         <seg>行列を経由する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Group</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004648Z" creationid="Toru Kokubun" creationdate="20180430T004648Z">
+        <seg>グループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guide: Setting Up a New Site</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T021754Z" creationid="Toru Kokubun" creationdate="20180430T021754Z">
+        <seg>ガイド：新しいサイトを設定する</seg>
       </tuv>
     </tu>
     <tu>
@@ -4030,6 +4310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you go the latter route, note that the &lt;x1/&gt;query&lt;x2/&gt; property is required.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234549Z" creationid="Toru Kokubun" creationdate="20180429T234549Z">
+        <seg>後者のルートを選択する場合、&lt;x1/&gt;query&lt;x2/&gt; プロパティは必須となる点に注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you had any Position Select fields, they will be converted to Dropdown fields, with all the same options.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235618Z" creationid="Toru Kokubun" creationdate="20180419T235449Z">
@@ -4262,10 +4550,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you only have one site then you cannot disable it as the Primary site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011135Z" creationid="Toru Kokubun" creationdate="20180430T011135Z">
+        <seg>1つしかサイトがない場合は、プライマリサイトを無効にできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you run multiple sites with Craft, Global Sets are available in all sites.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223255Z" creationid="Toru Kokubun" creationdate="20180428T223255Z">
-        <seg>Craft で複数サイトを実行している場合、グローバル設定はすべてのサイトで利用可能です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003947Z" creationid="Toru Kokubun" creationdate="20180428T223255Z">
+        <seg>Craft でマルチサイトを運用している場合、グローバル設定はすべてのサイトで利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4302,6 +4598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you suspect that your search indexes don’t have the latest and greatest data, you can have Craft rebuild them with the Rebuild Search Indexes tool in Settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T000349Z" creationid="Toru Kokubun" creationdate="20180430T000349Z">
+        <seg>検索インデックスが最新かつ最高データでないと疑われる場合は、設定にある検索インデックスの再構築ツールで Craft に再構築されることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you think you might have more that 100 blocks, and you want all of them to be returned, you can also set that parameter to &lt;x1/&gt;null&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213755Z" creationid="Toru Kokubun" creationdate="20180425T213729Z">
@@ -4322,6 +4626,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002527Z" creationid="Toru Kokubun" creationdate="20180429T002436Z">
         <seg>もう少し具体的であることを望むなら、&lt;x1/&gt;relatedTo&lt;x2/&gt; は次のプロパティを含むオブジェクトも受け入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to create a site that will live at a different domain name, just make sure that its DNS record is pointing to your server, and make sure the web server is configured to point traffic for that domain to your &lt;x1/&gt;web/&lt;x2/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T012731Z" creationid="Toru Kokubun" creationdate="20180430T012148Z">
+        <seg>異なるドメイン名で稼働するサイトを作成したい場合、DNS レコードがそのサーバーを指していることを確認してください。さらに、ウェブサーバーがそのドメインへのトラフィックを &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリに向けるように設定されていることを確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4386,6 +4698,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T021850Z" creationid="Toru Kokubun" creationdate="20180424T021413Z">
         <seg>一度に複数ファイルをアップロードできるようにするには、&lt;x1/&gt;multiple&lt;x2/&gt; 属性を追加し、input 名の最後が &lt;x3/&gt;[]&lt;x4/&gt; であることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you would like the section's content to be separate then disable this option for that section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T015050Z" creationid="Toru Kokubun" creationdate="20180430T014710Z">
+        <seg>セクションのコンテンツをサイトごとに分離したい場合は、そのセクションにあるこのオプションを無効にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4560,8 +4880,8 @@
       <tuv lang="EN-US">
         <seg>If you’re running multiple sites with Craft, you can create site-specific subdirectories in your &lt;x1/&gt;craft/templates/&lt;x2/&gt; directory, which contain templates that will only be available to a specific site.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T011404Z" creationid="Toru Kokubun" creationdate="20180427T011404Z">
-        <seg>Craft で複数サイトを運用している場合、特定のサイトだけで利用可能なテンプレートを含むサイト固有のサブディレクトリを &lt;x1/&gt;craft/templates/&lt;x2/&gt; 内に作成できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003843Z" creationid="Toru Kokubun" creationdate="20180427T011404Z">
+        <seg>Craft でマルチサイトを運用している場合、特定のサイトだけで利用可能なテンプレートを含むサイト固有のサブディレクトリを &lt;x1/&gt;craft/templates/&lt;x2/&gt; 内に作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4618,6 +4938,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221945Z" creationid="Toru Kokubun" creationdate="20180420T215924Z">
         <seg>Craft 2 では、パラメータ設定メソッド（例：&lt;x1/&gt;.type('article')&lt;x2/&gt;）を呼び出すときは、次のような手順になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Craft 3 you can host multiple websites in a single Craft installation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003211Z" creationid="Toru Kokubun" creationdate="20180430T003211Z">
+        <seg>Craft 3では、1つインストールするだけで複数のウェブサイトをホストできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4710,6 +5038,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the settings for each Channel Section is an option to propagate entries in that section across all sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T014056Z" creationid="Toru Kokubun" creationdate="20180430T013515Z">
+        <seg>それぞれのチャンネルセクションの設定には、すべてのサイトにエントリを広げるためのオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example there is no reason to access the template directly because it's only ever used as part of an entry URL.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T010125Z" creationid="Toru Kokubun" creationdate="20180427T010125Z">
@@ -4718,10 +5054,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this short guide we'll walk through the steps of setting up a new site in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T022010Z" creationid="Toru Kokubun" creationdate="20180430T021900Z">
+        <seg>これは、Craft で新しいサイトをセットアップするステップを段階的に説明するショートガイドです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In those cases, you can just replace the &lt;x1/&gt;.last()&lt;x2/&gt; call with what it’s already doing internally:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232908Z" creationid="Toru Kokubun" creationdate="20180420T232908Z">
         <seg>このようなケースでは、 &lt;x1/&gt;.last()&lt;x2/&gt; の呼び出しを内部的な処理で置き換えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In your templates, you can also access the language setting via &lt;x1/&gt;craft.app.language&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005815Z" creationid="Toru Kokubun" creationdate="20180430T005758Z">
+        <seg>テンプレート内では、&lt;x1/&gt;craft.app.language&lt;x2/&gt; 経由で言語設定にアクセスすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4886,6 +5238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Is Primary Site?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004705Z" creationid="Toru Kokubun" creationdate="20180430T004705Z">
+        <seg>これはプライマリサイトですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Is it an action request?&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T031450Z" creationid="Toru Kokubun" creationdate="20180429T031445Z">
@@ -5026,6 +5386,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001553Z" creationid="Toru Kokubun" creationdate="20180428T233021Z">
         <seg>他のフィールドタイプと同様に、これらを&lt;x1/&gt;セクション&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、&lt;x5/&gt;アセット&lt;x6/&gt;、&lt;x7/&gt;カテゴリグループ&lt;x8/&gt;、&lt;x9/&gt;タググループ&lt;x10/&gt;、および&lt;x11/&gt;グローバル設定&lt;x12/&gt;のフィールドレイアウトに追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Language</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004658Z" creationid="Toru Kokubun" creationdate="20180430T004658Z">
+        <seg>言語</seg>
       </tuv>
     </tu>
     <tu>
@@ -5632,8 +6000,8 @@
       <tuv lang="EN-US">
         <seg>Nothing that Craft couldn’t live without, if the folder happened to get deleted.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T022716Z" creationid="Toru Kokubun" creationdate="20180421T022449Z">
-        <seg>もしフォルダが削除されたとしても、Craft の存続に影響はありません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T012241Z" creationid="Toru Kokubun" creationdate="20180421T022449Z">
+        <seg>もしフォルダが削除されたとしても、Craft の稼働に影響はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5934,6 +6302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Or as a way to automatically include the proper template for each language:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010134Z" creationid="Toru Kokubun" creationdate="20180430T010103Z">
+        <seg>あるいは、言語ごとの固有なテンプレートを自動的に含む方法もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or you can loop through all of the available options rather than just the selected one:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013956Z" creationid="Toru Kokubun" creationdate="20180425T013956Z">
@@ -5946,6 +6322,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T221101Z" creationid="Toru Kokubun" creationdate="20180424T221101Z">
         <seg>または、選択されたものだけでなく、利用可能なすべてのオプションをループすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ordering results by score</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234934Z" creationid="Toru Kokubun" creationdate="20180429T234934Z">
+        <seg>スコアによる検索結果の順位付け</seg>
       </tuv>
     </tu>
     <tu>
@@ -6206,6 +6590,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Primary Site</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004749Z" creationid="Toru Kokubun" creationdate="20180430T004749Z">
+        <seg>プライマリサイト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Propagating Entries Across All Enabled Sites</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T013428Z" creationid="Toru Kokubun" creationdate="20180430T013245Z">
+        <seg>すべての有効サイトにエントリを広げる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Public Registration</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015323Z" creationid="Toru Kokubun" creationdate="20180428T015323Z">
@@ -6370,6 +6770,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011932Z" creationid="Toru Kokubun" creationdate="20180422T011932Z">
         <seg>&lt;x1/&gt;craftcms/craft&lt;x2/&gt; リポジトリの README ファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rebuilding your Search Indexes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T235733Z" creationid="Toru Kokubun" creationdate="20180429T235733Z">
+        <seg>検索インデックスの再構築</seg>
       </tuv>
     </tu>
     <tu>
@@ -6710,6 +7118,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search Bar&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231233Z" creationid="Toru Kokubun" creationdate="20180429T231233Z">
+        <seg>検索バー&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Searching</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T223536Z" creationid="Toru Kokubun" creationdate="20180429T223536Z">
+        <seg>検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Searching for specific element attributes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233935Z" creationid="Toru Kokubun" creationdate="20180429T233935Z">
+        <seg>特定エレメントの属性を検索する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Searching&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012003Z" creationid="Toru Kokubun" creationdate="20180414T012003Z">
@@ -6790,10 +7222,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x3/&gt;Enabling Fuzzy Search by Default&lt;x4/&gt; for more info.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233635Z" creationid="Toru Kokubun" creationdate="20180429T233609Z">
+        <seg>詳細については、&lt;x3/&gt;Enabling Fuzzy Search by Default&lt;x4/&gt; を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See Also</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T021931Z" creationid="Toru Kokubun" creationdate="20180424T021931Z">
         <seg>関連項目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See our &lt;x1/&gt;Search Form&lt;x2/&gt; tutorial for a complete example of listing dynamic search results.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T235652Z" creationid="Toru Kokubun" creationdate="20180429T235652Z">
+        <seg>動的な検索結果をリスト化する完全な例については、&lt;x1/&gt;検索フォーム&lt;x2/&gt;チュートリアルを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7014,6 +7462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similar to Field Groups, Site Groups are for organization only.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005235Z" creationid="Toru Kokubun" creationdate="20180430T005204Z">
+        <seg>フィールドグループに似ていて、サイトグループは整理するためだけにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similarly, the &lt;x1/&gt;usePathInfo&lt;x2/&gt; setting can no longer be set to &lt;x3/&gt;'auto'&lt;x4/&gt; either.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010235Z" creationid="Toru Kokubun" creationdate="20180420T010235Z">
@@ -7038,10 +7494,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Site Groups</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004728Z" creationid="Toru Kokubun" creationdate="20180430T004728Z">
+        <seg>サイトグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Site Groups allow you to organize your sites together by commonality, like language or site type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004941Z" creationid="Toru Kokubun" creationdate="20180430T004941Z">
+        <seg>サイトグループでは、言語や種類などの共通点によってサイトをひとまとめに整理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Site URL</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004759Z" creationid="Toru Kokubun" creationdate="20180430T004759Z">
+        <seg>サイト URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Site URL and Local volume settings will automatically be converted to the new Alias syntax when updating to Craft 3 (&lt;x5/&gt;@variable&lt;x6/&gt; instead of &lt;x7/&gt;{variable}&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001648Z" creationid="Toru Kokubun" creationdate="20180420T001616Z">
         <seg>Craft 3 にアップデートすると、サイト URL やローカルボリュームの設定は新しいエイリアス構文 （&lt;x7/&gt;{variable}&lt;x8/&gt; の代わりに &lt;x5/&gt;@variable&lt;x6/&gt;）へ自動的に変換されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sites</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T000525Z" creationid="Toru Kokubun" creationdate="20180430T000525Z">
+        <seg>サイト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sites can all share the same domain name, such as &lt;x1/&gt;https://craftcms.com&lt;x2/&gt; and &lt;x3/&gt;https//craftcms.com/beta&lt;x4/&gt;, or they can have different domains, like &lt;x5/&gt;https://www.craftcms.com&lt;x6/&gt; and &lt;x7/&gt;https://beta.craftcms.com&lt;x8/&gt; .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T012020Z" creationid="Toru Kokubun" creationdate="20180430T011957Z">
+        <seg>サイトは &lt;x1/&gt;https://craftcms.com&lt;x2/&gt; や &lt;x3/&gt;https//craftcms.com/beta&lt;x4/&gt; のように同じドメイン名をすべて共有したり、&lt;x5/&gt;https://www.craftcms.com&lt;x6/&gt; や &lt;x7/&gt;https://beta.craftcms.com&lt;x8/&gt; のように異なるドメインを持たせることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7314,6 +7810,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230307Z" creationid="Toru Kokubun" creationdate="20180420T230307Z">
         <seg>エレメントクエリを配列のように扱うサポートは Craft 3 で非推奨になり、Craft 4 で完全に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Supported syntaxes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231243Z" creationid="Toru Kokubun" creationdate="20180429T231243Z">
+        <seg>サポートする構文</seg>
       </tuv>
     </tu>
     <tu>
@@ -8206,6 +8710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The multi-site feature in Craft is for sites with the same publishing team.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004038Z" creationid="Toru Kokubun" creationdate="20180430T003746Z">
+        <seg>Craft のマルチサイト機能は、同じパブリッシングチームを持つサイトに向いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The new category will have a hierarchical relationship with its parent.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214721Z" creationid="Toru Kokubun" creationdate="20180427T214721Z">
@@ -8266,6 +8778,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022813Z" creationid="Toru Kokubun" creationdate="20180418T022244Z">
         <seg>2つ目のステップは、データベース接続情報の入力です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The site name is what you defined at time of installation, and the handle is &lt;x1/&gt;default&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004503Z" creationid="Toru Kokubun" creationdate="20180430T004503Z">
+        <seg>サイト名はインストール時に定義され、ハンドルは &lt;x1/&gt;default&lt;x2/&gt; となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8678,6 +9198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This guide assumes you already have Craft installed and the default site setup and configured.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T022305Z" creationid="Toru Kokubun" creationdate="20180430T022122Z">
+        <seg>このガイドは、すでに Craft がインストールされていて、デフォルトのセットアップや設定が済んでいることを前提としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This includes Craft Slack, Craft CMS Stack Exchange, GitHub, Twitter, Facebook, meetups, conferences, and any other relevant forums.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032612Z" creationid="Toru Kokubun" creationdate="20180414T032612Z">
@@ -8738,6 +9266,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T011029Z" creationid="Toru Kokubun" creationdate="20180415T011029Z">
         <seg>Craft 2 と Craft 3 のすべての変更点を包括的に確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is enabled by default, and is the only option for Single and Structure sections.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T015000Z" creationid="Toru Kokubun" creationdate="20180430T013901Z">
+        <seg>これはデフォルトで有効になっていて、シングルやストラクチャーセクションでは、必ず有効な状態となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9846,6 +10382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When enabled, Craft will create the new entry in each site enabled for that section using the submitted content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T014414Z" creationid="Toru Kokubun" creationdate="20180430T014301Z">
+        <seg>有効にすると、Craft は送信されたコンテンツを使用して、そのセクションで有効になっているそれぞれのサイトに新しいエントリを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos”, set to the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder, where Craft previously stored all user photos.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055254Z" creationid="Toru Kokubun" creationdate="20180420T054448Z">
@@ -9882,6 +10426,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214327Z" creationid="Toru Kokubun" creationdate="20180427T214327Z">
         <seg>カテゴリを作成するときのオプションは、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you do this, each of the elements returned will have a &lt;x1/&gt;searchScore&lt;x2/&gt; attribute set, which reveals what their search score was.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T235440Z" creationid="Toru Kokubun" creationdate="20180429T235410Z">
+        <seg>この場合、返されるすべてのエレメントに &lt;x1/&gt;searchScore&lt;x2/&gt; 属性がセットされ、それぞれの検索スコアを知ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10094,10 +10646,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You add additional sites using the Sites settings in Settings → Sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004550Z" creationid="Toru Kokubun" creationdate="20180430T004550Z">
+        <seg>サイトを追加するには、「設定 &gt; サイト」を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You also have the option of creating a new category while assigning the Parent.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214928Z" creationid="Toru Kokubun" creationdate="20180427T214928Z">
         <seg>親を割り当てる際に新しいカテゴリを作成するオプションもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can access the current site's group information using:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005314Z" creationid="Toru Kokubun" creationdate="20180430T005314Z">
+        <seg>現在のサイトグループの情報には、次のようにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10158,6 +10726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also set the &lt;x1/&gt;order&lt;x2/&gt; parameter to &lt;x3/&gt;'score'&lt;x4/&gt; if you want results ordered by best-match to worst-match:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T235159Z" creationid="Toru Kokubun" creationdate="20180429T235115Z">
+        <seg>検索結果をベストマッチからワーストマッチの順に並び替えたい場合は、&lt;x1/&gt;order&lt;x2/&gt; パラメータに &lt;x3/&gt;'score'&lt;x4/&gt; をセットすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also tell if a particular option is selected outside the scope of looping through the options like so:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T001723Z" creationid="Toru Kokubun" creationdate="20180425T001531Z">
@@ -10170,6 +10746,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003705Z" creationid="Toru Kokubun" creationdate="20180419T003106Z">
         <seg>デフォルトでインストールされているコントロールパネルのダッシュボードにあるアップデートウィジェットを利用することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can alter the default behavior of search terms with the &lt;x1/&gt;defaultSearchTermOptions&lt;x2/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233549Z" creationid="Toru Kokubun" creationdate="20180429T233549Z">
+        <seg>コンフィグ設定の &lt;x1/&gt;defaultSearchTermOptions&lt;x2/&gt; で、検索語のデフォルトの振る舞いを変更することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10194,6 +10778,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213903Z" creationid="Toru Kokubun" creationdate="20180425T213609Z">
         <seg>変更するには &lt;x1/&gt;limit&lt;x2/&gt; パラメータで上書きします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can change the Primary site once you create additional sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011226Z" creationid="Toru Kokubun" creationdate="20180430T011226Z">
+        <seg>追加のサイトを作成すると、プライマリサイトを変更できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10234,6 +10826,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040611Z" creationid="Toru Kokubun" creationdate="20180429T040547Z">
         <seg>&lt;x3/&gt;craft/templates/&lt;x4/&gt; ディレクトリのルートにある &lt;x1/&gt;404.html&lt;x2/&gt; テンプレートで、サイトの 404 ページをカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can define one or more sites at different domains, using a different set of templates, and different versions of entry content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003717Z" creationid="Toru Kokubun" creationdate="20180430T003422Z">
+        <seg>ドメインが異なったり、異なるテンプレートセットを使用したり、エントリコンテンツの異なるバージョンを持っている、1つ以上のサイトを定義できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10446,6 +11046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can search for elements anywhere you see this bar:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231220Z" creationid="Toru Kokubun" creationdate="20180429T231213Z">
+        <seg>このバーが表示されている場所ならどこでも、エレメントを検索できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can set this to a locale ID.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T005658Z" creationid="Toru Kokubun" creationdate="20180429T005658Z">
@@ -10466,6 +11074,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221236Z" creationid="Toru Kokubun" creationdate="20180427T221236Z">
         <seg>アセットボリュームは「設定 &gt; アセット」から設定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify the search query in two different ways:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234359Z" creationid="Toru Kokubun" creationdate="20180429T234359Z">
+        <seg>検索クエリは、次の2つの方法で指定できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10498,6 +11114,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095003Z" creationid="Toru Kokubun" creationdate="20180422T094723Z">
         <seg>いずれの構文でも Twig フィルタを使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use this in a conditional:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010158Z" creationid="Toru Kokubun" creationdate="20180430T005843Z">
+        <seg>これを条件文で使えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10538,6 +11162,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214300Z" creationid="Toru Kokubun" creationdate="20180424T213830Z">
         <seg>オプションの値とラベルを別々に設定したり、デフォルトでチェックしておくものを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You manage the multi-site content at the entry level, with the ability to enable Sections you want included in a site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004327Z" creationid="Toru Kokubun" creationdate="20180430T004305Z">
+        <seg>サイトに含めたいセクションだけを有効化できる能力により、エントリレベルでマルチサイトのコンテンツを管理します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10730,6 +11362,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004621Z" creationid="Toru Kokubun" creationdate="20180422T004621Z">
         <seg>compiled_templates/&lt;x1/&gt; – コンパイル済みのテンプレートを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>craft.assets&lt;x1/&gt;, &lt;x2/&gt;craft.entries&lt;x3/&gt;, &lt;x4/&gt;craft.tags&lt;x5/&gt;, and &lt;x6/&gt;craft.users&lt;x7/&gt; support a &lt;x8/&gt;search&lt;x9/&gt; parameter that you can use to filter their elements by a given search query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234320Z" creationid="Toru Kokubun" creationdate="20180429T234203Z">
+        <seg>craft.assets&lt;x1/&gt;、&lt;x2/&gt;craft.entries&lt;x3/&gt;、&lt;x4/&gt;craft.tags&lt;x5/&gt;、および &lt;x6/&gt;craft.users&lt;x7/&gt; は、検索クエリを指定したエレメントの絞り込みに利用できる &lt;x8/&gt;search&lt;x9/&gt; パラメータをサポートしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11022,6 +11662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>where your template name would be, for example, &lt;x1/&gt;_share/footer-de&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010253Z" creationid="Toru Kokubun" creationdate="20180430T010253Z">
+        <seg>この例では、読み込まれるテンプレート名は &lt;x1/&gt;_share/footer-de&lt;x2/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>year&lt;x1/&gt; – Four consecutive digits</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215429Z" creationid="Toru Kokubun" creationdate="20180429T215429Z">
@@ -11106,6 +11754,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211943Z" creationid="Toru Kokubun" creationdate="20180426T110617Z">
         <seg>【メモ】Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} Craft doesn’t require you to create additional &lt;x1/&gt;web/&lt;x2/&gt; directories for new sites, though it’s fine if you need to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T013021Z" creationid="Toru Kokubun" creationdate="20180430T013002Z">
+        <seg>【ヒント】必要とするならうまくできますが、Craft では新しいサイトのために追加の &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリを作成する必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
