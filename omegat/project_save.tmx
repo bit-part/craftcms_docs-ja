@@ -926,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Based on the Site name, Craft will generate a Site Handle.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210921Z" creationid="Toru Kokubun" creationdate="20180430T210905Z">
+        <seg>サイト名をベースにして、Craft はサイトのハンドルを生成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Basic Syntax</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220217Z" creationid="Toru Kokubun" creationdate="20180429T220217Z">
@@ -1498,6 +1506,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013657Z" creationid="Toru Kokubun" creationdate="20180422T101007Z">
         <seg>（ストラクチャーセクションに含まれる場合）エントリの親の選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose the group your site should belong to using the drop-down.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210508Z" creationid="Toru Kokubun" creationdate="20180430T210436Z">
+        <seg>ドロップダウンメニューからサイトが所属するグループを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose the language for this site (see above for more information on how you can use languages).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T211451Z" creationid="Toru Kokubun" creationdate="20180430T211444Z">
+        <seg>サイトの言語を選択してください。（言語の使い方の詳細は、上記を参照してください）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2226,6 +2250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015252Z" creationid="Toru Kokubun" creationdate="20180421T015016Z">
         <seg>Craft は保存されたデータをウェブサイトのテンプレートで使いやすくするために &lt;x1/&gt;Twig テンプレートエンジン&lt;x2/&gt;を利用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft uses the site name in the Control Panel and you can also display it in your templates using &lt;x1/&gt;{{ siteName }}&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210828Z" creationid="Toru Kokubun" creationdate="20180430T210828Z">
+        <seg>Craft はコントロールパネルのサイト名を利用し、&lt;x1/&gt;{{ siteName }}&lt;x2/&gt; を使ってテンプレート内に表示することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3272,8 +3304,8 @@
       <tuv lang="EN-US">
         <seg>Every Craft installation starts with one default site.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004435Z" creationid="Toru Kokubun" creationdate="20180430T004435Z">
-        <seg>Craft をインストールすると、1つのデフォルトサイトから開始されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T205647Z" creationid="Toru Kokubun" creationdate="20180430T004435Z">
+        <seg>Craft のインストールは、1つのデフォルトサイトから始まります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3726,6 +3758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Give your site a name.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210656Z" creationid="Toru Kokubun" creationdate="20180430T210656Z">
+        <seg>名前を付けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Global Sets in Templates</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221910Z" creationid="Toru Kokubun" creationdate="20180428T221910Z">
@@ -3802,6 +3842,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T060804Z" creationid="Toru Kokubun" creationdate="20180420T055058Z">
         <seg>「設定 &gt; アセット &gt; ボリューム &gt; User Photos」に移動し、新しいフォルダのロケーションに基づいてボリュームを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Go to Settings → Sites and click the New Site button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210359Z" creationid="Toru Kokubun" creationdate="20180430T210359Z">
+        <seg>「設定 &gt; サイト」に移動し、「新しいサイト」ボタンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4202,6 +4250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211325Z" creationid="Toru Kokubun" creationdate="20180426T211325Z">
         <seg>同じグループであれば、&lt;x1/&gt;774&lt;x2/&gt; を利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this site should be the Primary Site, toggle the Is Primary Site?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T211543Z" creationid="Toru Kokubun" creationdate="20180430T211543Z">
+        <seg>このサイトをプライマリサイトにする場合は、「これはプライマリサイトですか？」をオンにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4752,8 +4808,8 @@
       <tuv lang="EN-US">
         <seg>If your Craft installation has multiple sites, then you can target locale specific routes via:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220400Z" creationid="Toru Kokubun" creationdate="20180429T220400Z">
-        <seg>Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210030Z" creationid="Toru Kokubun" creationdate="20180429T220400Z">
+        <seg>インストールした Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7662,6 +7718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Step 1: Create the Site in Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T205121Z" creationid="Toru Kokubun" creationdate="20180430T205034Z">
+        <seg>ステップ 1：設定でサイトを作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Step 1: Download Craft</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110140Z" creationid="Toru Kokubun" creationdate="20180426T110140Z">
@@ -8510,6 +8574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first step is to create the new site in the Settings of your Craft installation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210300Z" creationid="Toru Kokubun" creationdate="20180430T210300Z">
+        <seg>最初のステップは、インストール済みの Craft の設定で新しいサイトを作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first step of the installer is to accept the &lt;x1/&gt;license agreement&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T215604Z" creationid="Toru Kokubun" creationdate="20180426T215604Z">
@@ -8690,6 +8762,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212144Z" creationid="Toru Kokubun" creationdate="20180427T212144Z">
         <seg>カテゴリ URI 形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The group selection won't have any impact on your site's functionality.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210631Z" creationid="Toru Kokubun" creationdate="20180430T210615Z">
+        <seg>グループの選択により、サイトの機能に影響することはありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10854,6 +10934,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can edit the Handle if you'd like.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T211001Z" creationid="Toru Kokubun" creationdate="20180430T211001Z">
+        <seg>あなたが望むなら、ハンドルを編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can either edit the file manually, or run the &lt;x3/&gt;./craft setup&lt;x4/&gt; command from the root project directory in your terminal.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T090139Z" creationid="Toru Kokubun" creationdate="20180415T090139Z">
@@ -11178,6 +11266,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215716Z" creationid="Toru Kokubun" creationdate="20180415T073126Z">
         <seg>Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You will use the Site Handle to refer to this site in the templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T211259Z" creationid="Toru Kokubun" creationdate="20180430T211053Z">
+        <seg>テンプレート内でこのサイトを参照するために、このハンドルを利用します。</seg>
       </tuv>
     </tu>
     <tu>
