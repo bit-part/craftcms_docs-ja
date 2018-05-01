@@ -606,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After creating a new site for a language, enable the new site in each Section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T233425Z" creationid="Toru Kokubun" creationdate="20180430T233425Z">
+        <seg>言語向けに新しいサイトを作成したら、それぞれのセクションで新しいサイトを有効にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After defining your URI pattern and entering a template path, click the Save button.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214403Z" creationid="Toru Kokubun" creationdate="20180429T214403Z">
@@ -658,6 +666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T012724Z" creationid="Toru Kokubun" creationdate="20180428T012724Z">
         <seg>グループの作成後は、アカウント設定の「権利」タブをクリックして、ユーザーをグループに割り当てることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Aggregate Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T001019Z" creationid="Toru Kokubun" creationdate="20180501T001019Z">
+        <seg>集計メソッド</seg>
       </tuv>
     </tu>
     <tu>
@@ -762,6 +778,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T030605Z" creationid="Toru Kokubun" creationdate="20180427T030605Z">
         <seg>コメントタグの内側に記述された内容は、HTML コメントとは異なり、最終的なテンプレートにレンダリングされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As soon as you add an additional site to your Craft installation, Craft will start checking for site permissions whenever users try to edit content.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235243Z" creationid="Toru Kokubun" creationdate="20180430T235243Z">
+        <seg>インストールされた Craft にサイトを追加すると、Craft はユーザーがコンテンツの編集を試みるたびに、サイトのパーミッションをチェックしはじめます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -902,6 +926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assign them where appropriate.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235707Z" creationid="Toru Kokubun" creationdate="20180430T235638Z">
+        <seg>権限を与えたいものを割り当ててください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assigning Categories</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215401Z" creationid="Toru Kokubun" creationdate="20180427T215401Z">
@@ -946,6 +978,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220217Z" creationid="Toru Kokubun" creationdate="20180429T220217Z">
         <seg>基本構文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Batch-Setting Parameters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000814Z" creationid="Toru Kokubun" creationdate="20180501T000752Z">
+        <seg>パラメータの一括設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -1106,6 +1146,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213118Z" creationid="Toru Kokubun" creationdate="20180427T213118Z">
         <seg>デフォルトでは、すべてのカテゴリはタイトルフィールド（カテゴリ名）を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, no users or groups have access to any site, so you need to assign them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235402Z" creationid="Toru Kokubun" creationdate="20180430T235402Z">
+        <seg>デフォルトでは、ユーザーやグループはどのサイトにもアクセスできないため、それらを割り当てる必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2302,6 +2350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft will allow you to update this field's content in each entry on a per-language basis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234238Z" creationid="Toru Kokubun" creationdate="20180430T234153Z">
+        <seg>Craft は、それぞれのエントリにあるこのフィールドのコンテンツを言語単位で更新することを許可します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft will automatically detect which site the browser is requesting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T220029Z" creationid="Toru Kokubun" creationdate="20180430T220029Z">
@@ -2430,6 +2486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating Element Queries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000559Z" creationid="Toru Kokubun" creationdate="20180501T000559Z">
+        <seg>エレメントクエリの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating Routes</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212758Z" creationid="Toru Kokubun" creationdate="20180429T212704Z">
@@ -2482,6 +2546,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220454Z" creationid="Toru Kokubun" creationdate="20180419T215954Z">
         <seg>通貨フォーマット&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Custom Field Parameters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000919Z" creationid="Toru Kokubun" creationdate="20180501T000858Z">
+        <seg>カスタムフィールドのパラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -3214,6 +3286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Element queries are &lt;x1/&gt;query builders&lt;x2/&gt; that are tuned for fetching elements in Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000110Z" creationid="Toru Kokubun" creationdate="20180501T000110Z">
+        <seg>エレメントクエリは、Craft でエレメントを取得するためにチューニングされた&lt;x1/&gt;クエリビルダー&lt;x2/&gt;です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Elements</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232926Z" creationid="Toru Kokubun" creationdate="20180420T232926Z">
@@ -3526,6 +3606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Fill out the Entry URI Format (for Channel and Structure sections) or URI (for Single sections) to reflect how you want the URIs structured for that site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T233847Z" creationid="Toru Kokubun" creationdate="20180430T233841Z">
+        <seg>そのサイトをどのような URL 構造にしたいかを反映するため、（チャンネルとストラクチャーセクション向けに）エントリー URI 形式、または（シングルセクション向けに）URI を記入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fill out the category fields (if you didn't define any then the only field available will be Title)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214504Z" creationid="Toru Kokubun" creationdate="20180427T214504Z">
@@ -3666,6 +3754,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T011751Z" creationid="Toru Kokubun" creationdate="20180427T011618Z">
         <seg>例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合は、&lt;x1/&gt;craft/templates/de/welcome.html&lt;x2/&gt; に保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you wanted to give your German site its own homepage template, you might set your templates folder up like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234626Z" creationid="Toru Kokubun" creationdate="20180430T234626Z">
+        <seg>例えば、ドイツ語のサイトのホームページを独自のテンプレートにする場合は、テンプレートフォルダを次のように設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4622,6 +4718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have any templates that you only want to serve from a specific site, you can create a new sub-folder in your templates folder, named after your site's handle, and place the templates in there.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234513Z" creationid="Toru Kokubun" creationdate="20180430T234453Z">
+        <seg>特定のサイトからだけ配信したいテンプレートがある場合は、テンプレートフォルダに新しいサブフォルダを作成し、サイトのハンドルをフォルダ名にして、その中に手テンプレートを配置します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have at least one Global Set, Craft will add a new “Globals” item added to the Control Panel primary navigation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T221357Z" creationid="Toru Kokubun" creationdate="20180428T221357Z">
@@ -5154,6 +5258,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220958Z" creationid="Toru Kokubun" creationdate="20180426T220958Z">
         <seg>Craft では、テンプレートを利用してサイトの HTML 出力を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Settings → Fields, choose the fields you want to have translatable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T233934Z" creationid="Toru Kokubun" creationdate="20180430T233912Z">
+        <seg>「設定 &gt; フィールド」で、翻訳可能にするフィールドを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Settings → Sections, go into each section settings you want included in the localized site and enable the site in the Site Settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T233916Z" creationid="Toru Kokubun" creationdate="20180430T233618Z">
+        <seg>「設定 &gt; セクション」で、ローカライズしたいサイトを含むセクションの設定に移動し、サイト設定でサイトを有効にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6606,6 +6726,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Param Value Syntax</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000840Z" creationid="Toru Kokubun" creationdate="20180501T000840Z">
+        <seg>パラメータ値の構文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Passing Multiple Relation Criteria</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T014122Z" creationid="Toru Kokubun" creationdate="20180429T013851Z">
@@ -6906,6 +7034,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013952Z" creationid="Toru Kokubun" creationdate="20180423T013952Z">
         <seg>ラジオボタン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rather than raw data, they return element models.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000512Z" creationid="Toru Kokubun" creationdate="20180501T000502Z">
+        <seg>生データでなく、エレメントモデルを返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7610,6 +7746,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002037Z" creationid="Toru Kokubun" creationdate="20180420T002037Z">
         <seg>設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting Parameters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000632Z" creationid="Toru Kokubun" creationdate="20180501T000632Z">
+        <seg>パラメータの設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -9430,6 +9574,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They have several custom parameters, and they abstract away all the complexities of the actual SQL query needed to fetch the elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000426Z" creationid="Toru Kokubun" creationdate="20180501T000413Z">
+        <seg>いくつのカスタムパラメータがあり、エレメントを取得するのに必要な実際の SQL クエリの複雑さをすべて抽象化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They live in Asset Volumes, which represent physical directories.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220727Z" creationid="Toru Kokubun" creationdate="20180427T220616Z">
@@ -10166,6 +10318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Under Translation Method, choose "Translate for each language."</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234040Z" creationid="Toru Kokubun" creationdate="20180430T234035Z">
+        <seg>翻訳方法で「各言語に対して翻訳する」を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike the other section types, Singles only have one entry associated with them, and they don’t have an editable Author, Slug, Post Date, or Expiration Date.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T083121Z">
@@ -10290,6 +10450,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T020610Z" creationid="Toru Kokubun" creationdate="20180424T020534Z">
         <seg>フロントエンドフォームからのファイルアップロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;craft.app.language&lt;x2/&gt; to toggle specific parts of your templates, depending on the language:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234745Z" creationid="Toru Kokubun" creationdate="20180430T234745Z">
+        <seg>&lt;x1/&gt;craft.app.language&lt;x2/&gt; を利用して、言語に依存するテンプレートの特定パーツを切り替えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10830,6 +10998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you edit a user group or a user account, you will find a new Sites permissions section, which lists all of your sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235813Z" creationid="Toru Kokubun" creationdate="20180430T235554Z">
+        <seg>ユーザーグループやユーザーアカウントを編集するとき、すべてのサイトのリストに新しいサイトの「権利」セクションが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you have at least one asset volume, Craft will add a new Assets item to the Control Panel's main navigation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234333Z" creationid="Toru Kokubun" creationdate="20180427T234323Z">
@@ -11106,6 +11282,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T235159Z" creationid="Toru Kokubun" creationdate="20180429T235115Z">
         <seg>検索結果をベストマッチからワーストマッチの順に並び替えたい場合は、&lt;x1/&gt;order&lt;x2/&gt; パラメータに &lt;x3/&gt;'score'&lt;x4/&gt; をセットすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also take advantage of Craft’s static translation support for strings throughout your templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235039Z" creationid="Toru Kokubun" creationdate="20180430T234926Z">
+        <seg>テンプレート全体の文字列に Craft の静的翻訳サポートを利用することもできます。</seg>
       </tuv>
     </tu>
     <tu>
