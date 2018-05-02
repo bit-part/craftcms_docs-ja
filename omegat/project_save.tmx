@@ -6286,6 +6286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that &lt;x5/&gt;n&lt;x6/&gt; is 0-indexed, so &lt;x7/&gt;nth(0)&lt;x8/&gt; will give you the first element, &lt;x9/&gt;nth(1)&lt;x10/&gt; will give you the second, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093513Z" creationid="Toru Kokubun" creationdate="20180502T093513Z">
+        <seg>&lt;x5/&gt;n&lt;x6/&gt; は 0 からはじまるため、&lt;x7/&gt;nth(0)&lt;x8/&gt; は最初のエレメントを &lt;x9/&gt;nth(1)&lt;x10/&gt; は2番目のエレメントを取得する点に注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that Craft/PHP must be able to write to the directory you created.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233110Z" creationid="Toru Kokubun" creationdate="20180427T233041Z">
@@ -7386,6 +7394,38 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080840Z" creationid="Toru Kokubun" creationdate="20180502T080840Z">
         <seg>配列内のすべてのエレメントを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns an array of all the first column’s values.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093705Z" creationid="Toru Kokubun" creationdate="20180502T093705Z">
+        <seg>すべての配列の最初のカラム値を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns an array of the IDs of the matching elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093602Z" creationid="Toru Kokubun" creationdate="20180502T093602Z">
+        <seg>マッチしたエレメントの ID の配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the &lt;x1/&gt;n&lt;x2/&gt;th matching element, or &lt;x3/&gt;null&lt;x4/&gt; if there isn’t one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T092719Z" creationid="Toru Kokubun" creationdate="20180502T092719Z">
+        <seg>マッチした &lt;x1/&gt;n&lt;x2/&gt; 番目のエレメントを返します。存在しない場合は、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the first column’s value of the first matching element.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093919Z" creationid="Toru Kokubun" creationdate="20180502T093919Z">
+        <seg>最初にマッチしたエレメントの最初のカラム値を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9218,6 +9258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T225851Z" creationid="Toru Kokubun" creationdate="20180420T225851Z">
         <seg>次のメソッドは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following methods will run an aggregate method on the first column of matching elements, and return the result:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094127Z" creationid="Toru Kokubun" creationdate="20180502T094127Z">
+        <seg>次のメソッドは、マッチしたエレメントの最初のカラムで集計メソッドを実行し、その結果を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12038,6 +12086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>average()&lt;x1/&gt; – Returns the average number of all the values in the first column</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094316Z" creationid="Toru Kokubun" creationdate="20180502T094229Z">
+        <seg>average()&lt;x1/&gt; – 最初のカラムのすべての値の平均値を返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>backups/&lt;x1/&gt; – Stores database backups that get created when you update Craft or run the DB Backup utility.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021142Z" creationid="Toru Kokubun" creationdate="20180421T021142Z">
@@ -12170,6 +12226,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021158Z" creationid="Toru Kokubun" creationdate="20180421T021158Z">
         <seg>logs/&lt;x1/&gt; – Craft のログや PHP エラーログを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>max()&lt;x1/&gt; – Returns the maximum number of all the values in the first column</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094324Z" creationid="Toru Kokubun" creationdate="20180502T094253Z">
+        <seg>max()&lt;x1/&gt; – 最初のカラムのすべての値の最大値を返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>min()&lt;x1/&gt; – Returns the minimum number of all the values in the first column</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094320Z" creationid="Toru Kokubun" creationdate="20180502T094242Z">
+        <seg>min()&lt;x1/&gt; – 最初のカラムのすべての値の最小値を返します</seg>
       </tuv>
     </tu>
     <tu>
@@ -12326,6 +12398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sum()&lt;x1/&gt; – Returns the sum of all the values in the first column</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094220Z" creationid="Toru Kokubun" creationdate="20180502T094220Z">
+        <seg>sum()&lt;x1/&gt; – 最初のカラムのすべての値の合計を返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tag&lt;x1/&gt; – Any string of characters, except for a forward slash (/)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215403Z" creationid="Toru Kokubun" creationdate="20180429T215403Z">
@@ -12450,6 +12530,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211922Z" creationid="Toru Kokubun" creationdate="20180426T211617Z">
         <seg>【メモ】 &lt;x1/&gt;IIS ファン：&lt;x2/&gt; サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} By default the first column will be the elements’ IDs, but you can customize that with the &lt;x1/&gt;select()&lt;x2/&gt; param.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093824Z" creationid="Toru Kokubun" creationdate="20180502T093824Z">
+        <seg>【メモ】 デフォルトでは、最初のカラムはエレメントの ID になりますが、&lt;x1/&gt;select()&lt;x2/&gt; パラメータでカスタマイズすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} By default the first column will be the element’s ID, but you can customize that with the &lt;x1/&gt;select()&lt;x2/&gt; param.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094020Z" creationid="Toru Kokubun" creationdate="20180502T093957Z">
+        <seg>【メモ】デフォルトでは、最初のカラムはエレメントの ID になりますが、&lt;x1/&gt;select()&lt;x2/&gt; パラメータでカスタマイズすることができます。</seg>
       </tuv>
     </tu>
     <tu>
