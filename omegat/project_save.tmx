@@ -502,6 +502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Accepts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211346Z" creationid="Toru Kokubun" creationdate="20180502T211346Z">
+        <seg>受け入れる値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Access the CP</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011105Z" creationid="Toru Kokubun" creationdate="20180428T011105Z">
@@ -542,6 +550,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add more columns to the SELECT part of the query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211847Z" creationid="Toru Kokubun" creationdate="20180502T211847Z">
+        <seg>クエリの SELECT パートにカラムを追加します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additional Resources</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030627Z" creationid="Toru Kokubun" creationdate="20180418T030534Z">
@@ -554,6 +570,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031601Z" creationid="Toru Kokubun" creationdate="20180427T031404Z">
         <seg>さらに、すべての Craft テンプレートは、いくつかの&lt;x1/&gt;グローバル変数&lt;x2/&gt;があらかじめロードされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds additional ORDER BY columns to the query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215320Z" creationid="Toru Kokubun" creationdate="20180502T211459Z">
+        <seg>追加の ORDER BY カラムをクエリに付加します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds an additional WHERE condition to the existing one</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215408Z" creationid="Toru Kokubun" creationdate="20180502T215200Z">
+        <seg>既成のものに、追加の WHERE 条件文を付加します</seg>
       </tuv>
     </tu>
     <tu>
@@ -834,6 +866,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233526Z" creationid="Toru Kokubun" creationdate="20180427T233514Z">
         <seg>アセットメタフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asset Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211200Z" creationid="Toru Kokubun" creationdate="20180502T211200Z">
+        <seg>アセットのクエリパラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -6806,6 +6846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Param</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211336Z" creationid="Toru Kokubun" creationdate="20180502T211336Z">
+        <seg>パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Param Value Syntax</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000840Z" creationid="Toru Kokubun" creationdate="20180501T000840Z">
@@ -8894,6 +8942,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Date Modified that the resulting assets must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222951Z" creationid="Toru Kokubun" creationdate="20180502T220508Z">
+        <seg>結果となるアセットが持つべき変更日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Field</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T004234Z" creationid="Toru Kokubun" creationdate="20180424T004234Z">
@@ -9022,6 +9078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The content table that will be joined by this query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215612Z" creationid="Toru Kokubun" creationdate="20180502T215612Z">
+        <seg>このクエリによって結合されるコンテンツテーブル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The controller may allow it to keep going.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032626Z" creationid="Toru Kokubun" creationdate="20180429T032626Z">
@@ -9058,6 +9122,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T025616Z" creationid="Toru Kokubun" creationdate="20180426T025616Z">
         <seg>ドキュメントは全般的に新しい構造を想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element (or its ID) that results must be a descendant of</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222338Z" creationid="Toru Kokubun" creationdate="20180502T221241Z">
+        <seg>子孫にあたる結果のエレメント（または、その ID）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element (or its ID) that results must be an ancestor of</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222351Z" creationid="Toru Kokubun" creationdate="20180502T214613Z">
+        <seg>祖先にあたる結果のエレメント（または、その ID）</seg>
       </tuv>
     </tu>
     <tu>
@@ -9102,10 +9182,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The fields that may be involved in this query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215724Z" creationid="Toru Kokubun" creationdate="20180502T215724Z">
+        <seg>このクエリに関係しているかもしれないフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The file system path to the directory containing the files</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232427Z" creationid="Toru Kokubun" creationdate="20180427T232427Z">
         <seg>ファイルを含むディレクトリのファイルシステムのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The filename(s) that the resulting assets must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222949Z" creationid="Toru Kokubun" creationdate="20180502T222735Z">
+        <seg>結果のアセットが持つべきファイル名</seg>
       </tuv>
     </tu>
     <tu>
@@ -9350,6 +9446,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The maximum number of levels that results may be separated from &lt;x1/&gt;ancestorOf&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T214814Z" creationid="Toru Kokubun" creationdate="20180502T214420Z">
+        <seg>&lt;x1/&gt;ancestorOf&lt;x2/&gt; によって分割される結果の最大レベル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The maximum number of levels that results may be separated from &lt;x1/&gt;descendantOf&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T221041Z" creationid="Toru Kokubun" creationdate="20180502T221041Z">
+        <seg>&lt;x1/&gt;descendantOf&lt;x2/&gt; によって分割される結果の最大レベル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The modal has the following settings:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213023Z" creationid="Toru Kokubun" creationdate="20180429T213009Z">
@@ -9370,6 +9482,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004038Z" creationid="Toru Kokubun" creationdate="20180430T003746Z">
         <seg>Craft のマルチサイト機能は、同じパブリッシングチームを持つサイトに向いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the &lt;x1/&gt;ElementInterface&lt;x2/&gt; class</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T221541Z" creationid="Toru Kokubun" creationdate="20180502T221541Z">
+        <seg>&lt;x1/&gt;ElementInterface&lt;x2/&gt; クラスの名前</seg>
       </tuv>
     </tu>
     <tu>
@@ -11118,6 +11238,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the resulting elements must have been created</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222434Z" creationid="Toru Kokubun" creationdate="20180502T220254Z">
+        <seg>結果となるエレメントが作成されていなければならないとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the resulting elements must have been last updated</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222614Z" creationid="Toru Kokubun" creationdate="20180502T220740Z">
+        <seg>結果となるエレメントが最後に更新されていなければならないとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos”, set to the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder, where Craft previously stored all user photos.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055254Z" creationid="Toru Kokubun" creationdate="20180420T054448Z">
@@ -11242,6 +11378,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012559Z" creationid="Toru Kokubun" creationdate="20180422T014547Z">
         <seg>セクション内のエントリが URL を持つかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether the elements must be enabled for the chosen site</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222227Z" creationid="Toru Kokubun" creationdate="20180502T222227Z">
+        <seg>選択したサイトでエレメントが利用可能かどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to return each element as an array</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215526Z" creationid="Toru Kokubun" creationdate="20180502T215526Z">
+        <seg>それぞれのエレメントを配列として返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to return only archived elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215443Z" creationid="Toru Kokubun" creationdate="20180502T215443Z">
+        <seg>アーカイブされたエレメントだけを返すかどうか</seg>
       </tuv>
     </tu>
     <tu>
