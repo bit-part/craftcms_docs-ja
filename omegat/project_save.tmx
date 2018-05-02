@@ -6990,6 +6990,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Press &lt;x9/&gt;CMD + SHIFT + .&lt;x10/&gt; (command + shift + period) to see them before moving them to another folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T095105Z" creationid="Toru Kokubun" creationdate="20180502T095053Z">
+        <seg>別のフォルダへ移動する前にそれらを表示するには、&lt;x9/&gt;CMD + SHIFT + .&lt;x10/&gt;（command + shift + ピリオド）を押してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Primary Site</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004749Z" creationid="Toru Kokubun" creationdate="20180430T004749Z">
