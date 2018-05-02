@@ -4158,6 +4158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s how:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074024Z" creationid="Toru Kokubun" creationdate="20180502T073947Z">
+        <seg>次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hidden Templates</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T001122Z" creationid="Toru Kokubun" creationdate="20180427T001122Z">
@@ -5906,6 +5914,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114510Z" creationid="Toru Kokubun" creationdate="20180425T114510Z">
         <seg>行列フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matrix blocks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074056Z" creationid="Toru Kokubun" creationdate="20180502T074056Z">
+        <seg>行列ブロック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Matrix blocks&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074110Z" creationid="Toru Kokubun" creationdate="20180502T074110Z">
+        <seg>行列ブロック&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11362,6 +11386,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031202Z" creationid="Toru Kokubun" creationdate="20180423T031153Z">
         <seg>必要数のコンテンツタブを作成し、類似するフィールドをまとめて分類するために利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create element queries in both PHP and Twig code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T073935Z" creationid="Toru Kokubun" creationdate="20180502T073935Z">
+        <seg>PHP と Twig 両方のコードで、エレメントクエリを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
