@@ -50,14 +50,14 @@
 
    ```php
    defined('CRAFT_BASE_PATH') || define('CRAFT_BASE_PATH', realpath($craftPath));
-//
-if (!is_dir(CRAFT_BASE_PATH.'/vendor')) {
- exit('Could not find your vendor/ folder. Please ensure that <strong><code>$craftPath</code></strong> is set correctly in '.__FILE__);
-}
-//
-require_once CRAFT_BASE_PATH.'/vendor/autoload.php';
-$app = require CRAFT_BASE_PATH.'/vendor/craftcms/cms/bootstrap/web.php';
-$app->run();
+
+   if (!is_dir(CRAFT_BASE_PATH.'/vendor')) {
+      exit('Could not find your vendor/ folder. Please ensure that <strong><code>$craftPath</code></strong> is set correctly in '.__FILE__);
+   }
+
+   require_once CRAFT_BASE_PATH.'/vendor/autoload.php';
+   $app = require CRAFT_BASE_PATH.'/vendor/craftcms/cms/bootstrap/web.php';
+   $app->run();
    ```
 
 4. ブラウザでコントロールパネルの URL（例：`http://example.dev/admin`）にアクセスします。アップデートのプロンプトが表示されたら、すべてが正しく実行されています！「Finish up（完了）」ボタンをクリックしてデータベースを更新してください。
@@ -74,7 +74,7 @@ $app->run();
 
 2. `.env` ファイルにデータベース接続設定を定義します。手動でファイルを編集するか、ターミナルの新しいプロジェクトルートディレクトリから `./craft setup` コマンドを実行します。
 
-> 【メモ】デフォルトのテーブル接頭辞は「空」になりましたが、`craft_` が使われていることに注意してください。
+   > 【メモ】デフォルトのテーブル接頭辞は「空」になりましたが、`craft_` が使われていることに注意してください。テーブルの現在の接頭辞がそれである場合は、`DB_TABLE_PREFIX="craft_"` をセットしてください。
 
 3. 古い `craft/config/general.php` ファイルのすべての設定を新しいプロジェクトの `config/general.php` ファイルにコピーします。
 
