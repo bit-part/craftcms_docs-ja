@@ -7790,6 +7790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set &lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; if that’s what your tables are currently prefixed with.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T095853Z" creationid="Toru Kokubun" creationdate="20180502T095816Z">
+        <seg>テーブルの現在の接頭辞がそれである場合は、&lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; をセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set the &lt;x1/&gt;field&lt;x2/&gt; property if you want to limit the scope to relations created by a particular field.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004527Z" creationid="Toru Kokubun" creationdate="20180429T003931Z">
