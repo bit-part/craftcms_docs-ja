@@ -102,6 +102,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(checks for `null` or an empty string)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080615Z" creationid="Toru Kokubun" creationdate="20180502T080254Z">
+        <seg>（`null`、または、空の文字列かどうかのチェック）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(implied `'or'`)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080205Z" creationid="Toru Kokubun" creationdate="20180502T080205Z">
+        <seg>（暗黙の `'or'`）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(install it globally)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075437Z" creationid="Toru Kokubun" creationdate="20180415T075437Z">
@@ -4118,6 +4134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are the lists of parameters supported by Craft’s built-in element types:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074608Z" creationid="Toru Kokubun" creationdate="20180502T074509Z">
+        <seg>Craft の組み込みエレメントタイプでサポートされているパラメータの一覧は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is how Craft handles each request:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T025320Z" creationid="Toru Kokubun" creationdate="20180429T025312Z">
@@ -5286,6 +5310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition to the core parameters, most custom fields support their own parameters as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080722Z" creationid="Toru Kokubun" creationdate="20180502T080722Z">
+        <seg>コアのパラメータに加えて、ほとんどのカスタムフィールドは独自のパラメータもサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In each Section you can define the following:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014513Z" creationid="Toru Kokubun" creationdate="20180422T014503Z">
@@ -6038,6 +6070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most parameter values will get processed through &lt;x1/&gt;craft\helpers\Db::parseParam()&lt;x2/&gt; before being applied as a condition on the element query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080049Z" creationid="Toru Kokubun" creationdate="20180502T080049Z">
+        <seg>ほんとんどのパラメータ値は、エレメントクエリの条件として適用される前に、&lt;x1/&gt;craft\helpers\Db::parseParam()&lt;x2/&gt; を通して処理されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most sections of the documentation have detailed examples of how to use the concept we're covering.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T000706Z" creationid="Toru Kokubun" creationdate="20180415T000706Z">
@@ -6602,6 +6642,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234210Z" creationid="Toru Kokubun" creationdate="20180427T234014Z">
         <seg>アセットボリュームにフィールドが関連づけられると、アセットのインデックスだけでなく&lt;x1/&gt;アセットフィールド&lt;x2/&gt;内にあるアセットをダブルクリックすることで、フィールドのコンテンツを編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once you’ve created an element query, you can set parameters on it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074337Z" creationid="Toru Kokubun" creationdate="20180502T074337Z">
+        <seg>作成したエレメントクエリには、パラメータをセットすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7330,6 +7378,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215512Z" creationid="Toru Kokubun" creationdate="20180424T215512Z">
         <seg>アップロードを単一のフォルダに限定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns all of the elements in an array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080840Z" creationid="Toru Kokubun" creationdate="20180502T080840Z">
+        <seg>配列内のすべてのエレメントを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the first matching element, or &lt;x1/&gt;null&lt;x2/&gt; if there isn’t one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T081232Z" creationid="Toru Kokubun" creationdate="20180502T081210Z">
+        <seg>最初にマッチするエレメントを返します。存在しない場合は、&lt;x1/&gt;null&lt;x2/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the total number of elements that are matched by the query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080804Z" creationid="Toru Kokubun" creationdate="20180502T080804Z">
+        <seg>クエリにマッチしたエレメントの総数を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8638,6 +8710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That method makes things like the following possible:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080116Z" creationid="Toru Kokubun" creationdate="20180502T080111Z">
+        <seg>そのメソッドは、次のようなことを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That template would be available from http://example.de/welcome.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T011828Z" creationid="Toru Kokubun" creationdate="20180427T011810Z">
@@ -8850,6 +8930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001949Z" creationid="Toru Kokubun" creationdate="20180420T001922Z">
         <seg>自動生成された `validation.key` ファイルのバックアップは、Craft 4 で削除されるでしょう。&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The available parameters varies by element type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074517Z" creationid="Toru Kokubun" creationdate="20180502T074424Z">
+        <seg>利用可能なパラメータは、エレメントタイプによって異なります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9242,6 +9330,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T221005Z" creationid="Toru Kokubun" creationdate="20180429T220635Z">
         <seg>Craft が独自に追加しているのは、テンプレートのルート（&lt;x3/&gt;['template' =&gt; 'some/template']&lt;x4/&gt;）のサポートだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The parameters should be set with chained method calls, like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075118Z" creationid="Toru Kokubun" creationdate="20180502T075021Z">
+        <seg>パラメータは、次のように連結したメソッドコールとしてセットする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11286,6 +11382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also batch-set parameters like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075217Z" creationid="Toru Kokubun" creationdate="20180502T075217Z">
+        <seg>次のように、パラメータを一括設定することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also create drafts of entries that live alongside the current live version of the entry.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012518Z" creationid="Toru Kokubun" creationdate="20180422T013416Z">
@@ -12102,6 +12206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>opposite of `':empty:'`)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080542Z" creationid="Toru Kokubun" creationdate="20180502T080336Z">
+        <seg>（`':empty:'` の反対）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ownerSite&lt;x1/&gt; or &lt;x2/&gt;ownerSiteId&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065758Z" creationid="Toru Kokubun" creationdate="20180420T065758Z">
@@ -12338,6 +12450,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211922Z" creationid="Toru Kokubun" creationdate="20180426T211617Z">
         <seg>【メモ】 &lt;x1/&gt;IIS ファン：&lt;x2/&gt; サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} If the &lt;x1/&gt;asArray&lt;x2/&gt; param was set to &lt;x3/&gt;true&lt;x4/&gt;, then the element will be represented as a raw array, rather than an element object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T081337Z" creationid="Toru Kokubun" creationdate="20180502T081337Z">
+        <seg>【メモ】&lt;x1/&gt;asArray&lt;x2/&gt; パラメータが &lt;x3/&gt;true&lt;x4/&gt; にセットされている場合エレメントはエレメントオブジェクトではなく、生の配列として表されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} If the &lt;x1/&gt;asArray&lt;x2/&gt; param was set to &lt;x3/&gt;true&lt;x4/&gt;, then the elements will be represented as raw arrays, rather than element objects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T081052Z" creationid="Toru Kokubun" creationdate="20180502T081024Z">
+        <seg>【メモ】 &lt;x1/&gt;asArray&lt;x2/&gt; パラメータを &lt;x3/&gt;true&lt;x4/&gt; にセットしている場合、エレメントはエレメントオブジェクトではなく、生の配列として表されます。</seg>
       </tuv>
     </tu>
     <tu>
