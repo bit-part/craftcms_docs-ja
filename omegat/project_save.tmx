@@ -552,8 +552,8 @@
       <tuv lang="EN-US">
         <seg>Add more columns to the SELECT part of the query</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211847Z" creationid="Toru Kokubun" creationdate="20180502T211847Z">
-        <seg>クエリの SELECT パートにカラムを追加します</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003653Z" creationid="Toru Kokubun" creationdate="20180502T211847Z">
+        <seg>クエリの SELECT パートにカラムを追加</seg>
       </tuv>
     </tu>
     <tu>
@@ -576,16 +576,16 @@
       <tuv lang="EN-US">
         <seg>Adds additional ORDER BY columns to the query</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215320Z" creationid="Toru Kokubun" creationdate="20180502T211459Z">
-        <seg>追加の ORDER BY カラムをクエリに付加します</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003649Z" creationid="Toru Kokubun" creationdate="20180502T211459Z">
+        <seg>追加の ORDER BY カラムをクエリに付加</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Adds an additional WHERE condition to the existing one</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215408Z" creationid="Toru Kokubun" creationdate="20180502T215200Z">
-        <seg>既成のものに、追加の WHERE 条件文を付加します</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003715Z" creationid="Toru Kokubun" creationdate="20180502T215200Z">
+        <seg>既成のものに、追加の WHERE 条件文を付加</seg>
       </tuv>
     </tu>
     <tu>
@@ -4270,6 +4270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How to sort the query results</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003755Z" creationid="Toru Kokubun" creationdate="20180503T003755Z">
+        <seg>クエリ結果をどのようにソートするか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How you use the documentation will depend on your experience and situation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215414Z" creationid="Toru Kokubun" creationdate="20180415T001912Z">
@@ -6058,6 +6066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212114Z" creationid="Toru Kokubun" creationdate="20180427T212114Z">
         <seg>そのグループの中にネストできるカテゴリの最大レベル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maximum number of records to be returned</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003352Z" creationid="Toru Kokubun" creationdate="20180503T003352Z">
+        <seg>返されるレコードの最大数</seg>
       </tuv>
     </tu>
     <tu>
@@ -7990,6 +8006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shortcut for &lt;x1/&gt;createCommand()-&gt;getRawSql()&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002843Z" creationid="Toru Kokubun" creationdate="20180503T002843Z">
+        <seg>&lt;x1/&gt;createCommand()-&gt;getRawSql()&lt;x2/&gt; のショートカット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Should Craft handle this request in the first place?&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T025533Z" creationid="Toru Kokubun" creationdate="20180429T025503Z">
@@ -9038,6 +9062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The asset folder ID(s) that the resulting assets must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002825Z" creationid="Toru Kokubun" creationdate="20180503T002825Z">
+        <seg>結果となるアセットが含まれるべきアセットフォルダ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The auto-generated `validation.key` file fallback will be removed in Craft 4.&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001949Z" creationid="Toru Kokubun" creationdate="20180420T001922Z">
@@ -9142,6 +9174,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The element (or its ID) that the result must be the next sibling of</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003524Z" creationid="Toru Kokubun" creationdate="20180503T003502Z">
+        <seg>次の兄弟にあたる結果のエレメント（または、その ID）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element ID(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002939Z" creationid="Toru Kokubun" creationdate="20180503T002939Z">
+        <seg>エレメントの ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element’s level within the structure</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003841Z" creationid="Toru Kokubun" creationdate="20180503T003832Z">
+        <seg>ストラクチャーに含まれるエレメントのレベル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The end result will be the same, so go with whichever route you feel more comfortable with.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110512Z" creationid="Toru Kokubun" creationdate="20180426T110501Z">
@@ -9190,6 +9246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The file kind(s) that the resulting assets must be</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003528Z" creationid="Toru Kokubun" creationdate="20180503T003325Z">
+        <seg>結果となるアセットのファイルの種類</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The file system path to the directory containing the files</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232427Z" creationid="Toru Kokubun" creationdate="20180427T232427Z">
@@ -9200,8 +9264,8 @@
       <tuv lang="EN-US">
         <seg>The filename(s) that the resulting assets must have</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222949Z" creationid="Toru Kokubun" creationdate="20180502T222735Z">
-        <seg>結果のアセットが持つべきファイル名</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002656Z" creationid="Toru Kokubun" creationdate="20180502T222735Z">
+        <seg>結果となるアセットが持つべきファイル名</seg>
       </tuv>
     </tu>
     <tu>
@@ -9446,6 +9510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The height (in pixels) that the resulting assets must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002924Z" creationid="Toru Kokubun" creationdate="20180503T002924Z">
+        <seg>結果となるアセットが持つべき（ピクセル単位の）高さ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The maximum number of levels that results may be separated from &lt;x1/&gt;ancestorOf&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T214814Z" creationid="Toru Kokubun" creationdate="20180502T214420Z">
@@ -9490,6 +9562,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T221541Z" creationid="Toru Kokubun" creationdate="20180502T221541Z">
         <seg>&lt;x1/&gt;ElementInterface&lt;x2/&gt; クラスの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the column by which the query results should be indexed by</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003133Z" creationid="Toru Kokubun" creationdate="20180503T003133Z">
+        <seg>クエリ結果のインデックスに利用するカラム名</seg>
       </tuv>
     </tu>
     <tu>
@@ -11382,10 +11462,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether results should be returned in the order specified by &lt;x1/&gt;id&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002559Z" creationid="Toru Kokubun" creationdate="20180503T002546Z">
+        <seg>結果を &lt;x1/&gt;id&lt;x2/&gt; で指定された並び順で返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether the elements must be enabled for the chosen site</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222227Z" creationid="Toru Kokubun" creationdate="20180502T222227Z">
         <seg>選択したサイトでエレメントが利用可能かどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether the query should search the subfolders of &lt;x1/&gt;folderId&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003040Z" creationid="Toru Kokubun" creationdate="20180503T003040Z">
+        <seg>クエリが &lt;x1/&gt;folderId&lt;x2/&gt; のサブフォルダを検索するかどうか</seg>
       </tuv>
     </tu>
     <tu>
@@ -12138,6 +12234,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005315Z" creationid="Toru Kokubun" creationdate="20180422T005304Z">
         <seg>フロントエンド向けのテンプレートをここにまとめます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Zero-based offset from where the records are to be returned</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003623Z" creationid="Toru Kokubun" creationdate="20180503T003623Z">
+        <seg>レコードが返される場所からのゼロベースのオフセット</seg>
       </tuv>
     </tu>
     <tu>
