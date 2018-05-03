@@ -8006,6 +8006,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;ownerId&lt;x2/&gt; and &lt;x3/&gt;ownerSiteId&lt;x4/&gt; params based on a given element</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063746Z" creationid="Toru Kokubun" creationdate="20180503T063746Z">
+        <seg>指定されたエレメントに基づき、&lt;x1/&gt;ownerId&lt;x2/&gt; と &lt;x3/&gt;ownerSiteId&lt;x4/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;ownerLocale&lt;x2/&gt; param</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063908Z" creationid="Toru Kokubun" creationdate="20180503T063908Z">
+        <seg>&lt;x1/&gt;ownerLocale&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;ownerSiteId&lt;x2/&gt; param based on a given site(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063937Z" creationid="Toru Kokubun" creationdate="20180503T063937Z">
+        <seg>指定されたサイトのハンドルに基づき、&lt;x1/&gt;ownerSiteId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the &lt;x1/&gt;postDate&lt;x2/&gt; param to only allow entries whose Post Date is after the given value</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032706Z" creationid="Toru Kokubun" creationdate="20180503T032706Z">
@@ -8034,6 +8058,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030508Z" creationid="Toru Kokubun" creationdate="20180503T030037Z">
         <seg>指定されたサイトのハンドルに基づき、&lt;x1/&gt;siteId&lt;x2/&gt; パラメータをセットÍ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;typeId&lt;x2/&gt; param based on a given block type(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064243Z" creationid="Toru Kokubun" creationdate="20180503T064243Z">
+        <seg>指定されたブロックタイプのハンドルに基づき、&lt;x1/&gt;typeId&lt;x2/&gt; パラメータをセット</seg>
       </tuv>
     </tu>
     <tu>
@@ -9222,6 +9254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The block type ID(s) that the resulting Matrix blocks must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064309Z" creationid="Toru Kokubun" creationdate="20180503T064309Z">
+        <seg>結果となる行列ブロックが持つべきブロックタイプ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The category group ID(s) that the resulting categories must be in</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032243Z" creationid="Toru Kokubun" creationdate="20180503T032243Z">
@@ -9450,6 +9490,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211216Z" creationid="Toru Kokubun" creationdate="20180426T211216Z">
         <seg>設定されるべき正確なパーミッションは、PHP を実行しているシステムユーザーと実際にフォルダやファイルを所有しているユーザーとの関係性に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The field ID(s) that the resulting Matrix blocks must belong to</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063844Z" creationid="Toru Kokubun" creationdate="20180503T063627Z">
+        <seg>結果となる行列ブロックが属するべきフィールド ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -9814,6 +9862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The owner element ID(s) that the resulting Matrix blocks must belong to</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063834Z" creationid="Toru Kokubun" creationdate="20180503T063834Z">
+        <seg>結果となる行列ブロックが属するべきオーナーエレメント ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The parameters should be set with chained method calls, like so:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075118Z" creationid="Toru Kokubun" creationdate="20180502T075021Z">
@@ -9890,6 +9946,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030230Z" creationid="Toru Kokubun" creationdate="20180503T030230Z">
         <seg>返されるべきエレメントのサイト ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The site ID that the resulting Matrix blocks must have been defined in, or ':empty:' to find blocks without an owner site ID</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064131Z" creationid="Toru Kokubun" creationdate="20180503T064131Z">
+        <seg>結果となる行列ブロックが定義されるべきサイト ID、または、オーナーサイト ID のないブロックを見つけるための ':empty:'</seg>
       </tuv>
     </tu>
     <tu>
