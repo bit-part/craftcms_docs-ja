@@ -51,7 +51,6 @@ Permission	パーミッション	サーバー設定に関する場合は「パ�
 folksonomies	分類
 taxonomies	分類
 relational field	関連フィールド
-and/or	、および／または、
 Criteria	判定基準
 Element Criteria Model	Element Criteria Model	「エレメントの判定基準モデル」でも問題ないが、モデル名であることから、このままの表記とする
 Beyond that	その他に
@@ -61,3 +60,4 @@ in your templates	テンプレート内で
 query builders	クエリビルダー
 Content Migrations	コンテンツマイグレーション	管理画面の表記に合わせて、そのままとする
 valid	有効な
+and/or	、および / または、
