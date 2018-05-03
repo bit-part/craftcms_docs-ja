@@ -15,7 +15,7 @@
 
 ## テンプレート記法
 
-テンプレート内で日付フィールドを呼び出すと、選択された日付の [DateTime](http://php.net/manual/en/class.datetime.php) オブジェクトが返ります。フィールドに値がない場合は、`null` を返します。
+テンプレート内で日付フィールドを呼び出すと、選択された日付の [DateTime](http://php.net/manual/en/class.datetime.php) オブジェクトが返ります。フィールドに値がない場合、`null` を返します。
 
 ```twig
 {% if user.birthday %}

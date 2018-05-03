@@ -40,7 +40,7 @@ Craft 3 ドキュメント
 - [サイト](ja/sites.md)
 - [ローカライゼーション](ja/localization.md)
 - [エレメントクエリ](ja/element-queries.md)
-- [コンテンツの移行](ja/content-migrations.md)
+- [コンテンツマイグレーション](ja/content-migrations.md)
 - [コンフィギュレーション](ja/configuration.md)
 
 ## テンプレート記法
@@ -73,6 +73,6 @@ Craft 3 ドキュメント
 - [ユーティリティタイプ](ja/utility-types.md)
 - [エレメントタイプ](ja/element-types.md)
 - [エレメントアクションタイプ](ja/element-action-types.md)
-- [プラグインの移行](ja/plugin-migrations.md)
+- [プラグインマイグレーション](ja/plugin-migrations.md)
 - [プラグインストアでの配布](ja/plugin-store.md)
 

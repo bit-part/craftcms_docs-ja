@@ -39,7 +39,7 @@
 
 いずれの場合も、オプションのラベルを出力するには `{{ option.label }}` と記述します。オプションが選択されているかどうかは `option.selected` で知ることができます。
 
-例えば、変数に割り当てるなどフィールドの値を直接出力しない場合は、次のように `dropdownFieldHandle.value` を利用する必要があります。
+例えば、変数に割り当てるなどフィールドの値を直接出力しない場合、次のように `dropdownFieldHandle.value` を利用する必要があります。
 
 ```twig
 {% set dropdownValue = entry.dropdownFieldHandle.value %}

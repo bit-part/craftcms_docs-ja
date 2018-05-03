@@ -62,11 +62,11 @@ Redactor プラグインをインストールする場合、`config/redactor/` �
 
 「位置選択」フィールドタイプは Craft 3 で削除されました。位置選択フィールドがある場合、すべてのオプションを保持したままドロップダウンフィールドに変換されます。 
 
-位置選択フィールドが必要な場合は、[Position Fieldtype](https://github.com/Rias500/craft-position-fieldtype) プラグインをインストールしてください。
+位置選択フィールドが必要な場合、[Position Fieldtype](https://github.com/Rias500/craft-position-fieldtype) プラグインをインストールしてください。
 
 ## リモートボリューム
 
-Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポートは、プラグインに移行されました。それらのサービスを Craft 2 で利用していたアセットボリュームがある場合は、新しいプラグインをインストールする必要があります。
+Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポートは、プラグインに移行されました。それらのサービスを Craft 2 で利用していたアセットボリュームがある場合、新しいプラグインをインストールする必要があります。
 
 - [Amazon S3](https://github.com/craftcms/aws-s3)
 - [Rackspace Cloud Files](https://github.com/craftcms/rackspace)
@@ -95,7 +95,7 @@ Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポー�
 
 *<sup>3</sup> Craft 2 で環境変数をサポートしていた設定は、Craft 3 の [エイリアス](http://www.yiiframework.com/doc-2.0/guide-concept-aliases.html) でサポートされるようになりました。Craft 3 にアップデートすると、サイト URL やローカルボリュームの設定は新しいエイリアス構文 （`{variable}` の代わりに `@variable`）へ自動的に変換されます。
 
-*<sup>4</sup> `securityKey` は、もはやオプションではありません。まだ設定していない場合は、（ファイルが存在していれば）`storage/runtime/validation.key` に設定します。自動生成された `validation.key` ファイルのバックアップは、Craft 4 で削除されるでしょう。*
+*<sup>4</sup> `securityKey` は、もはやオプションではありません。まだ設定していない場合、（ファイルが存在していれば）`storage/runtime/validation.key` に設定します。自動生成された `validation.key` ファイルのバックアップは、Craft 4 で削除されるでしょう。*
 
 次の設定は完全に削除されました。
 
@@ -108,7 +108,7 @@ Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポー�
 
 ### `omitScriptNameInUrls` と `usePathInfo`
 
-`omitScriptNameInUrls` 設定は、Craft 2 のデフォルトがそうであったように `'auto'` にすることはもはやできません。HTTP リクエストを `index.php` にルーティングするようにサーバーを設定した場合は、`config/general.php` で明示的に `true` にする必要があることを意味しています。
+`omitScriptNameInUrls` 設定は、Craft 2 のデフォルトがそうであったように `'auto'` にすることはもはやできません。HTTP リクエストを `index.php` にルーティングするようにサーバーを設定した場合、`config/general.php` で明示的に `true` にする必要があることを意味しています。
 
 同様に、`usePathInfo` 設定も `'auto'` にすることはできません。サーバーが [PATH_INFO](https://craftcms.com/support/enable-path-info) をサポートするよう設定されているならば、ここに `true` をセットできます。ただし、`omitScriptNameInUrls` を `true` にセットできない場合のみ、必要となります。
 
@@ -450,7 +450,7 @@ New:
 
 #### パラメータを配列にセットする
 
-パラメータ値を配列にセットする場合は、配列の大括弧を記述**しなければなりません**。
+パラメータ値を配列にセットする場合、配列の大括弧を記述**しなければなりません**。
 
 ```twig
 Old:
@@ -539,7 +539,7 @@ New:
 {% set total = craft.entries.section('news').count() %}
 ```
 
-代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ、`offset` や `limit` パラメータをセットしていない場合は、 [`|length`](https://twig.symfony.com/doc/2.x/filters/length.html) フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。
+代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ、`offset` や `limit` パラメータをセットしていない場合、 [`|length`](https://twig.symfony.com/doc/2.x/filters/length.html) フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。
 
 ```twig
 {% set entries = craft.entries()
@@ -666,7 +666,7 @@ New:
 
 ### CSRF トークンパラメータ
 
-CSRF プロテクションは、Craft 3 ではデフォルトで有効になりました。（コンフィグ設定の `enableCsrfProtection` で）有効化していなかった場合は、 コントローラーアクションで送信するフロントエンドのすべての `<form>` と JavaScript に新しい CSRF トークンパラメータを追加するアップデートが必要です。 あわせて、コンフィグ設定の `csrfTokenName` をセットする必要があります（デフォルトは `'CRAFT_CSRF_TOKEN'` となります）。
+CSRF プロテクションは、Craft 3 ではデフォルトで有効になりました。（コンフィグ設定の `enableCsrfProtection` で）有効化していなかった場合、 コントローラーアクションで送信するフロントエンドのすべての `<form>` と JavaScript に新しい CSRF トークンパラメータを追加するアップデートが必要です。 あわせて、コンフィグ設定の `csrfTokenName` をセットする必要があります（デフォルトは `'CRAFT_CSRF_TOKEN'` となります）。
 
 ```twig
 {% set csrfTokenName = craft.app.config.general.csrfTokenName %}
@@ -682,11 +682,11 @@ CSRF プロテクションは、Craft 3 ではデフォルトで有効になり�
 
 ## Memcache
 
-コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `memcache` を指定し、設定ファイル `craft/config/memcache.php` で `useMemcached` に `true` をセットしていない場合は、サーバーに memcached をインストールする必要があります。Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、それを使用します。
+コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `memcache` を指定し、設定ファイル `craft/config/memcache.php` で `useMemcached` に `true` をセットしていない場合、サーバーに memcached をインストールする必要があります。Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、それを使用します。
 
 ## DbCache
 
-コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `db` を指定している場合は、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。
+コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `db` を指定している場合、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。
 
 *MySQL:*
 
@@ -720,7 +720,7 @@ CREATE TABLE craft_cache (
 
 これらの例では、`craft`のコンフィグ設定にデフォルトの `craft/config/db.php` を使用している点に注意してください。
 
-コンフィグ設定を変更している場合は、それに応じて前述のサンプルを調整してください。
+コンフィグ設定を変更している場合、それに応じて前述のサンプルを調整してください。
 
 ## プラグイン
 

@@ -7,7 +7,7 @@ Craft では、テンプレートを利用してサイトの HTML 出力を定�
 
 Craft はテンプレートを解析するために [Twig](http://twig.sensiolabs.org/) を利用します。Twig は、エレガントで、パワフルで、 かつ、とても高速です。Twig をはじめて使う方は、その構文に慣れ親しむために[ドキュメント](twig-primer.md)へ目を通してください。
 
-テンプレート内で PHP コードは使用できません。Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合は、新しい[Twig 拡張](https://twig.symfony.com/doc/2.x/advanced.html#creating-an-extension)を提供する[プラグイン](plugin-intro.md)を作成することができます。
+テンプレート内で PHP コードは使用できません。Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合、新しい[Twig 拡張](https://twig.symfony.com/doc/2.x/advanced.html#creating-an-extension)を提供する[プラグイン](plugin-intro.md)を作成することができます。
 
 ## テンプレートのパス
 
@@ -50,7 +50,7 @@ Craft は、`recipes/_entry.html` のように、名前の接頭辞にアンダ�
 
 Craft でマルチサイトを運用している場合、特定のサイトだけで利用可能なテンプレートを含むサイト固有のサブディレクトリを `craft/templates/` 内に作成できます。
 
-例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合は、`craft/templates/de/welcome.html` に保存します。そのテンプレートは http://example.de/welcome からアクセスできるでしょう。
+例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合、`craft/templates/de/welcome.html` に保存します。そのテンプレートは http://example.de/welcome からアクセスできるでしょう。
 
 Craft は、通常のテンプレートを探す_前に_ローカライズ用のテンプレートを探します。それによって、ローカライズされていないテンプレートを上書きすることができます。詳細については、[ローカライゼーションガイド](sites-localization.md)を参照してください。
 
