@@ -59,3 +59,5 @@ starting point	出発点
 live	稼働	「Craft が動作する」という文脈の場合
 in your templates	テンプレート内で
 query builders	クエリビルダー
+Content Migrations	コンテンツマイグレーション	管理画面の表記に合わせて、そのままとする
+valid	有効な
