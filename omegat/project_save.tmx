@@ -792,16 +792,16 @@
       <tuv lang="EN-US">
         <seg>Alternatively, if you already needed to fetch the actual query results, and you didn’t set the &lt;x1/&gt;offset&lt;x2/&gt; or &lt;x3/&gt;limit&lt;x4/&gt; params, you can use the &lt;x5/&gt;`|length`&lt;x6/&gt; filter to find the total size of the results array without the need for an extra database query.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T231726Z" creationid="Toru Kokubun" creationdate="20180420T231124Z">
-        <seg>代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ、&lt;x1/&gt;offset&lt;x2/&gt; や &lt;x3/&gt;limit&lt;x4/&gt; パラメータをセットしていない場合は、 &lt;x5/&gt;`|length`&lt;x6/&gt; フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T231124Z">
+        <seg>代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ、&lt;x1/&gt;offset&lt;x2/&gt; や &lt;x3/&gt;limit&lt;x4/&gt; パラメータをセットしていない場合、 &lt;x5/&gt;`|length`&lt;x6/&gt; フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>An array of element objects and/or IDs</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004330Z" creationid="Toru Kokubun" creationdate="20180429T002023Z">
-        <seg>エレメントオブジェクト、および／または、 ID の配列</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T221138Z" creationid="Toru Kokubun" creationdate="20180429T002023Z">
+        <seg>エレメントオブジェクト、および / または、 ID の配列</seg>
       </tuv>
     </tu>
     <tu>
@@ -1200,8 +1200,8 @@
       <tuv lang="EN-US">
         <seg>But if you point your browser directly at a file that &lt;x7/&gt;does&lt;x8/&gt; exist (such as an image URL), your web server will serve that file directly without Craft intervening.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T031403Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
-        <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合は、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
+        <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1296,8 +1296,8 @@
       <tuv lang="EN-US">
         <seg>Calling a Date field in your templates will return a &lt;x1/&gt;DateTime&lt;x2/&gt; object set to the selected date, or &lt;x3/&gt;null&lt;x4/&gt; if the field doesn’t have a value.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012656Z" creationid="Toru Kokubun" creationdate="20180425T012656Z">
-        <seg>テンプレート内で日付フィールドを呼び出すと、選択された日付の &lt;x1/&gt;DateTime&lt;x2/&gt; オブジェクトが返ります。フィールドに値がない場合は、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T012656Z">
+        <seg>テンプレート内で日付フィールドを呼び出すと、選択された日付の &lt;x1/&gt;DateTime&lt;x2/&gt; オブジェクトが返ります。フィールドに値がない場合、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2090,6 +2090,14 @@
       </tuv>
       <tuv lang="JA" changeid="TORU KOKUBUN" changedate="20180220T213244Z" creationid="TORU KOKUBUN" creationdate="20180220T213244Z">
         <seg>Craft 3 ドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft 3 adds a &lt;x1/&gt;$includeAuditColumns&lt;x2/&gt; argument to the &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;, &lt;x6/&gt;&lt;x7/&gt;&lt;x8/&gt;, and &lt;x9/&gt;&lt;x10/&gt;&lt;x11/&gt; migration methods (set to &lt;x12/&gt;true&lt;x13/&gt; by default) that determines whether to insert/update data in the “audit” columns (&lt;x14/&gt;dateCreated&lt;x15/&gt;, &lt;x16/&gt;dateUpdated&lt;x17/&gt;, &lt;x18/&gt;uid&lt;x19/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T221053Z" creationid="Toru Kokubun" creationdate="20180503T214038Z">
+        <seg>Craft 3 は「audit」カラムのデータ（&lt;x14/&gt;dateCreated&lt;x15/&gt;、&lt;x16/&gt;dateUpdated&lt;x17/&gt;、 &lt;x18/&gt;uid&lt;x19/&gt;）を挿入 / 更新するかどうかを決定する&lt;x1/&gt;$includeAuditColumns&lt;x2/&gt; 引数（デフォルトは &lt;x12/&gt;true&lt;x13/&gt;に設定されています）を &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;、&lt;x6/&gt;&lt;x7/&gt;&lt;x8/&gt;、および &lt;x9/&gt;&lt;x10/&gt;&lt;x11/&gt; のマイグレーションメソッドに追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3880,16 +3888,16 @@
       <tuv lang="EN-US">
         <seg>For example, if you want to create a special template welcoming your German customers, but there’s no need for it on your English site, then you could save it in &lt;x1/&gt;craft/templates/de/welcome.html&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T011751Z" creationid="Toru Kokubun" creationdate="20180427T011618Z">
-        <seg>例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合は、&lt;x1/&gt;craft/templates/de/welcome.html&lt;x2/&gt; に保存します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180427T011618Z">
+        <seg>例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合、&lt;x1/&gt;craft/templates/de/welcome.html&lt;x2/&gt; に保存します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>For example, if you wanted to give your German site its own homepage template, you might set your templates folder up like this:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234626Z" creationid="Toru Kokubun" creationdate="20180430T234626Z">
-        <seg>例えば、ドイツ語のサイトのホームページを独自のテンプレートにする場合は、テンプレートフォルダを次のように設定します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T234626Z">
+        <seg>例えば、ドイツ語のサイトのホームページを独自のテンプレートにする場合、テンプレートフォルダを次のように設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3952,8 +3960,8 @@
       <tuv lang="EN-US">
         <seg>For projects that require upgrading a current Craft 2 project to Craft 3, review the &lt;x1/&gt;Craft 2 Upgrade documentation&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074742Z" creationid="Toru Kokubun" creationdate="20180415T011415Z">
-        <seg>既存の Craft 2 プロジェクトを Craft 3 にアップグレードする必要がある場合は、&lt;x1/&gt;Craft 2 アップグレードドキュメント&lt;x2/&gt;を再確認してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180415T011415Z">
+        <seg>既存の Craft 2 プロジェクトを Craft 3 にアップグレードする必要がある場合、&lt;x1/&gt;Craft 2 アップグレードドキュメント&lt;x2/&gt;を再確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4480,24 +4488,24 @@
       <tuv lang="EN-US">
         <seg>If multiple blocks are selected, all of the selected blocks will be going along for the ride.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T124832Z" creationid="Toru Kokubun" creationdate="20180425T124832Z">
-        <seg>複数のブロックが選択されている場合は、選択されたすべてのブロックが一緒に移動します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T124832Z">
+        <seg>複数のブロックが選択されている場合、選択されたすべてのブロックが一緒に移動します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If multiple blocks are selected, the Collapse/Expand, Disable/Enable, and Delete options will apply to all of the selected blocks.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T123153Z" creationid="Toru Kokubun" creationdate="20180425T123153Z">
-        <seg>複数のブロックが選択されている場合は、選択されたすべてのブロックに対して「折りたたむ / 展開する」「無効 / 有効」および「削除」オプションが適用されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T123153Z">
+        <seg>複数のブロックが選択されている場合、選択されたすべてのブロックに対して「折りたたむ / 展開する」「無効 / 有効」および「削除」オプションが適用されます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If no level is specified then the nesting level is unlimited.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T215330Z" creationid="Toru Kokubun" creationdate="20180427T215330Z">
-        <seg>レベルを指定していない場合は、無制限にネストできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180427T215330Z">
+        <seg>レベルを指定していない場合、無制限にネストできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4520,8 +4528,8 @@
       <tuv lang="EN-US">
         <seg>If that Matrix field has more than one relational field and you want to target a specific one, you can specify the block type field’s handle using a dot notation:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T013703Z" creationid="Toru Kokubun" creationdate="20180429T013628Z">
-        <seg>複数の関連フィールドを持つ行列フィールドにある特定のフィールドだけをターゲットにしたい場合は、ドット表記を利用してブロックタイプのフィールドハンドルを指定できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T013628Z">
+        <seg>複数の関連フィールドを持つ行列フィールドにある特定のフィールドだけをターゲットにしたい場合、ドット表記を利用してブロックタイプのフィールドハンドルを指定できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4590,6 +4598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the table you are inserting into does not have all three of these columns, you must pass &lt;x20/&gt;false&lt;x21/&gt; to that argument so you don’t get a SQL error.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T215951Z" creationid="Toru Kokubun" creationdate="20180503T215913Z">
+        <seg>挿入しようとするテーブルがこれら3つのカラムすべてを持っていない場合、SQL エラーにならないよう、引数に &lt;x20/&gt;false&lt;x21/&gt; を渡す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the “Restrict allowed file types?” setting is checked, a list of file types will appear below it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215551Z" creationid="Toru Kokubun" creationdate="20180424T215551Z">
@@ -4624,8 +4640,8 @@
       <tuv lang="EN-US">
         <seg>If this site should be the Primary Site, toggle the 'Is Primary Site?' to enable it.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T211953Z" creationid="Toru Kokubun" creationdate="20180430T211953Z">
-        <seg>このサイトをプライマリサイトにする場合は、「これはプライマリサイトですか？」をオンに切り替えます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T211953Z">
+        <seg>このサイトをプライマリサイトにする場合、「これはプライマリサイトですか？」をオンに切り替えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4656,8 +4672,8 @@
       <tuv lang="EN-US">
         <seg>If we want to output the ingredients list for a drink recipe, we'd use the following:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001310Z" creationid="Toru Kokubun" creationdate="20180429T001310Z">
-        <seg>ドリンクレシピの原材料リストを出力したい場合は、次のようにします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T001310Z">
+        <seg>ドリンクレシピの原材料リストを出力したい場合、次のようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4672,8 +4688,8 @@
       <tuv lang="EN-US">
         <seg>If you are including a Checkboxes field on a front-end &lt;x1/&gt;entry from&lt;x2/&gt;, make sure to include a hidden input before the checkboxes, so that an empty value is submitted if no checkboxes are checked.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T002130Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
-        <seg>フロントエンドの&lt;x1/&gt;エントリフォーム&lt;x2/&gt;にチェックボックスフィールドを含める場合は、チェックボックスの前に不可視フィールドを含め、チェックボックスがチェックされなかった場合でも、空の値が送信されるようにしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
+        <seg>フロントエンドの&lt;x1/&gt;エントリフォーム&lt;x2/&gt;にチェックボックスフィールドを含める場合、チェックボックスの前に不可視フィールドを含め、チェックボックスがチェックされなかった場合でも、空の値が送信されるようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4688,16 +4704,16 @@
       <tuv lang="EN-US">
         <seg>If you are using &lt;x1/&gt;db&lt;x2/&gt; for your &lt;x3/&gt;cacheMethod&lt;x4/&gt; config setting, you'll need to manually execute some SQL before attempting the Craft 3 update.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001336Z" creationid="Toru Kokubun" creationdate="20180421T001336Z">
-        <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;db&lt;x2/&gt; を指定している場合は、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180421T001336Z">
+        <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;db&lt;x2/&gt; を指定している場合、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you are using &lt;x1/&gt;memcache&lt;x2/&gt; for your &lt;x3/&gt;cacheMethod&lt;x4/&gt; config setting and you did not have &lt;x5/&gt;useMemcached&lt;x6/&gt; set to &lt;x7/&gt;true&lt;x8/&gt; in your &lt;x9/&gt;craft/config/memcache.php&lt;x10/&gt; config file, you'll need to install memcached on your server.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001204Z" creationid="Toru Kokubun" creationdate="20180421T000630Z">
-        <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;memcache&lt;x2/&gt; を指定し、設定ファイル &lt;x9/&gt;craft/config/memcache.php&lt;x10/&gt; で &lt;x5/&gt;useMemcached&lt;x6/&gt; に &lt;x7/&gt;true&lt;x8/&gt; をセットしていない場合は、サーバーに memcached をインストールする必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180421T000630Z">
+        <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;memcache&lt;x2/&gt; を指定し、設定ファイル &lt;x9/&gt;craft/config/memcache.php&lt;x10/&gt; で &lt;x5/&gt;useMemcached&lt;x6/&gt; に &lt;x7/&gt;true&lt;x8/&gt; をセットしていない場合、サーバーに memcached をインストールする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4720,8 +4736,8 @@
       <tuv lang="EN-US">
         <seg>If you didn’t already have it enabled (via the &lt;x1/&gt;enableCsrfProtection&lt;x2/&gt; config setting), each of your front-end &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;s and JS scripts that submit to a controller action will need to be updated with a new CSRF token param, named after your &lt;x6/&gt;csrfTokenName&lt;x7/&gt; config setting value (set to &lt;x8/&gt;'CRAFT_CSRF_TOKEN'&lt;x9/&gt; by default).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T000104Z" creationid="Toru Kokubun" creationdate="20180420T235655Z">
-        <seg>（コンフィグ設定の &lt;x1/&gt;enableCsrfProtection&lt;x2/&gt; で）有効化していなかった場合は、 コントローラーアクションで送信するフロントエンドのすべての &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; と JavaScript に新しい CSRF トークンパラメータを追加するアップデートが必要です。 あわせて、コンフィグ設定の &lt;x6/&gt;csrfTokenName&lt;x7/&gt; をセットする必要があります（デフォルトは &lt;x8/&gt;'CRAFT_CSRF_TOKEN'&lt;x9/&gt; となります）。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T235655Z">
+        <seg>（コンフィグ設定の &lt;x1/&gt;enableCsrfProtection&lt;x2/&gt; で）有効化していなかった場合、 コントローラーアクションで送信するフロントエンドのすべての &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; と JavaScript に新しい CSRF トークンパラメータを追加するアップデートが必要です。 あわせて、コンフィグ設定の &lt;x6/&gt;csrfTokenName&lt;x7/&gt; をセットする必要があります（デフォルトは &lt;x8/&gt;'CRAFT_CSRF_TOKEN'&lt;x9/&gt; となります）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4760,8 +4776,8 @@
       <tuv lang="EN-US">
         <seg>If you had made any changes to your &lt;x1/&gt;public/index.php&lt;x2/&gt; file, copy them to your new project’s &lt;x3/&gt;web/index.php&lt;x4/&gt; file.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T235831Z" creationid="Toru Kokubun" creationdate="20180418T235807Z">
-        <seg>&lt;x1/&gt;public/index.php&lt;x2/&gt; ファイルに何らかの変更を加えていた場合は、それらを新しいプロジェクトの &lt;x3/&gt;web/index.php&lt;x4/&gt; ファイルにコピーします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180418T235807Z">
+        <seg>&lt;x1/&gt;public/index.php&lt;x2/&gt; ファイルに何らかの変更を加えていた場合、それらを新しいプロジェクトの &lt;x3/&gt;web/index.php&lt;x4/&gt; ファイルにコピーします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4792,8 +4808,8 @@
       <tuv lang="EN-US">
         <seg>If you have a need to do something that is not possible out-of-the-box with Craft or Twig, you can create a &lt;x1/&gt;plugin&lt;x2/&gt; that provides a new &lt;x3/&gt;Twig extension&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T234821Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
-        <seg>Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合は、新しい&lt;x3/&gt;Twig 拡張&lt;x4/&gt;を提供する&lt;x1/&gt;プラグイン&lt;x2/&gt;を作成することができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
+        <seg>Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合、新しい&lt;x3/&gt;Twig 拡張&lt;x4/&gt;を提供する&lt;x1/&gt;プラグイン&lt;x2/&gt;を作成することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4856,8 +4872,8 @@
       <tuv lang="EN-US">
         <seg>If you have any asset volumes that were using those services in Craft 2, you will need to install the new plugins:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T000057Z" creationid="Toru Kokubun" creationdate="20180420T000057Z">
-        <seg>それらのサービスを Craft 2 で利用していたアセットボリュームがある場合は、新しいプラグインをインストールする必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T000057Z">
+        <seg>それらのサービスを Craft 2 で利用していたアセットボリュームがある場合、新しいプラグインをインストールする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4888,8 +4904,8 @@
       <tuv lang="EN-US">
         <seg>If you have any templates that you only want to serve from a specific site, you can create a new sub-folder in your templates folder, named after your site's handle, and place the templates in there.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234513Z" creationid="Toru Kokubun" creationdate="20180430T234453Z">
-        <seg>特定のサイトからだけ配信したいテンプレートがある場合は、テンプレートフォルダに新しいサブフォルダを作成し、サイトのハンドルをフォルダ名にして、その中に手テンプレートを配置します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T234453Z">
+        <seg>特定のサイトからだけ配信したいテンプレートがある場合、テンプレートフォルダに新しいサブフォルダを作成し、サイトのハンドルをフォルダ名にして、その中に手テンプレートを配置します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4920,8 +4936,8 @@
       <tuv lang="EN-US">
         <seg>If you have changed that config setting, you will want to adjust the examples accordingly.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001626Z" creationid="Toru Kokubun" creationdate="20180421T001626Z">
-        <seg>コンフィグ設定を変更している場合は、それに応じて前述のサンプルを調整してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180421T001626Z">
+        <seg>コンフィグ設定を変更している場合、それに応じて前述のサンプルを調整してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4936,16 +4952,16 @@
       <tuv lang="EN-US">
         <seg>If you haven’t set it yet, set it to the value in `storage/runtime/validation.key` (if the file exists).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001817Z" creationid="Toru Kokubun" creationdate="20180420T001817Z">
-        <seg>まだ設定していない場合は、（ファイルが存在していれば）`storage/runtime/validation.key` に設定します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T001817Z">
+        <seg>まだ設定していない場合、（ファイルが存在していれば）`storage/runtime/validation.key` に設定します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you just want to output blocks of a certain type, you can do that by appending a ‘type’ filter to your Matrix field:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213209Z" creationid="Toru Kokubun" creationdate="20180425T213209Z">
-        <seg>特定のタイプのブロックだけを出力したい場合は、行列フィールドに「type」フィルタを追加します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T213209Z">
+        <seg>特定のタイプのブロックだけを出力したい場合、行列フィールドに「type」フィルタを追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4960,8 +4976,8 @@
       <tuv lang="EN-US">
         <seg>If you miss Position Select, you can try installing the &lt;x1/&gt;Position Fieldtype&lt;x2/&gt; plugin, which brings it back.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235835Z" creationid="Toru Kokubun" creationdate="20180419T235835Z">
-        <seg>位置選択フィールドが必要な場合は、&lt;x1/&gt;Position Fieldtype&lt;x2/&gt; プラグインをインストールしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180419T235835Z">
+        <seg>位置選択フィールドが必要な場合、&lt;x1/&gt;Position Fieldtype&lt;x2/&gt; プラグインをインストールしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4992,24 +5008,24 @@
       <tuv lang="EN-US">
         <seg>If you need to set up routes to controller actions, or you need to create a template route that matches a URI pattern that’s not covered by the available route tokens in Settings → Routes, you can set up your routes in &lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; as well.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220035Z" creationid="Toru Kokubun" creationdate="20180429T220010Z">
-        <seg>コントローラーアクションへのルートをセットアップする必要がある場合や、「設定 &gt; ルート」で利用可能なトークンがカバーされていない URI パターンにマッチさせるテンプレートルートを作成する必要がある場合は、&lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; にルートを設定することもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T220010Z">
+        <seg>コントローラーアクションへのルートをセットアップする必要がある場合や、「設定 &gt; ルート」で利用可能なトークンがカバーされていない URI パターンにマッチさせるテンプレートルートを作成する必要がある場合、&lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; にルートを設定することもできます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you only have one checkbox, and you just want to tell if it has been selected, you can do that using the &lt;x1/&gt;length&lt;x2/&gt; filter:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
-        <seg>チェックボックスを1つしかもたつ、それが選択されているかを知りたい場合は、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用して確認できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180424T214332Z">
+        <seg>チェックボックスを1つしかもたつ、それが選択されているかを知りたい場合、&lt;x1/&gt;length&lt;x2/&gt; フィルタを利用して確認できます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you only have one site then you cannot disable it as the Primary site.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011135Z" creationid="Toru Kokubun" creationdate="20180430T011135Z">
-        <seg>1つしかサイトがない場合は、プライマリサイトを無効にできません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T011135Z">
+        <seg>1つしかサイトがない場合、プライマリサイトを無効にできません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5056,8 +5072,8 @@
       <tuv lang="EN-US">
         <seg>If you suspect that your search indexes don’t have the latest and greatest data, you can have Craft rebuild them with the Rebuild Search Indexes tool in Settings.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T000349Z" creationid="Toru Kokubun" creationdate="20180430T000349Z">
-        <seg>検索インデックスが最新かつ最高データでないと疑われる場合は、設定にある検索インデックスの再構築ツールで Craft に再構築されることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T000349Z">
+        <seg>検索インデックスが最新かつ最高データでないと疑われる場合、設定にある検索インデックスの再構築ツールで Craft に再構築されることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5096,8 +5112,8 @@
       <tuv lang="EN-US">
         <seg>If you want to find elements related to a source element through a &lt;x1/&gt;Matrix&lt;x2/&gt; field, just pass the Matrix field’s handle to the &lt;x3/&gt;field&lt;x4/&gt; parameter.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T013334Z" creationid="Toru Kokubun" creationdate="20180429T013214Z">
-        <seg>&lt;x1/&gt;行列&lt;x2/&gt;フィールド内のソースエレメントに関連するエレメントを見つけたい場合は、行列フィールドのハンドルを &lt;x3/&gt;field&lt;x4/&gt; パラメータに渡します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T013214Z">
+        <seg>&lt;x1/&gt;行列&lt;x2/&gt;フィールド内のソースエレメントに関連するエレメントを見つけたい場合、行列フィールドのハンドルを &lt;x3/&gt;field&lt;x4/&gt; パラメータに渡します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5112,40 +5128,40 @@
       <tuv lang="EN-US">
         <seg>If you want to log any messages in your migration code, echo it out rather than calling &lt;x1/&gt;Craft::info()&lt;x2/&gt;:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T104457Z" creationid="Toru Kokubun" creationdate="20180503T104457Z">
-        <seg>マイグレーションコード内でメッセージを記録したい場合は、&lt;x1/&gt;Craft::info()&lt;x2/&gt; を呼び出すよりも echo で出力してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220023Z" creationid="Toru Kokubun" creationdate="20180503T104457Z">
+        <seg>マイグレーションコード内でメッセージを記録したい場合、&lt;x1/&gt;Craft::info()&lt;x2/&gt; を呼び出すよりも echo で出力してください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you want to make it possible to revert your migration, &lt;x7/&gt;safeDown()&lt;x8/&gt; is where the reversion code goes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T104137Z" creationid="Toru Kokubun" creationdate="20180503T104124Z">
-        <seg>マイグレーションを元に戻せるようにしたい場合は、&lt;x7/&gt;safeDown()&lt;x8/&gt; が復帰コードを記入する場所になります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220017Z" creationid="Toru Kokubun" creationdate="20180503T104124Z">
+        <seg>マイグレーションを元に戻せるようにしたい場合、&lt;x7/&gt;safeDown()&lt;x8/&gt; が復帰コードを記入する場所になります。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you want to match URIs that look like &lt;x1/&gt;news/archive/2017&lt;x2/&gt;, you type &lt;x3/&gt;news/archive/&lt;x4/&gt; into the URI field, and then click on the “year” token.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214043Z" creationid="Toru Kokubun" creationdate="20180429T214043Z">
-        <seg>&lt;x1/&gt;news/archive/2017&lt;x2/&gt; のような URI とマッチさせる場合は、URI フィールドに &lt;x3/&gt;news/archive/&lt;x4/&gt; と入力し、“year” トークンをクリックします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T214043Z">
+        <seg>&lt;x1/&gt;news/archive/2017&lt;x2/&gt; のような URI とマッチさせる場合、URI フィールドに &lt;x3/&gt;news/archive/&lt;x4/&gt; と入力し、“year” トークンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you want to set a param value to an array, you now &lt;x1/&gt;must&lt;x2/&gt; type out the array brackets.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025951Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
-        <seg>パラメータ値を配列にセットする場合は、配列の大括弧を記述&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
+        <seg>パラメータ値を配列にセットする場合、配列の大括弧を記述&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If you want to use a relative file system path, note that it should be relative from the directory that holds your &lt;x1/&gt;index.php&lt;x2/&gt; file.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232725Z" creationid="Toru Kokubun" creationdate="20180427T232722Z">
-        <seg>ファイルシステムの相対パスを使用する場合は、&lt;x1/&gt;index.php&lt;x2/&gt; ファイルを保持するディレクトリからの相対パスでなければならないことに注意してくください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180427T232722Z">
+        <seg>ファイルシステムの相対パスを使用する場合、&lt;x1/&gt;index.php&lt;x2/&gt; ファイルを保持するディレクトリからの相対パスでなければならないことに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5160,8 +5176,8 @@
       <tuv lang="EN-US">
         <seg>If you want your entries to have auto-generated titles rather than requiring authors to enter them, you can uncheck the “Show the Title field?” checkbox.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T091547Z" creationid="Toru Kokubun" creationdate="20180422T091123Z">
-        <seg>投稿者に入力を求めるのではなく、自動生成されたタイトルにする場合は、「タイトルのフィールドを見る。」チェックボックスをオフにします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180422T091123Z">
+        <seg>投稿者に入力を求めるのではなく、自動生成されたタイトルにする場合、「タイトルのフィールドを見る。」チェックボックスをオフにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5176,8 +5192,8 @@
       <tuv lang="EN-US">
         <seg>If you would like the section's content to be separate then disable this option for that section.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T015050Z" creationid="Toru Kokubun" creationdate="20180430T014710Z">
-        <seg>セクションのコンテンツをサイトごとに分離したい場合は、そのセクションにあるこのオプションを無効にします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T014710Z">
+        <seg>セクションのコンテンツをサイトごとに分離したい場合、そのセクションにあるこのオプションを無効にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5224,8 +5240,8 @@
       <tuv lang="EN-US">
         <seg>If your Craft installation has multiple sites, then you can target locale specific routes via:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210030Z" creationid="Toru Kokubun" creationdate="20180429T220400Z">
-        <seg>インストールした Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T220400Z">
+        <seg>インストールした Craft に複数のサイトがある場合、ルートにターゲットのロケールを指定することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5272,16 +5288,16 @@
       <tuv lang="EN-US">
         <seg>If your server is running Apache, you can do this by creating a &lt;x7/&gt;.htaccess&lt;x8/&gt; file within it, with the contents &lt;x9/&gt;Deny from all&lt;x10/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T223026Z" creationid="Toru Kokubun" creationdate="20180418T223005Z">
-        <seg>サーバーが Apache を実行している場合は、ディレクトリ内に &lt;x7/&gt;.htaccess&lt;x8/&gt; ファイルを作成し、内容を &lt;x9/&gt;Deny from all&lt;x10/&gt; としてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180418T223005Z">
+        <seg>サーバーが Apache を実行している場合、ディレクトリ内に &lt;x7/&gt;.htaccess&lt;x8/&gt; ファイルを作成し、内容を &lt;x9/&gt;Deny from all&lt;x10/&gt; としてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>If your site has a different language than your default language then you will need to set each field as Translatable (by site, by language, or site group).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T214446Z" creationid="Toru Kokubun" creationdate="20180430T214343Z">
-        <seg>サイトがデフォルトの言語と異なる言語を持つ場合は、それぞれのフィールドを（サイト、言語、またはサイトグループに対して）翻訳可能に設定する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T214343Z">
+        <seg>サイトがデフォルトの言語と異なる言語を持つ場合、それぞれのフィールドを（サイト、言語、またはサイトグループに対して）翻訳可能に設定する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5336,8 +5352,8 @@
       <tuv lang="EN-US">
         <seg>If you’re not directly outputting the value of the field, like assigning it to a variable for example, you will need to use &lt;x1/&gt;dropdownFieldHandle.value&lt;x2/&gt;, like so:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014419Z" creationid="Toru Kokubun" creationdate="20180425T014406Z">
-        <seg>例えば、変数に割り当てるなどフィールドの値を直接出力しない場合は、次のように &lt;x1/&gt;dropdownFieldHandle.value&lt;x2/&gt; を利用する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T014406Z">
+        <seg>例えば、変数に割り当てるなどフィールドの値を直接出力しない場合、次のように &lt;x1/&gt;dropdownFieldHandle.value&lt;x2/&gt; を利用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5352,8 +5368,8 @@
       <tuv lang="EN-US">
         <seg>If you’re not using &lt;x1/&gt;MAMP&lt;x2/&gt; or another localhosting tool, you will probably need to update your &lt;x3/&gt;hosts&lt;x4/&gt; file, so your computer knows to route requests to your chosen host name to the local computer.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001005Z" creationid="Toru Kokubun" creationdate="20180418T000615Z">
-        <seg>&lt;x1/&gt;MAMP&lt;x2/&gt; や他のローカルホスティングツールを使用していない場合は、&lt;x3/&gt;hosts&lt;x4/&gt; ファイルを更新して、選択したホスト名にローカルコンピュータへ要求をルーティングする必要があるかもしれません。 </seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180418T000615Z">
+        <seg>&lt;x1/&gt;MAMP&lt;x2/&gt; や他のローカルホスティングツールを使用していない場合、&lt;x3/&gt;hosts&lt;x4/&gt; ファイルを更新して、選択したホスト名にローカルコンピュータへ要求をルーティングする必要があるかもしれません。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -5392,8 +5408,8 @@
       <tuv lang="EN-US">
         <seg>If you’ve already got a hold of the source element in your template, like in the example below where we're outputting the Drink entry, you can access its target elements for a particular field in the same way you access any other field’s value: by the handle.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T000720Z" creationid="Toru Kokubun" creationdate="20180429T000230Z">
-        <seg>「ドリンク」エントリを出力している以下の例のように、すでにテンプレート内でソースレメントを保持している場合は、他のフィールドの値にアクセスするのと同じ方法、すなわちハンドルによって、特定のフィールドのターゲットエレメントにアクセスできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T000230Z">
+        <seg>「ドリンク」エントリを出力している以下の例のように、すでにテンプレート内でソースレメントを保持している場合、他のフィールドの値にアクセスするのと同じ方法、すなわちハンドルによって、特定のフィールドのターゲットエレメントにアクセスできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5768,8 +5784,8 @@
       <tuv lang="EN-US">
         <seg>Is it an entry/category request?&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032716Z" creationid="Toru Kokubun" creationdate="20180429T032708Z">
-        <seg>エントリ／カテゴリのリクエストか？&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T221158Z" creationid="Toru Kokubun" creationdate="20180429T032708Z">
+        <seg>エントリ / カテゴリのリクエストか？&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7632,8 +7648,8 @@
       <tuv lang="EN-US">
         <seg>Returns the &lt;x1/&gt;n&lt;x2/&gt;th matching element, or &lt;x3/&gt;null&lt;x4/&gt; if there isn’t one.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T092719Z" creationid="Toru Kokubun" creationdate="20180502T092719Z">
-        <seg>マッチした &lt;x1/&gt;n&lt;x2/&gt; 番目のエレメントを返します。存在しない場合は、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180502T092719Z">
+        <seg>マッチした &lt;x1/&gt;n&lt;x2/&gt; 番目のエレメントを返します。存在しない場合、&lt;x3/&gt;null&lt;x4/&gt; を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7648,8 +7664,8 @@
       <tuv lang="EN-US">
         <seg>Returns the first matching element, or &lt;x1/&gt;null&lt;x2/&gt; if there isn’t one.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T081232Z" creationid="Toru Kokubun" creationdate="20180502T081210Z">
-        <seg>最初にマッチするエレメントを返します。存在しない場合は、&lt;x1/&gt;null&lt;x2/&gt; を返します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180502T081210Z">
+        <seg>最初にマッチするエレメントを返します。存在しない場合、&lt;x1/&gt;null&lt;x2/&gt; を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8000,24 +8016,24 @@
       <tuv lang="EN-US">
         <seg>Set &lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; if that’s what your tables are currently prefixed with.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T095853Z" creationid="Toru Kokubun" creationdate="20180502T095816Z">
-        <seg>テーブルの現在の接頭辞がそれである場合は、&lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; をセットしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180502T095816Z">
+        <seg>テーブルの現在の接頭辞がそれである場合、&lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; をセットしてください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Set the &lt;x1/&gt;field&lt;x2/&gt; property if you want to limit the scope to relations created by a particular field.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004527Z" creationid="Toru Kokubun" creationdate="20180429T003931Z">
-        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合は、&lt;x1/&gt;field&lt;x2/&gt; プロパティをセットします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T003931Z">
+        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合、&lt;x1/&gt;field&lt;x2/&gt; プロパティをセットします。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Set the &lt;x1/&gt;sourceLocale&lt;x2/&gt; property if you want to limit the scope to relations created from a particular field (Only do this if you set your relational field to be translatable.).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T005617Z" creationid="Toru Kokubun" creationdate="20180429T005432Z">
-        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合は、&lt;x1/&gt;sourceLocale&lt;x2/&gt; プロパティをセットします（関連フィールドを翻訳可能に設定している場合のみ）。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T005432Z">
+        <seg>特定のフィールドで作成されたリレーションにスコープを制限する場合、&lt;x1/&gt;sourceLocale&lt;x2/&gt; プロパティをセットします（関連フィールドを翻訳可能に設定している場合のみ）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8376,8 +8392,8 @@
       <tuv lang="EN-US">
         <seg>So if your Matrix field is attached to an entry, and you want to output the entry ID in your dynamic subfolder path, you would type &lt;x5/&gt;{owner.id}&lt;x6/&gt; not just &lt;x7/&gt;{id}&lt;x8/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025908Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
-        <seg>そのため、行列フィールドがエントリに紐づけられていて、動的なサブフォルダパスにエントリ ID を出力したい場合は、&lt;x7/&gt;{id}&lt;x8/&gt; ではなく &lt;x5/&gt;{owner.id}&lt;x6/&gt; と記述します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
+        <seg>そのため、行列フィールドがエントリに紐づけられていて、動的なサブフォルダパスにエントリ ID を出力したい場合、&lt;x7/&gt;{id}&lt;x8/&gt; ではなく &lt;x5/&gt;{owner.id}&lt;x6/&gt; と記述します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10430,6 +10446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are two ways to execute content migrations: from the terminal, and from the Migrations utility in the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T222430Z" creationid="Toru Kokubun" creationdate="20180503T222211Z">
+        <seg>コンテンツマイグレーションの実行には、ターミナルからとコントロールパネルのマイグレーションユーティリティからの2つの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are two ways you can go about updating Craft, depending on whether you want to &lt;x1/&gt;keep your current directory structure&lt;x2/&gt;, or &lt;x3/&gt;switch things up&lt;x4/&gt; to be more like a new Craft 3 installation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070820Z" creationid="Toru Kokubun" creationdate="20180418T070554Z">
@@ -10448,8 +10472,8 @@
       <tuv lang="EN-US">
         <seg>There’s no shortcut syntax for those, so if you want to use a conditional on one of the entry’s properties, you will need to reference it with the &lt;x1/&gt;object&lt;x2/&gt; variable:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
-        <seg>ショートカット構文がないため、エントリプロパティの1つで条件分岐する場合は、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
+        <seg>ショートカット構文がないため、エントリプロパティの1つで条件分岐する場合、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10966,6 +10990,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To execute migrations from the Migrations utility, go to Utilities → Migrations in the Control Panel and click the “Apply new migrations” button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T222755Z" creationid="Toru Kokubun" creationdate="20180503T222755Z">
+        <seg>マイグレーションユーティリティから実行するには、コントロールパネールで「ユーティリティ &gt; マイグレーション」に移動し、「新しいマイグレーションを適用」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To execute migrations from the terminal, go to your Craft project and run this command:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T222345Z" creationid="Toru Kokubun" creationdate="20180503T222345Z">
+        <seg>ターミナルからマイグレーションを実行するには、Craft プロジェクトに移動して次のコマンドを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get the first (and only) asset selected, use &lt;x1/&gt;one()&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180424T020417Z">
@@ -11088,8 +11128,8 @@
       <tuv lang="EN-US">
         <seg>To set your site up with the same directory structure (including the &lt;x1/&gt;PHP dotenv&lt;x2/&gt;-based configuration) as a brand new Craft 3 project, follow these instructions:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T233933Z" creationid="Toru Kokubun" creationdate="20180418T233933Z">
-        <seg>新しい Craft 3 プロジェクト（&lt;x1/&gt;PHP dotenv&lt;x2/&gt; をベースとした設定を含む）と同様のディレクトリ構成でサイトをセットアップする場合は、次のガイドに従ってください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180418T233933Z">
+        <seg>新しい Craft 3 プロジェクト（&lt;x1/&gt;PHP dotenv&lt;x2/&gt; をベースとした設定を含む）と同様のディレクトリ構成でサイトをセットアップする場合、次のガイドに従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11448,24 +11488,24 @@
       <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;element&lt;x2/&gt; if you don’t care whether the returned elements are the source or the target of a relation with the element(s) you’re passing in</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T003641Z" creationid="Toru Kokubun" creationdate="20180429T003229Z">
-        <seg>返されるエレメントが、渡したエレメントとソースまたはターゲットのどちらで関連付くかを気にしない場合は、&lt;x1/&gt;element&lt;x2/&gt;を使用します</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T003229Z">
+        <seg>返されるエレメントが、渡したエレメントとソースまたはターゲットのどちらで関連付くかを気にしない場合、&lt;x1/&gt;element&lt;x2/&gt;を使用します</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;sourceElement&lt;x2/&gt; if you want to find elements related to the given element, where the given element is the source of the relation</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T003715Z" creationid="Toru Kokubun" creationdate="20180429T003303Z">
-        <seg>与えられたエレメントのソースとして関連付くエレメントだけを見つけたい場合は、&lt;x1/&gt;sourceElement&lt;x2/&gt; を使用します</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T003303Z">
+        <seg>与えられたエレメントのソースとして関連付くエレメントだけを見つけたい場合、&lt;x1/&gt;sourceElement&lt;x2/&gt; を使用します</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;targetElement&lt;x2/&gt; if you want to find elements related to the given element, where the given element is the target of the relation</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T003810Z" creationid="Toru Kokubun" creationdate="20180429T003810Z">
-        <seg>与えられたエレメントのターゲットとして関連付くエレメントだけを見つけたい場合は、&lt;x1/&gt;targetElement&lt;x2/&gt; を使用します</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T003810Z">
+        <seg>与えられたエレメントのターゲットとして関連付くエレメントだけを見つけたい場合、&lt;x1/&gt;targetElement&lt;x2/&gt; を使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -12056,8 +12096,8 @@
       <tuv lang="EN-US">
         <seg>Whenever there are files within your asset volume that were not added directly by Craft (e.g. via FTP), you will need to tell Craft to go and look for them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T235959Z" creationid="Toru Kokubun" creationdate="20180427T235719Z">
-        <seg>Craft が直接追加しなかったファイル（例えば、FTP 経由など）がアセットボリュームに含まれる場合は、それらを探し出せるよう Craft に教える必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180427T235719Z">
+        <seg>Craft が直接追加しなかったファイル（例えば、FTP 経由など）がアセットボリュームに含まれる場合、それらを探し出せるよう Craft に教える必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12168,8 +12208,8 @@
       <tuv lang="EN-US">
         <seg>Which means you will need to explicitly set it to &lt;x5/&gt;true&lt;x6/&gt; in &lt;x7/&gt;config/general.php&lt;x8/&gt; if you’ve configured your server to route HTTP requests to &lt;x9/&gt;index.php&lt;x10/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010138Z" creationid="Toru Kokubun" creationdate="20180420T010138Z">
-        <seg>HTTP リクエストを &lt;x9/&gt;index.php&lt;x10/&gt; にルーティングするようにサーバーを設定した場合は、&lt;x7/&gt;config/general.php&lt;x8/&gt; で明示的に &lt;x5/&gt;true&lt;x6/&gt; にする必要があることを意味しています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T010138Z">
+        <seg>HTTP リクエストを &lt;x9/&gt;index.php&lt;x10/&gt; にルーティングするようにサーバーを設定した場合、&lt;x7/&gt;config/general.php&lt;x8/&gt; で明示的に &lt;x5/&gt;true&lt;x6/&gt; にする必要があることを意味しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12376,8 +12416,8 @@
       <tuv lang="EN-US">
         <seg>You can also set the &lt;x1/&gt;order&lt;x2/&gt; parameter to &lt;x3/&gt;'score'&lt;x4/&gt; if you want results ordered by best-match to worst-match:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T235159Z" creationid="Toru Kokubun" creationdate="20180429T235115Z">
-        <seg>検索結果をベストマッチからワーストマッチの順に並び替えたい場合は、&lt;x1/&gt;order&lt;x2/&gt; パラメータに &lt;x3/&gt;'score'&lt;x4/&gt; をセットすることもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T235115Z">
+        <seg>検索結果をベストマッチからワーストマッチの順に並び替えたい場合、&lt;x1/&gt;order&lt;x2/&gt; パラメータに &lt;x3/&gt;'score'&lt;x4/&gt; をセットすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12656,8 +12696,8 @@
       <tuv lang="EN-US">
         <seg>You can pass &lt;x5/&gt;'or'&lt;x6/&gt; instead if you want &lt;x7/&gt;any&lt;x8/&gt; of the relation criteria to match.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015304Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
-        <seg>リレーション判断基準の&lt;x7/&gt;いずれか&lt;x8/&gt;とマッチさせたい場合は、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
+        <seg>リレーション判断基準の&lt;x7/&gt;いずれか&lt;x8/&gt;とマッチさせたい場合、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12736,8 +12776,8 @@
       <tuv lang="EN-US">
         <seg>You can set this to either a field handle or a field ID (or an array of handles and/or IDs).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T004405Z" creationid="Toru Kokubun" creationdate="20180429T004148Z">
-        <seg>フィールドハンドルかフィールド ID のいずれか（もしくは、ハンドル、および／または、ID の配列）をセットできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T221153Z" creationid="Toru Kokubun" creationdate="20180429T004148Z">
+        <seg>フィールドハンドルかフィールド ID のいずれか（もしくは、ハンドル、および / または、ID の配列）をセットできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13544,16 +13584,16 @@
       <tuv lang="EN-US">
         <seg>{tip} If you used Composer to download Craft, you can probably safely skip this step.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212032Z" creationid="Toru Kokubun" creationdate="20180426T210622Z">
-        <seg>【ヒント】Craft のダウンロードに Composer を利用した場合は、おそらく安全にこのステップをスキップできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180426T210622Z">
+        <seg>【ヒント】Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>{tip} If your Craft install is running from a Vagrant box, you will need to SSH into the box to run this command.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102507Z" creationid="Toru Kokubun" creationdate="20180503T102507Z">
-        <seg>【ヒント】Craft のインストールが Vagrant box から実行されている場合は、このコマンドを実行するために box に SSH 接続する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220013Z" creationid="Toru Kokubun" creationdate="20180503T102507Z">
+        <seg>【ヒント】Craft のインストールが Vagrant box から実行されている場合、このコマンドを実行するために box に SSH 接続する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
