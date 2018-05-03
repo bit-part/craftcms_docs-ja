@@ -334,6 +334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x5/&gt;safeUp()&lt;x6/&gt; is where you should put the main migration code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T103838Z" creationid="Toru Kokubun" creationdate="20180503T103838Z">
+        <seg>&lt;x5/&gt;safeUp()&lt;x6/&gt; はメインのマイグレーションコードを記入する場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x50/&gt;containing “salty” but not “dog”.&lt;x51/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233102Z" creationid="Toru Kokubun" creationdate="20180429T232527Z">
@@ -1982,10 +1990,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Content Migrations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102006Z" creationid="Toru Kokubun" creationdate="20180503T095654Z">
+        <seg>コンテンツマイグレーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Content Migrations&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012301Z" creationid="Toru Kokubun" creationdate="20180414T012301Z">
-        <seg>コンテンツの移行&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T101929Z" creationid="Toru Kokubun" creationdate="20180414T012301Z">
+        <seg>コンテンツマイグレーション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Content migrations are &lt;x1/&gt;migrations&lt;x2/&gt; that are written and managed for your Craft project, rather than for Craft the application, or for a plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102023Z" creationid="Toru Kokubun" creationdate="20180503T100905Z">
+        <seg>コンテンツマイグレーションとは、Craft 本体のアプリケーションやプラグインではなく、Craft プロジェクトのために書かれたり管理されているものに対しての&lt;x1/&gt;マイグレーション&lt;x2/&gt;です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2554,6 +2578,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000559Z" creationid="Toru Kokubun" creationdate="20180501T000559Z">
         <seg>エレメントクエリの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating Migrations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T101724Z" creationid="Toru Kokubun" creationdate="20180503T101701Z">
+        <seg>マイグレーションの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -3382,6 +3414,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enter &lt;x1/&gt;yes&lt;x2/&gt; at the prompt, and a new migration file will be created in a &lt;x3/&gt;migrations/&lt;x4/&gt; folder in your project root.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T103641Z" creationid="Toru Kokubun" creationdate="20180503T103641Z">
+        <seg>プロンプトで &lt;x1/&gt;yes&lt;x2/&gt; と入力すると、新しいマイグレーションファイルがプロジェクトルートの &lt;x3/&gt;migrations/&lt;x4/&gt; フォルダに作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enter content migrations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102012Z" creationid="Toru Kokubun" creationdate="20180503T100830Z">
+        <seg>コンテンツマイグレーションをはじめてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entries</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012409Z" creationid="Toru Kokubun" creationdate="20180421T004702Z">
@@ -3562,6 +3610,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072248Z" creationid="Toru Kokubun" creationdate="20180414T234008Z">
         <seg>排他的な性差を表す言葉（guys、gentlemen、bros など）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Executing Migrations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T105332Z" creationid="Toru Kokubun" creationdate="20180503T105332Z">
+        <seg>マイグレーションの実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -4414,6 +4470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If it’s a web request, Craft will capture it and log it to &lt;x1/&gt;storage/logs/&lt;x2/&gt; just as if you had used &lt;x3/&gt;Craft::info()&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T105119Z" creationid="Toru Kokubun" creationdate="20180503T104936Z">
+        <seg>ウェブリクエストであれば、&lt;x3/&gt;Craft::info()&lt;x4/&gt; を使用したときと同様に、Craft がそれを取得して &lt;x1/&gt;storage/logs/&lt;x2/&gt; に記録します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If multiple blocks are selected, all of the selected blocks will be going along for the ride.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T124832Z" creationid="Toru Kokubun" creationdate="20180425T124832Z">
@@ -4498,6 +4562,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T035258Z" creationid="Toru Kokubun" creationdate="20180429T035258Z">
         <seg>URI がいずれかの&lt;x1/&gt;動的なルート&lt;x2/&gt;にマッチする場合、そのルートで指定されたテンプレートが読み込まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the migration is being run from a console request, this will ensure the message is seen by whoever is executing the migration, as the message will be output into the terminal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T105121Z" creationid="Toru Kokubun" creationdate="20180503T104751Z">
+        <seg>マイグレーションがコンソールリクエストから実行された場合、メッセージがターミナル内に出力されるため、マイグレーションを実行している人がそのメッセージを見ることを保証します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5038,6 +5110,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to log any messages in your migration code, echo it out rather than calling &lt;x1/&gt;Craft::info()&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T104457Z" creationid="Toru Kokubun" creationdate="20180503T104457Z">
+        <seg>マイグレーションコード内でメッセージを記録したい場合は、&lt;x1/&gt;Craft::info()&lt;x2/&gt; を呼び出すよりも echo で出力してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to make it possible to revert your migration, &lt;x7/&gt;safeDown()&lt;x8/&gt; is where the reversion code goes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T104137Z" creationid="Toru Kokubun" creationdate="20180503T104124Z">
+        <seg>マイグレーションを元に戻せるようにしたい場合は、&lt;x7/&gt;safeDown()&lt;x8/&gt; が復帰コードを記入する場所になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to match URIs that look like &lt;x1/&gt;news/archive/2017&lt;x2/&gt;, you type &lt;x3/&gt;news/archive/&lt;x4/&gt; into the URI field, and then click on the “year” token.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214043Z" creationid="Toru Kokubun" creationdate="20180429T214043Z">
@@ -5138,6 +5226,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210030Z" creationid="Toru Kokubun" creationdate="20180429T220400Z">
         <seg>インストールした Craft に複数のサイトがある場合は、ルートにターゲットのロケールを指定することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your Craft project is being developed by multiple people, or has been deployed in multiple environments, managing structural changes can become a little cumbersome, as you try to keep all environments in sync with each other.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T100107Z" creationid="Toru Kokubun" creationdate="20180503T100107Z">
+        <seg>Craft プロジェクトが複数の人々によって開発されている場合、または複数の環境で開発されている場合、すべての環境を互いに同期させようとすると、構造の変更を管理するのが少し面倒になることがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5950,6 +6046,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Logging</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T104243Z" creationid="Toru Kokubun" creationdate="20180503T104243Z">
+        <seg>ロギング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Logic Tags</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T021158Z" creationid="Toru Kokubun" creationdate="20180427T021158Z">
@@ -5994,6 +6098,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025214Z" creationid="Toru Kokubun" creationdate="20180423T025214Z">
         <seg>必須にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Manipulating Database Data</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T105230Z" creationid="Toru Kokubun" creationdate="20180503T105230Z">
+        <seg>データベースデータの操作</seg>
       </tuv>
     </tu>
     <tu>
@@ -7000,8 +7112,8 @@
       <tuv lang="EN-US">
         <seg>Plugin Migrations&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231313Z" creationid="Toru Kokubun" creationdate="20180414T231022Z">
-        <seg>プラグインの移行&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102116Z" creationid="Toru Kokubun" creationdate="20180414T231022Z">
+        <seg>プラグインマイグレーション&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9846,6 +9958,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The migration file contains a class with two methods: &lt;x1/&gt;safeUp()&lt;x2/&gt; and &lt;x3/&gt;safeDown()&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T103735Z" creationid="Toru Kokubun" creationdate="20180503T103735Z">
+        <seg>マイグレーションファイルには、&lt;x1/&gt;safeUp()&lt;x2/&gt; と &lt;x3/&gt;safeDown()&lt;x4/&gt; という2つのメソッドを持つクラスが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The modal has the following settings:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213023Z" creationid="Toru Kokubun" creationdate="20180429T213009Z">
@@ -10242,6 +10362,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213236Z" creationid="Toru Kokubun" creationdate="20180426T213208Z">
         <seg>そして、（macOS であれば、&lt;x3/&gt;Transmit&lt;x4/&gt; のようなアプリを利用して）&lt;x1/&gt;.env&lt;x2/&gt; ファイルを開き、次の行を探してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then run the following command to generate a new content migration file (replacing &lt;x1/&gt;MIGRATION_NAME&lt;x2/&gt; with your migration name):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102346Z" creationid="Toru Kokubun" creationdate="20180503T102327Z">
+        <seg>次のコマンドを実行し、新しいコンテンツマイグレーションファイルを生成します（&lt;x1/&gt;MIGRATION_NAME&lt;x2/&gt; を実際のマイグレーション名に置き換えます）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10802,6 +10930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212553Z" creationid="Toru Kokubun" creationdate="20180427T212553Z">
         <seg>新しいカテゴリグループを作るには、「設定 &gt; カテゴリ」に移動し、「新しいカテゴリーグループ」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a new migration, open up your terminal and go to your Craft project:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102154Z" creationid="Toru Kokubun" creationdate="20180503T101714Z">
+        <seg>新しいマイグレーションを作成するために、ターミナルを開き Craft プロジェクトに移動してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13374,6 +13510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{note} Migration names must be valid PHP class names, though we recommend sticking with &lt;x1/&gt;snake_case&lt;x2/&gt; rather than &lt;x3/&gt;StudlyCase&lt;x4/&gt; as a convention.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T103441Z" creationid="Toru Kokubun" creationdate="20180503T102949Z">
+        <seg>【メモ】マイグレーション名は有効な PHP クラス名でなければなりません。慣習として、&lt;x3/&gt;StudlyCase&lt;x4/&gt; よりも &lt;x1/&gt;snake_case&lt;x2/&gt; を使うことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{note} Note that the default table prefix is now blank, whereas it used to be &lt;x1/&gt;craft_&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211903Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
@@ -13402,6 +13546,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212032Z" creationid="Toru Kokubun" creationdate="20180426T210622Z">
         <seg>【ヒント】Craft のダウンロードに Composer を利用した場合は、おそらく安全にこのステップをスキップできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} If your Craft install is running from a Vagrant box, you will need to SSH into the box to run this command.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102507Z" creationid="Toru Kokubun" creationdate="20180503T102507Z">
+        <seg>【ヒント】Craft のインストールが Vagrant box から実行されている場合は、このコマンドを実行するために box に SSH 接続する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
