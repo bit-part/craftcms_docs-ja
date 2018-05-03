@@ -1446,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Category Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032023Z" creationid="Toru Kokubun" creationdate="20180503T032023Z">
+        <seg>カテゴリのクエリパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Category Query Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T030031Z" creationid="Toru Kokubun" creationdate="20180424T030031Z">
@@ -3450,6 +3458,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023501Z" creationid="Toru Kokubun" creationdate="20180423T015708Z">
         <seg>エントリ&lt;x1/&gt;は、「設定 &gt; セクション &gt; 入力タイプ &gt; &lt;x2/&gt;入力タイプ名&lt;x4/&gt; &gt; フィールドレイアウト」の入力タイプごとに定義されたフィールドレイアウトを使用します。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032332Z" creationid="Toru Kokubun" creationdate="20180503T032332Z">
+        <seg>エントリのクエリパラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -5990,6 +6006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Matrix Block Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T034145Z" creationid="Toru Kokubun" creationdate="20180503T034145Z">
+        <seg>行列ブロックのクエリパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Matrix Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114510Z" creationid="Toru Kokubun" creationdate="20180425T114510Z">
@@ -7142,6 +7166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Query condition</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031246Z" creationid="Toru Kokubun" creationdate="20180503T031218Z">
+        <seg>クエリの条件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Radio Button Options&lt;x1/&gt; – Define the radio buttons that will be available in the field.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T003227Z" creationid="Toru Kokubun" creationdate="20180426T003227Z">
@@ -7954,6 +7986,78 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033232Z" creationid="Toru Kokubun" creationdate="20180415T033232Z">
         <seg>ウェブサーバーのセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;authorGroupId&lt;x2/&gt; param based on a given user group(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032810Z" creationid="Toru Kokubun" creationdate="20180503T032810Z">
+        <seg>指定されたユーザーグループのハンドルに基づき、&lt;x1/&gt;authorGroupId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;groupId&lt;x2/&gt; param based on a given category group(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032209Z" creationid="Toru Kokubun" creationdate="20180503T032209Z">
+        <seg>指定されたカテゴリグループのハンドルに基づき、&lt;x1/&gt;groupId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;postDate&lt;x2/&gt; param to only allow entries whose Post Date is after the given value</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032706Z" creationid="Toru Kokubun" creationdate="20180503T032706Z">
+        <seg>指定した投稿日以降のエントリだけを許可するよう &lt;x1/&gt;postDate&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;postDate&lt;x2/&gt; param to only allow entries whose Post Date is before the given value</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033055Z" creationid="Toru Kokubun" creationdate="20180503T033055Z">
+        <seg>指定した投稿日以前のエントリだけを許可するよう &lt;x1/&gt;postDate&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;sectionId&lt;x2/&gt; param based on a given section(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033736Z" creationid="Toru Kokubun" creationdate="20180503T033736Z">
+        <seg>指定されたセクションのハンドルに基づき、&lt;x1/&gt;sectionId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;siteId&lt;x2/&gt; param based on a given site(s)’s handle</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030508Z" creationid="Toru Kokubun" creationdate="20180503T030037Z">
+        <seg>指定されたサイトのハンドルに基づき、&lt;x1/&gt;siteId&lt;x2/&gt; パラメータをセットÍ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;typeId&lt;x2/&gt; param based on a given entry type(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T034005Z" creationid="Toru Kokubun" creationdate="20180503T034005Z">
+        <seg>指定された入力タイプのハンドルに基づき、&lt;x1/&gt;typeId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;volumeId&lt;x2/&gt; param</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030602Z" creationid="Toru Kokubun" creationdate="20180503T030602Z">
+        <seg>&lt;x1/&gt;volumeId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;volumeId&lt;x2/&gt; param based on a given volume(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030541Z" creationid="Toru Kokubun" creationdate="20180503T030541Z">
+        <seg>指定されたボリュームのハンドルに基づき、&lt;x1/&gt;volumeId&lt;x2/&gt; パラメータをセット</seg>
       </tuv>
     </tu>
     <tu>
@@ -8974,6 +9078,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Expiry Date that the resulting entries must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033328Z" creationid="Toru Kokubun" creationdate="20180503T033238Z">
+        <seg>結果となるエントリが持つべき有効期限日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Field</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T004234Z" creationid="Toru Kokubun" creationdate="20180424T004234Z">
@@ -9014,6 +9126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Post Date that the resulting entries must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033450Z" creationid="Toru Kokubun" creationdate="20180503T033450Z">
+        <seg>結果となるエントリが持つべき投稿日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Title Format is a full-blown Twig template, and it will get parsed whenever your entries are saved.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013756Z" creationid="Toru Kokubun" creationdate="20180422T093422Z">
@@ -9026,6 +9146,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T015715Z" creationid="Toru Kokubun" creationdate="20180421T015715Z">
         <seg>Twig のウェブサイトには、Twig についての概要や HTML テンプレートでどのように利用できるかが載っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URI that the resulting element must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031024Z" creationid="Toru Kokubun" creationdate="20180503T031024Z">
+        <seg>結果となるエレメントが持つべき URI</seg>
       </tuv>
     </tu>
     <tu>
@@ -9070,6 +9198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The asset transform indexes that should be eager-loaded, if they exist</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031939Z" creationid="Toru Kokubun" creationdate="20180503T031659Z">
+        <seg>存在する場合に、 eager-loaded する必要があるアセット変換インデックス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The auto-generated `validation.key` file fallback will be removed in Craft 4.&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001949Z" creationid="Toru Kokubun" creationdate="20180420T001922Z">
@@ -9086,10 +9222,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The category group ID(s) that the resulting categories must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032243Z" creationid="Toru Kokubun" creationdate="20180503T032243Z">
+        <seg>結果となるカテゴリが含まれるべきカテゴリグループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The checks detailed below explain how this process works.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T020128Z" creationid="Toru Kokubun" creationdate="20180429T020128Z">
         <seg>以下に詳述されたチェック項目は、このプロセスの仕組みを説明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The columns being selected</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025700Z" creationid="Toru Kokubun" creationdate="20180503T025700Z">
+        <seg>選択されているカラム</seg>
       </tuv>
     </tu>
     <tu>
@@ -9158,26 +9310,66 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The eager-loading declaration</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031351Z" creationid="Toru Kokubun" creationdate="20180503T031351Z">
+        <seg>eager-loading の宣言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The element (or its ID) that results must be a descendant of</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222338Z" creationid="Toru Kokubun" creationdate="20180502T221241Z">
-        <seg>子孫にあたる結果のエレメント（または、その ID）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T024821Z" creationid="Toru Kokubun" creationdate="20180502T221241Z">
+        <seg>子孫にあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The element (or its ID) that results must be an ancestor of</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222351Z" creationid="Toru Kokubun" creationdate="20180502T214613Z">
-        <seg>祖先にあたる結果のエレメント（または、その ID）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T024811Z" creationid="Toru Kokubun" creationdate="20180502T214613Z">
+        <seg>祖先にあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The element (or its ID) that the result must be the next sibling of</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003524Z" creationid="Toru Kokubun" creationdate="20180503T003502Z">
-        <seg>次の兄弟にあたる結果のエレメント（または、その ID）</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T024955Z" creationid="Toru Kokubun" creationdate="20180503T003502Z">
+        <seg>次の兄弟にあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element (or its ID) that the result must be the previous sibling of</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025124Z" creationid="Toru Kokubun" creationdate="20180503T025124Z">
+        <seg>前の兄弟にあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element (or its ID) that the results must be a sibling of</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025753Z" creationid="Toru Kokubun" creationdate="20180503T025753Z">
+        <seg>兄弟にあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element (or its ID) that the results must be positioned after</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025018Z" creationid="Toru Kokubun" creationdate="20180503T025018Z">
+        <seg>後のポジションにあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element (or its ID) that the results must be positioned before</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025046Z" creationid="Toru Kokubun" creationdate="20180503T025046Z">
+        <seg>前のポジションにあたるものを結果として受け取りたいエレメント（または、その ID）</seg>
       </tuv>
     </tu>
     <tu>
@@ -9186,6 +9378,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002939Z" creationid="Toru Kokubun" creationdate="20180503T002939Z">
         <seg>エレメントの ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element UID(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030951Z" creationid="Toru Kokubun" creationdate="20180503T030951Z">
+        <seg>エレメントの UID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The element relation criteria</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025428Z" creationid="Toru Kokubun" creationdate="20180503T025428Z">
+        <seg>エレメントのリレーションの判定基準</seg>
       </tuv>
     </tu>
     <tu>
@@ -9226,6 +9434,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013751Z" creationid="Toru Kokubun" creationdate="20180422T093616Z">
         <seg>エントリは &lt;x1/&gt;object&lt;x2/&gt; という名称の変数としてこのテンプレートに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entry type ID(s) that the resulting entries must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T034058Z" creationid="Toru Kokubun" creationdate="20180503T034058Z">
+        <seg>結果となるエントリが持つべき入力タイプ ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -9614,6 +9830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reference code(s) used to identify the element(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025353Z" creationid="Toru Kokubun" creationdate="20180503T025326Z">
+        <seg>エレメントの識別に利用する参照コード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The rendering result will be saved as the entry’s URI in the system.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012754Z" creationid="Toru Kokubun" creationdate="20180422T084424Z">
@@ -9638,10 +9862,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The search term to filter the resulting elements by</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025629Z" creationid="Toru Kokubun" creationdate="20180503T025608Z">
+        <seg>結果となるエレメントをフィルタするための検索用語</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second step is to enter your database connection information.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T022813Z" creationid="Toru Kokubun" creationdate="20180418T022244Z">
         <seg>2つ目のステップは、データベース接続情報の入力です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The section ID(s) that the resulting entries must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033833Z" creationid="Toru Kokubun" creationdate="20180503T033833Z">
+        <seg>結果となるエントリが含まれるべきセクション ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The site ID that the elements should be returned in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030230Z" creationid="Toru Kokubun" creationdate="20180503T030230Z">
+        <seg>返されるべきエレメントのサイト ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -9654,6 +9902,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The size (in bytes) that the resulting assets must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030315Z" creationid="Toru Kokubun" creationdate="20180503T030315Z">
+        <seg>結果となるアセットが持つべき（バイト単位の）サイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The slug that resulting elements must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030416Z" creationid="Toru Kokubun" creationdate="20180503T030416Z">
+        <seg>結果となるエレメントが持つべきスラグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The starting point &lt;x1/&gt;composer.json&lt;x2/&gt; file that should be used for all Craft projects.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T012110Z" creationid="Toru Kokubun" creationdate="20180422T012110Z">
@@ -9662,10 +9926,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The status(es) that the resulting elements must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030627Z" creationid="Toru Kokubun" creationdate="20180503T030627Z">
+        <seg>結果となるエレメントが持つべきステータス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The strength of Craft comes from its varied community, people from a wide range of backgrounds.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235142Z" creationid="Toru Kokubun" creationdate="20180414T235142Z">
         <seg>Craft の強みは広範囲のバックグラウンドを持つ人々による多彩なコミュニティから来ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The structure ID that should be used to join in the structureelements table</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030803Z" creationid="Toru Kokubun" creationdate="20180503T030803Z">
+        <seg>structureelements デーブルの結合に利用されるストラクチャー ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -9710,6 +9990,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The title that resulting elements must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030912Z" creationid="Toru Kokubun" creationdate="20180503T030912Z">
+        <seg>結果となるエレメントが持つべきタイトル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user ID(s) that the resulting entries’ authors must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033010Z" creationid="Toru Kokubun" creationdate="20180503T033010Z">
+        <seg>結果となるエントリの投稿者が持つべきユーザー ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The user account you create during installation is an admin by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001737Z" creationid="Toru Kokubun" creationdate="20180428T001732Z">
@@ -9718,10 +10014,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The user group ID(s) that the resulting entries’ authors must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032908Z" creationid="Toru Kokubun" creationdate="20180503T032908Z">
+        <seg>結果となるエントリの投稿者が含まれるべきユーザーグループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The value of the "year" token will also be available to the template as a variable called &lt;x1/&gt;year&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214657Z" creationid="Toru Kokubun" creationdate="20180429T214657Z">
         <seg>"year" トークンの値は、&lt;x1/&gt;year&lt;x2/&gt; と呼ばれる変数としてテンプレートで利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The volume ID(s) that the resulting assets must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031151Z" creationid="Toru Kokubun" creationdate="20180503T031151Z">
+        <seg>結果となるアセットが含まれるべきアセット ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The width (in pixels) that the resulting assets must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031304Z" creationid="Toru Kokubun" creationdate="20180503T031304Z">
+        <seg>結果となるアセットが持つべき（ピクセル単位の）幅</seg>
       </tuv>
     </tu>
     <tu>
@@ -11454,6 +11774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether element structure data should automatically be left-joined into the query</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031609Z" creationid="Toru Kokubun" creationdate="20180503T031609Z">
+        <seg>クエリ内のエレメントの構造データが自動的に LEFT JOIN されるべきかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether entries in the section have URLs</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012559Z" creationid="Toru Kokubun" creationdate="20180422T014547Z">
@@ -11482,6 +11810,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003040Z" creationid="Toru Kokubun" creationdate="20180503T003040Z">
         <seg>クエリが &lt;x1/&gt;folderId&lt;x2/&gt; のサブフォルダを検索するかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to only return categories that the user has permission to edit</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032123Z" creationid="Toru Kokubun" creationdate="20180503T032123Z">
+        <seg>ユーザーが編集権限を持つカテゴリだけを返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to only return entries that the user has permission to edit</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033401Z" creationid="Toru Kokubun" creationdate="20180503T033401Z">
+        <seg>ユーザーが編集権限を持つエントリだけを返すかどうか</seg>
       </tuv>
     </tu>
     <tu>
