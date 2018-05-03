@@ -8006,6 +8006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sets the &lt;x1/&gt;groupId&lt;x2/&gt; param based on a given tag group(s)’s handle(s)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064550Z" creationid="Toru Kokubun" creationdate="20180503T064550Z">
+        <seg>指定されたタググループのハンドルに基づき、&lt;x1/&gt;groupId&lt;x2/&gt; パラメータをセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sets the &lt;x1/&gt;ownerId&lt;x2/&gt; and &lt;x3/&gt;ownerSiteId&lt;x4/&gt; params based on a given element</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063746Z" creationid="Toru Kokubun" creationdate="20180503T063746Z">
@@ -8686,6 +8694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tag Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064439Z" creationid="Toru Kokubun" creationdate="20180503T064439Z">
+        <seg>タグのクエリパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag Query Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011923Z" creationid="Toru Kokubun" creationdate="20180426T011923Z">
@@ -9334,6 +9350,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The date that the resulting users must have last logged in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065358Z" creationid="Toru Kokubun" creationdate="20180503T065333Z">
+        <seg>結果となるユーザーが最後にログインした日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default installation of Craft only supports local volumes (directories on the same server on which Craft is running) but you can also set up remote Asset Volumes that live on &lt;x1/&gt;Amazon S3&lt;x2/&gt;, &lt;x3/&gt;Rackspace Cloud&lt;x4/&gt;, and &lt;x5/&gt;Google Cloud&lt;x6/&gt; using one of the first-party plugins.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221137Z" creationid="Toru Kokubun" creationdate="20180427T221056Z">
@@ -9446,6 +9470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The email address that the resulting users must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065106Z" creationid="Toru Kokubun" creationdate="20180503T065106Z">
+        <seg>結果となるユーザーが持つべきメールアドレス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The end result will be the same, so go with whichever route you feel more comfortable with.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T110512Z" creationid="Toru Kokubun" creationdate="20180426T110501Z">
@@ -9546,6 +9578,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T024055Z" creationid="Toru Kokubun" creationdate="20180418T023922Z">
         <seg>最後のステップは、システム名、ベース URL、および言語の設定です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first name that the resulting users must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065134Z" creationid="Toru Kokubun" creationdate="20180503T065134Z">
+        <seg>結果となるユーザーが持つべきファーストネーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -9782,6 +9822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The last name that the resulting users must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065416Z" creationid="Toru Kokubun" creationdate="20180503T065416Z">
+        <seg>結果となるユーザーが持つべきラストネーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The maximum number of levels that results may be separated from &lt;x1/&gt;ancestorOf&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T214814Z" creationid="Toru Kokubun" creationdate="20180502T214420Z">
@@ -9874,6 +9922,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075118Z" creationid="Toru Kokubun" creationdate="20180502T075021Z">
         <seg>パラメータは、次のように連結したメソッドコールとしてセットする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The permission that the resulting users must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064823Z" creationid="Toru Kokubun" creationdate="20180503T064815Z">
+        <seg>結果となるユーザーが持つべき権限</seg>
       </tuv>
     </tu>
     <tu>
@@ -10038,6 +10094,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tag group ID(s) that the resulting tags must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064609Z" creationid="Toru Kokubun" creationdate="20180503T064609Z">
+        <seg>結果となるタグが含まれるべきタググループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tag group ID(s) that the resulting users must be in</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065302Z" creationid="Toru Kokubun" creationdate="20180503T065214Z">
+        <seg>結果となるユーザーが含まれるべきユーザーグループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The third step of the installer is to create a user account.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T023051Z" creationid="Toru Kokubun" creationdate="20180418T023051Z">
@@ -10082,6 +10154,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032908Z" creationid="Toru Kokubun" creationdate="20180503T032908Z">
         <seg>結果となるエントリの投稿者が含まれるべきユーザーグループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The username that the resulting users must have</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065502Z" creationid="Toru Kokubun" creationdate="20180503T065502Z">
+        <seg>結果となるユーザーが持つべきユーザーネーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -11286,6 +11366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User Query Params</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064646Z" creationid="Toru Kokubun" creationdate="20180503T064646Z">
+        <seg>ユーザーのクエリパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Query Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014629Z" creationid="Toru Kokubun" creationdate="20180426T014629Z">
@@ -11890,6 +11978,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033401Z" creationid="Toru Kokubun" creationdate="20180503T033401Z">
         <seg>ユーザーが編集権限を持つエントリだけを返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to only return the client user</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065020Z" creationid="Toru Kokubun" creationdate="20180503T065020Z">
+        <seg>クライアントのユーザーだけを返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to only return users that are admins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064746Z" creationid="Toru Kokubun" creationdate="20180503T064746Z">
+        <seg>管理者であるユーザーだけを返すかどうか</seg>
       </tuv>
     </tu>
     <tu>
