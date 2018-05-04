@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any items returned by that array will get merged into the main application configuration array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T065830Z" creationid="Toru Kokubun" creationdate="20180504T065754Z">
+        <seg>配列として返された項目は、 メインのアプリケーション設定の配列にマージされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Anything put inside of the comments tags will not render to the final template, not even as an HTML comment.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T030605Z" creationid="Toru Kokubun" creationdate="20180427T030605Z">
@@ -2590,6 +2598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft supports a custom syntax for routing requests to a template, rather than a controller action:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T064152Z" creationid="Toru Kokubun" creationdate="20180504T064117Z">
+        <seg>Craft はコントローラーアクションではなく、テンプレートをリクエストするルーティング向けに、独自の構文をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft supports several &lt;x1/&gt;database configuration settings&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031953Z" creationid="Toru Kokubun" creationdate="20180504T031210Z">
@@ -4166,6 +4182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, you may wish to create aliases that define the base URL and base path that your asset volumes will live in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062219Z" creationid="Toru Kokubun" creationdate="20180504T062200Z">
+        <seg>例えば、アセットボリュームが存在するベース URL とベースパスを定義するエイリアスを作成したいかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T220315Z" creationid="Toru Kokubun" creationdate="20180420T220315Z">
@@ -5478,6 +5502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you would prefer to define volume settings with a config file, you can do that from &lt;x1/&gt;config/volumes.php&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T064408Z" creationid="Toru Kokubun" creationdate="20180504T064313Z">
+        <seg>設定ファイルでボリューム設定を定義することを好む場合、&lt;x1/&gt;config/volumes.php&lt;x2/&gt; で設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you're familiar with Craft already but don't know where to start when it comes to moving to Craft 3, start with the &lt;x1/&gt;Changes in Craft 3&lt;x2/&gt; documentation.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002122Z" creationid="Toru Kokubun" creationdate="20180415T010738Z">
@@ -5586,6 +5618,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001343Z" creationid="Toru Kokubun" creationdate="20180417T220039Z">
         <seg>ウェブホストがリネームできない公開ディレクトリが設定されているのであれば、Craft の &lt;x1/&gt;web&lt;x2/&gt; フォルダのコンテンツをコピーして、目的のホストのデフォルトの公開ディレクトリを利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’d like, you can set the alias values with environment variables, either from your &lt;x1/&gt;.env&lt;x2/&gt; file or somewhere in your environment’s configuration:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062805Z" creationid="Toru Kokubun" creationdate="20180504T062722Z">
+        <seg>必要であれば、&lt;x1/&gt;.env&lt;x2/&gt; ファイルや環境設定のどこかで、環境変数のエイリアス値をセットすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6314,6 +6354,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221528Z" creationid="Toru Kokubun" creationdate="20180427T221329Z">
         <seg>ローカルボリュームには、2つの重要な設定があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Local volumes’ File System Path settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061240Z" creationid="Toru Kokubun" creationdate="20180504T061240Z">
+        <seg>ローカルボリュームのファイルシステムパス設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -8246,6 +8294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x3/&gt;Guzzle’s documentation&lt;x4/&gt; for a list of available options.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T055551Z" creationid="Toru Kokubun" creationdate="20180504T055539Z">
+        <seg>利用可能なオプションのリストは、&lt;x3/&gt;Guzzle のドキュメント&lt;x4/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See Also</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T021931Z" creationid="Toru Kokubun" creationdate="20180424T021931Z">
@@ -8702,6 +8758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sites’ Base URL settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061202Z" creationid="Toru Kokubun" creationdate="20180504T061202Z">
+        <seg>サイトのベース URL 設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So if your Matrix field is attached to an entry, and you want to output the entry ID in your dynamic subfolder path, you would type &lt;x5/&gt;{owner.id}&lt;x6/&gt; not just &lt;x7/&gt;{id}&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
@@ -8738,6 +8802,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020939Z" creationid="Toru Kokubun" creationdate="20180421T020939Z">
         <seg>そこにはいくつかのフォルダが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some settings and functions in Craft support &lt;x1/&gt;Yii aliases&lt;x2/&gt;, which are basically placeholders for base file system paths and URLs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061051Z" creationid="Toru Kokubun" creationdate="20180504T061045Z">
+        <seg>Craft のいくつかの設定やファンクションでは、基本ファイルシステムのパスや URL を代用する &lt;x1/&gt;Yii エイリアス&lt;x2/&gt;をサポートしています。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -9542,6 +9614,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;resourceBasePath&lt;x2/&gt; and &lt;x3/&gt;resourceBaseUrl&lt;x4/&gt; config settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061258Z" creationid="Toru Kokubun" creationdate="20180504T061258Z">
+        <seg>&lt;x1/&gt;resourceBasePath&lt;x2/&gt; と &lt;x3/&gt;resourceBaseUrl&lt;x4/&gt; のコンフィグ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;svg()&lt;x2/&gt; Twig function</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061338Z" creationid="Toru Kokubun" creationdate="20180504T061309Z">
+        <seg>Twig ファンクションの &lt;x1/&gt;svg()&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -9658,6 +9746,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232405Z" creationid="Toru Kokubun" creationdate="20180427T232405Z">
         <seg>ファイルが公開されることを前提とした、ファイルを含むディレクトリへの URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URL to the folder that contains the &lt;x1/&gt;index.php&lt;x2/&gt; file that was loaded for the request</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061859Z" creationid="Toru Kokubun" creationdate="20180504T061743Z">
+        <seg>リクエストのために読み込まれた &lt;x1/&gt;index.php&lt;x2/&gt; ファイルを含むフォルダの URL</seg>
       </tuv>
     </tu>
     <tu>
@@ -9990,6 +10086,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The file should return an array whose keys map to your volume handles, and values are nested arrays that define the overridden setting values.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T065517Z" creationid="Toru Kokubun" creationdate="20180504T064814Z">
+        <seg>このファイルは配列を返さなければならず、キーにはボリュームのハンドルをマップし、値には上書きする設定を定義してあるネストされた配列を持たせます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The file should return an array, with your config overrides.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T055420Z" creationid="Toru Kokubun" creationdate="20180504T055358Z">
+        <seg>そのファイルは、設定を上書きした配列を返さなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The file system path to the directory containing the files</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232427Z" creationid="Toru Kokubun" creationdate="20180427T232427Z">
@@ -10114,6 +10226,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062445Z" creationid="Toru Kokubun" creationdate="20180420T062445Z">
         <seg>次の Twig タグは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following aliases are available out of the box:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061410Z" creationid="Toru Kokubun" creationdate="20180504T061410Z">
+        <seg>次のエイリアスは、そのまま利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10358,6 +10478,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The options defined here will be passed into new &lt;x1/&gt;GuzzleHttp\Client&lt;x2/&gt; instances.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T055514Z" creationid="Toru Kokubun" creationdate="20180504T055514Z">
+        <seg>ここで定義されたオプションは、新しい &lt;x1/&gt;GuzzleHttp\Client&lt;x2/&gt; インスタンスに渡されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The owner element ID(s) that the resulting Matrix blocks must belong to</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T063834Z" creationid="Toru Kokubun" creationdate="20180503T063834Z">
@@ -10370,6 +10498,86 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075118Z" creationid="Toru Kokubun" creationdate="20180502T075021Z">
         <seg>パラメータは、次のように連結したメソッドコールとしてセットする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to &lt;x1/&gt;vendor/craftcms/cms/lib/&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061443Z" creationid="Toru Kokubun" creationdate="20180504T061443Z">
+        <seg>&lt;x1/&gt;vendor/craftcms/cms/lib/&lt;x2/&gt; のパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to &lt;x1/&gt;vendor/craftcms/cms/src/&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061419Z" creationid="Toru Kokubun" creationdate="20180504T061419Z">
+        <seg>&lt;x1/&gt;vendor/craftcms/cms/src/&lt;x2/&gt; のパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to the folder that contains the &lt;x1/&gt;index.php&lt;x2/&gt; file that was loaded for the request</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061903Z" creationid="Toru Kokubun" creationdate="20180504T061819Z">
+        <seg>リクエストのために読み込まれた &lt;x1/&gt;index.php&lt;x2/&gt; ファイルを含むフォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;config/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061427Z" creationid="Toru Kokubun" creationdate="20180504T061427Z">
+        <seg>&lt;x1/&gt;config/&lt;x2/&gt; フォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;migrations/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061434Z" creationid="Toru Kokubun" creationdate="20180504T061434Z">
+        <seg>&lt;x1/&gt;migrations/&lt;x2/&gt; フォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;storage/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061606Z" creationid="Toru Kokubun" creationdate="20180504T061606Z">
+        <seg>&lt;x1/&gt;storage/&lt;x2/&gt; フォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;storage/runtime/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061558Z" creationid="Toru Kokubun" creationdate="20180504T061558Z">
+        <seg>&lt;x1/&gt;storage/runtime/&lt;x2/&gt; フォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;templates/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061614Z" creationid="Toru Kokubun" creationdate="20180504T061614Z">
+        <seg>&lt;x1/&gt;templates/&lt;x2/&gt; フォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;translations/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061623Z" creationid="Toru Kokubun" creationdate="20180504T061623Z">
+        <seg>&lt;x1/&gt;translations/&lt;x2/&gt; フォルダのパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path to your &lt;x1/&gt;vendor/&lt;x2/&gt; folder</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061640Z" creationid="Toru Kokubun" creationdate="20180504T061640Z">
+        <seg>&lt;x1/&gt;vendor/&lt;x2/&gt; フォルダのパス</seg>
       </tuv>
     </tu>
     <tu>
@@ -10410,6 +10618,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032558Z" creationid="Toru Kokubun" creationdate="20180429T032558Z">
         <seg>リクエストが、コントローラーの呼び出し後に必ずしも終了するとは限りません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The root project path (same as the &lt;x1/&gt;CRAFT_BASE_PATH&lt;x2/&gt; PHP constant)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061545Z" creationid="Toru Kokubun" creationdate="20180504T061545Z">
+        <seg>ルートプロジェクトのパス（PHP 定数の &lt;x1/&gt;CRAFT_BASE_PATH&lt;x2/&gt; と同じ）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10710,6 +10926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then you can pull them into the alias definitions using &lt;x1/&gt;getenv()&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062948Z" creationid="Toru Kokubun" creationdate="20180504T062910Z">
+        <seg>&lt;x1/&gt;getenv()&lt;x2/&gt; を使用して、エイリアスの定義にセットすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are different types of variables – strings, arrays, booleans, and objects.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031121Z" creationid="Toru Kokubun" creationdate="20180427T031121Z">
@@ -10826,6 +11050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T025011Z" creationid="Toru Kokubun" creationdate="20180427T024948Z">
         <seg>これらの例は、正しくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These include:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061137Z" creationid="Toru Kokubun" creationdate="20180504T061115Z">
+        <seg>これには次ものが含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11418,6 +11650,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212100Z" creationid="Toru Kokubun" creationdate="20180425T212050Z">
         <seg>テンプレート内で行列フィールドを出力するには、行列フィールドに対して &lt;x1/&gt;for ループ&lt;x2/&gt; を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To override the &lt;x1/&gt;mailer&lt;x2/&gt; component config (which is responsible for sending emails), do this in &lt;x3/&gt;config/app.php&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T070147Z" creationid="Toru Kokubun" creationdate="20180504T070147Z">
+        <seg>（メール送信を担っている）&lt;x1/&gt;mailer&lt;x2/&gt; コンポーネントの設定を上書きするために、&lt;x3/&gt;config/app.php&lt;x4/&gt; を調整します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12046,6 +12286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Volumes’ Base URL settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061210Z" creationid="Toru Kokubun" creationdate="20180504T061210Z">
+        <seg>ボリュームのベース URL 設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can determine the current block type’s handle by checking &lt;x1/&gt;`block.type`&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212846Z" creationid="Toru Kokubun" creationdate="20180425T212846Z">
@@ -12638,6 +12886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With those in place, you could begin your asset volumes’ Base URL and File System Path settings with them, e.g. &lt;x1/&gt;@assetBaseUrl/user-photos&lt;x2/&gt; and &lt;x3/&gt;@assetBasePath/user-photos&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062808Z" creationid="Toru Kokubun" creationdate="20180504T062519Z">
+        <seg>これらを利用して、アセットボリュームのベース URL やファイルシステムのパス設定を記入しはじめることができます。例：&lt;x1/&gt;@assetBaseUrl/user-photos&lt;x2/&gt; と &lt;x3/&gt;@assetBasePath/user-photos&lt;x4/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Within &lt;x1/&gt;`{% include %}`&lt;x2/&gt;, &lt;x3/&gt;`{% extends %}`&lt;x4/&gt;, and &lt;x5/&gt;`{% embed %}`&lt;x6/&gt; template tags</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T235506Z" creationid="Toru Kokubun" creationdate="20180426T235439Z">
@@ -12862,10 +13118,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can customize Craft’s entire &lt;x1/&gt;application configuration&lt;x2/&gt; from &lt;x3/&gt;config/app.php&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T065712Z" creationid="Toru Kokubun" creationdate="20180504T065712Z">
+        <seg>&lt;x3/&gt;config/app.php&lt;x4/&gt; から、Craft のすべての&lt;x1/&gt;アプリケーション設定&lt;x2/&gt;をカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize the config settings Guzzle uses when sending these requests by creating a &lt;x1/&gt;guzzle.php&lt;x2/&gt; file in your &lt;x3/&gt;config/&lt;x4/&gt; folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T055320Z" creationid="Toru Kokubun" creationdate="20180504T055320Z">
+        <seg>&lt;x3/&gt;config/&lt;x4/&gt; フォルダに &lt;x1/&gt;guzzle.php&lt;x2/&gt; ファイルを作成することによって、これらのリクエストを送信する際に Guzzle が使用するコンフィグ設定をカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can customize your site’s 404 page by placing a &lt;x1/&gt;404.html&lt;x2/&gt; template at the root of your &lt;x3/&gt;craft/templates/&lt;x4/&gt; directory.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040611Z" creationid="Toru Kokubun" creationdate="20180429T040547Z">
         <seg>&lt;x3/&gt;craft/templates/&lt;x4/&gt; ディレクトリのルートにある &lt;x1/&gt;404.html&lt;x2/&gt; テンプレートで、サイトの 404 ページをカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can define additional custom aliases using the &lt;x1/&gt;aliases&lt;x2/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062027Z" creationid="Toru Kokubun" creationdate="20180504T062027Z">
+        <seg>&lt;x1/&gt;aliases&lt;x2/&gt; コンフィグ設定を利用して、追加の独自エイリアスを定義することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can define custom &lt;x1/&gt;URL rules&lt;x2/&gt; in &lt;x3/&gt;config/routes.php&lt;x4/&gt;, which will get merged in with any routes you’ve defined on the Settings → Routes page in the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T063953Z" creationid="Toru Kokubun" creationdate="20180504T063932Z">
+        <seg>&lt;x3/&gt;config/routes.php&lt;x4/&gt; にコントロールパネルの「設定 &gt; ルート」ページで定義したすべてのルートとマージされる、独自の &lt;x1/&gt;URL ルール&lt;x2/&gt; を定義できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13954,6 +14242,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211903Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
         <seg>【メモ】デフォルトのテーブル接頭辞は「空」になりましたが、&lt;x1/&gt;craft_&lt;x2/&gt; が使われていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} You must create your volumes within the Control Panel before Craft will start checking &lt;x1/&gt;config/volumes.php&lt;x2/&gt; for overrides.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T065533Z" creationid="Toru Kokubun" creationdate="20180504T065508Z">
+        <seg>【メモ】Craft が上書きのために &lt;x1/&gt;config/volumes.php&lt;x2/&gt; をチェックしはじめる前に、コントロールパネルでボリュームを作成しておく必要があります。</seg>
       </tuv>
     </tu>
     <tu>
