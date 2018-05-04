@@ -3838,6 +3838,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every single template is going to get loaded with the following variables:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T070708Z" creationid="Toru Kokubun" creationdate="20180504T070646Z">
+        <seg>ありとあらゆるテンプレートでは、次の変数を読み込むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Everything in Craft that has content associated with it will provide a field layout for selecting fields:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T015528Z" creationid="Toru Kokubun" creationdate="20180423T015420Z">
@@ -4362,6 +4370,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003830Z" creationid="Toru Kokubun" creationdate="20180428T223153Z">
         <seg>マルチサイトでのグローバル設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Variables</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T070433Z" creationid="Toru Kokubun" creationdate="20180504T070433Z">
+        <seg>グローバル変数</seg>
       </tuv>
     </tu>
     <tu>
