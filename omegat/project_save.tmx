@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(It is assumed to live 4 directories up from the bootstrap script by default.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T030902Z" creationid="Toru Kokubun" creationdate="20180504T030902Z">
+        <seg>（デフォルトでは、起動スクリプトによって4つのディレクトリが稼働しているものとします。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(It is assumed to live within the base directory by default.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004800Z" creationid="Toru Kokubun" creationdate="20180504T003927Z">
@@ -1278,6 +1286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Craft will store data caches in the &lt;x1/&gt;storage/runtime/cache/&lt;x2/&gt; folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031326Z" creationid="Toru Kokubun" creationdate="20180504T031326Z">
+        <seg>デフォルトでは、Craft は &lt;x1/&gt;storage/runtime/cache/&lt;x2/&gt; フォルダにデータキャッシュを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, every category will have a Title filed (the category name).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213118Z" creationid="Toru Kokubun" creationdate="20180427T213118Z">
@@ -1386,6 +1402,46 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T024416Z" creationid="Toru Kokubun" creationdate="20180504T024416Z">
         <seg>CRAFT_PLUGINS_PATH&lt;x1/&gt; – マニュアルインストールされたプラグインの格納に使用する &lt;x2/&gt;plugins/&lt;x3/&gt; ディレクトリのパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_SITE&lt;x1/&gt; – The Site handle or ID that Craft should be serving from this &lt;x2/&gt;index.php&lt;x3/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T024722Z" creationid="Toru Kokubun" creationdate="20180504T024722Z">
+        <seg>CRAFT_SITE&lt;x1/&gt; – Craft が &lt;x2/&gt;index.php&lt;x3/&gt; ファイルから提供するべきサイトハンドル、または、サイト ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_STORAGE_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;storage/&lt;x3/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T024750Z" creationid="Toru Kokubun" creationdate="20180504T024750Z">
+        <seg>CRAFT_STORAGE_PATH&lt;x1/&gt; – &lt;x2/&gt;storage/&lt;x3/&gt; ディレクトリのパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_TEMPLATES_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;templates/&lt;x3/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T024801Z" creationid="Toru Kokubun" creationdate="20180504T024801Z">
+        <seg>CRAFT_TEMPLATES_PATH&lt;x1/&gt; – &lt;x2/&gt;templates/&lt;x3/&gt; ディレクトリのパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_TRANSLATIONS_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;translations/&lt;x3/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T024813Z" creationid="Toru Kokubun" creationdate="20180504T024813Z">
+        <seg>CRAFT_TRANSLATIONS_PATH&lt;x1/&gt; – &lt;x2/&gt;translations/&lt;x3/&gt; ディレクトリのパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_VENDOR_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;vendor/&lt;x3/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T030250Z" creationid="Toru Kokubun" creationdate="20180504T030250Z">
+        <seg>CRAFT_VENDOR_PATH&lt;x1/&gt; – &lt;x2/&gt;vendor/&lt;x3/&gt; ディレクトリのパス。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2534,6 +2590,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft supports several &lt;x1/&gt;database configuration settings&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031953Z" creationid="Toru Kokubun" creationdate="20180504T031210Z">
+        <seg>Craft は、いくつかの&lt;x1/&gt;データベース設定&lt;x2/&gt;をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft supports several &lt;x1/&gt;general configuration settings&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031956Z" creationid="Toru Kokubun" creationdate="20180504T031024Z">
+        <seg>Craft は、いくつかの&lt;x1/&gt;一般設定&lt;x2/&gt;をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft supports the following search syntax:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231308Z" creationid="Toru Kokubun" creationdate="20180429T231308Z">
@@ -2546,6 +2618,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T001422Z" creationid="Toru Kokubun" creationdate="20180427T001309Z">
         <seg>Craft は、&lt;x1/&gt;recipes/_entry.html&lt;x2/&gt; のように、名前の接頭辞にアンダースコアが付いたテンプレートを直接アクセスできない不可視テンプレートとして扱います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft uses &lt;x1/&gt;Guzzle 6&lt;x2/&gt; whenever creating HTTP requests, such as:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032653Z" creationid="Toru Kokubun" creationdate="20180504T032653Z">
+        <seg>Craft は、次のような HTTP リクエストを作成するたびに &lt;x1/&gt;Guzzle 6&lt;x2/&gt; を使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4426,6 +4506,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012125Z" creationid="Toru Kokubun" creationdate="20180420T220453Z">
         <seg>この &lt;x1/&gt;.type()&lt;x2/&gt; は &lt;x3/&gt;type&lt;x4/&gt; パラメータを &lt;x7/&gt;query&lt;x8/&gt; の &lt;x5/&gt;clone&lt;x6/&gt; に適用しているため、 &lt;x9/&gt;query.total()&lt;x10/&gt; には影響を与えません。入力タイプに関わらず、News エントリの総数を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are a couple common examples of cache storage configurations:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032358Z" creationid="Toru Kokubun" creationdate="20180504T032116Z">
+        <seg>キャッシュストレージ設定の一般的な例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10598,6 +10686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then configure Craft’s &lt;x3/&gt;cache&lt;x4/&gt; component to use it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032551Z" creationid="Toru Kokubun" creationdate="20180504T032551Z">
+        <seg>次に、Craft の &lt;x3/&gt;cache&lt;x4/&gt; コンポーネントでそれを利用するよう設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then open up your &lt;x1/&gt;.env&lt;x2/&gt; file (you may need to use an app like &lt;x3/&gt;Transmit&lt;x4/&gt; to do this if you’re running macOS), and find this line:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213236Z" creationid="Toru Kokubun" creationdate="20180426T213208Z">
@@ -11378,6 +11474,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070945Z" creationid="Toru Kokubun" creationdate="20180418T070945Z">
         <seg>サイトのディレクトリ構成を大幅に変更することなく Craft をアップデートするには、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use Redis cache storage, you will first need to install the &lt;x1/&gt;yii2-redis&lt;x2/&gt; library.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032457Z" creationid="Toru Kokubun" creationdate="20180504T032457Z">
+        <seg>Redis キャッシュストレージを利用するには、あらかじめ &lt;x1/&gt;yii2-redis&lt;x2/&gt; ライブラリをインストールする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12718,6 +12822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can configure Craft to use an alternative &lt;x3/&gt;cache storage&lt;x4/&gt; by overriding the &lt;x5/&gt;cache&lt;x6/&gt; application component from &lt;x7/&gt;config/app.php&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031604Z" creationid="Toru Kokubun" creationdate="20180504T031526Z">
+        <seg>&lt;x7/&gt;config/app.php&lt;x8/&gt; で &lt;x5/&gt;cache&lt;x6/&gt; アプリケーションコンポーネントを上書きすることによって代替の&lt;x3/&gt;キャッシュストレージ&lt;x4/&gt;を使うよう Craft を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can create as many content tabs as you want, and use them to organize similar fields together.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031202Z" creationid="Toru Kokubun" creationdate="20180423T031153Z">
@@ -12914,6 +13026,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T013919Z" creationid="Toru Kokubun" creationdate="20180425T013845Z">
         <seg>選択されたオプションの値を次のように出力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can override their default values in your &lt;x3/&gt;config/db.php&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031232Z" creationid="Toru Kokubun" creationdate="20180504T031232Z">
+        <seg>&lt;x3/&gt;config/db.php&lt;x4/&gt; ファイルでデフォルト値を上書きすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can override their default values in your &lt;x3/&gt;config/general.php&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031135Z" creationid="Toru Kokubun" creationdate="20180504T031135Z">
+        <seg>&lt;x3/&gt;config/general.php&lt;x4/&gt; ファイルでデフォルト値を上書きすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13654,6 +13782,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>when checking for Craft updates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032720Z" creationid="Toru Kokubun" creationdate="20180504T032720Z">
+        <seg>Craft のアップデートをチェックするとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when loading RSS feeds from the Feeds widget</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032808Z" creationid="Toru Kokubun" creationdate="20180504T032808Z">
+        <seg>Feed ウィジェットから RSS フィードを読み込むとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when sending in a support request from the Craft Support widget</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032811Z" creationid="Toru Kokubun" creationdate="20180504T032743Z">
+        <seg>Craft のサポートウィジェットからサポートリクエストを送信するとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>when the &lt;x1/&gt;orderBy&lt;x2/&gt; param contains a &lt;x3/&gt;`yii\db\Expression`&lt;x4/&gt; object</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232703Z" creationid="Toru Kokubun" creationdate="20180420T232703Z">
@@ -13666,6 +13818,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232621Z" creationid="Toru Kokubun" creationdate="20180420T232449Z">
         <seg>SQL に &lt;x1/&gt;ORDER BY&lt;x2/&gt; 句が存在しない場合、反転できるものがありません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when working with assets on remote volumes, like Amazon S3</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032856Z" creationid="Toru Kokubun" creationdate="20180504T032856Z">
+        <seg>Amazon S3 のようなリモートボリュームにあるアセットを操作するとき</seg>
       </tuv>
     </tu>
     <tu>
