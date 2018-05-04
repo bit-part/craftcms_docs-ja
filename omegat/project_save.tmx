@@ -462,10 +462,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;x1/&gt;DateTime&lt;x2/&gt; object set to the current date and time.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221110Z" creationid="Toru Kokubun" creationdate="20180504T221110Z">
+        <seg>現在の日付と時刻がセットされた &lt;x1/&gt;DateTime&lt;x2/&gt; オブジェクト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;x1/&gt;craft\elements\Asset&lt;x2/&gt;, &lt;x3/&gt;craft\elements\Category&lt;x4/&gt;, &lt;x5/&gt;craft\elements\Entry&lt;x6/&gt;, &lt;x7/&gt;craft\elements\User&lt;x8/&gt;, or &lt;x9/&gt;craft\elements\Tag&lt;x10/&gt; object</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001900Z" creationid="Toru Kokubun" creationdate="20180429T001900Z">
         <seg>&lt;x1/&gt;craft\elements\Asset&lt;x2/&gt;、&lt;x3/&gt;craft\elements\Category&lt;x4/&gt;、&lt;x5/&gt;craft\elements\Entry&lt;x6/&gt;、&lt;x7/&gt;craft\elements\User&lt;x8/&gt;、または &lt;x9/&gt;craft\elements\Tag&lt;x10/&gt; オブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;x1/&gt;craft\web\twig\variables\CraftVariable&lt;x2/&gt; object, which provides access points to various helper functions and objects for templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T213954Z" creationid="Toru Kokubun" creationdate="20180504T213905Z">
+        <seg>様々なヘルパーファンクションやオブジェクトのアクセスポイントを提供する &lt;x1/&gt;craft\web\twig\variables\CraftVariable&lt;x2/&gt; オブジェクト。</seg>
       </tuv>
     </tu>
     <tu>
@@ -506,6 +522,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212930Z" creationid="Toru Kokubun" creationdate="20180429T212930Z">
         <seg>ルートの設定を定義できるモーダルウィンドウが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A reference to the main &lt;x1/&gt;craft\web\Application&lt;x2/&gt; instance (the thing you get when you type &lt;x3/&gt;Craft::$app&lt;x4/&gt; in PHP code) is also available to templates via &lt;x5/&gt;craft.app&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T214243Z" creationid="Toru Kokubun" creationdate="20180504T214243Z">
+        <seg>メインの &lt;x1/&gt;craft\web\Application&lt;x2/&gt; インスタンス（PHP コード内で &lt;x3/&gt;Craft::$app&lt;x4/&gt; と記述したときに取得できるもの）への参照は、&lt;x5/&gt;craft.app&lt;x6/&gt; 経由でテンプレートでも利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6862,6 +6886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that Craft will automatically redirect users to your homepage after going here; there’s no such thing as a “logout &lt;x3/&gt;page&lt;x4/&gt;”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221006Z" creationid="Toru Kokubun" creationdate="20180504T220919Z">
+        <seg>ここに遷移した後、Craft はユーザーをホームページへ自動的にリダイレクトします。「ログアウト&lt;x3/&gt;ページ&lt;x4/&gt;」といったものはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that Craft/PHP must be able to write to the directory you created.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233110Z" creationid="Toru Kokubun" creationdate="20180427T233041Z">
@@ -9750,6 +9782,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The URL Craft uses to log users out, based on the &lt;x1/&gt;logoutPath&lt;x2/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220730Z" creationid="Toru Kokubun" creationdate="20180504T220713Z">
+        <seg>&lt;x1/&gt;logoutPath&lt;x2/&gt; コンフィグ設定に基づく、Craft ユーザーのログアウト URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The URL settings should be relative (&lt;x1/&gt;/images&lt;x2/&gt;)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T215623Z" creationid="Toru Kokubun" creationdate="20180430T215547Z">
@@ -9770,6 +9810,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061859Z" creationid="Toru Kokubun" creationdate="20180504T061743Z">
         <seg>リクエストのために読み込まれた &lt;x1/&gt;index.php&lt;x2/&gt; ファイルを含むフォルダの URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URL to your site’s login page, based on the &lt;x1/&gt;loginPath&lt;x2/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220546Z" creationid="Toru Kokubun" creationdate="20180504T220546Z">
+        <seg>&lt;x1/&gt;loginPath&lt;x2/&gt; コンフィグ設定に基づく、サイトのログインページの URL。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9890,6 +9938,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212430Z" creationid="Toru Kokubun" creationdate="20180425T212412Z">
         <seg>定義済みの変数 &lt;x1/&gt;block&lt;x2/&gt; にセットされる現在のブロックは、&lt;x3/&gt;craft\elements\MatrixBlock&lt;x4/&gt; モデルになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The currently-logged-in user, represented by a &lt;x1/&gt;craft\elements\User&lt;x2/&gt; object, or &lt;x3/&gt;null&lt;x4/&gt; if no one is logged in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220449Z" creationid="Toru Kokubun" creationdate="20180504T220449Z">
+        <seg>&lt;x1/&gt;craft\elements\User&lt;x2/&gt; オブジェクトで表される、現在ログインしているユーザー。誰もログインしていない場合は、&lt;x3/&gt;null&lt;x4/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10470,6 +10526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of your site, as defined in Settings → Sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221650Z" creationid="Toru Kokubun" creationdate="20180504T221558Z">
+        <seg>「設定 &gt; サイト」で定義されているサイトの名前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The new category will have a hierarchical relationship with its parent.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214721Z" creationid="Toru Kokubun" creationdate="20180427T214721Z">
@@ -10634,6 +10698,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032558Z" creationid="Toru Kokubun" creationdate="20180429T032558Z">
         <seg>リクエストが、コントローラーの呼び出し後に必ずしも終了するとは限りません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The requested site, represented by a &lt;x1/&gt;craft\models\Site&lt;x2/&gt; object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220149Z" creationid="Toru Kokubun" creationdate="20180504T220149Z">
+        <seg>&lt;x1/&gt;craft\models\Site&lt;x2/&gt; オブジェクトで表される、リクエストされたサイト。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10954,6 +11026,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031121Z" creationid="Toru Kokubun" creationdate="20180427T031121Z">
         <seg>変数には、文字列、配列、ブール値、オブジェクトなど、いろいろな種類があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are more security implications than other Twig-specific variables and functions, and your templates will be more susceptible to breaking changes during major Craft version bumps.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220028Z" creationid="Toru Kokubun" creationdate="20180504T215751Z">
+        <seg>他の Twig 特有の変数やファンクションよりもセキュリティの上で意味があります。さらに、Craft のメジャーバージョン間で生じる互換性を破る変更に、テンプレートを反応させやすくするでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11882,6 +11962,46 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T030144Z" creationid="Toru Kokubun" creationdate="20180427T030016Z">
         <seg>Twig はコメントタグの内容を何も評価しません。単にそれが存在しないものとして振る舞います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_BEGIN&lt;x2/&gt; constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221426Z" creationid="Toru Kokubun" creationdate="20180504T221426Z">
+        <seg>&lt;x1/&gt;craft\web\View::POS_BEGIN&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_END&lt;x2/&gt; constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221455Z" creationid="Toru Kokubun" creationdate="20180504T221455Z">
+        <seg>&lt;x1/&gt;craft\web\View::POS_END&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_HEAD&lt;x2/&gt; constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221503Z" creationid="Toru Kokubun" creationdate="20180504T221503Z">
+        <seg>&lt;x1/&gt;craft\web\View::POS_HEAD&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_LOAD&lt;x2/&gt; constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221511Z" creationid="Toru Kokubun" creationdate="20180504T221511Z">
+        <seg>&lt;x1/&gt;craft\web\View::POS_LOAD&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_READY&lt;x2/&gt; constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221519Z" creationid="Toru Kokubun" creationdate="20180504T221519Z">
+        <seg>&lt;x1/&gt;craft\web\View::POS_READY&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12938,6 +13058,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214928Z" creationid="Toru Kokubun" creationdate="20180427T214928Z">
         <seg>親を割り当てる際に新しいカテゴリを作成するオプションもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can access all of the sites in the same group as the current site via &lt;x1/&gt;currentSite.group.sites&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220246Z" creationid="Toru Kokubun" creationdate="20180504T220246Z">
+        <seg>現在のサイトと同じグループのすべてのサイトは、&lt;x1/&gt;currentSite.group.sites&lt;x2/&gt; 経由でアクセスすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14194,6 +14322,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211922Z" creationid="Toru Kokubun" creationdate="20180426T211617Z">
         <seg>【メモ】 &lt;x1/&gt;IIS ファン：&lt;x2/&gt; サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} Accessing things via &lt;x1/&gt;craft.app&lt;x2/&gt; is considered highly advanced.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T215824Z" creationid="Toru Kokubun" creationdate="20180504T214741Z">
+        <seg>【メモ】&lt;x1/&gt;craft.app&lt;x2/&gt; 経由でアクセスすることは、高度な進化だと考えられます。</seg>
       </tuv>
     </tu>
     <tu>
