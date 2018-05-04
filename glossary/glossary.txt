@@ -61,3 +61,4 @@ query builders	クエリビルダー
 Content Migrations	コンテンツマイグレーション	管理画面の表記に合わせて、そのままとする
 valid	有効な
 and/or	、および / または、
+Every single	ありとあらゆる
