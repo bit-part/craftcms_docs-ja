@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>(&lt;x2/&gt;$_SERVER['SERVER_NAME']&lt;x3/&gt; will be used by default.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004249Z" creationid="Toru Kokubun" creationdate="20180504T004239Z">
+        <seg>（デフォルトでは、&lt;x2/&gt;$_SERVER['SERVER_NAME']&lt;x3/&gt; が使用されます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(&lt;x5/&gt;inReverse()&lt;x6/&gt; will reverse the sort direction of all of the &lt;x7/&gt;ORDER BY&lt;x8/&gt; columns in the generated SQL.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232257Z" creationid="Toru Kokubun" creationdate="20180420T232059Z">
@@ -42,6 +50,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T015022Z" creationid="Toru Kokubun" creationdate="20180425T015012Z">
         <seg>（デフォルトは「すべて」です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(It is assumed to be the parent of the &lt;x8/&gt;vendor/&lt;x9/&gt; directory by default.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004053Z" creationid="Toru Kokubun" creationdate="20180504T003727Z">
+        <seg>（デフォルトでは、&lt;x8/&gt;vendor/&lt;x9/&gt; ディレクトリの親とみなされます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(It is assumed to live within the base directory by default.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004800Z" creationid="Toru Kokubun" creationdate="20180504T003927Z">
+        <seg>（デフォルトでは、ベースディレクトリ内に存在するものとします。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(It will be stored as &lt;x2/&gt;license.key&lt;x3/&gt; within your &lt;x4/&gt;config/&lt;x5/&gt; directory by default.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004756Z" creationid="Toru Kokubun" creationdate="20180504T004756Z">
+        <seg>（デフォルトでは、&lt;x4/&gt;config/&lt;x5/&gt; ディレクトリ内に &lt;x2/&gt;license.key&lt;x3/&gt; として保存されます。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -734,6 +766,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alias</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002747Z" creationid="Toru Kokubun" creationdate="20180504T002747Z">
+        <seg>エイリアス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Aliases</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002735Z" creationid="Toru Kokubun" creationdate="20180504T002735Z">
+        <seg>エイリアス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Aliases&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002452Z" creationid="Toru Kokubun" creationdate="20180504T002452Z">
+        <seg>エイリアス&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All fields share a few common settings:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221411Z" creationid="Toru Kokubun" creationdate="20180422T221411Z">
@@ -834,6 +890,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T030605Z" creationid="Toru Kokubun" creationdate="20180427T030605Z">
         <seg>コメントタグの内側に記述された内容は、HTML コメントとは異なり、最終的なテンプレートにレンダリングされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Application Config</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002824Z" creationid="Toru Kokubun" creationdate="20180504T002824Z">
+        <seg>アプリケーション設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Application Config&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002518Z" creationid="Toru Kokubun" creationdate="20180504T002518Z">
+        <seg>アプリケーション設定&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1258,6 +1330,62 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031508Z" creationid="Toru Kokubun" creationdate="20180415T031508Z">
         <seg>CP のブラウザ要件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_BASE_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;base directory&lt;x3/&gt; that Craft will look for &lt;x4/&gt;config/&lt;x5/&gt;, &lt;x6/&gt;templates/&lt;x7/&gt;, and other directories within by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T003753Z" creationid="Toru Kokubun" creationdate="20180504T003527Z">
+        <seg>CRAFT_BASE_PATH&lt;x1/&gt; – Craft がデフォルトで探す &lt;x4/&gt;config/&lt;x5/&gt;、&lt;x6/&gt;templates/&lt;x7/&gt;、および他のディレクトリの&lt;x2/&gt;ベースディレクトリ&lt;x3/&gt;のパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_COMPOSER_PATH&lt;x1/&gt; – The path to &lt;x2/&gt;composer.json&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T003821Z" creationid="Toru Kokubun" creationdate="20180504T003821Z">
+        <seg>CRAFT_COMPOSER_PATH&lt;x1/&gt; – &lt;x2/&gt;composer.json&lt;x3/&gt; のパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_CONFIG_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;config/&lt;x3/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004111Z" creationid="Toru Kokubun" creationdate="20180504T004111Z">
+        <seg>CRAFT_CONFIG_PATH&lt;x1/&gt; – &lt;x2/&gt;config/&lt;x3/&gt; ディレクトリのパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_CONTENT_MIGRATIONS_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;migrations/&lt;x3/&gt; directory used to store content migrations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004153Z" creationid="Toru Kokubun" creationdate="20180504T004153Z">
+        <seg>CRAFT_CONTENT_MIGRATIONS_PATH&lt;x1/&gt; – コンテンツマイグレーションの格納に使用する &lt;x2/&gt;migrations/&lt;x3/&gt; ディレクトリのパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_ENVIRONMENT&lt;x1/&gt; – The environment ID that multi-environment configs can reference when defining their environment-specific config values.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004523Z" creationid="Toru Kokubun" creationdate="20180504T004454Z">
+        <seg>CRAFT_ENVIRONMENT&lt;x1/&gt; – 環境特有の設定値を定義する際に参照できるマルチ環境設定の環境 ID。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_LICENSE_KEY_PATH&lt;x1/&gt; – The path that Craft should store its license key file, including its filename.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004642Z" creationid="Toru Kokubun" creationdate="20180504T004642Z">
+        <seg>CRAFT_LICENSE_KEY_PATH&lt;x1/&gt; – ファイル名を含めた Craft が格納するライセンスキーファイルを保存するパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CRAFT_PLUGINS_PATH&lt;x1/&gt; – The path to the &lt;x2/&gt;plugins/&lt;x3/&gt; directory used to store manually-installed plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T024416Z" creationid="Toru Kokubun" creationdate="20180504T024416Z">
+        <seg>CRAFT_PLUGINS_PATH&lt;x1/&gt; – マニュアルインストールされたプラグインの格納に使用する &lt;x2/&gt;plugins/&lt;x3/&gt; ディレクトリのパス。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2670,6 +2798,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Data Caching Config</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002704Z" creationid="Toru Kokubun" creationdate="20180504T002704Z">
+        <seg>データキャッシュ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data Caching Config&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002441Z" creationid="Toru Kokubun" creationdate="20180504T002441Z">
+        <seg>データキャッシュ設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Database Config</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002641Z" creationid="Toru Kokubun" creationdate="20180504T002641Z">
+        <seg>データベース設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Database Config&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002431Z" creationid="Toru Kokubun" creationdate="20180504T002431Z">
+        <seg>データベース設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Date Formatting</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063113Z" creationid="Toru Kokubun" creationdate="20180420T063113Z">
@@ -4030,6 +4190,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>General Config</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002653Z" creationid="Toru Kokubun" creationdate="20180504T002653Z">
+        <seg>一般設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>General Config&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002426Z" creationid="Toru Kokubun" creationdate="20180504T002426Z">
+        <seg>一般設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>General Tech Specs</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030251Z" creationid="Toru Kokubun" creationdate="20180414T030251Z">
@@ -4194,6 +4370,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T220348Z" creationid="Toru Kokubun" creationdate="20180430T021754Z">
         <seg>ガイド：新しいサイトの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guzzle Config</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002720Z" creationid="Toru Kokubun" creationdate="20180504T002720Z">
+        <seg>Guzzle 設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Guzzle Config&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002447Z" creationid="Toru Kokubun" creationdate="20180504T002447Z">
+        <seg>Guzzle 設定&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6102,6 +6294,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Mailer Component</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002830Z" creationid="Toru Kokubun" creationdate="20180504T002830Z">
+        <seg>Mailer コンポーネント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Mailer Component&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002609Z" creationid="Toru Kokubun" creationdate="20180504T002609Z">
+        <seg>Mailer コンポーネント&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Make other users Admins (Craft Pro only)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001513Z" creationid="Toru Kokubun" creationdate="20180428T001513Z">
@@ -6970,6 +7178,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T024120Z" creationid="Toru Kokubun" creationdate="20180427T024120Z">
         <seg>出力タグは、レンダリングされた HTML にプリントする責任があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overriding Volume Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002814Z" creationid="Toru Kokubun" creationdate="20180504T002814Z">
+        <seg>ボリューム設定の上書き</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overriding Volume Settings&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002531Z" creationid="Toru Kokubun" creationdate="20180504T002531Z">
+        <seg>ボリューム設定の上書き&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12906,6 +13130,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T212759Z" creationid="Toru Kokubun" creationdate="20180430T211053Z">
         <seg>テンプレート内でこのサイトを参照するために、サイトハンドルを利用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your &lt;x1/&gt;web/index.php&lt;x2/&gt; file can specify a few PHP constants, which Craft’s bootstrap script will check for while loading and configuring Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T003315Z" creationid="Toru Kokubun" creationdate="20180504T003151Z">
+        <seg>&lt;x1/&gt;web/index.php&lt;x2/&gt; ファイルは、Craft の読み込みと環境設定を行なう際に、Craft の起動スクリプトがチェックするいくつかの PHP 定数を指定することができます。</seg>
       </tuv>
     </tu>
     <tu>
