@@ -62,3 +62,5 @@ Content Migrations	コンテンツマイグレーション	管理画面の表記
 valid	有効な
 and/or	、および / または、
 Every single	ありとあらゆる
+Arguments	引数
+Encrypts	暗号化する
