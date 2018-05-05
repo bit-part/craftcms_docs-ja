@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>'medium'&lt;x1/&gt; (default)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000606Z" creationid="Toru Kokubun" creationdate="20180505T000606Z">
+        <seg>'medium'&lt;x1/&gt;（デフォルト）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(&lt;x2/&gt;$_SERVER['SERVER_NAME']&lt;x3/&gt; will be used by default.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004249Z" creationid="Toru Kokubun" creationdate="20180504T004239Z">
@@ -102,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(See &lt;x5/&gt;Configuration&lt;x6/&gt; for more info.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230339Z" creationid="Toru Kokubun" creationdate="20180504T230339Z">
+        <seg>（詳細については、&lt;x5/&gt;コンフィギュレーション&lt;x6/&gt;を参照してください。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The DateTime object is represented by the &lt;x1/&gt;d&lt;x2/&gt; variable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063639Z" creationid="Toru Kokubun" creationdate="20180420T063639Z">
@@ -130,6 +146,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T031329Z" creationid="Toru Kokubun" creationdate="20180426T031319Z">
         <seg>（必要ならリネームできます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(This can be useful if the URL will be used by POST requests over Ajax, where the URL will not be shown in the browser’s address bar, and you want to avoid a possible collision with your site’s .htaccess file redirect.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T234847Z" creationid="Toru Kokubun" creationdate="20180504T233928Z">
+        <seg>（ブラウザのアドレスバーに表示されない URL と .htaccess ファイルのリダイレクトとの衝突を避けたいような、Ajax 経由の POST リクエストで使用される URL の場合に有用です。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -486,6 +510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;x1/&gt;translate&lt;x2/&gt; argument is also available.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000941Z" creationid="Toru Kokubun" creationdate="20180505T000941Z">
+        <seg>&lt;x1/&gt;translate&lt;x2/&gt; 引数も利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A few seconds later, you should have a working Craft install!</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025612Z" creationid="Toru Kokubun" creationdate="20180418T025403Z">
@@ -522,6 +554,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212930Z" creationid="Toru Kokubun" creationdate="20180429T212930Z">
         <seg>ルートの設定を定義できるモーダルウィンドウが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A reference to the &lt;x1/&gt;craft\web\View&lt;x2/&gt; instance that is driving the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222207Z" creationid="Toru Kokubun" creationdate="20180504T222207Z">
+        <seg>テンプレートを駆動している &lt;x1/&gt;craft\web\View&lt;x2/&gt; インスタンスへの参照。</seg>
       </tuv>
     </tu>
     <tu>
@@ -862,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All sites that have CSRF Protection enabled must include this in each form that submits via POST.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231150Z" creationid="Toru Kokubun" creationdate="20180504T231133Z">
+        <seg>CSRF 保護が有効になっているすべてのサイトでは、POST 経由で送信するそれぞれのフォームにこれを含めなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All strings must use double quotes rather than single quotes</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221727Z" creationid="Toru Kokubun" creationdate="20180419T221727Z">
@@ -946,6 +994,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002518Z" creationid="Toru Kokubun" creationdate="20180504T002518Z">
         <seg>アプリケーション設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Arguments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232300Z" creationid="Toru Kokubun" creationdate="20180504T232300Z">
+        <seg>引数</seg>
       </tuv>
     </tu>
     <tu>
@@ -2026,6 +2082,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T030305Z" creationid="Toru Kokubun" creationdate="20180423T030246Z">
         <seg>「必須にする」をクリックすると、フィールド名の横にアスタリスク（&lt;x1/&gt;*&lt;x2/&gt;）が追加され、必須項目になったことを示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clones a given object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230837Z" creationid="Toru Kokubun" creationdate="20180504T230811Z">
+        <seg>指定されたオブジェクトのクローンを作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3454,6 +3518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each of your site’s &lt;x1/&gt;global sets&lt;x2/&gt; will be available to your template as global variables, named after their handle.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222624Z" creationid="Toru Kokubun" creationdate="20180504T222555Z">
+        <seg>それそれのサイトの&lt;x1/&gt;グローバル設定&lt;x2/&gt;は、ハンドルにちなんで命名されたグローバル変数としてテンプレートで利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each relation involves two elements:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T233830Z" creationid="Toru Kokubun" creationdate="20180428T233830Z">
@@ -3698,6 +3770,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T061006Z" creationid="Toru Kokubun" creationdate="20180420T061006Z">
         <seg>「このボリュームのアセットにはパブリック URL が含まれます」設定を有効化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Encrypts and base64-encodes a string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001726Z" creationid="Toru Kokubun" creationdate="20180505T001726Z">
+        <seg>文字列を暗号化し、base64 エンコードします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4270,6 +4350,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Formats a number of bytes into something nicer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T002044Z" creationid="Toru Kokubun" creationdate="20180505T001842Z">
+        <seg>バイト数をより良い何かにフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formats a number with a given currency according to the user’s preferred language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000120Z" creationid="Toru Kokubun" creationdate="20180505T000120Z">
+        <seg>ユーザーが優先する言語に応じて指定された通貨で、数値をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From there you can choose a category group from the sidebar, and add/reorder/delete categories within it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214336Z" creationid="Toru Kokubun" creationdate="20180427T213956Z">
@@ -4378,6 +4474,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210656Z" creationid="Toru Kokubun" creationdate="20180430T210656Z">
         <seg>名前を付けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Global Set Variables</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222330Z" creationid="Toru Kokubun" creationdate="20180504T222330Z">
+        <seg>グローバル設定の変数</seg>
       </tuv>
     </tu>
     <tu>
@@ -4750,6 +4854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;x3/&gt;true&lt;x4/&gt; is passed, the formatted date will be run through &lt;x5/&gt;craft\helpers\DateTimeHelper::translateDate()&lt;x6/&gt; before being returned.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001515Z" creationid="Toru Kokubun" creationdate="20180505T001153Z">
+        <seg>&lt;x3/&gt;true&lt;x4/&gt; を渡した場合、値を返す前にフォーマットされた日付へ &lt;x5/&gt;craft\helpers\DateTimeHelper::translateDate()&lt;x6/&gt; が実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If Craft finds any of these in your Title Format, it will replace the &lt;x1/&gt;{&lt;x2/&gt; with &lt;x3/&gt;{{object.&lt;x4/&gt; and the &lt;x5/&gt;}&lt;x6/&gt; with &lt;x7/&gt;}}&lt;x8/&gt;, before passing the template off to Twig for parsing.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094600Z" creationid="Toru Kokubun" creationdate="20180422T094600Z">
@@ -4858,6 +4970,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040455Z" creationid="Toru Kokubun" creationdate="20180429T040455Z">
         <seg>上記のチェックがいずれも成功しなかった場合、Craf は 404 を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If not, then the protocol in your Site URL will be used; if so, then &lt;x6/&gt;https&lt;x7/&gt; will be used.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233640Z" creationid="Toru Kokubun" creationdate="20180504T233611Z">
+        <seg>そうでなければ、サイト URL のプロトコルが使用され、SSL 経由なら &lt;x6/&gt;https&lt;x7/&gt; が使用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5374,6 +5494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you pass &lt;x1/&gt;true&lt;x2/&gt; into the second argument, the “.00” will be stripped if there’s zero cents.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000359Z" creationid="Toru Kokubun" creationdate="20180505T000309Z">
+        <seg>第2引数に &lt;x1/&gt;true&lt;x2/&gt; を渡すと、セントがゼロの場合は「.00」が削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you run multiple sites with Craft, Global Sets are available in all sites.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003947Z" creationid="Toru Kokubun" creationdate="20180428T223255Z">
@@ -5854,6 +5982,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition to the template filters that &lt;x1/&gt;Twig comes with&lt;x2/&gt;, Craft provides a few of its own.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235519Z" creationid="Toru Kokubun" creationdate="20180504T235519Z">
+        <seg>&lt;x1/&gt;Twig に付随する&lt;x2/&gt;テンプレートフィルタに加えて、Craft がいくつか独自のものを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to the template functions that &lt;x1/&gt;Twig comes with&lt;x2/&gt;, Craft provides a few of its own:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T223011Z" creationid="Toru Kokubun" creationdate="20180504T223011Z">
+        <seg>&lt;x1/&gt;Twig に付随する&lt;x2/&gt;テンプレートファンクションに加えて、Craft がいくつか独自のものを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In each Section you can define the following:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T014513Z" creationid="Toru Kokubun" creationdate="20180422T014503Z">
@@ -6198,6 +6342,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It should be placed right after your &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230550Z" creationid="Toru Kokubun" creationdate="20180504T230550Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; タグの直後に配置する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It should be placed right before your &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231259Z" creationid="Toru Kokubun" creationdate="20180504T231259Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; タグの直前に配置する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It should be used as a starting point for any actual &lt;x2/&gt;.env&lt;x3/&gt; files, stored alongside it but out of version control on each of the environments your Craft project is running in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011532Z" creationid="Toru Kokubun" creationdate="20180422T011113Z">
@@ -6210,6 +6370,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003315Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
         <seg>それでも同じ働きとなりますが、引数 &lt;x5/&gt;stripZeroCents&lt;x6/&gt; は &lt;x7/&gt;stripZeros&lt;x8/&gt; にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will be appended to your base site URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233002Z" creationid="Toru Kokubun" creationdate="20180504T233002Z">
+        <seg>それは、ベースサイト URL に追加されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6330,6 +6498,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T114116Z" creationid="Toru Kokubun" creationdate="20180425T113915Z">
         <seg>Lightswitch フィールドでは、「はい」または「いいえ」の答えが必要なとき向けに、トグル入力を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like Twig’s core &lt;x1/&gt;`date`&lt;x2/&gt; filter, but with additional support for the following &lt;x3/&gt;format&lt;x4/&gt; values:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001333Z" creationid="Toru Kokubun" creationdate="20180505T000533Z">
+        <seg>Twig の &lt;x1/&gt;`date`&lt;x2/&gt; フィルタと同様ですが、次の &lt;x3/&gt;format&lt;x4/&gt; 値を追加サポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like the &lt;x1/&gt;`date`&lt;x2/&gt; filter, but the result will also include a timestamp.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001323Z" creationid="Toru Kokubun" creationdate="20180505T001310Z">
+        <seg>&lt;x1/&gt;`date`&lt;x2/&gt; フィルタと同様ですが、結果にはタイムスタンプも含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7366,6 +7550,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Outputs a date in the ISO-8601 format (which should be used for Atom feeds, among other things).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235709Z" creationid="Toru Kokubun" creationdate="20180504T235709Z">
+        <seg>（とりわけ、Atom フィードで使用される）ISO-8601 形式の日付を出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outputs any scripts and styles that were registered for the “begin body” position.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230615Z" creationid="Toru Kokubun" creationdate="20180504T230442Z">
+        <seg>「begin body」に登録されたスクリプトやスタイルを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outputs any scripts and styles that were registered for the “end body” position.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231234Z" creationid="Toru Kokubun" creationdate="20180504T231234Z">
+        <seg>「end body」に登録されたスクリプトやスタイルを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outputs any scripts and styles that were registered for the “head” position.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231739Z" creationid="Toru Kokubun" creationdate="20180504T231739Z">
+        <seg>「head」に登録されたスクリプトやスタイルを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Overriding Volume Settings</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002814Z" creationid="Toru Kokubun" creationdate="20180504T002814Z">
@@ -7434,6 +7650,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000840Z" creationid="Toru Kokubun" creationdate="20180501T000840Z">
         <seg>パラメータ値の構文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Passes a string through &lt;x1/&gt;Craft::getAlias()&lt;x2/&gt;, which will check if the string begins with an &lt;x3/&gt;alias&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230245Z" creationid="Toru Kokubun" creationdate="20180504T230245Z">
+        <seg>その文字列が&lt;x3/&gt;エイリアス&lt;x4/&gt;ではじまるかをチェックする &lt;x1/&gt;Craft::getAlias()&lt;x2/&gt; に、文字列を渡します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7758,6 +7982,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Randomizes the order of the elements within an array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232107Z" creationid="Toru Kokubun" creationdate="20180504T232034Z">
+        <seg>配列内のエレメントの順序をランダム化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rather than raw data, they return element models.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000512Z" creationid="Toru Kokubun" creationdate="20180501T000502Z">
@@ -8030,6 +8262,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a URL to a page on your site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232746Z" creationid="Toru Kokubun" creationdate="20180504T232746Z">
+        <seg>サイトのページへの URL を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a hidden CSRF Token input.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231031Z" creationid="Toru Kokubun" creationdate="20180504T231031Z">
+        <seg>不可視の CSRF トークン入力欄を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a string formatted in “camelCase”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235802Z" creationid="Toru Kokubun" creationdate="20180504T235802Z">
+        <seg>「camelCase」でフォーマットされた文字列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns all of the elements in an array.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080840Z" creationid="Toru Kokubun" creationdate="20180502T080840Z">
@@ -8062,6 +8318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the contents of a given SVG file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232346Z" creationid="Toru Kokubun" creationdate="20180504T232223Z">
+        <seg>指定された SVG ファイルのコンテンツを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the first column’s value of the first matching element.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093919Z" creationid="Toru Kokubun" creationdate="20180502T093919Z">
@@ -8078,10 +8342,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the fully qualified class name of a given object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230742Z" creationid="Toru Kokubun" creationdate="20180504T230742Z">
+        <seg>指定されたオブジェクトの完全修飾クラス名を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the total number of elements that are matched by the query.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080804Z" creationid="Toru Kokubun" creationdate="20180502T080804Z">
         <seg>クエリにマッチしたエレメントの総数を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns the value of an environment variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231710Z" creationid="Toru Kokubun" creationdate="20180504T231710Z">
+        <seg>環境変数の値を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8106,6 +8386,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215511Z" creationid="Toru Kokubun" creationdate="20180419T215511Z">
         <seg>リッチテキストフィールド&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rounds a number down.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231430Z" creationid="Toru Kokubun" creationdate="20180504T231430Z">
+        <seg>整数値に切り捨てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rounds a number up.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231639Z" creationid="Toru Kokubun" creationdate="20180504T230637Z">
+        <seg>整数値に切り上げます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rounds off a number to the closest integer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231902Z" creationid="Toru Kokubun" creationdate="20180504T231902Z">
+        <seg>最も近い整数値に数を丸めます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8162,6 +8466,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T003215Z" creationid="Toru Kokubun" creationdate="20180415T033246Z">
         <seg>インストーラの実行&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs a &lt;x1/&gt;`DateInterval`&lt;x2/&gt; object through &lt;x3/&gt;craft\helpers\DateTimeHelper::humanDurationFromInterval()&lt;x4/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001603Z" creationid="Toru Kokubun" creationdate="20180505T001552Z">
+        <seg>&lt;x3/&gt;craft\helpers\DateTimeHelper::humanDurationFromInterval()&lt;x4/&gt; を通して、&lt;x1/&gt;`DateInterval`&lt;x2/&gt; オブジェクトを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs an array through &lt;x1/&gt;ArrayHelper::getColumn()&lt;x2/&gt; and returns the result.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235853Z" creationid="Toru Kokubun" creationdate="20180504T235853Z">
+        <seg>&lt;x1/&gt;ArrayHelper::getColumn()&lt;x2/&gt; で配列を実行し、その結果を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8698,6 +9018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T002843Z" creationid="Toru Kokubun" creationdate="20180503T002843Z">
         <seg>&lt;x1/&gt;createCommand()-&gt;getRawSql()&lt;x2/&gt; のショートカット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Shortcut for typing &lt;x1/&gt;&lt;input type="hidden" name="redirect" value="{{ url|hash }}"&gt;&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231824Z" creationid="Toru Kokubun" creationdate="20180504T231824Z">
+        <seg>&lt;x1/&gt;&lt;input type="hidden" name="redirect" value="{{ url|hash }}"&gt;&lt;x2/&gt; を入力するためのショートカットです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9678,6 +10006,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;svg()&lt;x2/&gt; function has the following arguments:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232330Z" creationid="Toru Kokubun" creationdate="20180504T232330Z">
+        <seg>&lt;x1/&gt;svg()&lt;x2/&gt; ファンクションは、次の引数を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;url()&lt;x2/&gt; function has the following arguments:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232836Z" creationid="Toru Kokubun" creationdate="20180504T232836Z">
+        <seg>&lt;x1/&gt;url()&lt;x2/&gt; ファンクションは、次の引数を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -9758,6 +10102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The System Name, as defined in Settings → General.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222119Z" creationid="Toru Kokubun" creationdate="20180504T222119Z">
+        <seg>「設定 &gt; 一般」で定義されている、システム名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Title Format is a full-blown Twig template, and it will get parsed whenever your entries are saved.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013756Z" creationid="Toru Kokubun" creationdate="20180422T093422Z">
@@ -9786,6 +10138,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220730Z" creationid="Toru Kokubun" creationdate="20180504T220713Z">
         <seg>&lt;x1/&gt;logoutPath&lt;x2/&gt; コンフィグ設定に基づく、Craft ユーザーのログアウト URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URL of your site</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221753Z" creationid="Toru Kokubun" creationdate="20180504T221753Z">
+        <seg>サイトの URL。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9970,6 +10330,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221137Z" creationid="Toru Kokubun" creationdate="20180427T221056Z">
         <seg>Craft のデフォルトインストールでは、ローカルボリューム（Craft が実行されている同じサーバー上のディレクトリ）だけをサポートしていますが、サードパーティのプラグインを利用して、&lt;x1/&gt;Amazon S3&lt;x2/&gt;、&lt;x3/&gt;Rackspace Cloud&lt;x4/&gt;、および &lt;x5/&gt;Google Cloud&lt;x6/&gt; をリモートのアセットボリュームとしてセットアップすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default value depends on whether the current request is served over SSL or not.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233422Z" creationid="Toru Kokubun" creationdate="20180504T233404Z">
+        <seg>デフォルト値は、現在のリクエストが SSL 経由で配信されているかどうかに依存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10528,8 +10896,8 @@
       <tuv lang="EN-US">
         <seg>The name of your site, as defined in Settings → Sites.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221650Z" creationid="Toru Kokubun" creationdate="20180504T221558Z">
-        <seg>「設定 &gt; サイト」で定義されているサイトの名前。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222124Z" creationid="Toru Kokubun" creationdate="20180504T221558Z">
+        <seg>「設定 &gt; サイト」で定義されている、サイトの名前。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11246,6 +11614,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They will be represented as &lt;x1/&gt;craft\elements\GlobalSet&lt;x2/&gt; objects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222715Z" creationid="Toru Kokubun" creationdate="20180504T222715Z">
+        <seg>それらは、&lt;x1/&gt;craft\elements\GlobalSet&lt;x2/&gt; オブジェクトとして表されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They're a convenient way to make non-Entry content easily editable via the Control Panel.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T220140Z" creationid="Toru Kokubun" creationdate="20180428T220039Z">
@@ -11258,6 +11634,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221857Z" creationid="Toru Kokubun" creationdate="20180420T221111Z">
         <seg>しかし、この動作は Craft 3 で変更されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be either a string (e.g. &lt;x2/&gt;'foo=1&amp;bar=2'&lt;x3/&gt;) or an object (e.g. &lt;x4/&gt;{foo:'1', bar:'2'}&lt;x5/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233219Z" creationid="Toru Kokubun" creationdate="20180504T233150Z">
+        <seg>これは文字列（例：&lt;x2/&gt;'foo=1&amp;bar=2'&lt;x3/&gt;）またはオブジェクト（例：&lt;x4/&gt;{foo:'1', bar:'2'}&lt;x5/&gt;）が利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11966,42 +12350,106 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_ASC&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221913Z" creationid="Toru Kokubun" creationdate="20180504T221913Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_ASC&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_DESC&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221940Z" creationid="Toru Kokubun" creationdate="20180504T221940Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_DESC&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_FLAG_CASE&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221948Z" creationid="Toru Kokubun" creationdate="20180504T221948Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_FLAG_CASE&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_LOCALE_STRING&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221956Z" creationid="Toru Kokubun" creationdate="20180504T221956Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_LOCALE_STRING&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_NATURAL&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222005Z" creationid="Toru Kokubun" creationdate="20180504T222005Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_NATURAL&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_NUMERIC&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222013Z" creationid="Toru Kokubun" creationdate="20180504T222013Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_NUMERIC&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_REGULAR&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222023Z" creationid="Toru Kokubun" creationdate="20180504T222023Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_REGULAR&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig-facing copy of the &lt;x1/&gt;SORT_STRING&lt;x2/&gt; PHP constant.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222032Z" creationid="Toru Kokubun" creationdate="20180504T222032Z">
+        <seg>PHP 定数 &lt;x1/&gt;SORT_STRING&lt;x2/&gt; の Twig 対応のコピー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_BEGIN&lt;x2/&gt; constant.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221426Z" creationid="Toru Kokubun" creationdate="20180504T221426Z">
-        <seg>&lt;x1/&gt;craft\web\View::POS_BEGIN&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221825Z" creationid="Toru Kokubun" creationdate="20180504T221426Z">
+        <seg>定数 &lt;x1/&gt;craft\web\View::POS_BEGIN&lt;x2/&gt; の Twig 対応のコピー。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_END&lt;x2/&gt; constant.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221455Z" creationid="Toru Kokubun" creationdate="20180504T221455Z">
-        <seg>&lt;x1/&gt;craft\web\View::POS_END&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221845Z" creationid="Toru Kokubun" creationdate="20180504T221455Z">
+        <seg>定数 &lt;x1/&gt;craft\web\View::POS_END&lt;x2/&gt; の Twig 対応のコピー。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_HEAD&lt;x2/&gt; constant.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221503Z" creationid="Toru Kokubun" creationdate="20180504T221503Z">
-        <seg>&lt;x1/&gt;craft\web\View::POS_HEAD&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221830Z" creationid="Toru Kokubun" creationdate="20180504T221503Z">
+        <seg>定数 &lt;x1/&gt;craft\web\View::POS_HEAD&lt;x2/&gt; の Twig 対応のコピー。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_LOAD&lt;x2/&gt; constant.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221511Z" creationid="Toru Kokubun" creationdate="20180504T221511Z">
-        <seg>&lt;x1/&gt;craft\web\View::POS_LOAD&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221833Z" creationid="Toru Kokubun" creationdate="20180504T221511Z">
+        <seg>定数 &lt;x1/&gt;craft\web\View::POS_LOAD&lt;x2/&gt; の Twig 対応のコピー。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Twig-facing copy of the &lt;x1/&gt;craft\web\View::POS_READY&lt;x2/&gt; constant.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221519Z" creationid="Toru Kokubun" creationdate="20180504T221519Z">
-        <seg>&lt;x1/&gt;craft\web\View::POS_READY&lt;x2/&gt; 定数の Twig 対応のコピー。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221837Z" creationid="Toru Kokubun" creationdate="20180504T221519Z">
+        <seg>定数 &lt;x1/&gt;craft\web\View::POS_READY&lt;x2/&gt; の Twig 対応のコピー。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12674,6 +13122,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T014414Z" creationid="Toru Kokubun" creationdate="20180430T014301Z">
         <seg>有効にすると、Craft は送信されたコンテンツを使用して、そのセクションで有効になっているそれぞれのサイトに新しいエントリを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When one of those formats are used, the date will be formatted into a localized date format using &lt;x1/&gt;craft\i18n\Formatter::asDate()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000838Z" creationid="Toru Kokubun" creationdate="20180505T000838Z">
+        <seg>これらのフォーマットが使用されると、日付は &lt;x1/&gt;craft\i18n\Formatter::asDate()&lt;x2/&gt; でローカライズされた日付の書式にフォーマットされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13750,6 +14206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`mustShowScriptName`&lt;x1/&gt; – If this is set to &lt;x2/&gt;true&lt;x3/&gt;, then the URL returned will include “index.php”, disregarding the &lt;x4/&gt;omitScriptNameInUrls&lt;x5/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233909Z" creationid="Toru Kokubun" creationdate="20180504T233854Z">
+        <seg>`mustShowScriptName`&lt;x1/&gt; – ここに &lt;x2/&gt;true&lt;x3/&gt; がセットされている場合、「index.php」を含めた URL が返され、コンフィグ設定の &lt;x4/&gt;omitScriptNameInUrls&lt;x5/&gt; は無視されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`omitScriptNameInUrls` and `usePathInfo`&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215751Z" creationid="Toru Kokubun" creationdate="20180419T215751Z">
@@ -13758,10 +14222,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`params`&lt;x1/&gt; – Any query string parameters that should be appended to the URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233104Z" creationid="Toru Kokubun" creationdate="20180504T233104Z">
+        <seg>`params`&lt;x1/&gt; – URL に追加するクエリ文字列パラメータ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`path`&lt;x1/&gt; – The path that the resulting URL should point to on your site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232927Z" creationid="Toru Kokubun" creationdate="20180504T232927Z">
+        <seg>`path`&lt;x1/&gt; – 結果となる URL がサイトで指すべきパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`protocol`&lt;x1/&gt; – Which protocol the URL should use (&lt;x2/&gt;'http'&lt;x3/&gt; or &lt;x4/&gt;'https'&lt;x5/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233305Z" creationid="Toru Kokubun" creationdate="20180504T233305Z">
+        <seg>`protocol`&lt;x1/&gt; – URL が使用するプロトコル（&lt;x2/&gt;'http'&lt;x3/&gt; または &lt;x4/&gt;'https'&lt;x5/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`redirect` Params&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220147Z" creationid="Toru Kokubun" creationdate="20180419T220147Z">
         <seg>`redirect` パラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`sanitize`&lt;x1/&gt; – Whether the SVG should be sanitized of any potentially malicious scripts (&lt;x2/&gt;true&lt;x3/&gt; by default).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232711Z" creationid="Toru Kokubun" creationdate="20180504T232545Z">
+        <seg>`sanitize`&lt;x1/&gt; – SVG が潜在的な悪意あるスクリプトのサニタイズをされるべきかどうか（デフォルトは &lt;x2/&gt;true&lt;x3/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`svg`&lt;x1/&gt; – The SVG file path, or an SVG file’s contents.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232422Z" creationid="Toru Kokubun" creationdate="20180504T232401Z">
+        <seg>`svg`&lt;x1/&gt; – SVG ファイルのパス、または SVG ファイルのコンテンツ</seg>
       </tuv>
     </tu>
     <tu>
@@ -14466,6 +14970,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233211Z" creationid="Toru Kokubun" creationdate="20180427T233211Z">
         <seg>【ヒント】設定ファイルの &lt;x1/&gt;config/volumes.php&lt;x2/&gt; を利用して、ボリューム設定を上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{tip} You can use the &lt;x1/&gt;url()&lt;x2/&gt; function for appending query string parameters and/or enforcing a protocol on an absolute URL:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235114Z" creationid="Toru Kokubun" creationdate="20180504T235114Z">
+        <seg>【ヒント】クエリ文字列パラメータを追加する、および / または、絶対 URL にプロトコルを適用するために、&lt;x1/&gt;url()&lt;x2/&gt; ファンクションを使うことができます。 </seg>
       </tuv>
     </tu>
     <tu>
