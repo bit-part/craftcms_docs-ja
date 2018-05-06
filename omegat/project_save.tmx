@@ -1598,6 +1598,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Cache clearing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233454Z" creationid="Toru Kokubun" creationdate="20180506T233454Z">
+        <seg>キャッシュのクリア</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Caches the output globally (for the current site locale), rather than on a per-URL basis.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T230425Z" creationid="Toru Kokubun" creationdate="20180506T222518Z">
@@ -5486,6 +5494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have any element &lt;x1/&gt;queries&lt;x2/&gt; within the tags (e.g. a &lt;x3/&gt;craft.entries&lt;x4/&gt;), and you create a new element that should be returned by one of the queries, Craft will also be able to figure that out and clear the cache.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234114Z" creationid="Toru Kokubun" creationdate="20180506T233805Z">
+        <seg>タグ内にエレメント&lt;x1/&gt;クエリ&lt;x2/&gt;（例：&lt;x3/&gt;craft.entries&lt;x4/&gt;）を持ち、クエリの1つによって返される新しいエレメントを作成する場合、Craft はそれを判断してキャッシュをクリアすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have any existing Rich Text fields, they will be automatically converted to Redactor fields when you install the Redactor plugin.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T005551Z" creationid="Toru Kokubun" creationdate="20180419T221035Z">
@@ -7638,6 +7654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only activates the &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag if a certain condition is met.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233321Z" creationid="Toru Kokubun" creationdate="20180506T233138Z">
+        <seg>ある条件が満足される場合のみ、 &lt;x1/&gt;{% cache %}&lt;x2/&gt; タグを作動させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only do it if you trust that they know what they’re doing.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T002252Z" creationid="Toru Kokubun" creationdate="20180428T002103Z">
@@ -8090,6 +8114,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T095105Z" creationid="Toru Kokubun" creationdate="20180502T095053Z">
         <seg>別のフォルダへ移動する前にそれらを表示するには、&lt;x9/&gt;CMD + SHIFT + .&lt;x10/&gt;（command + shift + ピリオド）を押してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Prevents the &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag from activating if a certain condition is met.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233425Z" creationid="Toru Kokubun" creationdate="20180506T233425Z">
+        <seg>ある条件が満たされる場合、&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグが作動しないようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12352,8 +12384,16 @@
       <tuv lang="EN-US">
         <seg>Tip: You can only use &lt;x1/&gt;`for`&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232231Z" creationid="Toru Kokubun" creationdate="20180506T232231Z">
-        <seg>ヒント：You can only use &lt;x1/&gt;`for`&lt;x2/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232838Z" creationid="Toru Kokubun" creationdate="20180506T232231Z">
+        <seg>ヒント：&lt;x1/&gt;`for`&lt;x2/&gt; </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: You can only use &lt;x1/&gt;`if`&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233020Z" creationid="Toru Kokubun" creationdate="20180506T233020Z">
+        <seg>ヒント：&lt;x1/&gt;`if`&lt;x2/&gt; </seg>
       </tuv>
     </tu>
     <tu>
@@ -13654,6 +13694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When to use &lt;x1/&gt;{% cache %}&lt;x2/&gt; tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234401Z" creationid="Toru Kokubun" creationdate="20180506T234323Z">
+        <seg>どんなときに &lt;x1/&gt;{% cache %}&lt;x2/&gt; タグを使うのか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos”, set to the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder, where Craft previously stored all user photos.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055254Z" creationid="Toru Kokubun" creationdate="20180420T054448Z">
@@ -14098,6 +14146,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024932Z" creationid="Toru Kokubun" creationdate="20180423T024932Z">
         <seg>選択されたフィールドをドラッグして、順番を入れ替えることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also manually clear all of your template caches from the Settings page, using the “Clear Caches” tool.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234228Z" creationid="Toru Kokubun" creationdate="20180506T234213Z">
+        <seg>「キャッシュをクリア」ツールを使用して、「設定」ページからすべてのテンプレートキャッシュを手動でクリアすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14694,6 +14750,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Your caches will automatically clear when any elements (entries, assets, etc.) within the tags are saved or deleted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233657Z" creationid="Toru Kokubun" creationdate="20180506T233640Z">
+        <seg>タグ内のエレメント（エントリ、アセットなど）が保存または削除されると、キャッシュは自動的にクリアされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Your front-end &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;s and JS scripts that submit to a controller action will need to be updated with the following changes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234005Z" creationid="Toru Kokubun" creationdate="20180420T233415Z">
@@ -14730,6 +14794,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001739Z" creationid="Toru Kokubun" creationdate="20180415T073009Z">
         <seg>[`craftcms/craft`]&lt;x1/&gt; – 新しい Craft プロジェクトのスタート地点として使うことができる Composer 「プロジェクト」です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>_or_&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233007Z" creationid="Toru Kokubun" creationdate="20180506T232835Z">
+        <seg>_または_&lt;x1/&gt; </seg>
       </tuv>
     </tu>
     <tu>
@@ -14802,6 +14874,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232422Z" creationid="Toru Kokubun" creationdate="20180504T232401Z">
         <seg>`svg`&lt;x1/&gt; – SVG ファイルのパス、または SVG ファイルのコンテンツ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`unless`&lt;x1/&gt; in a single &lt;x2/&gt;{% cache %}&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233037Z" creationid="Toru Kokubun" creationdate="20180506T233037Z">
+        <seg>`unless`&lt;x1/&gt; のいずれかを1つの &lt;x2/&gt;{% cache %}&lt;x3/&gt; タグで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`until`&lt;x1/&gt; in a single &lt;x2/&gt;{% cache %}&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233004Z" creationid="Toru Kokubun" creationdate="20180506T232927Z">
+        <seg>`until`&lt;x1/&gt; のいずれかを1つの &lt;x2/&gt;{% cache %}&lt;x3/&gt; タグで使用できます。</seg>
       </tuv>
     </tu>
     <tu>
