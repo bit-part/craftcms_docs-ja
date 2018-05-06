@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x3/&gt;{% cache %}&lt;x4/&gt; is not a substitute for fast database connections, efficient templates, or moderate query counts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T221830Z" creationid="Toru Kokubun" creationdate="20180506T221830Z">
+        <seg>&lt;x3/&gt;{% cache %}&lt;x4/&gt; は高速なデータベース接続、効率的なテンプレート、または適度なクエリ数に代わるものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x32/&gt;where the ‘body’ field contains both “salty” and “dog”.&lt;x33/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232339Z" creationid="Toru Kokubun" creationdate="20180429T232334Z">
@@ -490,6 +498,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233152Z" creationid="Toru Kokubun" creationdate="20180429T233152Z">
         <seg>&lt;x98/&gt;‘body’ フィールドが「sal」ではじまる単語を含む&lt;x99/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;x1/&gt;DateTime&lt;x2/&gt; object defining when the cache should expire.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232201Z" creationid="Toru Kokubun" creationdate="20180506T232142Z">
+        <seg>キャッシュの有効期限を &lt;x1/&gt;DateTime&lt;x2/&gt; オブジェクトで定義します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1026,6 +1042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013526Z" creationid="Toru Kokubun" creationdate="20180426T013526Z">
         <seg>テキスト入力欄に入力すると、タグフィールドはそのタググループに属する既存のタグを検索し、入力欄の下のメニューにタグのサジェストを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ask your hosting provider if &lt;x5/&gt;{% cache %}&lt;x6/&gt; is right for you.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222259Z" creationid="Toru Kokubun" creationdate="20180506T222259Z">
+        <seg>&lt;x5/&gt;{% cache %}&lt;x6/&gt; が適切かどうかをホスティングプロバイダに問い合わせてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1570,6 +1594,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235241Z" creationid="Toru Kokubun" creationdate="20180420T235241Z">
         <seg>CSRF プロテクションは、Craft 3 ではデフォルトで有効になりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Caches the output globally (for the current site locale), rather than on a per-URL basis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T230425Z" creationid="Toru Kokubun" creationdate="20180506T222518Z">
+        <seg>URL ごとではなく、（現在のサイトロケールのための）グローバルな出力をキャッシュします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5206,6 +5238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this is not provided, a random key will be generated when Twig first parses the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222710Z" creationid="Toru Kokubun" creationdate="20180506T222710Z">
+        <seg>これを指定しない場合、Twig が最初にテンプレートを解析するときにランダムなキーが生成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this site should be the Primary Site, toggle the 'Is Primary Site?' to enable it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T211953Z">
@@ -7822,10 +7862,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Parameters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222316Z" creationid="Toru Kokubun" creationdate="20180506T222316Z">
+        <seg>パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Parses a string for &lt;x1/&gt;reference tags&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003259Z" creationid="Toru Kokubun" creationdate="20180506T003250Z">
-        <seg>&lt;x1/&gt;reference タグ&lt;x2/&gt;の文字列をパースします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222800Z" creationid="Toru Kokubun" creationdate="20180506T003250Z">
+        <seg>&lt;x1/&gt;reference タグ&lt;x2/&gt;の文字列を解析します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7926,6 +7974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Please consult a specialist before trying &lt;x1/&gt;{% cache %}&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T221648Z" creationid="Toru Kokubun" creationdate="20180506T221648Z">
+        <seg>&lt;x1/&gt;{% cache %}&lt;x2/&gt; を試す前に、専門家に相談してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugin Development</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230252Z" creationid="Toru Kokubun" creationdate="20180414T230252Z">
@@ -7986,6 +8042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235326Z" creationid="Toru Kokubun" creationdate="20180419T235326Z">
         <seg>位置選択フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Possible side effects include stale content, excessively long-running background tasks, stuck tasks, and in rare cases, death.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222209Z" creationid="Toru Kokubun" creationdate="20180506T222209Z">
+        <seg>可能性のある副作用には、古くなったコンテンツ、過度に時間のかかるバックグラウンドタスク、動かなくなったタスク、および稀に消滅があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9558,6 +9622,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifies the name of the key the cache should use.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222619Z" creationid="Toru Kokubun" creationdate="20180506T222619Z">
+        <seg>キャッシュが使用するキーの名前を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Standard MIT license, which covers all the code in the &lt;x1/&gt;craftcms/craft&lt;x2/&gt; repo, but NOT any Composer-installed libraries in the &lt;x3/&gt;vendor/&lt;x4/&gt; folder.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011832Z" creationid="Toru Kokubun" creationdate="20180422T011832Z">
@@ -10358,6 +10430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag supports the following parameters:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222343Z" creationid="Toru Kokubun" creationdate="20180506T222343Z">
+        <seg>&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグは、次のパラメータをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -10526,10 +10606,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The accepted duration units are:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232047Z" creationid="Toru Kokubun" creationdate="20180506T231611Z">
+        <seg>許可される継続時間の単位は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The advantage of using PHP dotenv is that it offers a place to store sensitive information (like database connection settings) in a file that doesn’t get committed to your Git repository.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001648Z" creationid="Toru Kokubun" creationdate="20180415T090628Z">
         <seg>PHP dotenv を使うことの利点は、Git リポジトリにコミットされないファイルに（データベースの接続設定のような）機密性の高い情報を保管しておく場所を提供するということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The amount of time it should take for the cache to expire.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T231532Z" creationid="Toru Kokubun" creationdate="20180506T231532Z">
+        <seg>キャッシュが有効期限になるまでの時間。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12222,6 +12318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tip: If this parameter is omitted, your &lt;x1/&gt;cacheDuration&lt;x2/&gt; config setting will be used to define the default duration.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232027Z" creationid="Toru Kokubun" creationdate="20180506T232027Z">
+        <seg>ヒント：このパラメータが省略される場合、コンフィグ設定の &lt;x1/&gt;cacheDuration&lt;x2/&gt; がデフォルトの継続時間を定義するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tip: That’s a reference to &lt;x1/&gt;shish kebabs&lt;x2/&gt; for those of you that don’t get the analogy.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001740Z" creationid="Toru Kokubun" creationdate="20180506T001531Z">
@@ -12234,6 +12338,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002957Z" creationid="Toru Kokubun" creationdate="20180418T002957Z">
         <seg>ヒント：コマンドラインから Craft をインストールしたいですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: You can combine this parameter with &lt;x1/&gt;`globally`&lt;x2/&gt; to cache templates on a per-page basis, without letting any query string variables get included in the path:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T230727Z" creationid="Toru Kokubun" creationdate="20180506T230345Z">
+        <seg>ヒント：クエリ文字列の変数をパスに含めることなく、ページごとのテンプレートをキャッシュするために、&lt;x1/&gt;`globally`&lt;x2/&gt; パラメータを組み合わせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: You can only use &lt;x1/&gt;`for`&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232231Z" creationid="Toru Kokubun" creationdate="20180506T232231Z">
+        <seg>ヒント：You can only use &lt;x1/&gt;`for`&lt;x2/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13246,10 +13366,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Warning: If you change the template code within a &lt;x1/&gt;{% cache %}&lt;x2/&gt; that uses a custom key, any existing template caches will not automatically be purged.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T231009Z" creationid="Toru Kokubun" creationdate="20180506T231009Z">
+        <seg>警告：カスタムキーを利用している &lt;x1/&gt;{% cache %}&lt;x2/&gt; 内のテンプレートコードを変更する場合、既存のテンプレートキャッシュは自動的にパージされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Warning: If you’re suffering from abnormal page load times, you may be experiencing a suboptimal hosting environment.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T020540Z" creationid="Toru Kokubun" creationdate="20180506T020334Z">
-        <seg>警告：異常なページの読み込み時間に苦しむ場合、最適なホスティング環境を試した方がいいかもしれません。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T221619Z" creationid="Toru Kokubun" creationdate="20180506T020334Z">
+        <seg>警告：異常なページの読み込み時間で苦しむ場合、最適なホスティング環境を経験していないかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14538,6 +14666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T212851Z" creationid="Toru Kokubun" creationdate="20180430T212851Z">
         <seg>それぞれのサイトのテンプレートディレクトリに、サイト固有のテンプレートを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You will either need to assign the tag a new key, or clear your existing template caches manually using the Clear Caches tool in Settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T231439Z" creationid="Toru Kokubun" creationdate="20180506T231356Z">
+        <seg>タグに新しいキーを割り当てるか、「設定」の「キャッシュをクリア」ツールを使用して既存のテンプレートキャッシュを手動でクリアする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
