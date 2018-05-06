@@ -49,6 +49,7 @@ Craft 3 ドキュメント
 - [ファンクション](ja/templating/functions.md)
 - [フィルタ](ja/templating/filters.md)
 - [タグ](ja/templating/tags.md)
+- [テスト](ja/templating/tests.md)
 - [エレメント](ja/templating/elements.md)
 - [一般的な実例](ja/templating/examples/index.md)
 
