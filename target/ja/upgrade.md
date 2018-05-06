@@ -36,7 +36,7 @@
 
 2. Craft 3 を読み込むための次のコマンドを実行してください。（これは数分かかります）
 
-       composer require craftcms/cms:^3.0.0-RC1
+       composer require craftcms/cms:^3.0.0
 
    メモ：システムに PHP 7 がインストールされていないと Composer が不満を言うかもしれません。しかし、別途インストールされた PHP（例えば MAMP や Vagrant）上で Craft を実行するつもりで、問題ないと判っているのであれば `--ignore-platform-reqs` フラグを使ってください。
 
