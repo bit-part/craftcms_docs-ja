@@ -12206,6 +12206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This tag will cache a portion of your template, which can improve performance for subsequent requests, as they will have less work to do.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T015402Z" creationid="Toru Kokubun" creationdate="20180506T015232Z">
+        <seg>このタグはテンプレートの一部をキャッシュするため、後からのリクエストのパフォーマンスを向上させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Three Types of Twig Tags</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T021118Z" creationid="Toru Kokubun" creationdate="20180427T021118Z">
@@ -13234,6 +13242,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061210Z" creationid="Toru Kokubun" creationdate="20180504T061210Z">
         <seg>ボリュームのベース URL 設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warning: If you’re suffering from abnormal page load times, you may be experiencing a suboptimal hosting environment.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T020540Z" creationid="Toru Kokubun" creationdate="20180506T020334Z">
+        <seg>警告：異常なページの読み込み時間に苦しむ場合、最適なホスティング環境を試した方がいいかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
