@@ -64,3 +64,7 @@ and/or	、および / または、
 Every single	ありとあらゆる
 Arguments	引数
 Encrypts	暗号化する
+validate	検証する	本来の意味は「正当であると確認する」のため、意訳を用いる
+commas	コンマ	区切り文字の場合は「カンマ区切り」とする
+AKA	別名	as known as
+interface	インターフェース
