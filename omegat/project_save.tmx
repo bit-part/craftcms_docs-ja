@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Note that the returned position is 0-indexed.) If no position can be found, &lt;x1/&gt;-1&lt;x2/&gt; is returned instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T235412Z" creationid="Toru Kokubun" creationdate="20180505T235323Z">
+        <seg>（返される位置は、0 からはじまることに注意してください。）見つからなかった場合、代わりに &lt;x1/&gt;-1&lt;x2/&gt; が返されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Note that you should create your Craft 3 project in a new location; not in the same place as your Craft 2 project).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234141Z" creationid="Toru Kokubun" creationdate="20180418T234119Z">
@@ -1602,6 +1610,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001230Z" creationid="Toru Kokubun" creationdate="20180429T000942Z">
         <seg>ソースの関連フィールドのハンドル（&lt;x1/&gt;ingredients&lt;x2/&gt;）を呼び出すと、そのフィールドのターゲットエレメントをフィールドに定義された順番で出力することができる Element Criteria Model が返ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Capitalizes the first character of a string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005320Z" creationid="Toru Kokubun" creationdate="20180506T005320Z">
+        <seg>文字列の最初の文字を大文字にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Capitalizes the first character of each word in a string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005408Z" creationid="Toru Kokubun" creationdate="20180506T005408Z">
+        <seg>文字列に含まれるそれぞれの単語の最初の文字を大文字にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4350,6 +4374,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Formats a date as a human-readable timestamp, via &lt;x1/&gt;craft\i18n\Formatter::asTimestamp()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005057Z" creationid="Toru Kokubun" creationdate="20180506T005057Z">
+        <seg>&lt;x1/&gt;craft\i18n\Formatter::asTimestamp()&lt;x2/&gt; 経由で、人が読めるタイムスタンプとして日付をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formats a number according to the user’s preferred language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002600Z" creationid="Toru Kokubun" creationdate="20180506T002600Z">
+        <seg>ユーザーが優先する言語に応じて、数値をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Formats a number of bytes into something nicer.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T002044Z" creationid="Toru Kokubun" creationdate="20180505T001842Z">
@@ -4362,6 +4402,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000120Z" creationid="Toru Kokubun" creationdate="20180505T000120Z">
         <seg>ユーザーが優先する言語に応じて指定された通貨で、数値をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formats a percentage according to the user’s preferred language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003727Z" creationid="Toru Kokubun" creationdate="20180506T003727Z">
+        <seg>ユーザーが優先する言語に応じて、割合をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formats a string into something that will work well as an HTML input &lt;x1/&gt;id&lt;x2/&gt;, via &lt;x3/&gt;craft\web\View::formatInputId()&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T234614Z" creationid="Toru Kokubun" creationdate="20180505T234545Z">
+        <seg>&lt;x3/&gt;craft\web\View::formatInputId()&lt;x4/&gt; を経由して、HTML の input 要素の &lt;x1/&gt;id&lt;x2/&gt; としてうまく動作するよう、文字列をフォーマットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4602,6 +4658,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004648Z" creationid="Toru Kokubun" creationdate="20180430T004648Z">
         <seg>グループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groups the items of an array together based on common properties.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T233123Z" creationid="Toru Kokubun" creationdate="20180505T233123Z">
+        <seg>共通のプロパティに基づいて、配列の項目をグループ化します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4954,6 +5018,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T123153Z">
         <seg>複数のブロックが選択されている場合、選択されたすべてのブロックに対して「折りたたむ / 展開する」「無効 / 有効」および「削除」オプションが適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no category is specified, it will default to &lt;x3/&gt;site&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005230Z" creationid="Toru Kokubun" creationdate="20180506T005230Z">
+        <seg>カテゴリの指定がない場合、デフォルトで &lt;x3/&gt;site&lt;x4/&gt; になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5496,8 +5568,8 @@
       <tuv lang="EN-US">
         <seg>If you pass &lt;x1/&gt;true&lt;x2/&gt; into the second argument, the “.00” will be stripped if there’s zero cents.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000359Z" creationid="Toru Kokubun" creationdate="20180505T000309Z">
-        <seg>第2引数に &lt;x1/&gt;true&lt;x2/&gt; を渡すと、セントがゼロの場合は「.00」が削除されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T235442Z" creationid="Toru Kokubun" creationdate="20180505T000309Z">
+        <seg>第2引数に &lt;x1/&gt;true&lt;x2/&gt; を渡すと、セントがゼロであれば「.00」が削除されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5994,6 +6066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T223011Z" creationid="Toru Kokubun" creationdate="20180504T223011Z">
         <seg>&lt;x1/&gt;Twig に付随する&lt;x2/&gt;テンプレートファンクションに加えて、Craft がいくつか独自のものを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to the template tags that &lt;x1/&gt;Twig comes with&lt;x2/&gt;, Craft provides a few of its own.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005814Z" creationid="Toru Kokubun" creationdate="20180506T005814Z">
+        <seg>&lt;x1/&gt;Twig に付随する&lt;x2/&gt;テンプレートタグに加えて、Craft がいくつか独自のものを提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6510,10 +6590,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like Twig’s core &lt;x1/&gt;`json_encode`&lt;x2/&gt; filter, but if the &lt;x3/&gt;options&lt;x4/&gt; argument isn’t set, it will default to &lt;x5/&gt;JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT&lt;x6/&gt; if the response content type is either &lt;x7/&gt;text/html&lt;x8/&gt; or &lt;x9/&gt;application/xhtml+xml&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001235Z" creationid="Toru Kokubun" creationdate="20180506T000622Z">
+        <seg>Twig の &lt;x1/&gt;`json_encode`&lt;x2/&gt; フィルタと同様ですが、引数 &lt;x3/&gt;options&lt;x4/&gt; がセットされておらず、レスポンスのコンテンツタイプが &lt;x7/&gt;text/html&lt;x8/&gt; または &lt;x9/&gt;application/xhtml+xml&lt;x10/&gt; の場合、デフォルトで &lt;x5/&gt;JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT&lt;x6/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like the &lt;x1/&gt;`date`&lt;x2/&gt; filter, but the result will also include a timestamp.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001323Z" creationid="Toru Kokubun" creationdate="20180505T001310Z">
         <seg>&lt;x1/&gt;`date`&lt;x2/&gt; フィルタと同様ですが、結果にはタイムスタンプも含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like the &lt;x1/&gt;`time`&lt;x2/&gt; filter, but for times rather than dates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004923Z" creationid="Toru Kokubun" creationdate="20180506T004923Z">
+        <seg>&lt;x1/&gt;`time`&lt;x2/&gt; フィルタと同様ですが、日付よりも時間のためのものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6642,6 +6738,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T022914Z" creationid="Toru Kokubun" creationdate="20180427T022847Z">
         <seg>ロジックタグは、それ自身でテンプレートに何も出力しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lowercases the first character of a string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001858Z" creationid="Toru Kokubun" creationdate="20180506T001858Z">
+        <seg>文字列の最初の文字を小文字にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7502,6 +7606,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Or you can replace one thing at a time:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004122Z" creationid="Toru Kokubun" creationdate="20180506T004103Z">
+        <seg>または、一度に1つのものを置き換えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ordering results by score</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234934Z" creationid="Toru Kokubun" creationdate="20180429T234934Z">
@@ -7554,6 +7666,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235709Z" creationid="Toru Kokubun" creationdate="20180504T235709Z">
         <seg>（とりわけ、Atom フィードで使用される）ISO-8601 形式の日付を出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outputs a date in the format required for RSS feeds (&lt;x1/&gt;D, d M Y H:i:s O&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004803Z" creationid="Toru Kokubun" creationdate="20180506T004803Z">
+        <seg>RSS フィードに必要な形式（&lt;x1/&gt;D, d M Y H:i:s O&lt;x2/&gt;）で日付を出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7638,6 +7758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PHP scripts can validate the value via &lt;x1/&gt;CSecurityManager::validateData&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T234243Z" creationid="Toru Kokubun" creationdate="20180505T234243Z">
+        <seg>PHP スクリプトは、&lt;x1/&gt;CSecurityManager::validateData&lt;x2/&gt; を経由して値を検証できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Param</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211336Z" creationid="Toru Kokubun" creationdate="20180502T211336Z">
@@ -7650,6 +7778,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000840Z" creationid="Toru Kokubun" creationdate="20180501T000840Z">
         <seg>パラメータ値の構文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parses a string for &lt;x1/&gt;reference tags&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003259Z" creationid="Toru Kokubun" creationdate="20180506T003250Z">
+        <seg>&lt;x1/&gt;reference タグ&lt;x2/&gt;の文字列をパースします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7830,6 +7966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Prefixes the given string with a keyed-hash message authentication code (HMAC), for securely passing data in forms that should not be tampered with.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T233931Z" creationid="Toru Kokubun" creationdate="20180505T233508Z">
+        <seg>不正に変更されるべきではないフォームのデータを安全に渡すために、メッセージ認証コード（HMAC）の鍵付ハッシュを指定された文字列の先頭に追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preparing for the Upgrade</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063025Z" creationid="Toru Kokubun" creationdate="20180418T063025Z">
@@ -7850,6 +7994,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004749Z" creationid="Toru Kokubun" creationdate="20180430T004749Z">
         <seg>プライマリサイト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Processes a string with &lt;x1/&gt;Markdown&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002424Z" creationid="Toru Kokubun" creationdate="20180506T002424Z">
+        <seg>&lt;x1/&gt;Markdown&lt;x2/&gt; で文字列を処理します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8166,6 +8318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Removes any empty elements from an array and returns the modified array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T234912Z" creationid="Toru Kokubun" creationdate="20180505T232722Z">
+        <seg>配列から空のエレメントを削除し、変更された配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rename files</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234715Z" creationid="Toru Kokubun" creationdate="20180427T234715Z">
@@ -8186,6 +8346,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234916Z" creationid="Toru Kokubun" creationdate="20180414T234916Z">
         <seg>他の人に嫌がらせを繰り返すこと。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Replaces parts of a string with other things.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003801Z" creationid="Toru Kokubun" creationdate="20180506T003801Z">
+        <seg>文字列の一部を他のものに置き換えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8278,10 +8446,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns a string formatted in “PascalCase” (AKA “UpperCamelCase”).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003622Z" creationid="Toru Kokubun" creationdate="20180506T003622Z">
+        <seg>「PascalCase」（別名「UpperCamelCase」）でフォーマットされた文字列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns a string formatted in “camelCase”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235802Z" creationid="Toru Kokubun" creationdate="20180504T235802Z">
         <seg>「camelCase」でフォーマットされた文字列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a string formatted in “kebab-case”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001302Z" creationid="Toru Kokubun" creationdate="20180506T001302Z">
+        <seg>「kebab-case」でフォーマットされた文字列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns a string formatted in “snake_case”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004827Z" creationid="Toru Kokubun" creationdate="20180506T004827Z">
+        <seg>「snake_case」でフォーマットされた文字列を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8294,6 +8486,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns an array containing only the values that are also in a passed-in array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T000225Z" creationid="Toru Kokubun" creationdate="20180506T000225Z">
+        <seg>渡された配列内にある値だけを含む配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns an array of all the first column’s values.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093705Z" creationid="Toru Kokubun" creationdate="20180502T093705Z">
@@ -8302,10 +8502,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns an array of all the values in a given array, but without any custom keys.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005626Z" creationid="Toru Kokubun" creationdate="20180506T005558Z">
+        <seg>指定された配列のすべての値の配列を返しますが、カスタムキーは除かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns an array of the IDs of the matching elements.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093602Z" creationid="Toru Kokubun" creationdate="20180502T093602Z">
         <seg>マッチしたエレメントの ID の配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns an array without the specified element(s).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005704Z" creationid="Toru Kokubun" creationdate="20180506T005704Z">
+        <seg>指定されたエレメントを除いた配列を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8350,6 +8566,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns the index of a passed-in value within an array, or the position of a passed-in string within another string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T000127Z" creationid="Toru Kokubun" creationdate="20180505T235734Z">
+        <seg>配列内の渡された値のインデックス、または、他の文字列に含まれる渡された文字列のインデックスを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns the total number of elements that are matched by the query.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080804Z" creationid="Toru Kokubun" creationdate="20180502T080804Z">
@@ -8362,6 +8586,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231710Z" creationid="Toru Kokubun" creationdate="20180504T231710Z">
         <seg>環境変数の値を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns whether a given object is an instance of &lt;x1/&gt;MissingComponentInterface&lt;x2/&gt;, an interface used to represent components whose types are missing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010150Z" creationid="Toru Kokubun" creationdate="20180506T010123Z">
+        <seg>指定されたオブジェクトが &lt;x1/&gt;MissingComponentInterface&lt;x2/&gt; のインスタンスかどうかを返します。型が見つからないコンポーネントを表すために使用されるインターフェースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Returns whether an object is an instance of another object or class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005950Z" creationid="Toru Kokubun" creationdate="20180506T005943Z">
+        <seg>オブジェクトが別のオブジェクトまたはクラスのインスタンスかどうかを返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8472,16 +8712,48 @@
       <tuv lang="EN-US">
         <seg>Runs a &lt;x1/&gt;`DateInterval`&lt;x2/&gt; object through &lt;x3/&gt;craft\helpers\DateTimeHelper::humanDurationFromInterval()&lt;x4/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001603Z" creationid="Toru Kokubun" creationdate="20180505T001552Z">
-        <seg>&lt;x3/&gt;craft\helpers\DateTimeHelper::humanDurationFromInterval()&lt;x4/&gt; を通して、&lt;x1/&gt;`DateInterval`&lt;x2/&gt; オブジェクトを実行します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002134Z" creationid="Toru Kokubun" creationdate="20180505T001552Z">
+        <seg>&lt;x1/&gt;`DateInterval`&lt;x2/&gt; オブジェクトに &lt;x3/&gt;craft\helpers\DateTimeHelper::humanDurationFromInterval()&lt;x4/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs a string through &lt;x1/&gt;craft\helpers\Db::escapeParam&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002348Z" creationid="Toru Kokubun" creationdate="20180506T001920Z">
+        <seg>文字列に &lt;x1/&gt;craft\helpers\Db::escapeParam&lt;x2/&gt; を実行します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Runs an array through &lt;x1/&gt;ArrayHelper::getColumn()&lt;x2/&gt; and returns the result.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235853Z" creationid="Toru Kokubun" creationdate="20180504T235853Z">
-        <seg>&lt;x1/&gt;ArrayHelper::getColumn()&lt;x2/&gt; で配列を実行し、その結果を返します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002156Z" creationid="Toru Kokubun" creationdate="20180504T235853Z">
+        <seg>配列に &lt;x1/&gt;ArrayHelper::getColumn()&lt;x2/&gt; を実行し、その結果を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs an array through &lt;x1/&gt;ArrayHelper::index()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002307Z" creationid="Toru Kokubun" creationdate="20180505T234626Z">
+        <seg>配列に &lt;x1/&gt;ArrayHelper::index()&lt;x2/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs an array through &lt;x1/&gt;array_unique()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005426Z" creationid="Toru Kokubun" creationdate="20180506T005426Z">
+        <seg>配列に &lt;x1/&gt;array_unique()&lt;x2/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs an array through &lt;x1/&gt;craft\helpers\ArrayHelper::filterByValue()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002245Z" creationid="Toru Kokubun" creationdate="20180505T232758Z">
+        <seg>配列に &lt;x1/&gt;craft\helpers\ArrayHelper::filterByValue()&lt;x2/&gt; を実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9190,6 +9462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sorts an array with &lt;x1/&gt;ArrayHelper::multisort()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002515Z" creationid="Toru Kokubun" creationdate="20180506T002515Z">
+        <seg>&lt;x1/&gt;ArrayHelper::multisort()&lt;x2/&gt; で配列をソートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Source&lt;x1/&gt; element - it has the relational field, where you selected the other element.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234121Z" creationid="Toru Kokubun" creationdate="20180428T233840Z">
@@ -9842,6 +10122,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T233135Z" creationid="Toru Kokubun" creationdate="20180428T233126Z">
         <seg>専門用語</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tests</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005905Z" creationid="Toru Kokubun" creationdate="20180506T005905Z">
+        <seg>テスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -11878,6 +12166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tip: That’s a reference to &lt;x1/&gt;shish kebabs&lt;x2/&gt; for those of you that don’t get the analogy.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001740Z" creationid="Toru Kokubun" creationdate="20180506T001531Z">
+        <seg>ヒント：類推できない方のために、&lt;x1/&gt;シシカバブ&lt;x2/&gt;の参照です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tip: Want to install Craft from the command line?</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T002957Z" creationid="Toru Kokubun" creationdate="20180418T002957Z">
@@ -12218,6 +12514,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221759Z" creationid="Toru Kokubun" creationdate="20180422T221759Z">
         <seg>翻訳可能なフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Translates a message with &lt;x1/&gt;Craft::t()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005159Z" creationid="Toru Kokubun" creationdate="20180506T005159Z">
+        <seg>&lt;x1/&gt;Craft::t()&lt;x2/&gt; でメッセージを翻訳します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13622,6 +13926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use a regular expression to search for matches by starting and ending the replacement string’s value with forward slashes:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004647Z" creationid="Toru Kokubun" creationdate="20180506T004451Z">
+        <seg>置換文字列の値の最初と最後にスラッシュを付けてマッチするものを検索することで、正規表現も利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use the Updates widget on the Control Panel dashboard, which is installed by default.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003705Z" creationid="Toru Kokubun" creationdate="20180419T003106Z">
@@ -13894,6 +14206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can optionally pass &lt;x1/&gt;false&lt;x2/&gt; to it if you want group symbols to be omitted (e.g. commas in English).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003019Z" creationid="Toru Kokubun" creationdate="20180506T002800Z">
+        <seg>グループシンボル（例えば、英語のコンマ）を省略したい場合は、オプションで &lt;x1/&gt;false&lt;x2/&gt; を渡すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can output an option’s label by typing &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; instead, and you can tell if the option is selected or not via &lt;x3/&gt;option.selected&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014139Z" creationid="Toru Kokubun" creationdate="20180425T014044Z">
@@ -13986,6 +14306,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011621Z" creationid="Toru Kokubun" creationdate="20180426T011616Z">
         <seg>並び替えや削除、新しい行の追加、値の変更ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can replace multiple things at once by passing in an object of search/replace pairs:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004014Z" creationid="Toru Kokubun" creationdate="20180506T003918Z">
+        <seg>ペアの検索 / 置換のオブジェクトを渡すことで、一度に複数のものを置き換えることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14494,6 +14822,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>markdown&lt;x1/&gt; or &lt;x2/&gt;md&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002357Z" creationid="Toru Kokubun" creationdate="20180506T002357Z">
+        <seg>markdown&lt;x1/&gt; または &lt;x2/&gt;md&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>max()&lt;x1/&gt; – Returns the maximum number of all the values in the first column</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094324Z" creationid="Toru Kokubun" creationdate="20180502T094253Z">
@@ -14706,6 +15042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T031357Z" creationid="Toru Kokubun" creationdate="20180423T031029Z">
         <seg>それらはフィールドを含むコンテンツタブを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>translate&lt;x1/&gt; or &lt;x2/&gt;t&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005248Z" creationid="Toru Kokubun" creationdate="20180506T005248Z">
+        <seg>translate&lt;x1/&gt; または &lt;x2/&gt;t&lt;x3/&gt;</seg>
       </tuv>
     </tu>
     <tu>
