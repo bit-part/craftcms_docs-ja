@@ -1070,6 +1070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Asset&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010307Z" creationid="Toru Kokubun" creationdate="20180506T010307Z">
+        <seg>アセット&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assets</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220438Z" creationid="Toru Kokubun" creationdate="20180427T220438Z">
@@ -1762,6 +1770,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T030031Z" creationid="Toru Kokubun" creationdate="20180424T030031Z">
         <seg>カテゴリのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010315Z" creationid="Toru Kokubun" creationdate="20180506T010315Z">
+        <seg>カテゴリ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3958,6 +3974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entry&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010319Z" creationid="Toru Kokubun" creationdate="20180506T010319Z">
+        <seg>エントリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every Craft installation starts with one default site.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T205647Z" creationid="Toru Kokubun" creationdate="20180430T004435Z">
@@ -4578,6 +4602,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024126Z" creationid="Toru Kokubun" creationdate="20180423T015924Z">
         <seg>グローバル設定&lt;x1/&gt;は、「設定 &gt; グローバル &gt; &lt;x2/&gt;グローバル設定名&lt;x4/&gt; &gt; フィールドレイアウト」で定義されたそれぞれのフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>GlobalSet&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010325Z" creationid="Toru Kokubun" creationdate="20180506T010325Z">
+        <seg>グローバル設定&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6858,6 +6890,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013924Z" creationid="Toru Kokubun" creationdate="20180423T013924Z">
         <seg>行列&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MatrixBlock&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010332Z" creationid="Toru Kokubun" creationdate="20180506T010332Z">
+        <seg>行列ブロック&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9874,6 +9914,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011923Z" creationid="Toru Kokubun" creationdate="20180426T011923Z">
         <seg>タグのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tag&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010335Z" creationid="Toru Kokubun" creationdate="20180506T010335Z">
+        <seg>タグ&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13018,6 +13066,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054311Z" creationid="Toru Kokubun" creationdate="20180420T054311Z">
         <seg>ユーザーフォトはアセットとして保存されるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010338Z" creationid="Toru Kokubun" creationdate="20180506T010338Z">
+        <seg>ユーザー&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
