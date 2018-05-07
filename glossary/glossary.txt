@@ -69,3 +69,4 @@ commas	コンマ	区切り文字の場合は「カンマ区切り」とする
 AKA	別名	as known as
 interface	インターフェース
 omitted	省略される
+fallback	フォールバック
