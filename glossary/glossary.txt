@@ -70,3 +70,5 @@ AKA	別名	as known as
 interface	インターフェース
 omitted	省略される
 fallback	フォールバック
+paginate	ページ割り
+paginate	ページを付ける
