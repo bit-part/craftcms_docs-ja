@@ -123,21 +123,21 @@ URL ごとではなく、（現在のサイトロケールのための）グロ�
    ```twig
    {# Bad: #}
 
-{% extends "_layout" %}
-{% cache %}
- {% block "content" %}
- ...
- {% endblock %}
-{% endcache %}
+   {% extends "_layout" %}
+   {% cache %}
+      {% block "content" %}
+         ...
+      {% endblock %}
+   {% endcache %}
 
-{# Good: #}
+   {# Good: #}
 
-{% extends "_layout" %}
-{% block "content" %}
- {% cache %}
- ...
- {% endcache %}
-{% endblock %}
+   {% extends "_layout" %}
+   {% block "content" %}
+      {% cache %}
+         ...
+      {% endcache %}
+   {% endblock %}
    ```
 
 ヒント：`{% cache %}` タグは、その中にまだ生成されていない[画像の変換](image-transforms.md) URL が含まれるかどうかを検出します。それが含まれる場合、次のリクエストまでテンプレートのキャッシュを保留するため、一時的な画像 URL はキャッシュされません。
