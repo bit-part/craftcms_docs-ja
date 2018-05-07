@@ -22,7 +22,7 @@
 - `CRAFT_ENVIRONMENT` – 環境特有の設定値を定義する際に参照できるマルチ環境設定の環境 ID。（デフォルトでは、`$_SERVER['SERVER_NAME']` が使用されます。）
 - `CRAFT_LICENSE_KEY_PATH` – ファイル名を含めた Craft が格納するライセンスキーファイルを保存するパス。（デフォルトでは、`config/` ディレクトリ内に `license.key` として保存されます。）
 - `CRAFT_PLUGINS_PATH` – マニュアルインストールされたプラグインの格納に使用する `plugins/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
-- `CRAFT_SITE` – Craft が `index.php` ファイルから提供するべきサイトハンドル、または、サイト ID。
+- `CRAFT_SITE` – Craft が `index.php` ファイルから提供するべきサイトハンドル、または、サイト ID。（明確な理由がある場合のみ、これをセットしてください。セットされていなければ、Craft はリクエスト URL を調査することで正しいサイトを自動的に配信します。）
 - `CRAFT_STORAGE_PATH` – `storage/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
 - `CRAFT_TEMPLATES_PATH` – `templates/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
 - `CRAFT_TRANSLATIONS_PATH` – `translations/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
