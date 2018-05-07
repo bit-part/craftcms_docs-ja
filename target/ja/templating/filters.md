@@ -241,7 +241,7 @@ the [Apple Extended Keyboard II] [1].
 
 ## `parseRefs`
 
-[reference タグ](reference-tags.md)の文字列をパースします。
+[reference タグ](reference-tags.md)の文字列を解析します。
 
 ```twig
 {% set content %}
