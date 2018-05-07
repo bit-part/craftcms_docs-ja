@@ -7366,6 +7366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next you need to type the word “&lt;x1/&gt;in&lt;x2/&gt;”, followed by the array of entries the tag should loop through.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044304Z" creationid="Toru Kokubun" creationdate="20180507T044304Z">
+        <seg>次に「&lt;x1/&gt;in&lt;x2/&gt;」という単語の記述が必要で、その後にタグがループ処理するエントリの配列が続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No comments</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221529Z" creationid="Toru Kokubun" creationdate="20180419T221529Z">
@@ -10670,6 +10678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% nav %}&lt;x2/&gt; tag has the following parameters:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T043615Z" creationid="Toru Kokubun" creationdate="20180507T043615Z">
+        <seg>&lt;x1/&gt;{% nav %}&lt;x2/&gt; タグは、次のパラメータを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -11290,6 +11306,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063012Z" creationid="Toru Kokubun" creationdate="20180418T063012Z">
         <seg>サイトを Craft 3 にアップグレードするための最初のステップは、CMS 自体をアップデートすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first thing to follow “&lt;x1/&gt;{% nav&lt;x2/&gt;” is the variable name you’d like to use to represent each item in the loop, e.g. &lt;x3/&gt;item&lt;x4/&gt;, &lt;x5/&gt;entry&lt;x6/&gt;, or &lt;x7/&gt;category&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044045Z" creationid="Toru Kokubun" creationdate="20180507T043923Z">
+        <seg>「&lt;x1/&gt;{% nav&lt;x2/&gt;」に続く最初のものは、例えば &lt;x3/&gt;item&lt;x4/&gt;、&lt;x5/&gt;entry&lt;x6/&gt;、または &lt;x7/&gt;category&lt;x8/&gt; のような、ループ内のそれぞれのアイテムを表すために使用する変数名です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12310,6 +12334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be an actual array, or an &lt;x3/&gt;ElementCriteriaModel&lt;x4/&gt; object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044335Z" creationid="Toru Kokubun" creationdate="20180507T044335Z">
+        <seg>これは実際の配列、または &lt;x3/&gt;ElementCriteriaModel&lt;x4/&gt; オブジェクトとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be either a string (e.g. &lt;x2/&gt;'foo=1&amp;bar=2'&lt;x3/&gt;) or an object (e.g. &lt;x4/&gt;{foo:'1', bar:'2'}&lt;x5/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233219Z" creationid="Toru Kokubun" creationdate="20180504T233150Z">
@@ -12546,6 +12578,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003212Z" creationid="Toru Kokubun" creationdate="20180419T003155Z">
         <seg>このセクションには、Craft CMS のアップデートとプラグインのアップデートの両方を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This tag helps create a hierarchical navigation menu for entries in a &lt;x1/&gt;Structure section&lt;x2/&gt; or a &lt;x3/&gt;Category Group&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T043543Z" creationid="Toru Kokubun" creationdate="20180507T043339Z">
+        <seg>このタグは、&lt;x1/&gt;ストラクチャー構造&lt;x2/&gt;や&lt;x3/&gt;カテゴリグループ&lt;x4/&gt;のエントリの階層的なナビゲーションメニューを作成するのに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15010,6 +15050,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T212851Z" creationid="Toru Kokubun" creationdate="20180430T212851Z">
         <seg>それぞれのサイトのテンプレートディレクトリに、サイト固有のテンプレートを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You will be using this variable name to reference the items inside the loop.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044107Z" creationid="Toru Kokubun" creationdate="20180507T044107Z">
+        <seg>この変数名を利用して、ループ内のアイテムを参照します。</seg>
       </tuv>
     </tu>
     <tu>
