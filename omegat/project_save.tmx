@@ -4902,6 +4902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Header</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045750Z" creationid="Toru Kokubun" creationdate="20180507T045750Z">
+        <seg>ヘッダー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here &lt;x1/&gt;.type()&lt;x2/&gt; is applying the &lt;x3/&gt;type&lt;x4/&gt; parameter to a &lt;x5/&gt;clone&lt;x6/&gt; of &lt;x7/&gt;query&lt;x8/&gt;, so it had no effect on &lt;x9/&gt;query.total()&lt;x10/&gt;, which will still return the total number of News entries, regardless of their entry types.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012125Z" creationid="Toru Kokubun" creationdate="20180420T220453Z">
@@ -5894,6 +5902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to loop through elements linearly, use Twig’s &lt;x5/&gt;`{% for %}`&lt;x6/&gt; tag instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T050304Z" creationid="Toru Kokubun" creationdate="20180507T050304Z">
+        <seg>エレメントを直線的にループしたい場合、代わりに Twig の &lt;x5/&gt;`{% for %}`&lt;x6/&gt; を使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to make it possible to revert your migration, &lt;x7/&gt;safeDown()&lt;x8/&gt; is where the reversion code goes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220017Z" creationid="Toru Kokubun" creationdate="20180503T104124Z">
@@ -5914,6 +5930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
         <seg>パラメータ値を配列にセットする場合、配列の大括弧を記述&lt;x1/&gt;しなければなりません&lt;x2/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to show some additional HTML surrounding the children, but only in the event that the element actually has children, wrap your &lt;x1/&gt;{% children %}&lt;x2/&gt; tag with &lt;x3/&gt;{% ifchildren %}&lt;x4/&gt; and &lt;x5/&gt;{% endifchildren %}&lt;x6/&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045407Z" creationid="Toru Kokubun" creationdate="20180507T045340Z">
+        <seg>エレメントが実際に子を持っているときだけ、子を取り囲む追加 HTML を表示したい場合、&lt;x1/&gt;{% children %}&lt;x2/&gt; タグを &lt;x3/&gt;{% ifchildren %}&lt;x4/&gt; と &lt;x5/&gt;{% endifchildren %}&lt;x6/&gt; タグで囲みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6690,6 +6714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212411Z" creationid="Toru Kokubun" creationdate="20180429T212411Z">
         <seg>毎年新しいテンプレートを作成するのは、賢明とは言えません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Item name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045821Z" creationid="Toru Kokubun" creationdate="20180507T045821Z">
+        <seg>アイテム名</seg>
       </tuv>
     </tu>
     <tu>
@@ -8022,6 +8054,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Paginated URLs will be identical to the first page’s URL, except that “/p_X_” will be appended to the end (where &lt;x1/&gt;X&lt;x2/&gt; is the page number), e.g. &lt;x3/&gt;http://example.com/news/p2&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T054020Z" creationid="Toru Kokubun" creationdate="20180507T054020Z">
+        <seg>ページ付けされた URL は最初のページ URL と同一になりますが、will be identical to the first page’s URL, except that “/p_X_” will be appended to the end (where &lt;x1/&gt;X&lt;x2/&gt; is the page number), e.g. &lt;x3/&gt;http://example.com/news/p2&lt;x4/&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Param</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211336Z" creationid="Toru Kokubun" creationdate="20180502T211336Z">
@@ -8210,6 +8250,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221553Z" creationid="Toru Kokubun" creationdate="20180418T221553Z">
         <seg>ブラウザでコントロールパネルの URL（例：&lt;x1/&gt;http://example.dev/admin&lt;x2/&gt;）にアクセスします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Position</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045811Z" creationid="Toru Kokubun" creationdate="20180507T045811Z">
+        <seg>位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -9606,6 +9654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Showing children</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044743Z" creationid="Toru Kokubun" creationdate="20180507T044743Z">
+        <seg>子エレメントの表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similar to Field Groups, Site Groups are for organization only.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005235Z" creationid="Toru Kokubun" creationdate="20180430T005204Z">
@@ -9834,6 +9890,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215850Z" creationid="Toru Kokubun" creationdate="20180419T215850Z">
         <seg>静的な翻訳ファイル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Status</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045742Z" creationid="Toru Kokubun" creationdate="20180507T045742Z">
+        <seg>ステータス</seg>
       </tuv>
     </tu>
     <tu>
@@ -12336,8 +12400,8 @@
       <tuv lang="EN-US">
         <seg>This can be an actual array, or an &lt;x3/&gt;ElementCriteriaModel&lt;x4/&gt; object.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044335Z" creationid="Toru Kokubun" creationdate="20180507T044335Z">
-        <seg>これは実際の配列、または &lt;x3/&gt;ElementCriteriaModel&lt;x4/&gt; オブジェクトとなります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044406Z" creationid="Toru Kokubun" creationdate="20180507T044335Z">
+        <seg>これは実際の配列、または &lt;x3/&gt;ElementCriteriaModel&lt;x4/&gt; オブジェクトです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12590,6 +12654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This tag makes it easy to paginate a set of elements across multiple pages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T053511Z" creationid="Toru Kokubun" creationdate="20180507T053427Z">
+        <seg>このタグは、複数ページにわたるエレメントのセットを簡単にページ割りできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This tag will cache a portion of your template, which can improve performance for subsequent requests, as they will have less work to do.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T015402Z" creationid="Toru Kokubun" creationdate="20180506T015232Z">
@@ -12642,6 +12714,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T010714Z" creationid="Toru Kokubun" creationdate="20180507T010536Z">
         <seg>ヒント：&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグは、その中にまだ生成されていない&lt;x3/&gt;画像の変換&lt;x4/&gt; URL が含まれるかどうかを検出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: The &lt;x1/&gt;{% nav %}&lt;x2/&gt; tag should &lt;x3/&gt;only&lt;x4/&gt; be used in times when you want to show elements in a hierarchy, and you want the DOM to express that hierarchy.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T050135Z" creationid="Toru Kokubun" creationdate="20180507T050117Z">
+        <seg>ヒント：&lt;x1/&gt;{% nav %}&lt;x2/&gt; タグは、エレメントを階層的に表示したい、かつ、DOM で階層構造を表現したいとき&lt;x3/&gt;だけ&lt;x4/&gt;使用するべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12962,6 +13042,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180418T233933Z">
         <seg>新しい Craft 3 プロジェクト（&lt;x1/&gt;PHP dotenv&lt;x2/&gt; をベースとした設定を含む）と同様のディレクトリ構成でサイトをセットアップする場合、次のガイドに従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To show the children of the current element in the loop, use the &lt;x1/&gt;{% children %}&lt;x2/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044830Z" creationid="Toru Kokubun" creationdate="20180507T044830Z">
+        <seg>ループ内の現在のエレメントの子を表示するには、&lt;x1/&gt;{% children %}&lt;x2/&gt; タグを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13702,6 +13790,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Warning: The &lt;x1/&gt;{% nav %}&lt;x2/&gt; tag requires elements to be queried in a specific (hierarchical) order, so make sure you don’t override the &lt;x3/&gt;order&lt;x4/&gt; criteria parameter in conjunction with this tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044712Z" creationid="Toru Kokubun" creationdate="20180507T044712Z">
+        <seg>警告：&lt;x1/&gt;{% nav %}&lt;x2/&gt; タグは特定の（階層的な）順序でエレメントを照会する必要があります。そのため、このタグと関連して &lt;x3/&gt;order&lt;x4/&gt; 基準パラメータを上書きしないよう確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can determine the current block type’s handle by checking &lt;x1/&gt;`block.type`&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212846Z" creationid="Toru Kokubun" creationdate="20180425T212846Z">
@@ -13874,6 +13970,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T220021Z" creationid="Toru Kokubun" creationdate="20180427T215839Z">
         <seg>そのフィールドが付加されたものは何でも、グループに含まれるすべてのカテゴリとの&lt;x1/&gt;リレーション&lt;x2/&gt;を持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When Craft gets to this tag, it will loop through the element’s children, applying the same template defined between your &lt;x3/&gt;{% nav %}&lt;x4/&gt; and &lt;x5/&gt;{% endnav %}&lt;x6/&gt; tags to those children.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045016Z" creationid="Toru Kokubun" creationdate="20180507T045008Z">
+        <seg>Craft がこのタグを取得すると、エレメントの子をループし、&lt;x3/&gt;{% nav %}&lt;x4/&gt; と &lt;x5/&gt;{% endnav %}&lt;x6/&gt; タグの間に定義された同じテンプレートをその子に適用します。</seg>
       </tuv>
     </tu>
     <tu>
