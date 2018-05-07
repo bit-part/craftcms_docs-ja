@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Only set this if you have a good reason to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T215931Z" creationid="Toru Kokubun" creationdate="20180507T215931Z">
+        <seg>（明確な理由がある場合のみ、これをセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(See &lt;x1/&gt;Relations&lt;x2/&gt; for more info on the &lt;x3/&gt;relatedTo&lt;x4/&gt; param.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T012406Z" creationid="Toru Kokubun" creationdate="20180424T012406Z">
@@ -2922,6 +2930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T220029Z" creationid="Toru Kokubun" creationdate="20180430T220029Z">
         <seg>Craft はブラウザがどのサイトを要求しているかを自動的に検出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft will automatically serve the correct site by inspecting the requested URL, unless this is set.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T220101Z" creationid="Toru Kokubun" creationdate="20180507T220101Z">
+        <seg>セットされていなければ、Craft はリクエスト URL を調査することで正しいサイトを自動的に配信します。）</seg>
       </tuv>
     </tu>
     <tu>
