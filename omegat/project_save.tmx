@@ -542,6 +542,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Matrix field loop, where some of the blocks have relational fields on them, adding their own additional database queries to the page</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T235743Z" creationid="Toru Kokubun" creationdate="20180506T235212Z">
+        <seg>いくつかのブロックが関連フィールドを持ち、独自のデータベースクエリをページに追加している行列フィールドのループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A big list of entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T235010Z" creationid="Toru Kokubun" creationdate="20180506T235010Z">
+        <seg>エントリの大きなリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A few seconds later, you should have a working Craft install!</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T025612Z" creationid="Toru Kokubun" creationdate="20180418T025403Z">
@@ -3342,6 +3358,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don’t use them to cache static text; that will be more expensive than simply outputting the text.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T002603Z" creationid="Toru Kokubun" creationdate="20180507T002603Z">
+        <seg>静的なテキストにキャッシュを使用しないでください。シンプルにテキストを出力するよりも、コストが高くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Double-clicking on a category will bring up a modal that lets you edit its name, slug, and any fields you’ve assigned to the group.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214232Z" creationid="Toru Kokubun" creationdate="20180427T214232Z">
@@ -4838,6 +4862,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are some examples of when to use them:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234946Z" creationid="Toru Kokubun" creationdate="20180506T234946Z">
+        <seg>それらを使用する場合のいくつかの例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are the lists of parameters supported by Craft’s built-in element types:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074608Z" creationid="Toru Kokubun" creationdate="20180502T074509Z">
@@ -5226,6 +5258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215522Z" creationid="Toru Kokubun" creationdate="20180424T215522Z">
         <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there are, it will hold off on caching the template until the next request, so those temporary image URLs won’t get cached.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T010847Z" creationid="Toru Kokubun" creationdate="20180507T010847Z">
+        <seg>それが含まれる場合、次のリクエストまでテンプレートのキャッシュを保留するため、一時的な画像 URL はキャッシュされません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10470,6 +10510,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag will only cache HTML, so using tags like &lt;x3/&gt;{% css %}&lt;x4/&gt; and &lt;x5/&gt;{% js %}&lt;x6/&gt; inside of it doesn’t make sense because they don’t actually output HTML therefore their output won’t be cached.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T003827Z" creationid="Toru Kokubun" creationdate="20180507T003411Z">
+        <seg>&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグは HTML のみキャッシュします。そのため、キャッシュ対象となる実際の HTML を出力しない &lt;x3/&gt;{% css %}&lt;x4/&gt; や &lt;x5/&gt;{% js %}&lt;x6/&gt; のようなタグの内部で使うことは、意味をなしません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -11854,6 +11902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are also some cases where it’s &lt;x1/&gt;not&lt;x2/&gt; a good idea to use them:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T235958Z" creationid="Toru Kokubun" creationdate="20180506T235918Z">
+        <seg>それらを使用するのがよいアイデア&lt;x1/&gt;ではない&lt;x2/&gt;場合のいくつかの例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are different types of variables – strings, arrays, booleans, and objects.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031121Z" creationid="Toru Kokubun" creationdate="20180427T031121Z">
@@ -12362,6 +12418,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001740Z" creationid="Toru Kokubun" creationdate="20180506T001531Z">
         <seg>ヒント：類推できない方のために、&lt;x1/&gt;シシカバブ&lt;x2/&gt;の参照です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: The &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag will detect if there are any ungenerated &lt;x3/&gt;image transform&lt;x4/&gt; URLs within it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T010714Z" creationid="Toru Kokubun" creationdate="20180507T010536Z">
+        <seg>ヒント：&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグは、その中にまだ生成されていない&lt;x3/&gt;画像の変換&lt;x4/&gt; URL が含まれるかどうかを検出します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13822,6 +13886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whenever you’re pulling in data from another site</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T235757Z" creationid="Toru Kokubun" creationdate="20180506T235418Z">
+        <seg>他のサイトからデータを取得しているときはいつでも</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether element structure data should automatically be left-joined into the query</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031609Z" creationid="Toru Kokubun" creationdate="20180503T031609Z">
@@ -14670,6 +14742,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can’t use them outside of top-level &lt;x1/&gt;{% block %}&lt;x2/&gt; tags within a template that extends another.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T002726Z" creationid="Toru Kokubun" creationdate="20180507T002702Z">
+        <seg>他を拡張するテンプレート内で、トップレベルの &lt;x1/&gt;{% block %}&lt;x2/&gt; タグの外側で使用することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You create those relationships using relational field types.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001118Z" creationid="Toru Kokubun" creationdate="20180428T232600Z">
@@ -14714,6 +14794,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215716Z" creationid="Toru Kokubun" creationdate="20180415T073126Z">
         <seg>Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should use &lt;x1/&gt;{% cache %}&lt;x2/&gt; tags any time you’ve got a template that’s causing a lot of database queries, or you’re doing something very computationally expensive with Twig.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234854Z" creationid="Toru Kokubun" creationdate="20180506T234854Z">
+        <seg>沢山のデータベースクエリを引き起こすテンプレートがある場合、または Twig の計算上非常にコストがかかる処理を行っているときは、&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグを使うべきです。</seg>
       </tuv>
     </tu>
     <tu>
