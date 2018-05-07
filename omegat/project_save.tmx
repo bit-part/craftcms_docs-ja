@@ -998,6 +998,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any HTML attributes that should be included on the &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031904Z" creationid="Toru Kokubun" creationdate="20180507T031904Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; タグに含めるべき、HTML 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232143Z" creationid="Toru Kokubun" creationdate="20180414T232143Z">
@@ -1238,6 +1246,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At the beginning of the page’s &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033028Z" creationid="Toru Kokubun" creationdate="20180507T033028Z">
+        <seg>ページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; の冒頭</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the end of the page’s &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033049Z" creationid="Toru Kokubun" creationdate="20180507T033049Z">
+        <seg>ページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; の最後</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the end of the page’s &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;, within &lt;x4/&gt;jQuery(document).ready()&lt;x5/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033218Z" creationid="Toru Kokubun" creationdate="20180507T033208Z">
+        <seg>ページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; の最後、 &lt;x4/&gt;jQuery(document).ready()&lt;x5/&gt; の中で</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the end of the page’s &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;, within &lt;x4/&gt;jQuery(window).load()&lt;x5/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033220Z" creationid="Toru Kokubun" creationdate="20180507T033146Z">
+        <seg>ページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; の最後、&lt;x4/&gt;jQuery(window).load()&lt;x5/&gt; の中で</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attributes will be rendered by &lt;x1/&gt;yii\helpers\Html::renderTagAttributes()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031937Z" creationid="Toru Kokubun" creationdate="20180507T031937Z">
+        <seg>属性は &lt;x1/&gt;yii\helpers\Html::renderTagAttributes()&lt;x2/&gt; によってレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Available Tokens</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T214734Z" creationid="Toru Kokubun" creationdate="20180429T214734Z">
@@ -1426,6 +1474,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
         <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, &lt;x1/&gt;at endBody&lt;x2/&gt; will be used.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033247Z" creationid="Toru Kokubun" creationdate="20180507T033247Z">
+        <seg>デフォルトでは、&lt;x1/&gt;at endBody&lt;x2/&gt; が使われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2874,6 +2930,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011342Z" creationid="Toru Kokubun" creationdate="20180430T011331Z">
         <seg>Craft は現在のプライマリサイトを自動的に切り替えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft will fallback on its own template corresponding to the status code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023450Z" creationid="Toru Kokubun" creationdate="20180507T023450Z">
+        <seg>Craft はそのステータスコードに対応する独自のテンプレートをフォールバックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4342,6 +4406,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;x1/&gt;{% exit 404 %}&lt;x2/&gt; will get Craft to return the &lt;x3/&gt;404.html&lt;x4/&gt; template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023254Z" creationid="Toru Kokubun" creationdate="20180507T023254Z">
+        <seg>例えば、&lt;x1/&gt;{% exit 404 %}&lt;x2/&gt; は Craft に &lt;x3/&gt;404.html&lt;x4/&gt; テンプレートを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you have a template located at &lt;x1/&gt;craft/templates/recipes/entry.html&lt;x2/&gt;, the following template paths would point to it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000616Z" creationid="Toru Kokubun" creationdate="20180427T000251Z">
@@ -5246,6 +5318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the template doesn’t exist.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023315Z" creationid="Toru Kokubun" creationdate="20180507T023315Z">
+        <seg>テンプレートが存在しない場合、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the “Restrict allowed file types?” setting is checked, a list of file types will appear below it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215551Z" creationid="Toru Kokubun" creationdate="20180424T215551Z">
@@ -5402,6 +5482,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221428Z" creationid="Toru Kokubun" creationdate="20180419T221428Z">
         <seg>Redactor プラグインをインストールする場合、&lt;x1/&gt;config/redactor/&lt;x2/&gt; に定義された Redactor 設定が有効な JSON であることを確認する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you do, Craft will look for the appropriate error template to render.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023221Z" creationid="Toru Kokubun" creationdate="20180507T023221Z">
+        <seg>その場合、Craft はレンダリングするための適切なエラーテンプレートを探します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6278,6 +6366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the page’s &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033002Z" creationid="Toru Kokubun" creationdate="20180507T033002Z">
+        <seg>ページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; 内</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the settings for each Channel Section is an option to propagate entries in that section across all sites.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T014056Z" creationid="Toru Kokubun" creationdate="20180430T013515Z">
@@ -6650,6 +6746,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001553Z" creationid="Toru Kokubun" creationdate="20180428T233021Z">
         <seg>他のフィールドタイプと同様に、これらを&lt;x1/&gt;セクション&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、&lt;x5/&gt;アセット&lt;x6/&gt;、&lt;x7/&gt;カテゴリグループ&lt;x8/&gt;、&lt;x9/&gt;タググループ&lt;x10/&gt;、および&lt;x11/&gt;グローバル設定&lt;x12/&gt;のフィールドレイアウトに追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Keyword</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T032951Z" creationid="Toru Kokubun" creationdate="20180507T032951Z">
+        <seg>キーワード</seg>
       </tuv>
     </tu>
     <tu>
@@ -10518,6 +10622,54 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% css %}&lt;x2/&gt; tag can be used to register a &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; tag in the page’s &lt;x6/&gt;&lt;x7/&gt;&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T030919Z" creationid="Toru Kokubun" creationdate="20180507T030919Z">
+        <seg>&lt;x1/&gt;{% css %}&lt;x2/&gt; タグは、ページの &lt;x6/&gt;&lt;x7/&gt;&lt;x8/&gt; に &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; タグを登録するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% css %}&lt;x2/&gt; tag supports the following parameters:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031613Z" creationid="Toru Kokubun" creationdate="20180507T031613Z">
+        <seg>&lt;x1/&gt;{% css %}&lt;x2/&gt; タグは、次のパラメータをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% exit %}&lt;x2/&gt; tag supports the following parameter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023001Z" creationid="Toru Kokubun" creationdate="20180507T023001Z">
+        <seg>&lt;x1/&gt;{% exit %}&lt;x2/&gt; タグは、次のパラメータをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% header %}&lt;x2/&gt; tag supports the following parameter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023715Z" creationid="Toru Kokubun" creationdate="20180507T023715Z">
+        <seg>&lt;x1/&gt;{% header %}&lt;x2/&gt; タグは、次のパラメータをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% js %}&lt;x2/&gt; tag can be used to register a &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; tag on the page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T032440Z" creationid="Toru Kokubun" creationdate="20180507T032440Z">
+        <seg>&lt;x1/&gt;{% js %}&lt;x2/&gt; タグは、ページに &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; タグを登録するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% js %}&lt;x2/&gt; tag supports the following parameters:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T032606Z" creationid="Toru Kokubun" creationdate="20180507T032606Z">
+        <seg>&lt;x1/&gt;{% js %}&lt;x2/&gt; タグは、次のパラメータをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -12382,6 +12534,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This parameter is required.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023931Z" creationid="Toru Kokubun" creationdate="20180507T023931Z">
+        <seg>このパラメータは必須です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This section displays both Craft CMS updates and plugin updates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003212Z" creationid="Toru Kokubun" creationdate="20180419T003155Z">
@@ -12394,6 +12554,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T015402Z" creationid="Toru Kokubun" creationdate="20180506T015232Z">
         <seg>このタグはテンプレートの一部をキャッシュするため、後からのリクエストのパフォーマンスを向上させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This tag will prevent the rest of the template from executing, and end the request.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T022941Z" creationid="Toru Kokubun" creationdate="20180507T022941Z">
+        <seg>このタグは残りのテンプレートの実行を防ぎ、リクエストを終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This tag will set a new HTTP header on the response.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023632Z" creationid="Toru Kokubun" creationdate="20180507T023632Z">
+        <seg>このタグは、レスポンス上に新しい HTTP ヘッダーをセットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14542,6 +14718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can optionally set the HTTP status code that should be included with the response.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023038Z" creationid="Toru Kokubun" creationdate="20180507T023038Z">
+        <seg>レスポンスに含まれるべき HTTP ステータスコードをオプションでセットできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can output an option’s label by typing &lt;x1/&gt;{{ option.label }}&lt;x2/&gt; instead, and you can tell if the option is selected or not via &lt;x3/&gt;option.selected&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T014139Z" creationid="Toru Kokubun" creationdate="20180425T014044Z">
@@ -14694,6 +14878,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can specify where the &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; tag should be added to the page using one of these position keywords:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T032934Z" creationid="Toru Kokubun" creationdate="20180507T032908Z">
+        <seg>次の位置キーワードのいずれかを使用して、ページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; を追加する場所を指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can test whether you set everything up correctly by pointing your web browser to &lt;x1/&gt;http://&lt;x2/&gt;/index.php?p=admin&lt;x3/&gt; (substituting &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; with your web server’s host name).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214020Z" creationid="Toru Kokubun" creationdate="20180426T214020Z">
@@ -14802,6 +14994,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234854Z" creationid="Toru Kokubun" creationdate="20180506T234854Z">
         <seg>沢山のデータベースクエリを引き起こすテンプレートがある場合、または Twig の計算上非常にコストがかかる処理を行っているときは、&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグを使うべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You specify the actual header that should be set by typing it as a string after the word &lt;x1/&gt;header&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T024322Z" creationid="Toru Kokubun" creationdate="20180507T023904Z">
+        <seg>&lt;x1/&gt;header&lt;x2/&gt; の後に文字列として記述することによって、実際のヘッダーを明示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15626,6 +15826,30 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211903Z" creationid="Toru Kokubun" creationdate="20180418T235641Z">
         <seg>【メモ】デフォルトのテーブル接頭辞は「空」になりましたが、&lt;x1/&gt;craft_&lt;x2/&gt; が使われていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} Setting the position to &lt;x1/&gt;on load&lt;x2/&gt; or &lt;x3/&gt;on ready&lt;x4/&gt; will cause Craft to load its internal copy of jQuery onto the page (even if the template is already including its own copy), so you should probably avoid using them in front-end templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T033935Z" creationid="Toru Kokubun" creationdate="20180507T033908Z">
+        <seg>【メモ】&lt;x1/&gt;on load&lt;x2/&gt; または &lt;x3/&gt;on ready&lt;x4/&gt; に位置をセットすると、（テンプレートがすでに独自のコピーを含めている場合でも）Craft はページに jQuery の内部コピーを読み込みます。そのため、フロントエンドのテンプレートで利用するのは避けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} The tag calls &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; under the hood, which can also be accessed via the global &lt;x3/&gt;view&lt;x4/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031555Z" creationid="Toru Kokubun" creationdate="20180507T031506Z">
+        <seg>【メモ】タグを &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; の中で呼び出し、グローバルな &lt;x3/&gt;view&lt;x4/&gt; 変数経由でアクセスすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{note} The tag calls &lt;x1/&gt;yii\web\View::registerJs()&lt;x2/&gt; under the hood, which can also be accessed via the global &lt;x3/&gt;view&lt;x4/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T032529Z" creationid="Toru Kokubun" creationdate="20180507T032529Z">
+        <seg>【メモ】タグを &lt;x1/&gt;yii\web\View::registerJs()&lt;x2/&gt; の中で呼び出し、グローバルな &lt;x3/&gt;view&lt;x4/&gt; 変数経由でアクセスすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
