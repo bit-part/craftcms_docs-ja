@@ -3926,6 +3926,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Element criteria</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215616Z" creationid="Toru Kokubun" creationdate="20180508T215602Z">
+        <seg>エレメントの判定基準</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Element queries are &lt;x1/&gt;query builders&lt;x2/&gt; that are tuned for fetching elements in Craft.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000110Z" creationid="Toru Kokubun" creationdate="20180501T000110Z">
@@ -4418,6 +4426,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223116Z" creationid="Toru Kokubun" creationdate="20180428T222851Z">
         <seg>カスフィールド以外で利用できる追加のグローバル設定のプロパティについては、リファレンスの &lt;x1/&gt;craft\elements\GlobalSet&lt;x2/&gt; を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example you could set it to &lt;x3/&gt;'page/'&lt;x4/&gt;, and your paginated URLs would start looking like &lt;x5/&gt;http://example.com/news/page/2&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215406Z" creationid="Toru Kokubun" creationdate="20180508T215406Z">
+        <seg>例えば、&lt;x3/&gt;'page/'&lt;x4/&gt; をセットすると、ページ付けされた URL は &lt;x5/&gt;http://example.com/news/page/2&lt;x6/&gt; のようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5018,6 +5034,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074024Z" creationid="Toru Kokubun" creationdate="20180502T073947Z">
         <seg>次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s what they get set to:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T221714Z" creationid="Toru Kokubun" creationdate="20180508T220829Z">
+        <seg>ここで設定されることは、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7406,6 +7430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next up you need to type “&lt;x1/&gt;as&lt;x2/&gt;”, followed by one or two variable names:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T220253Z" creationid="Toru Kokubun" creationdate="20180508T220253Z">
+        <seg>次に「&lt;x1/&gt;as&lt;x2/&gt;」の記述が必要で、その後に1つまたは2つの変数名が続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next up, you need to create a database for your Craft project.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215842Z" creationid="Toru Kokubun" creationdate="20180415T084537Z">
@@ -8072,8 +8104,8 @@
       <tuv lang="EN-US">
         <seg>Paginated URLs will be identical to the first page’s URL, except that “/p_X_” will be appended to the end (where &lt;x1/&gt;X&lt;x2/&gt; is the page number), e.g. &lt;x3/&gt;http://example.com/news/p2&lt;x4/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T054020Z" creationid="Toru Kokubun" creationdate="20180507T054020Z">
-        <seg>ページ付けされた URL は最初のページ URL と同一になりますが、will be identical to the first page’s URL, except that “/p_X_” will be appended to the end (where &lt;x1/&gt;X&lt;x2/&gt; is the page number), e.g. &lt;x3/&gt;http://example.com/news/p2&lt;x4/&gt;.</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215103Z" creationid="Toru Kokubun" creationdate="20180507T054020Z">
+        <seg>ページ付けされた URL は最初のページ URL と同一になりますが、最後に「/p_X_」（&lt;x1/&gt;X&lt;x2/&gt; はページ番号）が追加されます。例：&lt;x3/&gt;http://example.com/news/p2&lt;x4/&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9782,6 +9814,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So don’t call &lt;x1/&gt;all()&lt;x2/&gt; on the object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T220145Z" creationid="Toru Kokubun" creationdate="20180508T220145Z">
+        <seg>そのため、オブジェクトの &lt;x1/&gt;all()&lt;x2/&gt; をコールしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So if your Matrix field is attached to an entry, and you want to output the entry ID in your dynamic subfolder path, you would type &lt;x5/&gt;{owner.id}&lt;x6/&gt; not just &lt;x7/&gt;{id}&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180424T004026Z">
@@ -10774,6 +10814,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag has the following parameters:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215541Z" creationid="Toru Kokubun" creationdate="20180508T215541Z">
+        <seg>&lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグは、次のパラメータを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -10946,6 +10994,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232047Z" creationid="Toru Kokubun" creationdate="20180506T231611Z">
         <seg>許可される継続時間の単位は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The actual variable name(s) are up to you, however if you only specify one variable name here, the &lt;x1/&gt;pageInfo&lt;x2/&gt; variable will be called “&lt;x3/&gt;paginate&lt;x4/&gt;” by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T220543Z" creationid="Toru Kokubun" creationdate="20180508T220504Z">
+        <seg>実際の変数名はあなた次第です。ただし、ここに変数名を1つだけ指定した場合、変数 &lt;x1/&gt;pageInfo&lt;x2/&gt; はデフォルトで「&lt;x3/&gt;paginate&lt;x4/&gt;」と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11402,6 +11458,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044045Z" creationid="Toru Kokubun" creationdate="20180507T043923Z">
         <seg>「&lt;x1/&gt;{% nav&lt;x2/&gt;」に続く最初のものは、例えば &lt;x3/&gt;item&lt;x4/&gt;、&lt;x5/&gt;entry&lt;x6/&gt;、または &lt;x7/&gt;category&lt;x8/&gt; のような、ループ内のそれぞれのアイテムを表すために使用する変数名です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The first thing you pass into the &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag is an &lt;x3/&gt;Element Query&lt;x4/&gt; object, which defines all of the elements that should be paginated.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215840Z" creationid="Toru Kokubun" creationdate="20180508T215812Z">
+        <seg>&lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグに渡す最初のものは、ページ割りしたいすべてのエレメントを定義する &lt;x3/&gt;Element Query&lt;x4/&gt; オブジェクトです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12782,6 +12846,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tip: You can use the &lt;x1/&gt;pageTrigger&lt;x2/&gt; config setting to customize what comes before the actual page number in your URLs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215249Z" creationid="Toru Kokubun" creationdate="20180508T215249Z">
+        <seg>ヒント：URL の実際のページ番号の前にあるものをカスタマイズするために、コンフィグ設定の &lt;x1/&gt;pageTrigger&lt;x2/&gt; を使用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Title Field Label&lt;x1/&gt; – What the “Title” field label should be.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090946Z" creationid="Toru Kokubun" creationdate="20180422T090946Z">
@@ -13582,6 +13654,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use the &lt;x5/&gt;limit&lt;x6/&gt; parameter to define how many elements should show up per page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215928Z" creationid="Toru Kokubun" creationdate="20180508T215922Z">
+        <seg>&lt;x5/&gt;limit&lt;x6/&gt; パラメータを使用して、ページごとに表示するエレメント数を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Groups</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T010446Z" creationid="Toru Kokubun" creationdate="20180428T010446Z">
@@ -13814,10 +13894,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Warning: Only a single &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag should be used per request.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215521Z" creationid="Toru Kokubun" creationdate="20180508T215501Z">
+        <seg>警告：リクエストごとに、1つの &lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグだけを使用しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Warning: The &lt;x1/&gt;{% nav %}&lt;x2/&gt; tag requires elements to be queried in a specific (hierarchical) order, so make sure you don’t override the &lt;x3/&gt;order&lt;x4/&gt; criteria parameter in conjunction with this tag.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044712Z" creationid="Toru Kokubun" creationdate="20180507T044712Z">
         <seg>警告：&lt;x1/&gt;{% nav %}&lt;x2/&gt; タグは特定の（階層的な）順序でエレメントを照会する必要があります。そのため、このタグと関連して &lt;x3/&gt;order&lt;x4/&gt; 基準パラメータを上書きしないよう確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warning: This parameter needs to be an actual ElementCriteriaModel object; not an array of elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T220117Z" creationid="Toru Kokubun" creationdate="20180508T220104Z">
+        <seg>警告：このパラメータは、実際の ElementCriteriaModel オブジェクトである必要があります。エレメントの配列ではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15658,6 +15754,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215345Z" creationid="Toru Kokubun" creationdate="20180429T215345Z">
         <seg>page&lt;x1/&gt; – 任意の正の整数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pageEntries&lt;x1/&gt; gets set to an array of the elements that belong to the current page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T221650Z" creationid="Toru Kokubun" creationdate="20180508T221525Z">
+        <seg>pageEntries&lt;x1/&gt; には、現在のページに属するエレメントの配列がセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pageInfo&lt;x1/&gt; gets set to a &lt;x2/&gt;craft\web\twig\variables\Paginate&lt;x3/&gt; object, which provides info about the current page, and some helper methods for creating links to other pages (&lt;x4/&gt;more details&lt;x5/&gt; below).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T221647Z" creationid="Toru Kokubun" creationdate="20180508T221456Z">
+        <seg>pageInfo&lt;x1/&gt; には、現在のページに関する情報や他のページへのリンクを作成するためのいくつかのヘルパーメソッド（&lt;x4/&gt;詳細&lt;x5/&gt; は以下）を提供する &lt;x2/&gt;craft\web\twig\variables\Paginate&lt;x3/&gt; オブジェクトがセットされます。</seg>
       </tuv>
     </tu>
     <tu>
