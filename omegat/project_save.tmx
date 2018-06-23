@@ -1042,6 +1042,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A final entry template including comments might look like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T234642Z" creationid="Toru Kokubun" creationdate="20180623T234642Z">
+        <seg>コメント機能を含む最終的なエントリのテンプレートは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A good example of this is a yearly archive page, where you want the year to be one of the segments in the URL (e.g. &lt;x1/&gt;news/archive/2017&lt;x2/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212300Z" creationid="Toru Kokubun" creationdate="20180429T212300Z">
@@ -1802,10 +1810,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Atom Feed&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232719Z" creationid="Toru Kokubun" creationdate="20180623T232719Z">
+        <seg>Atom フィード&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attributes will be rendered by &lt;x1/&gt;yii\helpers\Html::renderTagAttributes()&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031937Z" creationid="Toru Kokubun" creationdate="20180507T031937Z">
         <seg>属性は &lt;x1/&gt;yii\helpers\Html::renderTagAttributes()&lt;x2/&gt; によってレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Available Permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T223237Z" creationid="Toru Kokubun" creationdate="20180623T223237Z">
+        <seg>利用可能な権限</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2102,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235402Z" creationid="Toru Kokubun" creationdate="20180430T235402Z">
         <seg>デフォルトでは、ユーザーやグループはどのサイトにもアクセスできないため、それらを割り当てる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, redirects will have &lt;x1/&gt;302&lt;x2/&gt; status codes, which tells the browser that the requested URL has only been moved to the redirected URL &lt;x3/&gt;temporarily&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T221557Z" creationid="Toru Kokubun" creationdate="20180623T221557Z">
+        <seg>デフォルトでは、 リダイレクトはステータスコード &lt;x1/&gt;302&lt;x2/&gt; を持っていて、リクエストされた URL がリダイレクトされた URL に &lt;x3/&gt;一時的に&lt;x4/&gt; 移動されたことをブラウザに伝えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3986,6 +4018,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Disqus has certain configuration variables that you can use to ensure comments end up on the right post.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T234415Z" creationid="Toru Kokubun" creationdate="20180623T234157Z">
+        <seg>Disqus には意図したポストへのコメントを保証するために使うことができる、規定のコンフィグ変数があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Diversity is one of our strengths.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180414T031320Z">
@@ -4690,6 +4730,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entry Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232857Z" creationid="Toru Kokubun" creationdate="20180623T232726Z">
+        <seg>エントリの投稿フォーム&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entry Query Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032332Z" creationid="Toru Kokubun" creationdate="20180503T032332Z">
@@ -5034,6 +5082,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First/Last Page Links</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215135Z" creationid="Toru Kokubun" creationdate="20180623T215117Z">
+        <seg>最初 / 最後のページリンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Follow Composer’s instructions to install it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075426Z" creationid="Toru Kokubun" creationdate="20180415T075426Z">
@@ -5162,6 +5218,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, the following code would return a &lt;x1/&gt;301&lt;x2/&gt; redirect (permanent):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T221957Z" creationid="Toru Kokubun" creationdate="20180623T221957Z">
+        <seg>例えば、次のコードは &lt;x1/&gt;301&lt;x2/&gt; リダイレクト（永続的）を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, this would output the source element’s slug if it has one, otherwise its ID:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T001846Z" creationid="Toru Kokubun" creationdate="20180424T001758Z">
@@ -5230,6 +5294,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003855Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
         <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtim で確認できるものを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Forgot Password Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232839Z" creationid="Toru Kokubun" creationdate="20180623T232839Z">
+        <seg>パスワードを忘れた際のフォーム&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5646,6 +5718,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014606Z" creationid="Toru Kokubun" creationdate="20180418T014606Z">
         <seg>ここにいくつかのヒントがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are a few common examples.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T214653Z" creationid="Toru Kokubun" creationdate="20180623T214653Z">
+        <seg>ここにいつくかの一般的な例があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6122,6 +6202,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If they aren’t, they will be redirected to the Login page, and returned to the original page after successfully logging in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T222401Z" creationid="Toru Kokubun" creationdate="20180623T222401Z">
+        <seg>そうでない場合、ログインページにリダイレクトし、ログインに成功した後で元のページに戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If they don’t have it, a 403 (Forbidden) error will be served.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T230838Z" creationid="Toru Kokubun" creationdate="20180623T230838Z">
+        <seg>もし権限を持っていないなら、403（Forbidden）エラーが提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If they’re in the same group, then use &lt;x1/&gt;774&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T211325Z" creationid="Toru Kokubun" creationdate="20180426T211325Z">
@@ -6506,6 +6602,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you just want simple Previous Page and Next Page links to appear, you can do this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T214858Z" creationid="Toru Kokubun" creationdate="20180623T214858Z">
+        <seg>単純に前のページと次のページのリンクを表示させたいなら、次のようにできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you just want to output blocks of a certain type, you can do that by appending a ‘type’ filter to your Matrix field:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T213209Z">
@@ -6662,6 +6766,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002527Z" creationid="Toru Kokubun" creationdate="20180429T002436Z">
         <seg>もう少し具体的であることを望むなら、&lt;x1/&gt;relatedTo&lt;x2/&gt; は次のプロパティを含むオブジェクトも受け入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to create a list of nearby pages, perhaps surrounding the current page number, you can do that too!</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215948Z" creationid="Toru Kokubun" creationdate="20180623T215814Z">
+        <seg>おそらく現在のページ番号周辺の、近くのページのリストを作りたい場合、同様にできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6922,6 +7034,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’d prefer to show more or less, just change the numbers that are passed into &lt;x1/&gt;getPrevUrls()&lt;x2/&gt; and &lt;x3/&gt;getNextUrls()&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T220515Z" creationid="Toru Kokubun" creationdate="20180623T220515Z">
+        <seg>多かれ少なかれ表示することを望むなら、&lt;x1/&gt;getPrevUrls()&lt;x2/&gt; と &lt;x3/&gt;getNextUrls()&lt;x4/&gt; に渡す数値を変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you’re a glutton for punishment and want your website to look flawless on IE 6, that’s your choice.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T031737Z" creationid="Toru Kokubun" creationdate="20180415T031737Z">
@@ -7018,6 +7138,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you’re using the &lt;x1/&gt;{% switch %}&lt;x2/&gt; tag inside of a &lt;x3/&gt;{% for %}&lt;x4/&gt; loop, you won’t be able to access Twig’s &lt;x5/&gt;loop variable&lt;x6/&gt; directly inside of the &lt;x7/&gt;{% switch %}&lt;x8/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232105Z" creationid="Toru Kokubun" creationdate="20180623T232015Z">
+        <seg>&lt;x3/&gt;{% for %}&lt;x4/&gt; ループ内で &lt;x1/&gt;{% switch %}&lt;x2/&gt; タグを使う場合、&lt;x7/&gt;{% switch %}&lt;x8/&gt; タグの内側で Twig の &lt;x5/&gt;ループ変数&lt;x6/&gt; に直接アクセスすることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you’ve already got a hold of the source element in your template, like in the example below where we're outputting the Drink entry, you can access its target elements for a particular field in the same way you access any other field’s value: by the handle.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T000230Z">
@@ -7034,6 +7162,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If/when Twig gets to it, the login enforcement will take place.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T222924Z" creationid="Toru Kokubun" creationdate="20180623T222924Z">
+        <seg>Twig がそれに到達すると、ログインが強制されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Image Transforms</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000340Z" creationid="Toru Kokubun" creationdate="20180428T000037Z">
@@ -7046,6 +7182,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020710Z" creationid="Toru Kokubun" creationdate="20180415T020710Z">
         <seg>ImageMagick が好ましいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Immediately after typing “&lt;x1/&gt;{% redirect&lt;x2/&gt;”, you need to tell the tag where to redirect the browser.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T221130Z" creationid="Toru Kokubun" creationdate="20180623T221130Z">
+        <seg>「&lt;x1/&gt;{% redirect&lt;x2/&gt;」と入力したすぐ後に、ブラウザがリダイレクトする場所をタグに伝える必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7226,6 +7370,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this example we’re only showing up to five page links in either direction of the current page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T220404Z" creationid="Toru Kokubun" creationdate="20180623T220404Z">
+        <seg>この例では、現在のページからいずれかの方向に5ページのリンクを表示しているだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this example, we'll use a template located at craft/templates/_entry.html.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T233434Z" creationid="Toru Kokubun" creationdate="20180623T233434Z">
+        <seg>この例では、craft/templates/_entry.html にあるテンプレートを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this short guide we'll walk through the steps of setting up a new site in Craft.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T022010Z" creationid="Toru Kokubun" creationdate="20180430T021900Z">
@@ -7354,6 +7514,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead, you can access it like so:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232031Z" creationid="Toru Kokubun" creationdate="20180623T232031Z">
+        <seg>代わりに、次のようにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead, you should set up a new Dynamic Route.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T212526Z" creationid="Toru Kokubun" creationdate="20180429T212526Z">
@@ -7366,6 +7534,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221630Z" creationid="Toru Kokubun" creationdate="20180422T221630Z">
         <seg>説明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integrating Disqus</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T234746Z" creationid="Toru Kokubun" creationdate="20180623T234746Z">
+        <seg>Disqus の統合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Integrating Disqus&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232709Z" creationid="Toru Kokubun" creationdate="20180623T232709Z">
+        <seg>Disqus の統合&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7874,6 +8058,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Login Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232742Z" creationid="Toru Kokubun" creationdate="20180623T232742Z">
+        <seg>ログインフォーム&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Look for:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T234225Z" creationid="Toru Kokubun" creationdate="20180623T234225Z">
+        <seg>次のコメントを探してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Lowercases the first character of a string.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T001858Z" creationid="Toru Kokubun" creationdate="20180506T001858Z">
@@ -8250,6 +8450,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Nearby Page Links</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215545Z" creationid="Toru Kokubun" creationdate="20180623T215545Z">
+        <seg>近くのページリンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>New</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T012455Z" creationid="Toru Kokubun" creationdate="20180420T012455Z">
@@ -8414,6 +8622,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001508Z" creationid="Toru Kokubun" creationdate="20180421T001508Z">
         <seg>これらの例では、&lt;x3/&gt;craft&lt;x4/&gt;のコンフィグ設定にデフォルトの &lt;x1/&gt;craft/config/db.php&lt;x2/&gt; を使用している点に注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that we’re wrapping those links in conditionals because there won’t always be a previous or next page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215447Z" creationid="Toru Kokubun" creationdate="20180623T215041Z">
+        <seg>前、または、次のページが常に存在するとは限らないため、これらのリンクを条件文でラップしていることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9266,6 +9482,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Previous/Next Page Links</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215130Z" creationid="Toru Kokubun" creationdate="20180623T214804Z">
+        <seg>前 / 次のページリンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Primary Site</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004749Z" creationid="Toru Kokubun" creationdate="20180430T004749Z">
@@ -9366,6 +9590,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090607Z" creationid="Toru Kokubun" creationdate="20180623T090607Z">
         <seg>Queue コンポーネント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RSS Feed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T234835Z" creationid="Toru Kokubun" creationdate="20180623T234835Z">
+        <seg>RSS フィード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>RSS Feed&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232715Z" creationid="Toru Kokubun" creationdate="20180623T232715Z">
+        <seg>RSS フィード&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10154,6 +10394,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232733Z" creationid="Toru Kokubun" creationdate="20180623T232733Z">
+        <seg>検索フォーム&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Searching</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T223536Z" creationid="Toru Kokubun" creationdate="20180429T223536Z">
@@ -10394,6 +10642,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180502T095816Z">
         <seg>テーブルの現在の接頭辞がそれである場合、&lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; をセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set Password Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232928Z" creationid="Toru Kokubun" creationdate="20180623T232850Z">
+        <seg>パスワードの設定フォーム&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10718,6 +10974,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since all of the conditionals are evaluating the same thing – &lt;x1/&gt;matrixBlock.type&lt;x2/&gt; – we can simplify that code using a &lt;x3/&gt;{% switch %}&lt;x4/&gt; tag instead:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T231714Z" creationid="Toru Kokubun" creationdate="20180623T231714Z">
+        <seg>条件文のすべてが同じもの – &lt;x1/&gt;matrixBlock.type&lt;x2/&gt; – を評価しているため、代わりに &lt;x3/&gt;{% switch %}&lt;x4/&gt; タグを利用してコードを簡略化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Singles</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T020455Z" creationid="Toru Kokubun" creationdate="20180422T020455Z">
@@ -10834,6 +11098,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014317Z" creationid="Toru Kokubun" creationdate="20180623T013057Z">
         <seg>はじめに、既存のプロジェクトと並行する新しいディレクトリを作成し、&lt;x1/&gt;インストールガイド&lt;x2/&gt;のステップ 1 〜 3 に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some common usage examples in Craft:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232639Z" creationid="Toru Kokubun" creationdate="20180623T232639Z">
+        <seg>Craft の一般的な使用例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11390,6 +11662,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Take this template for example, which is running different template code depending on a Matrix block’s type:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T231418Z" creationid="Toru Kokubun" creationdate="20180623T231418Z">
+        <seg>このテンプレートの例では、行列ブロックのタイプによって異なるテンプレートを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Target Locale&lt;x1/&gt; – Which locale assets should be related with (this setting only appears if you’re running Craft Pro with more than one site locale)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T022733Z" creationid="Toru Kokubun" creationdate="20180423T092208Z">
@@ -11742,6 +12022,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;pageInfo&lt;x2/&gt; variable gives you lots of options for building the pagination navigation that’s right for you.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T214557Z" creationid="Toru Kokubun" creationdate="20180623T214557Z">
+        <seg>&lt;x1/&gt;pageInfo&lt;x2/&gt; 変数は、あなたに合ったページナビゲーションを作るための沢山のオプションを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;redirectInput()&lt;x2/&gt; function is provided as a shortcut.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234438Z" creationid="Toru Kokubun" creationdate="20180420T234438Z">
@@ -11878,6 +12166,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% redirect %}&lt;x2/&gt; tag has the following parameter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T220932Z" creationid="Toru Kokubun" creationdate="20180623T220932Z">
+        <seg>&lt;x1/&gt;{% redirect %}&lt;x2/&gt; タグは、次のパラメータを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025424Z" creationid="Toru Kokubun" creationdate="20180623T025424Z">
@@ -11966,6 +12262,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Status Code</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T221000Z" creationid="Toru Kokubun" creationdate="20180623T221000Z">
+        <seg>ステータスコード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The System Name, as defined in Settings → General.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222119Z" creationid="Toru Kokubun" creationdate="20180504T222119Z">
@@ -11994,6 +12298,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031024Z" creationid="Toru Kokubun" creationdate="20180503T031024Z">
         <seg>結果となるエレメントが持つべき URI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URL</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T220950Z" creationid="Toru Kokubun" creationdate="20180623T220950Z">
+        <seg>URL</seg>
       </tuv>
     </tu>
     <tu>
@@ -12030,6 +12342,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The URL that the logged-out users get redirected to is based on your &lt;x1/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T223005Z" creationid="Toru Kokubun" creationdate="20180623T223005Z">
+        <seg>ログアウトしたユーザーがリダイレクトされる URL は、コンフィグ設定の &lt;x1/&gt; に基づきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The URL to the directory containing the files, assuming the files are meant to be publicly accessed</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232405Z" creationid="Toru Kokubun" creationdate="20180427T232405Z">
@@ -12058,6 +12378,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220546Z" creationid="Toru Kokubun" creationdate="20180504T220546Z">
         <seg>&lt;x1/&gt;loginPath&lt;x2/&gt; コンフィグ設定に基づく、サイトのログインページの URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URLs are returned in ascending order.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T213326Z" creationid="Toru Kokubun" creationdate="20180623T213326Z">
+        <seg>URL は昇順で返されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13230,6 +13558,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The user can have the permission either directly or through one of their user groups.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T230743Z" creationid="Toru Kokubun" creationdate="20180623T230743Z">
+        <seg>ユーザーは、直接またはユーザーグループの1つを通して権限を持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The user group ID(s) that the resulting entries’ authors must be in</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032908Z" creationid="Toru Kokubun" creationdate="20180503T032908Z">
@@ -13442,6 +13778,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T014704Z" creationid="Toru Kokubun" creationdate="20180429T014704Z">
         <seg>複数のタイプのリレーションを組み合わせる必要がある場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There’s no reason to wrap those links in conditionals since there will always be a first and last page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215435Z" creationid="Toru Kokubun" creationdate="20180623T215435Z">
+        <seg>最初と最後のページは常に存在するため、条件文でこれらをラップする理由はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13894,10 +14238,34 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This tag will ensure that the current user is logged in with an account that has a given permission.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T230640Z" creationid="Toru Kokubun" creationdate="20180623T230640Z">
+        <seg>このタグは、現在のユーザーが特定の権限を持つアカウントでログインしていることを保証します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This tag will ensure that the user is logged in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T222406Z" creationid="Toru Kokubun" creationdate="20180623T222302Z">
+        <seg>このタグは、ユーザーがログインしていることを保証します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This tag will prevent the rest of the template from executing, and end the request.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T022941Z" creationid="Toru Kokubun" creationdate="20180507T022941Z">
         <seg>このタグは残りのテンプレートの実行を防ぎ、リクエストを終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This tag will redirect the browser to a different URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T220906Z" creationid="Toru Kokubun" creationdate="20180623T220906Z">
+        <seg>このタグは、ブラウザを別の URL にリダイレクトします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13954,6 +14322,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T050135Z" creationid="Toru Kokubun" creationdate="20180507T050117Z">
         <seg>ヒント：&lt;x1/&gt;{% nav %}&lt;x2/&gt; タグは、エレメントを階層的に表示したい、かつ、DOM で階層構造を表現したいとき&lt;x3/&gt;だけ&lt;x4/&gt;使用するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: This tag is a bit simpler than other languages’ &lt;x1/&gt;switch&lt;x2/&gt; implementations you may have seen: matching &lt;x3/&gt;cases&lt;x4/&gt; are automatically broken out of, so there’s no need for &lt;x5/&gt;break&lt;x6/&gt; statements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232551Z" creationid="Toru Kokubun" creationdate="20180623T232515Z">
+        <seg>ヒント：このタグはあなたが目にしたことがあるかもしれない他の言語の &lt;x1/&gt;switch&lt;x2/&gt; 実装よりも少し単純です。マッチした &lt;x3/&gt;cases&lt;x4/&gt; で自動的に終了するため、&lt;x5/&gt;break&lt;x6/&gt; ステートメントは必要ありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14130,6 +14506,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231149Z" creationid="Toru Kokubun" creationdate="20180428T231149Z">
         <seg>新しいタググループを作るには、「設定 &gt; タグ」に移動し、「新しいタググループ」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do this, you will need to have an output for displaying a single entry you want to allow comments on.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T233412Z" creationid="Toru Kokubun" creationdate="20180623T233339Z">
+        <seg>これを行うためには、コメントを許可する単一のエントリを表示するための出力設定が必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14854,6 +15238,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User Profile Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232917Z" creationid="Toru Kokubun" creationdate="20180623T232752Z">
+        <seg>ユーザープロフィールの編集フォーム&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Query Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064646Z" creationid="Toru Kokubun" creationdate="20180503T064646Z">
@@ -14866,6 +15258,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014629Z" creationid="Toru Kokubun" creationdate="20180426T014629Z">
         <seg>ユーザーのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User Registration Form&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232803Z" creationid="Toru Kokubun" creationdate="20180623T232803Z">
+        <seg>ユーザー登録フォーム&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15830,6 +16230,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can add First Page and Last Page links into the mix, you can do that too:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215338Z" creationid="Toru Kokubun" creationdate="20180623T215338Z">
+        <seg>最初のページと最後のページのリンクをミックスすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add as many blocks to your Matrix field as you’d like (or at least as many as the field’s Max Blocks setting will allow).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T122526Z" creationid="Toru Kokubun" creationdate="20180425T122352Z">
@@ -15866,6 +16274,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075217Z" creationid="Toru Kokubun" creationdate="20180502T075217Z">
         <seg>次のように、パラメータを一括設定することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also choose to not pass any number in at all, in which case &lt;x5/&gt;all&lt;x6/&gt; previous/next page URLs will be returned.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T220712Z" creationid="Toru Kokubun" creationdate="20180623T220624Z">
+        <seg>いずれの数値も渡さないよう選択することもできます。その場合、&lt;x5/&gt;すべての&lt;x6/&gt; 前 / 次のページ URL が返されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16046,6 +16462,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can customize which status code accompanies your redirect response by typing it right after the URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T221907Z" creationid="Toru Kokubun" creationdate="20180623T221907Z">
+        <seg>リダイレクトのレスポンスに伴うステータスコードは、URL の直後に入力することでカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can customize your site’s 404 page by placing a &lt;x1/&gt;404.html&lt;x2/&gt; template at the root of your &lt;x3/&gt;craft/templates/&lt;x4/&gt; directory.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040611Z" creationid="Toru Kokubun" creationdate="20180429T040547Z">
@@ -16102,6 +16526,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can easily add comments to your Craft entry pages by utilizing a third-party comment service such as &lt;x1/&gt;Disqus&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T233139Z" creationid="Toru Kokubun" creationdate="20180623T233139Z">
+        <seg>&lt;x1/&gt;Disqus&lt;x2/&gt; のようなサードパーティのコメントサービスを利用して、Craft のエントリページに簡単にコメント機能を追加することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can edit an asset volume’s field layout by clicking on the Field Layout tab when editing the volume.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T233749Z" creationid="Toru Kokubun" creationdate="20180427T233749Z">
@@ -16130,6 +16562,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234608Z" creationid="Toru Kokubun" creationdate="20180418T234329Z">
         <seg>手動でファイルを編集するか、ターミナルの新しいプロジェクトルートディレクトリから &lt;x3/&gt;./craft setup&lt;x4/&gt; コマンドを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can either give it a full URL, or just the path.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T221243Z" creationid="Toru Kokubun" creationdate="20180623T221235Z">
+        <seg>完全な URL を与えることも、パスだけ指定することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16230,6 +16670,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can optionally pass in the maximum distance away from the current page the function should go.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T213534Z" creationid="Toru Kokubun" creationdate="20180623T213534Z">
+        <seg>現在のページから到達可能な最大距離をオプションとして渡すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can optionally set the HTTP status code that should be included with the response.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023038Z" creationid="Toru Kokubun" creationdate="20180507T023038Z">
@@ -16306,6 +16754,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013713Z" creationid="Toru Kokubun" creationdate="20180422T100613Z">
         <seg>エントリの編集ページでは、次のアクションを実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can place this tag anywhere in your template, including within a conditional.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T222700Z" creationid="Toru Kokubun" creationdate="20180623T222700Z">
+        <seg>条件文の中を含め、テンプレートのどこにでもこのタグを記述できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16558,6 +17014,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You'll want to sign up with Disqus and get your Universal Code on Disqus’ site in Admin → Settings → Install.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T233621Z" creationid="Toru Kokubun" creationdate="20180623T233621Z">
+        <seg>あなたは Disqus にサインアップし、Disqus のサイトの「Admin → Settings → Install」からユニバーサルコードを入手できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Your &lt;x1/&gt;web/index.php&lt;x2/&gt; file can specify a few PHP constants, which Craft’s bootstrap script will check for while loading and configuring Craft.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T003315Z" creationid="Toru Kokubun" creationdate="20180504T003151Z">
@@ -16678,10 +17142,34 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`pageInfo.getNextUrls( [dist] )`&lt;x1/&gt; – Returns an array of URLs to the next pages, with keys set to the page numbers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T214417Z" creationid="Toru Kokubun" creationdate="20180623T213632Z">
+        <seg>`pageInfo.getNextUrls( [dist] )`&lt;x1/&gt; – キーにページ番号がセットされた、次のページの URL の配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`pageInfo.getPageUrl( page )`&lt;x1/&gt; – Returns the URL to a given page number, or &lt;x2/&gt;null&lt;x3/&gt; if the page doesn’t exist.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113737Z" creationid="Toru Kokubun" creationdate="20180623T113737Z">
         <seg>`pageInfo.getPageUrl( page )`&lt;x1/&gt; – 指定されたページ番号の URL、または、ページが存在しない場合は &lt;x2/&gt;null&lt;x3/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.getPrevUrls( [dist] )`&lt;x1/&gt; – Returns an array of URLs to the previous pages, with keys set to the page numbers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T214413Z" creationid="Toru Kokubun" creationdate="20180623T213310Z">
+        <seg>`pageInfo.getPrevUrls( [dist] )`&lt;x1/&gt; – キーにページ番号がセットされた、前のページの URL の配列を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.getRangeUrls( start, end )`&lt;x1/&gt; – Returns an array of URLs to pages in a given range of page numbers, with keys set to the page numbers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T214420Z" creationid="Toru Kokubun" creationdate="20180623T214002Z">
+        <seg>`pageInfo.getRangeUrls( start, end )`&lt;x1/&gt; – キーにページ番号がセットされた、指定したページ番号の範囲のページ URL の配列を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16866,6 +17354,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T082921Z" creationid="Toru Kokubun" creationdate="20180422T082921Z">
         <seg>会社概要ページ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>and add this line:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T234553Z" creationid="Toru Kokubun" creationdate="20180623T234553Z">
+        <seg>次の行を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17662,6 +18158,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>“Switch statements” offer a clean way to compare a variable against multiple possible values, instead of using several repetitive &lt;x1/&gt;{% if %}&lt;x2/&gt; conditionals.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T231300Z" creationid="Toru Kokubun" creationdate="20180623T231300Z">
+        <seg>「Switch 文」は、いくつかの反復的な &lt;x1/&gt;{% if %}&lt;x2/&gt; 条件を使う代わりに、複数の可能性がある値に対して変数を比較するクリーンな方法を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>…and replace everything below it with:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T221417Z" creationid="Toru Kokubun" creationdate="20180418T221019Z">
@@ -17832,8 +18336,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>↳  Access &lt;x1/&gt;[Plugin Name]&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011453Z" creationid="Toru Kokubun" creationdate="20180428T011205Z">
-        <seg>↳  &lt;x1/&gt;「プラグイン名」&lt;x2/&gt;のアクセス </seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T223101Z" creationid="Toru Kokubun" creationdate="20180428T011205Z">
+        <seg>↳  &lt;x1/&gt;「プラグイン名」&lt;x2/&gt; のアクセス </seg>
       </tuv>
     </tu>
     <tu>
