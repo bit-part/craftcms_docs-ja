@@ -6286,8 +6286,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>If you have any element &lt;x1/&gt;queries&lt;x2/&gt; within the tags (e.g. a &lt;x3/&gt;craft.entries&lt;x4/&gt;), and you create a new element that should be returned by one of the queries, Craft will also be able to figure that out and clear the cache.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T234114Z" creationid="Toru Kokubun" creationdate="20180506T233805Z">
-        <seg>タグ内にエレメント&lt;x1/&gt;クエリ&lt;x2/&gt;（例：&lt;x3/&gt;craft.entries&lt;x4/&gt;）を持ち、クエリの1つによって返される新しいエレメントを作成する場合、Craft はそれを判断してキャッシュをクリアすることもできます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T093035Z" creationid="Toru Kokubun" creationdate="20180506T233805Z">
+        <seg>タグ内にエレメント &lt;x1/&gt;クエリ&lt;x2/&gt;（例：&lt;x3/&gt;craft.entries&lt;x4/&gt;）を持ち、クエリの1つによって返される新しいエレメントを作成する場合、Craft はそれを判断してキャッシュをクリアすることもできます。</seg>
       </tuv>
     </tu>
     <tu>
