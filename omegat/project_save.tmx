@@ -4410,6 +4410,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Field layouts for entry types have another feature: they let you define the content tabs that contain the fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T033647Z" creationid="Toru Kokubun" creationdate="20180623T033647Z">
+        <seg>入力タイプのフィールドレイアウトには別の機能があり、フィールドを含むコンテンツタブを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Fields</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004707Z" creationid="Toru Kokubun" creationdate="20180421T004707Z">
@@ -5533,6 +5541,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
         <seg>If the “Restrict uploads to a single folder?” setting is checked, the “Sources” and “Default Upload Location” settings will be replaced with an “Upload Location” setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215522Z" creationid="Toru Kokubun" creationdate="20180424T215522Z">
+        <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the “Restrict uploads to a single folder?” setting is checked, the “Volumes” and “Default Upload Location” settings will be replaced with an “Upload Location” setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T034058Z" creationid="Toru Kokubun" creationdate="20180623T034058Z">
         <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
       </tuv>
     </tu>
@@ -14158,6 +14174,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230950Z" creationid="Toru Kokubun" creationdate="20180414T230950Z">
         <seg>ボリュームタイプ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Volumes&lt;x1/&gt; – Which asset volumes the field should be able to select/upload files from</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T034117Z" creationid="Toru Kokubun" creationdate="20180623T033950Z">
+        <seg>ソース&lt;x1/&gt; – ファイルの選択・アップロードを可能とするアセットボリューム</seg>
       </tuv>
     </tu>
     <tu>
