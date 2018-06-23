@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Don’t set this until you have a valid license key.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090012Z" creationid="Toru Kokubun" creationdate="20180623T090012Z">
+        <seg>（有効なライセンスキーを取得するまで、これをセットしないでください。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(It is assumed to be the parent of the &lt;x8/&gt;vendor/&lt;x9/&gt; directory by default.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004053Z" creationid="Toru Kokubun" creationdate="20180504T003727Z">
@@ -303,6 +311,16 @@
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+Craft doesn’t require you to create additional &lt;x1/&gt;web/&lt;x2/&gt; directories for new sites, though it’s fine if you need to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T080508Z" creationid="Toru Kokubun" creationdate="20180623T080508Z">
+        <seg>::: tip
+必要とするならうまくできますが、Craft では新しいサイトのために追加の &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリを作成する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 Don’t forget to set &lt;x1/&gt;DB_TABLE_PREFIX="craft"&lt;x2/&gt; if that’s what your database tables are prefixed with.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014030Z" creationid="Toru Kokubun" creationdate="20180623T014030Z">
@@ -323,11 +341,41 @@ Craft がすでにデータベースに接続可能な状態であれば、こ�
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+If you have multiple sites using different root domains like &lt;x1/&gt;https://site-a.com&lt;x2/&gt; and &lt;x3/&gt;https://site-b.com&lt;x4/&gt;, with the way Craft’s &lt;x5/&gt;license enforcements works&lt;x6/&gt;, you’ll want to pick one of the domains to access the Craft Control Panel from for &lt;x7/&gt;all&lt;x8/&gt; of the sites.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T080410Z" creationid="Toru Kokubun" creationdate="20180623T080251Z">
+        <seg>::: tip
+&lt;x1/&gt;https://site-a.com&lt;x2/&gt; と &lt;x3/&gt;https://site-b.com&lt;x4/&gt; のような異なるルートドメインを使用する複数サイトを持つ場合、Craft の &lt;x5/&gt;license enforcements works&lt;x6/&gt; の仕組みによって、&lt;x7/&gt;すべて&lt;x8/&gt; のサイトのためにアクセスする Craft コントロールパネルのドメインをその中の1つから選択することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 If you used Composer to download Craft, you can probably safely skip this step.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011805Z" creationid="Toru Kokubun" creationdate="20180623T011450Z">
         <seg>::: tip
 Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+If your Craft install is running from a Vagrant box, you will need to SSH into the box to run this command.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T084137Z" creationid="Toru Kokubun" creationdate="20180623T084137Z">
+        <seg>::: tip
+Craft のインストールが Vagrant box から実行されている場合、このコマンドを実行するために box に SSH 接続する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+If your queue driver supplies its own worker, set the &lt;x1/&gt; config setting to &lt;x2/&gt;false&lt;x3/&gt; in &lt;x4/&gt;config/general.php&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T092049Z" creationid="Toru Kokubun" creationdate="20180623T092049Z">
+        <seg>::: tip
+キュードライバが独自のワーカーを提供している場合、&lt;x4/&gt;config/general.php&lt;x5/&gt; の &lt;x1/&gt; コンフィグ設定を &lt;x2/&gt;false&lt;x3/&gt; に設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -343,11 +391,101 @@ macOS を使用している場合、そこにある不可視ファイル（&lt;x
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+Migration names must be valid PHP class names, though we recommend sticking with &lt;x1/&gt;snake_case&lt;x2/&gt; rather than &lt;x3/&gt;StudlyCase&lt;x4/&gt; as a convention.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T084235Z" creationid="Toru Kokubun" creationdate="20180623T084235Z">
+        <seg>::: tip
+マイグレーション名は有効な PHP クラス名でなければなりません。慣習として、&lt;x3/&gt;StudlyCase&lt;x4/&gt; よりも &lt;x1/&gt;snake_case&lt;x2/&gt; を使うことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+Unlike &lt;x1/&gt;entries&lt;x2/&gt;, Global Sets don’t have the Live Preview feature, since they aren’t associated with any one particular URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071505Z" creationid="Toru Kokubun" creationdate="20180623T071505Z">
+        <seg>::: tip
+&lt;x1/&gt;エントリ&lt;x2/&gt;とは異なり、特定の URL と関連付けられていないグローバル設定では、ライブプレビュー機能がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can alter the default behavior of search terms with the &lt;x1/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075217Z" creationid="Toru Kokubun" creationdate="20180623T075217Z">
+        <seg>::: tip
+コンフィグ設定の &lt;x1/&gt; で、検索語のデフォルトの振る舞いを変更することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can combine this parameter with &lt;x1/&gt;globally&lt;x2/&gt; to cache templates on a per-page basis, without letting any query string variables get included in the path:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T092703Z" creationid="Toru Kokubun" creationdate="20180623T092703Z">
+        <seg>::: tip
+クエリ文字列の変数をパスに含めることなく、ページごとのテンプレートをキャッシュするために &lt;x1/&gt;globally&lt;x2/&gt; パラメータを組み合わせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can only nest categories up to the level specified in the Max Level field Category Group settings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071808Z" creationid="Toru Kokubun" creationdate="20180623T071808Z">
+        <seg>::: tip
+カテゴリグループの設定にある最大レベル欄で指定したレベルまでしか、カテゴリをネストできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can override the Volume settings using the &lt;x1/&gt;config/volumes.php&lt;x2/&gt; configuration file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071714Z" creationid="Toru Kokubun" creationdate="20180623T071714Z">
+        <seg>::: tip
+設定ファイルの &lt;x1/&gt;config/volumes.php&lt;x2/&gt; を利用して、ボリューム設定を上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 You should be running Composer 1.3.0 or later.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011748Z" creationid="Toru Kokubun" creationdate="20180623T011021Z">
         <seg>::: tip
 Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+If you change the template code within a &lt;x1/&gt;{% cache %}&lt;x2/&gt; that uses a custom key, any existing template caches will not automatically be purged.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T092801Z" creationid="Toru Kokubun" creationdate="20180623T092801Z">
+        <seg>::: warning
+カスタムキーを利用している &lt;x1/&gt;{% cache %}&lt;x2/&gt; 内のテンプレートコードを変更する場合、既存のテンプレートキャッシュは自動的にパージされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+Only drivers that implement &lt;x1/&gt; will be visible within the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091620Z" creationid="Toru Kokubun" creationdate="20180623T091553Z">
+        <seg>::: warning
+&lt;x1/&gt; を実装しているドライバだけがコントロールパネル内に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+You must create your volumes within the Control Panel before Craft will start checking &lt;x1/&gt;config/volumes.php&lt;x2/&gt; for overrides.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090535Z" creationid="Toru Kokubun" creationdate="20180623T090535Z">
+        <seg>::: warning
+Craft が上書きのために &lt;x1/&gt;config/volumes.php&lt;x2/&gt; をチェックしはじめる前に、コントロールパネルでボリュームを作成しておく必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -426,6 +564,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x11/&gt;sal*&lt;x12/&gt; | containing a word that begins with “sal”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073701Z" creationid="Toru Kokubun" creationdate="20180623T073701Z">
+        <seg>&lt;x11/&gt;sal*&lt;x12/&gt; | 「sal」ではじまる単語を含んでいる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x110/&gt;where the ‘body’ field is set to “salty dog” and nothing more.&lt;x111/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233342Z" creationid="Toru Kokubun" creationdate="20180429T233342Z">
@@ -442,10 +588,34 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x13/&gt;*ty&lt;x14/&gt; | containing a word that ends with “ty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073715Z" creationid="Toru Kokubun" creationdate="20180623T073715Z">
+        <seg>&lt;x13/&gt;*ty&lt;x14/&gt; | 「ty」で終わる単語を含んでいる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x14/&gt;containing the word “salty”.&lt;x15/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233033Z" creationid="Toru Kokubun" creationdate="20180429T231850Z">
         <seg>&lt;x14/&gt;「salty」という単語を含んでいる&lt;x15/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x15/&gt;*alt*&lt;x16/&gt; | containing a word that contains “alt”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073923Z" creationid="Toru Kokubun" creationdate="20180623T073923Z">
+        <seg>&lt;x15/&gt;*alt*&lt;x16/&gt; | 「alt」を含む単語を含んでいる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x17/&gt;body:salty&lt;x18/&gt; | where the &lt;x19/&gt;body&lt;x20/&gt; field contains “salty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073945Z" creationid="Toru Kokubun" creationdate="20180623T073945Z">
+        <seg>&lt;x17/&gt;body:salty&lt;x18/&gt; | &lt;x19/&gt;body&lt;x20/&gt; フィールドに「salty」を含む</seg>
       </tuv>
     </tu>
     <tu>
@@ -458,10 +628,42 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x21/&gt;body:salty body:dog&lt;x22/&gt; | where the &lt;x23/&gt;body&lt;x24/&gt; field contains both “salty” and “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074202Z" creationid="Toru Kokubun" creationdate="20180623T074202Z">
+        <seg>&lt;x21/&gt;body:salty body:dog&lt;x22/&gt; | &lt;x23/&gt;body&lt;x24/&gt; フィールドに「salty」と「dog」の両方を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x25/&gt;body:salty OR body:dog&lt;x26/&gt; | where the &lt;x27/&gt;body&lt;x28/&gt; field contains either “salty” or “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074221Z" creationid="Toru Kokubun" creationdate="20180623T074221Z">
+        <seg>&lt;x25/&gt;body:salty OR body:dog&lt;x26/&gt; | &lt;x27/&gt;body&lt;x28/&gt; フィールドに「salty」または「dog」のいずれかを含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x26/&gt;containing both “salty” and “dog”.&lt;x27/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233037Z" creationid="Toru Kokubun" creationdate="20180429T232256Z">
         <seg>&lt;x26/&gt;「salty」と「dog」の両方を含んでいる&lt;x27/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x29/&gt;body:salty -body:dog&lt;x30/&gt; | where the &lt;x31/&gt;body&lt;x32/&gt; field contains “salty” but not “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074328Z" creationid="Toru Kokubun" creationdate="20180623T074328Z">
+        <seg>&lt;x29/&gt;body:salty -body:dog&lt;x30/&gt; | &lt;x31/&gt;body&lt;x32/&gt; フィールドに「salty」を含むが「dog」を含まない</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x3/&gt;salty dog&lt;x4/&gt; | containing both “salty” and “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073441Z" creationid="Toru Kokubun" creationdate="20180623T073441Z">
+        <seg>&lt;x3/&gt;salty dog&lt;x4/&gt; | 「salty」と「dog」の両方を含んでいる</seg>
       </tuv>
     </tu>
     <tu>
@@ -482,6 +684,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x33/&gt;body:"salty dog"&lt;x34/&gt; | where the &lt;x35/&gt;body&lt;x36/&gt; field contains the exact phrase “salty dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074423Z" creationid="Toru Kokubun" creationdate="20180623T074423Z">
+        <seg>&lt;x33/&gt;body:"salty dog"&lt;x34/&gt; | &lt;x35/&gt;body&lt;x36/&gt; フィールドに正確なフレーズとして「salty dog」を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x37/&gt;body:sal*&lt;x38/&gt; | where the &lt;x39/&gt;body&lt;x40/&gt; field contains a word that begins with “sal”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074945Z" creationid="Toru Kokubun" creationdate="20180623T074443Z">
+        <seg>&lt;x37/&gt;body:sal*&lt;x38/&gt; | &lt;x39/&gt;body&lt;x40/&gt; フィールドに「sal」ではじまる単語を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x38/&gt;containing either “salty” or “dog” (or both).&lt;x39/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233050Z" creationid="Toru Kokubun" creationdate="20180429T232418Z">
@@ -498,10 +716,34 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x41/&gt;body:*ty&lt;x42/&gt; | where the &lt;x43/&gt;body&lt;x44/&gt; field contains a word that ends with “ty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074950Z" creationid="Toru Kokubun" creationdate="20180623T074522Z">
+        <seg>&lt;x41/&gt;body:*ty&lt;x42/&gt; | &lt;x43/&gt;body&lt;x44/&gt; フィールドに「ty」で終わる単語を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x44/&gt;where the ‘body’ field contains either “salty” or “dog”.&lt;x45/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232453Z" creationid="Toru Kokubun" creationdate="20180429T232453Z">
         <seg>&lt;x44/&gt;‘body’ フィールドに「salty」または「dog」のいずれかを含む&lt;x45/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x45/&gt;body:*alt*&lt;x46/&gt; | where the &lt;x47/&gt;body&lt;x48/&gt; field contains a word that contains “alt”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075003Z" creationid="Toru Kokubun" creationdate="20180623T074603Z">
+        <seg>&lt;x45/&gt;body:*alt*&lt;x46/&gt; | &lt;x47/&gt;body&lt;x48/&gt; フィールドに「alt」を含む単語を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x49/&gt;body::salty&lt;x50/&gt; | where the &lt;x51/&gt;body&lt;x52/&gt; filed is set to “salty” and nothing more.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074720Z" creationid="Toru Kokubun" creationdate="20180623T074637Z">
+        <seg>&lt;x49/&gt;body::salty&lt;x50/&gt; | &lt;x51/&gt;body&lt;x52/&gt; フィールドに「salty」がセットされ、それ以外のものがない</seg>
       </tuv>
     </tu>
     <tu>
@@ -514,10 +756,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x5/&gt;salty OR dog&lt;x6/&gt; | containing either “salty” or “dog” (or both).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073501Z" creationid="Toru Kokubun" creationdate="20180623T073501Z">
+        <seg>&lt;x5/&gt;salty OR dog&lt;x6/&gt; | 「salty」または「dog」のいずれか（または、両方）を含んでいる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x50/&gt;containing “salty” but not “dog”.&lt;x51/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233102Z" creationid="Toru Kokubun" creationdate="20180429T232527Z">
         <seg>&lt;x50/&gt;「salty」を含むが「dog」を含んでいない&lt;x51/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x53/&gt;body::"salty dog"&lt;x54/&gt; | where the &lt;x55/&gt;body&lt;x56/&gt; field is set to “salty dog” and nothing more.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074707Z" creationid="Toru Kokubun" creationdate="20180623T074707Z">
+        <seg>&lt;x53/&gt;body::"salty dog"&lt;x54/&gt; | &lt;x55/&gt;body&lt;x56/&gt; フィールドに「salty dog」がセットされ、それ以外のものがない</seg>
       </tuv>
     </tu>
     <tu>
@@ -530,10 +788,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x57/&gt;body::salty*&lt;x58/&gt; | where the &lt;x59/&gt;body&lt;x60/&gt; field begins with “salty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074836Z" creationid="Toru Kokubun" creationdate="20180623T074836Z">
+        <seg>&lt;x57/&gt;body::salty*&lt;x58/&gt; | &lt;x59/&gt;body&lt;x60/&gt; フィールドが「salty」ではじまる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x6/&gt;will find elements…&lt;x7/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233838Z" creationid="Toru Kokubun" creationdate="20180429T231742Z">
         <seg>&lt;x6/&gt;こちらのエレメントが見つかるでしょう&lt;x7/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x61/&gt;body::*dog&lt;x62/&gt; | where the &lt;x63/&gt;body&lt;x64/&gt; field ends with “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074903Z" creationid="Toru Kokubun" creationdate="20180623T074903Z">
+        <seg>&lt;x61/&gt;body::*dog&lt;x62/&gt; | &lt;x63/&gt;body&lt;x64/&gt; フィールドが「dog」で終わる</seg>
       </tuv>
     </tu>
     <tu>
@@ -546,10 +820,34 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x65/&gt;body:*&lt;x66/&gt; | where the &lt;x67/&gt;body&lt;x68/&gt; field contains any value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075021Z" creationid="Toru Kokubun" creationdate="20180623T074932Z">
+        <seg>&lt;x65/&gt;body:*&lt;x66/&gt; | &lt;x67/&gt;body&lt;x68/&gt; フィールドになんらかの値を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x68/&gt;where the ‘body’ field contains the exact phrase “salty dog”.&lt;x69/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232645Z" creationid="Toru Kokubun" creationdate="20180429T232645Z">
         <seg>&lt;x68/&gt;‘body’ フィールドに正確なフレーズとして「salty dog」を含む&lt;x69/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x69/&gt;-body:*&lt;x70/&gt; | where the &lt;x71/&gt;body&lt;x72/&gt; field is empty.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075046Z" creationid="Toru Kokubun" creationdate="20180623T075046Z">
+        <seg>&lt;x69/&gt;-body:*&lt;x70/&gt; | &lt;x71/&gt;body&lt;x72/&gt; フィールドが空である</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x7/&gt;salty -dog&lt;x8/&gt; | containing “salty” but not “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073531Z" creationid="Toru Kokubun" creationdate="20180623T073531Z">
+        <seg>&lt;x7/&gt;salty -dog&lt;x8/&gt; | 「salty」を含むが「dog」を含んでいない</seg>
       </tuv>
     </tu>
     <tu>
@@ -574,6 +872,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233117Z" creationid="Toru Kokubun" creationdate="20180429T232914Z">
         <seg>&lt;x86/&gt;「ty」で終わる単語を含んでいる&lt;x87/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x9/&gt;"salty dog"&lt;x10/&gt; | containing the exact phrase “salty dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073548Z" creationid="Toru Kokubun" creationdate="20180623T073548Z">
+        <seg>&lt;x9/&gt;"salty dog"&lt;x10/&gt; | 正確なフレーズとして「salty dog」を含んでいる</seg>
       </tuv>
     </tu>
     <tu>
@@ -774,6 +1080,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220919Z" creationid="Toru Kokubun" creationdate="20180429T220856Z">
         <seg>テンプレート内のサブパターンへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Action requests either have a URL that begins with &lt;x1/&gt;actions/&lt;x2/&gt; (or whatever your &lt;x3/&gt; config setting is set to), or an &lt;x4/&gt;action&lt;x5/&gt; parameter in the POST request or the query string.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073008Z" creationid="Toru Kokubun" creationdate="20180623T073008Z">
+        <seg>アクションリクエストは、 &lt;x1/&gt;actions/&lt;x2/&gt;（または、コンフィグ設定の &lt;x3/&gt; にセットされたもの）ではじまる URL か、POST リクエストやクエリ文字列に &lt;x4/&gt;action&lt;x5/&gt; パラメータのいずれかを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1410,6 +1724,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Available drivers are listed in the &lt;x1/&gt;Yii2 Queue Extension documentation&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091604Z" creationid="Toru Kokubun" creationdate="20180623T091443Z">
+        <seg>利用可能なドライバは、&lt;x1/&gt;Yii2 Queue Extension documentation&lt;x2/&gt; に記載されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Base URL</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004711Z" creationid="Toru Kokubun" creationdate="20180430T004711Z">
@@ -1562,6 +1884,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Beyond that, you can use all of the same keys available to the &lt;x3/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075436Z" creationid="Toru Kokubun" creationdate="20180623T075436Z">
+        <seg>その他に、コンフィグ設定の &lt;x3/&gt; で利用可能なすべてのキーを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Beyond that, you can use all of the same keys available to the &lt;x3/&gt;defaultSearchTermOptions&lt;x4/&gt; config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234904Z" creationid="Toru Kokubun" creationdate="20180429T234904Z">
@@ -1590,6 +1920,38 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
         <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default Craft will use a &lt;x3/&gt;custom queue driver&lt;x4/&gt; based on the extension’s &lt;x5/&gt;DB driver&lt;x6/&gt;, but you can switch to a different driver by overriding Craft’s &lt;x7/&gt;queue&lt;x8/&gt; component from &lt;x9/&gt;config/app.php&lt;x10/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091559Z" creationid="Toru Kokubun" creationdate="20180623T090955Z">
+        <seg>デフォルトでは、Craft はエクステンションの &lt;x5/&gt;DB driver&lt;x6/&gt; をベースとする &lt;x3/&gt;custom queue driver&lt;x4/&gt; を使用しますが、&lt;x9/&gt;config/app.php&lt;x10/&gt; から Craft の &lt;x7/&gt;queue&lt;x8/&gt; コンポーネントを上書きすることによって、別のドライバに切り替えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default that will be the elements’ IDs, but you can customize that with the &lt;x1/&gt;select()&lt;x2/&gt; param.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T082136Z" creationid="Toru Kokubun" creationdate="20180623T082136Z">
+        <seg>デフォルトではエレメントの ID になりますが、&lt;x1/&gt;select()&lt;x2/&gt; パラメータでカスタマイズすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default that will be the element’s ID, but you can customize that with the &lt;x1/&gt;select()&lt;x2/&gt; param.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T082217Z" creationid="Toru Kokubun" creationdate="20180623T082217Z">
+        <seg>デフォルトではエレメントの ID になりますが、&lt;x1/&gt;select()&lt;x2/&gt; パラメータでカスタマイズすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default the first column will be the elements’ IDs, but you can customize that with the &lt;x1/&gt;select()&lt;x2/&gt; param.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T082432Z" creationid="Toru Kokubun" creationdate="20180623T082251Z">
+        <seg>デフォルトでは最初のカラムがエレメントの ID になりますが、&lt;x1/&gt;select()&lt;x2/&gt; パラメータでカスタマイズすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1706,6 +2068,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CRAFT_LICENSE_KEY&lt;x1/&gt; – Your Craft license key, if for some reason that must be defined by PHP rather than a license key file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090204Z" creationid="Toru Kokubun" creationdate="20180623T090204Z">
+        <seg>CRAFT_LICENSE_KEY&lt;x1/&gt; – ライセンスキーファイルではなく PHP によって定義されなければならないなんらかの理由がある場合の Craft のライセンスキー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>CRAFT_LICENSE_KEY_PATH&lt;x1/&gt; – The path that Craft should store its license key file, including its filename.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004642Z" creationid="Toru Kokubun" creationdate="20180504T004642Z">
@@ -1798,6 +2168,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T230425Z" creationid="Toru Kokubun" creationdate="20180506T222518Z">
         <seg>URL ごとではなく、（現在のサイトロケールのための）グローバルな出力をキャッシュします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling a Color field in your templates will return a &lt;x1/&gt; object, or &lt;x2/&gt;null&lt;x3/&gt; if no color was selected.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T070145Z" creationid="Toru Kokubun" creationdate="20180623T070145Z">
+        <seg>テンプレート内でカラーフィルドを呼び出すと、 &lt;x1/&gt; オブジェクトが返ります。カラーが選択されていなければ、 &lt;x2/&gt;null&lt;x3/&gt; を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3092,8 +3470,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Craft’s &lt;x1/&gt;global variables&lt;x2/&gt; are available to these templates as well:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095055Z" creationid="Toru Kokubun" creationdate="20180422T095055Z">
-        <seg>Craft の &lt;x1/&gt;グローバル変数&lt;x2/&gt; は、これらのテンプレートでも利用できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071356Z" creationid="Toru Kokubun" creationdate="20180422T095055Z">
+        <seg>Craft の&lt;x1/&gt;グローバル変数&lt;x2/&gt;は、これらのテンプレートでも利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3142,6 +3520,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063150Z" creationid="Toru Kokubun" creationdate="20180420T063150Z">
         <seg>Craft によって拡張された DateTime クラスは Craft 3 で削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s job queue is powered by the &lt;x1/&gt;Yii2 Queue Extension&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091906Z" creationid="Toru Kokubun" creationdate="20180623T090735Z">
+        <seg>Craft のジョブキューは &lt;x1/&gt;Yii2 Queue Extension&lt;x2/&gt; によって動いています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3900,24 +4286,24 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Edit &lt;x1/&gt;[Category Group Name]&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011723Z" creationid="Toru Kokubun" creationdate="20180428T011723Z">
-        <seg>&lt;x1/&gt;「カテゴリグループ名」&lt;x2/&gt;を編集する</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072403Z" creationid="Toru Kokubun" creationdate="20180428T011723Z">
+        <seg>&lt;x1/&gt;「カテゴリグループ名」&lt;x2/&gt; を編集する</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Edit &lt;x1/&gt;[Global Set Name]&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011656Z" creationid="Toru Kokubun" creationdate="20180428T011656Z">
-        <seg>&lt;x1/&gt;「グローバル設定名」&lt;x2/&gt;を編集する</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072400Z" creationid="Toru Kokubun" creationdate="20180428T011656Z">
+        <seg>&lt;x1/&gt;「グローバル設定名」&lt;x2/&gt; を編集する</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Edit &lt;x1/&gt;[Locale Name]&lt;x2/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T011459Z" creationid="Toru Kokubun" creationdate="20180428T011441Z">
-        <seg>&lt;x1/&gt;「サイト名」&lt;x2/&gt;を編集する</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072209Z" creationid="Toru Kokubun" creationdate="20180428T011441Z">
+        <seg>&lt;x1/&gt;「サイト名」&lt;x2/&gt; を編集する</seg>
       </tuv>
     </tu>
     <tu>
@@ -4086,6 +4472,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012501Z" creationid="Toru Kokubun" creationdate="20180414T012501Z">
         <seg>エレメント&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Email Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T070312Z" creationid="Toru Kokubun" creationdate="20180623T070312Z">
+        <seg>Email フィールド</seg>
       </tuv>
     </tu>
     <tu>
@@ -4318,6 +4712,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072248Z" creationid="Toru Kokubun" creationdate="20180414T234008Z">
         <seg>排他的な性差を表す言葉（guys、gentlemen、bros など）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Executing Element Queries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T081151Z" creationid="Toru Kokubun" creationdate="20180623T081151Z">
+        <seg>エレメントクエリの実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -4558,6 +4960,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212309Z" creationid="Toru Kokubun" creationdate="20180426T210926Z">
         <seg>Craft が正しく動作するためには、PHP が次の場所への書き込み権限が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For additional Global Set properties you can ise besides your custom fields see &lt;x1/&gt; for a full reference.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071558Z" creationid="Toru Kokubun" creationdate="20180623T071558Z">
+        <seg>カスタムフィールド以外で利用できる追加のグローバル設定のプロパティについては、リファレンスの &lt;x1/&gt; を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6084,8 +6494,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>If you suspect that your search indexes don’t have the latest and greatest data, you can have Craft rebuild them with the Rebuild Search Indexes tool in Settings.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180430T000349Z">
-        <seg>検索インデックスが最新かつ最高データでないと疑われる場合、設定にある検索インデックスの再構築ツールで Craft に再構築されることができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075619Z" creationid="Toru Kokubun" creationdate="20180430T000349Z">
+        <seg>検索インデックスが最新かつ最高データでないと疑われる場合、設定にある検索インデックスの再構築ツールで Craft に再構築させることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6110,6 +6520,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002527Z" creationid="Toru Kokubun" creationdate="20180429T002436Z">
         <seg>もう少し具体的であることを望むなら、&lt;x1/&gt;relatedTo&lt;x2/&gt; は次のプロパティを含むオブジェクトも受け入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to create a site that will live at a completely different domain name, just make sure that its DNS record is pointing to your server, and make sure the web server is configured to point traffic for that domain to your &lt;x1/&gt;web/&lt;x2/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075829Z" creationid="Toru Kokubun" creationdate="20180623T075829Z">
+        <seg>異なるドメイン名で稼働するサイトを作成したい場合、DNS レコードがそのサーバーを指していることを確認してください。さらに、ウェブサーバーがそのドメインへのトラフィックを &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリに向けるように設定されていることを確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7498,6 +7916,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most parameter values will get processed through &lt;x1/&gt; before being applied as a condition on the element query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T081110Z" creationid="Toru Kokubun" creationdate="20180623T081110Z">
+        <seg>ほんとんどのパラメータ値は、エレメントクエリの条件として適用される前に、 &lt;x1/&gt; を通して処理されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most parameter values will get processed through &lt;x1/&gt;craft\helpers\Db::parseParam()&lt;x2/&gt; before being applied as a condition on the element query.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T080049Z" creationid="Toru Kokubun" creationdate="20180502T080049Z">
@@ -8130,6 +8556,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you’ve defined your parameters on the query, there are multiple methods available to execute it, depending on the data you need back.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T081940Z" creationid="Toru Kokubun" creationdate="20180623T081504Z">
+        <seg>クエリにパラメータを定義したら、必要とするデータに応じて、それを実行するために利用可能な複数のメソッドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Only activates the &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag if a certain condition is met.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233321Z" creationid="Toru Kokubun" creationdate="20180506T233138Z">
@@ -8722,6 +9156,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Queue Component</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090607Z" creationid="Toru Kokubun" creationdate="20180623T090607Z">
+        <seg>Queue コンポーネント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Radio Button Options&lt;x1/&gt; – Define the radio buttons that will be available in the field.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T003227Z" creationid="Toru Kokubun" creationdate="20180426T003227Z">
@@ -9242,6 +9684,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns whether any elements match the query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T082009Z" creationid="Toru Kokubun" creationdate="20180623T082009Z">
+        <seg>クエリにマッチするエレメントがあるかどうかを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Review the requirements below or use the &lt;x1/&gt;Craft Server Check&lt;x2/&gt; script to quickly check whether you meet the requirements.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T064457Z" creationid="Toru Kokubun" creationdate="20180415T020152Z">
@@ -9482,6 +9932,18 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Searching for… | will find elements…
+-|-
+&lt;x1/&gt;salty&lt;x2/&gt; | containing “salty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073417Z" creationid="Toru Kokubun" creationdate="20180623T073417Z">
+        <seg>この検索によって | こちらのエレメントが見つかるでしょう
+-|-
+&lt;x1/&gt;salty&lt;x2/&gt; | 「salty」という単語を含んでいる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Searching&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012003Z" creationid="Toru Kokubun" creationdate="20180414T012003Z">
@@ -9558,6 +10020,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000454Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
         <seg>&lt;x1/&gt;Craft 3 のためのプラグインアップデート&lt;x2/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x2/&gt;Enabling Fuzzy Search by Default&lt;x3/&gt; for more info.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075236Z" creationid="Toru Kokubun" creationdate="20180623T075236Z">
+        <seg>詳細については、 &lt;x2/&gt;Enabling Fuzzy Search by Default&lt;x3/&gt; を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10938,6 +11408,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt; and &lt;x2/&gt; config settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090357Z" creationid="Toru Kokubun" creationdate="20180623T090357Z">
+        <seg>&lt;x1/&gt; と &lt;x2/&gt; のコンフィグ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;.htaccess&lt;x2/&gt; file that &lt;x3/&gt;comes with Craft&lt;x4/&gt; will redirect all would-be 404 requests over to &lt;x5/&gt;index.php&lt;x6/&gt; behind the scenes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T030714Z" creationid="Toru Kokubun" creationdate="20180429T030636Z">
@@ -11422,6 +11900,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T032626Z" creationid="Toru Kokubun" creationdate="20180429T032626Z">
         <seg>コントローラーがそれをキープし続けることを許可するかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The current block will get set to that &lt;x1/&gt;block&lt;x2/&gt; variable we’ve defined, and it will be a &lt;x3/&gt; model.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T070533Z" creationid="Toru Kokubun" creationdate="20180623T070533Z">
+        <seg>定義済みの変数 &lt;x1/&gt;block&lt;x2/&gt; にセットされる現在のブロックは、&lt;x3/&gt; モデルになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12540,8 +13026,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>There are also some cases where it’s &lt;x1/&gt;not&lt;x2/&gt; a good idea to use them:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T235958Z" creationid="Toru Kokubun" creationdate="20180506T235918Z">
-        <seg>それらを使用するのがよいアイデア&lt;x1/&gt;ではない&lt;x2/&gt;場合のいくつかの例です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T093005Z" creationid="Toru Kokubun" creationdate="20180506T235918Z">
+        <seg>それらを使用するのがよいアイデア &lt;x1/&gt;ではない&lt;x2/&gt; 場合のいくつかの例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12826,6 +13312,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This code can be simplified using the &lt;x1/&gt;switch&lt;x2/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T070743Z" creationid="Toru Kokubun" creationdate="20180623T070743Z">
+        <seg>このコードは &lt;x1/&gt;switch&lt;x2/&gt; タグを利用して、簡略化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This code of conduct applies to all spaces used by the Craft community for communication.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032548Z" creationid="Toru Kokubun" creationdate="20180414T032548Z">
@@ -13090,6 +13584,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tip: If this parameter is omitted, your &lt;x1/&gt; config setting will be used to define the default duration.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T092840Z" creationid="Toru Kokubun" creationdate="20180623T092840Z">
+        <seg>ヒント：このパラメータが省略される場合、コンフィグ設定の &lt;x1/&gt; がデフォルトの継続時間を定義するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tip: If this parameter is omitted, your &lt;x1/&gt;cacheDuration&lt;x2/&gt; config setting will be used to define the default duration.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232027Z" creationid="Toru Kokubun" creationdate="20180506T232027Z">
@@ -13108,8 +13610,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Tip: The &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag will detect if there are any ungenerated &lt;x3/&gt;image transform&lt;x4/&gt; URLs within it.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T010714Z" creationid="Toru Kokubun" creationdate="20180507T010536Z">
-        <seg>ヒント：&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグは、その中にまだ生成されていない&lt;x3/&gt;画像の変換&lt;x4/&gt; URL が含まれるかどうかを検出します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T092909Z" creationid="Toru Kokubun" creationdate="20180507T010536Z">
+        <seg>ヒント：&lt;x1/&gt;{% cache %}&lt;x2/&gt; タグは、その中にまだ生成されていない &lt;x3/&gt;画像の変換&lt;x4/&gt; URL が含まれるかどうかを検出します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13770,6 +14272,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>URL Fields</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071207Z" creationid="Toru Kokubun" creationdate="20180623T071207Z">
+        <seg>URL フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>URL Rules</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T010536Z" creationid="Toru Kokubun" creationdate="20180420T010536Z">
@@ -14146,6 +14656,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>View &lt;x1/&gt;[Asset Volume Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072429Z" creationid="Toru Kokubun" creationdate="20180623T072429Z">
+        <seg>&lt;x1/&gt;「アセットソース名」&lt;x2/&gt; を表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>View past versions of the entry</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T214623Z" creationid="Toru Kokubun" creationdate="20180428T214623Z">
@@ -14246,6 +14764,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212846Z" creationid="Toru Kokubun" creationdate="20180425T212846Z">
         <seg>&lt;x1/&gt;`block.type`&lt;x2/&gt; をチェックすることによって、現在のブロックタイプのハンドルを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can determine the current block type’s handle by checking &lt;x1/&gt;block.type&lt;x2/&gt; (&lt;x3/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T070701Z" creationid="Toru Kokubun" creationdate="20180623T070627Z">
+        <seg>&lt;x1/&gt;block.type&lt;x2/&gt; （&lt;x3/&gt;）をチェックすることによって、現在のブロックタイプのハンドルを確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15026,6 +15552,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also set the &lt;x1/&gt;orderBy&lt;x2/&gt; parameter to &lt;x3/&gt;'score'&lt;x4/&gt; if you want results ordered by best-match to worst-match:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075537Z" creationid="Toru Kokubun" creationdate="20180623T075537Z">
+        <seg>検索結果をベストマッチからワーストマッチの順に並び替えたい場合、&lt;x1/&gt;orderBy&lt;x2/&gt; パラメータに &lt;x3/&gt;'score'&lt;x4/&gt; をセットすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also take advantage of Craft’s static translation support for strings throughout your templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T235039Z" creationid="Toru Kokubun" creationdate="20180430T234926Z">
@@ -15166,6 +15700,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T040611Z" creationid="Toru Kokubun" creationdate="20180429T040547Z">
         <seg>&lt;x3/&gt;craft/templates/&lt;x4/&gt; ディレクトリのルートにある &lt;x1/&gt;404.html&lt;x2/&gt; テンプレートで、サイトの 404 ページをカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize your site’s 404 page by placing a &lt;x1/&gt;404.html&lt;x2/&gt; template at the root of your &lt;x3/&gt;templates/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073105Z" creationid="Toru Kokubun" creationdate="20180623T073105Z">
+        <seg>&lt;x3/&gt;templates/&lt;x4/&gt; ディレクトリのルートにある &lt;x1/&gt;404.html&lt;x2/&gt; テンプレートで、サイトの 404 ページをカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can define additional custom aliases using the &lt;x1/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090459Z" creationid="Toru Kokubun" creationdate="20180623T090459Z">
+        <seg>&lt;x1/&gt; コンフィグ設定を利用して、追加の独自エイリアスを定義することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15962,6 +16512,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>craft.assets()&lt;x1/&gt;, &lt;x2/&gt;craft.entries()&lt;x3/&gt;, &lt;x4/&gt;craft.tags()&lt;x5/&gt;, and &lt;x6/&gt;craft.users()&lt;x7/&gt; support a &lt;x8/&gt;search&lt;x9/&gt; parameter that you can use to filter their elements by a given search query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075404Z" creationid="Toru Kokubun" creationdate="20180623T075313Z">
+        <seg>craft.assets()&lt;x1/&gt;、&lt;x2/&gt;craft.entries()&lt;x3/&gt;、&lt;x4/&gt;craft.tags()&lt;x5/&gt;、および &lt;x6/&gt;craft.users()&lt;x7/&gt;は、検索クエリを指定したエレメントの絞り込みに利用できる &lt;x8/&gt;search&lt;x9/&gt; パラメータをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>craft.assets&lt;x1/&gt;, &lt;x2/&gt;craft.entries&lt;x3/&gt;, &lt;x4/&gt;craft.tags&lt;x5/&gt;, and &lt;x6/&gt;craft.users&lt;x7/&gt; support a &lt;x8/&gt;search&lt;x9/&gt; parameter that you can use to filter their elements by a given search query.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T234320Z" creationid="Toru Kokubun" creationdate="20180429T234203Z">
@@ -16654,6 +17212,150 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232849Z" creationid="Toru Kokubun" creationdate="20180427T232849Z">
         <seg>&lt;x1/&gt;images/&lt;x2/&gt; への正しい相対パスは &lt;x3/&gt;images/&lt;x4/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Access &lt;x2/&gt;[Plugin Name]&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072113Z" creationid="Toru Kokubun" creationdate="20180623T072106Z">
+        <seg>↳&lt;x1/&gt; &lt;x2/&gt;「プラグイン名」&lt;x3/&gt; のアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Access the CP when the system is off</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072023Z" creationid="Toru Kokubun" creationdate="20180623T072023Z">
+        <seg>↳&lt;x1/&gt; システムがオフの場合に管理画面にアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Administrate users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072151Z" creationid="Toru Kokubun" creationdate="20180623T072151Z">
+        <seg>↳&lt;x1/&gt; ユーザーを管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Assign permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072142Z" creationid="Toru Kokubun" creationdate="20180623T072142Z">
+        <seg>↳&lt;x1/&gt; ユーザー権限を割り当てる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Create entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072233Z" creationid="Toru Kokubun" creationdate="20180623T072233Z">
+        <seg>↳&lt;x1/&gt; エントリを作る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Create subfolders</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072447Z" creationid="Toru Kokubun" creationdate="20180623T072447Z">
+        <seg>↳&lt;x1/&gt; サブフォルダを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Delete entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072249Z" creationid="Toru Kokubun" creationdate="20180623T072249Z">
+        <seg>↳&lt;x1/&gt; エントリを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Delete other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072357Z" creationid="Toru Kokubun" creationdate="20180623T072357Z">
+        <seg>↳&lt;x1/&gt; 他の投稿者の下書きを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Delete other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072338Z" creationid="Toru Kokubun" creationdate="20180623T072321Z">
+        <seg>↳&lt;x1/&gt; 他の投稿者のエントリを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Edit other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072345Z" creationid="Toru Kokubun" creationdate="20180623T072345Z">
+        <seg>↳&lt;x1/&gt; 他の投稿者の下書きを編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Edit other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072257Z" creationid="Toru Kokubun" creationdate="20180623T072257Z">
+        <seg>↳&lt;x1/&gt; 他の投稿者のエントリを編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Perform Craft and plugin updates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072517Z" creationid="Toru Kokubun" creationdate="20180623T072033Z">
+        <seg>↳&lt;x1/&gt; Craft CMS 起動とプラグインのアップデート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Publish entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072243Z" creationid="Toru Kokubun" creationdate="20180623T072243Z">
+        <seg>↳&lt;x1/&gt; ライブの変更を発表する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Publish other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072350Z" creationid="Toru Kokubun" creationdate="20180623T072350Z">
+        <seg>↳&lt;x1/&gt; 他の投稿者の下書きを投稿する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Publish other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072335Z" creationid="Toru Kokubun" creationdate="20180623T072305Z">
+        <seg>↳&lt;x1/&gt; 他の作成者の入力のためライブを変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Register users</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072129Z" creationid="Toru Kokubun" creationdate="20180623T072129Z">
+        <seg>↳&lt;x1/&gt; ユーザーを登録する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Remove files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072455Z" creationid="Toru Kokubun" creationdate="20180623T072455Z">
+        <seg>↳&lt;x1/&gt; ファイルとフォルダーを削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>↳&lt;x1/&gt; Upload files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072440Z" creationid="Toru Kokubun" creationdate="20180623T072440Z">
+        <seg>↳&lt;x1/&gt; アップロード</seg>
       </tuv>
     </tu>
     <tu>
