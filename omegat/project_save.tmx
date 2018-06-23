@@ -401,6 +401,16 @@ Migration names must be valid PHP class names, though we recommend sticking with
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+The tag calls &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; under the hood, which can also be accessed via the global &lt;x3/&gt;view&lt;x4/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094332Z" creationid="Toru Kokubun" creationdate="20180623T094332Z">
+        <seg>::: tip
+タグを &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; の中で呼び出し、グローバルな &lt;x3/&gt;view&lt;x4/&gt; 変数経由でアクセスすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 Unlike &lt;x1/&gt;entries&lt;x2/&gt;, Global Sets don’t have the Live Preview feature, since they aren’t associated with any one particular URL.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071505Z" creationid="Toru Kokubun" creationdate="20180623T071505Z">
@@ -436,6 +446,26 @@ You can only nest categories up to the level specified in the Max Level field Ca
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071808Z" creationid="Toru Kokubun" creationdate="20180623T071808Z">
         <seg>::: tip
 カテゴリグループの設定にある最大レベル欄で指定したレベルまでしか、カテゴリをネストできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can only use &lt;x1/&gt;for&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094006Z" creationid="Toru Kokubun" creationdate="20180623T093855Z">
+        <seg>::: tip
+&lt;x1/&gt;for&lt;x2/&gt; </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can only use &lt;x1/&gt;if&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094119Z" creationid="Toru Kokubun" creationdate="20180623T094119Z">
+        <seg>::: tip
+&lt;x1/&gt;if&lt;x2/&gt; </seg>
       </tuv>
     </tu>
     <tu>
@@ -6444,6 +6474,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you pass &lt;x1/&gt;true&lt;x2/&gt; into the last argument, the “.00” will be stripped if there’s zero cents.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095025Z" creationid="Toru Kokubun" creationdate="20180623T095025Z">
+        <seg>最後の引数に &lt;x1/&gt;true&lt;x2/&gt; を渡すと、セントがゼロであれば「.00」が削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you pass &lt;x1/&gt;true&lt;x2/&gt; into the second argument, the “.00” will be stripped if there’s zero cents.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T235442Z" creationid="Toru Kokubun" creationdate="20180505T000309Z">
@@ -10020,6 +10058,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000454Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
         <seg>&lt;x1/&gt;Craft 3 のためのプラグインアップデート&lt;x2/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;here for a list&lt;x2/&gt; of the possible &lt;x3/&gt;numberOptions&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095238Z" creationid="Toru Kokubun" creationdate="20180623T095222Z">
+        <seg>利用可能な &lt;x3/&gt;numberOptions&lt;x4/&gt; は、&lt;x1/&gt;こちらのリスト&lt;x2/&gt;を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16266,8 +16312,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>_or_&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233007Z" creationid="Toru Kokubun" creationdate="20180506T232835Z">
-        <seg>_または_&lt;x1/&gt; </seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094055Z" creationid="Toru Kokubun" creationdate="20180506T232835Z">
+        <seg>_または_&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16852,6 +16898,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005248Z" creationid="Toru Kokubun" creationdate="20180506T005248Z">
         <seg>translate&lt;x1/&gt; または &lt;x2/&gt;t&lt;x3/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>unless&lt;x1/&gt; in a single &lt;x2/&gt;{% cache %}&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094145Z" creationid="Toru Kokubun" creationdate="20180623T094145Z">
+        <seg> unless&lt;x1/&gt; のいずれかを1つの &lt;x2/&gt;{% cache %}&lt;x3/&gt;タグで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>until&lt;x1/&gt; in a single &lt;x2/&gt;{% cache %}&lt;x3/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094058Z" creationid="Toru Kokubun" creationdate="20180623T093951Z">
+        <seg> until&lt;x1/&gt; のいずれかを1つの &lt;x2/&gt;{% cache %}&lt;x3/&gt; タグで使用できます。</seg>
       </tuv>
     </tu>
     <tu>
