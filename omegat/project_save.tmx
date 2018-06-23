@@ -214,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(n/a)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025132Z" creationid="Toru Kokubun" creationdate="20180623T025132Z">
+        <seg>（該当なし）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(no replacement needed; just delete it)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062530Z" creationid="Toru Kokubun" creationdate="20180420T062530Z">
@@ -350,6 +358,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011655Z" creationid="Toru Kokubun" creationdate="20180623T011655Z">
         <seg>::: warning IS ファンへ
 サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; Only available if the `queue` component implements &lt;api:craft\queue\QueueInterface&gt;.&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025321Z" creationid="Toru Kokubun" creationdate="20180623T025321Z">
+        <seg>&lt;x1/&gt;1&lt;x2/&gt; `queue` コンポーネントが &lt;api:craft\queue\QueueInterface&gt; を実装している場合のみ、使用可能です。&lt;x3/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1058,6 +1074,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, if you already needed to fetch the actual query results, and you didn’t set the &lt;x1/&gt;offset&lt;x2/&gt; or &lt;x3/&gt;limit&lt;x4/&gt; params, you can use the &lt;x5/&gt;length&lt;x6/&gt; filter to find the total size of the results array without the need for an extra database query.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025807Z" creationid="Toru Kokubun" creationdate="20180623T025807Z">
+        <seg>代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ &lt;x1/&gt;offset&lt;x2/&gt; や &lt;x3/&gt;limit&lt;x4/&gt; パラメータをセットしていない場合、  &lt;x5/&gt;length&lt;x6/&gt; フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An array of element objects and/or IDs</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T221138Z" creationid="Toru Kokubun" creationdate="20180429T002023Z">
@@ -1302,6 +1326,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023507Z" creationid="Toru Kokubun" creationdate="20180423T023229Z">
         <seg>アセット&lt;x1/&gt;は、「設定 &gt; アセット &gt; &lt;x2/&gt;アセットソース名&lt;x4/&gt; &gt; フィールドレイアウト」のアセットソースごとに定義されたフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assets&lt;x1/&gt; use the field layout defined by their asset volume in Settings → Assets → &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; → Field Layout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T033242Z" creationid="Toru Kokubun" creationdate="20180623T033214Z">
+        <seg>アセット&lt;x1/&gt;は、「設定 &gt; アセット &gt; &lt;x2/&gt;アセットボリューム名&lt;x4/&gt; &gt; フィールドレイアウト」のアセットボリュームごとに定義されたフィールドレイアウトを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5162,6 +5194,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Holds any &lt;x1/&gt;Yii modules&lt;x2/&gt; your site might be using.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T031147Z" creationid="Toru Kokubun" creationdate="20180623T031147Z">
+        <seg>サイトで使用している &lt;x1/&gt;Yii modules&lt;x2/&gt; を保持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How does this look in practice?</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234238Z" creationid="Toru Kokubun" creationdate="20180428T234224Z">
@@ -5602,10 +5642,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are using &lt;x1/&gt;db&lt;x2/&gt; for your &lt;x3/&gt; config setting, you'll need to manually execute some SQL before attempting the Craft 3 update.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T030256Z" creationid="Toru Kokubun" creationdate="20180623T030256Z">
+        <seg>コンフィグ設定の &lt;x3/&gt; に &lt;x1/&gt;db&lt;x2/&gt; を指定している場合、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are using &lt;x1/&gt;db&lt;x2/&gt; for your &lt;x3/&gt;cacheMethod&lt;x4/&gt; config setting, you'll need to manually execute some SQL before attempting the Craft 3 update.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180421T001336Z">
         <seg>コンフィグ設定の &lt;x3/&gt;cacheMethod&lt;x4/&gt; に &lt;x1/&gt;db&lt;x2/&gt; を指定している場合、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are using &lt;x1/&gt;memcache&lt;x2/&gt; for your &lt;x3/&gt; config setting and you did not have &lt;x4/&gt;useMemcached&lt;x5/&gt; set to &lt;x6/&gt;true&lt;x7/&gt; in your &lt;x8/&gt;craft/config/memcache.php&lt;x9/&gt; config file, you'll need to install memcached on your server.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T030147Z" creationid="Toru Kokubun" creationdate="20180623T030147Z">
+        <seg>コンフィグ設定の &lt;x3/&gt; に &lt;x1/&gt;memcache&lt;x2/&gt; を指定し、設定ファイル &lt;x8/&gt;craft/config/memcache.php&lt;x9/&gt; で &lt;x4/&gt;useMemcached&lt;x5/&gt; に &lt;x6/&gt;true&lt;x7/&gt; をセットしていない場合、サーバーに memcached をインストールする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6858,6 +6914,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It still works the same, but the &lt;x4/&gt;stripZeroCents&lt;x5/&gt; argument has been renamed to &lt;x6/&gt;stripZeros&lt;x7/&gt;, and pushed back a couple notches, so you will need to update your templates if you were setting that argument.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025623Z" creationid="Toru Kokubun" creationdate="20180623T025550Z">
+        <seg>従来と同じ動きになりますが、引数 &lt;x4/&gt;stripZeroCents&lt;x5/&gt; は &lt;x6/&gt;stripZeros&lt;x7/&gt; にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It still works the same, but the &lt;x5/&gt;stripZeroCents&lt;x6/&gt; argument has been renamed to &lt;x7/&gt;stripZeros&lt;x8/&gt;, and pushed back a couple notches, so you will need to update your templates if you were setting that argument.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003315Z" creationid="Toru Kokubun" creationdate="20180420T064640Z">
@@ -7446,6 +7510,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054846Z" creationid="Toru Kokubun" creationdate="20180420T054846Z">
         <seg>&lt;x1/&gt;storage/userphotos/&lt;x2/&gt; フォルダをウェブルート下層のどこかに移動します。（例： &lt;x3/&gt;public_html/userphotos/&lt;x4/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder somewhere below your web root (e.g. &lt;x3/&gt;web/userphotos/&lt;x4/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T024857Z" creationid="Toru Kokubun" creationdate="20180623T024857Z">
+        <seg>&lt;x1/&gt;storage/userphotos/&lt;x2/&gt; フォルダをウェブルート下層のどこかに移動します。（例：&lt;x3/&gt;web/userphotos/&lt;x4/&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10330,10 +10402,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Structure sections may want to have nested paths for child entries:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T032325Z" creationid="Toru Kokubun" creationdate="20180623T032325Z">
+        <seg>ストラクチャーセクションでは、子エントリのためのネストされたパスが必要かもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Structure sections may wish to have an Entry URI Format that differs depending on whether it’s a top-level entry or a nested one:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012847Z" creationid="Toru Kokubun" creationdate="20180422T085023Z">
         <seg>ストラクチャーセクションでは、エントリがトップレベルかネストされているかによって、異なるエントリー URI 形式を持つことを望むかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structure sections might also want to include a segment before the nested path:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T032717Z" creationid="Toru Kokubun" creationdate="20180623T032717Z">
+        <seg>ストラクチャーセクションでは、ネストされたパスの前にセグメントを含めることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10994,6 +11082,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025424Z" creationid="Toru Kokubun" creationdate="20180623T025424Z">
+        <seg>&lt;x1/&gt;|currency&lt;x2/&gt; フィルタは &lt;x3/&gt; にマップされるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;|currency&lt;x2/&gt; filter now maps to &lt;x3/&gt;`craft\i18n\Formatter::asCurrency()`&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T064239Z" creationid="Toru Kokubun" creationdate="20180420T064239Z">
@@ -11150,6 +11246,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220546Z" creationid="Toru Kokubun" creationdate="20180504T220546Z">
         <seg>&lt;x1/&gt;loginPath&lt;x2/&gt; コンフィグ設定に基づく、サイトのログインページの URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The above template could also be expressed with this syntax:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T032800Z" creationid="Toru Kokubun" creationdate="20180623T032800Z">
+        <seg>上記のテンプレートは次の構文で表すこともできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14738,6 +14842,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the above Entry URI Format, a top-level entry’s URI might end up as &lt;x1/&gt;docs/templating&lt;x2/&gt;, whereas a nested entry’s URI might end up as &lt;x3/&gt;docs/templating/tags&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T032917Z" creationid="Toru Kokubun" creationdate="20180623T032917Z">
+        <seg>上記のエントリー URI 形式では、トップレベルエントリの URI は &lt;x1/&gt;docs/templating&lt;x2/&gt; で終わるかもしれないのに対して、ネストされているエントリの URI は &lt;x3/&gt;docs/templating/tags&lt;x4/&gt; で終わるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the above Entry URI Format, a top-level entry’s URI might end up as &lt;x1/&gt;templating&lt;x2/&gt;, whereas a nested entry’s URI might end up as &lt;x3/&gt;templating/tags&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T032601Z" creationid="Toru Kokubun" creationdate="20180623T032601Z">
+        <seg>上記のエントリー URI 形式では、トップレベルエントリの URI は &lt;x1/&gt;templating&lt;x2/&gt; で終わるかもしれないのに対して、ネストされているエントリの URI は &lt;x3/&gt;templating/tags&lt;x4/&gt; で終わるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With those in place, you could begin your asset volumes’ Base URL and File System Path settings with them, e.g. &lt;x1/&gt;@assetBaseUrl/user-photos&lt;x2/&gt; and &lt;x3/&gt;@assetBasePath/user-photos&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062808Z" creationid="Toru Kokubun" creationdate="20180504T062519Z">
@@ -15738,6 +15858,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assets/&lt;x1/&gt; – Stores image thumbnails, resized file icons, and copies of images stored on remote asset volumes, to save Craft an HTTP request when it needs the images to generate new thumbnails or transforms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T031338Z" creationid="Toru Kokubun" creationdate="20180623T031338Z">
+        <seg>assets/&lt;x1/&gt; – 新しいサムネイルやトランスフォームの生成にあたり画像が必要なときに Craft の HTTP リクエストを節約する目的で、画像サムネイル、リサイズされたファイルのアイコン、リモートアセットボリュームに保存された画像のコピーを格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>average()&lt;x1/&gt; – Returns the average number of all the values in the first column</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094316Z" creationid="Toru Kokubun" creationdate="20180502T094229Z">
@@ -15766,6 +15894,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055207Z" creationid="Toru Kokubun" creationdate="20180420T002219Z">
         <seg>cacheMethod&lt;x1/&gt;（&lt;x2/&gt;コンフィギュレーション &gt; データキャッシュ設定&lt;x3/&gt;をみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cacheMethod&lt;x1/&gt; (see &lt;x2/&gt;Configuration → Data Caching Config&lt;x3/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T024649Z" creationid="Toru Kokubun" creationdate="20180623T024649Z">
+        <seg>cacheMethod&lt;x1/&gt; （&lt;x2/&gt;コンフィギュレーション &gt; データキャッシュ設定&lt;x3/&gt;を参照してください。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -16158,6 +16294,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032811Z" creationid="Toru Kokubun" creationdate="20180504T032743Z">
         <seg>Craft のサポートウィジェットからサポートリクエストを送信するとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>when the &lt;x1/&gt;orderBy&lt;x2/&gt; param contains a &lt;x3/&gt; object</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025932Z" creationid="Toru Kokubun" creationdate="20180623T025932Z">
+        <seg>&lt;x1/&gt;orderBy&lt;x2/&gt; パラメータに &lt;x3/&gt; オブジェクトが含まれている場合</seg>
       </tuv>
     </tu>
     <tu>
