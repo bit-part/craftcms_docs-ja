@@ -441,16 +441,6 @@ You can only nest categories up to the level specified in the Max Level field Ca
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
-You can only use &lt;x1/&gt;if&lt;x2/&gt;</seg>
-      </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T093410Z" creationid="Toru Kokubun" creationdate="20180623T093410Z">
-        <seg>::: tip
-1つの &lt;x1/&gt;if&lt;x2/&gt;</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="EN-US">
-        <seg>::: tip
 You can override the Volume settings using the &lt;x1/&gt;config/volumes.php&lt;x2/&gt; configuration file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071714Z" creationid="Toru Kokubun" creationdate="20180623T071714Z">
