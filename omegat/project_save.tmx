@@ -421,6 +421,16 @@ The tag calls &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; under the hood, 
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+The tag calls &lt;x1/&gt;yii\web\View::registerJs()&lt;x2/&gt; under the hood, which can also be accessed via the global &lt;x3/&gt;view&lt;x4/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T111921Z" creationid="Toru Kokubun" creationdate="20180623T111921Z">
+        <seg>::: tip
+タグを &lt;x1/&gt;yii\web\View::registerJs()&lt;x2/&gt; の中で呼び出し、グローバルな &lt;x3/&gt;view&lt;x4/&gt; 変数経由でアクセスすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 Unlike &lt;x1/&gt;entries&lt;x2/&gt;, Global Sets don’t have the Live Preview feature, since they aren’t associated with any one particular URL.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071505Z" creationid="Toru Kokubun" creationdate="20180623T071505Z">
@@ -526,6 +536,16 @@ Only drivers that implement &lt;x1/&gt; will be visible within the Control Panel
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091620Z" creationid="Toru Kokubun" creationdate="20180623T091553Z">
         <seg>::: warning
 &lt;x1/&gt; を実装しているドライバだけがコントロールパネル内に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+Setting the position to &lt;x1/&gt;on load&lt;x2/&gt; or &lt;x3/&gt;on ready&lt;x4/&gt; will cause Craft to load its internal copy of jQuery onto the page (even if the template is already including its own copy), so you should probably avoid using them in front-end templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T111949Z" creationid="Toru Kokubun" creationdate="20180623T111949Z">
+        <seg>::: warning
+&lt;x1/&gt;on load&lt;x2/&gt; または &lt;x3/&gt;on ready&lt;x4/&gt; に位置をセットすると、（テンプレートがすでに独自のコピーを含めている場合でも）Craft はページに jQuery の内部コピーを読み込みます。そのため、フロントエンドのテンプレートで利用するのは避けてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5030,6 +5050,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Following your &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag, you will need to loop through this page’s elements using a &lt;x3/&gt;for&lt;x4/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112939Z" creationid="Toru Kokubun" creationdate="20180623T112939Z">
+        <seg>&lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグに続けて、&lt;x3/&gt;for&lt;x4/&gt; タグを使用することでこのページのエレメントをループする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For Craft to run properly, PHP needs to be able to write to the following places:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212309Z" creationid="Toru Kokubun" creationdate="20180426T210926Z">
@@ -5050,6 +5078,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223116Z" creationid="Toru Kokubun" creationdate="20180428T222851Z">
         <seg>カスフィールド以外で利用できる追加のグローバル設定のプロパティについては、リファレンスの &lt;x1/&gt;craft\elements\GlobalSet&lt;x2/&gt; を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example you could set it to &lt;x2/&gt;'page/'&lt;x3/&gt;, and your paginated URLs would start looking like &lt;x4/&gt;http://example.com/news/page/2&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112205Z" creationid="Toru Kokubun" creationdate="20180623T112205Z">
+        <seg>例えば、&lt;x2/&gt;'page/'&lt;x3/&gt;  をセットすると、ページ付けされた URL は &lt;x4/&gt;http://example.com/news/page/2&lt;x5/&gt; のようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6678,6 +6714,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to loop through elements linearly, use Twig’s &lt;x5/&gt;for&lt;x6/&gt; tag instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112042Z" creationid="Toru Kokubun" creationdate="20180623T112042Z">
+        <seg>エレメントを直線的にループしたい場合、代わりに Twig の &lt;x5/&gt;for&lt;x6/&gt; タグを使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to make it possible to revert your migration, &lt;x7/&gt;safeDown()&lt;x8/&gt; is where the reversion code goes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220017Z" creationid="Toru Kokubun" creationdate="20180503T104124Z">
@@ -8194,6 +8238,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011643Z" creationid="Toru Kokubun" creationdate="20180420T011626Z">
         <seg>パターンの名前付けされたパラメータは、正規表現のサブパターン（&lt;x3/&gt;(?P&lt;x4/&gt;RegExp)&lt;x5/&gt;）ではなく、フォーマット（&lt;x1/&gt;&lt;ParamName:RegExp&gt;&lt;x2/&gt;）を使用して定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Navigation examples</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T114016Z" creationid="Toru Kokubun" creationdate="20180623T114016Z">
+        <seg>ナビゲーションの実例</seg>
       </tuv>
     </tu>
     <tu>
@@ -10642,6 +10694,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Showing the elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112518Z" creationid="Toru Kokubun" creationdate="20180623T112518Z">
+        <seg>エレメントの表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Similar to Field Groups, Site Groups are for organization only.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T005235Z" creationid="Toru Kokubun" creationdate="20180430T005204Z">
@@ -11666,6 +11726,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;pageInfo&lt;x2/&gt; variable</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112957Z" creationid="Toru Kokubun" creationdate="20180623T112957Z">
+        <seg>&lt;x1/&gt;pageInfo&lt;x2/&gt; 変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;pageInfo&lt;x2/&gt; variable (or whatever you’ve called it, or &lt;x3/&gt;paginate&lt;x4/&gt; by default) provides the following properties and methods:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113246Z" creationid="Toru Kokubun" creationdate="20180623T113209Z">
+        <seg>&lt;x1/&gt;pageInfo&lt;x2/&gt; 変数（または、あなたが命名した変数、もしくは、デフォルトの &lt;x3/&gt;paginate&lt;x4/&gt;）は次のプロパティやメソッドを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;redirectInput()&lt;x2/&gt; function is provided as a shortcut.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T234438Z" creationid="Toru Kokubun" creationdate="20180420T234438Z">
@@ -11790,6 +11866,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215541Z" creationid="Toru Kokubun" creationdate="20180508T215541Z">
         <seg>&lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグは、次のパラメータを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag won’t actually output the current page’s elements for you – it will only give you an array of the elements that should be on the current page (referenced by the variable you defined in the &lt;x3/&gt;as&lt;x4/&gt; parameter.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112824Z" creationid="Toru Kokubun" creationdate="20180623T112750Z">
+        <seg>&lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグは現在のページのエレメントを実際に出力する訳ではありません。すなわち、現在のページにあるべき配列を与えるだけです（&lt;x3/&gt;as&lt;x4/&gt; パラメータで定義された変数によって参照されます）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13902,6 +13986,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T233020Z" creationid="Toru Kokubun" creationdate="20180506T233020Z">
         <seg>ヒント：&lt;x1/&gt;`if`&lt;x2/&gt; </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tip: You can use the &lt;x1/&gt; config setting to customize what comes before the actual page number in your URLs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112133Z" creationid="Toru Kokubun" creationdate="20180623T112133Z">
+        <seg>ヒント：URL の実際のページ番号の前にあるものをカスタマイズするために、コンフィグ設定の &lt;x1/&gt; を使用することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16562,6 +16654,86 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`pageInfo.currentPage`&lt;x1/&gt; – The current page number.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113431Z" creationid="Toru Kokubun" creationdate="20180623T113431Z">
+        <seg>`pageInfo.currentPage`&lt;x1/&gt; – 現在のページ番号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.firstUrl`&lt;x1/&gt; – The URL to the first page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113626Z" creationid="Toru Kokubun" creationdate="20180623T113626Z">
+        <seg>`pageInfo.firstUrl`&lt;x1/&gt; – 最初のページの URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.first`&lt;x1/&gt; – The offset of the first element on the current page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113344Z" creationid="Toru Kokubun" creationdate="20180623T113344Z">
+        <seg>`pageInfo.first`&lt;x1/&gt; – 現在のページの最初のエレメントのオフセット。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.getPageUrl( page )`&lt;x1/&gt; – Returns the URL to a given page number, or &lt;x2/&gt;null&lt;x3/&gt; if the page doesn’t exist.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113737Z" creationid="Toru Kokubun" creationdate="20180623T113737Z">
+        <seg>`pageInfo.getPageUrl( page )`&lt;x1/&gt; – 指定されたページ番号の URL、または、ページが存在しない場合は &lt;x2/&gt;null&lt;x3/&gt; を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.lastUrl`&lt;x1/&gt; – The URL to the last page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113634Z" creationid="Toru Kokubun" creationdate="20180623T113634Z">
+        <seg>`pageInfo.lastUrl`&lt;x1/&gt; – 最後のページの URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.last`&lt;x1/&gt; – The offset of the last element on the current page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113355Z" creationid="Toru Kokubun" creationdate="20180623T113355Z">
+        <seg>`pageInfo.last`&lt;x1/&gt; – 現在のページの最後のエレメントのオフセット。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.nextUrl`&lt;x1/&gt; – The URL to the next page, or &lt;x2/&gt;null&lt;x3/&gt; if you’re on the last page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113604Z" creationid="Toru Kokubun" creationdate="20180623T113604Z">
+        <seg>`pageInfo.nextUrl`&lt;x1/&gt; – 次のページの URL、または、最後のページにいる場合は &lt;x2/&gt;null&lt;x3/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.prevUrl`&lt;x1/&gt; – The URL to the previous page, or &lt;x2/&gt;null&lt;x3/&gt; if you’re on the first page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113534Z" creationid="Toru Kokubun" creationdate="20180623T113534Z">
+        <seg>`pageInfo.prevUrl`&lt;x1/&gt; – 前のページの URL、または、最初のページにいる場合は &lt;x2/&gt;null&lt;x3/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.totalPages`&lt;x1/&gt; – The total number of pages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113450Z" creationid="Toru Kokubun" creationdate="20180623T113450Z">
+        <seg>`pageInfo.totalPages`&lt;x1/&gt; – すべてのページ数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`pageInfo.total`&lt;x1/&gt; – The total number of elements across all pages</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T113417Z" creationid="Toru Kokubun" creationdate="20180623T113417Z">
+        <seg>`pageInfo.total`&lt;x1/&gt; – すべてのページのエレメントの合計数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`params`&lt;x1/&gt; – Any query string parameters that should be appended to the URL.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233104Z" creationid="Toru Kokubun" creationdate="20180504T233104Z">
@@ -16966,6 +17138,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T221650Z" creationid="Toru Kokubun" creationdate="20180508T221525Z">
         <seg>pageEntries&lt;x1/&gt; には、現在のページに属するエレメントの配列がセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pageInfo&lt;x1/&gt; gets set to a &lt;x2/&gt; object, which provides info about the current page, and some helper methods for creating links to other pages (&lt;x3/&gt;more details&lt;x4/&gt; below).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112410Z" creationid="Toru Kokubun" creationdate="20180623T112410Z">
+        <seg>pageInfo&lt;x1/&gt; には、現在のページに関する情報や他のページへのリンクを作成するためのいくつかのヘルパーメソッド（&lt;x3/&gt;詳細&lt;x4/&gt;は以下）を提供する &lt;x2/&gt; オブジェクトがセットされます。</seg>
       </tuv>
     </tu>
     <tu>
