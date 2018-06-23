@@ -361,6 +361,16 @@ If you have multiple sites using different root domains like &lt;x1/&gt;https://
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+If you save this in a template that ends with a &lt;x1/&gt;.rss&lt;x2/&gt; file extension, Craft will even serve it with an &lt;x3/&gt;application/rss+xml&lt;x4/&gt; MIME type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235645Z" creationid="Toru Kokubun" creationdate="20180623T235500Z">
+        <seg>::: tip
+ファイル拡張子 &lt;x1/&gt;.rss&lt;x2/&gt; で終わるテンプレートとして保存すると、Craft はそれを MIME タイプ &lt;x3/&gt;application/rss+xml&lt;x4/&gt; で配信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 If you used Composer to download Craft, you can probably safely skip this step.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011805Z" creationid="Toru Kokubun" creationdate="20180623T011450Z">
@@ -7618,6 +7628,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It assumes that you have a &lt;x1/&gt;global set&lt;x2/&gt; with the handle &lt;x3/&gt;globals&lt;x4/&gt;, with a field called &lt;x5/&gt;siteDescription&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235304Z" creationid="Toru Kokubun" creationdate="20180623T235247Z">
+        <seg>&lt;x5/&gt;siteDescription&lt;x6/&gt; と呼ばれるフィールドを持つ、&lt;x3/&gt;globals&lt;x4/&gt; というハンドルの &lt;x1/&gt;グローバルのセット&lt;x2/&gt; があることを前提としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can be overly technical at times, but we still recommend you read through it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032804Z" creationid="Toru Kokubun" creationdate="20180427T032752Z">
@@ -13050,6 +13068,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065655Z" creationid="Toru Kokubun" creationdate="20180420T065655Z">
         <seg>次のパラメータは削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following template can be used to provide a RSS 2.0 feed on your site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235038Z" creationid="Toru Kokubun" creationdate="20180623T235038Z">
+        <seg>次のテンプレートは、あなたのサイトで RSS 2.0 フィードを提供するために使用できます。</seg>
       </tuv>
     </tu>
     <tu>
