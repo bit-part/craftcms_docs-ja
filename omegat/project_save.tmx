@@ -310,6 +310,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>::: danger
+Accessing things via &lt;x1/&gt;craft.app&lt;x2/&gt; is considered highly advanced.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101637Z" creationid="Toru Kokubun" creationdate="20180623T101637Z">
+        <seg>::: danger
+&lt;x1/&gt;craft.app&lt;x2/&gt; 経由でアクセスすることは、高度な進化だと考えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>::: tip
 Craft doesn’t require you to create additional &lt;x1/&gt;web/&lt;x2/&gt; directories for new sites, though it’s fine if you need to.</seg>
       </tuv>
@@ -476,6 +486,16 @@ You can override the Volume settings using the &lt;x1/&gt;config/volumes.php&lt;
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071714Z" creationid="Toru Kokubun" creationdate="20180623T071714Z">
         <seg>::: tip
 設定ファイルの &lt;x1/&gt;config/volumes.php&lt;x2/&gt; を利用して、ボリューム設定を上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can use the &lt;x1/&gt;url()&lt;x2/&gt; function for appending query string parameters and/or enforcing a protocol on an absolute URL:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101407Z" creationid="Toru Kokubun" creationdate="20180623T101407Z">
+        <seg>::: tip
+クエリ文字列パラメータを追加する、および / または、絶対 URL にプロトコルを適用するために、&lt;x1/&gt;url()&lt;x2/&gt; ファンクションを使うことができます。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -930,6 +950,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;x1/&gt; object, which provides access points to various helper functions and objects for templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101515Z" creationid="Toru Kokubun" creationdate="20180623T101515Z">
+        <seg>様々なヘルパーファンクションやオブジェクトのアクセスポイントを提供する &lt;x1/&gt;  オブジェクト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;x1/&gt;DateTime&lt;x2/&gt; object defining when the cache should expire.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T232201Z" creationid="Toru Kokubun" creationdate="20180506T232142Z">
@@ -1026,10 +1054,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A reference to the &lt;x1/&gt; instance that is driving the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T102131Z" creationid="Toru Kokubun" creationdate="20180623T102131Z">
+        <seg>テンプレートを駆動している &lt;x1/&gt; インスタンスへの参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A reference to the &lt;x1/&gt;craft\web\View&lt;x2/&gt; instance that is driving the template.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222207Z" creationid="Toru Kokubun" creationdate="20180504T222207Z">
         <seg>テンプレートを駆動している &lt;x1/&gt;craft\web\View&lt;x2/&gt; インスタンスへの参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A reference to the main &lt;x1/&gt; instance (the thing you get when you type &lt;x2/&gt;Craft::$app&lt;x3/&gt; in PHP code) is also available to templates via &lt;x4/&gt;craft.app&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101600Z" creationid="Toru Kokubun" creationdate="20180623T101600Z">
+        <seg>&lt;x1/&gt; インスタンス（PHP コード内で &lt;x2/&gt;Craft::$app&lt;x3/&gt; と記述したときに取得できるもの）への参照は、&lt;x4/&gt;craft.app&lt;x5/&gt; 経由でテンプレートでも利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5154,6 +5198,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Formats a date as a human-readable timestamp, via &lt;craft\i18n\Formatter::asTimestamp()&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T100431Z" creationid="Toru Kokubun" creationdate="20180623T100431Z">
+        <seg>&lt;craft\i18n\Formatter::asTimestamp()&gt; 経由で、人が読めるタイムスタンプとして日付をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Formats a date as a human-readable timestamp, via &lt;x1/&gt;craft\i18n\Formatter::asTimestamp()&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T005057Z" creationid="Toru Kokubun" creationdate="20180506T005057Z">
@@ -5190,6 +5242,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003727Z" creationid="Toru Kokubun" creationdate="20180506T003727Z">
         <seg>ユーザーが優先する言語に応じて、割合をフォーマットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Formats a string into something that will work well as an HTML input &lt;x1/&gt;id&lt;x2/&gt;, via &lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T100126Z" creationid="Toru Kokubun" creationdate="20180623T100126Z">
+        <seg>&lt;x3/&gt; を経由して、HTML の input 要素の &lt;x1/&gt;id&lt;x2/&gt; としてうまく動作するよう、文字列をフォーマットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5742,6 +5802,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T002042Z" creationid="Toru Kokubun" creationdate="20180415T002042Z">
         <seg>Craft 2 から Craft 3 へ移行する方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If &lt;x3/&gt;true&lt;x4/&gt; is passed, the formatted date will be run through &lt;x5/&gt; before being returned.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095802Z" creationid="Toru Kokubun" creationdate="20180623T095802Z">
+        <seg>&lt;x3/&gt;true&lt;x4/&gt; を渡した場合、値を返す前にフォーマットされた日付へ &lt;x5/&gt; が実行されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7586,6 +7654,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like Twig’s core &lt;x1/&gt;date&lt;x2/&gt; filter, but with additional support for the following &lt;x3/&gt;format&lt;x4/&gt; values:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095507Z" creationid="Toru Kokubun" creationdate="20180623T095507Z">
+        <seg>Twig の &lt;x1/&gt;date&lt;x2/&gt; フィルタと同様ですが、次の &lt;x3/&gt;format&lt;x4/&gt; 値を追加サポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like Twig’s core &lt;x1/&gt;json_encode&lt;x2/&gt; filter, but if the &lt;x3/&gt;options&lt;x4/&gt; argument isn’t set, it will default to &lt;x5/&gt;JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT&lt;x6/&gt; if the response content type is either &lt;x7/&gt;text/html&lt;x8/&gt; or &lt;x9/&gt;application/xhtml+xml&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T100257Z" creationid="Toru Kokubun" creationdate="20180623T100257Z">
+        <seg>Twig の &lt;x1/&gt;json_encode&lt;x2/&gt; フィルタと同様ですが、引数 &lt;x3/&gt;options&lt;x4/&gt; がセットされておらず、レスポンスのコンテンツタイプが &lt;x7/&gt;text/html&lt;x8/&gt; または &lt;x9/&gt;application/xhtml+xml&lt;x10/&gt; の場合、デフォルトで &lt;x5/&gt;JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT&lt;x6/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like the &lt;x1/&gt;`date`&lt;x2/&gt; filter, but the result will also include a timestamp.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T001323Z" creationid="Toru Kokubun" creationdate="20180505T001310Z">
@@ -7598,6 +7682,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T004923Z" creationid="Toru Kokubun" creationdate="20180506T004923Z">
         <seg>&lt;x1/&gt;`time`&lt;x2/&gt; フィルタと同様ですが、日付よりも時間のためのものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like the &lt;x1/&gt;date&lt;x2/&gt; filter, but the result will also include a timestamp.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095830Z" creationid="Toru Kokubun" creationdate="20180623T095830Z">
+        <seg>&lt;x1/&gt;date&lt;x2/&gt; フィルタと同様ですが、結果にはタイムスタンプも含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Like the &lt;x1/&gt;time&lt;x2/&gt; filter, but for times rather than dates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T100405Z" creationid="Toru Kokubun" creationdate="20180623T100405Z">
+        <seg>&lt;x1/&gt;time&lt;x2/&gt; フィルタと同様ですが、日付よりも時間のためのものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8210,6 +8310,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that Craft will automatically redirect users to your homepage after going here; there’s no such thing as a “logout &lt;x2/&gt;page&lt;x3/&gt;”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T102031Z" creationid="Toru Kokubun" creationdate="20180623T102023Z">
+        <seg>ここに遷移した後、Craft はユーザーをホームページへ自動的にリダイレクトします。「ログアウト &lt;x2/&gt;ページ&lt;x3/&gt; 」といったものはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that Craft will automatically redirect users to your homepage after going here; there’s no such thing as a “logout &lt;x3/&gt;page&lt;x4/&gt;”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T221006Z" creationid="Toru Kokubun" creationdate="20180504T220919Z">
@@ -8814,6 +8922,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T234243Z" creationid="Toru Kokubun" creationdate="20180505T234243Z">
         <seg>PHP スクリプトは、&lt;x1/&gt;CSecurityManager::validateData&lt;x2/&gt; を経由して値を検証できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PHP scripts can validate the value via &lt;x1/&gt;Security::validateData()&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T100042Z" creationid="Toru Kokubun" creationdate="20180623T100042Z">
+        <seg>PHP スクリプトは、&lt;x1/&gt;Security::validateData()&lt;x2/&gt; を経由して値を検証できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9706,6 +9822,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Returns whether a given object is an instance of &lt;x1/&gt;, an interface used to represent components whose types are missing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T102315Z" creationid="Toru Kokubun" creationdate="20180623T102315Z">
+        <seg>指定されたオブジェクトが &lt;x1/&gt; のインスタンスかどうかを返します。型が見つからないコンポーネントを表すために使用されるインターフェースです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Returns whether a given object is an instance of &lt;x1/&gt;MissingComponentInterface&lt;x2/&gt;, an interface used to represent components whose types are missing.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T010150Z" creationid="Toru Kokubun" creationdate="20180506T010123Z">
@@ -9834,6 +9958,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runs a &lt;x1/&gt;DateInterval&lt;x2/&gt; object through &lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095859Z" creationid="Toru Kokubun" creationdate="20180623T095859Z">
+        <seg>&lt;x1/&gt;DateInterval&lt;x2/&gt; オブジェクトに &lt;x3/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Runs a &lt;x1/&gt;`DateInterval`&lt;x2/&gt; object through &lt;x3/&gt;craft\helpers\DateTimeHelper::humanDurationFromInterval()&lt;x4/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002134Z" creationid="Toru Kokubun" creationdate="20180505T001552Z">
@@ -9842,10 +9974,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runs a string through &lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T100328Z" creationid="Toru Kokubun" creationdate="20180623T100328Z">
+        <seg>文字列に &lt;x1/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Runs a string through &lt;x1/&gt;craft\helpers\Db::escapeParam&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T002348Z" creationid="Toru Kokubun" creationdate="20180506T001920Z">
         <seg>文字列に &lt;x1/&gt;craft\helpers\Db::escapeParam&lt;x2/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs an array through &lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095940Z" creationid="Toru Kokubun" creationdate="20180623T095940Z">
+        <seg>配列に &lt;x1/&gt; を実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10066,6 +10214,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095238Z" creationid="Toru Kokubun" creationdate="20180623T095222Z">
         <seg>利用可能な &lt;x3/&gt;numberOptions&lt;x4/&gt; は、&lt;x1/&gt;こちらのリスト&lt;x2/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;here for a list&lt;x2/&gt; of the possible &lt;x3/&gt;textOptions&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095420Z" creationid="Toru Kokubun" creationdate="20180623T095420Z">
+        <seg>利用可能な &lt;x3/&gt;textOptions&lt;x4/&gt; は、&lt;x1/&gt;こちらのリスト&lt;x2/&gt; を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11750,6 +11906,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The URL Craft uses to log users out, based on the &lt;x1/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101939Z" creationid="Toru Kokubun" creationdate="20180623T101939Z">
+        <seg>&lt;x1/&gt; コンフィグ設定に基づく、Craft ユーザーのログアウト URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The URL Craft uses to log users out, based on the &lt;x1/&gt;logoutPath&lt;x2/&gt; config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220730Z" creationid="Toru Kokubun" creationdate="20180504T220713Z">
@@ -11786,6 +11950,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061859Z" creationid="Toru Kokubun" creationdate="20180504T061743Z">
         <seg>リクエストのために読み込まれた &lt;x1/&gt;index.php&lt;x2/&gt; ファイルを含むフォルダの URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URL to your site’s login page, based on the &lt;x1/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101913Z" creationid="Toru Kokubun" creationdate="20180623T101913Z">
+        <seg>&lt;x1/&gt; コンフィグ設定に基づく、サイトのログインページの URL。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11962,6 +12134,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212430Z" creationid="Toru Kokubun" creationdate="20180425T212412Z">
         <seg>定義済みの変数 &lt;x1/&gt;block&lt;x2/&gt; にセットされる現在のブロックは、&lt;x3/&gt;craft\elements\MatrixBlock&lt;x4/&gt; モデルになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The currently-logged-in user, represented by a &lt;x1/&gt; object, or &lt;x2/&gt;null&lt;x3/&gt; if no one is logged in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101845Z" creationid="Toru Kokubun" creationdate="20180623T101845Z">
+        <seg>&lt;x1/&gt; オブジェクトで表される、現在ログインしているユーザー。誰もログインしていない場合は、&lt;x2/&gt;null&lt;x3/&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12750,6 +12930,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The requested site, represented by a &lt;x1/&gt; object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101749Z" creationid="Toru Kokubun" creationdate="20180623T101749Z">
+        <seg>&lt;x1/&gt; オブジェクトで表される、リクエストされたサイト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The requested site, represented by a &lt;x1/&gt;craft\models\Site&lt;x2/&gt; object.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T220149Z" creationid="Toru Kokubun" creationdate="20180504T220149Z">
@@ -13298,6 +13486,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011814Z" creationid="Toru Kokubun" creationdate="20180420T011814Z">
         <seg>新しい名前付けされたパラメータ構文（&lt;x3/&gt;&lt;ParamName:RegExp&gt;&lt;x4/&gt;）に変換しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They will be represented as &lt;x1/&gt; objects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T102219Z" creationid="Toru Kokubun" creationdate="20180623T102219Z">
+        <seg>それらは &lt;x1/&gt; オブジェクトとして表されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15070,6 +15266,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When one of those formats are used, the date will be formatted into a localized date format using &lt;craft\i18n\Formatter::asDate()&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095546Z" creationid="Toru Kokubun" creationdate="20180623T095546Z">
+        <seg>これらのフォーマットが使用されると、日付は &lt;craft\i18n\Formatter::asDate()&gt; でローカライズされた日付の書式にフォーマットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When one of those formats are used, the date will be formatted into a localized date format using &lt;x1/&gt;craft\i18n\Formatter::asDate()&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000838Z" creationid="Toru Kokubun" creationdate="20180505T000838Z">
@@ -16326,6 +16530,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`mustShowScriptName`&lt;x1/&gt; – If this is set to &lt;x2/&gt;true&lt;x3/&gt;, then the URL returned will include “index.php”, disregarding the &lt;x4/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101331Z" creationid="Toru Kokubun" creationdate="20180623T101331Z">
+        <seg>`mustShowScriptName`&lt;x1/&gt; – ここに &lt;x2/&gt;true&lt;x3/&gt; がセットされている場合、「index.php」を含めた URL が返され、コンフィグ設定の &lt;x4/&gt; は無視されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`mustShowScriptName`&lt;x1/&gt; – If this is set to &lt;x2/&gt;true&lt;x3/&gt;, then the URL returned will include “index.php”, disregarding the &lt;x4/&gt;omitScriptNameInUrls&lt;x5/&gt; config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233909Z" creationid="Toru Kokubun" creationdate="20180504T233854Z">
@@ -16378,6 +16590,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232711Z" creationid="Toru Kokubun" creationdate="20180504T232545Z">
         <seg>`sanitize`&lt;x1/&gt; – SVG が潜在的な悪意あるスクリプトのサニタイズをされるべきかどうか（デフォルトは &lt;x2/&gt;true&lt;x3/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`svg`&lt;x1/&gt; – The SVG file path, an SVG file’s contents, or an &lt;x2/&gt; object that represents an SVG file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101248Z" creationid="Toru Kokubun" creationdate="20180623T101211Z">
+        <seg>`svg`&lt;x1/&gt; – SVG ファイルパス、SVG ファイルのコンテンツ、または SVG ファイルに相当する &lt;x2/&gt; オブジェクト。</seg>
       </tuv>
     </tu>
     <tu>
