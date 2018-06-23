@@ -4602,6 +4602,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you intend to use the field with &lt;x1/&gt;entries&lt;x2/&gt;, then you can use any properties listed in the &lt;x3/&gt; documentation, such as &lt;x4/&gt;{id}&lt;x5/&gt;, &lt;x6/&gt;{slug}&lt;x7/&gt;, or even nested object properties like &lt;x8/&gt;{author.username}&lt;x9/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T034640Z" creationid="Toru Kokubun" creationdate="20180623T034629Z">
+        <seg>例えば、&lt;x1/&gt;エントリ&lt;x2/&gt;フィールドを利用したい場合、&lt;x4/&gt;{id}&lt;x5/&gt; や &lt;x6/&gt;{slug}&lt;x7/&gt;、または &lt;x8/&gt;{author.username}&lt;x9/&gt; のようなネストされたオブジェクトのプロパティなど、 &lt;x3/&gt; ドキュメントに記載されているすべてのプロパティを利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you intend to use the field with &lt;x1/&gt;entries&lt;x2/&gt;, then you can use any properties listed in the &lt;x3/&gt;craft\elements\entries&lt;x4/&gt; documentation, such as &lt;x5/&gt;{id}&lt;x6/&gt;, &lt;x7/&gt;{slug}&lt;x8/&gt;, or even nested object properties like &lt;x9/&gt;{author.username}&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T220101Z" creationid="Toru Kokubun" creationdate="20180424T215806Z">
@@ -7764,8 +7772,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Note that if you are creating the Assets field within a &lt;x1/&gt;Matrix field&lt;x2/&gt;, the source element is going to be the actual Matrix block, &lt;x3/&gt;not&lt;x4/&gt; the element that the Matrix field is being created on.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T004116Z" creationid="Toru Kokubun" creationdate="20180424T002249Z">
-        <seg>&lt;x1/&gt;行列フィールド&lt;x2/&gt;の中でアセットフィールドを作成する場合、ソースエレメントは作成された行列フィールドのエレメント&lt;x3/&gt;ではなく&lt;x4/&gt;、実際の行列ブロックになります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T034840Z" creationid="Toru Kokubun" creationdate="20180424T002249Z">
+        <seg>&lt;x1/&gt;行列フィールド&lt;x2/&gt;の中でアセットフィールドを作成する場合、ソースエレメントは作成された行列フィールドのエレメント &lt;x3/&gt;ではなく&lt;x4/&gt;、実際の行列ブロックになります。</seg>
       </tuv>
     </tu>
     <tu>
