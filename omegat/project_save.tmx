@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(See the plugins’ documentation for any additional upgrade instructions.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014628Z" creationid="Toru Kokubun" creationdate="20180623T014628Z">
+        <seg>（追加のアップグレードガイドについては、プラグインのドキュメントを参照してください。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The DateTime object is represented by the &lt;x1/&gt;d&lt;x2/&gt; variable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063639Z" creationid="Toru Kokubun" creationdate="20180420T063639Z">
@@ -282,6 +290,66 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005917Z" creationid="Toru Kokubun" creationdate="20180422T005758Z">
         <seg>.env&lt;x1/&gt; ファイルのひな形です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+Don’t forget to set &lt;x1/&gt;DB_TABLE_PREFIX="craft"&lt;x2/&gt; if that’s what your database tables are prefixed with.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014030Z" creationid="Toru Kokubun" creationdate="20180623T014030Z">
+        <seg>::: tip
+現在のテーブル接頭辞がそれである場合、&lt;x1/&gt;DB_TABLE_PREFIX="craft"&lt;x2/&gt; を忘れずにセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+If the Setup Wizard skips this step, it’s because Craft is already able to connect to your database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T012046Z" creationid="Toru Kokubun" creationdate="20180623T012046Z">
+        <seg>::: tip
+Craft がすでにデータベースに接続可能な状態であれば、このステップはスキップされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+If you used Composer to download Craft, you can probably safely skip this step.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011805Z" creationid="Toru Kokubun" creationdate="20180623T011450Z">
+        <seg>::: tip
+Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+If you’re on macOS, be careful not to lose the hidden files in there (&lt;x1/&gt;.env&lt;x2/&gt;, &lt;x3/&gt;.env.example&lt;x4/&gt;, &lt;x5/&gt;.gitignore&lt;x6/&gt;, and &lt;x7/&gt;web/.htaccess&lt;x8/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011753Z" creationid="Toru Kokubun" creationdate="20180623T011150Z">
+        <seg>::: tip
+macOS を使用している場合、そこにある不可視ファイル（&lt;x1/&gt;.env&lt;x2/&gt;、&lt;x3/&gt;.env.example&lt;x4/&gt;、&lt;x5/&gt;.gitignore&lt;x6/&gt;、および &lt;x7/&gt;web/.htaccess&lt;x8/&gt;）を失わないよう注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You should be running Composer 1.3.0 or later.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011748Z" creationid="Toru Kokubun" creationdate="20180623T011021Z">
+        <seg>::: tip
+Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning HEY IIS FANS
+Make sure your site’s AppPool account has write permissions to these folders/files as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011655Z" creationid="Toru Kokubun" creationdate="20180623T011655Z">
+        <seg>::: warning IS ファンへ
+サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -730,6 +798,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031601Z" creationid="Toru Kokubun" creationdate="20180427T031404Z">
         <seg>さらに、すべての Craft テンプレートは、いくつかの&lt;x1/&gt;グローバル変数&lt;x2/&gt;があらかじめロードされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additionally, the PHP &lt;x1/&gt;proc_*&lt;x2/&gt; methods must be enabled in order for Craft to be able to send emails.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T005915Z" creationid="Toru Kokubun" creationdate="20180623T005915Z">
+        <seg>さらに、Craft がメール送信できるよう PHP の &lt;x1/&gt;proc_*&lt;x2/&gt; メソッドを有効にする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2398,6 +2474,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configure the &lt;x1/&gt;.env&lt;x2/&gt; file in your new project with your database connection settings from your old &lt;x3/&gt;craft/config/db.php&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014102Z" creationid="Toru Kokubun" creationdate="20180623T013936Z">
+        <seg>古い &lt;x3/&gt;craft/config/db.php&lt;x4/&gt; から新しいプロジェクトの &lt;x1/&gt;.env&lt;x2/&gt; ファイルにデータベース接続設定を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure your &lt;x1/&gt;.env&lt;x2/&gt; file with your database connection settings.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234601Z" creationid="Toru Kokubun" creationdate="20180418T234232Z">
@@ -2514,6 +2598,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234845Z" creationid="Toru Kokubun" creationdate="20180418T234845Z">
         <seg>古いテンプレートを &lt;x1/&gt;craft/templates/&lt;x2/&gt; から新しいプロジェクトの &lt;x3/&gt;templates/&lt;x4/&gt; ディレクトリにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy your old user photos from &lt;x1/&gt;craft/storage/userphotos/&lt;x2/&gt; over to your new project’s &lt;x3/&gt;storage/userphotos/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014135Z" creationid="Toru Kokubun" creationdate="20180623T014135Z">
+        <seg>古いユーザーフォトを &lt;x1/&gt;craft/storage/userphotos/&lt;x2/&gt; から新しいプロジェクトの &lt;x3/&gt;storage/userphotos/&lt;x4/&gt; ディレクトリにコピーします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3146,6 +3238,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000919Z" creationid="Toru Kokubun" creationdate="20180501T000858Z">
         <seg>カスタムフィールドのパラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DOM&lt;x1/&gt; - Required for parsing XML feeds as well as &lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T005952Z" creationid="Toru Kokubun" creationdate="20180623T005952Z">
+        <seg>DOM&lt;x1/&gt; - &lt;x2/&gt; と同様に XML フィードの解析に必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5126,6 +5226,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I get the Craft installer when I access my Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014751Z" creationid="Toru Kokubun" creationdate="20180623T014751Z">
+        <seg>コントロールパネルにアクセスすると Craft のインストーラーが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I'm Just Getting Started With Craft</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T002025Z" creationid="Toru Kokubun" creationdate="20180415T002025Z">
@@ -5414,6 +5522,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this happens, it’s because your database connection settings in the &lt;x1/&gt;.env&lt;x2/&gt; file don’t quite match up to what they used to be.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T015016Z" creationid="Toru Kokubun" creationdate="20180623T015016Z">
+        <seg>これが起こるのは、&lt;x1/&gt;.env&lt;x2/&gt; ファイルのデータベース接続情報が実際に必要な情報と完全に一致しないためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this is not provided, a random key will be generated when Twig first parses the template.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222710Z" creationid="Toru Kokubun" creationdate="20180506T222710Z">
@@ -5562,6 +5678,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235618Z" creationid="Toru Kokubun" creationdate="20180419T235449Z">
         <seg>位置選択フィールドがある場合、すべてのオプションを保持したままドロップダウンフィールドに変換されます。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you had any plugins installed, you’ll need to install their Craft 3 counterparts from the “Plugin Store” section in the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014533Z" creationid="Toru Kokubun" creationdate="20180623T014501Z">
+        <seg>プラグインをインストールしている場合、コントロールパネルの「プラグインストア」セクションから Craft 3 対応版をインストールする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6814,10 +6938,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I’m getting a “Setting unknown property: craft\config\DbConfig::initSQLs” error.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T015402Z" creationid="Toru Kokubun" creationdate="20180623T015402Z">
+        <seg>「Setting unknown property: craft\config\DbConfig::initSQLs」エラーが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Just like the other field types, you can add these to your &lt;x1/&gt;section&lt;x2/&gt;, &lt;x3/&gt;user&lt;x4/&gt;, &lt;x5/&gt;asset&lt;x6/&gt;, &lt;x7/&gt;category group&lt;x8/&gt;, &lt;x9/&gt;tag group&lt;x10/&gt;, and &lt;x11/&gt;global sets&lt;x12/&gt;’ field layouts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001553Z" creationid="Toru Kokubun" creationdate="20180428T233021Z">
         <seg>他のフィールドタイプと同様に、これらを&lt;x1/&gt;セクション&lt;x2/&gt;、&lt;x3/&gt;ユーザー&lt;x4/&gt;、&lt;x5/&gt;アセット&lt;x6/&gt;、&lt;x7/&gt;カテゴリグループ&lt;x8/&gt;、&lt;x9/&gt;タググループ&lt;x10/&gt;、および&lt;x11/&gt;グローバル設定&lt;x12/&gt;のフィールドレイアウトに追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just open your &lt;x3/&gt;config/db.php&lt;x4/&gt; file and delete the line that begins with &lt;x5/&gt;'initSQLs'&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T020015Z" creationid="Toru Kokubun" creationdate="20180623T020015Z">
+        <seg>&lt;x3/&gt;config/db.php&lt;x4/&gt; ファイルを開いて、&lt;x5/&gt;'initSQLs'&lt;x6/&gt; から始まる行を削除してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7258,6 +7398,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004827Z" creationid="Toru Kokubun" creationdate="20180421T004743Z">
         <seg>詳細情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most likely you forgot to set the correct &lt;x3/&gt;DB_TABLE_PREFIX&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T015137Z" creationid="Toru Kokubun" creationdate="20180623T015137Z">
+        <seg>多くの場合、正しい &lt;x3/&gt;DB_TABLE_PREFIX&lt;x4/&gt; を設定するのを忘れています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8162,6 +8310,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T213320Z" creationid="Toru Kokubun" creationdate="20180426T213320Z">
         <seg>ダブルクォートの内側にセキュリティキーをペーストし、ファイルを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Performing the Upgrade</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T013342Z" creationid="Toru Kokubun" creationdate="20180623T012905Z">
+        <seg>アップグレードの実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -9846,6 +10002,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So to begin, create a new directory alongside your current project, and follow steps 1-3 in the &lt;x1/&gt;installation instructions&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014317Z" creationid="Toru Kokubun" creationdate="20180623T013057Z">
+        <seg>はじめに、既存のプロジェクトと並行する新しいディレクトリを作成し、&lt;x1/&gt;インストールガイド&lt;x2/&gt;のステップ 1 〜 3 に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some filters accept parameters::</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032245Z" creationid="Toru Kokubun" creationdate="20180427T032245Z">
@@ -10678,6 +10842,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;initSQLs&lt;x2/&gt; database config setting was removed in Craft 3, as it was generally only used to fix MySQL 5.7 support in Craft 2, which isn’t necessary in Craft 3.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T015940Z" creationid="Toru Kokubun" creationdate="20180623T015940Z">
+        <seg>Craft 2 の MySQL 5.7 サポートのための修正のみに使用され、もはや必要ではなくなった &lt;x1/&gt;initSQLs&lt;x2/&gt; データベース設定が Craft 3 で削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt;limit&lt;x2/&gt; param is now set to &lt;x3/&gt;null&lt;x4/&gt; (no limit) by default, rather than 100.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065925Z" creationid="Toru Kokubun" creationdate="20180420T065925Z">
@@ -11050,6 +11222,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074517Z" creationid="Toru Kokubun" creationdate="20180502T074424Z">
         <seg>利用可能なパラメータは、エレメントタイプによって異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The best way to upgrade a Craft 2 site is to approach it like you’re building a new Craft 3 site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T013512Z" creationid="Toru Kokubun" creationdate="20180623T013009Z">
+        <seg>Craft 2 サイトをアップグレードする最善の方法は、新しい Craft 3 サイトを構築するときと同様のアプローチをとることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13222,6 +13402,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Troubleshooting</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014730Z" creationid="Toru Kokubun" creationdate="20180623T014730Z">
+        <seg>トラブルシューティング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Try going to http://example.com/index.php/admin or http://example.com/index.php?p=admin instead.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014814Z" creationid="Toru Kokubun" creationdate="20180418T014814Z">
@@ -14518,6 +14706,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With Craft 3 downloaded and prepped, follow these steps to complete the upgrade:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T013738Z" creationid="Toru Kokubun" creationdate="20180623T013738Z">
+        <seg>Craft 3 をダウンロードして準備したら、次のステップに従ってアップグレードを完了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With that Entry URI Format, a top-level entry might end up with the URI &lt;x1/&gt;docs/templating&lt;x2/&gt;, whereas a nested entry might end up with the URI &lt;x3/&gt;docs/templating/tags&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012905Z" creationid="Toru Kokubun" creationdate="20180422T085228Z">
@@ -15170,6 +15366,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T014304Z" creationid="Toru Kokubun" creationdate="20180421T014223Z">
         <seg>テンプレートは HTML ドキュメントだと考えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can toggle hidden file visibility in Finder by pressing Command + Shift + &lt;x9/&gt;.&lt;x10/&gt; (period).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011408Z" creationid="Toru Kokubun" creationdate="20180623T011408Z">
+        <seg>Finder で Command + Shift + &lt;x9/&gt;.&lt;x10/&gt;（ピリオド）を押すことで、不可視ファイルの表示を切り替えることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16022,10 +16226,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>your plugins are all up-to-date, and you’ve verified that they’ve been updated for Craft 3 (you can see a report of your plugins’ Craft 3 compatibility status from the Updates page in the Craft 2 Control Panel)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014521Z" creationid="Toru Kokubun" creationdate="20180623T012850Z">
+        <seg>プラグインはすべて最新の状態で、それらが Craft 3 向けにアップデートされていることを確かめました。（Craft 2 コントロールパネルのアップデートページから、プラグインの Craft 3 互換ステータスのレポートを見ることができます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>your server meets Craft 3’s &lt;x1/&gt;**minimum requirements**&lt;x2/&gt; (Craft 3 requires PHP 7+ and at least 256 MB of memory allocated to PHP)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063921Z" creationid="Toru Kokubun" creationdate="20180418T063623Z">
         <seg>あなたのサーバーは Craft 3 の&lt;x1/&gt;**最小要件**&lt;x2/&gt;（Craft 3 には PHP 7 以降が必要で、 PHP 割当メモリが少なくとも 256MB 必要です）を満たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>your server meets Craft 3’s &lt;x1/&gt;minimum requirements&lt;x2/&gt; (Craft 3 requires PHP 7+ and at least 256 MB of memory allocated to PHP)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T012452Z" creationid="Toru Kokubun" creationdate="20180623T012452Z">
+        <seg>あなたのサーバーは Craft 3 の&lt;x1/&gt;最小要件&lt;x2/&gt;（Craft 3 には PHP 7 以降が必要で、PHP 割当メモリが少なくとも 256 MB 必要です）を満たしています。</seg>
       </tuv>
     </tu>
     <tu>
