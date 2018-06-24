@@ -1632,8 +1632,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Applying CP-defined Transforms to Images</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T040743Z" creationid="Toru Kokubun" creationdate="20180624T040743Z">
-        <seg>CP </seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T040807Z" creationid="Toru Kokubun" creationdate="20180624T040743Z">
+        <seg>CP で定義された画像の変形を適用する</seg>
       </tuv>
     </tu>
     <tu>
@@ -4122,6 +4122,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T033509Z" creationid="Toru Kokubun" creationdate="20180624T033509Z">
         <seg>コントロールパネルからトランスフォームの定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining Transforms in your Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T041356Z" creationid="Toru Kokubun" creationdate="20180624T041356Z">
+        <seg>テンプレート内でトランスフォームを定義する</seg>
       </tuv>
     </tu>
     <tu>
@@ -15198,6 +15206,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T024145Z" creationid="Toru Kokubun" creationdate="20180426T024145Z">
         <seg>選択されたユーザーをループするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To output an image with a transform applied, simply pass your transform’s handle into your asset’s &lt;x1/&gt;getUrl()&lt;x2/&gt;, &lt;x3/&gt;getWidth()&lt;x4/&gt;, and &lt;x5/&gt;getHeight()&lt;x6/&gt; functions:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T041318Z" creationid="Toru Kokubun" creationdate="20180624T041318Z">
+        <seg>トランスフォームを適用した画像を出力するには、トランスフォームのハンドルをアセットの &lt;x1/&gt;getUrl()&lt;x2/&gt;、&lt;x3/&gt;getWidth()&lt;x4/&gt;、および  &lt;x5/&gt;getHeight()&lt;x6/&gt; ファンクションに渡します。</seg>
       </tuv>
     </tu>
     <tu>
