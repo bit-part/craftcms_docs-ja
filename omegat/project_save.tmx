@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Plugin handles must begin with a letter and contain only lowercase letters, numbers, and dashes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213526Z" creationid="Toru Kokubun" creationdate="20180624T213526Z">
+        <seg>（プラグインハンドルは、文字で始まり、小文字の英字、数字、およびダッシュのみでなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(See &lt;x1/&gt;Relations&lt;x2/&gt; for more info on the &lt;x3/&gt;relatedTo&lt;x4/&gt; param.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T012406Z" creationid="Toru Kokubun" creationdate="20180424T012406Z">
@@ -146,6 +154,22 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T230339Z" creationid="Toru Kokubun" creationdate="20180504T230339Z">
         <seg>（詳細については、&lt;x5/&gt;コンフィギュレーション&lt;x6/&gt;を参照してください。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See Composer’s &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt;&lt;x7/&gt; for details.) We recommend prefixing the second segment (after the &lt;x8/&gt;/&lt;x9/&gt;) with &lt;x10/&gt;craft-&lt;x11/&gt;, to help identify that this is a Craft plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213019Z" creationid="Toru Kokubun" creationdate="20180624T212636Z">
+        <seg>（詳細については、&lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt;&lt;x7/&gt; を参照してください。）これが Craft のプラグインだと識別する手助けになるため、2番目のセグメント（&lt;x8/&gt;/&lt;x9/&gt; の後）に接頭辞 &lt;x10/&gt;craft-&lt;x11/&gt; を付けることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See the &lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; autoloading specification for details.) Note that this should &lt;x5/&gt;not&lt;x6/&gt; begin with &lt;x7/&gt;craft\&lt;x8/&gt;; use something that identifies you, the developer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213203Z" creationid="Toru Kokubun" creationdate="20180624T213013Z">
+        <seg>（詳細については、&lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; オートローディング仕様を参照してください。）これは &lt;x7/&gt;craft\&lt;x8/&gt; で始めるべき &lt;x5/&gt;ではない&lt;x6/&gt; ことに注意してください。あなたやデベロッパーを識別する何かを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +234,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T034950Z" creationid="Toru Kokubun" creationdate="20180429T033437Z">
         <seg>（このステップは、エントリやカテゴリに制限されません。プラグインもまた、エレメントの種類を追加したり、専用の URL を持つように決めることができます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(Use double-backslashes because JSON, and note this must end with &lt;x2/&gt;\\&lt;x3/&gt;.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T221124Z" creationid="Toru Kokubun" creationdate="20180624T221124Z">
+        <seg>（JSON のために二重バックスラッシュを使用し、最後が &lt;x2/&gt;\\&lt;x3/&gt; でなければならない点に注意してください。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -455,6 +487,16 @@ Migration names must be valid PHP class names, though we recommend sticking with
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+The name of your plugin directory doesn’t matter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T214646Z" creationid="Toru Kokubun" creationdate="20180624T214646Z">
+        <seg>::: tip
+プラグインのディレクトリ名は重要ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 The tag calls &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; under the hood, which can also be accessed via the global &lt;x3/&gt;view&lt;x4/&gt; variable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094332Z" creationid="Toru Kokubun" creationdate="20180623T094332Z">
@@ -480,6 +522,16 @@ Unlike &lt;x1/&gt;entries&lt;x2/&gt;, Global Sets don’t have the Live Preview 
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071505Z" creationid="Toru Kokubun" creationdate="20180623T071505Z">
         <seg>::: tip
 &lt;x1/&gt;エントリ&lt;x2/&gt;とは異なり、特定の URL と関連付けられていないグローバル設定では、ライブプレビュー機能がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+Use &lt;x1/&gt;pluginfactory.io&lt;x2/&gt; to create your plugin’s scaffolding with just a few clicks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T211737Z" creationid="Toru Kokubun" creationdate="20180624T211737Z">
+        <seg>::: tip
+数クリックでプラグインの土台を作成できる &lt;x1/&gt;pluginfactory.io&lt;x2/&gt; を利用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1090,6 +1142,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T235010Z" creationid="Toru Kokubun" creationdate="20180506T235010Z">
         <seg>エントリの大きなリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A common approach is to store them in a &lt;x1/&gt;&lt;x2/&gt;/dev/&lt;x3/&gt; folder alongside your Craft projects:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T214530Z" creationid="Toru Kokubun" creationdate="20180624T214530Z">
+        <seg>一般的なアプローチは、Craft プロジェクトと並ぶ &lt;x1/&gt;&lt;x2/&gt;/dev/&lt;x3/&gt; フォルダに保管することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2074,6 +2134,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234717Z" creationid="Toru Kokubun" creationdate="20180428T233535Z">
         <seg>Craft のリレーションを操作する前に、それがテンプレート記法に関連するため、次の用語を把握することが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before you begin working on a plugin, you need to decide on a few things:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212147Z" creationid="Toru Kokubun" creationdate="20180624T212147Z">
+        <seg>プラグイン作成に取り組む前に、いくつかのことを決めておく必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3782,6 +3850,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft will check this file to get basic information about the plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T220617Z" creationid="Toru Kokubun" creationdate="20180624T220617Z">
+        <seg>Craft はプラグインに関する基本情報を取得するために、このファイルをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft will fallback on its own template corresponding to the status code.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023450Z" creationid="Toru Kokubun" creationdate="20180507T023450Z">
@@ -3858,6 +3934,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091906Z" creationid="Toru Kokubun" creationdate="20180623T090735Z">
         <seg>Craft のジョブキューは &lt;x1/&gt;Yii2 Queue Extension&lt;x2/&gt; によって動いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s plugin architecture provides a solid foundation for building just about anything.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T210500Z" creationid="Toru Kokubun" creationdate="20180624T210500Z">
+        <seg>Craft のプラグインアーキテクチャは、何かを構築するための強固な基盤を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4226,6 +4310,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T013101Z" creationid="Toru Kokubun" creationdate="20180420T013101Z">
         <seg>説明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Developer Name&lt;x1/&gt; with your name, or the organization name that the plugin should be attributed to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222148Z" creationid="Toru Kokubun" creationdate="20180624T222148Z">
+        <seg>Developer Name&lt;x1/&gt; をあたなの名前、または、プラグインが帰属する組織名にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5502,6 +5594,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;x12/&gt;pixelandtonic/craft-recipes&lt;x13/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212732Z" creationid="Toru Kokubun" creationdate="20180624T212726Z">
+        <seg>例えば &lt;x12/&gt;pixelandtonic/craft-recipes&lt;x13/&gt; のような形です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, here’s a template that loops through a list of entries, and displays images related by an Assets field for each entry:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071801Z" creationid="Toru Kokubun" creationdate="20180624T071643Z">
@@ -6130,6 +6230,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T025320Z" creationid="Toru Kokubun" creationdate="20180429T025312Z">
         <seg>Craft はリクエストを次のように処理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s a full list of the properties that can go in that &lt;x1/&gt;extra&lt;x2/&gt; object:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222600Z" creationid="Toru Kokubun" creationdate="20180624T222600Z">
+        <seg>&lt;x1/&gt;extra&lt;x2/&gt; オブジェクトにセットできるプロパティの完全なリストは、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8286,6 +8394,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It wouldn’t hurt to take some time to read up on those concepts if you are new to Yii.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T211237Z" creationid="Toru Kokubun" creationdate="20180624T211051Z">
+        <seg>あなたが Yii を初めて習得するとしても、それらのコンセプトを読み解くために時間をかけることは苦痛にならないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Item name</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T045821Z" creationid="Toru Kokubun" creationdate="20180507T045821Z">
@@ -8358,10 +8474,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It’s required even if you don’t want to distribute your plugin via Composer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212341Z" creationid="Toru Kokubun" creationdate="20180624T212313Z">
+        <seg>Composer 経由でプラグインを配布したくない場合でも、必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>I’m getting a “Setting unknown property: craft\config\DbConfig::initSQLs” error.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T015402Z" creationid="Toru Kokubun" creationdate="20180623T015402Z">
         <seg>「Setting unknown property: craft\config\DbConfig::initSQLs」エラーが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just choose something that is easy to identify.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T214712Z" creationid="Toru Kokubun" creationdate="20180624T214712Z">
+        <seg>簡単に識別できるものを選んでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9058,6 +9190,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011643Z" creationid="Toru Kokubun" creationdate="20180420T011626Z">
         <seg>パターンの名前付けされたパラメータは、正規表現のサブパターン（&lt;x3/&gt;(?P&lt;x4/&gt;RegExp)&lt;x5/&gt;）ではなく、フォーマット（&lt;x1/&gt;&lt;ParamName:RegExp&gt;&lt;x2/&gt;）を使用して定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Namespace prefix&lt;x1/&gt; – Your plugin’s class namespaces will begin with this.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212852Z" creationid="Toru Kokubun" creationdate="20180624T212843Z">
+        <seg>名前空間接頭辞&lt;x1/&gt; – あなたのプラグインのクラス名前空間は、これで始まります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Naming things is one of the &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; in computer science, so if you can make a decision on those things, the rest of the plugin should practically write itself.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T214220Z" creationid="Toru Kokubun" creationdate="20180624T213948Z">
+        <seg>名前を決めることは、コンピュータサイエンスの中で &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; の1つです。それを決めることさえできれば、あとは実際にプラグインの内容を書くだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9838,6 +9986,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package name&lt;x1/&gt; – Used to name your Composer package.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212243Z" creationid="Toru Kokubun" creationdate="20180624T212221Z">
+        <seg>パッケージ名&lt;x1/&gt; – Composer パッケージに名前をつけるために利用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Paginated URLs will be identical to the first page’s URL, except that “/p_X_” will be appended to the end (where &lt;x1/&gt;X&lt;x2/&gt; is the page number), e.g. &lt;x3/&gt;http://example.com/news/p2&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215103Z" creationid="Toru Kokubun" creationdate="20180507T054020Z">
@@ -10022,6 +10178,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugin Name&lt;x1/&gt; with your plugin name.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222025Z" creationid="Toru Kokubun" creationdate="20180624T222025Z">
+        <seg>Plugin Name&lt;x1/&gt; をプラグイン名にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugin Settings&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230656Z" creationid="Toru Kokubun" creationdate="20180414T230656Z">
@@ -10030,10 +10194,50 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugin handle&lt;x1/&gt; – Something that uniquely identifies your plugin within the Craft ecosystem.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213321Z" creationid="Toru Kokubun" creationdate="20180624T213313Z">
+        <seg>プラグインハンドル&lt;x1/&gt; – Craft のエコシステム内でプラグインを一意に識別する何か。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugin name&lt;x1/&gt; – What your plugin will be called within the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213750Z" creationid="Toru Kokubun" creationdate="20180624T213703Z">
+        <seg>プラグイン名&lt;x1/&gt; – コントロールパネル内でプラグインを何と呼ぶか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T001634Z" creationid="Toru Kokubun" creationdate="20180421T001634Z">
         <seg>プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins are mini applications that run alongside Craft’s core code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T205954Z" creationid="Toru Kokubun" creationdate="20180624T205954Z">
+        <seg>プラグインは、Craft のコアコードと一緒に動作する小さなアプリケーションです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins can be installed and uninstalled.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T211518Z" creationid="Toru Kokubun" creationdate="20180624T211518Z">
+        <seg>プラグインのインストール、アンインストールが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins can have their own migration track.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T211552Z" creationid="Toru Kokubun" creationdate="20180624T211537Z">
+        <seg>プラグインは独自のマイグレーショントラックを持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10578,6 +10782,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234916Z" creationid="Toru Kokubun" creationdate="20180414T234916Z">
         <seg>他の人に嫌がらせを繰り返すこと。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Replace:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T221256Z" creationid="Toru Kokubun" creationdate="20180624T220839Z">
+        <seg>次の項目を書き換えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12482,6 +12694,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Technically, plugins are a superset of &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt;, which means they can have &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt;, &lt;x7/&gt;&lt;x8/&gt;&lt;x9/&gt;, &lt;x10/&gt;&lt;x11/&gt;&lt;x12/&gt;, &lt;x13/&gt;&lt;x14/&gt;&lt;x15/&gt;, and other things.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T210748Z" creationid="Toru Kokubun" creationdate="20180624T210715Z">
+        <seg>技術的には、プラグインは &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; のスーパーセットであり、&lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt;、&lt;x7/&gt;&lt;x8/&gt;&lt;x9/&gt;、&lt;x10/&gt;&lt;x11/&gt;&lt;x12/&gt;、 &lt;x13/&gt;&lt;x14/&gt;&lt;x15/&gt;、および、その他のことを持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tells Git which files it should ignore when committing changes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011615Z" creationid="Toru Kokubun" creationdate="20180422T011615Z">
@@ -13938,6 +14158,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The main benefits of Craft Plugins over Yii Modules are:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T211501Z" creationid="Toru Kokubun" creationdate="20180624T211501Z">
+        <seg>Yii モジュール上の Craft プラグインの主なメリットは、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The maximum number of levels that results may be separated from &lt;x1/&gt;ancestorOf&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T214814Z" creationid="Toru Kokubun" creationdate="20180502T214420Z">
@@ -14794,6 +15022,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They can be simple, serving a single purpose like providing a new Dashboard widget type, or they can be complex, introducing entirely new concepts to the system, like an e-commerce application.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T211059Z" creationid="Toru Kokubun" creationdate="20180624T210335Z">
+        <seg>それらはシンプルで、新しいダッシュボードウィジェットタイプを提供するようなシンプルな目的を満たすか、 Eコマースアプリケーションのような完全に新しいコンセプトをシステムに導入するような複雑であり得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They can be used in any textual fields, including Text cells within a Table field.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011834Z" creationid="Toru Kokubun" creationdate="20180624T011834Z">
@@ -14830,6 +15066,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011814Z" creationid="Toru Kokubun" creationdate="20180420T011814Z">
         <seg>新しい名前付けされたパラメータ構文（&lt;x3/&gt;&lt;ParamName:RegExp&gt;&lt;x4/&gt;）に変換しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They should be &lt;x2/&gt;kebab-cased&lt;x3/&gt;.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213546Z" creationid="Toru Kokubun" creationdate="20180624T213546Z">
+        <seg>&lt;x2/&gt;kebab-cased&lt;x3/&gt; にすべきです。）</seg>
       </tuv>
     </tu>
     <tu>
@@ -15454,6 +15698,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T231149Z" creationid="Toru Kokubun" creationdate="20180428T231149Z">
         <seg>新しいタググループを作るには、「設定 &gt; タグ」に移動し、「新しいタググループ」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a plugin, create a new directory for it somewhere on your computer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T214347Z" creationid="Toru Kokubun" creationdate="20180624T214347Z">
+        <seg>プラグインを作るため、コンピュータのどこかに新しいディレクトリを作成してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16206,6 +16458,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215928Z" creationid="Toru Kokubun" creationdate="20180508T215922Z">
         <seg>&lt;x5/&gt;limit&lt;x6/&gt; パラメータを使用して、ページごとに表示するエレメント数を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use this template as a starting point for your &lt;x1/&gt;composer.json&lt;x2/&gt; file:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T220714Z" creationid="Toru Kokubun" creationdate="20180624T220714Z">
+        <seg>&lt;x1/&gt;composer.json&lt;x2/&gt; ファイルの出発点として、このテンプレートを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16998,6 +17258,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012559Z" creationid="Toru Kokubun" creationdate="20180422T014547Z">
         <seg>セクション内のエントリが URL を持つかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether or not you wish to make your plugin available as a Composer dependency (you probably should), your plugin must have a &lt;x1/&gt;composer.json&lt;x2/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T220527Z" creationid="Toru Kokubun" creationdate="20180624T220527Z">
+        <seg>プラグインを Composer 依存として利用可能（おそらくそうすべきです）にしたいかどうかに関わらず、&lt;x1/&gt;composer.json&lt;x2/&gt; ファイルを持たなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18682,6 +18950,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://developer-url.com&lt;x1/&gt; with the URL to the website the developer name should link to in the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222322Z" creationid="Toru Kokubun" creationdate="20180624T222241Z">
+        <seg>https://developer-url.com&lt;x1/&gt; をコントロールパネルの開発者名にリンクするウェブサイトの URL にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iOS: Safari 9.1 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015429Z" creationid="Toru Kokubun" creationdate="20180415T015429Z">
@@ -18770,6 +19046,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ns\\prefix\\&lt;x1/&gt; with your namespace prefix.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T221216Z" creationid="Toru Kokubun" creationdate="20180624T220957Z">
+        <seg>ns\\prefix\\&lt;x1/&gt; を名前空間接頭辞にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>number&lt;x1/&gt; – Any positive integer</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215332Z" creationid="Toru Kokubun" creationdate="20180429T215332Z">
@@ -18802,6 +19086,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>package/name&lt;x1/&gt; with your package name.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T221212Z" creationid="Toru Kokubun" creationdate="20180624T220915Z">
+        <seg>package/name&lt;x1/&gt; をパッケージ名にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>page&lt;x1/&gt; – Any positive integer</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T215345Z" creationid="Toru Kokubun" creationdate="20180429T215345Z">
@@ -18830,6 +19122,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T221647Z" creationid="Toru Kokubun" creationdate="20180508T221456Z">
         <seg>pageInfo&lt;x1/&gt; には、現在のページに関する情報や他のページへのリンクを作成するためのいくつかのヘルパーメソッド（&lt;x4/&gt;詳細&lt;x5/&gt; は以下）を提供する &lt;x2/&gt;craft\web\twig\variables\Paginate&lt;x3/&gt; オブジェクトがセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>plugin-handle&lt;x1/&gt; with your plugin handle.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222015Z" creationid="Toru Kokubun" creationdate="20180624T222015Z">
+        <seg>plugin-handle&lt;x1/&gt; をプラグインハンドルにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19110,6 +19410,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063539Z" creationid="Toru Kokubun" creationdate="20180418T063539Z">
         <seg>あなたは&lt;x1/&gt;Craft 3 の変更点&lt;x2/&gt;を確認しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>you@example.com&lt;x1/&gt; with your support email.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T221208Z" creationid="Toru Kokubun" creationdate="20180624T221208Z">
+        <seg>you@example.com&lt;x1/&gt; をサポート用のメールアドレスにします。</seg>
       </tuv>
     </tu>
     <tu>
