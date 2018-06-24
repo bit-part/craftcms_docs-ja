@@ -1614,6 +1614,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Another &lt;x1/&gt;N+1&lt;x2/&gt; problem occurs when looping through a set of assets, and applying image transforms to each of them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T084001Z" creationid="Toru Kokubun" creationdate="20180624T084001Z">
+        <seg>アセットをセットしたループでそれぞれに画像の変形を適用する場合、別の &lt;x1/&gt;N+1&lt;x2/&gt; 問題が発生します。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any HTML attributes that should be included on the &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; tag.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031904Z" creationid="Toru Kokubun" creationdate="20180507T031904Z">
@@ -2298,6 +2306,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002244Z" creationid="Toru Kokubun" creationdate="20180429T002244Z">
         <seg>それによって、ソースかターゲットかに関わらず、Craft は与えられたエレメントに関連するすべてのエレメントを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By requiring the block type handle as part of the eager-loading key, Matrix can be confident that it is eager-loading the right set of elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T083332Z" creationid="Toru Kokubun" creationdate="20180624T083131Z">
+        <seg>eager-loading キーの一部にブロックタイプのハンドルを必要とすることで、行列が正しいエレメントを eager-loading していると確信できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4654,6 +4670,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Eager-Loading Elements Related to Matrix Blocks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T083645Z" creationid="Toru Kokubun" creationdate="20180624T082021Z">
+        <seg>行列ブロックに関連するエレメントの Eager-Loading</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Eager-Loading Elements&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230245Z" creationid="Toru Kokubun" creationdate="20180414T230245Z">
@@ -4662,18 +4686,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Eager-Loading Image Transform Indexes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T083633Z" creationid="Toru Kokubun" creationdate="20180624T083633Z">
+        <seg>イメージ変換インデックスの Eager-Loading</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Eager-Loading Multiple Sets of Elements</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080420Z" creationid="Toru Kokubun" creationdate="20180624T075950Z">
-        <seg>エレメントの複数セットを Eager-Loading する</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T083732Z" creationid="Toru Kokubun" creationdate="20180624T075950Z">
+        <seg>エレメントの複数セットの Eager-Loading</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Eager-Loading Nested Sets of Elements</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080502Z" creationid="Toru Kokubun" creationdate="20180624T080502Z">
-        <seg>エレメントのネストされたセットを Eager-Loading する</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T083723Z" creationid="Toru Kokubun" creationdate="20180624T080502Z">
+        <seg>エレメントのネストされたセットの Eager-Loading</seg>
       </tuv>
     </tu>
     <tu>
@@ -5438,6 +5470,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each transform, Craft needs to execute a query to see if the transform already exists.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T084240Z" creationid="Toru Kokubun" creationdate="20180624T084230Z">
+        <seg>それぞれのトランスフォームに対して、Craft が既に変換された画像が存在するか確認するためにクエリを実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example you could set it to &lt;x2/&gt;'page/'&lt;x3/&gt;, and your paginated URLs would start looking like &lt;x4/&gt;http://example.com/news/page/2&lt;x5/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112205Z" creationid="Toru Kokubun" creationdate="20180623T112205Z">
@@ -5600,8 +5640,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>For the curious, here are the types of things you will find in craft/storage/runtime (though this is not a comprehensive list):</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003855Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
-        <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtim で確認できるものを掲載します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T091039Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
+        <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtime で確認できるものを掲載します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7654,6 +7694,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Image transform indexes can be eager-loaded on assets that are also eager-loaded:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T084824Z" creationid="Toru Kokubun" creationdate="20180624T084755Z">
+        <seg>イメージ変換インデックスは、eager-loaded されるアセットにも eager-loaded できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ImageMagick is preferred.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020710Z" creationid="Toru Kokubun" creationdate="20180415T020710Z">
@@ -8062,10 +8110,18 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Intro to Plugin Dev</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085337Z" creationid="Toru Kokubun" creationdate="20180624T085247Z">
+        <seg>プラグイン開発の紹介</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Intro to Plugin Dev&lt;x1/&gt;</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230522Z" creationid="Toru Kokubun" creationdate="20180414T230522Z">
-        <seg>プラグイン開発への導入&lt;x1/&gt;</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085353Z" creationid="Toru Kokubun" creationdate="20180414T230522Z">
+        <seg>プラグイン開発の紹介&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8498,6 +8554,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T023655Z" creationid="Toru Kokubun" creationdate="20180426T023531Z">
         <seg>リミット&lt;x1/&gt; – フィールドと一度に関連付けできるユーザー数の上限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loading your plugin into a Craft project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085946Z" creationid="Toru Kokubun" creationdate="20180624T085923Z">
+        <seg>Craft プロジェクトへのプラグインの読み込み</seg>
       </tuv>
     </tu>
     <tu>
@@ -9162,6 +9226,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220708Z" creationid="Toru Kokubun" creationdate="20180418T220609Z">
         <seg>この最後にある（他の領域のドキュメント内で参照されている）"プロジェクトルート"は &lt;x1/&gt;craft/&lt;x2/&gt; ディレクトリであり、その親ディレクトリ&lt;x3/&gt;ではない&lt;x4/&gt;ことに注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that each transform definition you want to eager-load can either be a string (the handle of a transform defined in Settings → Assets → Image Transforms) or an object that defines the transform properties.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085134Z" creationid="Toru Kokubun" creationdate="20180624T085106Z">
+        <seg>eager-load したいそれぞれのトランスフォームの定義は、文字列（「設定 &gt; アセット &gt; 画像の変形」で定義されたトランスフォームのハンドル)、 または、トランスフォームプロパティを定義したオブジェクトのいずれかです。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -9934,6 +10006,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugin Icons</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085655Z" creationid="Toru Kokubun" creationdate="20180624T085655Z">
+        <seg>プラグインのアイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugin Migrations&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102116Z" creationid="Toru Kokubun" creationdate="20180414T231022Z">
@@ -10038,6 +10118,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Preparation</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085727Z" creationid="Toru Kokubun" creationdate="20180624T085727Z">
+        <seg>準備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preparing for the Upgrade</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063025Z" creationid="Toru Kokubun" creationdate="20180418T063025Z">
@@ -10066,6 +10154,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215130Z" creationid="Toru Kokubun" creationdate="20180623T214804Z">
         <seg>前 / 次のページリンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Primary Plugin Class</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085850Z" creationid="Toru Kokubun" creationdate="20180624T085850Z">
+        <seg>プライマリプラグインクラス</seg>
       </tuv>
     </tu>
     <tu>
@@ -11518,6 +11614,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084451Z" creationid="Toru Kokubun" creationdate="20180415T084451Z">
         <seg>データベースのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting up the basic file structure</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085828Z" creationid="Toru Kokubun" creationdate="20180624T085828Z">
+        <seg>基本ファイル構成の設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -14058,6 +14162,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reason for this is that Matrix fields can have multiple sub-fields that each share the same handle, as long as they’re in different block types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T082922Z" creationid="Toru Kokubun" creationdate="20180624T082904Z">
+        <seg>この理由は、異なるブロックタイプである限り、行列フィールドでは同じハンドルを共有する複数のサブフィールドをそれぞれに持つことができるためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reference code(s) used to identify the element(s)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025353Z" creationid="Toru Kokubun" creationdate="20180503T025326Z">
@@ -14222,6 +14334,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T111213Z" creationid="Toru Kokubun" creationdate="20180426T111213Z">
         <seg>Composer で Craft をロード後に表示される成功メッセージ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The syntax for eager-loading relations from Matrix blocks is a little different than other contexts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T082635Z" creationid="Toru Kokubun" creationdate="20180624T082249Z">
+        <seg>行列ブロックから関連フィールドを eager-loading するための構文は、他のコンテキストと少し異なります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14738,6 +14858,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This applies if the Matrix blocks themselves are being eager-loaded, too.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T083418Z" creationid="Toru Kokubun" creationdate="20180624T083418Z">
+        <seg>これは行列ブロック自体が eager-loaded されている場合にも、当てはまります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This behavior has changed in Craft 3, though.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221857Z" creationid="Toru Kokubun" creationdate="20180420T221111Z">
@@ -15006,6 +15134,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023931Z" creationid="Toru Kokubun" creationdate="20180507T023931Z">
         <seg>このパラメータは必須です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This problem can be solved with the &lt;x1/&gt;withTransforms&lt;x2/&gt; asset criteria parameter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T084335Z" creationid="Toru Kokubun" creationdate="20180624T084318Z">
+        <seg>この問題は、アセット基準パラメータの &lt;x1/&gt;withTransforms&lt;x2/&gt; で解決することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16234,6 +16370,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using the &lt;x1/&gt;withTransforms&lt;x2/&gt; param has no effect on how you’d access image transforms further down in the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T084708Z" creationid="Toru Kokubun" creationdate="20180624T084708Z">
+        <seg>&lt;x1/&gt;withTransforms&lt;x2/&gt; パラメータを使っても、テンプレート内の変換された画像にアクセスする方法には影響を与えません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Utilities</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T031023Z" creationid="Toru Kokubun" creationdate="20180418T030832Z">
@@ -16498,6 +16642,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What are Plugins?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085646Z" creationid="Toru Kokubun" creationdate="20180624T085646Z">
+        <seg>プラグインとは？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What happens in between is up to the tag you’re using.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T023839Z" creationid="Toru Kokubun" creationdate="20180427T023536Z">
@@ -16630,6 +16782,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T235244Z" creationid="Toru Kokubun" creationdate="20180426T235131Z">
         <seg>&lt;x1/&gt;エントリ&lt;x2/&gt;や&lt;x3/&gt;カテゴリ&lt;x4/&gt;で読み込む、テンプレートの URL を選択するとき</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When eager-loading nested sets of elements, you can apply parameters at any level of the eager-loading path.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T081932Z" creationid="Toru Kokubun" creationdate="20180624T081932Z">
+        <seg>エレメントのネストされたセットで eager-loading する場合、eager-loading パスの任意のレベルでパラメータを適用することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17942,6 +18102,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004327Z" creationid="Toru Kokubun" creationdate="20180430T004305Z">
         <seg>サイトに含めたいセクションだけを有効化できる能力により、エントリレベルでマルチサイトのコンテンツを管理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You need to prefix your relational field’s handle with the block type’s handle:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T082604Z" creationid="Toru Kokubun" creationdate="20180624T082604Z">
+        <seg>関連フィールドのハンドルの前に、ブロックタイプのハンドルを付ける必要があります。</seg>
       </tuv>
     </tu>
     <tu>
