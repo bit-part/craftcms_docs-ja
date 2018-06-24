@@ -1238,10 +1238,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Accessing Eager-Loaded Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T074300Z" creationid="Toru Kokubun" creationdate="20180624T074300Z">
+        <seg>Eager-Loaded エレメントへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Accessing Subpatterns in your Templates</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220919Z" creationid="Toru Kokubun" creationdate="20180429T220856Z">
         <seg>テンプレート内のサブパターンへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Accessing eager-loaded elements works a little differently than accessing lazy-loaded elements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T074403Z" creationid="Toru Kokubun" creationdate="20180624T074403Z">
+        <seg>eager-loaded エレメントへのアクセスは、lazy-loaded エレメントへのアクセスとは少し異なる働きをします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6078,6 +6094,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s how to apply the &lt;x1/&gt;with&lt;x2/&gt; param to our example:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073527Z" creationid="Toru Kokubun" creationdate="20180624T073517Z">
+        <seg>先の例に &lt;x1/&gt;with&lt;x2/&gt; パラメータを適用する方法は、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here’s how you can resolve this:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054736Z" creationid="Toru Kokubun" creationdate="20180420T054729Z">
@@ -6170,6 +6194,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T054640Z" creationid="Toru Kokubun" creationdate="20180420T054640Z">
         <seg>しかしながら、このフォルダはウェブルートよりも上位階層にあるため、HTTP リクエストでアクセスできません。 そのため、このボリュームをアクセスできる状態にするまで、ユーサーフォトはフロントエンドで動作しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However when the assets &lt;x1/&gt;are&lt;x2/&gt; eager-loaded, &lt;x3/&gt;entry.assetsField&lt;x4/&gt; gets overwritten with an array of the eager-loaded assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075307Z" creationid="Toru Kokubun" creationdate="20180624T075208Z">
+        <seg>しかしながら、アセットを eager-loaded &lt;x1/&gt;している&lt;x2/&gt; 場合、&lt;x3/&gt;entry.assetsField&lt;x4/&gt; は eager-loaded されたアセットの配列で上書きされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6520,8 +6552,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>If there are 50 entries, this innocent-looking template code will cost the page 51 queries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T072611Z" creationid="Toru Kokubun" creationdate="20180624T072611Z">
-        <seg>50 エントリがある場合、この問題なさそうに見えるテンプレートコードは、そのページのために 51 クエリ分のコストがかかります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073925Z" creationid="Toru Kokubun" creationdate="20180624T072611Z">
+        <seg>50エントリがある場合、この問題なさそうに見えるテンプレートコードは、そのページのために51クエリ分のコストがかかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7742,6 +7774,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In our example, we’re grabbing the first asset with &lt;x9/&gt;entry.assetsField[0]&lt;x10/&gt;, and we’re using Twig’s &lt;x11/&gt;null-coalescing operator&lt;x12/&gt; (&lt;x13/&gt;??&lt;x14/&gt;) to define a default value (&lt;x15/&gt;null&lt;x16/&gt;) in case there is no related asset.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075800Z" creationid="Toru Kokubun" creationdate="20180624T075800Z">
+        <seg>この例では、最初のアセットを &lt;x9/&gt;entry.assetsField[0]&lt;x10/&gt; で取得しています。そして、関連付けられたアセットがない場合のデフォルト値（&lt;x15/&gt;null&lt;x16/&gt;）を定義するため、Twig の &lt;x11/&gt;null-coalescing 演算子&lt;x12/&gt; (&lt;x13/&gt;??&lt;x14/&gt;) を使っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In reality it could be &lt;x3/&gt;entry.postDate&lt;x4/&gt;, &lt;x5/&gt;now&lt;x6/&gt;, etc.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063703Z" creationid="Toru Kokubun" creationdate="20180420T063703Z">
@@ -7914,6 +7954,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180220T221629Z" creationid="Toru Kokubun" creationdate="20180220T221629Z">
         <seg>Craft のインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead you must stick to the standard array syntaxes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075458Z" creationid="Toru Kokubun" creationdate="20180624T075444Z">
+        <seg>代わりに、あなたは標準の配列構文に耐えなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11602,6 +11650,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So &lt;x5/&gt;one()&lt;x6/&gt;, &lt;x7/&gt;all()&lt;x8/&gt;, and other element query methods are not available.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075326Z" creationid="Toru Kokubun" creationdate="20180624T075242Z">
+        <seg>そのため、&lt;x5/&gt;one()&lt;x6/&gt;、&lt;x7/&gt;all()&lt;x8/&gt;、またはその他のエレメントクエリのメソッドを利用することができません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So don’t call &lt;x1/&gt;all()&lt;x2/&gt; on the object.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T220145Z" creationid="Toru Kokubun" creationdate="20180508T220145Z">
@@ -12222,6 +12278,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023733Z" creationid="Toru Kokubun" creationdate="20180423T023654Z">
         <seg>タグ&lt;x1/&gt;は、 「設定 &gt; タグ &gt; &lt;x2/&gt;タググループ名&lt;x4/&gt; &gt; フィールドレイアウト」のタググループごとに定義されたフィールドレイアウトを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Take a look at how we assigned the &lt;x1/&gt;image&lt;x2/&gt; variable in our examples, before and after applying the &lt;x3/&gt;with&lt;x4/&gt; param:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T074548Z" creationid="Toru Kokubun" creationdate="20180624T074548Z">
+        <seg>&lt;x3/&gt;with&lt;x4/&gt; パラメータを適用する前後の例で、変数 &lt;x1/&gt;image&lt;x2/&gt; をどのように割り当てているかを見てみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13948,8 +14012,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>The purpose of the &lt;x1/&gt;with&lt;x2/&gt; param is to tell Craft which sub-elements you’re going to be needing in advance, so that it can fetch them all up front, in as few queries as possible.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073203Z" creationid="Toru Kokubun" creationdate="20180624T073203Z">
-        <seg>&lt;x1/&gt;with&lt;x2/&gt; パラメータの目的は、必要とするサブエレメントを前もって Craft に伝えることで、可能なかぎり少ないクエリでso that it can fetch them all up front, in as few queries as possible.</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073415Z" creationid="Toru Kokubun" creationdate="20180624T073203Z">
+        <seg>&lt;x1/&gt;with&lt;x2/&gt; パラメータの目的は、必要とするサブエレメントを事前に Craft へ伝えることで、可能な限り少ないクエリですべてのエレメントを前もって取得できるようにすることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14318,6 +14382,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102346Z" creationid="Toru Kokubun" creationdate="20180503T102327Z">
         <seg>次のコマンドを実行し、新しいコンテンツマイグレーションファイルを生成します（&lt;x1/&gt;MIGRATION_NAME&lt;x2/&gt; を実際のマイグレーション名に置き換えます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then the entries are automatically populated with their respective related assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T074210Z" creationid="Toru Kokubun" creationdate="20180624T074138Z">
+        <seg>そして、エントリにはそれぞれに関連づけられたアセットのデータが自動的に入ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14966,6 +15038,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023632Z" creationid="Toru Kokubun" creationdate="20180507T023632Z">
         <seg>このタグは、レスポンス上に新しい HTTP ヘッダーをセットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This template code will only cost 3 queries: one to fetch the entries, one to determine which assets should be eager-loaded, and one to fetch the assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073906Z" creationid="Toru Kokubun" creationdate="20180624T073742Z">
+        <seg>このレンプレートコードは、たった3クエリしかコストがかかりません。エントリを取り出すための1つ、どのアセットを eager-loaded すべきか決定するための1つ、そして、アセットを取り出すための1つです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16542,6 +16622,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T000838Z" creationid="Toru Kokubun" creationdate="20180505T000838Z">
         <seg>これらのフォーマットが使用されると、日付は &lt;x1/&gt;craft\i18n\Formatter::asDate()&lt;x2/&gt; でローカライズされた日付の書式にフォーマットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the assets &lt;x1/&gt;aren’t&lt;x2/&gt; eager-loaded, &lt;x3/&gt;entry.assetsField&lt;x4/&gt; gives you an &lt;x5/&gt;element query&lt;x6/&gt; that is preconfigured to return the related assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075054Z" creationid="Toru Kokubun" creationdate="20180624T074947Z">
+        <seg>アセットを eager-loaded &lt;x1/&gt;していない&lt;x2/&gt; 場合、&lt;x3/&gt;entry.assetsField&lt;x4/&gt; は関連付けられたアセットを返すよう事前設定された &lt;x5/&gt;エレメントクエリ&lt;x6/&gt; を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19084,8 +19172,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>– Scales the image so that it is as big as possible with all dimensions fitting within the specified width and height.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T035733Z" creationid="Toru Kokubun" creationdate="20180624T034831Z">
-        <seg>– すべての寸法が指定された幅と高さに収まる範囲で、可能なかぎり大きいサイズになるよう画像を拡大・縮小します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073224Z" creationid="Toru Kokubun" creationdate="20180624T034831Z">
+        <seg>– すべての寸法が指定された幅と高さに収まる範囲で、可能な限り大きいサイズになるよう画像を拡大・縮小します。</seg>
       </tuv>
     </tu>
     <tu>
