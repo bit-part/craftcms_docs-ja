@@ -1486,6 +1486,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All hope is not lost, though.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T072719Z" creationid="Toru Kokubun" creationdate="20180624T072719Z">
+        <seg>しかし、すべての希望が失われた訳ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All object properties (the config setting names) must be wrapped in double quotes</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221629Z" creationid="Toru Kokubun" creationdate="20180419T221629Z">
@@ -1506,6 +1514,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T220922Z" creationid="Toru Kokubun" creationdate="20180422T220922Z">
         <seg>サイトのすべてのコンテンツはフィールドに入力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the same settings available to CP-defined transforms are also available to template-defined transforms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070539Z" creationid="Toru Kokubun" creationdate="20180624T070523Z">
+        <seg>CP で定義されたトランスフォームで利用可能なすべて設定は、同様にテンプレートで定義されたトランスフォームでも利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4288,8 +4304,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Double-clicking on a category will bring up a modal that lets you edit its name, slug, and any fields you’ve assigned to the group.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214232Z" creationid="Toru Kokubun" creationdate="20180427T214232Z">
-        <seg>カテゴリをダブルクリックすると、カテゴリの名前やスラグ、およびグループに関連づけられたすべてのフィールドを編集できるモーダルウィンドウが開きます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071714Z" creationid="Toru Kokubun" creationdate="20180427T214232Z">
+        <seg>カテゴリをダブルクリックすると、カテゴリの名前やスラグ、およびグループに関連付けられたすべてのフィールドを編集できるモーダルウィンドウが開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4312,8 +4328,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Double-clicking on a selected tag will open a modal where you can edit the tag’s title, and any fields you have associated with your tags from Settings → Tags → Fields.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014016Z" creationid="Toru Kokubun" creationdate="20180426T014016Z">
-        <seg>選択されたタグをダブルクリックすると、タグのタイトルや「設定 &gt; タグ &gt; フィールド」でタグに関連づけられたフィールドを編集できるモーダルウィンドウが開きます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071730Z" creationid="Toru Kokubun" creationdate="20180426T014016Z">
+        <seg>選択されたタグをダブルクリックすると、タグのタイトルや「設定 &gt; タグ &gt; フィールド」でタグに関連付けられたフィールドを編集できるモーダルウィンドウが開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5310,6 +5326,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First, you must create an object that defines the transform’s parameters:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T065725Z" creationid="Toru Kokubun" creationdate="20180624T065725Z">
+        <seg>はじめに、トランスフォームのパラメータを定義したオブジェクトを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First/Last Page Links</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215135Z" creationid="Toru Kokubun" creationdate="20180623T215117Z">
@@ -5394,6 +5418,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023254Z" creationid="Toru Kokubun" creationdate="20180507T023254Z">
         <seg>例えば、&lt;x1/&gt;{% exit 404 %}&lt;x2/&gt; は Craft に &lt;x3/&gt;404.html&lt;x4/&gt; テンプレートを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, here’s a template that loops through a list of entries, and displays images related by an Assets field for each entry:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071801Z" creationid="Toru Kokubun" creationdate="20180624T071643Z">
+        <seg>例えば、ここにエントリのリストをループし、それぞれのエントリに関連付けられた画像を表示するテンプレートがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6190,6 +6222,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;x1/&gt;mode&lt;x2/&gt; is set to &lt;x3/&gt;'crop'&lt;x4/&gt;, you can pass a &lt;x5/&gt;position&lt;x6/&gt; property, set to either &lt;x7/&gt;'top-left'&lt;x8/&gt;, &lt;x9/&gt;'top-center'&lt;x10/&gt;, &lt;x11/&gt;'top-right'&lt;x12/&gt;, &lt;x13/&gt;'center-left'&lt;x14/&gt;, &lt;x15/&gt;'center-center'&lt;x16/&gt;, &lt;x17/&gt;'center-right'&lt;x18/&gt;, &lt;x19/&gt;'bottom-left'&lt;x20/&gt;, &lt;x21/&gt;'bottom-center'&lt;x22/&gt;, or &lt;x23/&gt;'bottom-right'&lt;x24/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070826Z" creationid="Toru Kokubun" creationdate="20180624T070826Z">
+        <seg>&lt;x1/&gt;mode&lt;x2/&gt; に &lt;x3/&gt;'crop'&lt;x4/&gt; をセットした場合、&lt;x5/&gt;position&lt;x6/&gt; プロパティに &lt;x7/&gt;'top-left'&lt;x8/&gt;、&lt;x9/&gt;'top-center'&lt;x10/&gt;、 &lt;x11/&gt;'top-right'&lt;x12/&gt;、&lt;x13/&gt;'center-left'&lt;x14/&gt;、&lt;x15/&gt;'center-center'&lt;x16/&gt;、&lt;x17/&gt;'center-right'&lt;x18/&gt;、&lt;x19/&gt;'bottom-left'&lt;x20/&gt;、&lt;x21/&gt;'bottom-center'&lt;x22/&gt;、または &lt;x23/&gt;'bottom-right'&lt;x24/&gt; のいずれかをセットして渡すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;x3/&gt;true&lt;x4/&gt; is passed, the formatted date will be run through &lt;x5/&gt; before being returned.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095802Z" creationid="Toru Kokubun" creationdate="20180623T095802Z">
@@ -6226,6 +6266,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T213432Z" creationid="Toru Kokubun" creationdate="20180427T213432Z">
         <seg>まだフィールドが存在しなければ、先に「設定 &gt; フィールド」から作成しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a template is looping through a list of elements, and each of those elements must display one or more sub-elements, there’s a good chance the page’s performance will suffer.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071523Z" creationid="Toru Kokubun" creationdate="20180624T071523Z">
+        <seg>テンプレートがエレメントのリストをループしていて、それらのエレメントそれぞれで1つ以上のサブエレメントを表示しなければならない場合、ページのパフォーマンスが低下する高い可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6466,6 +6514,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T034058Z" creationid="Toru Kokubun" creationdate="20180623T034058Z">
         <seg>「アップロードを単一のフォルダに制限しますか？」がオンの場合、「ソース」と「既定のアップロードロケーション」は「ロケーションをアップロードする」に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If there are 50 entries, this innocent-looking template code will cost the page 51 queries.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T072611Z" creationid="Toru Kokubun" creationdate="20180624T072611Z">
+        <seg>50 エントリがある場合、この問題なさそうに見えるテンプレートコードは、そのページのために 51 クエリ分のコストがかかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8974,6 +9030,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note how in that example there are no quotes around “&lt;x1/&gt;thumb&lt;x2/&gt;”, like there were in the first one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070323Z" creationid="Toru Kokubun" creationdate="20180624T070022Z">
+        <seg>ここでは、最初の例のように「&lt;x1/&gt;thumb&lt;x2/&gt;」の周りに引用符がないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that &lt;x5/&gt;n&lt;x6/&gt; is 0-indexed, so &lt;x7/&gt;nth(0)&lt;x8/&gt; will give you the first element, &lt;x9/&gt;nth(1)&lt;x10/&gt; will give you the second, etc.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T093513Z" creationid="Toru Kokubun" creationdate="20180502T093513Z">
@@ -9360,8 +9424,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Once your asset volume has some fields associated with it, you can edit the fields’ content by double-clicking on your assets, either from within the Assets index, or within an &lt;x1/&gt;Assets field&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234210Z" creationid="Toru Kokubun" creationdate="20180427T234014Z">
-        <seg>アセットボリュームにフィールドが関連づけられると、アセットのインデックスだけでなく&lt;x1/&gt;アセットフィールド&lt;x2/&gt;内にあるアセットをダブルクリックすることで、フィールドのコンテンツを編集できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071706Z" creationid="Toru Kokubun" creationdate="20180427T234014Z">
+        <seg>アセットボリュームにフィールドが関連付けられると、アセットのインデックスだけでなく&lt;x1/&gt;アセットフィールド&lt;x2/&gt;内にあるアセットをダブルクリックすることで、フィールドのコンテンツを編集できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9842,6 +9906,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T235326Z" creationid="Toru Kokubun" creationdate="20180419T235326Z">
         <seg>位置選択フィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Possible Values</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070414Z" creationid="Toru Kokubun" creationdate="20180624T070414Z">
+        <seg>利用可能な値</seg>
       </tuv>
     </tu>
     <tu>
@@ -11570,6 +11642,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So the number of queries needed will be &lt;x5/&gt;N&lt;x6/&gt; (the number of entries) &lt;x7/&gt;+ 1&lt;x8/&gt; (the initial entries query).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T072337Z" creationid="Toru Kokubun" creationdate="20180624T072310Z">
+        <seg>そのため、必要なクエリの総数は &lt;x5/&gt;N&lt;x6/&gt;（エントリ数）&lt;x7/&gt;+ 1&lt;x8/&gt;（最初にエントリを取得するクエリ）となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So to begin, create a new directory alongside your current project, and follow steps 1-3 in the &lt;x1/&gt;installation instructions&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T014317Z" creationid="Toru Kokubun" creationdate="20180623T013057Z">
@@ -12450,6 +12530,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That’s because in the first one, we were passing a &lt;x3/&gt;string&lt;x4/&gt; set to a CP-defined transform’s handle, whereas in this example we’re passing a &lt;x5/&gt;variable&lt;x6/&gt; referencing the ‘thumb’ object we created within the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070308Z" creationid="Toru Kokubun" creationdate="20180624T070308Z">
+        <seg>最初の例では、CP で定義されたトランスフォームのハンドルを &lt;x3/&gt;文字列&lt;x4/&gt; として渡しているのに対して、この例ではテンプレート内で作成した ‘thumb’ オブジェクトを参照するための &lt;x5/&gt;変数&lt;x6/&gt; として渡しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;x1/&gt; and &lt;x2/&gt; config settings</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090357Z" creationid="Toru Kokubun" creationdate="20180623T090357Z">
@@ -12494,6 +12582,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065925Z" creationid="Toru Kokubun" creationdate="20180420T065925Z">
         <seg>&lt;x1/&gt;limit&lt;x2/&gt; パラメータは、100ではなく、デフォルトで &lt;x3/&gt;null&lt;x4/&gt;（無制限）がセットされるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;mode&lt;x2/&gt; property can be set to either &lt;x3/&gt;'crop'&lt;x4/&gt;, &lt;x5/&gt;'fit'&lt;x6/&gt;, or &lt;x7/&gt;'stretch'&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070629Z" creationid="Toru Kokubun" creationdate="20180624T070629Z">
+        <seg>&lt;x1/&gt;mode&lt;x2/&gt; プロパティには、&lt;x3/&gt;'crop'&lt;x4/&gt;、&lt;x5/&gt;'fit'&lt;x6/&gt;、または &lt;x7/&gt;'stretch'&lt;x8/&gt; をセットすることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13850,6 +13946,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The purpose of the &lt;x1/&gt;with&lt;x2/&gt; param is to tell Craft which sub-elements you’re going to be needing in advance, so that it can fetch them all up front, in as few queries as possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073203Z" creationid="Toru Kokubun" creationdate="20180624T073203Z">
+        <seg>&lt;x1/&gt;with&lt;x2/&gt; パラメータの目的は、必要とするサブエレメントを前もって Craft に伝えることで、可能なかぎり少ないクエリでso that it can fetch them all up front, in as few queries as possible.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reference code(s) used to identify the element(s)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T025353Z" creationid="Toru Kokubun" creationdate="20180503T025326Z">
@@ -14222,6 +14326,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005616Z" creationid="Toru Kokubun" creationdate="20180624T005616Z">
         <seg>そして、次のようなフロントエンドの登録フォームを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then you can pass that object into your AssetFileModel’s &lt;x1/&gt;getUrl()&lt;x2/&gt;, &lt;x3/&gt;getWidth()&lt;x4/&gt;, and &lt;x5/&gt;getHeight()&lt;x6/&gt; functions:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T065855Z" creationid="Toru Kokubun" creationdate="20180624T065855Z">
+        <seg>次に、そのオブジェクトをアセットモデルの &lt;x1/&gt;getUrl()&lt;x2/&gt;、&lt;x3/&gt;getWidth()&lt;x4/&gt;、および &lt;x5/&gt;getHeight()&lt;x6/&gt; ファンクションへ渡します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14638,6 +14750,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T220935Z" creationid="Toru Kokubun" creationdate="20180430T220822Z">
         <seg>これは、Craft のマルチサイト機能と翻訳サポートを利用して、一般的に必要となるすべてのステップを段階的に説明するガイドです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This illustrates an &lt;x1/&gt;N+1&lt;x2/&gt; query problem: In addition to the query executed to fetch the entries, an additional query will be executed for &lt;x3/&gt;each&lt;x4/&gt; entry, to find its related asset.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T072135Z" creationid="Toru Kokubun" creationdate="20180624T072135Z">
+        <seg>これは &lt;x1/&gt;N+1&lt;x2/&gt; クエリの問題を示しています。エントリを取り出すために実行されたクエリの他に、関連づけられたアセットを探すために &lt;x3/&gt;それぞれの&lt;x4/&gt; エントリで追加のクエリが実行されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16954,6 +17074,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also define transforms directly in your templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T065654Z" creationid="Toru Kokubun" creationdate="20180624T065654Z">
+        <seg>テンプレート内で直接トランスフォームを定義することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also drag selected fields around to change their order.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T024932Z" creationid="Toru Kokubun" creationdate="20180423T024932Z">
@@ -17550,6 +17678,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221236Z" creationid="Toru Kokubun" creationdate="20180427T221236Z">
         <seg>アセットボリュームは「設定 &gt; アセット」から設定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can solve this with &lt;x1/&gt;eager-loading&lt;x2/&gt;, using the &lt;x3/&gt;with&lt;x4/&gt; criteria parameter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T072925Z" creationid="Toru Kokubun" creationdate="20180624T072925Z">
+        <seg>判定基準のパラメータ &lt;x3/&gt;with&lt;x4/&gt; を利用した &lt;x1/&gt;eager-loading&lt;x2/&gt; によって、これを解決することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18234,6 +18370,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>format&lt;x1/&gt; can be set to &lt;x2/&gt;'jpg'&lt;x3/&gt;, &lt;x4/&gt;'gif'&lt;x5/&gt;, &lt;x6/&gt;'png'&lt;x7/&gt;, or &lt;x8/&gt;'Auto'&lt;x9/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071038Z" creationid="Toru Kokubun" creationdate="20180624T071023Z">
+        <seg>format&lt;x1/&gt; には、&lt;x2/&gt;'jpg'&lt;x3/&gt;、&lt;x4/&gt;'gif'&lt;x5/&gt;、&lt;x6/&gt;'png'&lt;x7/&gt;、または &lt;x8/&gt;'Auto'&lt;x9/&gt; をセットできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>iOS: Safari 9.1 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015429Z" creationid="Toru Kokubun" creationdate="20180415T015429Z">
@@ -18382,6 +18526,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T221647Z" creationid="Toru Kokubun" creationdate="20180508T221456Z">
         <seg>pageInfo&lt;x1/&gt; には、現在のページに関する情報や他のページへのリンクを作成するためのいくつかのヘルパーメソッド（&lt;x4/&gt;詳細&lt;x5/&gt; は以下）を提供する &lt;x2/&gt;craft\web\twig\variables\Paginate&lt;x3/&gt; オブジェクトがセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>quality&lt;x1/&gt; can be set to a number between 0 and 100, or omitted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071042Z" creationid="Toru Kokubun" creationdate="20180624T070953Z">
+        <seg>quality&lt;x1/&gt; は、0 から 100 の間の数値をセットするか、省略できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18622,6 +18774,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010253Z" creationid="Toru Kokubun" creationdate="20180430T010253Z">
         <seg>この例では、読み込まれるテンプレート名は &lt;x1/&gt;_share/footer-de&lt;x2/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>width&lt;x1/&gt; and &lt;x2/&gt;height&lt;x3/&gt; can be set to integers or omitted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071045Z" creationid="Toru Kokubun" creationdate="20180624T070913Z">
+        <seg>width&lt;x1/&gt; と &lt;x2/&gt;height&lt;x3/&gt; は、整数をセットするか、省略できます。</seg>
       </tuv>
     </tu>
     <tu>
