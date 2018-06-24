@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Only do this if you set your relational field to be translatable.) You can set this to a locale ID.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011130Z" creationid="Toru Kokubun" creationdate="20180624T011130Z">
+        <seg>（関連フィールドを翻訳可能にしている場合のみ、これを行います。）ロケール ID をここにセットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Only set this if you have a good reason to.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T215931Z" creationid="Toru Kokubun" creationdate="20180507T215931Z">
@@ -254,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(optional)&lt;x1/&gt; – The element property that the reference tag should return.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013214Z" creationid="Toru Kokubun" creationdate="20180624T013119Z">
+        <seg>（オプション）&lt;x1/&gt; – リファレンスタグが返すべきエレメントのプロパティ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(see [`last()`](&lt;x1/&gt;last))&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230053Z" creationid="Toru Kokubun" creationdate="20180420T230048Z">
@@ -366,6 +382,16 @@ If you save this in a template that ends with a &lt;x1/&gt;.rss&lt;x2/&gt; file 
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235645Z" creationid="Toru Kokubun" creationdate="20180623T235500Z">
         <seg>::: tip
 ファイル拡張子 &lt;x1/&gt;.rss&lt;x2/&gt; で終わるテンプレートとして保存すると、Craft はそれを MIME タイプ &lt;x3/&gt;application/rss+xml&lt;x4/&gt; で配信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+If you save this in a template that ends with an &lt;x1/&gt;.atom&lt;x2/&gt; file extension, Craft will even serve it with an &lt;x3/&gt;application/atom+xml&lt;x4/&gt; MIME type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T001521Z" creationid="Toru Kokubun" creationdate="20180624T001521Z">
+        <seg>::: tip
+ファイル拡張子 &lt;x1/&gt;.atom&lt;x2/&gt; で終わるテンプレートとして保存すると、Craft はそれを MIME タイプ &lt;x3/&gt;application/atom+xml&lt;x4/&gt; で配信します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -616,6 +642,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T001730Z" creationid="Toru Kokubun" creationdate="20180420T001730Z">
         <seg>&lt;x1/&gt;4&lt;x2/&gt; `securityKey` は、もはやオプションではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; – Either the element’s ID or a custom identifier supported by the element type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013047Z" creationid="Toru Kokubun" creationdate="20180624T013047Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; – エレメントの ID、または、エレメントタイプによってサポートされているカスタム識別子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; – The type of element you’re creating a reference to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012147Z" creationid="Toru Kokubun" creationdate="20180624T012147Z">
+        <seg>&lt;x1/&gt;&lt;x2/&gt; – 参照を作成するエレメントのタイプ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1596,6 +1638,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As you can see, they are made up three segments:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012014Z" creationid="Toru Kokubun" creationdate="20180624T012008Z">
+        <seg>ご覧の通り、それらは3つのセグメントで構成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As you type into the text input, the Tags field will search through the existing tags that belong to the field’s tag group, and suggest tags in a menu below the text input.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013526Z" creationid="Toru Kokubun" creationdate="20180426T013526Z">
@@ -1820,6 +1870,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Atom Feed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235719Z" creationid="Toru Kokubun" creationdate="20180623T235719Z">
+        <seg>Atom フィード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Atom Feed&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232719Z" creationid="Toru Kokubun" creationdate="20180623T232719Z">
@@ -1928,6 +1986,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073857Z" creationid="Toru Kokubun" creationdate="20180414T232900Z">
         <seg>敬意をもってください。&lt;x1/&gt; 常に全会一致ということはないでしょう。しかし、意見の相違がひどい行為やひどいマナーの弁解にはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Be sure and adjust the “sectionId” to the actual ID of the section want to save the entry to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T002036Z" creationid="Toru Kokubun" creationdate="20180624T002036Z">
+        <seg>「sectionId」は必ずエントリを保存したいセクションの実際の ID に調整してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2128,6 +2194,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T030733Z" creationid="Toru Kokubun" creationdate="20180426T030733Z">
         <seg>デフォルトで安全に変更したり削除できる設定には、次のものが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, users will be redirected based on your &lt;x1/&gt;postLoginRedirect&lt;x2/&gt; config setting value after logging in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T004321Z" creationid="Toru Kokubun" creationdate="20180624T004321Z">
+        <seg>デフォルトでは、ユーザーがログイン後にコンフィグ設定 &lt;x1/&gt;postLoginRedirect&lt;x2/&gt; の値に基づきリダイレクトされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3164,6 +3238,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Core element types have the following reference handles:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012437Z" creationid="Toru Kokubun" creationdate="20180624T012437Z">
+        <seg>コアのエレメントタイプは、次のリファレンスハンドルを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft 3 Documentation</seg>
       </tuv>
       <tuv lang="JA" changeid="TORU KOKUBUN" changedate="20180220T213244Z" creationid="TORU KOKUBUN" creationdate="20180220T213244Z">
@@ -3796,6 +3878,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Custom field handles are also supported, for field types with values that can be represented as strings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013630Z" creationid="Toru Kokubun" creationdate="20180624T013630Z">
+        <seg>カスタムフィールドのハンドルもサポートされています。フィールドタイプは文字列として表すことができる値を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>DOM&lt;x1/&gt; - Required for parsing XML feeds as well as &lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T005952Z" creationid="Toru Kokubun" creationdate="20180623T005952Z">
@@ -4420,6 +4510,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Eager-Loading Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014439Z" creationid="Toru Kokubun" creationdate="20180624T014439Z">
+        <seg>エレメントの Eager-Loading</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Eager-Loading Elements&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230245Z" creationid="Toru Kokubun" creationdate="20180414T230245Z">
@@ -4536,6 +4634,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T020256Z" creationid="Toru Kokubun" creationdate="20180425T020256Z">
         <seg>エントリコンテンツの編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Editing Entry Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T002334Z" creationid="Toru Kokubun" creationdate="20180624T002334Z">
+        <seg>エントリの編集フォーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -4724,6 +4830,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entries support the following custom identifiers:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013104Z" creationid="Toru Kokubun" creationdate="20180624T013104Z">
+        <seg>エントリは次のカスタム識別子をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entries&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013912Z" creationid="Toru Kokubun" creationdate="20180423T013912Z">
@@ -4736,6 +4850,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T023501Z" creationid="Toru Kokubun" creationdate="20180423T015708Z">
         <seg>エントリ&lt;x1/&gt;は、「設定 &gt; セクション &gt; 入力タイプ &gt; &lt;x2/&gt;入力タイプ名&lt;x4/&gt; &gt; フィールドレイアウト」の入力タイプごとに定義されたフィールドレイアウトを使用します。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Entry Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T001631Z" creationid="Toru Kokubun" creationdate="20180624T001631Z">
+        <seg>エントリの投稿フォーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -5304,6 +5426,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T003855Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
         <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtim で確認できるものを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Forgot Password Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005702Z" creationid="Toru Kokubun" creationdate="20180624T005702Z">
+        <seg>パスワードを忘れた際のフォーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -6076,6 +6206,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If omitted, the element’s URL will be returned.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013242Z" creationid="Toru Kokubun" creationdate="20180624T013242Z">
+        <seg>省略した場合、エレメントの URL が返されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If successful, you will get the Craft installation wizard.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014405Z" creationid="Toru Kokubun" creationdate="20180418T014405Z">
@@ -6428,6 +6566,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have Craft Pro and want people to be able to register user accounts on your site, first go to Settings → Users → Settings and make sure that the “Allow Public Registration?” setting is checked.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005521Z" creationid="Toru Kokubun" creationdate="20180624T005245Z">
+        <seg>Craft Pro を使用し、サイトで誰でもユーザーアカウントを登録できるようにしたい場合は、初めに「設定 &gt; ユーザー &gt; 設定」に移動し、「一般登録を許可しますか？」設定にチェックが入っていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have Craft Pro, you can create User Groups to help organize your site’s user accounts, as well as batch-set permissions on them.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014818Z" creationid="Toru Kokubun" creationdate="20180428T012225Z">
@@ -6668,6 +6814,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need to login a user from the front-end of your site, you can do so with the following code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003733Z" creationid="Toru Kokubun" creationdate="20180624T003733Z">
+        <seg>サイトのフロントエンドからユーザーのログインが必要な場合、次のコードで実現できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need to set up routes to controller actions, or you need to create a template route that matches a URI pattern that’s not covered by the available route tokens in Settings → Routes, you can set up your routes in &lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; as well.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T220010Z">
@@ -6764,6 +6918,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want the front-end of your site to support password resetting, you need to create a template at the path specified by the ”setPasswordPath” config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T010317Z" creationid="Toru Kokubun" creationdate="20180624T010317Z">
+        <seg>サイトのフロントエンドでパスワードのリセットをサポートしたい場合、コンフィグ設定の「setPasswordPath」で指定されたパスにテンプレートを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to allow users to upload files to an Assets field from a front-end &lt;x1/&gt;entry form&lt;x2/&gt;, you just need to do two things.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T020905Z" creationid="Toru Kokubun" creationdate="20180424T020905Z">
@@ -6776,6 +6938,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002527Z" creationid="Toru Kokubun" creationdate="20180429T002436Z">
         <seg>もう少し具体的であることを望むなら、&lt;x1/&gt;relatedTo&lt;x2/&gt; は次のプロパティを含むオブジェクトも受け入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to create a form that is able to edit a user’s own profile, you can do so with the following code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T004631Z" creationid="Toru Kokubun" creationdate="20180624T004631Z">
+        <seg>ユーザー自身のプロフィールを編集できるフォームを作成するには、次のコードで実現できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7630,8 +7800,16 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>It assumes that you have a &lt;x1/&gt;global set&lt;x2/&gt; with the handle &lt;x3/&gt;globals&lt;x4/&gt;, with a field called &lt;x5/&gt;siteDescription&lt;x6/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235304Z" creationid="Toru Kokubun" creationdate="20180623T235247Z">
-        <seg>&lt;x5/&gt;siteDescription&lt;x6/&gt; と呼ばれるフィールドを持つ、&lt;x3/&gt;globals&lt;x4/&gt; というハンドルの &lt;x1/&gt;グローバルのセット&lt;x2/&gt; があることを前提としています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T001545Z" creationid="Toru Kokubun" creationdate="20180623T235247Z">
+        <seg>&lt;x5/&gt;siteDescription&lt;x6/&gt; と呼ばれるフィールドを持つ、&lt;x3/&gt;globals&lt;x4/&gt; というハンドルの&lt;x1/&gt;グローバルのセット&lt;x2/&gt;があることを前提としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It assumes that you have a &lt;x1/&gt;global set&lt;x2/&gt; with the handle &lt;x3/&gt;globals&lt;x4/&gt;, with two fields: &lt;x5/&gt;feedAuthorName&lt;x6/&gt; and &lt;x7/&gt;feedAuthorEmail&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T001533Z" creationid="Toru Kokubun" creationdate="20180624T001455Z">
+        <seg>&lt;x5/&gt;feedAuthorName&lt;x6/&gt; と &lt;x7/&gt;feedAuthorEmail&lt;x8/&gt; 2つのフィールドを持つ、&lt;x3/&gt;globals&lt;x4/&gt; というハンドルの&lt;x1/&gt;グローバルのセット&lt;x2/&gt;があることを前提としています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8072,6 +8250,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T022914Z" creationid="Toru Kokubun" creationdate="20180427T022847Z">
         <seg>ロジックタグは、それ自身でテンプレートに何も出力しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Login Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003558Z" creationid="Toru Kokubun" creationdate="20180624T003558Z">
+        <seg>ログインフォーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -9254,8 +9440,16 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Parses a string for &lt;x1/&gt;reference tags&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T222800Z" creationid="Toru Kokubun" creationdate="20180506T003250Z">
-        <seg>&lt;x1/&gt;reference タグ&lt;x2/&gt;の文字列を解析します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012652Z" creationid="Toru Kokubun" creationdate="20180506T003250Z">
+        <seg>&lt;x1/&gt;リファレンスタグ&lt;x2/&gt;の文字列を解析します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parsing Reference Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012629Z" creationid="Toru Kokubun" creationdate="20180624T012629Z">
+        <seg>リファレンスタグの解析</seg>
       </tuv>
     </tu>
     <tu>
@@ -9534,8 +9728,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Public Registration</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015323Z" creationid="Toru Kokubun" creationdate="20180428T015323Z">
-        <seg>公開登録</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005329Z" creationid="Toru Kokubun" creationdate="20180428T015323Z">
+        <seg>一般登録</seg>
       </tuv>
     </tu>
     <tu>
@@ -9692,6 +9886,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Rather than requiring that everyone upload images at a certain size, Craft lets you define “image transforms”, which set those rules on Craft’s end instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T022736Z" creationid="Toru Kokubun" creationdate="20180624T022724Z">
+        <seg>すべての人に実サイズの画像アップロードを要求するのではなく、Craft が代わりにどう処理するかのルールをセットした「画像変換」を定義することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Rather than typing “&lt;x1/&gt;entry.assetsFieldHandle&lt;x2/&gt;” every time, you can call it once and set it to another variable:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T025715Z" creationid="Toru Kokubun" creationdate="20180424T013641Z">
@@ -9792,6 +9994,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220513Z" creationid="Toru Kokubun" creationdate="20180419T215525Z">
         <seg>Redactor 設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reference Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011323Z" creationid="Toru Kokubun" creationdate="20180624T011323Z">
+        <seg>リファレンスタグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reference tags can be used to create references to various elements in your site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011621Z" creationid="Toru Kokubun" creationdate="20180624T011621Z">
+        <seg>リファレンスタグを利用して、サイト内の様々なエレメントへの参照を作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10412,6 +10630,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Search Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T002607Z" creationid="Toru Kokubun" creationdate="20180624T002607Z">
+        <seg>検索フォーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Search Form&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232733Z" creationid="Toru Kokubun" creationdate="20180623T232733Z">
@@ -10660,6 +10886,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180502T095816Z">
         <seg>テーブルの現在の接頭辞がそれである場合、&lt;x3/&gt;DB_TABLE_PREFIX="craft_"&lt;x4/&gt; をセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set Password Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005906Z" creationid="Toru Kokubun" creationdate="20180624T005906Z">
+        <seg>パスワードの設定フォーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -11888,6 +12122,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That URL is defined by your &lt;x1/&gt; config setting, which is “setpassword” by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T010140Z" creationid="Toru Kokubun" creationdate="20180624T010140Z">
+        <seg>その URL は、コンフィグ設定の &lt;x1/&gt; で定義され、デフォルトでは「setpassword」となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That first argument (&lt;x1/&gt;'and'&lt;x2/&gt;) specified that the query must match &lt;x3/&gt;all&lt;x4/&gt; of the relation criteria.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015117Z" creationid="Toru Kokubun" creationdate="20180429T015117Z">
@@ -11980,6 +12222,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T090357Z" creationid="Toru Kokubun" creationdate="20180623T090357Z">
         <seg>&lt;x1/&gt; と &lt;x2/&gt; のコンフィグ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt; config setting designates where the user should be redirected to after they finish resetting their password (and get automatically logged-in).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T010638Z" creationid="Toru Kokubun" creationdate="20180624T010610Z">
+        <seg>コンフィグ設定の &lt;x1/&gt; は、ユーザーがパスワードのリセットを完了（かつ、自動的にログイン）した後にリダイレクトすべき場所を指定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12976,6 +13226,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following are valid reference tags:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013719Z" creationid="Toru Kokubun" creationdate="20180624T013719Z">
+        <seg>有効なリファレンスタグは、次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following config settings have been deprecated in Craft 3, and will be completely removed in Craft 4:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T000407Z" creationid="Toru Kokubun" creationdate="20180420T000407Z">
@@ -13076,6 +13334,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235038Z" creationid="Toru Kokubun" creationdate="20180623T235038Z">
         <seg>次のテンプレートは、あなたのサイトで RSS 2.0 フィードを提供するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following template can be used to provide an Atom 1.0 feed on your site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T235748Z" creationid="Toru Kokubun" creationdate="20180623T235748Z">
+        <seg>次のテンプレートは、あなたのサイトで Atom 1.0 フィードを提供するために使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13520,6 +13786,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The syntax for reference tags looks like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011905Z" creationid="Toru Kokubun" creationdate="20180624T011905Z">
+        <seg>リファレンスタグの構文は、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The syntax is the variable name followed by a pipe (&lt;x1/&gt;|&lt;x2/&gt;) followed by the filter name:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032215Z" creationid="Toru Kokubun" creationdate="20180427T032215Z">
@@ -13596,6 +13870,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032908Z" creationid="Toru Kokubun" creationdate="20180503T032908Z">
         <seg>結果となるエントリの投稿者が含まれるべきユーザーグループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user submitting the entry will also need to have the permission necessary to create entries for the section they are posting to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T002257Z" creationid="Toru Kokubun" creationdate="20180624T002216Z">
+        <seg>エントリを送信するユーザーは、そのセクションのエントリを作成するための権限を持っている必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13704,10 +13986,26 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then you can create a registration form on the front end, like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005616Z" creationid="Toru Kokubun" creationdate="20180624T005616Z">
+        <seg>そして、次のようなフロントエンドの登録フォームを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then you can pull them into the alias definitions using &lt;x1/&gt;getenv()&lt;x2/&gt;:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062948Z" creationid="Toru Kokubun" creationdate="20180504T062910Z">
         <seg>&lt;x1/&gt;getenv()&lt;x2/&gt; を使用して、エイリアスの定義にセットすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then, on whatever template your form submits to (e.g. &lt;x1/&gt;search/results.html&lt;x2/&gt;), just pull the search query from the &lt;x3/&gt;GET&lt;x4/&gt;/&lt;x5/&gt;POST&lt;x6/&gt; data, and pass it to the &lt;x7/&gt;search&lt;x8/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003525Z" creationid="Toru Kokubun" creationdate="20180624T003121Z">
+        <seg>次に、フォームの送信先にあたるテンプレート（例：&lt;x1/&gt;search/results.html&lt;x2/&gt;）で &lt;x3/&gt;GET&lt;x4/&gt; / &lt;x5/&gt;POST&lt;x6/&gt; データから検索クエリを取り出し、それを &lt;x7/&gt;search&lt;x8/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13920,6 +14218,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They can be used in any textual fields, including Text cells within a Table field.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011834Z" creationid="Toru Kokubun" creationdate="20180624T011834Z">
+        <seg>テーブルフィールド内のテキストセルを含む、あらゆるテキストフィールドで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They can set variables, test conditionals, loop through arrays, and much more.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T022749Z" creationid="Toru Kokubun" creationdate="20180427T022749Z">
@@ -13980,6 +14286,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T221857Z" creationid="Toru Kokubun" creationdate="20180420T221111Z">
         <seg>しかし、この動作は Craft 3 で変更されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be a fully-qualified element class name (e.g. &lt;x3/&gt;craft\elements\Entry&lt;x4/&gt;) or the element type’s “reference handle”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012403Z" creationid="Toru Kokubun" creationdate="20180624T012351Z">
+        <seg>これは完全修飾のエレメントクラス名（例：&lt;x3/&gt;craft\elements\Entry&lt;x4/&gt;）、または、エレメントタイプの「リファレンスハンドル」です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14536,6 +14850,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a search form, first create a normal HTML form with a &lt;x1/&gt;search&lt;x2/&gt; input:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T002802Z" creationid="Toru Kokubun" creationdate="20180624T002802Z">
+        <seg>検索フォームを作成するには、初めに入力項目 &lt;x1/&gt;search&lt;x2/&gt; を含む通常の HTML を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, you will need to have an output for displaying a single entry you want to allow comments on.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T233412Z" creationid="Toru Kokubun" creationdate="20180623T233339Z">
@@ -14546,8 +14868,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>To enable public registration, go to Settings → Users → Settings, and check the “Allow public registration?” setting.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015620Z" creationid="Toru Kokubun" creationdate="20180428T015620Z">
-        <seg>公開登録を有効にするには、「設定 &gt; ユーザー &gt; 設定」に移動し、「公的登録を許可しますか？」をチェックします。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005331Z" creationid="Toru Kokubun" creationdate="20180428T015620Z">
+        <seg>一般登録を有効にするには、「設定 &gt; ユーザー &gt; 設定」に移動し、「一般登録を許可しますか？」をチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15264,6 +15586,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>User Profile Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T004528Z" creationid="Toru Kokubun" creationdate="20180624T004528Z">
+        <seg>ユーザープロフィールの編集フォーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Profile Form&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T232917Z" creationid="Toru Kokubun" creationdate="20180623T232752Z">
@@ -15284,6 +15614,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T014629Z" creationid="Toru Kokubun" creationdate="20180426T014629Z">
         <seg>ユーザーのクエリパラメータ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User Registration Form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T004653Z" creationid="Toru Kokubun" creationdate="20180624T004653Z">
+        <seg>ユーザー登録フォーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -15752,6 +16090,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a user forgets their password, Craft will send them an email with a URL to set a new password.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T010057Z" creationid="Toru Kokubun" creationdate="20180624T010057Z">
+        <seg>ユーザーがパスワードを忘れたとき、Craft は新しいパスワードを設定するための URL をメールで送信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an update is available, users with the permission to update Craft will see a badge in the CP next to the Utilities navigation item in the sidebar.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003019Z" creationid="Toru Kokubun" creationdate="20180419T002815Z">
@@ -16162,8 +16508,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>With that checked, you will also have the ability to choose a default user group to which Craft will assign the publicly-registered users.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T015815Z" creationid="Toru Kokubun" creationdate="20180428T015815Z">
-        <seg>チェックすると、Craft が公開登録したユーザーを割り当てるデフォルトのユーザーグループを選択できるようになります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005339Z" creationid="Toru Kokubun" creationdate="20180428T015815Z">
+        <seg>チェックすると、Craft が一般登録したユーザーを割り当てるデフォルトのユーザーグループを選択できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16204,6 +16550,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T235506Z" creationid="Toru Kokubun" creationdate="20180426T235439Z">
         <seg>&lt;x1/&gt;`{% include %}`&lt;x2/&gt;、&lt;x3/&gt;`{% extends %}`&lt;x4/&gt;、および &lt;x5/&gt;`{% embed %}`&lt;x6/&gt; テンプレートタグ内</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Within that template, place the following code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T010332Z" creationid="Toru Kokubun" creationdate="20180624T010332Z">
+        <seg>そのテンプレートに、次のコードを記述します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16436,6 +16790,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031604Z" creationid="Toru Kokubun" creationdate="20180504T031526Z">
         <seg>&lt;x7/&gt;config/app.php&lt;x8/&gt; で &lt;x5/&gt;cache&lt;x6/&gt; アプリケーションコンポーネントを上書きすることによって代替の&lt;x3/&gt;キャッシュストレージ&lt;x4/&gt;を使うよう Craft を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create a Forgot Password form using the following code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005809Z" creationid="Toru Kokubun" creationdate="20180624T005809Z">
+        <seg>次のコードを利用して、パスワードを忘れた際のフォームを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create a new entry form for the front-end of your site using the following code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T001913Z" creationid="Toru Kokubun" creationdate="20180624T001913Z">
+        <seg>次のコードを利用して、サイトのフロントエンド向けに新しいエントリの投稿フォームを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16688,6 +17058,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can modify the form to save existing entries by adding an “entryId” hidden input to the form:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T002539Z" creationid="Toru Kokubun" creationdate="20180624T002520Z">
+        <seg>不可視項目の「entryId」を追加すると、既存のエントリを保存するためのフォームに変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can optionally pass &lt;x1/&gt;false&lt;x2/&gt; to it if you want group symbols to be omitted (e.g. commas in English).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003019Z" creationid="Toru Kokubun" creationdate="20180506T002800Z">
@@ -16736,6 +17114,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can override that within your login form using a &lt;x3/&gt;redirect&lt;x4/&gt; param:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T004438Z" creationid="Toru Kokubun" creationdate="20180624T004421Z">
+        <seg>&lt;x3/&gt;redirect&lt;x4/&gt; パラメータを利用して、ログインフォーム内で設定を上書きすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can override their default values in your &lt;x3/&gt;config/db.php&lt;x4/&gt; file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031232Z" creationid="Toru Kokubun" creationdate="20180504T031232Z">
@@ -16748,6 +17134,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031135Z" creationid="Toru Kokubun" creationdate="20180504T031135Z">
         <seg>&lt;x3/&gt;config/general.php&lt;x4/&gt; ファイルでデフォルト値を上書きすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can parse any string for reference tags in your templates using the &lt;x1/&gt;`parseRefs`&lt;x2/&gt; filter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014406Z" creationid="Toru Kokubun" creationdate="20180624T014406Z">
+        <seg>&lt;x1/&gt;`parseRefs`&lt;x2/&gt; フィルタを利用して、テンプレート内のリファレンスタグの文字列を解析できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16796,6 +17190,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T024421Z" creationid="Toru Kokubun" creationdate="20180427T024421Z">
         <seg>Twig が文字列として評価できるものであれば、その中にほぼ何でも記述できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can refer to the element types’ class references for a list of available properties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013336Z" creationid="Toru Kokubun" creationdate="20180624T013336Z">
+        <seg>利用可能なプロパティのリストは、エレメントタイプのクラスリファレンスを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17496,6 +17898,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>craft.session.returnUrl&lt;x1/&gt; is set to the original URL that included the &lt;x2/&gt;{% requireLogin %}&lt;x3/&gt; tag that initiated the redirect to this login form.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T004123Z" creationid="Toru Kokubun" creationdate="20180624T003954Z">
+        <seg>craft.session.returnUrl&lt;x1/&gt; には、このログインフォームへリダイレクトした &lt;x2/&gt;{% requireLogin %}&lt;x3/&gt; タグを含む元の URL がセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>craft/templates/recipes/ingredients/index.html&lt;x1/&gt;, the template path &lt;x2/&gt;recipes/ingredients&lt;x3/&gt; will match &lt;x4/&gt;ingredients.html&lt;x5/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031950Z" creationid="Toru Kokubun" creationdate="20180427T001031Z">
@@ -17524,6 +17934,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002621Z" creationid="Toru Kokubun" creationdate="20180429T002555Z">
         <seg>element&lt;x1/&gt;, &lt;x2/&gt;sourceElement&lt;x3/&gt;、または &lt;x4/&gt;targetElement&lt;x5/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>entry query param&lt;x1/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003407Z" creationid="Toru Kokubun" creationdate="20180624T003225Z">
+        <seg>エントリクエリパラメータ&lt;x1/&gt;に渡します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17980,6 +18398,38 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T063956Z" creationid="Toru Kokubun" creationdate="20180418T063956Z">
         <seg>あなたのサイトは、少なくとも &lt;x1/&gt;Craft 2.6.2788&lt;x2/&gt; が実行されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{asset:123:filename}&lt;x1/&gt; – returns the filename of an asset with the ID of &lt;x2/&gt;123&lt;x3/&gt; (via &lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014233Z" creationid="Toru Kokubun" creationdate="20180624T013822Z">
+        <seg>{asset:123:filename}&lt;x1/&gt; – ID が &lt;x2/&gt;123&lt;x3/&gt; のアセットのファイル名を（&lt;x4/&gt; 経由で）返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{craft\commerce\Variant:123:price}&lt;x1/&gt; – returns the price of a Commerce Variant object with the id of &lt;x2/&gt;123&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014305Z" creationid="Toru Kokubun" creationdate="20180624T014215Z">
+        <seg>{craft\commerce\Variant:123:price}&lt;x1/&gt; – ID が &lt;x2/&gt;123&lt;x3/&gt; の Commerce Variant オブジェクトの price を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{entry:about-us:intro}&lt;x1/&gt; – returns the value of an &lt;x2/&gt;intro&lt;x3/&gt; custom field on an entry with the slug &lt;x4/&gt;about-us&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014052Z" creationid="Toru Kokubun" creationdate="20180624T014024Z">
+        <seg>{entry:about-us:intro}&lt;x1/&gt; – スラグが &lt;x4/&gt;about-us&lt;x5/&gt; のエントリのカスタムフィールド &lt;x2/&gt;intro&lt;x3/&gt; の値を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{entry:blog/whats-on-tap}&lt;x1/&gt; – returns the URL of an entry in a &lt;x2/&gt;blog&lt;x3/&gt; section with the slug &lt;x4/&gt;whats-on-tap&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014140Z" creationid="Toru Kokubun" creationdate="20180624T014132Z">
+        <seg>{entry:blog/whats-on-tap}&lt;x1/&gt; – スラグが &lt;x4/&gt;whats-on-tap&lt;x5/&gt; の &lt;x2/&gt;blog&lt;x3/&gt; セクションのエントリの URL を返します。</seg>
       </tuv>
     </tu>
     <tu>
