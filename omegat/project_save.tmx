@@ -4150,6 +4150,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Defining Custom Parameters on Eager-Loaded Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080727Z" creationid="Toru Kokubun" creationdate="20180624T080727Z">
+        <seg>Eager-Loaded エレメントのカスタムパラメータを定義する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Defining Transforms from the Control Panel</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T033509Z" creationid="Toru Kokubun" creationdate="20180624T033509Z">
@@ -4650,6 +4658,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230245Z" creationid="Toru Kokubun" creationdate="20180414T230245Z">
         <seg>エレメントの Eager-Loading&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Eager-Loading Multiple Sets of Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080420Z" creationid="Toru Kokubun" creationdate="20180624T075950Z">
+        <seg>エレメントの複数セットを Eager-Loading する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Eager-Loading Nested Sets of Elements</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080502Z" creationid="Toru Kokubun" creationdate="20180624T080502Z">
+        <seg>エレメントのネストされたセットを Eager-Loading する</seg>
       </tuv>
     </tu>
     <tu>
@@ -6966,6 +6990,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have multiple sets of elements you wish to eager-load off of the top list of elements, just add additional values to your &lt;x1/&gt;with&lt;x2/&gt; parameter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080431Z" creationid="Toru Kokubun" creationdate="20180624T080237Z">
+        <seg>エレメントの最上位のリストで eager-load しておきたいエレメントの複数セットがある場合は、&lt;x1/&gt;with&lt;x2/&gt; パラメータに値を追加してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have templates located at both &lt;x1/&gt;craft/templates/recipes/ingredients.html&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000650Z" creationid="Toru Kokubun" creationdate="20180427T000650Z">
@@ -7776,8 +7808,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>In our example, we’re grabbing the first asset with &lt;x9/&gt;entry.assetsField[0]&lt;x10/&gt;, and we’re using Twig’s &lt;x11/&gt;null-coalescing operator&lt;x12/&gt; (&lt;x13/&gt;??&lt;x14/&gt;) to define a default value (&lt;x15/&gt;null&lt;x16/&gt;) in case there is no related asset.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075800Z" creationid="Toru Kokubun" creationdate="20180624T075800Z">
-        <seg>この例では、最初のアセットを &lt;x9/&gt;entry.assetsField[0]&lt;x10/&gt; で取得しています。そして、関連付けられたアセットがない場合のデフォルト値（&lt;x15/&gt;null&lt;x16/&gt;）を定義するため、Twig の &lt;x11/&gt;null-coalescing 演算子&lt;x12/&gt; (&lt;x13/&gt;??&lt;x14/&gt;) を使っています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075911Z" creationid="Toru Kokubun" creationdate="20180624T075800Z">
+        <seg>この例では、最初のアセットを &lt;x9/&gt;entry.assetsField[0]&lt;x10/&gt; で取得しています。そして、関連付けられたアセットがない場合のデフォルト値（&lt;x15/&gt;null&lt;x16/&gt;）を定義するため、Twig の &lt;x11/&gt;null 合体演算子&lt;x12/&gt; (&lt;x13/&gt;??&lt;x14/&gt;) を使っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8226,6 +8258,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T035235Z" creationid="Toru Kokubun" creationdate="20180624T035235Z">
         <seg>オプションには、次のものが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s also possible to load &lt;x1/&gt;nested&lt;x2/&gt; sets of elements, using this syntax:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T080558Z" creationid="Toru Kokubun" creationdate="20180624T080558Z">
+        <seg>次の構文を利用して、エレメントの &lt;x1/&gt;ネストされた&lt;x2/&gt; セットを読み込むこともできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12508,8 +12548,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>That first argument (&lt;x1/&gt;'and'&lt;x2/&gt;) specified that the query must match &lt;x3/&gt;all&lt;x4/&gt; of the relation criteria.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T015117Z" creationid="Toru Kokubun" creationdate="20180429T015117Z">
-        <seg>最初の引数（&lt;x1/&gt;'and'&lt;x2/&gt;）は、クエリがリレーションの判断基準と&lt;x3/&gt;すべて&lt;x4/&gt;一致しなければならないことを指定しています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T081452Z" creationid="Toru Kokubun" creationdate="20180429T015117Z">
+        <seg>最初の引数（&lt;x1/&gt;'and'&lt;x2/&gt;）は、クエリがリレーションの基準と&lt;x3/&gt;すべて&lt;x4/&gt;一致しなければならないことを指定しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17402,6 +17442,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can define custom criteria parameters that will get applied as elements are being eager-loaded, by replacing its key with an array that has two values: the key, and an object that defines the criteria parameters that should be applied.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T081510Z" creationid="Toru Kokubun" creationdate="20180624T081255Z">
+        <seg>そのキーを（キー、および適用されるべき基準パラメータを定義するオブジェクトを含む）2つの値を持つ配列に置き換えることによって、eager-loaded するときにエレメントへ適用されるカスタムの基準パラメータを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can define one or more sites at different domains, using a different set of templates, and different versions of entry content.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T003717Z" creationid="Toru Kokubun" creationdate="20180430T003422Z">
@@ -17652,8 +17700,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>You can pass &lt;x5/&gt;'or'&lt;x6/&gt; instead if you want &lt;x7/&gt;any&lt;x8/&gt; of the relation criteria to match.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
-        <seg>リレーション判断基準の&lt;x7/&gt;いずれか&lt;x8/&gt;とマッチさせたい場合、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T081457Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
+        <seg>リレーション基準の&lt;x7/&gt;いずれか&lt;x8/&gt;とマッチさせたい場合、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
       </tuv>
     </tu>
     <tu>
