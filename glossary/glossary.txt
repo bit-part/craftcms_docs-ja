@@ -72,3 +72,5 @@ omitted	省略される
 fallback	フォールバック
 paginate	ページ割り
 paginate	ページを付ける
+dimension	寸法、大きさ
+aspect ratio	アスペクト比、縦横比
