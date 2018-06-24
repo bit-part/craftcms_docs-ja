@@ -51,7 +51,6 @@ Permission	パーミッション	サーバー設定に関する場合は「パ�
 folksonomies	分類
 taxonomies	分類
 relational field	関連フィールド
-Criteria	判定基準
 Element Criteria Model	Element Criteria Model	「エレメントの判定基準モデル」でも問題ないが、モデル名であることから、このままの表記とする
 Beyond that	その他に
 starting point	出発点
@@ -75,3 +74,4 @@ paginate	ページを付ける
 dimension	寸法、大きさ
 aspect ratio	アスペクト比、縦横比
 innocent-looking	無邪気に見える、悪くなさそうに見える
+Criteria	基準
