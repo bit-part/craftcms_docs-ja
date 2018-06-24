@@ -1,5 +1,4 @@
-リレーション
-=========
+# リレーション
 
 Craft は、エレメントを互いに関連付けるための強力なエンジンを持っています。関連フィールドタイプを利用して、それらの関連性を作成します。
 
@@ -11,7 +10,7 @@ Craft は次の5つの関連フィールドタイプがあります。
 * [タグフィールド](tags-fields.md)
 * [ユーザーフィールド](users-fields.md)
 
-他のフィールドタイプと同様に、これらを[セクション](sections-and-entries.md#sections)、[ユーザー](users.md)、[アセット](assets.md)、[カテゴリグループ](categories.md)、[タググループ](tags.md)、および[グローバル設定]({globals.md)のフィールドレイアウトに追加できます。
+他のフィールドタイプと同様に、これらを[セクション](sections-and-entries.md#sections)、[ユーザー](users.md)、[アセット](assets.md)、[カテゴリグループ](categories.md)、[タググループ](tags.md)、および[グローバル設定](globals.md)のフィールドレイアウトに追加できます。
 
 ## 専門用語
 
@@ -73,7 +72,7 @@ Craft のリレーションを操作する前に、それがテンプレート�
 
 最も単純な書式としては、次のいずれかを渡すことができます。
 
-* [craft\elements\Asset](https://docs.craftcms.com/api/v3/craft-elements-asset.html)、[craft\elements\Category](https://docs.craftcms.com/api/v3/craft-elements-category.html)、[craft\elements\Entry](https://docs.craftcms.com/api/v3/craft-elements-entry.html)、[craft\elements\User](https://docs.craftcms.com/api/v3/craft-elements-user.html)、または [craft\elements\Tag](https://docs.craftcms.com/api/v3/craft-elements-tag.html) オブジェクト
+* A <api:craft\elements\Asset>, <api:craft\elements\Category>, <api:craft\elements\Entry>, <api:craft\elements\User>, or <api:craft\elements\Tag> object
 * エレメントの ID
 * エレメントオブジェクト、および / または、 ID の配列
 
@@ -104,7 +103,7 @@ Craft のリレーションを操作する前に、それがテンプレート�
 }) %}
 ```
 
-特定のフィールドで作成されたリレーションにスコープを制限する場合、`sourceLocale` プロパティをセットします（関連フィールドを翻訳可能に設定している場合のみ）。ロケール ID をここにセットします。
+特定のフィールドで作成されたリレーションにスコープを制限する場合は、`sourceLocale` プロパティをセットします。（関連フィールドを翻訳可能にしている場合のみ、これを行います。）ロケール ID をここにセットします。
 
 ```twig
 {% set ingredients = craft.entries.section('ingredients').relatedTo({
@@ -137,5 +136,5 @@ Craft のリレーションを操作する前に、それがテンプレート�
 ]).all() %}
 ```
 
-最初の引数（`'and'`）は、クエリがリレーションの判断基準と_すべて_一致しなければならないことを指定しています。リレーション判断基準の_いずれか_とマッチさせたい場合、`'or'` を渡すことができます。
+最初の引数（`'and'`）は、クエリがリレーションの基準と_すべて_一致しなければならないことを指定しています。リレーション基準の_いずれか_とマッチさせたい場合、`'or'` を渡すことができます。
 

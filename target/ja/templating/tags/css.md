@@ -10,12 +10,15 @@
 {% endcss %}
 ```
 
-> 【メモ】タグを [yii\web\View::registerCss()](http://www.yiiframework.com/doc-2.0/yii-web-view.html#registerCss()-detail) の中で呼び出し、グローバルな `view` 変数経由でアクセスすることもできます。
+::: tip
+タグを [yii\web\View::registerCss()](http://www.yiiframework.com/doc-2.0/yii-web-view.html#registerCss()-detail) の中で呼び出し、グローバルな `view` 変数経由でアクセスすることもできます。
 
 ```twig
 {% set styles = ".content { color: #{entry.textColor}; }" %}
 {% do view.registerCss(styles) %}
 ```
+
+:::
 
 ## パラメータ
 

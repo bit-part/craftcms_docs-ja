@@ -34,11 +34,13 @@ Craft は次の PHP エクステンションが必要です。
 * [SPL](http://php.net/manual/en/book.spl.php)
 * [Zip](https://secure.php.net/manual/en/book.zip.php)
 
+さらに、Craft がメール送信できるよう PHP の [proc_*](https://secure.php.net/manual/en/ref.exec.php) メソッドを有効にする必要があります。
+
 ## オプションの PHP エクステンション
 
 * [iconv](http://us1.php.net/manual/en/book.iconv.php) – Craft が文字列を UTF-8 に変換する際に利用され、PHP にビルドインされている [mb_convert_encoding()](http://php.net/manual/en/function.mb-convert-encoding.php) よりも多くの文字エンコーディングのサポートを追加します。
 * [Intl](http://php.net/manual/en/book.intl.php) – よりリッチな国際化のサポートを追加します。
-* [DOM](http://php.net/manual/en/book.dom.php) - `yii\web\XmlResponseFormatter` と同様に、XML フィードを解析するために必要です。
+* [DOM](http://php.net/manual/en/book.dom.php) - <api:yii\web\XmlResponseFormatter> と同様に XML フィードの解析に必要です。
 
 ## 必要なデータベースユーザー特権
 

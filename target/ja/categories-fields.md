@@ -1,5 +1,4 @@
-カテゴリフィールド
-=================
+# カテゴリフィールド
 
 カテゴリフィールドでは、[カテゴリ](categories.md)を親エレメントに関連付けることができます。
 
@@ -92,6 +91,6 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 
 * [エレメントクエリ](element-queries.md)
 * [カテゴリのクエリパラメータ](element-query-params/category-query-params.md)
-* [craft\elements\Category](https://docs.craftcms.com/api/v3/craft-elements-category.html)
+* <api:craft\elements\Category>
 * [リレーション](relations.md)
 

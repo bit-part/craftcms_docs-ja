@@ -4,13 +4,15 @@
 
 ## `craft`
 
-様々なヘルパーファンクションやオブジェクトのアクセスポイントを提供する [craft\web\twig\variables\CraftVariable](https://docs.craftcms.com/api/v3/craft-web-twig-variables-craftvariable.html) オブジェクト。
+様々なヘルパーファンクションやオブジェクトのアクセスポイントを提供する <api:craft\web\twig\variables\CraftVariable>  オブジェクト。
 
 ### `craft.app`
 
-メインの [craft\web\Application](https://docs.craftcms.com/api/v3/craft-web-application.html) インスタンス（PHP コード内で `Craft::$app` と記述したときに取得できるもの）への参照は、`craft.app` 経由でテンプレートでも利用可能です。
+<api:craft\web\Application> インスタンス（PHP コード内で `Craft::$app` と記述したときに取得できるもの）への参照は、`craft.app` 経由でテンプレートでも利用可能です。
 
-> 【メモ】`craft.app` 経由でアクセスすることは、高度な進化だと考えられます。他の Twig 特有の変数やファンクションよりもセキュリティの上で意味があります。さらに、Craft のメジャーバージョン間で生じる互換性を破る変更に、テンプレートを反応させやすくするでしょう。
+::: danger
+`craft.app` 経由でアクセスすることは、高度な進化だと考えられます。他の Twig 特有の変数やファンクションよりもセキュリティの上で意味があります。さらに、Craft のメジャーバージョン間で生じる互換性を破る変更に、テンプレートを反応させやすくするでしょう。
+:::
 
 ```twig
 {% if craft.app.config.general.devMode %}
@@ -20,7 +22,7 @@
 
 ## `currentSite`
 
-[craft\models\Site](https://docs.craftcms.com/api/v3/craft-models-site.html) オブジェクトで表される、リクエストされたサイト。
+<api:craft\models\Site> オブジェクトで表される、リクエストされたサイト。
 
 ```twig
 {{ currentSite.name }}
@@ -40,7 +42,7 @@
 
 ## `currentUser`
 
-[craft\elements\User](https://docs.craftcms.com/api/v3/craft-elements-user.html) オブジェクトで表される、現在ログインしているユーザー。誰もログインしていない場合は、`null`。
+<api:craft\elements\User> オブジェクトで表される、現在ログインしているユーザー。誰もログインしていない場合は、`null`。
 
 ```twig
 {% if currentUser %}
@@ -50,7 +52,7 @@
 
 ## `loginUrl`
 
-[loginPath](https://docs.craftcms.com/api/v3/craft-config-generalconfig.html#$loginPath-detail) コンフィグ設定に基づく、サイトのログインページの URL。
+<config:loginPath> コンフィグ設定に基づく、サイトのログインページの URL。
 
 ```twig
 {% if not currentUser %}
@@ -60,7 +62,7 @@
 
 ## `logoutUrl`
 
-[logoutPath](https://docs.craftcms.com/api/v3/craft-config-generalconfig.html#$logoutPath-detail) コンフィグ設定に基づく、Craft ユーザーのログアウト URL。ここに遷移した後、Craft はユーザーをホームページへ自動的にリダイレクトします。「ログアウト_ページ_」といったものはありません。
+<config:logoutPath> コンフィグ設定に基づく、Craft ユーザーのログアウト URL。ここに遷移した後、Craft はユーザーをホームページへ自動的にリダイレクトします。「ログアウト _ページ_ 」といったものはありません。
 
 ```twig
 {% if currentUser %}
@@ -78,23 +80,23 @@ Today is {{ now|date('M j, Y') }}.
 
 ## `POS_BEGIN`
 
-定数 [craft\web\View::POS_BEGIN](https://docs.craftcms.com/api/v3/craft-web-view.html#constants) の Twig 対応のコピー。
+定数 [craft\web\View::POS_BEGIN](api:craft\web\View#constants) の Twig 対応のコピー。
 
 ## `POS_END`
 
-定数 [craft\web\View::POS_END](https://docs.craftcms.com/api/v3/craft-web-view.html#constants) の Twig 対応のコピー。
+定数 [craft\web\View::POS_END](api:craft\web\View#constants) の Twig 対応のコピー。
 
 ## `POS_HEAD`
 
-定数 [craft\web\View::POS_HEAD](https://docs.craftcms.com/api/v3/craft-web-view.html#constants) の Twig 対応のコピー。
+定数 [craft\web\View::POS_HEAD](api:craft\web\View#constants) の Twig 対応のコピー。
 
 ## `POS_LOAD`
 
-定数 [craft\web\View::POS_LOAD](https://docs.craftcms.com/api/v3/craft-web-view.html#constants) の Twig 対応のコピー。
+定数 [craft\web\View::POS_LOAD](api:craft\web\View#constants) の Twig 対応のコピー。
 
 ## `POS_READY`
 
-定数 [craft\web\View::POS_READY](https://docs.craftcms.com/api/v3/craft-web-view.html#constants) の Twig 対応のコピー。
+定数 [craft\web\View::POS_READY](api:craft\web\View#constants) の Twig 対応のコピー。
 
 ## `siteName`
 
@@ -150,13 +152,13 @@ PHP 定数 `SORT_STRING` の Twig 対応のコピー。
 
 ## `view`
 
-テンプレートを駆動している [craft\web\View](https://docs.craftcms.com/api/v3/craft-web-view.html) インスタンスへの参照。
+テンプレートを駆動している <api:craft\web\View> インスタンスへの参照。
 
 ## グローバル設定の変数
 
 それそれのサイトの[グローバル設定](../globals.md)は、ハンドルにちなんで命名されたグローバル変数としてテンプレートで利用可能です。
 
-それらは、[craft\elements\GlobalSet](https://docs.craftcms.com/api/v3/craft-elements-globalset.html) オブジェクトとして表されます。
+それらは <api:craft\elements\GlobalSet> オブジェクトとして表されます。
 
 ```twig
 <p>{{ companyInfo.companyName }} was established in {{ companyInfo.yearEstablished }}.</p>

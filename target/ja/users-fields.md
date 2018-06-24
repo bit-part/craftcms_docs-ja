@@ -1,5 +1,4 @@
-ユーザーフィールド
-============
+# ユーザーフィールド
 
 ユーザーフィールドでは、[ユーザー](users.md)を親エントリに関連付けることができます。
 
@@ -90,6 +89,6 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 
 * [エレメントクエリ](element-queries.md)
 * [ユーザーのクエリパラメータ](element-query-params/user-query-params.md)
-* [craft\elements\User](https://docs.craftcms.com/api/v3/craft-elements-user.html)
+* <api:craft\elements\User>
 * [リレーション](relations.md)
 

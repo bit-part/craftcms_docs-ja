@@ -1,15 +1,6 @@
 # コンフィギュレーション
 
-- [PHP 定数](#php-constants)
-- [一般設定](#general-config)
-- [データベース設定](#database-config)
-- [データキャッシュ設定](#data-caching-config)
-- [Guzzle 設定](#guzzle-config)
-- [エイリアス](#aliases)
-- [ボリューム設定の上書き](#overriding-volume-settings)
-- [URL ルール](#url-rules)
-- [アプリケーション設定](#application-config)
-   - [Mailer コンポーネント](#mailer-component)
+[[toc]]
 
 ## PHP 定数
 
@@ -20,8 +11,8 @@
 - `CRAFT_CONFIG_PATH` – `config/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
 - `CRAFT_CONTENT_MIGRATIONS_PATH` – コンテンツマイグレーションの格納に使用する `migrations/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
 - `CRAFT_ENVIRONMENT` – 環境特有の設定値を定義する際に参照できるマルチ環境設定の環境 ID。（デフォルトでは、`$_SERVER['SERVER_NAME']` が使用されます。）
+- `CRAFT_LICENSE_KEY` – ライセンスキーファイルではなく PHP によって定義されなければならないなんらかの理由がある場合の Craft のライセンスキー（有効なライセンスキーを取得するまで、これをセットしないでください。）
 - `CRAFT_LICENSE_KEY_PATH` – ファイル名を含めた Craft が格納するライセンスキーファイルを保存するパス。（デフォルトでは、`config/` ディレクトリ内に `license.key` として保存されます。）
-- `CRAFT_PLUGINS_PATH` – マニュアルインストールされたプラグインの格納に使用する `plugins/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
 - `CRAFT_SITE` – Craft が `index.php` ファイルから提供するべきサイトハンドル、または、サイト ID。（明確な理由がある場合のみ、これをセットしてください。セットされていなければ、Craft はリクエスト URL を調査することで正しいサイトを自動的に配信します。）
 - `CRAFT_STORAGE_PATH` – `storage/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
 - `CRAFT_TEMPLATES_PATH` – `templates/` ディレクトリのパス。（デフォルトでは、ベースディレクトリ内に存在するものとします。）
@@ -30,7 +21,7 @@
 
 ## 一般設定
 
-Craft は、いくつかの[一般設定](https://docs.craftcms.com/api/v3/craft-config-generalconfig.html#properties)をサポートしています。`config/general.php` ファイルでデフォルト値を上書きすることができます。
+Craft は、いくつかの[一般設定](craft\config\GeneralConfig#public-properties)をサポートしています。`config/general.php` ファイルでデフォルト値を上書きすることができます。
 
 ```php
 return [
@@ -40,7 +31,7 @@ return [
 
 ## データベース設定
 
-Craft は、いくつかの[データベース設定](https://docs.craftcms.com/api/v3/craft-config-dbconfig.html#properties)をサポートしています。`config/db.php` ファイルでデフォルト値を上書きすることができます。
+Craft は、いくつかの[データベース設定](craft\config\DbConfig#public-properties)をサポートしています。`config/db.php` ファイルでデフォルト値を上書きすることができます。
 
 ## データキャッシュ設定
 
@@ -143,8 +134,8 @@ Craft のいくつかの設定やファンクションでは、基本ファイ�
 - サイトのベース URL 設定
 - ボリュームのベース URL 設定
 - ローカルボリュームのファイルシステムパス設定
-- [resourceBasePath](https://docs.craftcms.com/api/v3/craft-config-generalconfig.html#$resourceBasePath-detail) と [resourceBaseUrl](https://docs.craftcms.com/api/v3/craft-config-generalconfig.html#$resourceBaseUrl-detail) のコンフィグ設定
-- Twig ファンクションの [svg()](templating/functions.md#svg-svg-sanitize-)
+- <config:resourceBasePath> と <config:resourceBaseUrl> のコンフィグ設定
+- Twig ファンクションの [svg()](templating/functions.md#svg-svg-sanitize)
 
 次のエイリアスは、そのまま利用可能です。
 
@@ -164,7 +155,7 @@ Craft のいくつかの設定やファンクションでは、基本ファイ�
 | `@web` | リクエストのために読み込まれた `index.php` ファイルを含むフォルダの URL |
 | `@webroot` | リクエストのために読み込まれた `index.php` ファイルを含むフォルダのパス |
 
-[aliases](https://docs.craftcms.com/api/v3/craft-config-generalconfig.html#$aliases-detail) コンフィグ設定を利用して、追加の独自エイリアスを定義することができます。例えば、アセットボリュームが存在するベース URL とベースパスを定義するエイリアスを作成したいかもしれません。
+<config:aliases> コンフィグ設定を利用して、追加の独自エイリアスを定義することができます。例えば、アセットボリュームが存在するベース URL とベースパスを定義するエイリアスを作成したいかもしれません。
 
 ```php
 'aliases' => [
@@ -195,7 +186,9 @@ ASSET_BASE_PATH=/path/to/web/assets
 
 設定ファイルでボリューム設定を定義することを好む場合、`config/volumes.php` で設定できます。このファイルは配列を返さなければならず、キーにはボリュームのハンドルをマップし、値には上書きする設定を定義してあるネストされた配列を持たせます。
 
-> 【メモ】Craft が上書きのために `config/volumes.php` をチェックしはじめる前に、コントロールパネルでボリュームを作成しておく必要があります。
+::: warning
+Craft が上書きのために `config/volumes.php` をチェックしはじめる前に、コントロールパネルでボリュームを作成しておく必要があります。
+:::
 
 ```php
 return [
@@ -257,4 +250,34 @@ return [
  // ...
 ];
 ```
+
+### Queue コンポーネント
+
+Craft のジョブキューは [Yii2 Queue Extension](https://github.com/yiisoft/yii2-queue) によって動いています。デフォルトでは、Craft はエクステンションの [DB driver](https://github.com/yiisoft/yii2-queue/blob/master/docs/guide/driver-db.md) をベースとする [custom queue driver](craft\queue\Queue) を使用しますが、`config/app.php` から Craft の `queue` コンポーネントを上書きすることによって、別のドライバに切り替えることができます。
+
+```php
+<?php
+
+return [
+ 'components' => [
+ 'queue' => [
+ 'class' => \yii\queue\redis\Queue::class,
+ 'redis' => 'redis', // Redis connection component or its config
+ 'channel' => 'queue', // Queue channel key
+ ],
+ ],
+ 
+ // ...
+];
+```
+
+利用可能なドライバは、[Yii2 Queue Extension documentation](https://github.com/yiisoft/yii2-queue/tree/master/docs/guide) に記載されています。
+
+::: warning
+<api:craft\queue\QueueInterface> を実装しているドライバだけがコントロールパネル内に表示されます。
+:::
+
+::: tip
+キュードライバが独自のワーカーを提供している場合、`config/general.php` の <config:runQueueAutomatically> コンフィグ設定を `false` に設定します。
+:::
 

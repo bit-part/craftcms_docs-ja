@@ -1,5 +1,4 @@
-行列フィールド
-=============
+# 行列フィールド
 
 行列フィールドでは、1つのフィールド内に複数のコンテンツブロックを作成できます。
 
@@ -36,9 +35,9 @@
 {% endfor %}
 ```
 
-for ループ内に記述されたすべてのコードは、 フィールドに含まれるそれぞれの行列ブロックに対して繰り返されます。定義済みの変数 `block` にセットされる現在のブロックは、[craft\elements\MatrixBlock](https://docs.craftcms.com/api/v3/craft-elements-matrixblock.html) モデルになります。
+for ループ内に記述されたすべてのコードは、 フィールドに含まれるそれぞれの行列ブロックに対して繰り返されます。定義済みの変数 `block` にセットされる現在のブロックは、<api:craft\elements\MatrixBlock> モデルになります。
 
-次に、4つのブロックタイプ（見出し、テキスト、画像、および引用）を持つ行列フィールドのテンプレートの実例を示します。[`block.type`](https://docs.craftcms.com/api/v3/craft-elements-matrixblock.html#getType()-detail) をチェックすることによって、現在のブロックタイプのハンドルを確認できます。
+次に、4つのブロックタイプ（見出し、テキスト、画像、および引用）を持つ行列フィールドのテンプレートの実例を示します。`block.type` （<api:craft\elements\MatrixBlock::getType()>）をチェックすることによって、現在のブロックタイプのハンドルを確認できます。
 
 ```twig
 {% for block in entry.myMatrixField.all() %}
@@ -70,7 +69,7 @@ for ループ内に記述されたすべてのコードは、 フィールドに
 {% endfor %}
 ```
 
-> このコードは [`{% switch %}`](templating/tags/switch.md) タグを利用して、簡略化できます。
+> このコードは [switch](templating/tags/switch.md) タグを利用して、簡略化できます。
 
 ### ブロックタイプのフィルタリング
 
@@ -119,5 +118,5 @@ for ループ内に記述されたすべてのコードは、 フィールドに
 ### 関連項目
 
 * [エレメントクエリ](element-queries.md)
-* [craft\models\MatrixBlock](https://docs.craftcms.com/api/v3/craft-elements-matrixblock.html)
+* <api:craft\models\MatrixBlock>
 

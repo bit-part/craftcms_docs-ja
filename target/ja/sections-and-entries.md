@@ -1,7 +1,5 @@
 # セクションとエントリ
 
-Introduction here
-
 ## エントリ
 
 エントリはウェブページに表示させたいコンテンツを保持します。すべてのエントリは投稿者、投稿日、（もし望むなら）有効期限日、（有効・無効の）ステータスと、もちろん、コンテンツを持っています。
@@ -74,19 +72,27 @@ Craft のマルチサイト機能を利用しているなら、次のことも�
 {author.username}/{slug}
 ```
 
-ストラクチャーセクションでは、エントリがトップレベルかネストされているかによって、異なるエントリー URI 形式を持つことを望むかもしれません。
+ストラクチャーセクションでは、子エントリのためのネストされたパスが必要かもしれません。
 
 ```twig
-{% if level == 1 %}docs{% else %}{parent.uri}{% endif %}{slug}
+{parent.uri}/{slug}
 ```
 
-このエントリー URI 形式では、トップレベルエントリは URI `docs/templating` で終わるかもしれないのに対して、ネスとされているエントリの URI `docs/templating/tags` で終わるかもしれません。
+上記のエントリー URI 形式では、トップレベルエントリの URI は `templating` で終わるかもしれないのに対して、ネストされているエントリの URI は `templating/tags` で終わるかもしれません。
 
-同じテンプレートは次の構文で表すこともできます。
+ストラクチャーセクションでは、ネストされたパスの前にセグメントを含めることもできます。
 
 ```twig
 {parent.uri ?? 'docs'}/{slug}
 ```
+
+上記のテンプレートは次の構文で表すこともできます。
+
+```twig
+{% if level == 1 %}docs{% else %}{parent.uri}{% endif %}/{slug}
+```
+
+上記のエントリー URI 形式では、トップレベルエントリの URI は `docs/templating` で終わるかもしれないのに対して、ネストされているエントリの URI は `docs/templating/tags` で終わるかもしれません。
 
 ## 入力タイプ
 
@@ -94,7 +100,7 @@ Craft のマルチサイト機能を利用しているなら、次のことも�
 
 「設定 > セクション」のセクション名の横にある「入力タイプを変更してください。」リンクをクリックして、セクションの入力タイプを管理できます。セクションの入力タイプのインデックスに移動します。いずれかの入力タイプの名前をクリックすると、その設定ページへ移動します。
 
-![入力タイプの設定編集画面](images/sections-and-entries-entry-types.png)
+![入力タイプの設定編集画面](./images/sections-and-entries-entry-types.png)
 
 入力タイプの設定は、次の通りです。
 
@@ -109,7 +115,7 @@ Craft のマルチサイト機能を利用しているなら、次のことも�
 
 タイトル形式は本格的な Twig テンプレートで、エントリが保存されるたびに解析されます。
 
-エントリは `object` という名称の変数としてこのテンプレートに渡されます。エントリの [プロパティ](https://docs.craftcms.com/api/v3/craft-elements-entry.html#public-properties) は、次の2つの方法で参照できます。
+エントリは `object` という名称の変数としてこのテンプレートに渡されます。エントリの [プロパティ](api:craft\elements\Entry#public-properties) は、次の2つの方法で参照できます。
 
 * `{{ object.property }}` _（標準の Twig 構文）_
 * `{property}` _（ショートカット構文）_
@@ -125,7 +131,7 @@ Craft がタイトル形式の中でショートカット構文を見つけた�
 {postDate|date('M j, Y')}
 ```
 
-Craft の [グローバル変数](templating/global-variables.md) は、これらのテンプレートでも利用できます。
+Craft の[グローバル変数](templating/global-variables.md)は、これらのテンプレートでも利用できます。
 
 ```twig
 {{ now|date('Y-m-d') }}

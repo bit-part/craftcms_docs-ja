@@ -1,35 +1,6 @@
 # Craft 3 の変更点
 
-- [リッチテキストフィールド](#rich-text-fields)
-   - [Redactor 設定](#redactor-configs)
-- [リモートボリューム](#remote-volumes)
-- [コンフィギュレーション](#configuration)
-   - [コンフィグ設定](#config-settings)
-   - [`omitScriptNameInUrls` と `usePathInfo`](#omitscriptnameinurls-and-usepathinfo)
-- [URL ルール](#url-rules)
-- [PHP 定数](#php-constants)
-- [静的な翻訳ファイル](#static-translation-files)
-- [ユーザーフォト](#user-photos)
-- [Twig 2](#twig-2)
-- [テンプレートタグ](#template-tags)
-- [テンプレートファンクション](#template-functions)
-- [データフォーマット](#date-formatting)
-- [通貨フォーマット](#currency-formatting)
-- [エレメントクエリ](#element-queries)
-   - [クエリパラメータ](#query-params)
-   - [クエリメソッド](#query-methods)
-   - [クエリを配列として扱う](#treating-queries-as-arrays)
-   - [`last()`](#last)
-- [エレメント](#elements)
-- [モデル](#models)
-- [ロケール](#locales)
-- [リクエストパラメータ](#request-params)
-   - [`action` パラメータ](#action-params)
-   - [`redirect` パラメータ](#redirect-params)
-   - [CSRF トークンパラメータ](#csrf-token-params)
-- [Memcache](#memcache)
-- [DbCache](#dbcache)
-- [プラグイン](#plugins)
+[[toc]]
 
 ## リッチテキストフィールド
 
@@ -104,7 +75,7 @@ Amazon S3、Rackspace Cloud Files、および Google Cloud Storage のサポー�
 | `db.php` | `collation` |
 | `db.php` | `initSQLs` |
 | `general.php` | `appId` |
-| `general.php` | `cacheMethod`（[コンフィギュレーション > データキャッシュ設定](configuration.md#data-caching-config)をみてください。 |
+| `general.php` | `cacheMethod` （[コンフィギュレーション > データキャッシュ設定](configuration.md#data-caching-config)を参照してください。） |
 
 ### `omitScriptNameInUrls` と `usePathInfo`
 
@@ -172,7 +143,7 @@ translations/
 
 次の方法で解決してください。
 
-1. `storage/userphotos/` フォルダをウェブルート下層のどこかに移動します。（例： `public_html/userphotos/`）
+1. `storage/userphotos/` フォルダをウェブルート下層のどこかに移動します。（例：`web/userphotos/`）
 2. 「設定 > アセット > ボリューム > User Photos」に移動し、新しいフォルダのロケーションに基づいてボリュームを設定します。
    - 「ファイルシステムのパス」設定を新しいフォルダのロケーションにしてアップデートします。
    - 「このボリュームのアセットにはパブリック URL が含まれます」設定を有効化します。
@@ -183,7 +154,7 @@ translations/
 
 Craft 3 では、テンプレート向けに独自の変更を加えた Twig 2 を使用しています。
 
-#### マクロ
+### マクロ
 
 Twig 2 では、利用先となる各テンプレートで明示的にマクロをインポートする必要があります。親テンプレートでインクルードしている場合だけでなく、同じテンプレートファイルで定義されているときでさえも、自動的に利用することはできません。
 
@@ -198,7 +169,7 @@ New:
 {{ macros.foo() }}
 ```
 
-#### 未定義のブロック
+### 未定義のブロック
 
 Twig 1 では、存在しないブロックでさえも `block()` で呼び出すことができます。
 
@@ -242,28 +213,28 @@ Twig 2 では、`defined` のテストでない限り、エラーを返します
 
 | 旧 | 新 |
 | ------------------------------------------- | ------------------------------------ |
-| `craft.hasPackage()` | *(n/a)* |
-| `craft.entryRevisions.getDraftByOffset()` | *(n/a)* |
-| `craft.entryRevisions.getVersionByOffset()` | *(n/a)* |
+| `craft.hasPackage()` | *（該当なし）* |
+| `craft.entryRevisions.getDraftByOffset()` | *（該当なし）* |
+| `craft.entryRevisions.getVersionByOffset()` | *（該当なし）* |
 | `craft.fields.getFieldType(type)` | `craft.app.fields.createField(type)` |
-| `craft.fields.populateFieldType()` | *(n/a)* |
+| `craft.fields.populateFieldType()` | *（該当なし）* |
 | `craft.tasks.areTasksPending()` | `craft.app.queue.getHasWaitingJobs()`<sup>1</sup> |
-| `craft.tasks.getRunningTask()` | *(n/a)* |
-| `craft.tasks.getTotalTasks()` | *(n/a)* |
-| `craft.tasks.haveTasksFailed()` | *(n/a)* |
+| `craft.tasks.getRunningTask()` | *（該当なし）* |
+| `craft.tasks.getTotalTasks()` | *（該当なし）* |
+| `craft.tasks.haveTasksFailed()` | *（該当なし）* |
 | `craft.tasks.isTaskRunning()` | `craft.app.queue.getHasReservedJobs()`<sup>1</sup> |
 
-*<sup>1</sup> `queue` コンポーネントが `craft\queue\QueueInterface` を実装している場合のみ、使用可能です。*
+*<sup>1</sup> `queue` コンポーネントが <api:craft\queue\QueueInterface> を実装している場合のみ、使用可能です。*
 
 次のテンプレートファンクションは Craft 3 で非推奨となり、Craft 4 で完全に削除されます。
 
 | 旧 | 新 |
 | ------------------------------------------------------- | --------------------------------------------- |
-| `round(num)` | `num\|round` |
+| `round(num)` | `num|round` |
 | `getCsrfInput()` | `csrfInput()` |
 | `getHeadHtml()` | `head()` |
 | `getFootHtml()` | `endBody()` |
-| `getTranslations()` | `view.getTranslations()\|json_encode\|raw` |
+| `getTranslations()` | `view.getTranslations()|json_encode|raw` |
 | `craft.categoryGroups.getAllGroupIds()` | `craft.app.categoryGroups.allGroupIds` |
 | `craft.categoryGroups.getEditableGroupIds()` | `craft.app.categories.editableGroupIds` |
 | `craft.categoryGroups.getAllGroups()` | `craft.app.categoryGroups.allGroups` |
@@ -327,8 +298,8 @@ Twig 2 では、`defined` のテストでない限り、エラーを返します
 | `craft.request.getUrl()` | `url(craft.app.request.pathInfo)` |
 | `craft.request.getSegments()` | `craft.app.request.segments` |
 | `craft.request.getSegment(num)` | `craft.app.request.getSegment(num)` |
-| `craft.request.getFirstSegment()` | `craft.app.request.segments\|first` |
-| `craft.request.getLastSegment()` | `craft.app.request.segments\|last` |
+| `craft.request.getFirstSegment()` | `craft.app.request.segments|first` |
+| `craft.request.getLastSegment()` | `craft.app.request.segments|last` |
 | `craft.request.getParam(name)` | `craft.app.request.getParam(name)` |
 | `craft.request.getQuery(name)` | `craft.app.request.getQueryParam(name)` |
 | `craft.request.getPost(name)` | `craft.app.request.getBodyParam(name)` |
@@ -379,31 +350,31 @@ Craft によって拡張された DateTime クラスは Craft 3 で削除され�
 
 | 旧 | 新 |
 | --------------------------------- | ---------------------------------- |
-| `{{ d }}` *（文字列として扱われる）* | `{{ d\|date('Y-m-d') }}` |
-| `{{ d.atom() }}` | `{{ d\|atom }}` |
-| `{{ d.cookie() }}` | `{{ d\|date('l, d-M-y H:i:s T')}}` |
-| `{{ d.day() }}` | `{{ d\|date('j') }}` |
-| `{{ d.iso8601() }}` | `{{ d\|date('c') }}` |
-| `{{ d.localeDate() }}` | `{{ d\|date('short') }}` |
-| `{{ d.localeTime() }}` | `{{ d\|time('short') }}` |
-| `{{ d.month() }}` | `{{ d\|date('n') }}` |
-| `{{ d.mySqlDateTime() }}` | `{{ d\|date('Y-m-d H:i:s') }}` |
-| `{{ d.nice() }}` | `{{ d\|datetime('short') }}` |
-| `{{ d.rfc1036() }}` | `{{ d\|date('D, d M y H:i:s O') }}` |
-| `{{ d.rfc1123() }}` | `{{ d\|date('r') }}` |
-| `{{ d.rfc2822() }}` | `{{ d\|date('r') }}` |
-| `{{ d.rfc3339() }}` | `{{ d\|date('Y-m-d\\TH:i:sP') }}` |
-| `{{ d.rfc822() }}` | `{{ d\|date('D, d M y H:i:s O') }}` |
-| `{{ d.rfc850() }}` | `{{ d\|date('l, d-M-y H:i:s T') }}` |
-| `{{ d.rss() }}` | `{{ d\|rss }}` |
-| `{{ d.uiTimestamp() }}` | `{{ d\|timestamp('short') }}` |
-| `{{ d.w3c() }}` | `{{ d\|date('Y-m-d\\TH:i:sP') }}` |
-| `{{ d.w3cDate() }}` | `{{ d\|date('Y-m-d') }}` |
-| `{{ d.year() }}` | `{{ d\|date('Y') }}` |
+| `{{ d }}` *（文字列として扱われる）* | `{{ d|date('Y-m-d') }}` |
+| `{{ d.atom() }}` | `{{ d|atom }}` |
+| `{{ d.cookie() }}` | `{{ d|date('l, d-M-y H:i:s T')}}` |
+| `{{ d.day() }}` | `{{ d|date('j') }}` |
+| `{{ d.iso8601() }}` | `{{ d|date('c') }}` |
+| `{{ d.localeDate() }}` | `{{ d|date('short') }}` |
+| `{{ d.localeTime() }}` | `{{ d|time('short') }}` |
+| `{{ d.month() }}` | `{{ d|date('n') }}` |
+| `{{ d.mySqlDateTime() }}` | `{{ d|date('Y-m-d H:i:s') }}` |
+| `{{ d.nice() }}` | `{{ d|datetime('short') }}` |
+| `{{ d.rfc1036() }}` | `{{ d|date('D, d M y H:i:s O') }}` |
+| `{{ d.rfc1123() }}` | `{{ d|date('r') }}` |
+| `{{ d.rfc2822() }}` | `{{ d|date('r') }}` |
+| `{{ d.rfc3339() }}` | `{{ d|date('Y-m-d\\TH:i:sP') }}` |
+| `{{ d.rfc822() }}` | `{{ d|date('D, d M y H:i:s O') }}` |
+| `{{ d.rfc850() }}` | `{{ d|date('l, d-M-y H:i:s T') }}` |
+| `{{ d.rss() }}` | `{{ d|rss }}` |
+| `{{ d.uiTimestamp() }}` | `{{ d|timestamp('short') }}` |
+| `{{ d.w3c() }}` | `{{ d|date('Y-m-d\\TH:i:sP') }}` |
+| `{{ d.w3cDate() }}` | `{{ d|date('Y-m-d') }}` |
+| `{{ d.year() }}` | `{{ d|date('Y') }}` |
 
 ## 通貨フォーマット
 
-`|currency` フィルタは [`craft\i18n\Formatter::asCurrency()`](https://docs.craftcms.com/api/v3/craft-i18n-formatter.html#asCurrency()-detail) にマップされるようになりました。それでも同じ働きとなりますが、引数 `stripZeroCents` は `stripZeros` にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。
+`|currency` フィルタは <api:craft\i18n\Formatter::asCurrency()> にマップされるようになりました。従来と同じ動きになりますが、引数 `stripZeroCents` は `stripZeros` にリネームされ、キーと値の両方が必要となっているため、この引数をセットしている場合はテンプレートを更新する必要があります。
 
 ```twig
 Old:
@@ -510,7 +481,7 @@ Craft 2 動作に影響を与えるテンプレートがある場合、[clone()]
 | `ids(criteria)` | `ids()`（criteria パラメータは非推奨になりました） |
 | `find()` | `all()` |
 | `first()` | `one()` |
-| `last()` | `inReverse().one()` _（ [`last()`](#last) を見てください）_  |
+| `last()` | `inReverse().one()` _(see [last()](#last))_ |
 | `total()` | `count()` |
 
 ### クエリを配列として扱う
@@ -539,7 +510,7 @@ New:
 {% set total = craft.entries.section('news').count() %}
 ```
 
-代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ、`offset` や `limit` パラメータをセットしていない場合、 [`|length`](https://twig.symfony.com/doc/2.x/filters/length.html) フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。
+代替方法として、実際のクエリ結果を事前にフェッチする必要があり、かつ `offset` や `limit` パラメータをセットしていない場合、  [length](https://twig.symfony.com/doc/2.x/filters/length.html) フィルタを使うことで、余分なデータベースクエリを必要とせず、結果の配列の合計サイズを確認できます。
 
 ```twig
 {% set entries = craft.entries()
@@ -567,7 +538,7 @@ New:
 `inReverse()` が期待した通りに動作しないケースが2つあります。
 
 - SQL に `ORDER BY` 句が存在しない場合、反転できるものがありません
-- `orderBy` パラメータに [`yii\db\Expression`](http://www.yiiframework.com/doc-2.0/yii-db-expression.html) オブジェクトが含まれている場合
+- `orderBy` パラメータに <api:yii\db\Expression> オブジェクトが含まれている場合
 
 このようなケースでは、 `.last()` の呼び出しを内部的な処理で置き換えることができます。
 
@@ -682,11 +653,11 @@ CSRF プロテクションは、Craft 3 ではデフォルトで有効になり�
 
 ## Memcache
 
-コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `memcache` を指定し、設定ファイル `craft/config/memcache.php` で `useMemcached` に `true` をセットしていない場合、サーバーに memcached をインストールする必要があります。Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、それを使用します。
+コンフィグ設定の <config:cacheMethod> に `memcache` を指定し、設定ファイル `craft/config/memcache.php` で `useMemcached` に `true` をセットしていない場合、サーバーに memcached をインストールする必要があります。Craft 3 では、利用可能な memcache の PHP 7 互換バージョンがないため、それを使用します。
 
 ## DbCache
 
-コンフィグ設定の [cacheMethod](https://craftcms.com/docs/config-settings#cacheMethod) に `db` を指定している場合、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。
+コンフィグ設定の <config:cacheMethod> に `db` を指定している場合、Craft 3 のアップデートを試す前に手動で SQL を実行する必要があります。
 
 *MySQL:*
 

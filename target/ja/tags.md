@@ -1,5 +1,4 @@
-タグ
-====
+# タグ
 
 タグを利用して、[エントリ](sections-and-entries.md)、[ユーザー](users.md)、および[アセット](assets.md)の分類を作成できます。
 

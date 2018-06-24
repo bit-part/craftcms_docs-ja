@@ -7,78 +7,30 @@
 はじめる前に、次のことを確認してください。
 
 - あなたは[Craft 3 の変更点](changes-in-craft-3.md)を確認しました。
-- あなたのサーバーは Craft 3 の[**最小要件**](requirements.md)（Craft 3 には PHP 7 以降が必要で、 PHP 割当メモリが少なくとも 256MB 必要です）を満たしています。
+- あなたのサーバーは Craft 3 の[最小要件](requirements.md)（Craft 3 には PHP 7 以降が必要で、PHP 割当メモリが少なくとも 256 MB 必要です）を満たしています。
 - あなたのサイトは、少なくとも **Craft 2.6.2788** が実行されています。
+- プラグインはすべて最新の状態で、それらが Craft 3 向けにアップデートされていることを確かめました。（Craft 2 コントロールパネルのアップデートページから、プラグインの Craft 3 互換ステータスのレポートを見ることができます。）
 - なんらかの問題が起こった場合に備えて、**データベースをバックアップ**してあります。
-- **Composer** をインストールしてあります。（[インストールガイド](installation.md)のステップ1を参照）
 
 上記リストをすべて満たしているなら、アップグレードプロセスを続行できます。
 
-## Craft のアップグレード
+## アップグレードの実行
 
-[既存のディレクトリ構成を維持する](#if-you-want-to-keep-your-current-directory-structure)か、新規の Craft 3 インストールに似た[新しい構成へ切り替える](#if-you-want-your-directory-structure-to-resemble-a-new-craft-3-project)かによって、Craft のアップデートには2つの方法があります。
+Craft 2 サイトをアップグレードする最善の方法は、新しい Craft 3 サイトを構築するときと同様のアプローチをとることです。はじめに、既存のプロジェクトと並行する新しいディレクトリを作成し、[インストールガイド](installation.md)のステップ 1 〜 3 に従ってください。
 
-いくつかの理由から、新しい構造への移行が一般的に推奨されています。
+Craft 3 をダウンロードして準備したら、次のステップに従ってアップグレードを完了します。
 
-- ドキュメントは全般的に新しい構造を想定しています。
-- データベースの認証情報のような機密性の高い情報は、Git にコミットしない `.env` ファイルに格納される（[PHP dotenv](https://github.com/vlucas/phpdotenv) を利用）ため、より安全です。
-- `craft` 実行可能ファイルが付属しているため、ターミナルから様々な CLI 機能を利用できます。
+1. 古い `craft/config/db.php` から新しいプロジェクトの `.env` ファイルにデータベース接続設定を定義します。
 
-### 既存のディレクトリ構成を維持したい場合は
+    ::: tip
+    現在のテーブル接頭辞がそれである場合、`DB_TABLE_PREFIX="craft"` を忘れずにセットしてください。
+    :::
 
-サイトのディレクトリ構成を大幅に変更することなく Craft をアップデートするには、次の手順に従ってください。
+2. 古い `craft/config/general.php` ファイルのすべての設定を新しいプロジェクトの `config/general.php` ファイルにコピーします。
 
-この最後にある（他の領域のドキュメント内で参照されている）"プロジェクトルート"は `craft/` ディレクトリであり、その親ディレクトリ_ではない_ことに注目してください。
+3. 古い `craft/config/license.key` ファイルを新しいプロジェクトの `config/` フォルダにコピーします。
 
-1. ターミナルを開き `craft/` ディレクトリに移動してください。
-
-       cd /path/to/project/craft
-
-2. Craft 3 を読み込むための次のコマンドを実行してください。（これは数分かかります）
-
-       composer require craftcms/cms:^3.0.0
-
-   メモ：システムに PHP 7 がインストールされていないと Composer が不満を言うかもしれません。しかし、別途インストールされた PHP（例えば MAMP や Vagrant）上で Craft を実行するつもりで、問題ないと判っているのであれば `--ignore-platform-reqs` フラグを使ってください。
-
-3. すべてのファイルがあるべき場所に配置されたら、`public/index.php` ファイルを開き、次の行を探してください。
-
-   ```php
-   // Do not edit below this line
-   ```
-
-   そして、それ以下の行をすべて置き換えてください。
-
-   ```php
-   defined('CRAFT_BASE_PATH') || define('CRAFT_BASE_PATH', realpath($craftPath));
-
-   if (!is_dir(CRAFT_BASE_PATH.'/vendor')) {
-      exit('Could not find your vendor/ folder. Please ensure that <strong><code>$craftPath</code></strong> is set correctly in '.__FILE__);
-   }
-
-   require_once CRAFT_BASE_PATH.'/vendor/autoload.php';
-   $app = require CRAFT_BASE_PATH.'/vendor/craftcms/cms/bootstrap/web.php';
-   $app->run();
-   ```
-
-4. ブラウザでコントロールパネルの URL（例：`http://example.dev/admin`）にアクセスします。アップデートのプロンプトが表示されたら、すべてが正しく実行されています！「Finish up（完了）」ボタンをクリックしてデータベースを更新してください。
-
-5. 古い `craft/app/` ディレクトリを削除してください。それは、もはや必要ありません。Craft 3 は `vendor/craftcms/cms/` に配置されています。
-
-> メモ：`craft/` ディレクトリがサーバーの公開ディレクトリ（例：`public_html/` 内）にある場合、新しい `craft/vendor/` ディレクトリがウェブトラフィックから保護されるよう確認する必要があります。サーバーが Apache を実行している場合、ディレクトリ内に `.htaccess` ファイルを作成し、内容を `Deny from all` としてください。
-
-### 新しい Craft 3 プロジェクトのようなディレクトリ構造にしたい場合は
-
-新しい Craft 3 プロジェクト（[PHP dotenv](https://github.com/vlucas/phpdotenv) をベースとした設定を含む）と同様のディレクトリ構成でサイトをセットアップする場合、次のガイドに従ってください。
-
-1. [インストールガイド](installation.md)のステップ1からステップ2に従ってください。（Craft 2 プロジェクトと同じ場所ではなく、新しい場所に Craft 3 プロジェクトを作成する必要があります。）
-
-2. `.env` ファイルにデータベース接続設定を定義します。手動でファイルを編集するか、ターミナルの新しいプロジェクトルートディレクトリから `./craft setup` コマンドを実行します。
-
-> 【メモ】デフォルトのテーブル接頭辞は「空」になりましたが、`craft` が使われていることに注意してください。現在のテーブル接頭辞がそれである場合、`DB_TABLE_PREFIX="craft"` をセットしてください。
-
-3. 古い `craft/config/general.php` ファイルのすべての設定を新しいプロジェクトの `config/general.php` ファイルにコピーします。
-
-4. 古い `craft/config/license.key` ファイルを新しいプロジェクトの `config/` フォルダにコピーします。
+4. 古いユーザーフォトを `craft/storage/userphotos/` から新しいプロジェクトの `storage/userphotos/` ディレクトリにコピーします。
 
 5. 古いテンプレートを `craft/templates/` から新しいプロジェクトの `templates/` ディレクトリにコピーします。
 
@@ -90,5 +42,17 @@
 
 9. ブラウザでコントロールパネルの URL（例：`http://example.dev/admin`）にアクセスします。アップデートのプロンプトが表示されたら、すべてが正しく実行されています！「Finish up（完了）」ボタンをクリックしてデータベースを更新してください。
 
+10. プラグインをインストールしている場合、コントロールパネルの「プラグインストア」セクションから Craft 3 対応版をインストールする必要があります。（追加のアップグレードガイドについては、プラグインのドキュメントを参照してください。）
+
 これで Craft 2 プロジェクトから Craft 3 へのアップグレードが完了しました。[Craft 3 の変更点](changes-in-craft-3.md)を確認する時間を設けてください。
+
+## トラブルシューティング
+
+#### コントロールパネルにアクセスすると Craft のインストーラーが表示されます。
+
+これが起こるのは、`.env` ファイルのデータベース接続情報が実際に必要な情報と完全に一致しないためです。多くの場合、正しい `DB_TABLE_PREFIX` を設定するのを忘れています。
+
+#### 「Setting unknown property: craft\config\DbConfig::initSQLs」エラーが表示されます。
+
+Craft 2 の MySQL 5.7 サポートのための修正のみに使用され、もはや必要ではなくなった `initSQLs` データベース設定が Craft 3 で削除されました。`config/db.php` ファイルを開いて、`'initSQLs'` から始まる行を削除してください。
 

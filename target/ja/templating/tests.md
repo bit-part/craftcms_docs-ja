@@ -14,7 +14,7 @@
 
 ## `missing`
 
-指定されたオブジェクトが [MissingComponentInterface](https://docs.craftcms.com/api/v3/craft-base-missingcomponentinterface.html) のインスタンスかどうかを返します。型が見つからないコンポーネントを表すために使用されるインターフェースです。
+指定されたオブジェクトが <api:craft\base\MissingComponentInterface> のインスタンスかどうかを返します。型が見つからないコンポーネントを表すために使用されるインターフェースです。
 
 ```twig
 {% if field is missing %}

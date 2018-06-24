@@ -30,7 +30,13 @@ PHP と Twig 両方のコードで、エレメントクエリを作成できま�
 
 パラメータは、次のように連結したメソッドコールとしてセットする必要があります。
 
-#### PHP
+::: code
+
+```twig
+{% set query = craft.entries()
+ .section('news')
+ .limit(10) %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -40,19 +46,20 @@ $query = Entry::find()
  ->limit(10);
 ```
 
-#### Twig
-
-```twig
-{% set query = craft.entries()
- .section('news')
- .limit(10) %}
-```
+:::
 
 ### パラメータの一括設定
 
 次のように、パラメータを一括設定することもできます。
 
-#### PHP
+::: code
+
+```twig
+{% set query = craft.entries({
+ section: 'news',
+ limit: 10
+}) %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -64,18 +71,11 @@ $query = Entry::find();
 ]);
 ```
 
-#### Twig
-
-```twig
-{% set query = craft.entries({
- section: 'news',
- limit: 10
-}) %}
-```
+:::
 
 ### パラメータ値の構文
 
-ほんとんどのパラメータ値は、エレメントクエリの条件として適用される前に、[craft\helpers\Db::parseParam()](https://docs.craftcms.com/api/v3/craft-helpers-db.html#parseParam()-detail) を通して処理されます。そのメソッドは、次のようなことを可能にします。
+ほんとんどのパラメータ値は、エレメントクエリの条件として適用される前に、 <api:craft\helpers\Db::parseParam()> を通して処理されます。そのメソッドは、次のようなことを可能にします。
 
 - `['and', 'value1', 'value2']`
 - `['or', 'value1', 'value2']`
@@ -101,17 +101,24 @@ $query = Entry::find();
  .section('news')
  .myCustomFieldHandle('param-value')
  .all() %}
-``
+```
 
-## Executing Element Queries
+## エレメントクエリの実行
 
-Once you’ve defined your parameters on the query, there are multiple methods available to execute it, depending on the data you need back.
+クエリにパラメータを定義したら、必要とするデータに応じて、それを実行するために利用可能な複数のメソッドがあります。
 
 ### `exists()`
 
-Returns whether any elements match the query.
+クエリにマッチするエレメントがあるかどうかを返します。
 
-#### PHP
+::: code
+
+```twig
+{% set exists = craft.entries()
+ .section('news')
+ .slug('hello-world')
+ .exists() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -122,20 +129,19 @@ $exists = Entry::find()
  ->exists();
 ```
 
-#### Twig
-
-```twig
-{% set exists = craft.entries()
- .section('news')
- .slug('hello-world')
- .exists() %}
-```
+:::
 
 ### `count()`
 
 クエリにマッチしたエレメントの総数を返します。
 
-#### PHP
+::: code
+
+```twig
+{% set count = craft.entries()
+ .section('news')
+ .count() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -145,21 +151,20 @@ $count = Entry::find()
  ->count();
 ```
 
-#### Twig
-
-```twig
-{% set count = craft.entries()
- .section('news')
- .count() %}
-```
+:::
 
 ### `all()`
 
 配列内のすべてのエレメントを返します。
 
-> 【メモ】 `asArray` パラメータを `true` にセットしている場合、エレメントはエレメントオブジェクトではなく、生の配列として表されます。
+::: code
 
-#### PHP
+```twig
+{% set entries = craft.entries()
+ .section('news')
+ .limit(10)
+ .all() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -170,22 +175,20 @@ $entries = Entry::find()
  ->all();
 ```
 
-#### Twig
-
-```twig
-{% set entries = craft.entries()
- .section('news')
- .limit(10)
- .all() %}
-```
+:::
 
 ### `one()`
 
 最初にマッチするエレメントを返します。存在しない場合、`null` を返します。
 
-> 【メモ】`asArray` パラメータが `true` にセットされている場合エレメントはエレメントオブジェクトではなく、生の配列として表されます。
+::: code
 
-#### PHP
+```twig
+{% set entry = craft.entries()
+ .section('news')
+ .slug('hello-world')
+ .one() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -196,22 +199,19 @@ $entry = Entry::find()
  ->one();
 ```
 
-#### Twig
-
-```twig
-{% set entry = craft.entries()
- .section('news')
- .slug('hello-world')
- .one() %}
-```
+:::
 
 ### `nth()`
 
 マッチした `n` 番目のエレメントを返します。存在しない場合、`null` を返します。`n` は 0 からはじまるため、`nth(0)` は最初のエレメントを `nth(1)` は2番目のエレメントを取得する点に注意してください。
 
-> 【メモ】`asArray` パラメータが `true` にセットされている場合エレメントはエレメントオブジェクトではなく、生の配列として表されます。
+::: code
 
-#### PHP
+```twig
+{% set entry = craft.entries()
+ .section('news')
+ .nth(4) %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -221,19 +221,19 @@ $entry = Entry::find()
  ->nth(4);
 ```
 
-#### Twig
-
-```twig
-{% set entry = craft.entries()
- .section('news')
- .nth(4) %}
-```
+:::
 
 ### `ids()`
 
 マッチしたエレメントの ID の配列を返します。
 
-#### PHP
+::: code
+
+```twig
+{% set entryIds = craft.entries()
+ .section('news')
+ .ids() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -243,21 +243,20 @@ $entryIds = Entry::find()
  ->ids();
 ```
 
-#### Twig
-
-```twig
-{% set entryIds = craft.entries()
- .section('news')
- .ids() %}
-```
+:::
 
 ### `column()`
 
-すべての配列の最初のカラム値を返します。
+すべての配列の最初のカラム値を返します。デフォルトではエレメントの ID になりますが、`select()` パラメータでカスタマイズすることができます。
 
-> 【メモ】 デフォルトでは、最初のカラムはエレメントの ID になりますが、`select()` パラメータでカスタマイズすることができます。
+::: code
 
-#### PHP
+```twig
+{% set uris = craft.entries()
+ .section('news')
+ .select('uri')
+ .column() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -268,22 +267,21 @@ $uris = Entry::find()
  ->column();
 ```
 
-#### Twig
-
-```twig
-{% set uris = craft.entries()
- .section('news')
- .select('uri')
- .column() %}
-```
+:::
 
 ### `scalar()`
 
-最初にマッチしたエレメントの最初のカラム値を返します。
+最初にマッチしたエレメントの最初のカラム値を返します。デフォルトではエレメントの ID になりますが、`select()` パラメータでカスタマイズすることができます。
 
-> 【メモ】デフォルトでは、最初のカラムはエレメントの ID になりますが、`select()` パラメータでカスタマイズすることができます。
+::: code
 
-#### PHP
+```twig
+{% set uri = craft.entries()
+ .section('news')
+ .slug('hello-world')
+ .select('uri')
+ .scalar() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -295,15 +293,7 @@ $uri = Entry::find()
  ->scalar();
 ```
 
-#### Twig
-
-```twig
-{% set uri = craft.entries()
- .section('news')
- .slug('hello-world')
- .select('uri')
- .scalar() %}
-```
+:::
 
 ### 集計メソッド
 
@@ -314,9 +304,16 @@ $uri = Entry::find()
 - `min()` – 最初のカラムのすべての値の最小値を返します
 - `max()` – 最初のカラムのすべての値の最大値を返します
 
-> 【メモ】 デフォルトでは、最初のカラムはエレメントの ID になりますが、`select()` パラメータでカスタマイズすることができます。
+デフォルトでは最初のカラムがエレメントの ID になりますが、`select()` パラメータでカスタマイズすることができます。
 
-#### PHP
+::: code
+
+```twig
+{% set sum = craft.entries()
+ .section('news')
+ .select('field_someNumberField')
+ .sum() %}
+```
 
 ```php
 use craft\elements\Entry;
@@ -327,12 +324,5 @@ $sum = Entry::find()
  ->sum();
 ```
 
-#### Twig
-
-```twig
-{% set sum = craft.entries()
- .section('news')
- .select('field_someNumberField')
- .sum() %}
-```
+:::
 

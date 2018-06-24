@@ -12,12 +12,15 @@
 {% endjs %}
 ```
 
-> 【メモ】タグを [yii\web\View::registerJs()](http://www.yiiframework.com/doc-2.0/yii-web-view.html#registerJs()-detail) の中で呼び出し、グローバルな `view` 変数経由でアクセスすることもできます。
+::: tip
+タグを [yii\web\View::registerJs()](http://www.yiiframework.com/doc-2.0/yii-web-view.html#registerJs()-detail) の中で呼び出し、グローバルな `view` 変数経由でアクセスすることもできます。
 
 ```twig
 {% set script = '_gaq.push(["_trackEvent", "Search", "'~searchTerm|e('js')~'"' %}
-{% do view.registerJs(styles) %}
+{% do view.registerJs(script) %}
 ```
+
+:::
 
 ## パラメータ
 
@@ -41,5 +44,7 @@
 
 デフォルトでは、`at endBody` が使われます。
 
-> 【メモ】`on load` または `on ready` に位置をセットすると、（テンプレートがすでに独自のコピーを含めている場合でも）Craft はページに jQuery の内部コピーを読み込みます。そのため、フロントエンドのテンプレートで利用するのは避けてください。
+::: warning
+`on load` または `on ready` に位置をセットすると、（テンプレートがすでに独自のコピーを含めている場合でも）Craft はページに jQuery の内部コピーを読み込みます。そのため、フロントエンドのテンプレートで利用するのは避けてください。
+:::
 

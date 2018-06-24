@@ -6,5 +6,5 @@
 - [タグ](tags.md)
 - [テスト](tests.md)
 - More
-- Examples
+- 実例
 

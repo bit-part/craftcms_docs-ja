@@ -1,5 +1,4 @@
-エントリフィールド
-==============
+# エントリフィールド
 
 エントリフィールドでは、[エントリ](sections-and-entries.md)を親エレメントに関連付けることができます。
 
@@ -95,6 +94,6 @@ ElementCriteriaModel オブジェクトにパラメータを追加すること�
 
 * [エレメントクエリ](element-queries.md)
 * [エントリのクエリパラメータ](element-query-params/entry-query-params.md)
-* [craft\elements\Entry](https://docs.craftcms.com/api/v3/craft-elements-entry.html)
+* <api:craft\elements\Entry>
 * [リレーション](relations.md)
 

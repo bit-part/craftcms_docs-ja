@@ -1,17 +1,6 @@
 # インストールガイド
 
-- [ステップ 1：Craft のダウンロード](#step-1-download-craft)
-   - [Composer でダウンロード](#downloading-with-composer)
-   - [アーカイブファイルを手動でダウンロード](#downloading-an-archive-file-manually)
-- [ステップ 2：ファイルパーミッションの設定](#step-2-set-the-file-permissions)
-- [ステップ 3：セキュリティキーの設定](#step-3-set-a-security-key)
-   - [キーを手動で設定](#set-the-key-manually)
-   - [キーをターミナルから設定](#set-the-key-from-your-terminal)
-- [ステップ 4：データベースの作成](#step-4-create-a-database)
-- [ステップ 5：ウェブサーバーのセットアップ](#step-5-set-up-the-web-server)
-- [ステップ 6：セットアップウィザードの実行](#step-6-run-the-setup-wizard)
-   - [ターミナルによるセットアップ](#terminal-setup)
-   - [ウェブブラウザによるセットアップ](#web-browser-setup)
+[[toc]]
 
 ## ステップ 1：Craft のダウンロード
 
@@ -19,7 +8,9 @@ Craft は [Composer](#downloading-with-composer) でダウンロードするか�
 
 ### Composer でダウンロード
 
-> 【メモ】Composer 1.3.0 以降を稼働させるべきです。起動しているターミナル上で `composer -V` を実行することによって、インストールされている Composer のバージョンを確認できます。1.3.0 より前のバージョンであれば、Composer をアップデートするために `composer self-update` を実行します。
+::: tip
+Composer 1.3.0 以降を稼働させるべきです。起動しているターミナル上で `composer -V` を実行することによって、インストールされている Composer のバージョンを確認できます。1.3.0 より前のバージョンであれば、Composer をアップデートするために `composer self-update` を実行します。
+:::
 
 新しい Craft プロジェクトを作成するため、次のコマンドを実行してください。（Composer が作成するプロジェクトのパスの代わりに`<PATH>` と記載しています。）
 
@@ -27,18 +18,20 @@ Craft は [Composer](#downloading-with-composer) でダウンロードするか�
 
 Composer がすべてをロードするのに、数分かかるでしょう。完了すると、成功メッセージが表示されます。
 
-![Composer で Craft をロード後に表示される成功メッセージ](images/installation-command-line.png)
+![Composer で Craft をロード後に表示される成功メッセージ](./images/installation-command-line.png)
 
 ### アーカイブファイルを手動でダウンロード
 
 作業に適したアーカイブ形式をダウンロードします。
 
-- **zip:** <https://craftcms.com/latest-v3.zip>
-- **tar.gz:** <https://craftcms.com/latest-v3.tar.gz>
+- **zip**: <https://craftcms.com/latest-v3.zip>
+- **tar.gz**: <https://craftcms.com/latest-v3.tar.gz>
 
 新しい Craft プロジェクトを稼働したい場所でアーカイブを展開します。
 
-> 【メモ】macOS を使用している場合、そこにある不可視ファイル（`.env`、`.env.example`、`.gitignore`、および `web/.htaccess`）を失わないよう注意してください。別のフォルダへ移動する前にそれらを表示するには、`CMD + SHIFT + .`（command + shift + ピリオド）を押してください。
+::: tip
+macOS を使用している場合、そこにある不可視ファイル（`.env`、`.env.example`、`.gitignore`、および `web/.htaccess`）を失わないよう注意してください。Finder で Command + Shift + `.`（ピリオド）を押すことで、不可視ファイルの表示を切り替えることができます。
+:::
 
 ### ディレクトリ構造
 
@@ -63,7 +56,9 @@ README.md
 
 ## ステップ 2：ファイルパーミッションの設定
 
-> 【ヒント】Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。
+::: tip
+Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。
+:::
 
 Craft が正しく動作するためには、PHP が次の場所への書き込み権限が必要です。
 
@@ -80,11 +75,15 @@ Craft が正しく動作するためには、PHP が次の場所への書き込�
 - 同じグループであれば、`774` を利用します。
 - 確信が持てず、緊張感がある生活を好むなら、`777` を利用します。
 
-> 【メモ】 **IIS ファン：** サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。
+::: warning IS ファンへ
+サイトの AppPool アカウントがこれらのフォルダやファイルに書き込み権限を持っていることを確認してください。
+:::
 
 ## ステップ 3：セキュリティキーの設定
 
-> 【ヒント】Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。
+::: tip
+Craft のダウンロードに Composer を利用した場合、おそらく安全にこのステップをスキップできます。
+:::
 
 それぞれの Craft プロジェクトでは、そのプロジェクトがインストールされている各環境で共有されるユニークなセキュリティキーが必要です。
 
@@ -125,8 +124,8 @@ Craft プロジェクトをホストするための新しいウェブサーバ�
 
 [MAMP](https://mamp.info) や他のローカルホスティングツールを使用していない場合、`hosts` ファイルを更新して、選択したホスト名にローカルコンピュータへ要求をルーティングする必要があるかもしれません。 
 
-- **macOS/Linux/Unix:** `/etc/hosts`
-- **Windows:** `\Windows\System32\drivers\etc\hosts`
+- **macOS/Linux/Unix**: `/etc/hosts`
+- **Windows**: `\Windows\System32\drivers\etc\hosts`
 
 プラウザで `http://<HOSTNAME>/index.php?p=admin`（新しいウェブサーバーのホスト名で `<HOSTNAME>` を置き換える）にアクセスすることで、すべて正しく設定できたかどうかをテストできます。Craft のセットアップウィザードが表示された場合、そのホスト名は Craft のインストールのために適切に処理されています。
 
@@ -146,31 +145,33 @@ Craft プロジェクトをホストするための新しいウェブサーバ�
 
 ウェブブラウザで `http://<HOSTNAME>/index.php?p=admin`（新しいウェブサーバーのホスト名で `<HOSTNAME>` を置き換える）に移動します。ここまでのステップがうまくいっていれば、Craft のセットアップウィザードが迎えてくれるでしょう。
 
-![Craft のインストール画面](images/installation-step-0.png)
+![Craft のインストール画面](./images/installation-step-0.png)
 
 インストーラーの最初のステップは、[ライセンス契約](https://craftcms.com/license)への同意です。（もちろん、すべて目を通した上で）契約をスクロールダウンし、「Got it（了解）」ボタンをクリックして了承してください。
 
-![Craft インストール画面（ライセンス契約の確認）](images/installation-step-1.png)
+![Craft インストール画面（ライセンス契約の確認）](./images/installation-step-1.png)
 
 2つ目のステップは、データベース接続情報の入力です。
 
-> 【メモ】 Craft がすでにデータベースに接続可能な状態であれば、このステップはスキップされます。
+::: tip
+Craft がすでにデータベースに接続可能な状態であれば、このステップはスキップされます。
+:::
 
-![Craft インストール画面（データベース接続情報）](images/installation-step-2.png)
+![Craft インストール画面（データベース接続情報）](./images/installation-step-2.png)
 
 インストーラーの3つ目のステップは、管理者アカウントの作成です。_特別なアカウント_として、強力なパスワードを選んでください。
 
-![Craft インストール画面（ユーザーアカウントの作成）](images/installation-step-3.png)
+![Craft インストール画面（ユーザーアカウントの作成）](./images/installation-step-3.png)
 
 最後のステップは、システム名、ベース URL、および言語の設定です。
 
-![Craft インストール画面（システム設定）](images/installation-step-4.png)
+![Craft インストール画面（システム設定）](./images/installation-step-4.png)
 
 「Finish up（完了）」 ボタンをクリックしてセットアッププロセスを完了します。数秒後、Craft のインストールが実行されるでしょう。
 
 インストールが成功したら、Craft はブラウザをコントロールパネルにリダイレクトします。
 
-![Craft インストール画面（完了）](images/installation-step-5.png)
+![Craft インストール画面（完了）](./images/installation-step-5.png)
 
 おめでとうございます！Craft がインストールされました。
 

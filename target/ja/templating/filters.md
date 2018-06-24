@@ -21,35 +21,39 @@
 
 ## `column`
 
-配列に [ArrayHelper::getColumn()](https://www.yiiframework.com/doc/api/2.0/yii-helpers-basearrayhelper#getColumn()-detail) を実行し、その結果を返します。
+配列に [ArrayHelper::getColumn()](api:yii\helpers\BaseArrayHelper::getColumn()) を実行し、その結果を返します。
 
 ```twig
 {% set entryIds = entries|column('id') %}
 ```
 
-## `currency( currency, stripZeroCents )`
+## `currency( currency, numberOptions, textOptions, stripZeroCents )`
 
 ユーザーが優先する言語に応じて指定された通貨で、数値をフォーマットします。
 
-第2引数に `true` を渡すと、セントがゼロであれば「.00」が削除されます。
+最後の引数に `true` を渡すと、セントがゼロであれば「.00」が削除されます。
+
+利用可能な `numberOptions` は、[こちらのリスト](https://www.yiiframework.com/doc/api/2.0/yii-i18n-formatter#$numberFormatterOptions-detail)を参照してください。
+
+利用可能な `textOptions` は、[こちらのリスト](https://www.yiiframework.com/doc/api/2.0/yii-i18n-formatter#$numberFormatterTextOptions-detail) を参照してください。
 
 ```twig
 {{ 1000000|currency('USD') }} => $1,000,000.00
-{{ 1000000|currency('USD', true) }} => $1,000,000
+{{ 1000000|currency('USD', [], [], true) }} => $1,000,000
 ```
 
 ## `date`
 
-Twig の [`date`](https://twig.symfony.com/doc/2.x/filters/date.html) フィルタと同様ですが、次の `format` 値を追加サポートしています。
+Twig の [date](https://twig.symfony.com/doc/2.x/filters/date.html) フィルタと同様ですが、次の `format` 値を追加サポートしています。
 
 - `'short'`
 - `'medium'`（デフォルト）
 - `'long'`
 - `'full'`
 
-これらのフォーマットが使用されると、日付は [craft\i18n\Formatter::asDate()](https://docs.craftcms.com/api/v3/craft-i18n-formatter.html#asDate()-detail) でローカライズされた日付の書式にフォーマットされます。
+これらのフォーマットが使用されると、日付は <craft\i18n\Formatter::asDate()> でローカライズされた日付の書式にフォーマットされます。
 
-`translate` 引数も利用可能です。`true` を渡した場合、値を返す前にフォーマットされた日付へ [craft\helpers\DateTimeHelper::translateDate()](https://docs.craftcms.com/api/v3/craft-helpers-datetimehelper.html#translateDate()-detail) が実行されます。
+`translate` 引数も利用可能です。`true` を渡した場合、値を返す前にフォーマットされた日付へ <api:craft\helpers\DateTimeHelper::translateDate()> が実行されます。
 
 ```twig
 {{ entry.postDate|date('short') }}
@@ -57,7 +61,7 @@ Twig の [`date`](https://twig.symfony.com/doc/2.x/filters/date.html) フィル�
 
 ## `datetime`
 
-[`date`](#date) フィルタと同様ですが、結果にはタイムスタンプも含まれます。
+[date](#date) フィルタと同様ですが、結果にはタイムスタンプも含まれます。
 
 ```twig
 {{ entry.postDate|datetime('short') }}
@@ -65,7 +69,11 @@ Twig の [`date`](https://twig.symfony.com/doc/2.x/filters/date.html) フィル�
 
 ## `duration`
 
-[`DateInterval`](http://php.net/manual/en/class.dateinterval.php) オブジェクトに [craft\helpers\DateTimeHelper::humanDurationFromInterval()](https://docs.craftcms.com/api/v3/craft-helpers-datetimehelper.html#humanDurationFromInterval()-detail) を実行します。
+[DateInterval](http://php.net/manual/en/class.dateinterval.php) オブジェクトに <api:craft\helpers\DateTimeHelper::humanDurationFromInterval()> を実行します。
+
+```twig
+<p>Posted {{ entry.postDate.diff(now)|duration(false) }} ago.</p>
+```
 
 ## `encenc`
 
@@ -85,7 +93,7 @@ Twig の [`date`](https://twig.symfony.com/doc/2.x/filters/date.html) フィル�
 
 ## `filterByValue`
 
-配列に [craft\helpers\ArrayHelper::filterByValue()](https://docs.craftcms.com/api/v3/craft-helpers-arrayhelper.html#filterByValue()-detail) を実行します。
+配列に <api:craft\helpers\ArrayHelper::filterByValue()> を実行します。
 
 ## `group`
 
@@ -93,7 +101,7 @@ Twig の [`date`](https://twig.symfony.com/doc/2.x/filters/date.html) フィル�
 
 ```twig
 {% set allEntries = craft.entries.section('blog').all() %}
-{% set allEntriesByYear = allEntries|group('postDate.year') %}
+{% set allEntriesByYear = allEntries|group('postDate|date("Y")') %}
 
 {% for year, entriesInYear in allEntriesByYear %}
  <h2>{{ year }}</h2>
@@ -114,7 +122,7 @@ Twig の [`date`](https://twig.symfony.com/doc/2.x/filters/date.html) フィル�
 <input type="hidden" name="foo" value="{{ 'bar'|hash }}">
 ```
 
-PHP スクリプトは、[CSecurityManager::validateData](http://www.yiiframework.com/doc/api/1.1/CSecurityManager#validateData-detail) を経由して値を検証できます。
+PHP スクリプトは、[Security::validateData()](api:yii\base\Security::validateData()) を経由して値を検証できます。
 
 ```php
 $foo = craft()->request->getPost('foo');
@@ -127,7 +135,7 @@ if ($foo !== false) {
 
 ## `id`
 
-[craft\web\View::formatInputId()](https://docs.craftcms.com/api/v3/craft-web-view.html#formatInputId()-detail) を経由して、HTML の input 要素の `id` としてうまく動作するよう、文字列をフォーマットします。
+<api:craft\web\View::formatInputId()> を経由して、HTML の input 要素の `id` としてうまく動作するよう、文字列をフォーマットします。
 
 ```twig
 {% set name = 'input[name]' %}
@@ -136,7 +144,7 @@ if ($foo !== false) {
 
 ## `index`
 
-配列に [ArrayHelper::index()](https://www.yiiframework.com/doc/api/2.0/yii-helpers-basearrayhelper#index()-detail) を実行します。
+配列に [ArrayHelper::index()](api:yii\helpers\BaseArrayHelper::index()) を実行します。
 
 ```twig
 {% set entries = entries|index('id') %}
@@ -186,7 +194,7 @@ if ($foo !== false) {
 
 ## `json_encode`
 
-Twig の [`json_encode`](https://twig.symfony.com/doc/2.x/filters/json_encode.html) フィルタと同様ですが、引数 `options` がセットされておらず、レスポンスのコンテンツタイプが `text/html` または `application/xhtml+xml` の場合、デフォルトで `JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT` になります。
+Twig の [json_encode](https://twig.symfony.com/doc/2.x/filters/json_encode.html) フィルタと同様ですが、引数 `options` がセットされておらず、レスポンスのコンテンツタイプが `text/html` または `application/xhtml+xml` の場合、デフォルトで `JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT` になります。
 
 ## `kebab`
 
@@ -205,7 +213,7 @@ Twig の [`json_encode`](https://twig.symfony.com/doc/2.x/filters/json_encode.ht
 
 ## `literal`
 
-文字列に [craft\helpers\Db::escapeParam](https://docs.craftcms.com/api/v3/craft-helpers-db.html#escapeParam()-detail) を実行します。
+文字列に <api:craft\helpers\Db::escapeParam> を実行します。
 
 ## `markdown` または `md`
 
@@ -226,7 +234,7 @@ the [Apple Extended Keyboard II] [1].
 
 ## `multisort`
 
-[ArrayHelper::multisort()](https://www.yiiframework.com/doc/api/2.0/yii-helpers-basearrayhelper#multisort()-detail) で配列をソートします。
+[ArrayHelper::multisort()](api:yii\helpers\BaseArrayHelper::multisort()) で配列をソートします。
 
 ## `number`
 
@@ -241,7 +249,7 @@ the [Apple Extended Keyboard II] [1].
 
 ## `parseRefs`
 
-[reference タグ](reference-tags.md)の文字列を解析します。
+[リファレンスタグ](../reference-tags.md)の文字列を解析します。
 
 ```twig
 {% set content %}
@@ -312,7 +320,7 @@ RSS フィードに必要な形式（`D, d M Y H:i:s O`）で日付を出力し�
 
 ## `time`
 
-[`time`](#time) フィルタと同様ですが、日付よりも時間のためのものです。
+[time](#time) フィルタと同様ですが、日付よりも時間のためのものです。
 
 ```twig
 {{ entry.postDate|time('short') }}
@@ -320,11 +328,11 @@ RSS フィードに必要な形式（`D, d M Y H:i:s O`）で日付を出力し�
 
 ## `timestamp`
 
-[craft\i18n\Formatter::asTimestamp()](https://docs.craftcms.com/api/v3/craft-i18n-formatter.html#asTimestamp()-detail) 経由で、人が読めるタイムスタンプとして日付をフォーマットします。
+<craft\i18n\Formatter::asTimestamp()> 経由で、人が読めるタイムスタンプとして日付をフォーマットします。
 
 ## `translate` または `t`
 
-[Craft::t()](https://www.yiiframework.com/doc/api/2.0/yii-baseyii#t()-detail) でメッセージを翻訳します。カテゴリの指定がない場合、デフォルトで `site` になります。
+[Craft::t()](api:yii\BaseYii::t()) でメッセージを翻訳します。カテゴリの指定がない場合、デフォルトで `site` になります。
 
 ```twig
 {{ "Hello world"|t }}
