@@ -2,7 +2,7 @@ module.exports = {
     title: 'Craft 3 日本語版ドキュメント',
     description: 'Craft 3 日本語版ドキュメント',
     theme: 'craftdocs',
-    base: '/v3/',
+    base: '/craftdocs/v3/',
     // ga: 'UA-XXXXXXXX-X',
     themeConfig: {
         editLinks: true,
