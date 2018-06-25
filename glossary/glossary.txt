@@ -75,3 +75,4 @@ dimension	寸法、大きさ
 aspect ratio	アスペクト比、縦横比
 innocent-looking	無邪気に見える、悪くなさそうに見える
 Criteria	基準
+Composer dependency	Composer 依存
