@@ -535,6 +535,16 @@ The name of your plugin directory doesn’t matter.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+The tag calls &lt;x1/&gt; under the hood, which can also be accessed via the global &lt;x2/&gt;view&lt;x3/&gt; variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T065507Z" creationid="Toru Kokubun" creationdate="20180625T065507Z">
+        <seg>::: tip
+タグを &lt;x1/&gt; の中で呼び出し、グローバルな &lt;x2/&gt;view&lt;x3/&gt; 変数経由でアクセスすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 The tag calls &lt;x1/&gt;yii\web\View::registerCss()&lt;x2/&gt; under the hood, which can also be accessed via the global &lt;x3/&gt;view&lt;x4/&gt; variable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T094332Z" creationid="Toru Kokubun" creationdate="20180623T094332Z">
@@ -2068,6 +2078,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Attributes will be rendered by &lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T065534Z" creationid="Toru Kokubun" creationdate="20180625T065534Z">
+        <seg>属性は &lt;x1/&gt; によってレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Attributes will be rendered by &lt;x1/&gt;yii\helpers\Html::renderTagAttributes()&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031937Z" creationid="Toru Kokubun" creationdate="20180507T031937Z">
@@ -2264,6 +2282,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235205Z" creationid="Toru Kokubun" creationdate="20180414T235205Z">
         <seg>誰かが持つ視点を理解できないからといって、その視点が間違っていることを意味しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Best Practices</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T071321Z" creationid="Toru Kokubun" creationdate="20180625T071321Z">
+        <seg>ベストプラクティス</seg>
       </tuv>
     </tu>
     <tu>
@@ -3204,6 +3230,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Code Style</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T071314Z" creationid="Toru Kokubun" creationdate="20180625T071314Z">
+        <seg>コードスタイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code of Conduct</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T030740Z" creationid="Toru Kokubun" creationdate="20180414T030740Z">
@@ -3216,6 +3250,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180405T002706Z" creationid="Toru Kokubun" creationdate="20180405T002706Z">
         <seg>行動規範&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coding Guidelines</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T071008Z" creationid="Toru Kokubun" creationdate="20180625T071008Z">
+        <seg>コーディングガイドライン</seg>
       </tuv>
     </tu>
     <tu>
@@ -4448,6 +4490,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233433Z" creationid="Toru Kokubun" creationdate="20180414T233433Z">
         <seg>他の参加者を侮辱したり、こきおろしたりしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Do your best to follow these guidelines when writing code for Craft and Craft plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T071221Z" creationid="Toru Kokubun" creationdate="20180625T071221Z">
+        <seg>Craft や Craft プラグイン向けのコードを書くときには、このガイドラインに従うよう最善を尽くしてください。</seg>
       </tuv>
     </tu>
     <tu>
