@@ -2870,6 +2870,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chained method calls should each be placed on their own line, with the &lt;x1/&gt;-&gt;&lt;x2/&gt; operator at the beginning of each line.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095541Z" creationid="Toru Kokubun" creationdate="20180625T095132Z">
+        <seg>チェインメソッドの呼び出しは、各行の先頭に &lt;x1/&gt;-&gt;&lt;x2/&gt; 演算子を付けて、独自の行に配置する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changelogs and Updates&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230650Z" creationid="Toru Kokubun" creationdate="20180414T230650Z">
@@ -3346,6 +3354,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T095535Z" creationid="Toru Kokubun" creationdate="20180422T095535Z">
         <seg>条件文もまた、かっこうの標的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conditions that span multiple lines should have logical operators (&lt;x1/&gt;||&lt;x2/&gt;, &lt;x3/&gt;&amp;&amp;&lt;x4/&gt;, etc.) at the end of lines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095405Z" creationid="Toru Kokubun" creationdate="20180625T095336Z">
+        <seg>複数行にまたがる条件文には、行の最後に理論演算子（&lt;x1/&gt;||&lt;x2/&gt;、&lt;x3/&gt;&amp;&amp;&lt;x4/&gt; など）を付ける必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4326,6 +4342,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Declare method argument types whenever possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T105555Z" creationid="Toru Kokubun" creationdate="20180625T105555Z">
+        <seg>可能な限り、メソッド引数の型を宣言してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default Character Set: &lt;x1/&gt;utf8&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084903Z" creationid="Toru Kokubun" creationdate="20180415T084903Z">
@@ -4558,10 +4582,34 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don’t fret too much over line lengths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T094905Z" creationid="Toru Kokubun" creationdate="20180625T094905Z">
+        <seg>行の長さにあまり思い悩まないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t put a space after type typecasts (&lt;x1/&gt;(int)$foo&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095722Z" creationid="Toru Kokubun" creationdate="20180625T095722Z">
+        <seg>型変換の後にスペースを置かないでください（&lt;x1/&gt;(int)$foo&lt;x2/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Don’t use them to cache static text; that will be more expensive than simply outputting the text.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T002603Z" creationid="Toru Kokubun" creationdate="20180507T002603Z">
         <seg>静的なテキストにキャッシュを使用しないでください。シンプルにテキストを出力するよりも、コストが高くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t wrap &lt;x1/&gt;include&lt;x2/&gt;/&lt;x3/&gt;include_once&lt;x4/&gt;/&lt;x5/&gt;require&lt;x6/&gt;/&lt;x7/&gt;require_once&lt;x8/&gt; file paths in parentheses.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095846Z" creationid="Toru Kokubun" creationdate="20180625T095813Z">
+        <seg>&lt;x1/&gt;include&lt;x2/&gt; / &lt;x3/&gt;include_once&lt;x4/&gt; / &lt;x5/&gt;require&lt;x6/&gt; / &lt;x7/&gt;require_once&lt;x8/&gt; のファイルパスを括弧で囲まないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5654,6 +5702,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Focus on readability.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T094915Z" creationid="Toru Kokubun" creationdate="20180625T094915Z">
+        <seg>可読性に焦点を当てましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Follow Composer’s instructions to install it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T075426Z" creationid="Toru Kokubun" creationdate="20180415T075426Z">
@@ -5666,6 +5722,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234034Z" creationid="Toru Kokubun" creationdate="20180418T234034Z">
         <seg>&lt;x1/&gt;インストールガイド&lt;x2/&gt;のステップ1からステップ2に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Follow the &lt;x1/&gt;PSR-1&lt;x2/&gt; &amp; &lt;x3/&gt;PSR-2&lt;x4/&gt; coding standards.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T093540Z" creationid="Toru Kokubun" creationdate="20180625T093540Z">
+        <seg>&lt;x1/&gt;PSR-1&lt;x2/&gt; と &lt;x3/&gt;PSR-2&lt;x4/&gt; のコーディング基準に従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10710,6 +10774,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Put a blank line before &lt;x1/&gt;return&lt;x2/&gt; statements.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095946Z" creationid="Toru Kokubun" creationdate="20180625T095946Z">
+        <seg>&lt;x1/&gt;return&lt;x2/&gt; 文の前に空白行を置いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Quality&lt;x1/&gt; - the transform’s resulting image quality (0 to 100)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T034449Z" creationid="Toru Kokubun" creationdate="20180624T034449Z">
@@ -12718,6 +12790,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T034655Z" creationid="Toru Kokubun" creationdate="20180624T034618Z">
         <seg>ストレッチ&lt;x1/&gt; – 指定された幅と高さに画像を伸張します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Strings that are concatenated across multiple lines should have the &lt;x1/&gt;.&lt;x2/&gt; operator at the ends of lines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095456Z" creationid="Toru Kokubun" creationdate="20180625T095456Z">
+        <seg>複数行に渡って連結される文字列は、行の最後に &lt;x1/&gt;.&lt;x2/&gt; 演算子を付ける必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15338,6 +15418,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They are not functions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095824Z" creationid="Toru Kokubun" creationdate="20180625T095824Z">
+        <seg>それらはファンクションではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are organized into Field Groups for convenience, but Field Groups have very little relevance anywhere else in the system.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221347Z" creationid="Toru Kokubun" creationdate="20180422T221347Z">
@@ -16778,6 +16866,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;$foo === null&lt;x2/&gt;/&lt;x3/&gt;$bar !== null&lt;x4/&gt; rather than &lt;x5/&gt;is_null($foo)&lt;x6/&gt;/&lt;x7/&gt;!is_null($bar)&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T110041Z" creationid="Toru Kokubun" creationdate="20180625T110027Z">
+        <seg>&lt;x5/&gt;is_null($foo)&lt;x6/&gt; / &lt;x7/&gt;!is_null($bar)&lt;x8/&gt; よりむしろ &lt;x1/&gt;$foo === null&lt;x2/&gt; / &lt;x3/&gt;$bar !== null&lt;x4/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;(int)$foo&lt;x2/&gt;/&lt;x3/&gt;(float)$bar&lt;x4/&gt; rather than &lt;x5/&gt;intval($foo)&lt;x6/&gt;/&lt;x7/&gt;floatval($bar)&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T110119Z" creationid="Toru Kokubun" creationdate="20180625T110119Z">
+        <seg>&lt;x5/&gt;intval($foo)&lt;x6/&gt; / &lt;x7/&gt;floatval($bar)&lt;x8/&gt; よりむしろ &lt;x1/&gt;(int)$foo&lt;x2/&gt; / &lt;x3/&gt;(float)$bar&lt;x4/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;craft.app.language&lt;x2/&gt; to toggle specific parts of your templates, depending on the language:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T234745Z" creationid="Toru Kokubun" creationdate="20180430T234745Z">
@@ -16810,6 +16914,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use strict comparison operators (&lt;x1/&gt;===&lt;x2/&gt; and &lt;x3/&gt;!==&lt;x4/&gt;) whenever possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T105732Z" creationid="Toru Kokubun" creationdate="20180625T105711Z">
+        <seg>可能な限り、厳格な比較演算子（&lt;x1/&gt;===&lt;x2/&gt; および &lt;x3/&gt;!==&lt;x4/&gt;）を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use the &lt;x1/&gt;siteUrl&lt;x2/&gt; config setting instead</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215216Z" creationid="Toru Kokubun" creationdate="20180428T215202Z">
@@ -16822,6 +16934,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180508T215928Z" creationid="Toru Kokubun" creationdate="20180508T215922Z">
         <seg>&lt;x5/&gt;limit&lt;x6/&gt; パラメータを使用して、ページごとに表示するエレメント数を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the short array syntax (&lt;x1/&gt;['foo' =&gt; 'bar']&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T093636Z" creationid="Toru Kokubun" creationdate="20180625T093636Z">
+        <seg>短い配列構文（&lt;x1/&gt;['foo' =&gt; 'bar']&lt;x2/&gt;）を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
