@@ -7348,6 +7348,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you leave &lt;x1/&gt;Quality&lt;x2/&gt; blank, Craft will use the quality set by your &lt;x3/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T064719Z" creationid="Toru Kokubun" creationdate="20180625T064652Z">
+        <seg>&lt;x1/&gt;品質&lt;x2/&gt; を空白のままにすると、Craft はコンフィグ設定の &lt;x3/&gt; にセットされた品質を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you leave &lt;x1/&gt;Quality&lt;x2/&gt; blank, Craft will use the quality set by your &lt;x3/&gt;defaultImageQuality&lt;x4/&gt; config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T040112Z" creationid="Toru Kokubun" creationdate="20180624T040112Z">
@@ -18436,6 +18444,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014406Z" creationid="Toru Kokubun" creationdate="20180624T014406Z">
         <seg>&lt;x1/&gt;`parseRefs`&lt;x2/&gt; フィルタを利用して、テンプレート内のリファレンスタグの文字列を解析できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can parse any string for reference tags in your templates using the &lt;x1/&gt;parseRefs&lt;x2/&gt; filter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T064808Z" creationid="Toru Kokubun" creationdate="20180625T064808Z">
+        <seg>&lt;x1/&gt;parseRefs&lt;x2/&gt; フィルタを利用して、テンプレート内のリファレンスタグの文字列を解析できます。</seg>
       </tuv>
     </tu>
     <tu>
