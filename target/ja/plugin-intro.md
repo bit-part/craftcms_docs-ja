@@ -4,35 +4,35 @@
 
 ## プラグインとは？
 
-Plugins are mini applications that run alongside Craft’s core code. They can be simple, serving a single purpose like providing a new Dashboard widget type, or they can be complex, introducing entirely new concepts to the system, like an e-commerce application. Craft’s plugin architecture provides a solid foundation for building just about anything.
+プラグインは、Craft のコアコードと一緒に動作する小さなアプリケーションです。それらはシンプルで、新しいダッシュボードウィジェットタイプを提供するようなシンプルな目的を満たすか、 Eコマースアプリケーションのような完全に新しいコンセプトをシステムに導入するような複雑であり得ます。Craft のプラグインアーキテクチャは、何かを構築するための強固な基盤を提供します。
 
-Technically, plugins are a superset of [Yii Modules], which means they can have [models], [active record classes], [controllers], [application components], and other things. It wouldn’t hurt to take some time to read up on those concepts if you are new to Yii.
+技術的には、プラグインは [Yii Modules] のスーパーセットであり、[models]、[active record classes]、[controllers]、 [application components]、および、その他のことを持つことができます。あなたが Yii を初めて習得するとしても、それらのコンセプトを読み解くために時間をかけることは苦痛にならないでしょう。
 
-The main benefits of Craft Plugins over Yii Modules are:
+Yii モジュール上の Craft プラグインの主なメリットは、次の通りです。
 
-- Plugins can be installed and uninstalled.
-- Plugins can have their own migration track.
+- プラグインのインストール、アンインストールが可能です。
+- プラグインは独自のマイグレーショントラックを持つことができます。
 
 ## はじめよう
 
 ::: tip
-Use [pluginfactory.io](https://pluginfactory.io/) to create your plugin’s scaffolding with just a few clicks.
+数クリックでプラグインの土台を作成できる [pluginfactory.io](https://pluginfactory.io/) を利用してください。
 :::
 
 ### 準備
 
-Before you begin working on a plugin, you need to decide on a few things:
+プラグイン作成に取り組む前に、いくつかのことを決めておく必要があります。
 
-- **Package name** – Used to name your Composer package. It’s required even if you don’t want to distribute your plugin via Composer. (See Composer’s [documentation][package name] for details.) We recommend prefixing the second segment (after the `/`) with `craft-`, to help identify that this is a Craft plugin. For example, `pixelandtonic/craft-recipes`.
-- **Namespace prefix** – Your plugin’s class namespaces will begin with this. (See the [PSR-4] autoloading specification for details.) Note that this should *not* begin with `craft\`; use something that identifies you, the developer.
-- **Plugin handle** – Something that uniquely identifies your plugin within the Craft ecosystem. (Plugin handles must begin with a letter and contain only lowercase letters, numbers, and dashes. They should be `kebab-cased`.)
-- **Plugin name** – What your plugin will be called within the Control Panel.
+- **パッケージ名** – Composer パッケージに名前をつけるために利用されます。Composer 経由でプラグインを配布したくない場合でも、必要です。（詳細については、[documentation][package name] を参照してください。）これが Craft のプラグインだと識別する手助けになるため、2番目のセグメント（`/` の後）に接頭辞 `craft-` を付けることをお勧めします。例えば `pixelandtonic/craft-recipes` のような形です。
+- **名前空間接頭辞** – あなたのプラグインのクラス名前空間は、これで始まります。（詳細については、[PSR-4] オートローディング仕様を参照してください。）これは `craft\` で始めるべき *ではない* ことに注意してください。あなたやデベロッパーを識別する何かを使用してください。
+- **プラグインハンドル** – Craft のエコシステム内でプラグインを一意に識別する何か。（プラグインハンドルは、文字で始まり、小文字の英字、数字、およびダッシュのみでなければなりません。`kebab-cased` にすべきです。）
+- **プラグイン名** – コントロールパネル内でプラグインを何と呼ぶか。
 
-Naming things is one of the [two hardest things] in computer science, so if you can make a decision on those things, the rest of the plugin should practically write itself.
+名前を決めることは、コンピュータサイエンスの中で [two hardest things] の1つです。それを決めることさえできれば、あとは実際にプラグインの内容を書くだけです。
 
 ### 基本ファイル構成の設定
 
-To create a plugin, create a new directory for it somewhere on your computer. A common approach is to store them in a `~/dev/` folder alongside your Craft projects:
+プラグインを作るため、コンピュータのどこかに新しいディレクトリを作成してください。一般的なアプローチは、Craft プロジェクトと並ぶ `~/dev/` フォルダに保管することです。
 
 ```
 ~/dev/
@@ -44,14 +44,14 @@ To create a plugin, create a new directory for it somewhere on your computer. A 
 ```
 
 ::: tip
-The name of your plugin directory doesn’t matter. Just choose something that is easy to identify.
+プラグインのディレクトリ名は重要ではありません。簡単に識別できるものを選んでください。
 :::
 
 ### composer.json
 
-Whether or not you wish to make your plugin available as a Composer dependency (you probably should), your plugin must have a `composer.json` file. Craft will check this file to get basic information about the plugin.
+プラグインで Composer 依存を利用可能（おそらくそうすべきです）にしたいかどうかに関わらず、`composer.json` ファイルを持たなければなりません。Craft はプラグインに関する基本情報を取得するために、このファイルをチェックします。
 
-Use this template as a starting point for your `composer.json` file:
+`composer.json` ファイルの出発点として、このテンプレートを使用してください。
 
 ```json
 {
@@ -80,49 +80,49 @@ Use this template as a starting point for your `composer.json` file:
 }
 ```
 
-Replace:
+次の項目を置き換えてください。
 
-- `package/name` with your package name.
-- `ns\\prefix\\` with your namespace prefix. (Use double-backslashes because JSON, and note this must end with `\\`.)
-- `you@example.com` with your support email.
-- `plugin-handle` with your plugin handle.
-- `Plugin Name` with your plugin name.
-- `Developer Name` with your name, or the organization name that the plugin should be attributed to.
-- `https://developer-url.com` with the URL to the website the developer name should link to in the Control Panel.
+- `package/name` をパッケージ名にします。
+- `ns\\prefix\\` を名前空間接頭辞にします。（JSON のために二重バックスラッシュを使用し、最後が `\\` でなければならない点に注意してください。）
+- `you@example.com` をサポートのメールアドレスにします。
+- `plugin-handle` をプラグインハンドルにします。
+- `Plugin Name` をプラグイン名にします。
+- `Developer Name` をあたなの名前、または、プラグインが帰属する組織名にします。
+- `https://developer-url.com` をコントロールパネルの開発者名にリンクするウェブサイトの URL にします。
 
-Here’s a full list of the properties that can go in that `extra` object:
+`extra` オブジェクトにセットできるプロパティの完全なリストは、次の通りです。
 
-- `handle` – The plugin handle (required).
-- `class` – The [primary Plugin class](#primary-plugin-class) name. If not set, the installer will look for a `Plugin.php` file at each of the `autoload` path roots.
-- `basePath` – The base path to your plugin’s source files. This can begin with one of your `autoload` namespaces, formatted as a [Yii alias] (e.g. `@vendorname/foo`). If not set, the directory that contains your primary Plugin class will be used.
-- `name` – The plugin name. If not set, the package name (sans vendor prefix) will be used.
-- `version` - The plugin version. If not set, the current package version will be used.
-- `schemaVersion` – The plugin schema version.
-- `description` – The plugin description. If not set, the main `description` property will be used.
-- `developer` – The developer name. If not set, the first author’s `name` will be used (via the `authors` property).
-- `developerUrl` – The developer URL. If not set, the `homepage` property will be used, or the first author’s `homepage` (via the `authors` property).
-- `developerEmail` – The support email. If not set, the `support.email` property will be used.
-- `documentationUrl` – The plugin’s documentation URL. If not set, the `support.docs` property will be used.
-- `changelogUrl` – The plugin’s changelog URL (used to show pending plugin updates and their release notes).
-- `downloadUrl` – The plugin’s download URL (used to update manual installations of the plugin).
-- `sourceLanguage` – The plugin’s source language (defaults to `en-US`).
-- `hasSettings` – Whether the plugin has settings (should be `true` or `false`).
-- `hasCpSection` – Whether the plugin has its own section in the Control Panel (should be `true` or `false`).
-- `components` – Object defining any [component configs] that should be present on the plugin.
+- `handle` – プラグインハンドル（必須）。
+- `class` – [プライマリプラグインクラス](#primary-plugin-class) の名前。設定されていない場合、インストーラーはそれぞれの `autoload` パスのルートで `Plugin.php` ファイルを探します。
+- `basePath` – プラグインのソースファイルへのベースパス。[Yii alias]（例： `@vendorname/foo`） としてフォーマットされた `autoload` 名前空間の1つから始めることができます。設定されてない場合、プライマリプラグインクラスを含むディレクトリが使用されます。
+- `name` – プラグイン名。設定されていない場合、（ベンダー接頭辞なしの）パッケージ名が使用されます。
+- `version` - プラグインのバージョン。設定されていない場合、現在のパッケージバージョンが使用されます。
+- `schemaVersion` – プラグインスキーマのバージョン。
+- `description` – プラグインの説明。設定されていない場合、メインの `description` プロパティが使用されます。
+- `developer` – 開発者の名前。設定されていない場合、（`authors` プロパティ経由で）最初の作者の `name` が使用されます。
+- `developerUrl` – 開発者の URL。設定されていない場合、`homepage` プロパティ、または、（`authors` プロパティ経由で）最初の作者の `homepage` が使用されます。
+- `developerEmail` – サポートのメールアドレス。設定されていない場合、`support.email` プロパティが使用されます。
+- `documentationUrl` – プラグインのドキュメントの URL。設定されていない場合、`support.docs` プロパティが使用されます。
+- `changelogUrl` – プラグインの変更ログの URL（保留中のプラグインアップデートとリリースノートの表示に使用されます）。
+- `downloadUrl` – プラグインのダウンロード URL（プラグインのアップデートをマニュアルインストールで使用されます）。
+- `sourceLanguage` – プラグインのソース言語（デフォルトは `en-US`）。
+- `hasSettings` – プラグインの設定があるかどうか（`true` または `false`）。
+- `hasCpSection` – コントロールパネルにプラグイン独自のセクションを持つかどうか（`true` または `false`）。
+- `components` – プラグイン上に存在するべき [component configs] を定義するオブジェクト。
 
 ::: tip
-Don’t include `composer/installers` as a Composer dependency.
+`composer/installers` を Composer 依存として含めないでください。
 :::
 
 ::: tip
-While not strictly required by Composer, we recommend you explicitly set the `version` in your `composer.json` because it makes a couple things easier on your when developing the plugin. Don’t forget to keep it updated though!
+Composer が厳密に要求しているわけではありませんが、プラグインを開発する際にいくつかのことが簡単に行えるよう、`composer.json` へ明示的に `version` を設定することをお勧めします。そして、アップデートし続けることを忘れないでください！
 :::
 
 ### プライマリプラグインクラス
 
-The `src/Plugin.php` file is your plugin’s primary class. It will get instantiated at the beginning of every request. Its `init()` method is the best place to register event listeners, and any other steps it needs to take to initialize itself.
+`src/Plugin.php` ファイルは、あなたのプラグインのプライマリクラスです。すべてのリクエスト開始時に、インスタンスが作られます。`init()` メソッドはイベントリスナーやそれ自体の初期化を必要とする他のステップを登録するのに最適な場所です。
 
-Use this template as a starting point for your `Plugin.php` file:
+このテンプレートを `Plugin.php` ファイルの出発点として使用してください。
 
 ```php
 <?php
@@ -139,21 +139,21 @@ class Plugin extends \craft\base\Plugin
 }
 ```
 
-Replace `ns\prefix` with your plugin’s namespace prefix.
+`ns\prefix` を実際のプラグインの名前空間接頭辞に置き換えてください。
 
 ### Craft プロジェクトへのプラグインの読み込み
 
-To get Craft to see your plugin, you will need to install it as a Composer dependency of your Craft project. There are multiple ways to do that:
+Craft にプラグインを表示するには、Craft プロジェクトの Composer 依存としてインストールする必要があります。そのためには複数の方法があります。
 
 #### Path Repository
 
-During development, the easiest way to work on your plugin is with a [path repository][path], which will tell Composer to symlink your plugin into the `vendor/` folder right alongside other dependencies.
+開発中にプラグインを動作させる最も簡単な方法は、他の依存関係と同様に `vendor/` フォルダへシンボリックリンクするよう Composer に伝える [path repository][path] を利用することです。
 
-To set it up, open your Craft project’s `composer.json` file and make the following changes:
+設定するには、Craft プロジェクトの `composer.json` ファイルを開き、次の変更を加えます。
 
-- Set [minimum-stability](https://getcomposer.org/doc/04-schema.md#minimum-stability) to `"dev"`
-- Set [prefer-stable](https://getcomposer.org/doc/04-schema.md#prefer-stable) to `true`
-- Add a new [path repository](https://getcomposer.org/doc/05-repositories.md#path) record, pointed at your plugin’s root directory.
+- [minimum-stability](https://getcomposer.org/doc/04-schema.md#minimum-stability) を `"dev"` に設定します。
+- [prefer-stable](https://getcomposer.org/doc/04-schema.md#prefer-stable) を `true` に設定します。
+- 新しく [path repository](https://getcomposer.org/doc/05-repositories.md#path) レコードを追加し、プラグインのルートディレクトリを指定します。
 
 ```json
 {
@@ -169,24 +169,24 @@ To set it up, open your Craft project’s `composer.json` file and make the foll
 ```
 
 ::: tip
-Set the `url` value to the absolute or relative path to your plugin’s source directory. (The `../my-plugin` example value assumes that the plugin lives in a folder alongside the project’s folder.)
+`url` 値にプラグインのソースディレクトリを絶対パスまたは相対パスで設定します。（サンプルの `../my-plugin` は、プロジェクトフォルダーと並んでプラグインのフォルダが存在することを前提としています。）
 :::
 
-In your terminal, go to your Craft project and tell Composer to require your plugin. (Use the same package name you gave your plugin in its `composer.json` file.)
+ターミナル上で Craft プロジェクトへ移動し、Composer にプラグインの追加を伝えてください。（`composer.json` ファイルでプラグインに付けたパッケージ名と同じものを使用してください。）
 
 ```
 > cd ~/dev/my-craft-project
 > composer require package/name
 ```
 
-Composer’s installation log should indicate that the package was installed via a symlink:
+Composer のインストールログは、シンボリックリンク経由でパッケージがインストールされたことを表示するでしょう。
 
 ```
 - Installing package/name (X.Y.Z): Symlinking from ../my-plugin
 ```
 
 ::: warning
-One caveat of `path` Composer repositories is that Composer will ignore `path`-based dependencies when you run `composer update`. So any time you change anything in `composer.json`, such as your plugin’s dependency requirements or its plugin information, you will need to completely remove and re-require your plugin in your project for those changes to take effect.
+`path` Composer リポジトリの難点の1つは、`composer update` を実行した際に Composer が `path` ベースの依存関係を無視することです。そのため、プラグインの依存要件やプラグインの情報のような `composer.json` 内の何かを変更するときはいつでも、それらの変化が効力を発揮するようプロジェクト内のあなたのプラグインを完全に削除して再要求する必要があります。
 
 ```
 > cd ~/dev/my/craft-project
@@ -198,22 +198,22 @@ One caveat of `path` Composer repositories is that Composer will ignore `path`-b
 
 #### Packagist
 
-If you’re ready to publicly release your plugin, register it as a new Composer package on [Packagist](https://packagist.org/). Then you can install it like any other package, by just passing its package name to Composer’s `require` command.
+プラグインを一般公開する準備ができたら、新しい Composer パッケージを [Packagist](https://packagist.org/) に登録してください。そうすれば、Composer の `require` コマンドにパッケージ名を渡すだけで、他のパッケージと同様にインストールできます。
 
 ```
 > cd ~/dev/my-craft-project
 > composer require package/name
 ```
 
-## プラグインのアイコン
+## プラグインアイコン
 
-Plugins can provide an icon, which will be visible on the Settings → Plugins page.
+プラグインは「設定 > プラグイン」ページに表示されるアイコンを提供できます。
 
 ![The Settings → Plugins page in Craft’s Control Panel.](./images/plugin-index.png)
 
-Plugin icons must be square SVG files, saved as `icon.svg` at the root of your plugin’s source directory (e.g `src/`).
+プラグインアイコンは、プラグインのソースディレクトリ（例：`src/`）のルートに `icon.svg` として保存された、正方形の SVG ファイルでなければいけません。
 
-If your plugin has a [Control Panel section](cp-section.md), you can also give its global nav item a custom icon by saving an `icon-mask.svg` file in the root of your plugin’s source directory. Note that this icon cannot contain strokes, and will always be displayed in a solid color (respecting alpha transparency).
+プラグインが [コントロールパネルのセクション](cp-section.md) を持つ場合は、プラグインのソースディレクトリのルートに `icon-mask.svg` ファイルを保存することによって、グローバルナビゲーション項目にカスタムアイコンを付けることもできます。このアイコンにはストロークを含めることができず、常に（アルファ透明度に関して）ソリッドカラーで表示されることに注意してください。
 
 [Yii Modules]: http://www.yiiframework.com/doc-2.0/guide-structure-modules.html
 [models]: http://www.yiiframework.com/doc-2.0/guide-structure-models.html
