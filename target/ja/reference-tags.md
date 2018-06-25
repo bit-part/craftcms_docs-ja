@@ -47,7 +47,7 @@
 
 ## リファレンスタグの解析
 
-[`parseRefs`](templating/filters.md#parseRefs) フィルタを利用して、テンプレート内のリファレンスタグの文字列を解析できます。
+[parseRefs](templating/filters.md#parserefs) フィルタを利用して、テンプレート内のリファレンスタグの文字列を解析できます。
 
 ```twig
 {{ entry.body|parseRefs|raw }}

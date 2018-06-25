@@ -13,7 +13,7 @@
 ```
 
 ::: tip
-タグを [yii\web\View::registerJs()](http://www.yiiframework.com/doc-2.0/yii-web-view.html#registerJs()-detail) の中で呼び出し、グローバルな `view` 変数経由でアクセスすることもできます。
+タグを <api:yii\web\View::registerJs()> の中で呼び出し、グローバルな `view` 変数経由でアクセスすることもできます。
 
 ```twig
 {% set script = '_gaq.push(["_trackEvent", "Search", "'~searchTerm|e('js')~'"' %}

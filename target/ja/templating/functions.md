@@ -4,7 +4,7 @@
 
 ## `alias( string )`
 
-その文字列が[エイリアス](http://www.yiiframework.com/doc-2.0/guide-concept-aliases.html)ではじまるかをチェックする [Craft::getAlias()](http://www.yiiframework.com/doc-2.0/yii-baseyii.html#getAlias()-detail) に、文字列を渡します。（詳細については、[コンフィギュレーション](../configuration.md#aliases)を参照してください。）
+その文字列が[エイリアス](http://www.yiiframework.com/doc-2.0/guide-concept-aliases.html)ではじまるかをチェックする [Craft::getAlias()](api:yii\BaseYii::getAlias()) に、文字列を渡します。（詳細については、[コンフィギュレーション](../configuration.md#aliases)を参照してください。）
 
 ```twig
 <img src="{{ alias('@assetBaseUrl/images/logo.png') }}">
