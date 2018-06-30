@@ -17610,6 +17610,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos” at &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; (where Craft previously stored all user photos, but without the &lt;x3/&gt;&lt;x4/&gt;/&lt;x5/&gt; subfolders).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180630T032233Z" creationid="Toru Kokubun" creationdate="20180630T032233Z">
+        <seg>Craft 3 にアップグレードすると、Craft は（ &lt;x3/&gt;&lt;x4/&gt;/&lt;x5/&gt; サブフォルダを除く、Craft が事前にすべてのユーザー画像を格納している） &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; を「User Photos」と呼ばれる新しいアセットボリュームとして自動的に作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos”, set to the &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; folder, where Craft previously stored all user photos.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T055254Z" creationid="Toru Kokubun" creationdate="20180420T054448Z">
