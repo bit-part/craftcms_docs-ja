@@ -3526,6 +3526,22 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copy your old custom Redactor config files from &lt;x1/&gt;craft/config/redactor/&lt;x2/&gt; over to your new project’s &lt;x3/&gt;config/redactor/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180630T041751Z" creationid="Toru Kokubun" creationdate="20180630T041751Z">
+        <seg>古いカスタムの Redactor 設定ファイルを &lt;x1/&gt;craft/config/redactor/&lt;x2/&gt; から新しいプロジェクトの &lt;x3/&gt;config/redactor/&lt;x4/&gt; ディレクトリにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy your old custom login page logo and site icon files from &lt;x1/&gt;craft/storage/rebrand/&lt;x2/&gt; over to your new project’s &lt;x3/&gt;storage/rebrand/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180630T041853Z" creationid="Toru Kokubun" creationdate="20180630T041853Z">
+        <seg>古いカスタムのログインページのロゴやサイトアイコンファイルを &lt;x1/&gt;craft/storage/rebrand/&lt;x2/&gt; から新しいプロジェクトの &lt;x3/&gt;storage/rebrand/&lt;x4/&gt; ディレクトリにコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copy your old templates from &lt;x1/&gt;craft/templates/&lt;x2/&gt; over to your new project’s &lt;x3/&gt;templates/&lt;x4/&gt; directory.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T234845Z" creationid="Toru Kokubun" creationdate="20180418T234845Z">
