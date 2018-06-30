@@ -5030,6 +5030,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Edit &lt;x1/&gt;[Site Name]&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180630T042242Z" creationid="Toru Kokubun" creationdate="20180630T042242Z">
+        <seg>&lt;x1/&gt;[サイト名]&lt;x2/&gt; を編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Edit an image using the built-in image editor</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T234809Z" creationid="Toru Kokubun" creationdate="20180427T234809Z">
