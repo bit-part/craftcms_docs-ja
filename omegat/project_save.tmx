@@ -1878,6 +1878,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Asset Queries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180712T222020Z" creationid="Toru Kokubun" creationdate="20180712T214804Z">
+        <seg>アセットクエリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Asset Query Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T211200Z" creationid="Toru Kokubun" creationdate="20180502T211200Z">
