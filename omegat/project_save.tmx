@@ -2830,6 +2830,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Category Queries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T213333Z" creationid="Toru Kokubun" creationdate="20180713T213333Z">
+        <seg>カテゴリクエリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Category Query Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032023Z" creationid="Toru Kokubun" creationdate="20180503T032023Z">
