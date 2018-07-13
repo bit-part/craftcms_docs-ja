@@ -734,6 +734,16 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>:::warning
+If Craft CMS needs to process very large images or dump very large databases, you might need to bump PHP’s memory allocation up to 256MB.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T221856Z" creationid="Toru Kokubun" creationdate="20180713T221759Z">
+        <seg>:::warning
+Craft CMS が非常に大きな画像の処理、または、データベースのダンプをする必要がある場合、PHP の割当メモリを256MBまで増やす必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x1/&gt;1&lt;x2/&gt; Only available if the `queue` component implements &lt;api:craft\queue\QueueInterface&gt;.&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T025321Z" creationid="Toru Kokubun" creationdate="20180623T025321Z">
@@ -1246,6 +1256,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A minimum of 128MB of memory allocated to PHP</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T221527Z" creationid="Toru Kokubun" creationdate="20180713T221527Z">
+        <seg>最低128MBの PHP 割当メモリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A minimum of 200MB of free disk space</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T020539Z" creationid="Toru Kokubun" creationdate="20180415T020539Z">
@@ -1450,6 +1468,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T005915Z" creationid="Toru Kokubun" creationdate="20180623T005915Z">
         <seg>さらに、Craft がメール送信できるよう PHP の &lt;x1/&gt;proc_*&lt;x2/&gt; メソッドを有効にする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additionally, the PHP &lt;x1/&gt;proc_*&lt;x2/&gt; methods must be enabled in order to utilize the Plugin Store and to be able to send emails.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T222258Z" creationid="Toru Kokubun" creationdate="20180713T222042Z">
+        <seg>さらに、プラグインストアの利用やメールの送信ができるよう PHP の &lt;x1/&gt;proc_*&lt;x2/&gt; メソッドを有効にする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
