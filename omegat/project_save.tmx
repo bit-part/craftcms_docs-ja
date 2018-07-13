@@ -7182,6 +7182,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are using &lt;x1/&gt;memcache&lt;x2/&gt; for your &lt;x3/&gt; config setting and you did not have &lt;x4/&gt;useMemcached&lt;x5/&gt; set to &lt;x6/&gt;true&lt;x7/&gt; in your &lt;x8/&gt;config/memcache.php&lt;x9/&gt; config file, you'll need to install memcached on your server.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T214407Z" creationid="Toru Kokubun" creationdate="20180713T214407Z">
+        <seg>コンフィグ設定の &lt;x3/&gt; に &lt;x1/&gt;memcache&lt;x2/&gt; を指定し、設定ファイル &lt;x8/&gt;config/memcache.php&lt;x9/&gt; で &lt;x4/&gt;useMemcached&lt;x5/&gt; に &lt;x6/&gt;true&lt;x7/&gt; をセットしていない場合、サーバーに memcached をインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are using &lt;x1/&gt;memcache&lt;x2/&gt; for your &lt;x3/&gt; config setting and you did not have &lt;x4/&gt;useMemcached&lt;x5/&gt; set to &lt;x6/&gt;true&lt;x7/&gt; in your &lt;x8/&gt;craft/config/memcache.php&lt;x9/&gt; config file, you'll need to install memcached on your server.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T030147Z" creationid="Toru Kokubun" creationdate="20180623T030147Z">
@@ -9762,6 +9770,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180422T094227Z">
         <seg>ショートカット構文には、中括弧が1つしかないことに注意してください&lt;x1/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that these examples use Craft 2’s default &lt;x1/&gt;tablePrefix&lt;x2/&gt; DB config setting of &lt;x3/&gt;craft&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T214901Z" creationid="Toru Kokubun" creationdate="20180713T214706Z">
+        <seg>この例では、Craft 2 デフォルトの &lt;x3/&gt;craft&lt;x4/&gt; を DB コンフィグ設定の &lt;x1/&gt;tablePrefix&lt;x2/&gt; に設定している点に注意してください。</seg>
       </tuv>
     </tu>
     <tu>
