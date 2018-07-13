@@ -1736,6 +1736,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Allowed types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T234001Z" creationid="Toru Kokubun" creationdate="20180713T234001Z">
+        <seg>許可される型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, if you already needed to fetch the actual query results, and you didn’t set the &lt;x1/&gt;offset&lt;x2/&gt; or &lt;x3/&gt;limit&lt;x4/&gt; params, you can use the &lt;x5/&gt;`|length`&lt;x6/&gt; filter to find the total size of the results array without the need for an extra database query.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T231124Z">
@@ -3432,6 +3440,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration Overview</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T233133Z" creationid="Toru Kokubun" creationdate="20180713T233133Z">
+        <seg>コンフィギュレーションの概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T002223Z" creationid="Toru Kokubun" creationdate="20180414T012306Z">
@@ -3952,6 +3968,22 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft supports several &lt;x1/&gt;database connection settings&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T233638Z" creationid="Toru Kokubun" creationdate="20180713T233638Z">
+        <seg>Craft は、いくつかの&lt;x1/&gt;データベース接続設定&lt;x2/&gt;をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft supports several &lt;x1/&gt;general config settings&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T233558Z" creationid="Toru Kokubun" creationdate="20180713T233558Z">
+        <seg>Craft は、いくつかの&lt;x1/&gt;一般設定&lt;x2/&gt;をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft supports several &lt;x1/&gt;general configuration settings&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031956Z" creationid="Toru Kokubun" creationdate="20180504T031024Z">
@@ -4328,6 +4360,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Database Connection Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T233617Z" creationid="Toru Kokubun" creationdate="20180713T233617Z">
+        <seg>データベース接続設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Date Formatting</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063113Z" creationid="Toru Kokubun" creationdate="20180420T063113Z">
@@ -4440,10 +4480,26 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default value</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T234020Z" creationid="Toru Kokubun" creationdate="20180713T234020Z">
+        <seg>デフォルト値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Define the Entry URI Format, Template, and Status for the new site in each Section.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T213304Z" creationid="Toru Kokubun" creationdate="20180430T213249Z">
         <seg>各セクションの新しいサイト向けに、エントリー URI 形式、テンプレート、およびデフォルトのステータスを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defined by</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T234028Z" creationid="Toru Kokubun" creationdate="20180713T234028Z">
+        <seg>定義元</seg>
       </tuv>
     </tu>
     <tu>
@@ -6171,6 +6227,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
         <seg>General Config</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002653Z" creationid="Toru Kokubun" creationdate="20180504T002653Z">
+        <seg>一般設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>General Config Settings</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T233535Z" creationid="Toru Kokubun" creationdate="20180713T233535Z">
         <seg>一般設定</seg>
       </tuv>
     </tu>
@@ -19112,6 +19176,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T233621Z" creationid="Toru Kokubun" creationdate="20180623T233621Z">
         <seg>あなたは Disqus にサインアップし、Disqus のサイトの「Admin → Settings → Install」からユニバーサルコードを入手できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your &lt;x1/&gt;web/index.php&lt;x2/&gt; file can define certain &lt;x3/&gt;PHP constants&lt;x4/&gt;, which Craft’s bootstrap script will check for while loading and configuring Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T233504Z" creationid="Toru Kokubun" creationdate="20180713T233504Z">
+        <seg>&lt;x1/&gt;web/index.php&lt;x2/&gt; ファイルには、Craft の読み込みと環境設定を行なう際に、Craft の起動スクリプトがチェックする &lt;x3/&gt;PHP 定数&lt;x4/&gt;を定義することができます。</seg>
       </tuv>
     </tu>
     <tu>
