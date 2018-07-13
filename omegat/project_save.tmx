@@ -13052,6 +13052,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tag Queries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T232418Z" creationid="Toru Kokubun" creationdate="20180713T232418Z">
+        <seg>タグクエリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tag Query Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T064439Z" creationid="Toru Kokubun" creationdate="20180503T064439Z">
