@@ -7624,6 +7624,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you need to set up routes to controller actions, or you need to create a template route that matches a URI pattern that’s not covered by the available route tokens in Settings → Routes, you can set up your routes in &lt;x1/&gt;config/routes.php&lt;x2/&gt; as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T222537Z" creationid="Toru Kokubun" creationdate="20180713T222537Z">
+        <seg>コントローラーアクションへのルートをセットアップする必要がある場合や、「設定 &gt; ルート」で利用可能なトークンがカバーされていない URI パターンにマッチさせるテンプレートルートを作成する必要がある場合、&lt;x1/&gt;config/routes.php&lt;x2/&gt; にルートを設定することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need to set up routes to controller actions, or you need to create a template route that matches a URI pattern that’s not covered by the available route tokens in Settings → Routes, you can set up your routes in &lt;x1/&gt;craft/config/routes.php&lt;x2/&gt; as well.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T220010Z">
@@ -11572,6 +11580,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231902Z" creationid="Toru Kokubun" creationdate="20180504T231902Z">
         <seg>最も近い整数値に数を丸めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Routes in &lt;x1/&gt;config/routes.php&lt;x2/&gt; generally follow this syntax:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T222636Z" creationid="Toru Kokubun" creationdate="20180713T222636Z">
+        <seg>&lt;x1/&gt;config/routes.php&lt;x2/&gt; のルートは、一般的に次のような構文になります。</seg>
       </tuv>
     </tu>
     <tu>
