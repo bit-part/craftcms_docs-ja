@@ -15474,6 +15474,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These will be the first items you'll encounter in any new Craft-powered website build.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T220531Z" creationid="Toru Kokubun" creationdate="20180713T220531Z">
+        <seg>これらは、Craft ベースでいかなるウェブサイトを構築する際にもあなたが遭遇するであろう、最初の項目です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These will be the first three items you'll encounter in any new Craft-powered website build.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T074544Z" creationid="Toru Kokubun" creationdate="20180415T010537Z">
@@ -17982,6 +17990,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T212224Z" creationid="Toru Kokubun" creationdate="20180427T212224Z">
         <seg>カテゴリ URL にアクセスされたとき、どのテンプレートを読み込むか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While getting familiar with Craft’s Control Panel, refer to the Core Concepts section for material on &lt;x1/&gt;Sections &amp; Entries&lt;x2/&gt; and &lt;x3/&gt;Fields&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T220502Z" creationid="Toru Kokubun" creationdate="20180713T220444Z">
+        <seg>Craft のコントロールパネルに慣れる間に、コアコンセプトである&lt;x1/&gt;セクションとエントリ&lt;x2/&gt;や&lt;x3/&gt;フィールド&lt;x4/&gt;について資料を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
