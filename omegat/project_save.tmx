@@ -4584,8 +4584,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>Don’t be one of &lt;x1/&gt;those people&lt;x2/&gt; and be sure to pick a strong password.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220057Z" creationid="Toru Kokubun" creationdate="20180426T220057Z">
-        <seg>&lt;x1/&gt;特別なアカウント&lt;x2/&gt;として、強力なパスワードを選んでください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T220912Z" creationid="Toru Kokubun" creationdate="20180426T220057Z">
+        <seg>&lt;x1/&gt;特別なアカウント&lt;x2/&gt; として、強力なパスワードを選んでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18766,6 +18766,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T222700Z" creationid="Toru Kokubun" creationdate="20180623T222700Z">
         <seg>条件文の中を含め、テンプレートのどこにでもこのタグを記述できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can press &lt;x9/&gt;Command&lt;x10/&gt;+&lt;x11/&gt;Shift&lt;x12/&gt;+&lt;x13/&gt;.&lt;x14/&gt; to toggle hidden file visibility in Finder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T220758Z" creationid="Toru Kokubun" creationdate="20180713T220743Z">
+        <seg>Finder で &lt;x9/&gt;Command&lt;x10/&gt; + &lt;x11/&gt;Shift&lt;x12/&gt; + &lt;x13/&gt;.&lt;x14/&gt; を押すことで、不可視ファイルの表示を切り替えることができます。</seg>
       </tuv>
     </tu>
     <tu>
