@@ -5982,6 +5982,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the curious, here are the types of things you will find in &lt;x1/&gt;storage/runtime/&lt;x2/&gt; (though this is not a comprehensive list):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T215936Z" creationid="Toru Kokubun" creationdate="20180713T215936Z">
+        <seg>興味がある方のために、（包括的なリストではありませんが）&lt;x1/&gt;storage/runtime/&lt;x2/&gt; で確認できるものを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the curious, here are the types of things you will find in craft/storage/runtime (though this is not a comprehensive list):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T091039Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
@@ -15780,8 +15788,8 @@ Make sure your site’s AppPool account has write permissions to these folders/f
       <tuv lang="EN-US">
         <seg>This is a Composer file that tells Composer exactly which dependencies and versions should be currently installed in &lt;x1/&gt;vendor/&lt;x2/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T031100Z" creationid="Toru Kokubun" creationdate="20180426T031100Z">
-        <seg>これは、&lt;x1/&gt;vendor/&lt;x2/&gt;へ現在インストールされている必要がある依存関係やバージョンを Composer へ正確に伝える Composer ファイルです。.</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T220031Z" creationid="Toru Kokubun" creationdate="20180426T031100Z">
+        <seg>これは、&lt;x1/&gt;vendor/&lt;x2/&gt;へ現在インストールされている必要がある依存関係やバージョンを Composer へ正確に伝える Composer ファイルです。</seg>
       </tuv>
     </tu>
     <tu>
