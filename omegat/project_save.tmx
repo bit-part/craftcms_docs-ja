@@ -15226,6 +15226,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then run the following command to generate a new content migration file (replacing &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with your migration name):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T215525Z" creationid="Toru Kokubun" creationdate="20180713T215525Z">
+        <seg>次のコマンドを実行し、新しいコンテンツマイグレーションファイルを生成します（&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; を実際のマイグレーション名に置き換えます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then run the following command to generate a new content migration file (replacing &lt;x1/&gt;MIGRATION_NAME&lt;x2/&gt; with your migration name):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T102346Z" creationid="Toru Kokubun" creationdate="20180503T102327Z">
