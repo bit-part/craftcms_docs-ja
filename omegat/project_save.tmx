@@ -20410,6 +20410,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>…then the correct relative path to &lt;x1/&gt;web/images/&lt;x2/&gt; would be &lt;x3/&gt;images/&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T213140Z" creationid="Toru Kokubun" creationdate="20180713T213140Z">
+        <seg>&lt;x1/&gt;web/images/&lt;x2/&gt; への正しい相対パスは &lt;x3/&gt;images/&lt;x4/&gt; になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>↳&lt;x1/&gt; Access &lt;x2/&gt;[Plugin Name]&lt;x3/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T072113Z" creationid="Toru Kokubun" creationdate="20180623T072106Z">
