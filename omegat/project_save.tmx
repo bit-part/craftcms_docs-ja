@@ -5374,6 +5374,14 @@ Make sure your site’s AppPool account has write permissions to these folders/f
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entry Queries&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T220135Z" creationid="Toru Kokubun" creationdate="20180713T220135Z">
+        <seg>エントリクエリ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entry Query Params</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032332Z" creationid="Toru Kokubun" creationdate="20180503T032332Z">
