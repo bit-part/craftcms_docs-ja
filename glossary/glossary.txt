@@ -76,3 +76,6 @@ aspect ratio	アスペクト比、縦横比
 innocent-looking	無邪気に見える、悪くなさそうに見える
 Criteria	基準
 Composer dependency	Composer 依存
+curate	キュレートする、選別する	「必要な情報をたくさんの情報源から収集、整理、要約、公開（共有）すること」の意。
+Free plugin	無料プラグイン
+Commercial plugin	商用プラグイン
