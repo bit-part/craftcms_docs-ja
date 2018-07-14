@@ -9784,6 +9784,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Normal Twig tags are supported as well, in case you want to include &lt;x1/&gt;{% if %}&lt;x2/&gt; conditionals in your path, or access other objects besides the source element, such as &lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt;  or &lt;x5/&gt;{{ currentUser.username }}&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T002102Z" creationid="Toru Kokubun" creationdate="20180714T002102Z">
+        <seg>通常の Twig タグもサポートされています。パスに条件文 &lt;x1/&gt;{% if %}&lt;x2/&gt; を含めたり、&lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt; や &lt;x5/&gt;{{ currentUser.username }}&lt;x6/&gt; のようなソースエレメント以外のオブジェクトにもアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normal Twig tags are supported as well, in case you want to include &lt;x1/&gt;{% if %}&lt;x2/&gt; conditionals in your path, or access other objects besides the source element, such as &lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt; or &lt;x5/&gt;{{ currentUser.username }}&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215905Z" creationid="Toru Kokubun" creationdate="20180424T215905Z">
