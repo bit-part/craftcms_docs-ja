@@ -336,6 +336,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(see [last()](&lt;x1/&gt;last))&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T005010Z" creationid="Toru Kokubun" creationdate="20180714T005010Z">
+        <seg>（[last()](&lt;x1/&gt;last) を見てください）&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(shortcut syntax)&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094125Z" creationid="Toru Kokubun" creationdate="20180422T094125Z">
@@ -5680,6 +5688,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Field layouts for entry types have another feature: they let you define the  content tabs that contain the fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T005551Z" creationid="Toru Kokubun" creationdate="20180714T005551Z">
+        <seg>入力タイプのフィールドレイアウトには別の機能があり、フィールドを含むコンテンツタブを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Field layouts for entry types have another feature: they let you define the content tabs that contain the fields.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T033647Z" creationid="Toru Kokubun" creationdate="20180623T033647Z">
@@ -5828,6 +5844,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T034612Z" creationid="Toru Kokubun" creationdate="20180624T034612Z">
         <seg>フィット&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fit&lt;x1/&gt;  – Scales the image so that it is as big as possible with all dimensions fitting within the specified width and height.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T005754Z" creationid="Toru Kokubun" creationdate="20180714T005754Z">
+        <seg>フィット&lt;x1/&gt;  – すべての寸法が指定された幅と高さに収まる範囲で、可能な限り大きいサイズになるよう画像を拡大・縮小します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13462,8 +13486,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>That first argument (&lt;x1/&gt;'and'&lt;x2/&gt;) specified that the query must match &lt;x3/&gt;all&lt;x4/&gt; of the relation criteria.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T081452Z" creationid="Toru Kokubun" creationdate="20180429T015117Z">
-        <seg>最初の引数（&lt;x1/&gt;'and'&lt;x2/&gt;）は、クエリがリレーションの基準と&lt;x3/&gt;すべて&lt;x4/&gt;一致しなければならないことを指定しています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T010732Z" creationid="Toru Kokubun" creationdate="20180429T015117Z">
+        <seg>最初の引数（&lt;x1/&gt;'and'&lt;x2/&gt;）は、クエリがリレーションの基準と &lt;x3/&gt;すべて&lt;x4/&gt; 一致しなければならないことを指定しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17132,6 +17156,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use the &lt;x1/&gt; config setting instead</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T004744Z" creationid="Toru Kokubun" creationdate="20180714T004744Z">
+        <seg>代わりに、コンフィグ設定の &lt;x1/&gt; を使ってください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use the &lt;x1/&gt;siteUrl&lt;x2/&gt; config setting instead</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215216Z" creationid="Toru Kokubun" creationdate="20180428T215202Z">
@@ -18862,8 +18894,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>You can pass &lt;x5/&gt;'or'&lt;x6/&gt; instead if you want &lt;x7/&gt;any&lt;x8/&gt; of the relation criteria to match.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T081457Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
-        <seg>リレーション基準の&lt;x7/&gt;いずれか&lt;x8/&gt;とマッチさせたい場合、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T010746Z" creationid="Toru Kokubun" creationdate="20180429T015224Z">
+        <seg>リレーション基準の &lt;x7/&gt;いずれか&lt;x8/&gt; とマッチさせたい場合、&lt;x5/&gt;'or'&lt;x6/&gt; を渡すことができます。</seg>
       </tuv>
     </tu>
     <tu>
