@@ -503,6 +503,16 @@ If your queue driver supplies its own worker, set the &lt;x1/&gt; config setting
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+If you’re looking for plugin development documentation, check out the &lt;x1/&gt;Extending Craft&lt;x2/&gt; section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T211825Z" creationid="Toru Kokubun" creationdate="20180714T211825Z">
+        <seg>::: tip
+プラグイン開発のためのドキュメントをお探しの場合は、&lt;x1/&gt;Craft の拡張&lt;x2/&gt;セクションをチェックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 If you’re on macOS, be careful not to lose the hidden files in there (&lt;x1/&gt;.env&lt;x2/&gt;, &lt;x3/&gt;.env.example&lt;x4/&gt;, &lt;x5/&gt;.gitignore&lt;x6/&gt;, and &lt;x7/&gt;web/.htaccess&lt;x8/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T011753Z" creationid="Toru Kokubun" creationdate="20180623T011150Z">
@@ -1296,6 +1306,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A plugin’s modal window within the Plugin Store&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T213649Z" creationid="Toru Kokubun" creationdate="20180714T213649Z">
+        <seg>プラグインストア内のプラグインのモーダルウィンドウ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A reference to the &lt;x1/&gt; instance that is driving the template.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T102131Z" creationid="Toru Kokubun" creationdate="20180623T102131Z">
@@ -1460,6 +1478,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T030627Z" creationid="Toru Kokubun" creationdate="20180418T030534Z">
         <seg>追加リソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additional updates can be available with an annual update fee.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T221352Z" creationid="Toru Kokubun" creationdate="20180714T221306Z">
+        <seg>追加のアップデートは、年ごとのアップデート料金で入手することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3184,6 +3210,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Click the “Add to cart” button  to add the plugin to your cart, and then proceed with checkout.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T221742Z" creationid="Toru Kokubun" creationdate="20180714T221742Z">
+        <seg>「カートに追加」ボタンをクリックして、カートにプラグインを追加し、チェックアウトを続行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Click “Finish up” to complete the setup process.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T220220Z" creationid="Toru Kokubun" creationdate="20180426T220220Z">
@@ -3380,6 +3414,38 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T021209Z" creationid="Toru Kokubun" creationdate="20180427T021209Z">
         <seg>コメントタグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commercial Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T220047Z" creationid="Toru Kokubun" creationdate="20180714T220047Z">
+        <seg>商用プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commercial licenses are a one-time fee per Craft installation, which comes with access to updates for one year after purchase.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T221155Z" creationid="Toru Kokubun" creationdate="20180714T220850Z">
+        <seg>商用ライセンスは Craft へのインストールごとに1回限り支払う料金で、購入後1年間はアップデートにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commercial plugins can be installed as a trial by clicking the “Try” button, if Craft is running on a development domain.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T215800Z" creationid="Toru Kokubun" creationdate="20180714T215734Z">
+        <seg>Craft が開発ドメイン上で実行されている場合、「試用」ボタンをクリックして商用プラグインを試用版としてインストールできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commercial plugins must follow Craft’s licensing model:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T220330Z" creationid="Toru Kokubun" creationdate="20180714T220330Z">
+        <seg>商用プラグインは Craft のライセンスモデルに従わなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4132,6 +4198,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072812Z" creationid="Toru Kokubun" creationdate="20180415T072812Z">
         <seg>Craft の Composer サポートは2つのパートでできています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s Control Panel features a Plugin Store, with hundreds of plugins available to extend Craft’s feature set.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T211730Z" creationid="Toru Kokubun" creationdate="20180714T211730Z">
+        <seg>Craft のコントロールパネルは、Craft の機能セットを拡張するための数百のプラグインが利用できるプラグインストアを特徴とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6216,6 +6290,22 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Free plugins can be installed by clicking the “Install” button.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T215942Z" creationid="Toru Kokubun" creationdate="20180714T215314Z">
+        <seg>無料プラグインは、「インストール」ボタンをクリックしてインストールできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From there you can browse through the various plugin categories and curated lists to discover new plugins.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T212939Z" creationid="Toru Kokubun" creationdate="20180714T212939Z">
+        <seg>そこから、さまざまなプラグインカテゴリや選別されたリストをブラウズして、新しいプラグインを発見することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From there you can choose a category group from the sidebar, and add/reorder/delete categories within it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T214336Z" creationid="Toru Kokubun" creationdate="20180427T213956Z">
@@ -7636,6 +7726,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000650Z" creationid="Toru Kokubun" creationdate="20180427T000650Z">
         <seg>もし、&lt;x1/&gt;craft/templates/recipes/ingredients.html&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have tried a commercial plugin and are ready to buy it, return to the Plugin Store and click on the Cart icon in the header area.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T221542Z" creationid="Toru Kokubun" creationdate="20180714T221542Z">
+        <seg>商用プラグインを試して購入する準備ができている場合は、 プラグインストアに戻り、ヘッダーにあるカートアイコンをクリックしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10304,6 +10402,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once you’ve completed the checkout process, your plugin installation will automatically become licensed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T222123Z" creationid="Toru Kokubun" creationdate="20180714T221950Z">
+        <seg>チェックアウトのプロセスが完了すると、インストールしたプラグインは自動的にライセンスを取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once you’ve created an element query, you can set parameters on it.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074337Z" creationid="Toru Kokubun" creationdate="20180502T074337Z">
@@ -10756,6 +10862,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230656Z" creationid="Toru Kokubun" creationdate="20180414T230656Z">
         <seg>プラグイン設定&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugin Store</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T211042Z" creationid="Toru Kokubun" creationdate="20180714T211042Z">
+        <seg>プラグインストア</seg>
       </tuv>
     </tu>
     <tu>
@@ -13884,6 +13998,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Craft Plugin Store&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T213252Z" creationid="Toru Kokubun" creationdate="20180714T213252Z">
+        <seg>The Craft Plugin Store&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Date Modified that the resulting assets must have</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T222951Z" creationid="Toru Kokubun" creationdate="20180502T220508Z">
@@ -15165,6 +15287,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The shell command that Craft should execute to create a database backup.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T222813Z" creationid="Toru Kokubun" creationdate="20180714T222813Z">
+        <seg>データベースのバックアップを作成するために Craft が実行するシェルコマンド。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The site ID that the elements should be returned in</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030230Z" creationid="Toru Kokubun" creationdate="20180503T030230Z">
@@ -15705,6 +15835,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012519Z" creationid="Toru Kokubun" creationdate="20180425T012458Z">
         <seg>それらは、サイトのタイムゾーンで表示されますが、Craft の他のすべての日付と同様に UTC で格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are free to try in development environments, but require payment to be used in production environments.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T220623Z" creationid="Toru Kokubun" creationdate="20180714T220623Z">
+        <seg>開発環境で自由に試すことができますが、本番環境での利用には支払いを必要とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16313,6 +16451,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090946Z" creationid="Toru Kokubun" creationdate="20180422T090946Z">
         <seg>タイトルフィールドラベル&lt;x1/&gt; – 「タイトル」フィールドのラベルをどうするか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To access the Plugin Store, click on the “Plugin Store” item in Craft’s Control Panel navigation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T215528Z" creationid="Toru Kokubun" creationdate="20180714T212003Z">
+        <seg>プラグインストアにアクセスするためには、Craft のコントロールパネルのナビゲーションにある「プラグインストア」をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17965,6 +18111,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you click on a plugin, a modal window will open with details about the plugin, including a long description and screenshots.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T213501Z" creationid="Toru Kokubun" creationdate="20180714T213501Z">
+        <seg>プラグインをクリックすると、長い説明文やスクリーンショットを含むプラグインに関する詳細をモーダルウィンドウで開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you click on one of those buttons, a new block will be created.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180425T121854Z">
@@ -18185,6 +18339,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025906Z" creationid="Toru Kokubun" creationdate="20180714T025906Z">
         <seg>スラグに大文字を使うことを許可するかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether users should automatically be logged in after activating their account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T222409Z" creationid="Toru Kokubun" creationdate="20180714T222409Z">
+        <seg>ユーザーがアカウントを有効化した後に、自動的にログインするかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18893,6 +19055,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can managed all of your plugin licenses from your &lt;x1/&gt;Craft ID&lt;x2/&gt; account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T222230Z" creationid="Toru Kokubun" creationdate="20180714T222158Z">
+        <seg>&lt;x1/&gt;Craft ID&lt;x2/&gt; アカウントから、すべてのプラグインライセンスを管理することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can manipulate variables with filters.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032039Z" creationid="Toru Kokubun" creationdate="20180427T032039Z">
@@ -19265,6 +19435,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215716Z" creationid="Toru Kokubun" creationdate="20180415T073126Z">
         <seg>Composer 1.3.0 以降を稼働させるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should see your plugin listed in the “Active Trials” section of the Cart modal.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T221651Z" creationid="Toru Kokubun" creationdate="20180714T221651Z">
+        <seg>カートモーダルの「有効なトライアル」セクションに、プラグインの一覧を確認できます。</seg>
       </tuv>
     </tu>
     <tu>
