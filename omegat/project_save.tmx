@@ -1808,6 +1808,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any custom Yii &lt;x1/&gt;aliases&lt;x2/&gt; that should be defined for every request.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025322Z" creationid="Toru Kokubun" creationdate="20180714T025302Z">
+        <seg>リクエストごとに定義される、カスタムの Yii &lt;x1/&gt;aliases&lt;x2/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any decision you take will affect users and colleagues, and you should take those consequences into account when making decisions.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T232143Z" creationid="Toru Kokubun" creationdate="20180414T232143Z">
@@ -4000,6 +4008,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft supports several configuration settings that give you control over its behavior.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T023426Z" creationid="Toru Kokubun" creationdate="20180714T023426Z">
+        <seg>Craft は、その振る舞いを制御するためのいくつかのコンフィギュレーション設定をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft supports the following search syntax:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T231308Z" creationid="Toru Kokubun" creationdate="20180429T231308Z">
@@ -6000,6 +6016,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you want to allow Craft to be updated in dev environments but not on staging or production environments, do this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025816Z" creationid="Toru Kokubun" creationdate="20180714T023926Z">
+        <seg>例えば、staging または production 環境ではなく、dev 環境のみ Craft のアップデートを許可したい場合、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you want to create a special template welcoming your German customers, but there’s no need for it on your English site, then you could save it in &lt;x1/&gt;craft/templates/de/welcome.html&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180427T011618Z">
@@ -6660,6 +6684,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T074024Z" creationid="Toru Kokubun" creationdate="20180502T073947Z">
         <seg>次の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s the full list of config settings that Craft supports:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024338Z" creationid="Toru Kokubun" creationdate="20180714T024338Z">
+        <seg>Craft がサポートするコンフィグ設定の完全なリストは、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12012,6 +12044,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;craft\helpers\ConfigHelper::localizedValue()&lt;x2/&gt; for a list of supported value types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024905Z" creationid="Toru Kokubun" creationdate="20180714T024905Z">
+        <seg>サポートされる値の種類は、&lt;x1/&gt;craft\helpers\ConfigHelper::localizedValue()&lt;x2/&gt; のリストを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;x1/&gt;here for a list&lt;x2/&gt; of the possible &lt;x3/&gt;numberOptions&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095238Z" creationid="Toru Kokubun" creationdate="20180623T095222Z">
@@ -13940,10 +13980,27 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The URI segment Craft should look for when determining if the current request should first be routed to a
+controller action.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024703Z" creationid="Toru Kokubun" creationdate="20180714T024703Z">
+        <seg>現在のリクエストを最初にコントローラーアクションにルーティングすべきかどうかを決定するとき、Craft が探すべき URI セグメント。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The URI that the resulting element must have</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031024Z" creationid="Toru Kokubun" creationdate="20180503T031024Z">
         <seg>結果となるエレメントが持つべき URI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URI that users without access to the Control Panel should be redirected to after activating their account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024815Z" creationid="Toru Kokubun" creationdate="20180714T024815Z">
+        <seg>コントロールパネルにアクセスできないユーザーが、アカウントをアクティベートしたときにリダイレクトすべき URI。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14424,6 +14481,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215724Z" creationid="Toru Kokubun" creationdate="20180502T215724Z">
         <seg>このクエリに関係しているかもしれないフィールド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The file extensions Craft should allow when a user is uploading files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T030053Z" creationid="Toru Kokubun" creationdate="20180714T030053Z">
+        <seg>ユーザーがファイルをアップロードする際に、Craft が許可するファイル拡張子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16548,6 +16613,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To set a new config setting, open &lt;x1/&gt;config/general.php&lt;x2/&gt; and define it in one of the environment config arrays, depending on which environment(s) you want the setting to apply to.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T023745Z" creationid="Toru Kokubun" creationdate="20180714T023630Z">
+        <seg>新しいコンフィグ設定をセットするには &lt;x1/&gt;config/general.php&lt;x2/&gt; を開き、設定を適用したい環境に応じて環境設定の配列の1つを定義してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To set it up, open your Craft project’s &lt;x1/&gt;composer.json&lt;x2/&gt; file and make the following changes:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T011803Z" creationid="Toru Kokubun" creationdate="20180625T011737Z">
@@ -17996,6 +18069,22 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether Craft should allow system and plugin updates in the Control Panel, and plugin installation from the Plugin Store.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025738Z" creationid="Toru Kokubun" creationdate="20180714T025724Z">
+        <seg>コントロールパネルでのシステムとプラグインのアップデート、および、プラグインストアからのプラグインのインストールを Craft が許可するかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether auto-generated URLs should have trailing slashes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025039Z" creationid="Toru Kokubun" creationdate="20180714T025039Z">
+        <seg>自動的に生成された URL にスラッシュをつけるべきかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether element structure data should automatically be left-joined into the query</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T031609Z" creationid="Toru Kokubun" creationdate="20180503T031609Z">
@@ -18088,6 +18177,22 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215443Z" creationid="Toru Kokubun" creationdate="20180502T215443Z">
         <seg>アーカイブされたエレメントだけを返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether uppercase letters should be allowed in slugs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025906Z" creationid="Toru Kokubun" creationdate="20180714T025906Z">
+        <seg>スラグに大文字を使うことを許可するかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether users should be allowed to create similarly-named tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025443Z" creationid="Toru Kokubun" creationdate="20180714T025443Z">
+        <seg>ユーザーによる類似した名前のタグの作成を許可するかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20600,6 +20705,38 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235114Z" creationid="Toru Kokubun" creationdate="20180504T235114Z">
         <seg>【ヒント】クエリ文字列パラメータを追加する、および / または、絶対 URL にプロトコルを適用するために、&lt;x1/&gt;url()&lt;x2/&gt; ファンクションを使うことができます。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg> ↳&lt;x1/&gt; Delete other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T023143Z" creationid="Toru Kokubun" creationdate="20180714T023143Z">
+        <seg> ↳&lt;x1/&gt; 他の投稿者の下書きを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg> ↳&lt;x1/&gt; Delete other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T023117Z" creationid="Toru Kokubun" creationdate="20180714T023117Z">
+        <seg> ↳&lt;x1/&gt; 他の投稿者のエントリを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg> ↳&lt;x1/&gt; Publish other authors’ drafts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T023133Z" creationid="Toru Kokubun" creationdate="20180714T023133Z">
+        <seg> ↳&lt;x1/&gt; 他の投稿者の下書きを投稿する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg> ↳&lt;x1/&gt; Publish other authors’ entries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T023038Z" creationid="Toru Kokubun" creationdate="20180714T023038Z">
+        <seg> ↳&lt;x1/&gt; 他の作成者の入力のためライブを変更する</seg>
       </tuv>
     </tu>
     <tu>
