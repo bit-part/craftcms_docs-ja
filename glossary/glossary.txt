@@ -82,3 +82,4 @@ Commercial plugin	商用プラグイン
 if any	もしあるとしたら
 store	蓄積する、保管する、保存する、記憶する
 indefinitely	無期限に
+i.e.	例：
