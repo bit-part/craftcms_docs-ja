@@ -7198,8 +7198,8 @@ servers.</seg>
       <tuv lang="EN-US">
         <seg>If set to &lt;x1/&gt;0&lt;x2/&gt;, data and RSS feed caches will be stored indefinitely; template caches will be stored for one year.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001559Z" creationid="Toru Kokubun" creationdate="20180715T001559Z">
-        <seg>&lt;x1/&gt;0&lt;x2/&gt; にセットすると、データと RSS フィードのキャッシュは無期限に保管されます。テンプレートキャッシュは1年間保管されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013820Z" creationid="Toru Kokubun" creationdate="20180715T001559Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; をセットすると、データと RSS フィードのキャッシュは無期限に保管されます。テンプレートキャッシュは1年間保管されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12448,6 +12448,14 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set to &lt;x1/&gt;0&lt;x2/&gt; to keep the account locked indefinitely, requiring an admin to manually unlock the account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013815Z" creationid="Toru Kokubun" creationdate="20180715T013709Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; をセットするとアカウントは無期限にロックされます。管理者が手動でアカウントのロックを解除する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set up the Database&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033220Z" creationid="Toru Kokubun" creationdate="20180415T033220Z">
@@ -14147,8 +14155,17 @@ servers.</seg>
         <seg>The URI segment Craft should look for when determining if the current request should first be routed to a
 controller action.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024703Z" creationid="Toru Kokubun" creationdate="20180714T024703Z">
-        <seg>現在のリクエストを最初にコントローラーアクションにルーティングすべきかどうかを決定するとき、Craft が探すべき URI セグメント。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T011131Z" creationid="Toru Kokubun" creationdate="20180714T024703Z">
+        <seg>現在のリクエストを最初にコントローラーアクションにルーティングするかどうかを決定するとき、Craft が探す URI セグメント。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URI segment Craft should look for when determining if the current request should route to the Control Panel rather than
+the front-end website.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T014007Z" creationid="Toru Kokubun" creationdate="20180715T014007Z">
+        <seg>現在のリクエストをフロントエンドのウェブサイトではなくコントロールパネルにルーティングするかどうかを決定するとき、Craft が探す URI セグメント。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14163,8 +14180,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>The URI that users without access to the Control Panel should be redirected to after activating their account.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024815Z" creationid="Toru Kokubun" creationdate="20180714T024815Z">
-        <seg>コントロールパネルにアクセスできないユーザーが、アカウントをアクティベートしたときにリダイレクトすべき URI。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T011115Z" creationid="Toru Kokubun" creationdate="20180714T024815Z">
+        <seg>コントロールパネルにアクセスできないユーザーが、アカウントをアクティベートしたときにリダイレクトする URI。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14293,6 +14310,15 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001648Z" creationid="Toru Kokubun" creationdate="20180415T090628Z">
         <seg>PHP dotenv を使うことの利点は、Git リポジトリにコミットされないファイルに（データベースの接続設定のような）機密性の高い情報を保管しておく場所を提供するということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The amount of time a user must wait before re-attempting to log in after their account is locked due to too many
+failed login attempts.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013537Z" creationid="Toru Kokubun" creationdate="20180715T013537Z">
+        <seg>あまりに多くのログイン試行の失敗によりアカウントがロックされた後、ユーザーが再試行するために待たなければならない時間。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15085,6 +15111,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004038Z" creationid="Toru Kokubun" creationdate="20180430T003746Z">
         <seg>Craft のマルチサイト機能は、同じパブリッシングチームを持つサイトに向いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of CSRF token used for CSRF validation if &lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; is set to &lt;x3/&gt;true&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T014314Z" creationid="Toru Kokubun" creationdate="20180715T014249Z">
+        <seg>&lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; が &lt;x3/&gt;true&lt;x4/&gt; にセットされている場合、CSRF の検証に使用される CSRF トークン名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18339,6 +18373,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether Craft should cache element queries that fall inside &lt;x1/&gt;{% cache %}&lt;x2/&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T011200Z" creationid="Toru Kokubun" creationdate="20180715T011056Z">
+        <seg>Craft が &lt;x1/&gt;{% cache %}&lt;x2/&gt; タグ内にエレメントクエリをキャッシュするかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether Craft should create a database backup before applying a new system update.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233236Z" creationid="Toru Kokubun" creationdate="20180714T233236Z">
@@ -18349,8 +18391,8 @@ automatically if left blank.</seg>
       <tuv lang="EN-US">
         <seg>Whether auto-generated URLs should have trailing slashes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025039Z" creationid="Toru Kokubun" creationdate="20180714T025039Z">
-        <seg>自動的に生成された URL にスラッシュをつけるべきかどうか。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T011107Z" creationid="Toru Kokubun" creationdate="20180714T025039Z">
+        <seg>自動的に生成された URL にスラッシュをつけるかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18447,6 +18489,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215443Z" creationid="Toru Kokubun" creationdate="20180502T215443Z">
         <seg>アーカイブされたエレメントだけを返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether uploaded filenames with non-ASCII characters should be converted to ASCII (i.e. &lt;x1/&gt;ñ&lt;x2/&gt; → &lt;x3/&gt;n&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T011928Z" creationid="Toru Kokubun" creationdate="20180715T011842Z">
+        <seg>アップロードされたファイル名に含まれる ASCII 以外の文字を ASCII に変換するかどうか（例： &lt;x1/&gt;ñ&lt;x2/&gt; → &lt;x3/&gt;n&lt;x4/&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
