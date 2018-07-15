@@ -79,3 +79,6 @@ Composer dependency	Composer 依存
 curate	キュレートする、選別する	「必要な情報をたくさんの情報源から収集、整理、要約、公開（共有）すること」の意。
 Free plugin	無料プラグイン
 Commercial plugin	商用プラグイン
+if any	もしあるとしたら
+store	蓄積する、保管する、保存する、記憶する
+indefinitely	無期限に
