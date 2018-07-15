@@ -22,6 +22,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(&lt;x2/&gt;false&lt;x3/&gt; by default)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042247Z" creationid="Toru Kokubun" creationdate="20180715T042247Z">
+        <seg>（デフォルトは &lt;x2/&gt;false&lt;x3/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(&lt;x2/&gt;null&lt;x3/&gt; by default)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042010Z" creationid="Toru Kokubun" creationdate="20180715T042010Z">
+        <seg>（デフォルトは &lt;x2/&gt;null&lt;x3/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(&lt;x2/&gt;true&lt;x3/&gt; by default)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042257Z" creationid="Toru Kokubun" creationdate="20180715T042257Z">
+        <seg>（デフォルトは &lt;x2/&gt;true&lt;x3/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(&lt;x4/&gt;false&lt;x5/&gt; by default)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042217Z" creationid="Toru Kokubun" creationdate="20180715T042217Z">
+        <seg>（デフォルトは &lt;x4/&gt;false&lt;x5/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(&lt;x5/&gt;inReverse()&lt;x6/&gt; will reverse the sort direction of all of the &lt;x7/&gt;ORDER BY&lt;x8/&gt; columns in the generated SQL.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T232257Z" creationid="Toru Kokubun" creationdate="20180420T232059Z">
@@ -388,6 +420,62 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005917Z" creationid="Toru Kokubun" creationdate="20180422T005758Z">
         <seg>.env&lt;x1/&gt; ファイルのひな形です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>0&lt;x1/&gt; – Sunday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045210Z" creationid="Toru Kokubun" creationdate="20180715T045210Z">
+        <seg>0&lt;x1/&gt; – 日曜日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>1&lt;x1/&gt; – Monday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045215Z" creationid="Toru Kokubun" creationdate="20180715T045215Z">
+        <seg>1&lt;x1/&gt; – 月曜日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2&lt;x1/&gt; – Tuesday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045218Z" creationid="Toru Kokubun" creationdate="20180715T045218Z">
+        <seg>2&lt;x1/&gt; – 火曜日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3&lt;x1/&gt; – Wednesday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045223Z" creationid="Toru Kokubun" creationdate="20180715T045223Z">
+        <seg>3&lt;x1/&gt; – 水曜日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4&lt;x1/&gt; – Thursday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045227Z" creationid="Toru Kokubun" creationdate="20180715T045227Z">
+        <seg>4&lt;x1/&gt; – 木曜日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>5&lt;x1/&gt; – Friday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045231Z" creationid="Toru Kokubun" creationdate="20180715T045231Z">
+        <seg>5&lt;x1/&gt; – 金曜日</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6&lt;x1/&gt; – Saturday</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045235Z" creationid="Toru Kokubun" creationdate="20180715T045235Z">
+        <seg>6&lt;x1/&gt; – 土曜日</seg>
       </tuv>
     </tu>
     <tu>
@@ -6021,8 +6109,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
         <seg>For best protection against brute force attacks, set it to the highest value that is tolerable on production
 servers.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T234018Z" creationid="Toru Kokubun" creationdate="20180714T234018Z">
-        <seg>ブルートフォース攻撃に対するベストな保護のために、本番サーバーで許容される最高の値をセットしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T034326Z" creationid="Toru Kokubun" creationdate="20180714T234018Z">
+        <seg>ブルートフォース攻撃に対するベストな保護のために、production サーバーで許容される最高の値をセットしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7012,6 +7100,15 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If blank, it will be left
+up to the browser to determine which domain to use (almost always the current).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T033432Z" creationid="Toru Kokubun" creationdate="20180715T033432Z">
+        <seg>空白の場合、使用するドメイン（ほとんどの場合、現在のもの）の決定はブラウザに任されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If checked, Craft will create a new entry in every site in the system.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T213522Z" creationid="Toru Kokubun" creationdate="20180430T213437Z">
@@ -7200,6 +7297,14 @@ servers.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013820Z" creationid="Toru Kokubun" creationdate="20180715T001559Z">
         <seg>&lt;x1/&gt;0&lt;x2/&gt; をセットすると、データと RSS フィードのキャッシュは無期限に保管されます。テンプレートキャッシュは1年間保管されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set to &lt;x1/&gt;null&lt;x2/&gt;, the permission will be determined by the current environment.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T034048Z" creationid="Toru Kokubun" creationdate="20180715T034048Z">
+        <seg>&lt;x1/&gt;null&lt;x2/&gt; をセットした場合、パーミッションは現在の環境によって決定されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7976,6 +8081,15 @@ servers.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T213755Z" creationid="Toru Kokubun" creationdate="20180425T213729Z">
         <seg>100以上のブロックがあり、それらすべてのブロックを返したいと考えるなら、パラメータを &lt;x1/&gt;null&lt;x2/&gt; にセットすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want the cookies to work
+for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T033606Z" creationid="Toru Kokubun" creationdate="20180715T033551Z">
+        <seg>すべてのサブドメインで機能する Cookie を望むなら、例えば、これを &lt;x1/&gt;'.domain.com'&lt;x2/&gt; にセットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10500,6 +10614,14 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Options include:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T041807Z" creationid="Toru Kokubun" creationdate="20180715T041807Z">
+        <seg>オプションは次のものを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or as a way to automatically include the proper template for each language:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010134Z" creationid="Toru Kokubun" creationdate="20180430T010103Z">
@@ -11288,6 +11410,15 @@ servers.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232107Z" creationid="Toru Kokubun" creationdate="20180504T232034Z">
         <seg>配列内のエレメントの順序をランダム化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ranges from 0 (worst quality, smallest file) to
+100 (best quality, biggest file).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T035239Z" creationid="Toru Kokubun" creationdate="20180715T035239Z">
+        <seg>0（最低品質、最小ファイルサイズ）から100（最高品質、最大ファイルサイズ）までの範囲。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14325,7 +14456,7 @@ failed login attempts.</seg>
       <tuv lang="EN-US">
         <seg>The amount of time it should take for the cache to expire.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T231532Z" creationid="Toru Kokubun" creationdate="20180506T231532Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T044611Z" creationid="Toru Kokubun" creationdate="20180506T231532Z">
         <seg>キャッシュが有効期限になるまでの時間。</seg>
       </tuv>
     </tu>
@@ -14491,6 +14622,22 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default amount of time tokens can be used before expiring.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T044816Z" creationid="Toru Kokubun" creationdate="20180715T044510Z">
+        <seg>トークンが期限切れになる前に使用できるデフォルトの時間。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default day that new users should have set as their Week Start Day.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045100Z" creationid="Toru Kokubun" creationdate="20180715T045042Z">
+        <seg>新しいユーザーが「週の開始日」としてセットする必要があるデフォルトの曜日。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default installation of Craft only supports local volumes (directories on the same server on which Craft is running) but you can also set up remote Asset Volumes that live on &lt;x1/&gt;Amazon S3&lt;x2/&gt;, &lt;x3/&gt;Rackspace Cloud&lt;x4/&gt;, and &lt;x5/&gt;Google Cloud&lt;x6/&gt; using one of the first-party plugins.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221137Z" creationid="Toru Kokubun" creationdate="20180427T221056Z">
@@ -14499,10 +14646,42 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default language the Control Panel should use for users who haven’t set a preferred language yet.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T033858Z" creationid="Toru Kokubun" creationdate="20180715T033828Z">
+        <seg>優先言語をまだセットしてないユーザー向けに、コントロールパネルが使用するデフォルトの言語。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default length of time Craft will store data, RSS feed, and template caches.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001445Z" creationid="Toru Kokubun" creationdate="20180714T235719Z">
         <seg>Craft がデータ、RSS フィード、および、テンプレートキャッシュを保管する時間のデフォルトの長さ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default options that should be applied to each search term.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042137Z" creationid="Toru Kokubun" creationdate="20180715T041741Z">
+        <seg>それぞれの検索用語に適用されるデフォルトのオプション。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default permission to be set for newly generated directories.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T034007Z" creationid="Toru Kokubun" creationdate="20180715T033947Z">
+        <seg>新しく生成されたディレクトリにセットされるデフォルトのパーミッション。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default permission to be set for newly generated files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T034133Z" creationid="Toru Kokubun" creationdate="20180715T034133Z">
+        <seg>新しく生成されたファイルにセットされるデフォルトのパーミッション。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14519,6 +14698,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T025616Z" creationid="Toru Kokubun" creationdate="20180426T025616Z">
         <seg>ドキュメントは全般的に新しい構造を想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The domain that cookies generated by Craft should be created for.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T032945Z" creationid="Toru Kokubun" creationdate="20180715T032945Z">
+        <seg>Craft によって生成される Cookie が作成されるべきドメイン。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15299,6 +15486,14 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The quality level Craft will use when saving JPG and PNG files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T035114Z" creationid="Toru Kokubun" creationdate="20180715T035114Z">
+        <seg>JPG と PNG ファイルを保存する際に、Craft が使用する品質レベル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reason for this is that Matrix fields can have multiple sub-fields that each share the same handle, as long as they’re in different block types.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T082922Z" creationid="Toru Kokubun" creationdate="20180624T082904Z">
@@ -15519,6 +15714,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065302Z" creationid="Toru Kokubun" creationdate="20180503T065214Z">
         <seg>結果となるユーザーが含まれるべきユーザーグループ ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The template file extensions Craft will look for when matching a template path to a file on the front end.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T043551Z" creationid="Toru Kokubun" creationdate="20180715T043551Z">
+        <seg>フロントエンドでテンプレートパスとファイルの照合をする際に、Craft が探すテンプレートファイルの拡張子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16400,6 +16603,14 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003212Z" creationid="Toru Kokubun" creationdate="20180419T003155Z">
         <seg>このセクションには、Craft CMS のアップデートとプラグインのアップデートの両方を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This should be set to one of the following integers:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T045153Z" creationid="Toru Kokubun" creationdate="20180715T045153Z">
+        <seg>これは、次の整数の1つをセットしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20045,6 +20256,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>attribute&lt;x1/&gt; – The attribute that the term should apply to (e.g. 'title'), if any.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T041940Z" creationid="Toru Kokubun" creationdate="20180715T041940Z">
+        <seg>attribute&lt;x1/&gt; – （もしある場合）用語が適用される属性（例：'title'）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>average()&lt;x1/&gt; – Returns the average number of all the values in the first column</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T094316Z" creationid="Toru Kokubun" creationdate="20180502T094229Z">
@@ -20249,6 +20468,22 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003407Z" creationid="Toru Kokubun" creationdate="20180624T003225Z">
         <seg>エントリクエリパラメータ&lt;x1/&gt;に渡します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>exact&lt;x1/&gt; – Whether the term must be an exact match (only applies if &lt;x2/&gt;attribute&lt;x3/&gt; is set).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042205Z" creationid="Toru Kokubun" creationdate="20180715T042117Z">
+        <seg>exact&lt;x1/&gt; – 用語が完全一致でなければならないかどうか（&lt;x2/&gt;attribute&lt;x3/&gt; がセットされている場合のみ、適用されます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>exclude&lt;x1/&gt; – Whether search results should &lt;x2/&gt;exclude&lt;x3/&gt; records with this term.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T042504Z" creationid="Toru Kokubun" creationdate="20180715T042504Z">
+        <seg>exclude&lt;x1/&gt; – 検索結果でこの用語のレコードを &lt;x2/&gt;除外する&lt;x3/&gt; かどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20593,6 +20828,22 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T003205Z" creationid="Toru Kokubun" creationdate="20180625T003136Z">
         <seg>sourceLanguage&lt;x1/&gt; – プラグインのソース言語（デフォルトは &lt;x2/&gt;en-US&lt;x3/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>subLeft&lt;x1/&gt; – Whether to include keywords that contain the term, with additional characters before it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T043211Z" creationid="Toru Kokubun" creationdate="20180715T042820Z">
+        <seg>subLeft&lt;x1/&gt; – それより前に追加の文字を持つ「用語を含むキーワード」を含めるかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>subRight&lt;x1/&gt; – Whether to include keywords that contain the term, with additional characters after it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T043205Z" creationid="Toru Kokubun" creationdate="20180715T043205Z">
+        <seg>subRight&lt;x1/&gt; – それより後に追加の文字を持つ「用語を含むキーワード」を含めるかどうか。</seg>
       </tuv>
     </tu>
     <tu>
