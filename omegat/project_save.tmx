@@ -5731,6 +5731,14 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Environmental Configuration</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T224433Z" creationid="Toru Kokubun" creationdate="20180715T224433Z">
+        <seg>環境設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every Craft installation starts with one default site.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T205647Z" creationid="Toru Kokubun" creationdate="20180430T004435Z">
@@ -7126,6 +7134,15 @@ up to the browser to determine which domain to use (almost always the current).<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If false, the CSRF token
+will be stored in session under the 'csrfTokenName' config setting name.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T222009Z" creationid="Toru Kokubun" creationdate="20180715T221852Z">
+        <seg>false の場合、CSRF トークンはコンフィグ設定名 'csrfTokenName' 配下のセッション内に保管されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it can’t determine that (probably because ImageMagik isn’t installed), it will just go with .jpg.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T040704Z" creationid="Toru Kokubun" creationdate="20180624T040646Z">
@@ -7302,10 +7319,26 @@ up to the browser to determine which domain to use (almost always the current).<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If set to &lt;x1/&gt;'_'&lt;x2/&gt;, then your site’s 404 template would live at &lt;x3/&gt;templates/_404.html&lt;x4/&gt;, for example.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223329Z" creationid="Toru Kokubun" creationdate="20180715T223242Z">
+        <seg>例えば &lt;x1/&gt;'_'&lt;x2/&gt; がセットされている場合、サイトの 404 テンプレートは&lt;x3/&gt;templates/_404.html&lt;x4/&gt; となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If set to &lt;x1/&gt;0&lt;x2/&gt;, data and RSS feed caches will be stored indefinitely; template caches will be stored for one year.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013820Z" creationid="Toru Kokubun" creationdate="20180715T001559Z">
         <seg>&lt;x1/&gt;0&lt;x2/&gt; をセットすると、データと RSS フィードのキャッシュは無期限に保管されます。テンプレートキャッシュは1年間保管されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set to &lt;x1/&gt;false&lt;x2/&gt;, spaces will be left alone.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223702Z" creationid="Toru Kokubun" creationdate="20180715T223702Z">
+        <seg>&lt;x1/&gt;false&lt;x2/&gt; の場合、空白だけが残ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7552,8 +7585,8 @@ up to the browser to determine which domain to use (almost always the current).<
       <tuv lang="EN-US">
         <seg>If you are including a Checkboxes field on a front-end &lt;x1/&gt;entry from&lt;x2/&gt;, make sure to include a hidden input before the checkboxes, so that an empty value is submitted if no checkboxes are checked.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
-        <seg>フロントエンドの&lt;x1/&gt;エントリフォーム&lt;x2/&gt;にチェックボックスフィールドを含める場合、チェックボックスの前に不可視フィールドを含め、チェックボックスがチェックされなかった場合でも、空の値が送信されるようにしてください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T222714Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
+        <seg>フロントエンドの&lt;x1/&gt;エントリフォーム&lt;x2/&gt;にチェックボックスフィールドを含める場合、チェックボックスの前に不可視項目を含め、チェックボックスがチェックされなかった場合でも、空の値が送信されるようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9505,6 +9538,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List of file extensions that will be merged into the &lt;x1/&gt;$allowedFileExtensions&lt;x2/&gt; config setting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223426Z" creationid="Toru Kokubun" creationdate="20180715T223426Z">
+        <seg>コンフィグ設定 &lt;x1/&gt;$allowedFileExtensions&lt;x2/&gt; にマージされるファイル拡張子のリスト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Loading your plugin into a Craft project</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085946Z" creationid="Toru Kokubun" creationdate="20180624T085923Z">
@@ -10253,6 +10294,16 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215447Z" creationid="Toru Kokubun" creationdate="20180623T215041Z">
         <seg>前、または、次のページが常に存在するとは限らないため、これらのリンクを条件文でラップしていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that while storing CSRF tokens in
+session increases security, it requires starting a session for every page that a CSRF token is need, which may
+degrade site performance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T222447Z" creationid="Toru Kokubun" creationdate="20180715T222405Z">
+        <seg>セッションの CSRF トークンを保存することでセキュリティが向上している間は、CSRF トークンをすべてのページでセッションを開始する必要があるため、サイトのパフォーマンスが低下する可能性がある点に注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15529,6 +15580,15 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The prefix that should be prepended to HTTP error status codes when determining the path to look for an error’s
+template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223128Z" creationid="Toru Kokubun" creationdate="20180715T223128Z">
+        <seg>エラーテンプレートを探すためのパスを決定するときに、HTTP エラーステータスコードの前につける接頭辞。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The purpose of the &lt;x1/&gt;with&lt;x2/&gt; param is to tell Craft which sub-elements you’re going to be needing in advance, so that it can fetch them all up front, in as few queries as possible.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073415Z" creationid="Toru Kokubun" creationdate="20180624T073203Z">
@@ -15701,6 +15761,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235142Z" creationid="Toru Kokubun" creationdate="20180414T235142Z">
         <seg>Craft の強みは広範囲のバックグラウンドを持つ人々による多彩なコミュニティから来ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The string to use to separate words when uploading Assets.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223545Z" creationid="Toru Kokubun" creationdate="20180715T223545Z">
+        <seg>アセットをアップロードする際に、単語を区切るために使用する文字列。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18675,6 +18743,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether images transforms should be generated before page load.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T224107Z" creationid="Toru Kokubun" creationdate="20180715T223749Z">
+        <seg>ページの読み込み前に画像の変形によるサムネイルの生成をするかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether or not you wish to make your plugin available as a Composer dependency (you probably should), your plugin must have a &lt;x1/&gt;composer.json&lt;x2/&gt; file.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T003722Z" creationid="Toru Kokubun" creationdate="20180624T220527Z">
@@ -18711,6 +18787,22 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T072240Z" creationid="Toru Kokubun" creationdate="20180715T072240Z">
         <seg>システムを &lt;x1/&gt;Dev Mode&lt;x2/&gt; で実行するかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to enable CSRF protection via hidden form inputs for all forms submitted via Craft.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T222630Z" creationid="Toru Kokubun" creationdate="20180715T222630Z">
+        <seg>Craft 経由で送信されるすべてのフォームで、不可視項目による CSRF 保護を有効にするかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to enable Craft's template &lt;x1/&gt;{% cache %}&lt;x2/&gt; tag on a global basis.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T222924Z" creationid="Toru Kokubun" creationdate="20180715T222924Z">
+        <seg>グローバル基準で Craft テンプレートの &lt;x1/&gt;{% cache %}&lt;x2/&gt; タグを有効にするかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18759,6 +18851,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T215443Z" creationid="Toru Kokubun" creationdate="20180502T215443Z">
         <seg>アーカイブされたエレメントだけを返すかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether to use a cookie to persist the CSRF token if &lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; is enabled.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T221718Z" creationid="Toru Kokubun" creationdate="20180715T221718Z">
+        <seg>&lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; が有効な場合、CSRF トークンを保持するために Cookie を利用するかどうか。</seg>
       </tuv>
     </tu>
     <tu>
