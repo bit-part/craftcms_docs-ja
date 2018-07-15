@@ -2578,6 +2578,15 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Craft will require a 'password' field to be submitted on front-end, public
+user registrations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T071508Z" creationid="Toru Kokubun" creationdate="20180715T071508Z">
+        <seg>デフォルトでは、フロントエンドの一般ユーザー登録で「パスワード」フィールドを送信する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Craft will store data caches in the &lt;x1/&gt;storage/runtime/cache/&lt;x2/&gt; folder.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T235842Z" creationid="Toru Kokubun" creationdate="20180504T031326Z">
@@ -7637,6 +7646,15 @@ up to the browser to determine which domain to use (almost always the current).<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't, the only way they can set their password is to go
+through your "forgot password" workflow.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T072207Z" creationid="Toru Kokubun" creationdate="20180715T072207Z">
+        <seg>そうでなければ、「パスワードを忘れた」際のワークフローを経由することがパスワードをセットできる唯一の方法となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you go that route, you can skip to step 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093732Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
@@ -7849,6 +7867,15 @@ up to the browser to determine which domain to use (almost always the current).<
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180421T001626Z">
         <seg>コンフィグ設定を変更している場合、それに応じて前述のサンプルを調整してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have email verification enabled, the will set their password once they've clicked on the
+verification link in the email.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T072006Z" creationid="Toru Kokubun" creationdate="20180715T071927Z">
+        <seg>メールアドレスの確認が有効になっている場合、通知メールに記載されたリンクをクリックしたときにパスワードをセットできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12579,6 +12606,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set to &lt;x1/&gt;0&lt;x2/&gt; to disable elevated session support.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T073049Z" creationid="Toru Kokubun" creationdate="20180715T073049Z">
+        <seg>昇格されたセッションのサポートを無効化するには、&lt;x1/&gt;0&lt;x2/&gt; をセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set to &lt;x1/&gt;0&lt;x2/&gt; to keep the account locked indefinitely, requiring an admin to manually unlock the account.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013815Z" creationid="Toru Kokubun" creationdate="20180715T013709Z">
@@ -12751,6 +12786,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084451Z" creationid="Toru Kokubun" creationdate="20180415T084451Z">
         <seg>データベースのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting this to &lt;x1/&gt;true&lt;x2/&gt; will no longer require it on the initial registration form.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T071607Z" creationid="Toru Kokubun" creationdate="20180715T071607Z">
+        <seg>これを &lt;x1/&gt;true&lt;x2/&gt; にセットすると、最初の登録フォームでパスワードを必要としなくなります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14450,6 +14493,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T013537Z" creationid="Toru Kokubun" creationdate="20180715T013537Z">
         <seg>あまりに多くのログイン試行の失敗によりアカウントがロックされた後、ユーザーが再試行するために待たなければならない時間。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The amount of time a user’s elevated session will last, which is required for some sensitive actions (e.g. user group/permission assignment).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T072921Z" creationid="Toru Kokubun" creationdate="20180715T072921Z">
+        <seg>機密性の高い操作（例：ユーザーのグループや権限の割り当てなど）に必要な、ユーザーの昇格されたセッションの時間。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18652,6 +18703,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003040Z" creationid="Toru Kokubun" creationdate="20180503T003040Z">
         <seg>クエリが &lt;x1/&gt;folderId&lt;x2/&gt; のサブフォルダを検索するかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether the system should run in &lt;x1/&gt;Dev Mode&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T072240Z" creationid="Toru Kokubun" creationdate="20180715T072240Z">
+        <seg>システムを &lt;x1/&gt;Dev Mode&lt;x2/&gt; で実行するかどうか。</seg>
       </tuv>
     </tu>
     <tu>
