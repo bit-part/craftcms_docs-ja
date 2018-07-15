@@ -2442,6 +2442,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default Craft will run &lt;x1/&gt;mysqldump&lt;x2/&gt; or &lt;x3/&gt;pg_dump&lt;x4/&gt;, provided that those libraries are in the &lt;x5/&gt;$PATH&lt;x6/&gt; variable for the user the web server  is running as.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T232543Z" creationid="Toru Kokubun" creationdate="20180714T232543Z">
+        <seg>ウェブサーバーを実行しているユーザーの &lt;x5/&gt;$PATH&lt;x6/&gt; 変数にライブラリが含まれている場合、デフォルトで Craft は &lt;x1/&gt;mysqldump&lt;x2/&gt; または &lt;x3/&gt;pg_dump&lt;x4/&gt; を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default Craft will use a &lt;x3/&gt;custom queue driver&lt;x4/&gt; based on the extension’s &lt;x5/&gt;DB driver&lt;x6/&gt;, but you can switch to a different driver by overriding Craft’s &lt;x7/&gt;queue&lt;x8/&gt; component from &lt;x9/&gt;config/app.php&lt;x10/&gt;:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T091559Z" creationid="Toru Kokubun" creationdate="20180623T090955Z">
@@ -2484,8 +2492,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>By default, Craft will store data caches in the &lt;x1/&gt;storage/runtime/cache/&lt;x2/&gt; folder.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031326Z" creationid="Toru Kokubun" creationdate="20180504T031326Z">
-        <seg>デフォルトでは、Craft は &lt;x1/&gt;storage/runtime/cache/&lt;x2/&gt; フォルダにデータキャッシュを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T235842Z" creationid="Toru Kokubun" creationdate="20180504T031326Z">
+        <seg>デフォルトでは、Craft は &lt;x1/&gt;storage/runtime/cache/&lt;x2/&gt; フォルダにデータキャッシュを蓄積します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6010,6 +6018,15 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For best protection against brute force attacks, set it to the highest value that is tolerable on production
+servers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T234018Z" creationid="Toru Kokubun" creationdate="20180714T234018Z">
+        <seg>ブルートフォース攻撃に対するベストな保護のために、本番サーバーで許容される最高の値をセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For each transform, Craft needs to execute a query to see if the transform already exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T084240Z" creationid="Toru Kokubun" creationdate="20180624T084230Z">
@@ -6054,6 +6071,15 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071801Z" creationid="Toru Kokubun" creationdate="20180624T071643Z">
         <seg>例えば、ここにエントリのリストをループし、それぞれのエントリに関連付けられた画像を表示するテンプレートがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if the hash takes 1 second to compute when the value is 14 then the compute time varies as
+2^(value - 14) seconds.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T235327Z" creationid="Toru Kokubun" creationdate="20180714T235157Z">
+        <seg>例えば、値が14のときハッシュの計算に1秒かかる場合、計算時間は「2^(値 - 14) 」秒で変化します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6492,8 +6518,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>Globals store content that is available globally throughout your templates.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T215939Z" creationid="Toru Kokubun" creationdate="20180428T215939Z">
-        <seg>グローバルは、テンプレート全体で包括的に利用可能なコンテンツを格納できます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000751Z" creationid="Toru Kokubun" creationdate="20180428T215939Z">
+        <seg>グローバルは、テンプレート全体で包括的に利用可能なコンテンツを保存できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7170,6 +7196,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If set to &lt;x1/&gt;0&lt;x2/&gt;, data and RSS feed caches will be stored indefinitely; template caches will be stored for one year.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001559Z" creationid="Toru Kokubun" creationdate="20180715T001559Z">
+        <seg>&lt;x1/&gt;0&lt;x2/&gt; にセットすると、データと RSS フィードのキャッシュは無期限に保管されます。テンプレートキャッシュは1年間保管されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If successful, you will get the Craft installation wizard.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T014405Z" creationid="Toru Kokubun" creationdate="20180418T014405Z">
@@ -7204,8 +7238,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>If that setting is checked, the field’s values are stored on a per-site basis.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T221959Z" creationid="Toru Kokubun" creationdate="20180422T221959Z">
-        <seg>この設定がチェックされている場合、フィールドの値はサイトごとに格納されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000658Z" creationid="Toru Kokubun" creationdate="20180422T221959Z">
+        <seg>この設定がチェックされている場合、フィールドの値はサイトごとに保存されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8980,8 +9014,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>It should be used as a starting point for any actual &lt;x2/&gt;.env&lt;x3/&gt; files, stored alongside it but out of version control on each of the environments your Craft project is running in.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011532Z" creationid="Toru Kokubun" creationdate="20180422T011113Z">
-        <seg>実際の &lt;x2/&gt;.env&lt;x3/&gt; ファイルの出発点として使用する必要があります。ファイルとして格納されていますが、動作している Craft プロジェクトの各環境のバージョン管理からは除外してください。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000555Z" creationid="Toru Kokubun" creationdate="20180422T011113Z">
+        <seg>実際の &lt;x2/&gt;.env&lt;x3/&gt; ファイルの出発点として使用する必要があります。ファイルとして保存されていますが、動作している Craft プロジェクトの各環境のバージョン管理からは除外してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12158,6 +12192,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;craft\helpers\ConfigHelper::durationInSeconds()&lt;x2/&gt; for a list of supported value types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001732Z" creationid="Toru Kokubun" creationdate="20180715T001732Z">
+        <seg>サポートされる値の種類は、&lt;x1/&gt;craft\helpers\ConfigHelper::durationInSeconds()&lt;x2/&gt; のリストを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;x1/&gt;craft\helpers\ConfigHelper::localizedValue()&lt;x2/&gt; for a list of supported value types.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T024905Z" creationid="Toru Kokubun" creationdate="20180714T024905Z">
@@ -13200,8 +13242,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>Structures are good for times when you need to store multiple similar entries, and sort them into a specific order.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012725Z" creationid="Toru Kokubun" creationdate="20180422T083619Z">
-        <seg>ストラクチャーは、複数の類似するエントリを格納し、かつ、特定の順序で並び替える必要がある場合に適しています。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000818Z" creationid="Toru Kokubun" creationdate="20180422T083619Z">
+        <seg>ストラクチャーは、複数の類似するエントリを蓄積し、かつ、特定の順序で並び替える必要がある場合に適しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14295,6 +14337,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The base URL that Craft should use when generating Control Panel URLs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233400Z" creationid="Toru Kokubun" creationdate="20180714T233400Z">
+        <seg>コントロールパネルの URL を生成する際に、Craft が使用するベース URL。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The best way to upgrade a Craft 2 site is to approach it like you’re building a new Craft 3 site.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T013512Z" creationid="Toru Kokubun" creationdate="20180623T013009Z">
@@ -14419,6 +14469,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221137Z" creationid="Toru Kokubun" creationdate="20180427T221056Z">
         <seg>Craft のデフォルトインストールでは、ローカルボリューム（Craft が実行されている同じサーバー上のディレクトリ）だけをサポートしていますが、サードパーティのプラグインを利用して、&lt;x1/&gt;Amazon S3&lt;x2/&gt;、&lt;x3/&gt;Rackspace Cloud&lt;x4/&gt;、および &lt;x5/&gt;Google Cloud&lt;x6/&gt; をリモートのアセットボリュームとしてセットアップすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default length of time Craft will store data, RSS feed, and template caches.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001445Z" creationid="Toru Kokubun" creationdate="20180714T235719Z">
+        <seg>Craft がデータ、RSS フィード、および、テンプレートキャッシュを保管する時間のデフォルトの長さ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14959,6 +15017,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The higher the cost value, the longer it takes to generate a password hash and to verify against it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233723Z" creationid="Toru Kokubun" creationdate="20180714T233723Z">
+        <seg>コスト値が高いと、パスワードハッシュの生成とそれに対する検証に時間がかかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The last name that the resulting users must have</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065416Z" creationid="Toru Kokubun" creationdate="20180503T065416Z">
@@ -15439,6 +15505,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The time taken to compute the hash doubles for every increment by one for this value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T234328Z" creationid="Toru Kokubun" creationdate="20180714T234328Z">
+        <seg>この値が増加するごとに、ハッシュを計算するためにかかる時間は倍になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The title that resulting elements must have</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T030912Z" creationid="Toru Kokubun" creationdate="20180503T030912Z">
@@ -15703,6 +15777,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several tokens you can use that Craft will swap out at runtime:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T232735Z" creationid="Toru Kokubun" creationdate="20180714T232720Z">
+        <seg>ランタイムで Craft がスワップアウトするために利用できるいくつかのトークンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are three different Section Types in Craft: Channels, Structures, and Singles.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T005416Z" creationid="Toru Kokubun" creationdate="20180421T005416Z">
@@ -15747,6 +15829,15 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T014704Z" creationid="Toru Kokubun" creationdate="20180429T014704Z">
         <seg>複数のタイプのリレーションを組み合わせる必要がある場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore,
+higher cost slows down a brute-force attack.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233824Z" creationid="Toru Kokubun" creationdate="20180714T233806Z">
+        <seg>そのため、より高いコストはブルートフォース攻撃を遅くさせます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15833,8 +15924,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>They are displayed in the site’s timezone, however they get stored in UTC like all other dates in Craft.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T012519Z" creationid="Toru Kokubun" creationdate="20180425T012458Z">
-        <seg>それらは、サイトのタイムゾーンで表示されますが、Craft の他のすべての日付と同様に UTC で格納されます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000158Z" creationid="Toru Kokubun" creationdate="20180425T012458Z">
+        <seg>それらは、サイトのタイムゾーンで表示されますが、Craft の他のすべての日付と同様に UTC で保存されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15983,6 +16074,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can also be set to &lt;x1/&gt;false&lt;x2/&gt; to disable database backups completely.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233134Z" creationid="Toru Kokubun" creationdate="20180714T233134Z">
+        <seg>データベースのバックアップを完全に無効にするために、&lt;x1/&gt;false&lt;x2/&gt; をセットすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be a fully-qualified element class name (e.g. &lt;x3/&gt;craft\elements\Entry&lt;x4/&gt;) or the element type’s “reference handle”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T012403Z" creationid="Toru Kokubun" creationdate="20180624T012351Z">
@@ -16057,8 +16156,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>This determines what type of field it is – what its input UI is going to look like, what type of data it can store, and how you’ll be able to interact with that data from your templates.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011411Z" creationid="Toru Kokubun" creationdate="20180423T011307Z">
-        <seg>これは、フィールドがどんな種類か（入力 UI の外観、格納可能なデータ型、テンプレートからデータをどのようにやりとりできるか）を決定します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000731Z" creationid="Toru Kokubun" creationdate="20180423T011307Z">
+        <seg>これは、フィールドがどんな種類か（入力 UI の外観、保存可能なデータ型、テンプレートからデータをどのようにやりとりできるか）を決定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16217,8 +16316,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>This is where Craft stores a bunch of files that get dynamically generated at runtime.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T020854Z" creationid="Toru Kokubun" creationdate="20180421T020658Z">
-        <seg>ランタイムで動的に生成される一連のファイルを Craft が格納する場所です。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000250Z" creationid="Toru Kokubun" creationdate="20180421T020658Z">
+        <seg>ランタイムで動的に生成される一連のファイルを Craft が保管する場所です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16339,6 +16438,15 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T073906Z" creationid="Toru Kokubun" creationdate="20180624T073742Z">
         <seg>このレンプレートコードは、たった3クエリしかコストがかかりません。エントリを取り出すための1つ、どのアセットを eager-loaded すべきか決定するための1つ、そして、アセットを取り出すための1つです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will be determined
+automatically if left blank.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233435Z" creationid="Toru Kokubun" creationdate="20180714T233435Z">
+        <seg>空白の場合、自動的に決定されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17825,8 +17933,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>We use Fields in Craft to define the different content types that are stored in an Entry.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013535Z" creationid="Toru Kokubun" creationdate="20180421T011208Z">
-        <seg>Craft のフィールドを利用して、エントリに格納する様々なコンテンツタイプを定義します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001047Z" creationid="Toru Kokubun" creationdate="20180421T011208Z">
+        <seg>Craft のフィールドを利用して、エントリに保管する様々なコンテンツタイプを定義します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18081,8 +18189,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>When upgrading to Craft 3, Craft will automatically create a new asset volume called “User Photos” at &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; (where Craft previously stored all user photos, but without the &lt;x3/&gt;&lt;x4/&gt;/&lt;x5/&gt; subfolders).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180630T032233Z" creationid="Toru Kokubun" creationdate="20180630T032233Z">
-        <seg>Craft 3 にアップグレードすると、Craft は（ &lt;x3/&gt;&lt;x4/&gt;/&lt;x5/&gt; サブフォルダを除く、Craft が事前にすべてのユーザー画像を格納している） &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; を「User Photos」と呼ばれる新しいアセットボリュームとして自動的に作成します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000115Z" creationid="Toru Kokubun" creationdate="20180630T032233Z">
+        <seg>Craft 3 にアップグレードすると、Craft は（ &lt;x3/&gt;&lt;x4/&gt;/&lt;x5/&gt; サブフォルダを除く、Craft が事前にすべてのユーザー画像を保管している） &lt;x1/&gt;storage/userphotos/&lt;x2/&gt; を「User Photos」と呼ばれる新しいアセットボリュームとして自動的に作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18227,6 +18335,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T025738Z" creationid="Toru Kokubun" creationdate="20180714T025724Z">
         <seg>コントロールパネルでのシステムとプラグインのアップデート、および、プラグインストアからのプラグインのインストールを Craft が許可するかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether Craft should create a database backup before applying a new system update.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233236Z" creationid="Toru Kokubun" creationdate="20180714T233236Z">
+        <seg>新しいシステムアップデートを適用する前に、Craft がデータベースのバックアップを作成するかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19465,8 +19581,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>You store the site-specific templates in each site template directory.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T212851Z" creationid="Toru Kokubun" creationdate="20180430T212851Z">
-        <seg>それぞれのサイトのテンプレートディレクトリに、サイト固有のテンプレートを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T001103Z" creationid="Toru Kokubun" creationdate="20180430T212851Z">
+        <seg>それぞれのサイトのテンプレートディレクトリに、サイト固有のテンプレートを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19873,8 +19989,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>assets/&lt;x1/&gt; – Stores image thumbnails, resized file icons, and copies of images stored on remote asset volumes, to save Craft an HTTP request when it needs the images to generate new thumbnails or transforms.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T031338Z" creationid="Toru Kokubun" creationdate="20180623T031338Z">
-        <seg>assets/&lt;x1/&gt; – 新しいサムネイルやトランスフォームの生成にあたり画像が必要なときに Craft の HTTP リクエストを節約する目的で、画像サムネイル、リサイズされたファイルのアイコン、リモートアセットボリュームに保存された画像のコピーを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000343Z" creationid="Toru Kokubun" creationdate="20180623T031338Z">
+        <seg>assets/&lt;x1/&gt; – 新しいサムネイルやトランスフォームの生成にあたり画像が必要なときに Craft の HTTP リクエストを節約する目的で、画像サムネイル、リサイズされたファイルのアイコン、リモートアセットボリュームに保存された画像のコピーを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19889,8 +20005,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>backups/&lt;x1/&gt; – Stores database backups that get created when you update Craft or run the DB Backup utility.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021142Z" creationid="Toru Kokubun" creationdate="20180421T021142Z">
-        <seg>backups/&lt;x1/&gt; – Craft のアップデートやデータベースバックアップユーティリティの実行時に生成される、データベースのバックアップを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000304Z" creationid="Toru Kokubun" creationdate="20180421T021142Z">
+        <seg>backups/&lt;x1/&gt; – Craft のアップデートやデータベースバックアップユーティリティの実行時に生成される、データベースのバックアップを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19905,8 +20021,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>cache/&lt;x1/&gt; – Stores data caches.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004548Z" creationid="Toru Kokubun" creationdate="20180422T004548Z">
-        <seg>cache/&lt;x1/&gt; – データキャッシュを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T235859Z" creationid="Toru Kokubun" creationdate="20180422T004548Z">
+        <seg>cache/&lt;x1/&gt; – データキャッシュを蓄積します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19953,16 +20069,16 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>compiled_classes/&lt;x1/&gt; – Stores some dynamically-defined PHP classes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004609Z" creationid="Toru Kokubun" creationdate="20180422T004609Z">
-        <seg>compiled_classes/&lt;x1/&gt; – いくつかの動的に定義された PHP クラスを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000357Z" creationid="Toru Kokubun" creationdate="20180422T004609Z">
+        <seg>compiled_classes/&lt;x1/&gt; – いくつかの動的に定義された PHP クラスを保管します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>compiled_templates/&lt;x1/&gt; – Stores compiled Twig templates.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004621Z" creationid="Toru Kokubun" creationdate="20180422T004621Z">
-        <seg>compiled_templates/&lt;x1/&gt; – コンパイル済みのテンプレートを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000401Z" creationid="Toru Kokubun" creationdate="20180422T004621Z">
+        <seg>compiled_templates/&lt;x1/&gt; – コンパイル済みのテンプレートを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20169,8 +20285,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>logs/&lt;x1/&gt; – Stores Craft’s logs and PHP error logs.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021158Z" creationid="Toru Kokubun" creationdate="20180421T021158Z">
-        <seg>logs/&lt;x1/&gt; – Craft のログや PHP エラーログを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000310Z" creationid="Toru Kokubun" creationdate="20180421T021158Z">
+        <seg>logs/&lt;x1/&gt; – Craft のログや PHP エラーログを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20209,8 +20325,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>mutex/&lt;x1/&gt; – Stores file lock data.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004630Z" creationid="Toru Kokubun" creationdate="20180422T004630Z">
-        <seg>mutex/&lt;x1/&gt; – ファイルロックデータを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000406Z" creationid="Toru Kokubun" creationdate="20180422T004630Z">
+        <seg>mutex/&lt;x1/&gt; – ファイルロックデータを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20321,8 +20437,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>rebrand/&lt;x1/&gt; – Stores the custom Login Page Logo and Site Icon files, if you’ve uploaded them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T021332Z" creationid="Toru Kokubun" creationdate="20180421T021320Z">
-        <seg>rebrand/&lt;x1/&gt; – アップロードしてある場合、カスタムログインページのロゴとサイトアイコンファイルを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000326Z" creationid="Toru Kokubun" creationdate="20180421T021320Z">
+        <seg>rebrand/&lt;x1/&gt; – アップロードしてある場合、カスタムログインページのロゴとサイトアイコンファイルを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20449,8 +20565,8 @@ controller action.</seg>
       <tuv lang="EN-US">
         <seg>temp/&lt;x1/&gt; – Stores temp files.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T004640Z" creationid="Toru Kokubun" creationdate="20180422T004640Z">
-        <seg>temp/&lt;x1/&gt; – 一時ファイルを格納します。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000411Z" creationid="Toru Kokubun" creationdate="20180422T004640Z">
+        <seg>temp/&lt;x1/&gt; – 一時ファイルを保管します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20679,6 +20795,14 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{database}&lt;x1/&gt; - the current database name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233002Z" creationid="Toru Kokubun" creationdate="20180714T233002Z">
+        <seg>{database}&lt;x1/&gt; - 現在のデータベース名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{entry:about-us:intro}&lt;x1/&gt; – returns the value of an &lt;x2/&gt;intro&lt;x3/&gt; custom field on an entry with the slug &lt;x4/&gt;about-us&lt;x5/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T014052Z" creationid="Toru Kokubun" creationdate="20180624T014024Z">
@@ -20823,6 +20947,38 @@ controller action.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>{path}&lt;x1/&gt; - the target backup file path</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T232912Z" creationid="Toru Kokubun" creationdate="20180714T232912Z">
+        <seg>{path}&lt;x1/&gt; - バックアップファイルのターゲットパス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{port}&lt;x1/&gt; - the current database port</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T232923Z" creationid="Toru Kokubun" creationdate="20180714T232923Z">
+        <seg>{port}&lt;x1/&gt; -現在のデータベースポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{schema}&lt;x1/&gt; - the current database schema (if any)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T233058Z" creationid="Toru Kokubun" creationdate="20180714T233019Z">
+        <seg>{schema}&lt;x1/&gt; - （もしある場合）現在のデータベーススキーマ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{server}&lt;x1/&gt; - the current database host name</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T232938Z" creationid="Toru Kokubun" creationdate="20180714T232938Z">
+        <seg>{server}&lt;x1/&gt; - 現在のデータベースホスト名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>{tip} Craft doesn’t require you to create additional &lt;x1/&gt;web/&lt;x2/&gt; directories for new sites, though it’s fine if you need to.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T013021Z" creationid="Toru Kokubun" creationdate="20180430T013002Z">
@@ -20883,6 +21039,14 @@ controller action.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235114Z" creationid="Toru Kokubun" creationdate="20180504T235114Z">
         <seg>【ヒント】クエリ文字列パラメータを追加する、および / または、絶対 URL にプロトコルを適用するために、&lt;x1/&gt;url()&lt;x2/&gt; ファンクションを使うことができます。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{user}&lt;x1/&gt; - the user to connect to the database</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T232953Z" creationid="Toru Kokubun" creationdate="20180714T232953Z">
+        <seg>{user}&lt;x1/&gt; -データベースのに接続するユーザー</seg>
       </tuv>
     </tu>
     <tu>
