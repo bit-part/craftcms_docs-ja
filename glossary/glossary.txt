@@ -88,3 +88,4 @@ term	期間、期限、用語、言葉
 driver	ドライバ
 explicitly	明示的に
 noticeably	著しく
+unclaimed	請求されていない、持ち主がわからない	ライセンスの話題であれば「未使用の」とする
