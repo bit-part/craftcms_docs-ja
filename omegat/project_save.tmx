@@ -3632,6 +3632,14 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commercial plugins in the Plugin Store must follow Craft’s licensing model:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T223142Z" creationid="Toru Kokubun" creationdate="20180716T223142Z">
+        <seg>プラグインストアの商用ライセンスは、Craft のライセンスモデルに従わなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commercial plugins must follow Craft’s licensing model:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T220330Z" creationid="Toru Kokubun" creationdate="20180714T220330Z">
@@ -9548,6 +9556,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T005310Z" creationid="Toru Kokubun" creationdate="20180421T005310Z">
         <seg>様々なタイプのコンテンツ（ニュース、イベント、レシピ）を持つカクテルラウンジのウェブサイトを保有しているとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Licenses can be returned for a full refund within 30 days of purchase, no questions asked.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T223556Z" creationid="Toru Kokubun" creationdate="20180716T223556Z">
+        <seg>質問不要で、ライセンスは購入から30日以内に全額返金することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16402,8 +16418,8 @@ matching a template path to a file on the front end.</seg>
       <tuv lang="EN-US">
         <seg>Then the other person will be able to claim the license for themselves from the Licenses → Claim License page of their Craft ID account.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T222854Z" creationid="Toru Kokubun" creationdate="20180716T222854Z">
-        <seg>それによって、他の人が Craft ID アカウントの「Licenses → Claim License」ページから自分自身のライセンスを要求することができます。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T223115Z" creationid="Toru Kokubun" creationdate="20180716T222854Z">
+        <seg>それによって、他の人が Craft ID アカウントの「Licenses → Claim License」ページから自分自身のライセンスを要求できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
