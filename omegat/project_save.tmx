@@ -599,6 +599,16 @@ If your queue driver supplies its own worker, set the &lt;x1/&gt; config setting
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+If you’re looking for plugin &lt;x1/&gt;development&lt;x2/&gt; documentation, check out the &lt;x3/&gt;Extending Craft&lt;x4/&gt; section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T214154Z" creationid="Toru Kokubun" creationdate="20180716T214154Z">
+        <seg>::: tip
+プラグイン &lt;x1/&gt;開発&lt;x2/&gt; のためのドキュメントをお探しの場合は、&lt;x3/&gt;Craft の拡張&lt;x4/&gt; セクションをチェックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 If you’re looking for plugin development documentation, check out the &lt;x1/&gt;Extending Craft&lt;x2/&gt; section.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T211825Z" creationid="Toru Kokubun" creationdate="20180714T211825Z">
@@ -1757,6 +1767,14 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After verifying that you own the email address, any unclaimed licenses associated with that email address will be added to your account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T222312Z" creationid="Toru Kokubun" creationdate="20180716T222312Z">
+        <seg>メールアドレスの所有者であることを確認後、 メールアドレスに関連付けられている未使用のライセンスがアカウントに追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After you create at least one category group, you will be able to create categories for that group.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T221644Z" creationid="Toru Kokubun" creationdate="20180427T212708Z">
@@ -1969,6 +1987,14 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T065830Z" creationid="Toru Kokubun" creationdate="20180504T065754Z">
         <seg>配列として返された項目は、 メインのアプリケーション設定の配列にマージされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any plugin licenses that were purchased with the same email address as your Craft ID account will automatically be added to your account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T221713Z" creationid="Toru Kokubun" creationdate="20180716T221659Z">
+        <seg>Craft ID アカウントと同じメールアドレスで購入されたすべてのプラグインライセンスは、自動的にアカウントへ追加されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2553,6 +2579,14 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
         <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Buying Commercial Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220249Z" creationid="Toru Kokubun" creationdate="20180716T220249Z">
+        <seg>商用プラグインの購入</seg>
       </tuv>
     </tu>
     <tu>
@@ -3558,6 +3592,22 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Commercial Plugin Licensing</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220418Z" creationid="Toru Kokubun" creationdate="20180716T220418Z">
+        <seg>商用プラグインのライセンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Commercial Plugin Support</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220427Z" creationid="Toru Kokubun" creationdate="20180716T220427Z">
+        <seg>商用プラグインのサポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Commercial Plugins</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T220047Z" creationid="Toru Kokubun" creationdate="20180714T220047Z">
@@ -4338,6 +4388,14 @@ user registrations.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072812Z" creationid="Toru Kokubun" creationdate="20180415T072812Z">
         <seg>Craft の Composer サポートは2つのパートでできています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft’s Control Panel features a Plugin Store, where you can browse through hundreds of free and commercial plugins, install them with a single click, and pay for them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T215058Z" creationid="Toru Kokubun" creationdate="20180716T214854Z">
+        <seg>Craft のコントロールパネルはプラグインストアを特徴とし、数百の無料プラグインと商用プラグインをブラウズしたり、ワンクリックでインストールしたり、料金を支払うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7748,6 +7806,14 @@ through your "forgot password" workflow.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don’t have a Craft ID account yet, you can create one by going to &lt;x1/&gt;id.craftcms.com/register&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T221526Z" creationid="Toru Kokubun" creationdate="20180716T221526Z">
+        <seg>まだ Craft ID アカウントをお持ちでない場合は、&lt;x1/&gt;id.craftcms.com/register&lt;x2/&gt; にアクセスしてアカウントを作成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you go that route, you can skip to step 3.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T093732Z" creationid="Toru Kokubun" creationdate="20180415T072531Z">
@@ -7824,6 +7890,14 @@ through your "forgot password" workflow.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
         <seg>Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合、新しい&lt;x3/&gt;Twig 拡張&lt;x4/&gt;を提供する&lt;x1/&gt;プラグイン&lt;x2/&gt;を作成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have a plugin license that isn’t showing up, go to Licenses → Claim License.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T221806Z" creationid="Toru Kokubun" creationdate="20180716T221806Z">
+        <seg>プラグインライセンスが表示されない場合は、「Licenses → Claim License」に移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9038,6 +9112,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Installing Free Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T215130Z" creationid="Toru Kokubun" creationdate="20180716T215130Z">
+        <seg>無料プラグインのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead you must stick to the standard array syntaxes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T075458Z" creationid="Toru Kokubun" creationdate="20180624T075444Z">
@@ -9770,6 +9852,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T025214Z" creationid="Toru Kokubun" creationdate="20180423T025214Z">
         <seg>必須にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Managing Plugin Licenses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220220Z" creationid="Toru Kokubun" creationdate="20180716T220220Z">
+        <seg>プラグインライセンスの管理</seg>
       </tuv>
     </tu>
     <tu>
@@ -11252,6 +11342,14 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T020249Z" creationid="Toru Kokubun" creationdate="20180625T020249Z">
         <seg>プラグインは「設定 &gt; プラグイン」ページに表示されるアイコンを提供できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins extend Craft’s core functionality.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T214247Z" creationid="Toru Kokubun" creationdate="20180716T214247Z">
+        <seg>プラグインは Craft のコア機能を拡張します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14454,6 +14552,14 @@ never cache them.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Plugin Store</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T214411Z" creationid="Toru Kokubun" creationdate="20180716T214411Z">
+        <seg>プラグインストア</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Post Date that the resulting entries must have</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T033450Z" creationid="Toru Kokubun" creationdate="20180503T033450Z">
@@ -16294,6 +16400,14 @@ matching a template path to a file on the front end.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then the other person will be able to claim the license for themselves from the Licenses → Claim License page of their Craft ID account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T222854Z" creationid="Toru Kokubun" creationdate="20180716T222854Z">
+        <seg>それによって、他の人が Craft ID アカウントの「Licenses → Claim License」ページから自分自身のライセンスを要求することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then you can create a registration form on the front end, like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T005616Z" creationid="Toru Kokubun" creationdate="20180624T005616Z">
@@ -16603,6 +16717,14 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011834Z" creationid="Toru Kokubun" creationdate="20180624T011834Z">
         <seg>テーブルフィールド内のテキストセルを含む、あらゆるテキストフィールドで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They can introduce new Dashboard widgets, field types, Control Panel sections, Twig templating features, workflow actions, and more.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T214349Z" creationid="Toru Kokubun" creationdate="20180716T214349Z">
+        <seg>新しいダッシュボードウィジェット、フィールドタイプ、コントロールパネルセクション、Twig テンプレート機能、ワークフローアクションなどを導入することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17579,6 +17701,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To transfer a plugin license to someone else’s Craft ID account, log into your Craft ID account, and click on the license under Licenses → Plugins, and then click the “Release License” button to release it from your account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T222955Z" creationid="Toru Kokubun" creationdate="20180716T222727Z">
+        <seg>プラグインライセンスを他の Craft ID アカウントに譲渡するには、あなたの Craft ID アカウントにログインし、「Licenses → Plugins」で表示されるライセンスを選択し、 “Release License” ボタンをクリックしてアカウントから解放します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To update Craft without making any major changes to your site’s directory structure, follow these instructions.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T070945Z" creationid="Toru Kokubun" creationdate="20180418T070945Z">
@@ -17627,6 +17757,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Transferring Plugin Licenses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220407Z" creationid="Toru Kokubun" creationdate="20180716T220407Z">
+        <seg>プラグインライセンスの譲渡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Transforms are &lt;x1/&gt;non-destructive&lt;x2/&gt;, meaning that they have no effect on the original image that was uploaded.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T033210Z" creationid="Toru Kokubun" creationdate="20180624T033106Z">
@@ -17663,6 +17801,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065216Z" creationid="Toru Kokubun" creationdate="20180419T220101Z">
         <seg>クエリを配列として扱う&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Trialing Commercial Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220241Z" creationid="Toru Kokubun" creationdate="20180716T220241Z">
+        <seg>商用プラグインの試用</seg>
       </tuv>
     </tu>
     <tu>
@@ -19835,6 +19981,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can enter its license key manually, or if you know the email address that was used for purchase, you can enter it in the “Claim licenses by email address” section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T222001Z" creationid="Toru Kokubun" creationdate="20180716T221934Z">
+        <seg>ライセンスキーを手動で入力するか、購入に利用したメールアドレスを知っている場合は “Claim licenses by email address” セクションにそれを入力することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can explicitly set
 either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to override that behavior.</seg>
       </tuv>
@@ -19912,6 +20066,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T020259Z" creationid="Toru Kokubun" creationdate="20180422T090327Z">
         <seg>「設定 &gt; セクション」のセクション名の横にある「入力タイプを変更してください。」リンクをクリックして、セクションの入力タイプを管理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can managed all of your plugin licenses from your &lt;x1/&gt;Craft ID&lt;x2/&gt; account, under Licenses → Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T221428Z" creationid="Toru Kokubun" creationdate="20180716T221428Z">
+        <seg>&lt;x1/&gt;Craft ID&lt;x2/&gt; アカウントの「Licenses → Plugins」から、すべてのプラグインライセンスを管理することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20400,6 +20562,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T005315Z" creationid="Toru Kokubun" creationdate="20180422T005304Z">
         <seg>フロントエンド向けのテンプレートをここにまとめます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You’ll then be taken to the plugin installer page, which will keep you updated with Craft’s status as it works through the installation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T220200Z" creationid="Toru Kokubun" creationdate="20180716T220200Z">
+        <seg>インストールと併せて Craft のステータスを更新する、プラグインのインストールページが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
