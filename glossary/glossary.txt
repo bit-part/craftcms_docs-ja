@@ -85,3 +85,6 @@ indefinitely	無期限に
 i.e.	例：
 production	本番、production	コンフィグに関する場合のみ .env に合わせて「production 環境」、それ以外は「本番環境」とする
 term	期間、期限、用語、言葉
+driver	ドライバ
+explicitly	明示的に
+noticeably	著しく
