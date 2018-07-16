@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Only supported when ImageMagick is used.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T021729Z" creationid="Toru Kokubun" creationdate="20180716T021729Z">
+        <seg>（ImageMagick を使用している場合のみ、サポートされます。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Plugin handles must begin with a letter and contain only lowercase letters, numbers, and dashes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T213526Z" creationid="Toru Kokubun" creationdate="20180624T213526Z">
@@ -666,6 +674,16 @@ The tag calls &lt;x1/&gt;yii\web\View::registerJs()&lt;x2/&gt; under the hood, w
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T111921Z" creationid="Toru Kokubun" creationdate="20180623T111921Z">
         <seg>::: tip
 タグを &lt;x1/&gt;yii\web\View::registerJs()&lt;x2/&gt; の中で呼び出し、グローバルな &lt;x3/&gt;view&lt;x4/&gt; 変数経由でアクセスすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+This only affects the JavaScript auto-generated slugs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012227Z" creationid="Toru Kokubun" creationdate="20180716T012227Z">
+        <seg>::: tip
+これは JavaScript によって自動生成されるスラグのみ影響します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1446,6 +1464,15 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012839Z" creationid="Toru Kokubun" creationdate="20180422T084852Z">
         <seg>ショートカット構文は、エントリのプロパティを参照する出力タグでも利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A token is used on things like setting and
+resetting user account passwords.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T001949Z" creationid="Toru Kokubun" creationdate="20180716T001949Z">
+        <seg>トークンは、ユーザーアカウントのパスワードの設定やリセットで利用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2526,6 +2553,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T031345Z">
         <seg>しかし、（画像 URL のような）&lt;x7/&gt;実際に&lt;x8/&gt;存在するファイルをブラウザが直接指し示す場合、ウェブサーバーは、Craft の介入なしで、直接そのファイルを配信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default Craft will auto-detect if ImageMagick is installed and fallback to GD if not.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T235837Z" creationid="Toru Kokubun" creationdate="20180715T235714Z">
+        <seg>デフォルトでは、Craft はインストールされている ImageMagick を自動検出し、そうでない場合は GD をフォールバックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4687,6 +4722,14 @@ user registrations.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180713T234020Z" creationid="Toru Kokubun" creationdate="20180713T234020Z">
         <seg>デフォルト値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defaults to an empty string, which means it will use as much memory as it possibly can.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023018Z" creationid="Toru Kokubun" creationdate="20180716T022953Z">
+        <seg>デフォルトは空の文字列で、可能な限り多くのメモリを使用することを意味しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7263,6 +7306,14 @@ will be stored in session under the 'csrfTokenName' config setting name.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If not set, the default &lt;x1/&gt;craft\web\Request::$ipHeaders&lt;x2/&gt; value will be used.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T011606Z" creationid="Toru Kokubun" creationdate="20180716T011552Z">
+        <seg>設定されていない場合、デフォルトで &lt;x1/&gt;craft\web\Request::$ipHeaders&lt;x2/&gt; 値が使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If not set, the directory that contains your primary Plugin class will be used.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T000055Z" creationid="Toru Kokubun" creationdate="20180625T000055Z">
@@ -7347,6 +7398,15 @@ will be stored in session under the 'csrfTokenName' config setting name.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T034048Z" creationid="Toru Kokubun" creationdate="20180715T034048Z">
         <seg>&lt;x1/&gt;null&lt;x2/&gt; をセットした場合、パーミッションは現在の環境によって決定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set to &lt;x1/&gt;true&lt;x2/&gt; or &lt;x3/&gt;false&lt;x4/&gt;, it will take precedence over the
+System Status setting in Settings → General.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T011817Z" creationid="Toru Kokubun" creationdate="20180716T011817Z">
+        <seg>&lt;x1/&gt;true&lt;x2/&gt; または &lt;x3/&gt;false&lt;x4/&gt; をセットしている場合、「設定 &gt; 一般」のシステムのステータス設定よりも優先されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9546,6 +9606,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List of headers where proxies store the real client IP.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T011503Z" creationid="Toru Kokubun" creationdate="20180716T011452Z">
+        <seg>プロキシが実際のクライアント IP を格納するヘッダーのリスト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Loading your plugin into a Craft project</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085946Z" creationid="Toru Kokubun" creationdate="20180624T085923Z">
@@ -10154,6 +10222,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Non-ASCII characters can still be used in slugs if entered manually.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012335Z" creationid="Toru Kokubun" creationdate="20180716T012335Z">
+        <seg>手動で入力した場合、ASCII 以外の文字をスラグに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Normal Twig tags are supported as well, in case you want to include &lt;x1/&gt;{% if %}&lt;x2/&gt; conditionals in your path, or access other objects besides the source element, such as &lt;x3/&gt;{{ now|date('Y-m-d') }}&lt;x4/&gt;  or &lt;x5/&gt;{{ currentUser.username }}&lt;x6/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T002102Z" creationid="Toru Kokubun" creationdate="20180714T002102Z">
@@ -10286,6 +10362,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T020933Z" creationid="Toru Kokubun" creationdate="20180625T020933Z">
         <seg>このアイコンにはストロークを含めることができず、常に（アルファ透明度に関して）ソリッドカラーで表示されることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that this only affects front-end site requests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T002019Z" creationid="Toru Kokubun" creationdate="20180716T002019Z">
+        <seg>フロントエンドサイトのリクエストのみに影響することに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12417,6 +12501,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;craft\helpers\ConfigHelper::sizeInBytes()&lt;x2/&gt; for a list of supported value types.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T015426Z" creationid="Toru Kokubun" creationdate="20180716T015426Z">
+        <seg>サポートされる値の種類は、&lt;x1/&gt;craft\helpers\ConfigHelper::sizeInBytes()&lt;x2/&gt; のリストを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;x1/&gt;here for a list&lt;x2/&gt; of the possible &lt;x3/&gt;numberOptions&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095238Z" creationid="Toru Kokubun" creationdate="20180623T095222Z">
@@ -12429,6 +12521,14 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T095420Z" creationid="Toru Kokubun" creationdate="20180623T095420Z">
         <seg>利用可能な &lt;x3/&gt;textOptions&lt;x4/&gt; は、&lt;x1/&gt;こちらのリスト&lt;x2/&gt; を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;yii\web\Request::$ipHeaders&lt;x2/&gt; for more details.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T011522Z" creationid="Toru Kokubun" creationdate="20180716T011522Z">
+        <seg>詳細については、&lt;x1/&gt;yii\web\Request::$ipHeaders&lt;x2/&gt; を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12461,6 +12561,14 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T021931Z" creationid="Toru Kokubun" creationdate="20180424T021931Z">
         <seg>関連項目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See http://php.net/manual/en/faq.using.php&lt;x1/&gt;faq.using.shorthandbytes for a list of acceptable values.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023612Z" creationid="Toru Kokubun" creationdate="20180716T023126Z">
+        <seg>受け入れられる値については、 http://php.net/manual/en/faq.using.php&lt;x1/&gt;faq.using.shorthandbytes のリストを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12653,6 +12761,15 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002849Z" creationid="Toru Kokubun" creationdate="20180429T002808Z">
         <seg>最初のプロパティのキーは、取得したいものにあわせてセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set to &lt;x1/&gt;0&lt;x2/&gt; to
+never cache them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T013043Z" creationid="Toru Kokubun" creationdate="20180716T013043Z">
+        <seg>キャッシュを無効化するには、&lt;x1/&gt;0&lt;x2/&gt; をセットしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14377,6 +14494,30 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The URI Craft should redirect to when user token validation fails.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T001756Z" creationid="Toru Kokubun" creationdate="20180716T001756Z">
+        <seg>ユーザートークンの検証が失敗した際に、Craft がリダイレクトする URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URI Craft should use for user login on the front-end.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012450Z" creationid="Toru Kokubun" creationdate="20180716T012450Z">
+        <seg>Craft がフロントエンドのユーザーログインに使用する URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The URI Craft should use for user logout on the front-end.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012706Z" creationid="Toru Kokubun" creationdate="20180716T012706Z">
+        <seg>Craft がフロントエンドのユーザーログアウトに使用する URI。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The URI segment Craft should look for when determining if the current request should first be routed to a
 controller action.</seg>
       </tuv>
@@ -14509,8 +14650,8 @@ the front-end website.</seg>
       <tuv lang="EN-US">
         <seg>The acceptable translation categories are:</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T011801Z" creationid="Toru Kokubun" creationdate="20180420T013005Z">
-        <seg>許可されている翻訳カテゴリは、次の通りです。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023546Z" creationid="Toru Kokubun" creationdate="20180420T013005Z">
+        <seg>受け入れられる翻訳カテゴリは、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14560,6 +14701,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T044611Z" creationid="Toru Kokubun" creationdate="20180506T231532Z">
         <seg>キャッシュが有効期限になるまでの時間。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The amount of time to track invalid login attempts for a user, for determining if Craft should lock an account.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T001649Z" creationid="Toru Kokubun" creationdate="20180716T001538Z">
+        <seg>Craft がアカウントをロックするかを決定するために、ユーザーの無効なログイン試行を追跡する時間。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15340,6 +15489,22 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The highest number Craft will tack onto a slug in order to make it unique before giving up and throwing an error.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T015253Z" creationid="Toru Kokubun" creationdate="20180716T014949Z">
+        <seg>諦めてエラーにする前に、Craft がそれをユニークにするためにスラグへ追加する最高の数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The image driver Craft should use to cleanse and transform images.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012612Z" creationid="Toru Kokubun" creationdate="20180715T235607Z">
+        <seg>Craft が画像の削除や変形で使用するイメージドライバ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The last name that the resulting users must have</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T065416Z" creationid="Toru Kokubun" creationdate="20180503T065416Z">
@@ -15356,6 +15521,23 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The maximum amount of memory Craft will try to reserve during memory intensive operations such as zipping,
+unzipping and updating.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T022842Z" creationid="Toru Kokubun" creationdate="20180716T022842Z">
+        <seg>Craft が圧縮、展開、アップデートなどのメモリ集約型の操作中に確保しようと試みるメモリの最大量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The maximum dimension size to use when caching images from external sources to use in transforms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012947Z" creationid="Toru Kokubun" creationdate="20180716T012947Z">
+        <seg>変換で使用する外部ソースから画像をキャッシュする際に使用する最大の寸法サイズ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The maximum number of levels that results may be separated from &lt;x1/&gt;ancestorOf&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T214814Z" creationid="Toru Kokubun" creationdate="20180502T214420Z">
@@ -15368,6 +15550,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T221041Z" creationid="Toru Kokubun" creationdate="20180502T221041Z">
         <seg>&lt;x1/&gt;descendantOf&lt;x2/&gt; によって分割される結果の最大レベル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The maximum upload file size allowed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T015401Z" creationid="Toru Kokubun" creationdate="20180716T015401Z">
+        <seg>許可される最大のアップロードファイルサイズ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15420,6 +15610,14 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the PHP session cookie.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023734Z" creationid="Toru Kokubun" creationdate="20180716T023706Z">
+        <seg>PHP セッション Cookie の名前。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the column by which the query results should be indexed by</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003133Z" creationid="Toru Kokubun" creationdate="20180503T003133Z">
@@ -15452,6 +15650,15 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The number of invalid login attempts Craft will allow within the specified duration before the account gets
+locked.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T013441Z" creationid="Toru Kokubun" creationdate="20180716T013304Z">
+        <seg>ロックされる前のアカウントが指定期間内で Craft に許可される、無効なログイン試行の回数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The only Craft-specific addition is support for template routes (&lt;x3/&gt;['template' =&gt; 'some/template']&lt;x4/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T221005Z" creationid="Toru Kokubun" creationdate="20180429T220635Z">
@@ -15480,6 +15687,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180502T075118Z" creationid="Toru Kokubun" creationdate="20180502T075021Z">
         <seg>パラメータは、次のように連結したメソッドコールとしてセットする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path that users should be redirected to after logging in from the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023857Z" creationid="Toru Kokubun" creationdate="20180716T023857Z">
+        <seg>コントロールパネルからログインした後にユーザーをリダイレクトするパス。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15601,6 +15816,14 @@ template.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T035114Z" creationid="Toru Kokubun" creationdate="20180715T035114Z">
         <seg>JPG と PNG ファイルを保存する際に、Craft が使用する品質レベル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The query string param that Craft will check when determining the request's path.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T022338Z" creationid="Toru Kokubun" creationdate="20180716T022338Z">
+        <seg>リクエストのパスを決定する際に、Craft がチェックするクエリ文字列のパラメータ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15765,6 +15988,15 @@ template.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The string preceding a number which Craft will look for when determining if the current request is for a
+particular page in a paginated list of pages.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T022227Z" creationid="Toru Kokubun" creationdate="20180716T022227Z">
+        <seg>現在のリクエストがページ分割されたリストに含まれる特定ページのものかどうかを決定する際に、Craft が探す数値の前にある文字列。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The string to use to separate words when uploading Assets.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223545Z" creationid="Toru Kokubun" creationdate="20180715T223545Z">
@@ -15841,6 +16073,15 @@ template.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T043551Z" creationid="Toru Kokubun" creationdate="20180715T043551Z">
         <seg>フロントエンドでテンプレートパスとファイルの照合をする際に、Craft が探すテンプレートファイルの拡張子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The template filenames Craft will look for within a directory to represent the directory’s “index” template when
+matching a template path to a file on the front end.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T001408Z" creationid="Toru Kokubun" creationdate="20180716T001231Z">
+        <seg>フロントエンドでテンプレートパスとファイルの照合をする際に、Craft がディレクトリ内で探すディレクトリの「インデックス」テンプレートに相当するテンプレートファイル名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16470,6 +16711,15 @@ higher cost slows down a brute-force attack.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can only be possible if your server is configured to redirect would-be 404's to &lt;x1/&gt;index.php&lt;x2/&gt;, for example, with
+the redirect found in the &lt;x3/&gt;.htaccess&lt;x4/&gt; file that came with Craft:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T021150Z" creationid="Toru Kokubun" creationdate="20180716T021003Z">
+        <seg>これは、例えば Craft に付属している &lt;x3/&gt;.htaccess&lt;x4/&gt; にリダイレクトが見つかるなど、404 を &lt;x1/&gt;index.php&lt;x2/&gt; にリダイレクトするようサーバーが設定されている場合のみ可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This code applies equally to founders, mentors and those seeking help and guidance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T032204Z" creationid="Toru Kokubun" creationdate="20180414T032204Z">
@@ -16722,6 +16972,15 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T003212Z" creationid="Toru Kokubun" creationdate="20180419T003155Z">
         <seg>このセクションには、Craft CMS のアップデートとプラグインのアップデートの両方を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This setting will also come into effect if the user visits the CP’s Login page (&lt;x1/&gt;/admin/login&lt;x2/&gt;)
+or the CP’s root URL (/admin) when they are already logged in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T024234Z" creationid="Toru Kokubun" creationdate="20180716T024136Z">
+        <seg>既にログインしているユーザーが CP のログインページ（&lt;x1/&gt;/admin/login&lt;x2/&gt;）または、CP のルート URL（/admin）にアクセスした場合も、この設定が効力を発揮します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18719,10 +18978,18 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether Craft should optimize images for reduced file sizes without noticeably reducing image quality.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T021803Z" creationid="Toru Kokubun" creationdate="20180716T021659Z">
+        <seg>Craft が画質を著しく低下させることなく、画像のファイルサイズを減らす最適化をするかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether auto-generated URLs should have trailing slashes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T011107Z" creationid="Toru Kokubun" creationdate="20180714T025039Z">
-        <seg>自動的に生成された URL にスラッシュをつけるかどうか。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012036Z" creationid="Toru Kokubun" creationdate="20180714T025039Z">
+        <seg>自動生成された URL にスラッシュをつけるかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18743,10 +19010,26 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Whether generated URLs should omit &lt;x1/&gt;index.php&lt;x2/&gt; (e.g. &lt;x3/&gt;http://domain.com/path&lt;x4/&gt; instead of &lt;x5/&gt;http://domain.com/index.php/path&lt;x6/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T020530Z" creationid="Toru Kokubun" creationdate="20180716T020500Z">
+        <seg>生成された URL が &lt;x1/&gt;index.php&lt;x2/&gt; を省略するかどうか（例：&lt;x5/&gt;http://domain.com/index.php/path&lt;x6/&gt; の代わりに &lt;x3/&gt;http://domain.com/path&lt;x4/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Whether images transforms should be generated before page load.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T224107Z" creationid="Toru Kokubun" creationdate="20180715T223749Z">
         <seg>ページの読み込み前に画像の変形によるサムネイルの生成をするかどうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether non-ASCII characters in auto-generated slugs should be converted to ASCII (i.e. ñ → n).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012044Z" creationid="Toru Kokubun" creationdate="20180716T011954Z">
+        <seg>自動生成されたスラグの ASCII 以外の文字を ASCII に変換するかどうか（例： ñ → n）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18779,6 +19062,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T003040Z" creationid="Toru Kokubun" creationdate="20180503T003040Z">
         <seg>クエリが &lt;x1/&gt;folderId&lt;x2/&gt; のサブフォルダを検索するかどうか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Whether the site is currently online or not.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T011653Z" creationid="Toru Kokubun" creationdate="20180716T011653Z">
+        <seg>サイトが現在オンラインかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18857,8 +19148,8 @@ automatically if left blank.</seg>
       <tuv lang="EN-US">
         <seg>Whether to use a cookie to persist the CSRF token if &lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; is enabled.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T221718Z" creationid="Toru Kokubun" creationdate="20180715T221718Z">
-        <seg>&lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; が有効な場合、CSRF トークンを保持するために Cookie を利用するかどうか。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T012602Z" creationid="Toru Kokubun" creationdate="20180715T221718Z">
+        <seg>&lt;x1/&gt;$enableCsrfProtection&lt;x2/&gt; が有効な場合、CSRF トークンを保持するために Cookie を使用するかどうか。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19515,6 +19806,15 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T214505Z" creationid="Toru Kokubun" creationdate="20180426T214429Z">
         <seg>&lt;x1/&gt;ターミナル&lt;x2/&gt; または &lt;x3/&gt;ウェブブラウザ&lt;x4/&gt; から実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can explicitly set
+either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to override that behavior.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T000549Z" creationid="Toru Kokubun" creationdate="20180716T000549Z">
+        <seg>明示的に &lt;x1/&gt;'imagick'&lt;x2/&gt; または &lt;x3/&gt;'gd'&lt;x4/&gt; をセットして、その振る舞いを上書きすることができます。</seg>
       </tuv>
     </tu>
     <tu>
