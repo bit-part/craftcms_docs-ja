@@ -15699,6 +15699,22 @@ locked.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The path that users should be redirected to after logging in from the front-end site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T024706Z" creationid="Toru Kokubun" creationdate="20180716T024706Z">
+        <seg>フロントエンドサイトからログインした後にユーザーをリダイレクトするパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path that users should be redirected to after logging out from the front-end site.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T025054Z" creationid="Toru Kokubun" creationdate="20180716T025054Z">
+        <seg>フロントエンドサイトからログアウトした後にユーザーをリダイレクトするパス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The path to &lt;x1/&gt;vendor/craftcms/cms/lib/&lt;x2/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T061443Z" creationid="Toru Kokubun" creationdate="20180504T061443Z">
@@ -16981,6 +16997,15 @@ or the CP’s root URL (/admin) when they are already logged in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T024234Z" creationid="Toru Kokubun" creationdate="20180716T024136Z">
         <seg>既にログインしているユーザーが CP のログインページ（&lt;x1/&gt;/admin/login&lt;x2/&gt;）または、CP のルート URL（/admin）にアクセスした場合も、この設定が効力を発揮します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This setting will also come into effect if the user visits the Login page (as specified by the loginPath config
+setting) when they are already logged in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T024932Z" creationid="Toru Kokubun" creationdate="20180716T024932Z">
+        <seg>既にログインしているユーザーがログインページ（コンフィグ設定の loginPath に明示されているとおり）にアクセスした場合も、効力を発揮します。</seg>
       </tuv>
     </tu>
     <tu>
