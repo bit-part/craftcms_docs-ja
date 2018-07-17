@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Generally, free plugins will use the MIT License, and commercial plugins will use the Craft license.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T235222Z" creationid="Toru Kokubun" creationdate="20180716T235147Z">
+        <seg>（一般的に、無料プラグインは MIT ライセンス、商用プラグインは Craft ライセンスを使用します。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(It is assumed to be the parent of the &lt;x8/&gt;vendor/&lt;x9/&gt; directory by default.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T004053Z" creationid="Toru Kokubun" creationdate="20180504T003727Z">
@@ -1619,6 +1627,14 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T031601Z" creationid="Toru Kokubun" creationdate="20180427T031404Z">
         <seg>さらに、すべての Craft テンプレートは、いくつかの&lt;x1/&gt;グローバル変数&lt;x2/&gt;があらかじめロードされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additionally, all plugins in the Plugin Store must use either the &lt;x1/&gt;MIT License&lt;x2/&gt; or the &lt;x3/&gt;Craft License&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T235232Z" creationid="Toru Kokubun" creationdate="20180716T235107Z">
+        <seg>さらに、プラグインストア内のすべてのプラグインは &lt;x1/&gt;MIT ライセンス&lt;x2/&gt; または &lt;x3/&gt;Craft ライセンス&lt;x4/&gt; のいずれかを使用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7818,6 +7834,14 @@ through your "forgot password" workflow.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T221526Z" creationid="Toru Kokubun" creationdate="20180716T221526Z">
         <seg>まだ Craft ID アカウントをお持ちでない場合は、&lt;x1/&gt;id.craftcms.com/register&lt;x2/&gt; にアクセスしてアカウントを作成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you feel that a plugin vendor isn’t providing a reasonable level of support for a commercial plugin license, please send and email to &lt;x1/&gt; about it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180717T000209Z" creationid="Toru Kokubun" creationdate="20180717T000116Z">
+        <seg>プラグインベンダーが商用プラグインライセンスとして妥当なレベルのサポートを提供していないと感じる場合は、&lt;x1/&gt; にメールを送ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17741,6 +17765,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Together, these rules make plugin licensing safe and predictable for customers, while also helping provide a sustainable business model for plugin vendors.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T235703Z" creationid="Toru Kokubun" creationdate="20180716T235459Z">
+        <seg>これらのルールは、カスタマーに対しプラグインのライセンスを安全かつ予測可能にするとともに、プラグインベンダーにとって持続可能なビジネスモデルを提供することにも役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Toggling between sites in Globals&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T223814Z" creationid="Toru Kokubun" creationdate="20180428T223728Z">
@@ -18697,6 +18729,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T215949Z" creationid="Toru Kokubun" creationdate="20180415T000531Z">
         <seg>ウェブサイトの構築にあたり、どのように Craft を使うべきか理解するのを助ける目的で、わたしたちは Craft の機能性を正確に記録したこのドキュメントを作成しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We don’t impose any specific support requirements on plugin vendors.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T235717Z" creationid="Toru Kokubun" creationdate="20180716T235700Z">
+        <seg>わたしたちは、プラグインベンダーに特定のサポート要件を課すものではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20522,6 +20562,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T231439Z" creationid="Toru Kokubun" creationdate="20180506T231356Z">
         <seg>タグに新しいキーを割り当てるか、「設定」の「キャッシュをクリア」ツールを使用して既存のテンプレートキャッシュを手動でクリアする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You will need to check with them to learn about their support policies, so you know what to expect.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T235959Z" creationid="Toru Kokubun" creationdate="20180716T235959Z">
+        <seg>サポートポリシーについて知るためには、ベンダーに確認する必要があります。そして、何が期待できるかを知ってください。</seg>
       </tuv>
     </tu>
     <tu>
