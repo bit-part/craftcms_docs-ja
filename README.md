@@ -73,6 +73,19 @@ OmegaT 日本語化プロジェクトの Wiki を参考にしてください。
 翻訳にあたり意訳を含む場合があるため、本来の翻訳としては不適切な表現があるかもしれません。  
 誤りや気になる表現などは Issue でのフィードバックにご協力ください。
 
+# OmegaT で訳文ファイルを出力後、調整が必要なファイルについて
+
+リストの項目内に `TIPS` や `ソースコード` を含む場合、インデントがずれてしまう影響で、表示が崩れる可能性があります。  
+OmegaT の設定で調整できないようでしたら、訳文ファイルを生成後に手動で調整してください。
+
+なお、確認している修正が必要なファイルは以下の通りです。
+
+* target/ja/category-fields.md
+* target/ja/dev/tags/cache.html
+* target/ja/extend/coding-guidelines.html
+* target/ja/routing.html
+* target/ja/upgrade.md
+
 # 管理者
 
 Toru Kokubun <https://twitter.com/BUN>
