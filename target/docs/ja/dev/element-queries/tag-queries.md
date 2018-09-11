@@ -22,7 +22,7 @@ Once you’ve created a tag query, you can set [parameters](#parameters) on it t
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can display a list of the tags in a “Blog Tags” tag group by doing the following:
 

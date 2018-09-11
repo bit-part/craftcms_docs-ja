@@ -22,7 +22,7 @@ Once you’ve created a global set query, you can set [parameters](#parameters) 
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can load a global set from the primary site and display its content by doing the following:
 

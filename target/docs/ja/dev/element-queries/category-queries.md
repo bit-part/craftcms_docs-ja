@@ -22,7 +22,7 @@ Once you’ve created a category query, you can set [parameters](#parameters) on
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can display a navigation for all the categories in a category group called “Topics” by doing the following:
 

@@ -22,7 +22,7 @@ Once you’ve created an asset query, you can set [parameters](#parameters) on i
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can display a list of thumbnails for images in a “Photos” volume by doing the following:
 

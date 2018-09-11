@@ -22,7 +22,7 @@ Once you’ve created a Matrix block query, you can set [parameters](#parameters
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can display content from all the Matrix blocks of an element by doing the following:
 

@@ -22,7 +22,7 @@ Once you’ve created an entry query, you can set [parameters](#parameters) on i
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can display the 10 most recent entries in a “Blog” section by doing the following:
 

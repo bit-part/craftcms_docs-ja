@@ -22,7 +22,7 @@ Once you’ve created a user query, you can set [parameters](#parameters) on it 
 See [Introduction to Element Queries](README.md) to learn about how element queries work.
 :::
 
-## Example
+## 実例
 
 We can display a list of the users in an “Authors” user group by doing the following:
 
