@@ -4,9 +4,9 @@
 
 ```css
 {% css %}
- .content {
- color: {{ entry.textColor }};
- }
+    .content { 
+        color: {{ entry.textColor }};
+    }
 {% endcss %}
 ```
 

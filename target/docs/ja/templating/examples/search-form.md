@@ -4,8 +4,8 @@
 
 ```twig
 <form action="{{ url('search/results') }}">
- <input type="search" name="q" placeholder="Search">
- <input type="submit" value="Go">
+    <input type="search" name="q" placeholder="Search">
+    <input type="submit" value="Go">
 </form>
 ```
 
@@ -18,15 +18,15 @@
 {% set entries = craft.entries.search(query).orderBy('score').all() %}
 
 {% if entries|length %}
- <p>{{ entries|length }} results:</p>
+    <p>{{ entries|length }} results:</p>
 
- <ul>
- {% for entry in entries %}
- <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
- {% endfor %}
- </ul>
+    <ul>
+        {% for entry in entries %}
+            <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+    </ul>
 {% else %}
- <p>Your search for “{{ query }}” didn’t return any results.</p>
+    <p>Your search for “{{ query }}” didn’t return any results.</p>
 {% endif %}
 ```
 

@@ -7,16 +7,16 @@
 ```twig
 {% if matrixBlock.type == "text" %}
 
- {{ matrixBlock.textField|markdown }}
+    {{ matrixBlock.textField|markdown }}
 
 {% elseif matrixBlock.type == "image" %}
 
- {{ matrixBlock.image[0].getImg() }}
+    {{ matrixBlock.image[0].getImg() }}
 
 {% else %}
 
- <p>A font walks into a bar.</p>
- <p>The bartender says, “Hey, we don’t serve your type in here!”</p>
+    <p>A font walks into a bar.</p>
+    <p>The bartender says, “Hey, we don’t serve your type in here!”</p>
 
 {% endif %}
 ```
@@ -26,18 +26,18 @@
 ```twig
 {% switch matrixBlock.type %}
 
- {% case "text" %}
+    {% case "text" %}
 
- {{ matrixBlock.textField|markdown }}
+        {{ matrixBlock.textField|markdown }}
 
- {% case "image" %}
+    {% case "image" %}
 
- {{ matrixBlock.image[0].getImg() }}
+        {{ matrixBlock.image[0].getImg() }}
 
- {% default %}
+    {% default %}
 
- <p>A font walks into a bar.</p>
- <p>The bartender says, “Hey, we don’t serve your type in here!”</p>
+        <p>A font walks into a bar.</p>
+        <p>The bartender says, “Hey, we don’t serve your type in here!”</p>
 
 {% endswitch %}
 ```
@@ -46,15 +46,15 @@
 
 ```twig
 {% for matrixBlock in entry.matrixField.all() %}
- {% set loopIndex = loop.index %}
+    {% set loopIndex = loop.index %}
 
- {% switch matrixBlock.type %}
+    {% switch matrixBlock.type %}
 
- {% case "text" %}
+        {% case "text" %}
 
- Loop #{{ loopIndex }}
+            Loop #{{ loopIndex }}
 
- {% endswitch %}
+    {% endswitch %}
 {% endfor %}
 ```
 

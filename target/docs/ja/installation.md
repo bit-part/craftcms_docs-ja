@@ -12,9 +12,11 @@ Craft は [Composer](#downloading-with-composer) でダウンロードするか�
 Composer 1.3.0 以降を稼働させるべきです。起動しているターミナル上で `composer -V` を実行することによって、インストールされている Composer のバージョンを確認できます。1.3.0 より前のバージョンであれば、Composer をアップデートするために `composer self-update` を実行します。
 :::
 
-新しい Craft プロジェクトを作成するため、次のコマンドを実行してください。（Composer が作成するプロジェクトのパスの代わりに`<PATH>` と記載しています。）
+新しい Craft プロジェクトを作成するため、次のコマンドを実行してください。（Composer が作成するプロジェクトのパスの代わりに`<Path>` と記載しています。）
 
-    composer create-project craftcms/craft <PATH>
+```bash
+composer create-project craftcms/craft <Path>
+```
 
 Composer がすべてをロードするのに、数分かかるでしょう。完了すると、成功メッセージが表示されます。
 
@@ -30,29 +32,35 @@ Composer がすべてをロードするのに、数分かかるでしょう。�
 新しい Craft プロジェクトを稼働したい場所でアーカイブを展開します。
 
 ::: tip
-macOS を使用している場合、そこにある不可視ファイル（`.env`、`.env.example`、`.gitignore`、および `web/.htaccess`）を失わないよう注意してください。Finder で Command + Shift + `.`（ピリオド）を押すことで、不可視ファイルの表示を切り替えることができます。
+macOS を使用している場合、そこにある不可視ファイル（`.env`、`.env.example`、`.gitignore`、および、`web/.htaccess`）を失わないよう注意してください。Finder で <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> を押すことで、不可視ファイルの表示を切り替えることができます。
 :::
 
 ### ディレクトリ構造
 
-Craft のファイルが適切な場所にあれば、プロジェクトディレクトリは次のようなファイル構造になっているはずです。
+Craft のファイルが適切な場所にあれば、プロジェクトディレクトリは次のようなディレクトリ構造になっているはずです。
 
 ```
-config/...
-storage/
-templates/
-vendor/...
-web/...
-.env
-.env.example
-composer.json
-craft
-craft.bat
-LICENSE.md
-README.md
+my-project.test/
+├── config/
+│   └── ...
+├── storage/
+│   └── ...
+├── templates/
+│   └── ...
+├── vendor/
+│   └── ...
+├── web/
+│   └── ...
+├── .env
+├── .env.example
+├── composer.json
+├── craft
+└── craft.bat
 ```
 
-これらのディレクトリやファイルに関する情報は[ディレクトリ構造](directory-structure.md)を見てください。
+::: tip
+これらすべてのフォルダやファイルが何のためにあり、どのようにカスタマイズするかを知りたければ、[Directory Structure](directory-structure.md) ページを参照してください。
+:::
 
 ## ステップ 2：ファイルパーミッションの設定
 
@@ -68,6 +76,7 @@ Craft が正しく動作するためには、PHP が次の場所への書き込�
 - `config/license.key`
 - `storage/*`
 - `vendor/*`
+- `web/cpresources/*`
 
 設定されるべき正確なパーミッションは、PHP を実行しているシステムユーザーと実際にフォルダやファイルを所有しているユーザーとの関係性に依存します。
 
@@ -103,7 +112,9 @@ Craft のダウンロードに Composer を利用した場合、おそらく安�
 
 ターミナル上でプロジェクトのルートディレクトリへ移動し、次のコマンドを実行します。
 
-    ./craft setup/security-key
+```bash
+./craft setup/security-key
+```
 
 ## ステップ 4：データベースの作成
 
@@ -127,7 +138,7 @@ Craft プロジェクトをホストするための新しいウェブサーバ�
 - **macOS/Linux/Unix**: `/etc/hosts`
 - **Windows**: `\Windows\System32\drivers\etc\hosts`
 
-プラウザで `http://<HOSTNAME>/index.php?p=admin`（新しいウェブサーバーのホスト名で `<HOSTNAME>` を置き換える）にアクセスすることで、すべて正しく設定できたかどうかをテストできます。Craft のセットアップウィザードが表示された場合、そのホスト名は Craft のインストールのために適切に処理されています。
+ブラウザで `http://<Hostname>/index.php?p=admin/install`（ウェブサーバーのホスト名で `<Hostname>` を置き換える）にアクセスすることで、すべて正しく設定できたかどうかをテストできます。Craft のセットアップウィザードが表示された場合、そのホスト名は Craft のインストールのために適切に処理されています。
 
 ## ステップ 6：セットアップウィザードの実行
 
@@ -137,13 +148,15 @@ Craft プロジェクトをホストするための新しいウェブサーバ�
 
 ターミナル上でプロジェクトのルートディレクトリに移動し、次のコマンドを実行してセットアップウィザードを開始します。
 
-    ./craft setup
+```bash
+./craft setup
+```
 
 このコマンドは、データベースへの接続方法を学んだ上で Craft のインストーラーを開始するために、いくつかの質問をします。それが終われば、ウェブブラウザから新しい Craft サイトにアクセスできるはずです。
 
 ### ウェブブラウザによるセットアップ
 
-ウェブブラウザで `http://<HOSTNAME>/index.php?p=admin`（新しいウェブサーバーのホスト名で `<HOSTNAME>` を置き換える）に移動します。ここまでのステップがうまくいっていれば、Craft のセットアップウィザードが迎えてくれるでしょう。
+ウェブブラウザで `http://<Hostname>/index.php?p=admin/install`（ウェブサーバーのホスト名で `<Hostname>` を置き換える）に移動します。ここまでのステップがうまくいっていれば、Craft のセットアップウィザードが迎えてくれるでしょう。
 
 ![Craft のインストール画面](./images/installation-step-0.png)
 
@@ -159,11 +172,11 @@ Craft がすでにデータベースに接続可能な状態であれば、こ�
 
 ![Craft インストール画面（データベース接続情報）](./images/installation-step-2.png)
 
-インストーラーの3つ目のステップは、管理者アカウントの作成です。_特別なアカウント_として、強力なパスワードを選んでください。
+インストーラーの3つ目のステップは、管理者アカウントの作成です。_特別なアカウント_ として、強力なパスワードを選んでください。
 
 ![Craft インストール画面（ユーザーアカウントの作成）](./images/installation-step-3.png)
 
-最後のステップは、システム名、ベース URL、および言語の設定です。
+最後のステップは、システム名、ベース URL、および、言語の設定です。
 
 ![Craft インストール画面（システム設定）](./images/installation-step-4.png)
 

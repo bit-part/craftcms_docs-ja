@@ -4,11 +4,11 @@
 
 ```javascript
 {% js %}
- _gaq.push([
- "_trackEvent",
- "Search",
- "{{ searchTerm|e('js') }}"
- ]);
+    _gaq.push([
+        "_trackEvent",
+        "Search",
+        "{{ searchTerm|e('js') }}"
+    ]);
 {% endjs %}
 ```
 

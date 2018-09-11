@@ -8,7 +8,7 @@
 
 ```twig
 {% if element is instance of 'craft\\elements\\Entry' %}
- <h1>{{ entry.title }}</h1>
+    <h1>{{ entry.title }}</h1>
 {% endif %}
 ```
 
@@ -18,7 +18,7 @@
 
 ```twig
 {% if field is missing %}
- <p>😱</p>
+    <p>😱</p>
 {% endif %}
 ```
 

@@ -4,9 +4,9 @@
 
 ```twig
 {% cache %}
- {% for block in entry.myMatrixField.all() %}
- <p>{{ block.text }}</p>
- {% endfor %}
+    {% for block in entry.myMatrixField.all() %}
+        <p>{{ block.text }}</p>
+    {% endfor %}
 {% endcache %}
 ```
 
@@ -129,25 +129,25 @@ URL ごとではなく、（現在のサイトロケールのための）グロ�
 
 * `{% cache %}` タグは HTML のみキャッシュします。そのため、キャッシュ対象となる実際の HTML を出力しない [{% css %}](css.md) や [{% js %}](js.md) のようなタグの内部で使うことは、意味をなしません。
 
-    ```twig
-    {# Bad: #}
-    
-    {% extends "_layout" %}
-    {% cache %}
+   ```twig
+   {# Bad: #}
+
+{% extends "_layout" %}
+{% cache %}
     {% block "content" %}
-    ...
+        ...
     {% endblock %}
-    {% endcache %}
-    
-    {# Good: #}
-    
-    {% extends "_layout" %}
-    {% block "content" %}
+{% endcache %}
+
+{# Good: #}
+
+{% extends "_layout" %}
+{% block "content" %}
     {% cache %}
-    ...
+        ...
     {% endcache %}
-    {% endblock %}
-    ```
+{% endblock %}
+   ```
 
 ヒント：`{% cache %}` タグは、その中にまだ生成されていない [画像の変形](../../image-transforms.md) URL が含まれるかどうかを検出します。それが含まれる場合、次のリクエストまでテンプレートのキャッシュを保留するため、一時的な画像 URL はキャッシュされません。
 

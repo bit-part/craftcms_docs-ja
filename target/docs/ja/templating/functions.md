@@ -16,10 +16,10 @@
 
 ```twig
 <body>
- {{ beginBody() }}
+    {{ beginBody() }}
 
- <h1>{{ page.name }}</h1>
- {{ page.body }}
+    <h1>{{ page.name }}</h1>
+    {{ page.body }}
 </body>
 ```
 
@@ -50,8 +50,8 @@
 
 ```twig
 <form method="post">
- {{ csrfInput() }}
- <!-- ... -->
+    {{ csrfInput() }}
+    <!-- ... -->
 </form>
 ```
 
@@ -61,10 +61,10 @@
 
 ```twig
 <body>
- <h1>{{ page.name }}</h1>
- {{ page.body }}
+    <h1>{{ page.name }}</h1>
+    {{ page.body }}
 
- {{ endBody() }}
+    {{ endBody() }}
 </body>
 ```
 
@@ -90,8 +90,8 @@
 
 ```twig
 <head>
- <title>{{ siteName }}</title>
- {{ head() }}
+    <title>{{ siteName }}</title>
+    {{ head() }}
 </head>
 ```
 
@@ -116,11 +116,11 @@
 {% set promos = shuffle(homepage.promos) %}
 
 {% for promo in promos %}
- <div class="promo {{ promo.slug }}">
- <h3>{{ promo.title }}</h3>
- <p>{{ promo.description }}</p>
- <a class="cta" href="{{ promo.ctaUrl }}">{{ promo.ctaLabel }}</a>
- </div>
+    <div class="promo {{ promo.slug }}">
+        <h3>{{ promo.title }}</h3>
+        <p>{{ promo.description }}</p>
+        <a class="cta" href="{{ promo.ctaUrl }}">{{ promo.ctaLabel }}</a>
+    </div>
 {% endfor %}
 ```
 

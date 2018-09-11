@@ -6,10 +6,10 @@
 {% paginate craft.entries.section('blog').limit(10) as pageInfo, pageEntries %}
 
 {% for entry in pageEntries %}
- <article>
- <h1>{{ entry.title }}</h1>
- {{ entry.body }}
- </article>
+    <article>
+        <h1>{{ entry.title }}</h1>
+        {{ entry.body }}
+    </article>
 {% endfor %}
 
 {% if pageInfo.prevUrl %}<a href="{{ pageInfo.prevUrl }}">Previous Page</a>{% endif %}
@@ -56,10 +56,10 @@
 {% paginate craft.entries.section('blog').limit(10) as pageEntries %}
 
 {% for entry in pageEntries %}
- <article>
- <h1>{{ entry.title }}</h1>
- {{ entry.body }}
- </article>
+    <article>
+        <h1>{{ entry.title }}</h1>
+        {{ entry.body }}
+    </article>
 {% endfor %}
 ```
 
@@ -122,17 +122,17 @@
 
 <a href="{{ pageInfo.firstUrl }}">First Page</a>
 {% if pageInfo.prevUrl %}<a href="{{ pageInfo.prevUrl }}">Previous Page</a>{% endif %}
- 
+    
 {% for page, url in pageInfo.getPrevUrls(5) %}
- <a href="{{ url }}">{{ page }}</a>
+    <a href="{{ url }}">{{ page }}</a>
 {% endfor %}
 
 <span class="current">{{ pageInfo.currentPage }}</span>
 
 {% for page, url in pageInfo.getNextUrls(5) %}
- <a href="{{ url }}">{{ page }}</a>
+    <a href="{{ url }}">{{ page }}</a>
 {% endfor %}
- 
+    
 {% if pageInfo.nextUrl %}<a href="{{ pageInfo.nextUrl }}">Next Page</a>{% endif %}
 <a href="{{ pageInfo.lastUrl }}">Last Page</a>
 ```

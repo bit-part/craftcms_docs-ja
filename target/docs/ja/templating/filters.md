@@ -104,13 +104,13 @@ Twig の [date](https://twig.symfony.com/doc/2.x/filters/date.html) フィルタ
 {% set allEntriesByYear = allEntries|group('postDate|date("Y")') %}
 
 {% for year, entriesInYear in allEntriesByYear %}
- <h2>{{ year }}</h2>
+    <h2>{{ year }}</h2>
 
- <ul>
- {% for entry in entriesInYear %}
- <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
- {% endfor %}
- </ul>
+    <ul>
+        {% for entry in entriesInYear %}
+            <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endfor %}
+    </ul>
 {% endfor %}
 ```
 
@@ -129,7 +129,7 @@ $foo = craft()->request->getPost('foo');
 $foo = craft()->security->validateData($foo);
 
 if ($foo !== false) {
- // data is valid
+    // data is valid
 }
 ```
 
@@ -160,7 +160,7 @@ if ($foo !== false) {
 
 {% set position = "team"|indexOf('i') %}
 {% if position != -1 %}
- <p>There <em>is</em> an “i” in “team”!It’s at position {{ position + 1 }}.</p>
+    <p>There <em>is</em> an “i” in “team”! It’s at position {{ position + 1 }}.</p>
 {% endif %}
 ```
 
@@ -170,25 +170,25 @@ if ($foo !== false) {
 
 ```twig
 {% set ownedIngredients = [
- 'vodka',
- 'gin',
- 'triple sec',
- 'tonic',
- 'grapefruit juice'
+    'vodka',
+    'gin',
+    'triple sec',
+    'tonic',
+    'grapefruit juice'
 ] %}
 
 {% set longIslandIcedTeaIngredients = [
- 'vodka',
- 'tequila',
- 'rum',
- 'gin',
- 'triple sec',
- 'sweet and sour mix',
- 'Coke'
+    'vodka',
+    'tequila',
+    'rum',
+    'gin',
+    'triple sec',
+    'sweet and sour mix',
+    'Coke'
 ] %}
 
 {% set ownedLongIslandIcedTeaIngredients =
- ownedIngredients|intersect(longIslandIcedTeaIngredients)
+    ownedIngredients|intersect(longIslandIcedTeaIngredients)
 %}
 ```
 
@@ -225,8 +225,8 @@ Twig の [json_encode](https://twig.symfony.com/doc/2.x/filters/json_encode.html
 
 The only *real* computer keyboard ever made was famously
 the [Apple Extended Keyboard II] [1].
- 
- [1]: http://www.flickr.com/photos/gruber/sets/72157604797968156/
+    
+    [1]: http://www.flickr.com/photos/gruber/sets/72157604797968156/
 {% endset %}
 
 {{ content|markdown }}
@@ -253,9 +253,9 @@ the [Apple Extended Keyboard II] [1].
 
 ```twig
 {% set content %}
- {entry:blog/hello-world:link} was my first blog post. Pretty geeky, huh?
+    {entry:blog/hello-world:link} was my first blog post. Pretty geeky, huh?
 {% endset %}
- 
+    
 {{ content|parseRefs|raw }}
 ```
 
@@ -282,8 +282,8 @@ the [Apple Extended Keyboard II] [1].
 {% set str = "Hello, FIRST LAST" %}
 
 {{ str|replace({
- FIRST: currentUser.firstName,
- LAST:currentUser.lastName
+    FIRST: currentUser.firstName,
+    LAST:  currentUser.lastName
 }) }}
 ```
 

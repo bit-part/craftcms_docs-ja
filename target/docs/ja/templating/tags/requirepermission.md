@@ -32,11 +32,11 @@ Craft の権限は次の通りです。
 | ↳  ライブの変更を発表する | `publishEntries:[SectionID]` |
 | ↳  エントリを削除する | `deleteEntries:[SectionID]` |
 | ↳  他の投稿者のエントリを編集する | `editPeerEntries:[SectionID]` |
-|       ↳  他の作成者の入力のためライブを変更する。 | `publishPeerEntries:[SectionID]` |
-|       ↳  他の投稿者のエントリを削除する。 | `deletePeerEntries:[SectionID]` |
+|       ↳  Publish other authors’ entries | `publishPeerEntries:[SectionID]` |
+|       ↳  Delete other authors’ entries | `deletePeerEntries:[SectionID]` |
 | ↳  他の投稿者の下書きを編集する | `editPeerEntryDrafts:[SectionID]` |
-|       ↳  他の投稿者の下書きを投稿する | `publishPeerEntryDrafts:[SectionID]` |
-|       ↳  他の投稿者の下書きを削除する | `deletePeerEntryDrafts:[SectionID]` |
+|       ↳  Publish other authors’ drafts | `publishPeerEntryDrafts:[SectionID]` |
+|       ↳  Delete other authors’ drafts | `deletePeerEntryDrafts:[SectionID]` |
 | _「グローバル設定名」_ を編集する | `editGlobalSet:[GlobalSetID]` |
 | _「カテゴリグループ名」_ を編集する | `editCategories:[CategoryGroupID]` |
 | _「アセットソース名」_ を表示する | `viewVolume:[VolumeID]` |

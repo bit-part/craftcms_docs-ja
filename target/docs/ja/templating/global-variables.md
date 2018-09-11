@@ -16,7 +16,7 @@
 
 ```twig
 {% if craft.app.config.general.devMode %}
- <p>This site is running in Dev Mode.</p>
+    <p>This site is running in Dev Mode.</p>
 {% endif %}
 ```
 
@@ -32,11 +32,11 @@
 
 ```twig
 <nav>
- <ul>
- {% for site in currentSite.group.sites %}
- <li><a href="{{ alias(site.baseUrl) }}">{{ site.name }}</a></li>
- {% endfor %}
- </ul>
+    <ul>
+        {% for site in currentSite.group.sites %}
+            <li><a href="{{ alias(site.baseUrl) }}">{{ site.name }}</a></li> 
+        {% endfor %}
+    </ul>
 </nav>
 ```
 
@@ -46,7 +46,7 @@
 
 ```twig
 {% if currentUser %}
- Welcome, {{ currentUser.friendlyName }}!
+    Welcome, {{ currentUser.friendlyName }}!
 {% endif %}
 ```
 
@@ -56,7 +56,7 @@
 
 ```twig
 {% if not currentUser %}
- <a href="{{ loginUrl }}">Login</a>
+    <a href="{{ loginUrl }}">Login</a>
 {% endif %}
 ```
 
@@ -66,7 +66,7 @@
 
 ```twig
 {% if currentUser %}
- <a href="{{ logoutUrl }}">Logout</a>
+    <a href="{{ logoutUrl }}">Logout</a>
 {% endif %}
 ```
 

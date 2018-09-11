@@ -4,7 +4,7 @@
 
 ```twig
 {% if not user or not user.isInGroup('members') %}
- {% redirect "pricing" %}
+    {% redirect "pricing" %}
 {% endif %}
 ```
 

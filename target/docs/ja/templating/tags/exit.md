@@ -6,7 +6,7 @@
 {% set entry = craft.entries.id(entryId).one() %}
 
 {% if not entry %}
- {% exit 404 %}
+    {% exit 404 %}
 {% endif %}
 ```
 

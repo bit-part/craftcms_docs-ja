@@ -6,16 +6,16 @@
 {% set entries = craft.entries.section('pages').all() %}
 
 <ul id="nav">
- {% nav entry in entries %}
- <li>
- <a href="{{ entry.url }}">{{ entry.title }}</a>
- {% ifchildren %}
- <ul>
- {% children %}
- </ul>
- {% endifchildren %}
- </li>
- {% endnav %}
+    {% nav entry in entries %}
+        <li>
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+            {% ifchildren %}
+                <ul>
+                    {% children %}
+                </ul>
+            {% endifchildren %}
+        </li>
+    {% endnav %}
 </ul>
 ```
 
