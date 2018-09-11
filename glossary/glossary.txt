@@ -89,3 +89,13 @@ driver	ドライバ
 explicitly	明示的に
 noticeably	著しく
 unclaimed	請求されていない、持ち主がわからない	ライセンスの話題であれば「未使用の」とする
+Plugin Store	プラグインストア
+queue	キュー
+backwards compatibility	後方互換性
+source element	ソースエレメント
+entry form	投稿フォーム	データ入力に関する文脈の場合は「投稿フォーム」とする。
+hierarchical	階層的な
+Out of the box	枠を超える、常識にとらわれない
+Out of the box	箱から取り出してすぐに（そのままで）	直訳の意味から、意訳として「デフォルトで」という表現を採用
+named parameter	名前付けされたパラメータ
+structure	構造
