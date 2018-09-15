@@ -99,3 +99,8 @@ Out of the box	枠を超える、常識にとらわれない
 Out of the box	箱から取り出してすぐに（そのままで）	直訳の意味から、意訳として「デフォルトで」という表現を採用
 named parameter	名前付けされたパラメータ
 structure	構造
+under the hood	「何かを念入りに調べるとき」の比喩表現として、文脈に応じた訳をする	参考：https://www.eigowithluke.com/2010/09/under-the-hood/
+order	順序
+broaden	（幅が）広がる、（範囲や程度が）拡大する
+image transform indexes	イメージ変換インデックス
+relevant	関係がある
