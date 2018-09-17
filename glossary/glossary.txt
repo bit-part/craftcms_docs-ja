@@ -104,3 +104,11 @@ order	順序
 broaden	（幅が）広がる、（範囲や程度が）拡大する
 image transform indexes	イメージ変換インデックス
 relevant	関係がある
+operators	演算子
+fully qualified name	完全修飾名
+specification	仕様
+no point	意味がないこと
+Further Reading	参考文献
+logged-in user	ログインしているユーザー
+call	呼びます	「We call these A.」のような文脈の場合は「名付ける」という意味合いを考慮。
+behind the scenes	陰の、舞台裏の

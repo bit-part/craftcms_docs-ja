@@ -174,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Module IDs must begin with a letter and contain only lowercase letters, numbers, and dashes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T220023Z" creationid="Toru Kokubun" creationdate="20180916T220023Z">
+        <seg>（モジュール ID は、文字ではじまり、小文字の英字、数字、および、ダッシュのみでなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Note that the returned position is 0-indexed.) If no position can be found, &lt;x1/&gt;-1&lt;x2/&gt; is returned instead.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180505T235412Z" creationid="Toru Kokubun" creationdate="20180505T235323Z">
@@ -250,6 +258,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T215845Z" creationid="Toru Kokubun" creationdate="20180624T213013Z">
         <seg>（詳細については、&lt;x2/&gt;&lt;x3/&gt;&lt;x4/&gt; オートローディング仕様を参照してください。）これは &lt;x7/&gt;craft\&lt;x8/&gt; ではじめるべき &lt;x5/&gt;ではない&lt;x6/&gt; ことに注意してください。あなたやデベロッパーを識別する何かを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(See the &lt;x2/&gt;PSR-4&lt;x3/&gt; autoloading specification for details.) Note that this should &lt;x4/&gt;not&lt;x5/&gt; begin with &lt;x6/&gt;craft\&lt;x7/&gt;; use something that identifies you (the developer), or the project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T215750Z" creationid="Toru Kokubun" creationdate="20180916T215750Z">
+        <seg>（詳細については、&lt;x2/&gt;PSR-4&lt;x3/&gt; オートローディング仕様を参照してください。）これは &lt;x6/&gt;craft\&lt;x7/&gt; ではじめるべき &lt;x4/&gt;ではない&lt;x5/&gt; ことに注意してください。デベロッパーやプロジェクトを識別する何かを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -360,6 +376,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(Use double-backslashes because this is JSON, and note this must end with &lt;x2/&gt;\\&lt;x3/&gt;.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230556Z" creationid="Toru Kokubun" creationdate="20180916T230556Z">
+        <seg>（これは JSON であるため、二重バックスラッシュを使用し、最後が &lt;x2/&gt;\\&lt;x3/&gt; でなければならない点に注意してください。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Use the same package name you gave your plugin in its &lt;x1/&gt;composer.json&lt;x2/&gt; file.)</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T013904Z" creationid="Toru Kokubun" creationdate="20180625T013828Z">
@@ -412,6 +436,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T093748Z" creationid="Toru Kokubun" creationdate="20180915T093748Z">
         <seg>（デフォルト）&lt;x1/&gt; | 有効なアカウント。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(e.g. &lt;x5/&gt;craft.foo.*&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085148Z" creationid="Toru Kokubun" creationdate="20180917T085148Z">
+        <seg>（例：&lt;x5/&gt;craft.foo.*&lt;x6/&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -500,6 +532,14 @@
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T063221Z" creationid="Toru Kokubun" creationdate="20180420T063221Z">
         <seg>（文字列として扱われる）&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>(unless the `%` is only needed on one side of `value`)&lt;x1/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T081453Z" creationid="Toru Kokubun" creationdate="20180916T081453Z">
+        <seg>（`%` は `value` が片側にのみ必要な場合を除きます。）&lt;x1/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -621,6 +661,16 @@ Accessing things via &lt;x1/&gt;craft.app&lt;x2/&gt; is considered highly advanc
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+&lt;x1/&gt;@ns/prefix&lt;x2/&gt; is a placeholder for your plugin’s auto-generated &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;, which will be based on your plugin’s root namespace.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055503Z" creationid="Toru Kokubun" creationdate="20180917T055437Z">
+        <seg>::: tip
+&lt;x1/&gt;@ns/prefix&lt;x2/&gt; はプラグインのルート名前空間に基づいて、自動生成されたプラグインの &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt; のためのプレースホルダーになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 All global sets are already available as global variables to Twig templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T015254Z" creationid="Toru Kokubun" creationdate="20180915T015137Z">
@@ -676,6 +726,16 @@ Craft doesn’t require you to create additional &lt;x1/&gt;web/&lt;x2/&gt; dire
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T080508Z" creationid="Toru Kokubun" creationdate="20180623T080508Z">
         <seg>::: tip
 必要とするならうまくできますが、Craft では新しいサイトのために追加の &lt;x1/&gt;web/&lt;x2/&gt; ディレクトリを作成する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+Do this even if there are required arguments following the argument that accepts &lt;x1/&gt;null&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010120Z" creationid="Toru Kokubun" creationdate="20180916T010120Z">
+        <seg>::: tip
+&lt;x1/&gt;null&lt;x2/&gt; を受け入れる引数の次に必須の引数がある場合も、これを実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -801,6 +861,16 @@ Craft のインストールが Vagrant box から実行されている場合、�
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+If your module doesn’t need to get loaded on every request, you can remove its ID from the &lt;x1/&gt;bootstrap&lt;x2/&gt; array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222553Z" creationid="Toru Kokubun" creationdate="20180916T222542Z">
+        <seg>::: tip
+モジュールがすべてのリクエストでロードされる必要がない場合、&lt;x1/&gt;bootstrap&lt;x2/&gt; 配列から削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 If your queue driver supplies its own worker, set the &lt;x1/&gt; config setting to &lt;x2/&gt;false&lt;x3/&gt; in &lt;x4/&gt;config/general.php&lt;x5/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T092049Z" creationid="Toru Kokubun" creationdate="20180623T092049Z">
@@ -836,6 +906,16 @@ If you’re on macOS, be careful not to lose the hidden files in there (&lt;x1/&
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T022056Z" creationid="Toru Kokubun" creationdate="20180623T011150Z">
         <seg>::: tip
 macOS を使用している場合、そこにある不可視ファイル（&lt;x1/&gt;.env&lt;x2/&gt;、&lt;x3/&gt;.env.example&lt;x4/&gt;、&lt;x5/&gt;.gitignore&lt;x6/&gt;、および、&lt;x7/&gt;web/.htaccess&lt;x8/&gt;）を失わないよう注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+It’s only necessary to wrap the operation in a database transaction if the operation encompasses multiple database changes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082209Z" creationid="Toru Kokubun" creationdate="20180917T082209Z">
+        <seg>::: tip
+操作が複数データベースの変更を含む場合、データベーストランザクションで操作をラップする必要があるだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -941,6 +1021,16 @@ See &lt;x1/&gt;Static Message Translations&lt;x2/&gt; for a full explanation on 
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+See &lt;x1/&gt;Static Message Translations&lt;x2/&gt; for more details on how message translations work.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233440Z" creationid="Toru Kokubun" creationdate="20180916T233440Z">
+        <seg>::: tip
+メッセージ変換がどのように機能するかの詳細については、&lt;x1/&gt;静的メッセージの翻訳&lt;x2/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 See the &lt;x1/&gt;PHP Dotenv documentation&lt;x2/&gt; for more info on supported &lt;x3/&gt;.env&lt;x4/&gt; syntaxes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T080220Z" creationid="Toru Kokubun" creationdate="20180908T080118Z">
@@ -956,6 +1046,16 @@ Set the &lt;x1/&gt;url&lt;x2/&gt; value to the absolute or relative path to your
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T012121Z" creationid="Toru Kokubun" creationdate="20180625T012121Z">
         <seg>::: tip
 &lt;x1/&gt;url&lt;x2/&gt; 値にプラグインのソースディレクトリを絶対パスまたは相対パスで設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+The &lt;x1/&gt;Php Inspections (EA Extended)&lt;x2/&gt; PhpStorm plugin can help you locate and fix these sorts of best practice issues.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T233157Z" creationid="Toru Kokubun" creationdate="20180915T233157Z">
+        <seg>::: tip
+PhpStorm プラグインの &lt;x1/&gt;Php Inspections (EA Extended)&lt;x2/&gt; は、これらのベストプラクティスの問題を見つけて修正するのに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1096,6 +1196,16 @@ Unlike &lt;x1/&gt;entries&lt;x2/&gt;, Global Sets don’t have the Live Preview 
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071505Z" creationid="Toru Kokubun" creationdate="20180623T071505Z">
         <seg>::: tip
 &lt;x1/&gt;エントリ&lt;x2/&gt;とは異なり、特定の URL と関連付けられていないグローバル設定では、ライブプレビュー機能がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+Use &lt;x1/&gt;pluginfactory.io&lt;x2/&gt; to create your module’s scaffolding with just a few clicks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T221031Z" creationid="Toru Kokubun" creationdate="20180916T221031Z">
+        <seg>::: tip
+数クリックでモジュールの土台を作成できる &lt;x1/&gt;pluginfactory.io&lt;x2/&gt; を利用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1311,11 +1421,31 @@ If you change the template code within a &lt;x1/&gt;{% cache %}&lt;x2/&gt; that 
     <tu>
       <tuv lang="EN-US">
         <seg>::: warning
+If you’re updating a Craft 2 plugin, make sure to remove the &lt;x1/&gt;composer/installers&lt;x2/&gt; dependency if it has one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231046Z" creationid="Toru Kokubun" creationdate="20180916T231046Z">
+        <seg>::: warning
+Craft 2 プラグインをアップデートする場合、&lt;x1/&gt;composer/installers&lt;x2/&gt; 依存があれば確実に削除してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
 In order for the returned Matrix block(s) to be populated with their custom field content, you will need to either set the &lt;x1/&gt;fieldId&lt;x2/&gt; or &lt;x3/&gt;id&lt;x4/&gt; parameter.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T030054Z" creationid="Toru Kokubun" creationdate="20180915T025722Z">
         <seg>::: warning
 返される行列ブロックにカスタムフィールドのコンテンツが代入されるよう、&lt;x1/&gt;fieldId&lt;x2/&gt; または &lt;x3/&gt;id&lt;x4/&gt; パラメータを設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+One caveat of &lt;x1/&gt;path&lt;x2/&gt; Composer repositories is that Composer may ignore &lt;x3/&gt;path&lt;x4/&gt;-based dependencies when you run &lt;x5/&gt;composer update&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231419Z" creationid="Toru Kokubun" creationdate="20180916T231419Z">
+        <seg>::: warning
+&lt;x1/&gt;path&lt;x2/&gt; Composer リポジトリの難点の1つは、&lt;x5/&gt;composer update&lt;x6/&gt; を実行した際に Composer が &lt;x3/&gt;path&lt;x4/&gt; ベースの依存関係を無視することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1376,6 +1506,16 @@ This will only work if &lt;x1/&gt;folderId&lt;x2/&gt; was set to a single folder
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180913T005136Z" creationid="Toru Kokubun" creationdate="20180913T005136Z">
         <seg>::: warning
 これは &lt;x1/&gt;folderId&lt;x2/&gt; に単一のフォルダ ID がセットされているときだけ、動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+When choosing a module ID, try to avoid names that will conflict with Craft’s core &lt;x1/&gt;controllers&lt;x2/&gt; (e.g. &lt;x3/&gt;app&lt;x4/&gt; would conflict with &lt;x5/&gt;AppController.php&lt;x6/&gt;), as well as any installed plugin handles.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T221052Z" creationid="Toru Kokubun" creationdate="20180916T220648Z">
+        <seg>::: warning
+モジュール ID を選択する場合、Craft のコア&lt;x1/&gt;コントローラー&lt;x2/&gt;（例：&lt;x3/&gt;app&lt;x4/&gt; などの &lt;x5/&gt;AppController.php&lt;x6/&gt; と競合する）やインストールされているプラグインハンドルと競合する名前は避けてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1858,6 +1998,22 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>@param&lt;x1/&gt; , &lt;x2/&gt;@return&lt;x3/&gt; , &lt;x4/&gt;@var&lt;x5/&gt; , &lt;x6/&gt;@method&lt;x7/&gt; and &lt;x8/&gt;@property&lt;x9/&gt; tags on public service methods should reference Interfaces (when applicable), not their implementation class:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T082841Z" creationid="Toru Kokubun" creationdate="20180916T033431Z">
+        <seg>パブリックサービスメソッド上の @param&lt;x1/&gt;、&lt;x2/&gt;@return&lt;x3/&gt;、&lt;x4/&gt;@var&lt;x5/&gt;、&lt;x6/&gt;@method&lt;x7/&gt; および &lt;x8/&gt;@property&lt;x9/&gt; タグは、（該当する場合）実装クラスではなくインターフェースを参照します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>@param&lt;x1/&gt; and &lt;x2/&gt;@return&lt;x3/&gt; tags should &lt;x4/&gt;not&lt;x5/&gt; have proper capitalization or punctuation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T012141Z" creationid="Toru Kokubun" creationdate="20180916T012119Z">
+        <seg>@param&lt;x1/&gt; および &lt;x2/&gt;@return&lt;x3/&gt; タグには、大文字や句読点を使用&lt;x4/&gt;しないでください&lt;x5/&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;x1/&gt; object, which provides access points to various helper functions and objects for templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T101515Z" creationid="Toru Kokubun" creationdate="20180623T101515Z">
@@ -2071,6 +2227,14 @@ data in &lt;x1/&gt;craft\services\Security&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012839Z" creationid="Toru Kokubun" creationdate="20180422T084852Z">
         <seg>ショートカット構文は、エントリのプロパティを参照する出力タグでも利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A template root is a directory that contains templates, which are accessible to other templates from a predefined template path prefix.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082804Z" creationid="Toru Kokubun" creationdate="20180917T082804Z">
+        <seg>テンプレートルートは、定義済みのテンプレートパス接頭辞から他のテンプレートにアクセスできる、テンプレートを含むディレクトリです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2612,6 +2776,46 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Always pass &lt;x1/&gt;true&lt;x2/&gt;/&lt;x3/&gt;false&lt;x4/&gt; to the third argument of &lt;x5/&gt;in_array()&lt;x6/&gt; to indicate whether the check should be type-strict (and make it &lt;x7/&gt;true&lt;x8/&gt; whenever possible).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T221534Z" creationid="Toru Kokubun" creationdate="20180915T221515Z">
+        <seg>&lt;x5/&gt;in_array()&lt;x6/&gt; の第三引数へ常に &lt;x1/&gt;true&lt;x2/&gt; / &lt;x3/&gt;false&lt;x4/&gt; を渡して、型の比較をチェックするかを示します（そして、可能な限り &lt;x7/&gt;true&lt;x8/&gt; にします）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always specify the visibility of class properties and methods (&lt;x1/&gt;public&lt;x2/&gt;, &lt;x3/&gt;protected&lt;x4/&gt;, or &lt;x5/&gt;private&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T230237Z" creationid="Toru Kokubun" creationdate="20180915T230206Z">
+        <seg>クラスのプロパティやメソッドの可視性（&lt;x1/&gt;public&lt;x2/&gt;、&lt;x3/&gt;protected&lt;x4/&gt;、または、&lt;x5/&gt;private&lt;x6/&gt;）は、常に指定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always use &lt;x1/&gt;require&lt;x2/&gt; or &lt;x3/&gt;include&lt;x4/&gt; when including a file that returns something, rather than &lt;x5/&gt;require_once&lt;x6/&gt; or &lt;x7/&gt;include_once&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T231534Z" creationid="Toru Kokubun" creationdate="20180915T231018Z">
+        <seg>何かを返すファイルをインクルードする際は、&lt;x5/&gt;require_once&lt;x6/&gt; または &lt;x7/&gt;include_once&lt;x8/&gt; よりむしろ &lt;x1/&gt;require&lt;x2/&gt; または &lt;x3/&gt;include&lt;x4/&gt; を常に使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always use Yii’s &lt;x1/&gt;declarative condition syntax&lt;x2/&gt; when possible, as it will automatically quote table/column names and values for you.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T080225Z" creationid="Toru Kokubun" creationdate="20180916T080032Z">
+        <seg>テーブル / カラム名や値を自動的に引用するように、可能な限り Yii の&lt;x1/&gt;宣言条件構文&lt;x2/&gt;を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Always wrap table names with &lt;x1/&gt;{{%&lt;x2/&gt; and &lt;x3/&gt;}}&lt;x4/&gt; (e.g. &lt;x5/&gt;{{%entries}}&lt;x6/&gt;) so it gets properly quoted and the table prefix gets inserted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T073936Z" creationid="Toru Kokubun" creationdate="20180916T073914Z">
+        <seg>テーブル名は常に &lt;x1/&gt;{{%&lt;x2/&gt; と &lt;x3/&gt;}}&lt;x4/&gt;（例：&lt;x5/&gt;{{%entries}}&lt;x6/&gt;）で囲み、適切に引用されテーブル接頭辞が挿入されるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An array of &lt;x7/&gt;Asset&lt;x8/&gt; objects will be returned.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180913T063801Z" creationid="Toru Kokubun" creationdate="20180911T234224Z">
@@ -2688,6 +2892,14 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T001922Z" creationid="Toru Kokubun" creationdate="20180429T001922Z">
         <seg>エレメントの ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And you should use those instead of their magic properties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074632Z" creationid="Toru Kokubun" creationdate="20180916T074632Z">
+        <seg>そして、それらをマジックプロパティの代わりに使用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2780,6 +2992,22 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>App Component Getters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074832Z" creationid="Toru Kokubun" creationdate="20180916T040926Z">
+        <seg>App コンポーネントの Getter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>App components should have their own getter functions, which call the app component getter method &lt;x1/&gt;get()&lt;x2/&gt; directly:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T075616Z" creationid="Toru Kokubun" creationdate="20180916T074550Z">
+        <seg>App コンポーネントには、App コンポーネントの Getter メソッドである &lt;x1/&gt;get()&lt;x2/&gt; を直接呼び出す、独自の Getter ファンクションが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Application Config</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002824Z" creationid="Toru Kokubun" creationdate="20180504T002824Z">
@@ -2804,10 +3032,34 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Argument Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T005006Z" creationid="Toru Kokubun" creationdate="20180916T005006Z">
+        <seg>引数の型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Arguments</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T232300Z" creationid="Toru Kokubun" creationdate="20180504T232300Z">
         <seg>引数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Arguments that accept multiple non-&lt;x1/&gt;null&lt;x2/&gt; value types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T005351Z" creationid="Toru Kokubun" creationdate="20180916T005351Z">
+        <seg>複数の &lt;x1/&gt;null&lt;x2/&gt; 以外の値型を受け入れる引数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As Yii’s documentation &lt;x1/&gt;puts it&lt;x2/&gt;, &lt;x3/&gt;modules&lt;x4/&gt; are &lt;x5/&gt;“self-contained software units that consist of models, views, controllers, and other supporting components”&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T214544Z" creationid="Toru Kokubun" creationdate="20180915T214529Z">
+        <seg>Yii のドキュメントに&lt;x1/&gt;記載されているように&lt;x2/&gt;、&lt;x3/&gt;モジュール&lt;x4/&gt;は &lt;x5/&gt;「モデル、ビュー、コントローラー、および、その他のサポートコンポーネントでできている、独立したソフトウェアユニット」&lt;x6/&gt; です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2856,6 +3108,22 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T065548Z" creationid="Toru Kokubun" creationdate="20180420T065548Z">
         <seg>アセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asset Bundles</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233822Z" creationid="Toru Kokubun" creationdate="20180916T233808Z">
+        <seg>アセットバンドル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Asset Bundles do two things:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T001537Z" creationid="Toru Kokubun" creationdate="20180917T001537Z">
+        <seg>アセットバンドルは2つのことを行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3188,6 +3456,14 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Avoid using &lt;x1/&gt;array_merge()&lt;x2/&gt; within loops when possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T231809Z" creationid="Toru Kokubun" creationdate="20180915T231741Z">
+        <seg>可能な場合、ループ内で &lt;x1/&gt;array_merge()&lt;x2/&gt; の使用を避けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Base URL</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004711Z" creationid="Toru Kokubun" creationdate="20180430T004711Z">
@@ -3292,6 +3568,14 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before you begin working on a module, you need to decide on a couple things:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T215411Z" creationid="Toru Kokubun" creationdate="20180916T215411Z">
+        <seg>モジュール作成に取り組む前に、いくつかのことを決めておく必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Before you begin working on a plugin, you need to decide on a few things:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212147Z" creationid="Toru Kokubun" creationdate="20180624T212147Z">
@@ -3392,6 +3676,14 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T012918Z" creationid="Toru Kokubun" creationdate="20180422T090101Z">
         <seg>チャンネルとストラクチャーセクションの両方では、入力タイプを用いて複数のタイプのエントリを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both types of methods should follow the same general control flow, with one difference: interface-oriented methods should trigger callback methods on the model before and after the action is performed, giving the model a chance to run its own custom logic.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T081352Z" creationid="Toru Kokubun" creationdate="20180917T080910Z">
+        <seg>両方のタイプのメソッドは、1つの違いを除き同じ一般的な制御フローに従う必要があります。インターフェース指向メソッドは、アクションが実行される前後にモデルのコールバックメソッドをトリガし、モデルに独自のカスタムロジックを実行するチャンスを与えるべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3813,6 +4105,14 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Calling Service Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071406Z" creationid="Toru Kokubun" creationdate="20180917T071406Z">
+        <seg>サービスメソッドの呼び出し</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Calling a Color field in your templates will return a &lt;x1/&gt; object, or &lt;x2/&gt;null&lt;x3/&gt; if no color was selected.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T070145Z" creationid="Toru Kokubun" creationdate="20180623T070145Z">
@@ -4229,6 +4529,14 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chainable functions that return an instance of the current class should use &lt;x1/&gt;static&lt;x2/&gt; as the return type declaration.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T032849Z" creationid="Toru Kokubun" creationdate="20180916T032829Z">
+        <seg>現在のクラスのインスタンスを返す連鎖可能なファンクションでは、戻り値の型宣言として &lt;x1/&gt;static&lt;x2/&gt; を使用するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chained method calls should each be placed on their own line, with the &lt;x1/&gt;-&gt;&lt;x2/&gt; operator at the beginning of each line.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095541Z" creationid="Toru Kokubun" creationdate="20180625T095132Z">
@@ -4349,6 +4657,14 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Checking Permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232528Z" creationid="Toru Kokubun" creationdate="20180916T232528Z">
+        <seg>権限の確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Checking Your Server</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015858Z" creationid="Toru Kokubun" creationdate="20180415T015858Z">
@@ -4461,10 +4777,34 @@ user registrations.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Choosing the right approach depends on what you’re trying to add to it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T084721Z" creationid="Toru Kokubun" creationdate="20180917T084721Z">
+        <seg>正しいアプローチを選択することは、何を追加しようとしているかに依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chrome 29 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015406Z" creationid="Toru Kokubun" creationdate="20180415T015406Z">
         <seg>Chrome 29 以降</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class names should be &lt;x1/&gt;StudlyCase&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T233951Z" creationid="Toru Kokubun" creationdate="20180915T233938Z">
+        <seg>クラス名は &lt;x1/&gt;StudlyCase&lt;x2/&gt; にする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class-Oriented Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T081904Z" creationid="Toru Kokubun" creationdate="20180917T081904Z">
+        <seg>クラス指向メソッド</seg>
       </tuv>
     </tu>
     <tu>
@@ -4990,6 +5330,14 @@ purposes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Control Flow</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T034153Z" creationid="Toru Kokubun" creationdate="20180916T034153Z">
+        <seg>制御フロー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Control Panel Section&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T231357Z" creationid="Toru Kokubun" creationdate="20180414T230745Z">
@@ -5010,6 +5358,46 @@ purposes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233834Z" creationid="Toru Kokubun" creationdate="20180420T012145Z">
         <seg>コントローラーアクションのルーティングは、&lt;x3/&gt;action&lt;x4/&gt; キーを持つ配列（&lt;x5/&gt;['action' =&gt; 'action/path']&lt;x6/&gt;）ではなく、文字列（&lt;x1/&gt;'action/path'&lt;x2/&gt;）として定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Controller actions that &lt;x1/&gt;only&lt;x2/&gt; return JSON should require that the request accepts JSON.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040305Z" creationid="Toru Kokubun" creationdate="20180916T040305Z">
+        <seg>JSON &lt;x1/&gt;だけを&lt;x2/&gt; 返すコントローラーアクションでは、リクエストで JSON を受け入れる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Controller actions that have the option of returning JSON should do so if the request explicitly accepts a JSON response; not if it’s an Ajax request.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040343Z" creationid="Toru Kokubun" creationdate="20180916T040103Z">
+        <seg>JSON を返すオプションを持つコントローラーアクションでは、Ajax リクエストの場合ではなく、リクエストが明示的に JSON レスポンスを受け入れる場合に、JSON を返す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Controller actions that should complete the request must return either a string (HTML) or a Response object.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040350Z" creationid="Toru Kokubun" creationdate="20180916T035750Z">
+        <seg>リクエストを完了するコントローラーアクションでは、文字列（HTML）、または、Response オブジェクトのいずれかを返す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Controllers</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T035558Z" creationid="Toru Kokubun" creationdate="20180916T035558Z">
+        <seg>コントローラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Controllers can require that the logged-in user has a permission by calling &lt;x1/&gt;requirePermission()&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232700Z" creationid="Toru Kokubun" creationdate="20180916T232152Z">
+        <seg>コントローラーは、&lt;x1/&gt;requirePermission()&lt;x2/&gt; を呼び出すことで、ログインしているユーザー権限を持っていることを要求できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5398,6 +5786,14 @@ purposes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft provides a complete toolkit for customizing its features and functionality – almost every aspect of Craft can be extended, hooked into, or completely replaced.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T213849Z" creationid="Toru Kokubun" creationdate="20180915T213505Z">
+        <seg>Craft は、特徴や機能をカスタマイズするための完全なツールキットを提供しています。Craft のほとんどすべての局面を拡張したり、フックしたり、完全に置き換えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft provides a way to perform a large variety of image transformations to your assets.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T033641Z" creationid="Toru Kokubun" creationdate="20180428T000248Z">
@@ -5418,6 +5814,14 @@ purposes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T012209Z" creationid="Toru Kokubun" creationdate="20180421T011935Z">
         <seg>Craft はいくつかのフィールド（タイトル、スラグ、投稿日など）を自動的に提供しますが、独自フィールドを定義してコンテンツ&lt;x1/&gt;に即した&lt;x2/&gt; Craft を形作ることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft provides two ways for plugins to extend its Twig templating environment.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T084151Z" creationid="Toru Kokubun" creationdate="20180917T084151Z">
+        <seg>Craft は、プラグイン向けに Twig テンプレート環境を拡張するための2つの方法を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5570,6 +5974,14 @@ purposes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T220029Z" creationid="Toru Kokubun" creationdate="20180430T220029Z">
         <seg>Craft はブラウザがどのサイトを要求しているかを自動的に検出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft will automatically publish the file for you (if it’s not published already), and return its URL.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T070623Z" creationid="Toru Kokubun" creationdate="20180917T070623Z">
+        <seg>（既に公開されてない場合）Craft が自動的にそのファイルを公開し、URL を返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5734,6 +6146,14 @@ purposes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a &lt;x1/&gt;composer.json&lt;x2/&gt; file at the root of your plugin directory, and use this template as a starting point:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230236Z" creationid="Toru Kokubun" creationdate="20180916T230144Z">
+        <seg>プラグインディレクトリのルートに &lt;x1/&gt;composer.json&lt;x2/&gt; ファイルを作成し、出発点としてこのテンプレートを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create a Matrix block query with &lt;x1/&gt;craft.matrixBlocks()&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T025134Z" creationid="Toru Kokubun" creationdate="20180915T025134Z">
@@ -5870,6 +6290,14 @@ purposes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Creating a Service</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071351Z" creationid="Toru Kokubun" creationdate="20180917T071351Z">
+        <seg>サービスの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creating a Site</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004345Z" creationid="Toru Kokubun" creationdate="20180430T004345Z">
@@ -5930,6 +6358,14 @@ purposes.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T013630Z" creationid="Toru Kokubun" creationdate="20180624T013630Z">
         <seg>カスタムフィールドのハンドルもサポートされています。フィールドタイプは文字列として表すことができる値を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DB Queries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040846Z" creationid="Toru Kokubun" creationdate="20180916T040846Z">
+        <seg>データベースクエリ</seg>
       </tuv>
     </tu>
     <tu>
@@ -6567,6 +7003,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Docblocks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074855Z" creationid="Toru Kokubun" creationdate="20180916T074855Z">
+        <seg>Docblock</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Documentation</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T083733Z" creationid="Toru Kokubun" creationdate="20180422T083733Z">
@@ -6615,6 +7059,22 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Don’t do this.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T035246Z" creationid="Toru Kokubun" creationdate="20180916T035246Z">
+        <seg>このようにしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t explicitly set class properties’ default values to &lt;x1/&gt;null&lt;x2/&gt; (e.g. &lt;x3/&gt;public $foo = null;&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T230658Z" creationid="Toru Kokubun" creationdate="20180915T230658Z">
+        <seg>明示的にクラスプロパティのデフォルト値を &lt;x1/&gt;null&lt;x2/&gt; セットしないでください（例：&lt;x3/&gt;public $foo = null;&lt;x4/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Don’t forget that it is human to err and blaming each other doesn’t get us anywhere.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235249Z" creationid="Toru Kokubun" creationdate="20180414T235249Z">
@@ -6643,6 +7103,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T095722Z" creationid="Toru Kokubun" creationdate="20180625T095722Z">
         <seg>型変換の後にスペースを置かないでください（&lt;x1/&gt;(int)$foo&lt;x2/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don’t use a &lt;x1/&gt;switch&lt;x2/&gt; statement when a single &lt;x3/&gt;if&lt;x4/&gt; condition will suffice.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232403Z" creationid="Toru Kokubun" creationdate="20180915T232347Z">
+        <seg>単一の &lt;x3/&gt;if&lt;x4/&gt; 条件で十分な場合、&lt;x1/&gt;switch&lt;x2/&gt; 文を使用しないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7535,6 +8003,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entry elements (&lt;x8/&gt;) use their &lt;x9/&gt;afterSave()&lt;x10/&gt; method as an opportunity to save a row in the entry-specific &lt;x11/&gt;entries&lt;x12/&gt; database table.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T081846Z" creationid="Toru Kokubun" creationdate="20180917T081846Z">
+        <seg>エントリエレメント（&lt;x8/&gt;）は、エントリ特有の &lt;x11/&gt;entries&lt;x12/&gt; データベーステーブルに行を保存する機会として、&lt;x9/&gt;afterSave()&lt;x10/&gt; メソッドを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entry queries support the following parameters:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180914T221337Z" creationid="Toru Kokubun" creationdate="20180914T221337Z">
@@ -7639,6 +8115,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Exceptions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040418Z" creationid="Toru Kokubun" creationdate="20180916T040418Z">
+        <seg>例外</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Exclusionary gendered language (guys, gentlemen, bros, etc).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T072248Z" creationid="Toru Kokubun" creationdate="20180414T234008Z">
@@ -7667,6 +8151,30 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T105332Z" creationid="Toru Kokubun" creationdate="20180503T105332Z">
         <seg>マイグレーションの実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extend the Global &lt;x1/&gt;craft&lt;x2/&gt; Variable</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T084536Z" creationid="Toru Kokubun" creationdate="20180917T084222Z">
+        <seg>グローバル &lt;x1/&gt;craft&lt;x2/&gt; 変数の拡張</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extending Craft</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T213206Z" creationid="Toru Kokubun" creationdate="20180915T213206Z">
+        <seg>Craft の拡張</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extending Twig</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T083948Z" creationid="Toru Kokubun" creationdate="20180917T083948Z">
+        <seg>Twig 拡張</seg>
       </tuv>
     </tu>
     <tu>
@@ -7927,6 +8435,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First establish where you want your web-publishable files to live within your plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T004743Z" creationid="Toru Kokubun" creationdate="20180917T004142Z">
+        <seg>はじめに、プラグイン内でウェブ公開したいファイルをどこに配置するか確定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First generate a cryptographically secure key, preferably using a password generator like &lt;x1/&gt;1Password&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212955Z" creationid="Toru Kokubun" creationdate="20180426T212955Z">
@@ -8023,6 +8539,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Follow the &lt;x1/&gt;PSR-4&lt;x2/&gt; specification, where a class’s file location can be inferred by its fully qualified name, given a known base namespace mapped to a base path.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T233847Z" creationid="Toru Kokubun" creationdate="20180915T233847Z">
+        <seg>ベースパスにマップされている既知のベース名前空間があれば、クラスのファイルの場所を完全修飾名で推測できる &lt;x1/&gt;PSR-4&lt;x2/&gt; 仕様に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Following your &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag, you will need to loop through this page’s elements using a &lt;x3/&gt;for&lt;x4/&gt; tag.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T112939Z" creationid="Toru Kokubun" creationdate="20180623T112939Z">
@@ -8035,6 +8559,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T212309Z" creationid="Toru Kokubun" creationdate="20180426T210926Z">
         <seg>Craft が正しく動作するためには、PHP が次の場所への書き込み権限が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a slight performance improvement and easier debugging, you should generally stick with calling the getter and setter methods directly rather than going through their magic properties.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T075611Z" creationid="Toru Kokubun" creationdate="20180916T075443Z">
+        <seg>パフォーマンスを少し向上させデバッグを容易にするために、一般的にはマジックプロパティを通すよりむしろ、Getter および Setter メソッドを直接呼び出し続けるべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8068,6 +8600,14 @@ servers.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T034326Z" creationid="Toru Kokubun" creationdate="20180714T234018Z">
         <seg>ブルートフォース攻撃に対するベストな保護のために、production サーバーで許容される最高の値をセットしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For consistency, use:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T080313Z" creationid="Toru Kokubun" creationdate="20180916T080313Z">
+        <seg>一貫性のために、次のものを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8128,6 +8668,14 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, Craft’s field management code is located in &lt;x1/&gt;, which is available at &lt;x2/&gt;Craft::$app-&gt;fields&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T072116Z" creationid="Toru Kokubun" creationdate="20180917T072116Z">
+        <seg>例えば、Craft のフィールド管理コードは &lt;x1/&gt; にあり、&lt;x2/&gt;Craft::$app-&gt;fields&lt;x3/&gt; で利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, each environment will likely need its own unique &lt;x1/&gt;database connection settings&lt;x2/&gt;, and &lt;x3/&gt;Dev Mode&lt;x4/&gt; should be enabled for your local Development environment, but not for Production.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T074541Z" creationid="Toru Kokubun" creationdate="20180908T074541Z">
@@ -8157,6 +8705,14 @@ servers.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T235327Z" creationid="Toru Kokubun" creationdate="20180714T235157Z">
         <seg>例えば、値が14のときハッシュの計算に1秒かかる場合、計算時間は「2^(値 - 14) 」秒で変化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you had a bunch of icon SVG files in an &lt;x1/&gt;icons/&lt;x2/&gt; folder within your plugin, and you wanted to publish the &lt;x3/&gt;icons/&lt;x4/&gt; folder as a whole, but only needed the URL to &lt;x5/&gt;shaker.svg&lt;x6/&gt;, you would do this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071244Z" creationid="Toru Kokubun" creationdate="20180917T071215Z">
+        <seg>例えば、プラグインの &lt;x1/&gt;icons/&lt;x2/&gt; フォルダに沢山のアイコン SVG ファイル群を持ち、&lt;x3/&gt;icons/&lt;x4/&gt; フォルダ全体を公開したいものの、&lt;x5/&gt;shaker.svg&lt;x6/&gt; の URL だけが必要な場合、次のようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8281,6 +8837,30 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if your module ID is &lt;x4/&gt;foo&lt;x5/&gt;, you might set it up like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T220959Z" creationid="Toru Kokubun" creationdate="20180916T220959Z">
+        <seg>例えば、モジュール ID が &lt;x4/&gt;foo&lt;x5/&gt; の場合、次のように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if your module ID is &lt;x7/&gt;foo&lt;x8/&gt; and its Module class name is &lt;x9/&gt;foo\Module&lt;x10/&gt;, this is what you should add to &lt;x11/&gt;config/app.php&lt;x12/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222435Z" creationid="Toru Kokubun" creationdate="20180916T222435Z">
+        <seg>例えば、モジュール ID が &lt;x7/&gt;foo&lt;x8/&gt; でモジュールのクラス名が &lt;x9/&gt;foo\Module&lt;x10/&gt; の場合、&lt;x11/&gt;config/app.php&lt;x12/&gt; に次のように追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if your module’s namespace is &lt;x5/&gt;foo&lt;x6/&gt;, and it’s located at &lt;x7/&gt;modules/foo/&lt;x8/&gt;, this is what you should add:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222447Z" creationid="Toru Kokubun" creationdate="20180916T221520Z">
+        <seg>例えば、モジュールの名前空間が &lt;x5/&gt;foo&lt;x6/&gt; で &lt;x7/&gt;modules/foo/&lt;x8/&gt; に位置している場合、次のように追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, in a new Craft 3 project, your &lt;x1/&gt;.env&lt;x2/&gt; file should define these environment variables:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T063254Z" creationid="Toru Kokubun" creationdate="20180908T063216Z">
@@ -8381,6 +8961,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, you could create a plugin that provides common Twig utility macros, which could be accessible from &lt;x1/&gt;_utils/macros.twig&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082905Z" creationid="Toru Kokubun" creationdate="20180917T082905Z">
+        <seg>例えば、&lt;x1/&gt;_utils/macros.twig&lt;x2/&gt; からアクセスできる共通の Twig ユーティリティマクロを提供するプラグインを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, you may wish to create aliases that define the base URL and base path that your asset volumes will live in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062219Z" creationid="Toru Kokubun" creationdate="20180504T062200Z">
@@ -8449,6 +9037,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T091039Z" creationid="Toru Kokubun" creationdate="20180422T003826Z">
         <seg>興味がある方のために、（包括的なリストではありませんが）craft/storage/runtime で確認できるものを掲載します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this example, we’ll go with &lt;x3/&gt;resources/&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T004649Z" creationid="Toru Kokubun" creationdate="20180917T004649Z">
+        <seg>この例では、&lt;x3/&gt;resources/&lt;x4/&gt; とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8613,10 +9209,26 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Functions that don’t ever return anything should have &lt;x1/&gt;@return void&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T032918Z" creationid="Toru Kokubun" creationdate="20180916T032918Z">
+        <seg>何も返さないファンクションは、&lt;x1/&gt;@return void&lt;x2/&gt; を持つべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Functions&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012448Z" creationid="Toru Kokubun" creationdate="20180414T012448Z">
         <seg>ファンクション&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Further Reading</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222919Z" creationid="Toru Kokubun" creationdate="20180916T222919Z">
+        <seg>参考文献</seg>
       </tuv>
     </tu>
     <tu>
@@ -8661,6 +9273,54 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generally that’s a Very Good Thing, because it protects Craft sites from a whole host of security vulnerabilities.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T000853Z" creationid="Toru Kokubun" creationdate="20180917T000834Z">
+        <seg>一般的に、それはとても良いことです。なぜなら、Craft サイトをあらゆるセキュリティ脆弱性から守ることができるためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getter and setter methods should have a corresponding &lt;x1/&gt;@property&lt;x2/&gt; tag in the class’s docblock, so IDEs like PhpStorm can be aware of the magic properties.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T075212Z" creationid="Toru Kokubun" creationdate="20180916T075153Z">
+        <seg>Getter および Setter メソッドは、クラスの docblock 内に対応する &lt;x1/&gt;@property&lt;x2/&gt; タグを持つ必要があります。それによって、PhpStorm のような IDE がマジックプロパティを知ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getter methods (methods whose primary responsibility is to return something, rather than do something) that &lt;x1/&gt;don’t accept any arguments&lt;x2/&gt; should begin with &lt;x3/&gt;get&lt;x4/&gt; , and there should be a corresponding &lt;x5/&gt;@property&lt;x6/&gt; tag in the class’s docblock to document the corresponding magic getter property.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T075722Z" creationid="Toru Kokubun" creationdate="20180915T235607Z">
+        <seg>&lt;x1/&gt;いかなる引数も受け取らない&lt;x2/&gt; Getter メソッド（何かをするのではなく、何かを返すことを主たる目的とするメソッド）は、&lt;x3/&gt;get&lt;x4/&gt; ではじめます。そして、対応するマジック Getter プロパティを文書化するために、クラスの docblock に対応する &lt;x5/&gt;@property&lt;x6/&gt; タグがあるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getter methods that &lt;x1/&gt;accept one or more arguments&lt;x2/&gt; (regardless of whether they can be omitted) should only begin with &lt;x3/&gt;get&lt;x4/&gt; if it “sounds right”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T004547Z" creationid="Toru Kokubun" creationdate="20180916T004540Z">
+        <seg>（省略できるかどうかに関わらず）&lt;x1/&gt;1つ、または、複数の引数を受け入れる&lt;x2/&gt; Getter メソッドは、「正しいと思う」場合のみ &lt;x3/&gt;get&lt;x4/&gt; ではじめます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getters &amp; Setters</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074839Z" creationid="Toru Kokubun" creationdate="20180916T040859Z">
+        <seg>Getter と Setter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Getting Published File URLs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T002055Z" creationid="Toru Kokubun" creationdate="20180917T002055Z">
+        <seg>公開されたファイル URL の取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Getting Started</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T004737Z" creationid="Toru Kokubun" creationdate="20180414T011422Z">
@@ -8681,6 +9341,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T214220Z" creationid="Toru Kokubun" creationdate="20180425T214037Z">
         <seg>ブロックの総数の取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Give them a directory that’s just for them.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T004549Z" creationid="Toru Kokubun" creationdate="20180917T004541Z">
+        <seg>公開するファイルのためだけのディレクトリを与えてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8933,6 +9601,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Happy Paths</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074917Z" creationid="Toru Kokubun" creationdate="20180916T074917Z">
+        <seg>Happy Path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Harassment and other exclusionary behavior aren’t acceptable.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T233517Z" creationid="Toru Kokubun" creationdate="20180414T233517Z">
@@ -9021,6 +9697,30 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s a complete code example of what that looks like:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082337Z" creationid="Toru Kokubun" creationdate="20180917T082337Z">
+        <seg>完全なコードの実例は、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s a control flow diagram for class-oriented methods:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082345Z" creationid="Toru Kokubun" creationdate="20180917T081935Z">
+        <seg>クラス指向メソッドの制御フロー図です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s a control flow diagram for interface-oriented methods:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082434Z" creationid="Toru Kokubun" creationdate="20180917T082434Z">
+        <seg>インターフェース指向メソッドの制御フロー図です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here’s a full list of the properties that can go in that &lt;x1/&gt;extra&lt;x2/&gt; object:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222600Z" creationid="Toru Kokubun" creationdate="20180624T222600Z">
@@ -9049,6 +9749,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T022044Z" creationid="Toru Kokubun" creationdate="20180425T212644Z">
         <seg>次に、4つのブロックタイプ（見出し、テキスト、画像、および、引用）を持つ行列フィールドのテンプレートの実例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here’s an example: &lt;x1/&gt; will call &lt;x2/&gt;beforeSave()&lt;x3/&gt; and &lt;x4/&gt;afterSave()&lt;x5/&gt; methods on the element model before and after it saves a record of the element to the &lt;x6/&gt;elements&lt;x7/&gt; database table.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T081557Z" creationid="Toru Kokubun" creationdate="20180917T081557Z">
+        <seg>ここに例を示します。&lt;x1/&gt; は、&lt;x6/&gt;elements&lt;x7/&gt; データベーステーブルにエレメントのレコードを保存する前後で、エレメントモデルの &lt;x2/&gt;beforeSave()&lt;x3/&gt; および &lt;x4/&gt;afterSave()&lt;x5/&gt; メソッドを呼び出します。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -9109,6 +9817,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here’s what your plugin’s structure should look like:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055110Z" creationid="Toru Kokubun" creationdate="20180917T055103Z">
+        <seg>プラグインの構造は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hidden Templates</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T001122Z" creationid="Toru Kokubun" creationdate="20180427T001122Z">
@@ -9137,6 +9853,22 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234238Z" creationid="Toru Kokubun" creationdate="20180428T234224Z">
         <seg>これは実際にどのように見えるのでしょう？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to Build a Module</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T215337Z" creationid="Toru Kokubun" creationdate="20180916T215312Z">
+        <seg>モジュールの構築方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to Build a Plugin</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T223105Z" creationid="Toru Kokubun" creationdate="20180916T223105Z">
+        <seg>プラグインの構築方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -9301,6 +10033,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If an argument accepts two types and one of them is &lt;x1/&gt;null&lt;x2/&gt;, the argument should have a type declaration for the non-&lt;x3/&gt;null&lt;x4/&gt; type, and a default value of &lt;x5/&gt;null&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010005Z" creationid="Toru Kokubun" creationdate="20180916T005935Z">
+        <seg>2つの型を受け入れる引数の1つが &lt;x1/&gt;null&lt;x2/&gt; の場合、引数は &lt;x3/&gt;null&lt;x4/&gt; 以外の型を型宣言に持ち、デフォルト値を &lt;x5/&gt;null&lt;x6/&gt; とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If an exact match is not found, the first option in the menu will actually create a new tag with the title that you typed in.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T013830Z" creationid="Toru Kokubun" creationdate="20180426T013830Z">
@@ -9313,6 +10053,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T074503Z" creationid="Toru Kokubun" creationdate="20180909T074503Z">
         <seg>完全に一致するものが見つからない場合、メニューの最初のオプションから入力した値を名前にもつ新しいタグを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an exception is likely to occur as a result of user error, use the &lt;x1/&gt; class (or a subclass)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040615Z" creationid="Toru Kokubun" creationdate="20180916T040615Z">
+        <seg>ユーザーエラーの結果として、例外が起こる可能性がある場合、&lt;x1/&gt; クラス（または、サブクラス）を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9664,6 +10412,22 @@ locking and cache the results.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If searching for &lt;x1/&gt;NOT NULL&lt;x2/&gt;, use the &lt;x3/&gt;['not', ['col' =&gt; null]]&lt;x4/&gt; syntax.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T081556Z" creationid="Toru Kokubun" creationdate="20180916T081556Z">
+        <seg>&lt;x1/&gt;NOT NULL&lt;x2/&gt; を検索する場合、&lt;x3/&gt;['not', ['col' =&gt; null]]&lt;x4/&gt; 構文を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If searching for &lt;x1/&gt;NULL&lt;x2/&gt;, use the &lt;x3/&gt;['col' =&gt; null]&lt;x4/&gt; syntax.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T081537Z" creationid="Toru Kokubun" creationdate="20180916T081537Z">
+        <seg>&lt;x1/&gt;NULL&lt;x2/&gt; を検索する場合、&lt;x3/&gt;['col' =&gt; null]&lt;x4/&gt; 構文を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If set
 &lt;x3/&gt;true&lt;x4/&gt;, you will always get a successful response even if there was an error making it difficult to enumerate users.</seg>
       </tuv>
@@ -9804,6 +10568,14 @@ System Status setting in Settings → General.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If that’s something you want to do, you can call &lt;x6/&gt;Craft::$app-&gt;fields-&gt;getFieldByHandle('foo')&lt;x7/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T072611Z" creationid="Toru Kokubun" creationdate="20180917T072611Z">
+        <seg>そうしたい場合は、&lt;x6/&gt;Craft::$app-&gt;fields-&gt;getFieldByHandle('foo')&lt;x7/&gt; で呼び出すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the URI matches an &lt;x1/&gt;entry’s&lt;x2/&gt; or &lt;x3/&gt;category’s&lt;x4/&gt; URI, Craft loads the section’s template or category group’s template.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T213136Z" creationid="Toru Kokubun" creationdate="20180429T032822Z">
@@ -9880,6 +10652,22 @@ System Status setting in Settings → General.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T023315Z" creationid="Toru Kokubun" creationdate="20180507T023315Z">
         <seg>テンプレートが存在しない場合、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the thing you want to build would benefit from those features, make it a plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220449Z" creationid="Toru Kokubun" creationdate="20180915T220449Z">
+        <seg>構築したいものがこれらの特徴によって恩恵を受ける場合、プラグインにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the user doesn’t have that permission, then a 403 error will be returned.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232244Z" creationid="Toru Kokubun" creationdate="20180916T232237Z">
+        <seg>ユーザーがその権限を持たない場合、403 エラーが返されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10134,6 +10922,14 @@ connect to the Unix socket, instead of the server and port.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you cannot use the declarative condition syntax (e.g. the condition is referencing another table/column name rather than a value, as is often the case with joins), make sure you’ve quoted all column names, and any values that you aren’t 100% confident are safe should be added as query params.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T082711Z" creationid="Toru Kokubun" creationdate="20180916T082332Z">
+        <seg>宣言条件構文が使用できない場合（例えば、しばしば join を使うようなケースのように、条件が値ではなく他のテーブル / カラム名を参照するなど）、100%安全かどうか自信がないすべてのカラム名と値を確実に引用符で囲み、クエリパラメータとして追加する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you didn’t already have it enabled (via the &lt;x1/&gt;enableCsrfProtection&lt;x2/&gt; config setting), each of your front-end &lt;x3/&gt;&lt;x4/&gt;&lt;x5/&gt;s and JS scripts that submit to a controller action will need to be updated with a new CSRF token param, named after your &lt;x6/&gt;csrfTokenName&lt;x7/&gt; config setting value (set to &lt;x8/&gt;'CRAFT_CSRF_TOKEN'&lt;x9/&gt; by default).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T235655Z">
@@ -10144,8 +10940,8 @@ connect to the Unix socket, instead of the server and port.</seg>
       <tuv lang="EN-US">
         <seg>If you do install the Redactor plugin, you will need to ensure that your Redactor configs in &lt;x1/&gt;config/redactor/&lt;x2/&gt; are valid JSON.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T221428Z" creationid="Toru Kokubun" creationdate="20180419T221428Z">
-        <seg>Redactor プラグインをインストールする場合、&lt;x1/&gt;config/redactor/&lt;x2/&gt; に定義された Redactor 設定が有効な JSON であることを確認する必要があります。</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232501Z" creationid="Toru Kokubun" creationdate="20180419T221428Z">
+        <seg>Redactor プラグインをインストールする場合、&lt;x1/&gt;config/redactor/&lt;x2/&gt; に定義された Redactor 設定が有効な JSON であることを保証する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10267,6 +11063,14 @@ through your "forgot password" workflow.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180426T234811Z">
         <seg>Craft や Twig でそのまますぐに使うことのできない何かが必要になった場合、新しい&lt;x3/&gt;Twig 拡張&lt;x4/&gt;を提供する&lt;x1/&gt;プラグイン&lt;x2/&gt;を作成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have a one-off file that you need to get the published URL for, but it doesn’t need to be registered as a CSS or JS file on the current page, you can use &lt;x1/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T070448Z" creationid="Toru Kokubun" creationdate="20180917T070448Z">
+        <seg>公開 URL を必要とするものの、CSS や JS ファイルのように現在のページで登録する必要がないファイルがある場合、&lt;x1/&gt; を使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10463,6 +11267,14 @@ through your "forgot password" workflow.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have control over the &lt;x1/&gt;application config&lt;x2/&gt;, you could also add the translation category from there:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233729Z" creationid="Toru Kokubun" creationdate="20180916T233729Z">
+        <seg>&lt;x1/&gt;アプリケーション設定&lt;x2/&gt;をコントロールできる場合、そこから翻訳カテゴリを追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have email verification enabled, the will set their password once they've clicked on the
 verification link in the email.</seg>
       </tuv>
@@ -10584,6 +11396,14 @@ verification link in the email.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you know PHP, you can build anything you want with it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T214010Z" creationid="Toru Kokubun" creationdate="20180915T213943Z">
+        <seg>PHP を知っているなら、あなたが望むものを構築することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you leave &lt;x1/&gt;Image Format&lt;x2/&gt; blank, Craft will use the original image’s format if it’s web-safe (.jpg, .png, or .gif); otherwise it will try to figure out the best-suited image format for the job.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T040523Z" creationid="Toru Kokubun" creationdate="20180624T040517Z">
@@ -10660,6 +11480,14 @@ verification link in the email.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T001120Z" creationid="Toru Kokubun" creationdate="20180428T001120Z">
         <seg>さらに必要であれば、追加のユーザーアカウントを提供する Craft Client か Craft Pro のどちらかに&lt;x3/&gt;アップグレード&lt;x4/&gt; する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need to call a service method directly from your primary Plugin class, you can skip &lt;x1/&gt;MyPlugin::getInstance()&lt;x2/&gt; and just use &lt;x3/&gt;$this&lt;x4/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073918Z" creationid="Toru Kokubun" creationdate="20180917T073918Z">
+        <seg>プライマリプラグインクラスから直接サービスメソッドを呼び出す必要がある場合、 &lt;x1/&gt;MyPlugin::getInstance()&lt;x2/&gt; をスキップして &lt;x3/&gt;$this&lt;x4/&gt; を使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10833,10 +11661,26 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want the file to be published alongside other files in the same directory, but you only want a single file’s URL, then split its path into two parts: 1) the path to the parent directory that contains all the files you want to publish; and 2) the path to the individual file you want the URL for, relative to that parent directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T070943Z" creationid="Toru Kokubun" creationdate="20180917T070943Z">
+        <seg>同じディレクトリの他のファイルと一緒に公開したいものの、単一ファイルの URL だけ必要な場合、そのパスを2つのパートに分割します。1）公開したいすべてのファイルを含む親ディレクトリのパス。2）URL を必要とする個々のファイルの親ディレクトリからの相対パス。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want the front-end of your site to support password resetting, you need to create a template at the path specified by the ”setPasswordPath” config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T010317Z" creationid="Toru Kokubun" creationdate="20180624T010317Z">
         <seg>サイトのフロントエンドでパスワードのリセットをサポートしたい場合、コンフィグ設定の「setPasswordPath」で指定されたパスにテンプレートを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to add new global variables, functions, filters, tags, operators, or tests to Twig, you can do that by creating a custom &lt;x1/&gt;Twig extension&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T090024Z" creationid="Toru Kokubun" creationdate="20180917T085935Z">
+        <seg>新しいグローバル変数、ファンクション、フィルター、タグ、演算子、または、テストを Twig に追加したい場合、カスタムの &lt;x1/&gt;Twig エクステンション&lt;x2/&gt; を作成することによって実行できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10977,6 +11821,22 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to name your service class &lt;x5/&gt;Foo&lt;x6/&gt; then name the file &lt;x7/&gt;Foo.php&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073152Z" creationid="Toru Kokubun" creationdate="20180917T073152Z">
+        <seg>サービスクラスの名前を &lt;x5/&gt;Foo&lt;x6/&gt; にしたい場合、ファイルに &lt;x7/&gt;Foo.php&lt;x8/&gt; という名前をつけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to register new Control Panel template roots, use the &lt;x1/&gt;EVENT_REGISTER_CP_TEMPLATE_ROOTS&lt;x2/&gt; event instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T083119Z" creationid="Toru Kokubun" creationdate="20180917T083119Z">
+        <seg>新しいコントロールパネルのテンプレートルートを登録する場合、代わりに &lt;x1/&gt;EVENT_REGISTER_CP_TEMPLATE_ROOTS&lt;x2/&gt; イベントを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to set a param value to an array, you now &lt;x1/&gt;must&lt;x2/&gt; type out the array brackets.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180420T215608Z">
@@ -11037,6 +11897,14 @@ for all subdomains, for example, you could set this to &lt;x1/&gt;'.domain.com'&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T021850Z" creationid="Toru Kokubun" creationdate="20180424T021413Z">
         <seg>一度に複数ファイルをアップロードできるようにするには、&lt;x1/&gt;multiple&lt;x2/&gt; 属性を追加し、input 名の最後が &lt;x3/&gt;[]&lt;x4/&gt; であることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you will be referencing the same app component multiple times within the same method, save a local reference to it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074757Z" creationid="Toru Kokubun" creationdate="20180916T074757Z">
+        <seg>同じメソッド内で同じ App コンポーネントを複数回参照する場合、ローカル参照をそこに保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11215,6 +12083,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T062805Z" creationid="Toru Kokubun" creationdate="20180504T062722Z">
         <seg>必要であれば、&lt;x1/&gt;.env&lt;x2/&gt; ファイルや環境設定のどこかで、環境変数のエイリアス値をセットすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you’d prefer to release your plugin with the &lt;x1/&gt;Craft license&lt;x2/&gt; rather than &lt;x3/&gt;MIT&lt;x4/&gt;, change the &lt;x5/&gt;license&lt;x6/&gt; value to &lt;x7/&gt;"proprietary"&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230739Z" creationid="Toru Kokubun" creationdate="20180916T230714Z">
+        <seg>&lt;x3/&gt;MIT&lt;x4/&gt; よりむしろ &lt;x1/&gt;Craft license&lt;x2/&gt; でプラグインをリリースしたい場合、&lt;x5/&gt;license&lt;x6/&gt; 値を &lt;x7/&gt;"proprietary"&lt;x8/&gt; に変更してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11563,6 +12439,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In general the execution of a method should only make it all the way to the end if everything went as expected.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T035212Z" creationid="Toru Kokubun" creationdate="20180916T034906Z">
+        <seg>すべて期待通りにできた場合、一般的にはメソッドの実行が最後に行き着くところまで処理されるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, if someone asks you to stop, then stop.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234938Z" creationid="Toru Kokubun" creationdate="20180414T234938Z">
@@ -11591,6 +12475,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T231810Z" creationid="Toru Kokubun" creationdate="20180420T231648Z">
         <seg>ほとんどのケースでは、&lt;x1/&gt;.last()&lt;x2/&gt; の呼び出しを &lt;x3/&gt;.inReverse().one()&lt;x4/&gt; に置き換えることで、余分なデータベースクエリを必要とせず、同じ結果を得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In other words, modules extend the system in various ways, without needing to change any of the core system code.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T214707Z" creationid="Toru Kokubun" creationdate="20180915T214707Z">
+        <seg>言い換えれば、モジュールはコアのシステムコードを変更することなく、様々な方法でシステムを拡張します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11751,6 +12643,22 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T234602Z" creationid="Toru Kokubun" creationdate="20180428T234602Z">
         <seg>原材料：ターゲット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initialize arrays explicitly (&lt;x1/&gt;$array = []&lt;x2/&gt;) rather than implicitly (e.g. &lt;x3/&gt;$array[] = 'foo'&lt;x4/&gt; where &lt;x5/&gt;$array&lt;x6/&gt; wasn’t defined yet).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T225004Z" creationid="Toru Kokubun" creationdate="20180915T225004Z">
+        <seg>暗黙的（例：&lt;x5/&gt;$array&lt;x6/&gt; がまだ定義されていない状態での &lt;x3/&gt;$array[] = 'foo'&lt;x4/&gt;）よりむしろ明示的（&lt;x1/&gt;$array = []&lt;x2/&gt;）に配列を初期化してください。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inline &lt;x1/&gt;@var&lt;x2/&gt; tags should reference implementation classes, not their interfaces:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T034109Z" creationid="Toru Kokubun" creationdate="20180916T034109Z">
+        <seg>インラインの &lt;x1/&gt;@var&lt;x2/&gt; タグは、インターフェースではなく実装クラスを参照します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11923,6 +12831,22 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Interface-Oriented Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082417Z" creationid="Toru Kokubun" creationdate="20180917T082417Z">
+        <seg>インターフェース指向メソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interfaces vs. Implementation Classes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T033248Z" creationid="Toru Kokubun" creationdate="20180916T033248Z">
+        <seg>インターフェース 対  実装クラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Internet Explorer 11 or later</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T015348Z" creationid="Toru Kokubun" creationdate="20180415T015348Z">
@@ -12067,6 +12991,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It has a &lt;x4/&gt;getFieldByHandle()&lt;x5/&gt; method that returns a field model by its handle.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T072521Z" creationid="Toru Kokubun" creationdate="20180917T072516Z">
+        <seg>それは、ハンドルによってフィールドモデルを返す &lt;x4/&gt;getFieldByHandle()&lt;x5/&gt; メソッドを持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is important that we resolve disagreements and differing views constructively.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T235046Z" creationid="Toru Kokubun" creationdate="20180414T235046Z">
@@ -12087,6 +13019,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T063838Z" creationid="Toru Kokubun" creationdate="20180908T063829Z">
         <seg>それぞれの開発者が他者の設定を上書きすることなく独自の設定を定義できるため、他の開発者とのコラボレーションを容易にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It represents the path to your plugin’s &lt;x6/&gt;src/&lt;x7/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055527Z" creationid="Toru Kokubun" creationdate="20180917T055527Z">
+        <seg>プラグインの &lt;x6/&gt;src/&lt;x7/&gt; ディレクトリのパスを表します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12271,6 +13211,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T015402Z" creationid="Toru Kokubun" creationdate="20180623T015402Z">
         <seg>「Setting unknown property: craft\config\DbConfig::initSQLs」エラーが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JSON Actions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T035820Z" creationid="Toru Kokubun" creationdate="20180916T035820Z">
+        <seg>JSON アクション</seg>
       </tuv>
     </tu>
     <tu>
@@ -12755,6 +13703,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Magic methods&lt;x1/&gt; (e.g. &lt;x2/&gt;__toString()&lt;x3/&gt;)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T005308Z" creationid="Toru Kokubun" creationdate="20180916T005308Z">
+        <seg>マジックメソッド&lt;x1/&gt;（例：&lt;x2/&gt;__toString()&lt;x3/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Mailer Component</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T002830Z" creationid="Toru Kokubun" creationdate="20180504T002830Z">
@@ -12855,6 +13811,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T105230Z" creationid="Toru Kokubun" creationdate="20180503T105230Z">
         <seg>データベースデータの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many service methods perform some sort of operation for a given model, such as a CRUD operation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T074156Z" creationid="Toru Kokubun" creationdate="20180917T074156Z">
+        <seg>多くのサービスメソッドは、CRUD 操作のような特定のモデルに向けてある種の操作を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13003,6 +13967,78 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Method Names</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T234321Z" creationid="Toru Kokubun" creationdate="20180915T234321Z">
+        <seg>メソッド名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that accept a &lt;x1/&gt;specific model class&lt;x2/&gt; (e.g. &lt;x3/&gt;, which saves a category group represented by the given &lt;x4/&gt; model).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T074520Z" creationid="Toru Kokubun" creationdate="20180917T074520Z">
+        <seg>&lt;x1/&gt;特定のモデルクラス&lt;x2/&gt;（例：指定された &lt;x4/&gt; モデルによって表されるカテゴリグループを保存する &lt;x3/&gt;）を受け入れるメソッド。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that accept any class so long as it implements an &lt;x1/&gt;interface&lt;x2/&gt; (e.g. &lt;x3/&gt;, which deletes a field represented by the given &lt;x4/&gt; instance, regardless of its actual class).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T080630Z" creationid="Toru Kokubun" creationdate="20180917T080630Z">
+        <seg>&lt;x1/&gt;インターフェース&lt;x2/&gt;（例：実際のクラスかどうかに関わらず、指定された &lt;x4/&gt; インターフェースで表されるフィールドを削除する &lt;x3/&gt;）を実装している限り、すべてのクラスを受け入れるメソッド。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that are required by an interface, and the interface method doesn’t have a return type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T011029Z" creationid="Toru Kokubun" creationdate="20180916T010945Z">
+        <seg>インターフェースで必要なメソッドで、インターフェースメソッドに戻り値の型がないもの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that are required by an interface, and the interface method doesn’t have type declarations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010952Z" creationid="Toru Kokubun" creationdate="20180916T005630Z">
+        <seg>インターフェースで必要なメソッドで、インターフェースメソッドに型宣言がないもの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that override a parent class’s method, where the parent method doesn’t have a return type</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T011115Z" creationid="Toru Kokubun" creationdate="20180916T010922Z">
+        <seg>親メソッドで戻り値の型を持たない、親クラスのメソッドを上書きするメソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that override a parent class’s method, where the parent method doesn’t have type declarations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T011120Z" creationid="Toru Kokubun" creationdate="20180916T005534Z">
+        <seg>親メソッドで型宣言を持たない、親クラスのメソッドを上書きするメソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods that override subclass methods or implement an interface method, and don’t have anything relevant to add to the docblock, should only have &lt;x1/&gt;@inheritdoc&lt;x2/&gt; in the docblock.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T011653Z" creationid="Toru Kokubun" creationdate="20180916T011653Z">
+        <seg>サブクラスメソッドを上書きしたり、インターフェースメソッドを実装したり、docblock へ追加するものがないメソッドは、docblock に &lt;x1/&gt;@inheritdoc&lt;x2/&gt; だけを持つべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Methods with multiple return types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010819Z" creationid="Toru Kokubun" creationdate="20180916T010819Z">
+        <seg>複数の戻り値の型を持つメソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Migration classes contain methods: &lt;x1/&gt;safeUp()&lt;x2/&gt; and &lt;x3/&gt;safeDown()&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T012842Z" creationid="Toru Kokubun" creationdate="20180910T012819Z">
@@ -13043,6 +14079,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Model Operation Methods</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071541Z" creationid="Toru Kokubun" creationdate="20180917T071436Z">
+        <seg>モデル操作メソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Models</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T233118Z" creationid="Toru Kokubun" creationdate="20180420T233118Z">
@@ -13059,10 +14103,58 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Module ID&lt;x1/&gt; – Something that uniquely identifies your plugin within your project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T215910Z" creationid="Toru Kokubun" creationdate="20180916T215910Z">
+        <seg>モジュール ID&lt;x1/&gt; – プロジェクト内のプラグインを一意に識別する何か。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Modules and plugins can define custom front-end &lt;x1/&gt;controllers&lt;x2/&gt; that provide new HTTP endpoints.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T024743Z" creationid="Toru Kokubun" creationdate="20180910T024743Z">
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233229Z" creationid="Toru Kokubun" creationdate="20180910T024743Z">
         <seg>モジュールやプラグインは、新しい HTTP エンドポイントを提供するためのカスタムのフロントエンド&lt;x1/&gt;コントローラー&lt;x2/&gt;を定義できます。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules and plugins can provide custom translation categories, for use by Yii’s &lt;x1/&gt;Message Translations&lt;x2/&gt; feature.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233309Z" creationid="Toru Kokubun" creationdate="20180916T233200Z">
+        <seg>モジュールやプラグインは、Yii の &lt;x1/&gt;Message Translations&lt;x2/&gt; 機能を使用することによって、カスタム翻訳カテゴリを提供できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules and plugins can register custom “template roots” for either Control Panel or front-end templates.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082647Z" creationid="Toru Kokubun" creationdate="20180917T082647Z">
+        <seg>モジュールやプラグインは、コントロールパネル、または、フロントエンドテンプレート向けに、カスタムの「テンプレートルート」を登録できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules and plugins can register new user permissions to the system using the &lt;x1/&gt;EVENT_REGISTER_PERMISSIONS&lt;x2/&gt; event:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231821Z" creationid="Toru Kokubun" creationdate="20180916T231821Z">
+        <seg>モジュールとプラグインは、&lt;x1/&gt;EVENT_REGISTER_PERMISSIONS&lt;x2/&gt; イベントを使用して新しいユーザー権限をシステムに登録できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules can be simple, serving a single purpose like providing a new &lt;x1/&gt;Dashboard widget type&lt;x2/&gt;, or they can be complex, introducing entirely new concepts to the system, like an e-commerce application.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T215321Z" creationid="Toru Kokubun" creationdate="20180915T215321Z">
+        <seg>モジュールは新しい&lt;x1/&gt;ダッシュボードウィジェットタイプ&lt;x2/&gt;を提供するような単一の目的を満たすためにシンプルか、 Eコマースアプリケーションのような完全に新しいコンセプトをシステムに導入するために複雑であり得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules vs. Plugins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T033022Z" creationid="Toru Kokubun" creationdate="20180915T214043Z">
+        <seg>モジュール 対 プラグイン</seg>
       </tuv>
     </tu>
     <tu>
@@ -13079,6 +14171,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T074817Z" creationid="Toru Kokubun" creationdate="20180908T074817Z">
         <seg>ほとんどの Craft プロジェクトでは、異なる方法で両方のアプローチを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most customizations come in the form of a &lt;x1/&gt;module&lt;x2/&gt; or a &lt;x3/&gt;plugin&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T214124Z" creationid="Toru Kokubun" creationdate="20180915T214124Z">
+        <seg>ほとんどのカスタマイズは、&lt;x1/&gt;モジュール&lt;x2/&gt;、または、&lt;x3/&gt;プラグイン&lt;x4/&gt;の形で行われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13303,6 +14403,38 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212852Z" creationid="Toru Kokubun" creationdate="20180624T212843Z">
         <seg>名前空間接頭辞&lt;x1/&gt; – あなたのプラグインのクラス名前空間は、これで始まります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Namespace&lt;x1/&gt; – The root namespace that your module’s classes will live in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055554Z" creationid="Toru Kokubun" creationdate="20180916T215449Z">
+        <seg>名前空間&lt;x1/&gt; – モジュールのクラスが稼働する、ルート名前空間。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Namespace&lt;x1/&gt; – The root namespace that your plugin’s classes will live in.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055600Z" creationid="Toru Kokubun" creationdate="20180916T225951Z">
+        <seg>名前空間&lt;x1/&gt; – プラグインのクラスが稼働する、ルート名前空間。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Namespaces &amp; Class Names</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T233354Z" creationid="Toru Kokubun" creationdate="20180915T233354Z">
+        <seg>名前空間とクラス名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Namespaces should be all-lowercase.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T233917Z" creationid="Toru Kokubun" creationdate="20180915T233917Z">
+        <seg>名前空間は、すべて小文字であるべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14355,6 +15487,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next up, you need to tell Composer how to find your module’s classes by setting the &lt;x1/&gt;`autoload`&lt;x2/&gt; field in your project’s &lt;x3/&gt;composer.json&lt;x4/&gt; file.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T221424Z" creationid="Toru Kokubun" creationdate="20180916T221424Z">
+        <seg>次に、プロジェクト内の &lt;x3/&gt;composer.json&lt;x4/&gt; ファイルに &lt;x1/&gt;`autoload`&lt;x2/&gt; フィールドを設定し、モジュールのクラスを見つける方法を Composer に伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Next you need to type the word “&lt;x1/&gt;in&lt;x2/&gt;”, followed by the array of entries the tag should loop through.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T044304Z" creationid="Toru Kokubun" creationdate="20180507T044304Z">
@@ -14878,6 +16018,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once the service class exists, you can register it as a component on your primary plugin class by calling &lt;x1/&gt;setComponents()&lt;x2/&gt; from its &lt;x3/&gt;init()&lt;x4/&gt; method:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073418Z" creationid="Toru Kokubun" creationdate="20180917T073348Z">
+        <seg>サービスクラスが存在すると、&lt;x3/&gt;init()&lt;x4/&gt; メソッドから &lt;x1/&gt;setComponents()&lt;x2/&gt; を呼び出すことによって、プライマリプラグインクラスのコンポーネントとして登録できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once we have our relations field set up, we can look at the options for outputting related elements in our templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T000036Z" creationid="Toru Kokubun" creationdate="20180429T000036Z">
@@ -15070,6 +16218,38 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only first party code should use the &lt;x1/&gt;craft\&lt;x2/&gt; and &lt;x3/&gt;pixelandtonic\&lt;x4/&gt; namespace roots.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T234307Z" creationid="Toru Kokubun" creationdate="20180915T234042Z">
+        <seg>ファーストパーティのコードだけが、&lt;x1/&gt;craft\&lt;x2/&gt; および &lt;x3/&gt;pixelandtonic\&lt;x4/&gt; 名前空間ルートを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only translate exception messages with &lt;x1/&gt; if it’s a &lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T040823Z" creationid="Toru Kokubun" creationdate="20180916T040823Z">
+        <seg>&lt;x2/&gt; の場合のみ、&lt;x1/&gt; で例外メッセージを翻訳してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only use the &lt;x1/&gt;parent::&lt;x2/&gt; keyword when calling a parent method with the exact same name as the current method.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T230033Z" creationid="Toru Kokubun" creationdate="20180915T230033Z">
+        <seg>現在のメソッドと同じ名前の親メソッドを呼び出す際のみ、&lt;x1/&gt;parent::&lt;x2/&gt; キーワードを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open the file in your text editor and use this template as its starting point:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073225Z" creationid="Toru Kokubun" creationdate="20180917T073225Z">
+        <seg>テキストエディタでファイルを開き、出発点としてこのテンプレートを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open your terminal and go to the &lt;x1/&gt;craft/&lt;x2/&gt; directory:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T220728Z" creationid="Toru Kokubun" creationdate="20180418T220728Z">
@@ -15106,6 +16286,14 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T010134Z" creationid="Toru Kokubun" creationdate="20180430T010103Z">
         <seg>あるいは、言語ごとの固有なテンプレートを自動的に含む方法もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or if the request is getting routed to a custom controller action, you could register it from there, before your template gets rendered:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T070200Z" creationid="Toru Kokubun" creationdate="20180917T070055Z">
+        <seg>または、リクエストがカスタムコントローラーアクションにルーティングされている場合、テンプレートがレンダリングされる前にそこから登録できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15150,10 +16338,34 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise bad things will happen.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T220715Z" creationid="Toru Kokubun" creationdate="20180916T220715Z">
+        <seg>そうでなければ、悪いことが起こります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise use &lt;x3/&gt;$this-&gt;&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T230042Z" creationid="Toru Kokubun" creationdate="20180915T230042Z">
+        <seg>そうでなければ、&lt;x3/&gt;$this-&gt;&lt;x4/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, a 404 error will be returned.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T220930Z" creationid="Toru Kokubun" creationdate="20180909T220930Z">
         <seg>そうでなければ、404 エラーが返されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, a module might be better.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220528Z" creationid="Toru Kokubun" creationdate="20180915T220528Z">
+        <seg>そうでなければ、モジュールの方が良いかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15358,6 +16570,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Package name&lt;x1/&gt; – Used to name your Composer package for the plugin.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T225618Z" creationid="Toru Kokubun" creationdate="20180916T225618Z">
+        <seg>パッケージ名&lt;x1/&gt; – プラグイン向けに Composer パッケージの名前として使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Package name&lt;x1/&gt; – Used to name your Composer package.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212243Z" creationid="Toru Kokubun" creationdate="20180624T212221Z">
@@ -15470,6 +16690,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Permissions can also have nested permissions by adding a &lt;x1/&gt;nested&lt;x2/&gt; key to the permission array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232013Z" creationid="Toru Kokubun" creationdate="20180916T231934Z">
+        <seg>権限は &lt;x1/&gt;nested&lt;x2/&gt; キーをパーミッションの配列に追加することで、ネストされた権限を持つこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Personal insults, especially those using racist or sexist terms.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234744Z" creationid="Toru Kokubun" creationdate="20180414T234744Z">
@@ -15534,6 +16762,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugin Control Panel Templates</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T083200Z" creationid="Toru Kokubun" creationdate="20180917T083132Z">
+        <seg>プラグインコントロールパネルのテンプレート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugin Development</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230252Z" creationid="Toru Kokubun" creationdate="20180414T230252Z">
@@ -15578,6 +16814,14 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T211042Z" creationid="Toru Kokubun" creationdate="20180714T211042Z">
         <seg>プラグインストア</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugin Translations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232907Z" creationid="Toru Kokubun" creationdate="20180916T232907Z">
+        <seg>プラグインの翻訳</seg>
       </tuv>
     </tu>
     <tu>
@@ -15646,6 +16890,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugins can provide translation files within a &lt;x1/&gt;translations/&lt;x2/&gt; folder in their base source folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233121Z" creationid="Toru Kokubun" creationdate="20180916T233121Z">
+        <seg>プラグインは ベースソースフォルダ内の &lt;x1/&gt;translations/&lt;x2/&gt; 内で翻訳ファイルを提供できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins extend Craft’s core functionality.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T214247Z" creationid="Toru Kokubun" creationdate="20180716T214247Z">
@@ -15654,10 +16906,42 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugins get a Control Panel template root added automatically, named after the plugin handle, which points to the &lt;x1/&gt;templates/&lt;x2/&gt; folder within the plugin’s base source folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T083723Z" creationid="Toru Kokubun" creationdate="20180917T083430Z">
+        <seg>プラグインは自動的に追加され、プラグインハンドルにちなんで名付けられた、プラグインのベースソースフォルダ内にある &lt;x1/&gt;templates/&lt;x2/&gt; フォルダを指す、コントロールパネルのテンプレートルートを取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins get a custom translation category registered automatically, named after the plugin handle.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T083707Z" creationid="Toru Kokubun" creationdate="20180916T233015Z">
+        <seg>プラグインは自動的に登録され、プラグインハンドルにちなんで名付けられた、カスタム翻訳カテゴリを取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins, like Craft, are supposed to be installed above the web root, which ensures that their files can’t be accessed directly via HTTP requests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T000734Z" creationid="Toru Kokubun" creationdate="20180917T000550Z">
+        <seg>プラグインは、Craft と同様に HTTP リクエスト経由でファイルに直接アクセスできないことを保証するウェブルート上へのインストールをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T220207Z" creationid="Toru Kokubun" creationdate="20180419T220207Z">
         <seg>プラグイン&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins&lt;x1/&gt; are a Craft-specific concept, so you won’t find any mention of it in the Yii docs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T215524Z" creationid="Toru Kokubun" creationdate="20180915T215524Z">
+        <seg>プラグイン&lt;x1/&gt;は、Craft 特有のコンセプトであるため、Yii のドキュメントにはそれに関する言及がありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15830,6 +17114,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T004749Z" creationid="Toru Kokubun" creationdate="20180430T004749Z">
         <seg>プライマリサイト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Private class property/method names should begin with an underscore (&lt;x1/&gt;private $_foo&lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T230519Z" creationid="Toru Kokubun" creationdate="20180915T230519Z">
+        <seg>プライベートなクラスのプロパティ / メソッド名は、アンダースコアではじめます（&lt;x1/&gt;private $_foo&lt;x2/&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16163,6 +17455,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Refer to class names using the &lt;x1/&gt;::class&lt;x2/&gt; keyword (&lt;x3/&gt;Foo::class&lt;x4/&gt;) rather than as a string (&lt;x5/&gt;'some\nmspace\Foo'&lt;x6/&gt;) or &lt;x7/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T224720Z" creationid="Toru Kokubun" creationdate="20180915T224720Z">
+        <seg>文字列（&lt;x5/&gt;'some\nmspace\Foo'&lt;x6/&gt;）または &lt;x7/&gt; よりむしろ &lt;x1/&gt;::class&lt;x2/&gt; キーワード（&lt;x3/&gt;Foo::class&lt;x4/&gt;）を使用して、クラス名を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Reference Tags</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011323Z" creationid="Toru Kokubun" creationdate="20180624T011323Z">
@@ -16175,6 +17475,22 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T011621Z" creationid="Toru Kokubun" creationdate="20180624T011621Z">
         <seg>リファレンスタグを利用して、サイト内の様々なエレメントへの参照を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Register a Twig Extension</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085940Z" creationid="Toru Kokubun" creationdate="20180917T085722Z">
+        <seg>Twig エクステンションの登録</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Registering the Asset Bundle</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T002038Z" creationid="Toru Kokubun" creationdate="20180917T002038Z">
+        <seg>アセットバンドルの登録</seg>
       </tuv>
     </tu>
     <tu>
@@ -16307,6 +17623,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replace &lt;x1/&gt;foo&lt;x2/&gt; with your module’s actual namespace.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222812Z" creationid="Toru Kokubun" creationdate="20180916T222812Z">
+        <seg>&lt;x1/&gt;foo&lt;x2/&gt; を実際のモジュールの名前空間に置き換えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Replace &lt;x1/&gt;ns\prefix&lt;x2/&gt; with your plugin’s namespace prefix.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T005322Z" creationid="Toru Kokubun" creationdate="20180625T005322Z">
@@ -16363,6 +17687,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Requiring Permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232033Z" creationid="Toru Kokubun" creationdate="20180916T232033Z">
+        <seg>権限の要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Resources:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T025103Z" creationid="Toru Kokubun" creationdate="20180427T025103Z">
@@ -16415,6 +17747,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T215512Z" creationid="Toru Kokubun" creationdate="20180424T215512Z">
         <seg>アップロードを単一のフォルダに限定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Return Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010518Z" creationid="Toru Kokubun" creationdate="20180916T010518Z">
+        <seg>戻り値の型</seg>
       </tuv>
     </tu>
     <tu>
@@ -17255,6 +18595,22 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Services</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071319Z" creationid="Toru Kokubun" creationdate="20180917T071319Z">
+        <seg>サービス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Services are &lt;x1/&gt;singleton&lt;x2/&gt; classes that get attached to your primary plugin class as &lt;x3/&gt;components&lt;x4/&gt; (e.g. &lt;x5/&gt;MyPlugin::getInstance()-&gt;serviceName&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085433Z" creationid="Toru Kokubun" creationdate="20180917T071829Z">
+        <seg>サービスは、&lt;x3/&gt;コンポーネント&lt;x4/&gt;のようにプライマリプラグインクラスに付加される（例：&lt;x5/&gt;MyPlugin::getInstance()-&gt;serviceName&lt;x6/&gt;）&lt;x1/&gt;singleton&lt;x2/&gt; クラスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Services&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T230856Z" creationid="Toru Kokubun" creationdate="20180414T230856Z">
@@ -17505,6 +18861,14 @@ never cache them.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set up class autoloading</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T221232Z" creationid="Toru Kokubun" creationdate="20180916T221135Z">
+        <seg>クラスのオートロードの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set up the Database&lt;x1/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033220Z" creationid="Toru Kokubun" creationdate="20180415T033220Z">
@@ -17525,6 +18889,14 @@ never cache them.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T033232Z" creationid="Toru Kokubun" creationdate="20180415T033232Z">
         <seg>ウェブサーバーのセットアップ&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set up the basic file structure</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T220747Z" creationid="Toru Kokubun" creationdate="20180916T220747Z">
+        <seg>基本ファイル構造の設定</seg>
       </tuv>
     </tu>
     <tu>
@@ -17677,6 +19049,14 @@ never cache them.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T084451Z" creationid="Toru Kokubun" creationdate="20180415T084451Z">
         <seg>データベースのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting it Up</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T002020Z" creationid="Toru Kokubun" creationdate="20180917T002008Z">
+        <seg>設定方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -17907,6 +19287,14 @@ distortion in the image.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So any time you change anything in &lt;x7/&gt;composer.json&lt;x8/&gt;, such as your plugin’s dependency requirements or its plugin information, you might need to completely remove and re-require your plugin in your project for those changes to take effect.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231606Z" creationid="Toru Kokubun" creationdate="20180916T231606Z">
+        <seg>そのため、プラグインの依存要件やプラグインの情報のような &lt;x7/&gt;composer.json&lt;x8/&gt; の内容に変更を加える際は、それらの変化が効力を発揮するようプロジェクト内のプラグインを完全に削除してから再要求する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So any time you change anything in &lt;x7/&gt;composer.json&lt;x8/&gt;, such as your plugin’s dependency requirements or its plugin information, you will need to completely remove and re-require your plugin in your project for those changes to take effect.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T015613Z" creationid="Toru Kokubun" creationdate="20180625T015532Z">
@@ -17951,6 +19339,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232915Z" creationid="Toru Kokubun" creationdate="20180427T232822Z">
         <seg>ファイルが次のようにセットアップされているとすれば</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So if your service name is &lt;x3/&gt;foo&lt;x4/&gt; and it has a method named &lt;x5/&gt;bar()&lt;x6/&gt;, you could call it like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073730Z" creationid="Toru Kokubun" creationdate="20180917T073730Z">
+        <seg>そのため、サービス名が &lt;x3/&gt;foo&lt;x4/&gt; で &lt;x5/&gt;bar()&lt;x6/&gt; と名付けられたメソッドを持つ場合、次のように呼び出すことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18155,6 +19551,14 @@ distortion in the image.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specify array members’ class names in array type declarations when it makes sense (&lt;x1/&gt;ElementInterface[]&lt;x2/&gt; rather than &lt;x3/&gt;array&lt;x4/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T032645Z" creationid="Toru Kokubun" creationdate="20180916T032645Z">
+        <seg>意味をなすとき、配列の型宣言で配列メンバのクラス名を指定してください（&lt;x3/&gt;array&lt;x4/&gt; よりむしろ &lt;x1/&gt;ElementInterface[]&lt;x2/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Standard MIT license, which covers all the code in the &lt;x1/&gt;craftcms/craft&lt;x2/&gt; repo, but NOT any Composer-installed libraries in the &lt;x3/&gt;vendor/&lt;x4/&gt; folder.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T011832Z" creationid="Toru Kokubun" creationdate="20180422T011832Z">
@@ -18183,6 +19587,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180419T215850Z" creationid="Toru Kokubun" creationdate="20180419T215850Z">
         <seg>静的な翻訳ファイル&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Static methods should generally not start with &lt;x1/&gt;get&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T004733Z" creationid="Toru Kokubun" creationdate="20180916T004644Z">
+        <seg>静的メソッドは、一般的に &lt;x1/&gt;get&lt;x2/&gt; ではじめるべきではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18819,6 +20231,14 @@ distortion in the image.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Template Roots</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082531Z" creationid="Toru Kokubun" creationdate="20180917T082531Z">
+        <seg>テンプレートルート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Template Tags</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T062428Z" creationid="Toru Kokubun" creationdate="20180420T062428Z">
@@ -18863,6 +20283,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T221028Z" creationid="Toru Kokubun" creationdate="20180426T221028Z">
         <seg>テンプレートは craft/templates フォルダ内に存在するファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templates can also ensure that the user has a permission with the &lt;x1/&gt;requirePermission&lt;x2/&gt; tag:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232447Z" creationid="Toru Kokubun" creationdate="20180916T232331Z">
+        <seg>テンプレートでは、&lt;x1/&gt;requirePermission&lt;x2/&gt; タグでユーザー権限を持っていることを保証することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18935,6 +20363,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T094814Z" creationid="Toru Kokubun" creationdate="20180422T094814Z">
         <seg>テスト&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thankfully, Yii has a concept called &lt;x3/&gt;Asset Bundles&lt;x4/&gt; to help with this.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T001515Z" creationid="Toru Kokubun" creationdate="20180917T001515Z">
+        <seg>ありがたいことに、Yii にはこれを支援するための&lt;x3/&gt;アセットバンドル&lt;x4/&gt;と呼ばれるコンセプトがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19075,6 +20511,14 @@ distortion in the image.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That will tell Composer to update its class autoloader script based on your new &lt;x1/&gt;autoload&lt;x2/&gt; mapping.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T221857Z" creationid="Toru Kokubun" creationdate="20180916T221857Z">
+        <seg>新しい &lt;x1/&gt;autoload&lt;x2/&gt; マッピングに基づいて、クラスオートローダースクリプトをアップデートすることを Composer に伝えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That’ll take you to the section’s entry type index.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180422T090435Z" creationid="Toru Kokubun" creationdate="20180422T090435Z">
@@ -19127,6 +20571,22 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T024254Z" creationid="Toru Kokubun" creationdate="20180910T024254Z">
         <seg>Mark Huot 氏による &lt;x1/&gt;CraftQL&lt;x2/&gt; プラグンは、設定なしの &lt;x3/&gt;GraphQL&lt;x4/&gt; サーバーをインストールされた Craft に追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;CraftVariable&lt;x2/&gt; instance can be extended by plugins with &lt;x3/&gt;behaviors&lt;x4/&gt; and &lt;x5/&gt;services&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085633Z" creationid="Toru Kokubun" creationdate="20180917T084635Z">
+        <seg>&lt;x1/&gt;CraftVariable&lt;x2/&gt; インスタンスは、&lt;x3/&gt;ビヘイビア&lt;x4/&gt;、および、&lt;x5/&gt;サービス&lt;x6/&gt;を持つプラグインによって拡張できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;Module.php&lt;x2/&gt; file is your module’s entry point for the system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T225922Z" creationid="Toru Kokubun" creationdate="20180916T222700Z">
+        <seg>&lt;x1/&gt;Module.php&lt;x2/&gt; ファイルは、システム向けのモジュールのエントリポイントです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19223,6 +20683,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T220020Z" creationid="Toru Kokubun" creationdate="20180910T220020Z">
         <seg>&lt;x1/&gt;siteUrl()&lt;x2/&gt; ファンクションは、次の引数を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;x1/&gt;src/Plugin.php&lt;x2/&gt; file is your plugin’s entry point for the system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231146Z" creationid="Toru Kokubun" creationdate="20180916T231146Z">
+        <seg>&lt;x1/&gt;src/Plugin.php&lt;x2/&gt; ファイルは、システム向けのプラグインのエントリポイントです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19435,6 +20903,14 @@ distortion in the image.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Module class</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222835Z" creationid="Toru Kokubun" creationdate="20180916T222835Z">
+        <seg>モジュールクラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Pieces of Craft</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T004341Z" creationid="Toru Kokubun" creationdate="20180421T004341Z">
@@ -19447,6 +20923,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T011605Z" creationid="Toru Kokubun" creationdate="20180414T011605Z">
         <seg>Craft のピース&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Plugin Class</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231126Z" creationid="Toru Kokubun" creationdate="20180916T231126Z">
+        <seg>プラグインクラス</seg>
       </tuv>
     </tu>
     <tu>
@@ -20686,6 +22170,14 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The global &lt;x1/&gt;craft&lt;x2/&gt; template variable is an instance of &lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T084538Z" creationid="Toru Kokubun" creationdate="20180917T084258Z">
+        <seg>グローバル &lt;x1/&gt;craft&lt;x2/&gt; テンプレート変数は、&lt;x3/&gt; のインスタンスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The group selection won't have any impact on your site's functionality.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T210631Z" creationid="Toru Kokubun" creationdate="20180430T210615Z">
@@ -20855,6 +22347,14 @@ unzipping and updating.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of your plugin directory doesn’t matter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230040Z" creationid="Toru Kokubun" creationdate="20180916T230040Z">
+        <seg>プラグインディレクトリの名前は、重要ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of your site, as defined in Settings → Sites.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T222124Z" creationid="Toru Kokubun" creationdate="20180504T221558Z">
@@ -20892,6 +22392,14 @@ locked.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T221005Z" creationid="Toru Kokubun" creationdate="20180429T220635Z">
         <seg>Craft が独自に追加しているのは、テンプレートのルート（&lt;x3/&gt;['template' =&gt; 'some/template']&lt;x4/&gt;）のサポートだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The only exceptions should be:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T005238Z" creationid="Toru Kokubun" creationdate="20180916T005238Z">
+        <seg>唯一の例外は、次の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21724,6 +23232,14 @@ directly accessible via a matching URL).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then, create a file that will hold your asset bundle class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T054810Z" creationid="Toru Kokubun" creationdate="20180917T054810Z">
+        <seg>次に、アセットバンドルクラスを持つファイルを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then, on whatever template your form submits to (e.g. &lt;x1/&gt;search/results.html&lt;x2/&gt;), just pull the search query from the &lt;x3/&gt;GET&lt;x4/&gt;/&lt;x5/&gt;POST&lt;x6/&gt; data, and pass it to the &lt;x7/&gt;search&lt;x8/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003525Z" creationid="Toru Kokubun" creationdate="20180624T003121Z">
@@ -21820,6 +23336,14 @@ directly accessible via a matching URL).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are two common types of model operation methods in Craft:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T074252Z" creationid="Toru Kokubun" creationdate="20180917T074252Z">
+        <seg>Craft には、2つの一般的なモデル操作メソッドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are two ways to achieve that in Craft: &lt;x1/&gt;environment variables&lt;x2/&gt; and &lt;x3/&gt;multi-environment configs&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T074646Z" creationid="Toru Kokubun" creationdate="20180908T074646Z">
@@ -21861,6 +23385,14 @@ higher cost slows down a brute-force attack.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There’s no point, and can be misleading at first glance.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T035533Z" creationid="Toru Kokubun" creationdate="20180916T035533Z">
+        <seg>それは意味がなく、一見すると紛らわしいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There’s no reason to wrap those links in conditionals since there will always be a first and last page.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215435Z" creationid="Toru Kokubun" creationdate="20180623T215435Z">
@@ -21873,6 +23405,14 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180422T095716Z">
         <seg>ショートカット構文がないため、エントリプロパティの1つで条件分岐する場合、変数 &lt;x1/&gt;object&lt;x2/&gt; で参照する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There’s one case where it would be nice if HTTP requests &lt;x1/&gt;could&lt;x2/&gt; access Craft/plugin files directly though: front-end resources, such as images, CSS, and JavaScript files.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T001334Z" creationid="Toru Kokubun" creationdate="20180917T001334Z">
+        <seg>ですが、HTTP リクエストで Craft / プラグインのファイルへ直接アクセス &lt;x1/&gt;できれば&lt;x2/&gt; 素敵なケースが1つあります。それは、画像、CSS、JavaScript ファイルのようなフロントエンドリソースです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22013,6 +23553,22 @@ higher cost slows down a brute-force attack.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They can be enabled/disabled by an admin, without running any Composer commands.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220338Z" creationid="Toru Kokubun" creationdate="20180915T220338Z">
+        <seg>Composer コマンドを実行することなく、管理者によって有効 / 無効にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They can be installed/trialed/purchased from the Craft Plugin Store.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220226Z" creationid="Toru Kokubun" creationdate="20180915T220135Z">
+        <seg>Craft のプラグインストアからインストール / 試用 / 購入することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They can be set in multiple ways – for example some hosts provide a UI for defining environment variables – but in general we recommend you set them in the &lt;x1/&gt;.env&lt;x2/&gt; file that comes with new Craft 3 projects.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T075537Z" creationid="Toru Kokubun" creationdate="20180908T075518Z">
@@ -22037,10 +23593,34 @@ higher cost slows down a brute-force attack.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They can do everything modules can do (plugins actually &lt;x2/&gt;are&lt;x3/&gt; modules, technically), and some other things that make them better for being publicly distributed:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220045Z" creationid="Toru Kokubun" creationdate="20180915T215733Z">
+        <seg>それらはモジュールでできるすべてのこと（技術的には、プラグインも実際はモジュール &lt;x2/&gt;です&lt;x3/&gt; 。）が可能で、一般に配布されるためのより良いことが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They can introduce new Dashboard widgets, field types, Control Panel sections, Twig templating features, workflow actions, and more.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T214349Z" creationid="Toru Kokubun" creationdate="20180716T214349Z">
         <seg>新しいダッシュボードウィジェット、フィールドタイプ、コントロールパネルセクション、Twig テンプレート機能、ワークフローアクションなどを導入することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They can make database changes when installed, updated, or uninstalled.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220229Z" creationid="Toru Kokubun" creationdate="20180915T220215Z">
+        <seg>インストール、アップデート、または、アンインストール時にデータベースを変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They can register specific CSS and JS files within the directory as &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; and &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; tags in the currently-rendered page.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T001939Z" creationid="Toru Kokubun" creationdate="20180917T001939Z">
+        <seg>現在レンダリングされたページの &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; および &lt;x4/&gt;&lt;x5/&gt;&lt;x6/&gt; タグとして、ディレクトリ内の特定の CSS および JS ファイルを登録できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22053,10 +23633,42 @@ higher cost slows down a brute-force attack.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They contain most of your plugin’s business logic.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071945Z" creationid="Toru Kokubun" creationdate="20180917T071945Z">
+        <seg>プラグインのビジネスロジックの大半を含んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They define your plugin’s API, which your plugin (and other plugins) can access.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T072024Z" creationid="Toru Kokubun" creationdate="20180917T072024Z">
+        <seg>プラグイン（および、他のプラグイン）がアクセスできる、プラグインの API を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They get their own settings page within the Settings section of the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T220300Z" creationid="Toru Kokubun" creationdate="20180915T220300Z">
+        <seg>コントロールパネルの「設定」セクション内に独自の設定ページを持てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They have several custom parameters, and they abstract away all the complexities of the actual SQL query needed to fetch the elements.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180501T000426Z" creationid="Toru Kokubun" creationdate="20180501T000413Z">
         <seg>いくつのカスタムパラメータがあり、エレメントを取得するのに必要な実際の SQL クエリの複雑さをすべて抽象化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They have two jobs:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071910Z" creationid="Toru Kokubun" creationdate="20180917T071910Z">
+        <seg>それは2つの働きを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22073,6 +23685,14 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T011814Z" creationid="Toru Kokubun" creationdate="20180420T011814Z">
         <seg>新しい名前付けされたパラメータ構文（&lt;x3/&gt;&lt;ParamName:RegExp&gt;&lt;x4/&gt;）に変換しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They publish an inaccessible directory into a directory below the web root, making it available for front-end pages to consume via HTTP requests.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T001804Z" creationid="Toru Kokubun" creationdate="20180917T001804Z">
+        <seg>ウェブルート配下のディレクトリにあるアクセスできないディレクトリを公開し、HTTP リクエスト経由でフロントエンドのページで利用できるようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22105,6 +23725,14 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T220140Z" creationid="Toru Kokubun" creationdate="20180428T220039Z">
         <seg>これは、コントロールパネル経由でエントリではないコンテンツを簡単に編集できるようにする便利な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Third party plugins should use a namespace root that refers to the vendor name and plugin name (e.g. &lt;x5/&gt;acme\myplugin\&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T234302Z" creationid="Toru Kokubun" creationdate="20180915T234243Z">
+        <seg>サードパーティプラグインは、ベンダー名とプラグイン名（例：&lt;x5/&gt;acme\myplugin\&lt;x6/&gt;）を参照する名前空間ルートを使用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22169,6 +23797,14 @@ higher cost slows down a brute-force attack.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T233219Z" creationid="Toru Kokubun" creationdate="20180504T233150Z">
         <seg>これは文字列（例：&lt;x2/&gt;'foo=1&amp;bar=2'&lt;x3/&gt;）またはオブジェクト（例：&lt;x4/&gt;{foo:'1', bar:'2'}&lt;x5/&gt;）が利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be located and named whatever you want.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055021Z" creationid="Toru Kokubun" creationdate="20180917T054911Z">
+        <seg>これは、あなたが望む場所で好きな名前にできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22448,6 +24084,14 @@ the redirect found in the &lt;x3/&gt;.htaccess&lt;x4/&gt; file that came with Cr
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the only way to enforce an argument type while also allowing &lt;x3/&gt;null&lt;x4/&gt; in PHP.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010434Z" creationid="Toru Kokubun" creationdate="20180916T010316Z">
+        <seg>これは、PHP で &lt;x3/&gt;null&lt;x4/&gt; を許可しながら引数型を強制する唯一の方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is where Craft stores a bunch of files that get dynamically generated at runtime.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T000250Z" creationid="Toru Kokubun" creationdate="20180421T020658Z">
@@ -22652,6 +24296,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will be the asset bundle’s &lt;x1/&gt;source directory&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T004626Z" creationid="Toru Kokubun" creationdate="20180917T004626Z">
+        <seg>これはアセットバンドルの&lt;x1/&gt;ソースディレクトリ&lt;x2/&gt;になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will only have effect if ImageMagick is in use.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T015347Z" creationid="Toru Kokubun" creationdate="20180908T014507Z">
@@ -22844,6 +24496,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a module, create a new directory for it somewhere within your Craft project, such as &lt;x1/&gt;modules/&lt;x2/&gt;/&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T220920Z" creationid="Toru Kokubun" creationdate="20180916T220920Z">
+        <seg>モジュールを作るため、Craft プロジェクト内のどこかに &lt;x1/&gt;modules/&lt;x2/&gt;/&lt;x3/&gt; のような新しいディレクトリを作成してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a new Craft project, run this command (substituting &lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; with the path where Composer should create the project):</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T082109Z" creationid="Toru Kokubun" creationdate="20180415T081853Z">
@@ -22924,6 +24584,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a service class for your plugin, create a &lt;x1/&gt;services/&lt;x2/&gt; subdirectory within your plugin’s &lt;x3/&gt;src/&lt;x4/&gt; directory, and create a file within it named after the class name you want to give your service.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073046Z" creationid="Toru Kokubun" creationdate="20180917T073046Z">
+        <seg>プラグインのサービスクラスを作成するために、プラグインの &lt;x3/&gt;src/&lt;x4/&gt; ディレクトリ内に &lt;x1/&gt;services/&lt;x2/&gt; サブディレクトリを作成し、提供したいサービスのクラス名にちなんで名付けられたファイルを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do that, Craft employs Yii’s &lt;x1/&gt;Message Translations&lt;x2/&gt; feature, and pre-defines a special translation category, &lt;x3/&gt;site&lt;x4/&gt;, for front-end messages.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T002802Z" creationid="Toru Kokubun" creationdate="20180910T002646Z">
@@ -22952,6 +24620,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T230802Z" creationid="Toru Kokubun" creationdate="20180908T230730Z">
         <seg>そのために、初めにすべてのコンフィグ設定を &lt;x5/&gt;'*'&lt;x6/&gt; キーの配列に移動し、&lt;x3/&gt;マルチ環境設定&lt;x4/&gt;にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To do that, use the &lt;x1/&gt;EVENT_REGISTER_SITE_TEMPLATE_ROOTS&lt;x2/&gt; event:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T082957Z" creationid="Toru Kokubun" creationdate="20180917T082957Z">
+        <seg>そのために、&lt;x1/&gt;EVENT_REGISTER_SITE_TEMPLATE_ROOTS&lt;x2/&gt; イベントを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23040,6 +24716,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T093618Z" creationid="Toru Kokubun" creationdate="20180909T093541Z">
         <seg>イメージエディタを起動するには、（アセットページまたは&lt;x1/&gt;アセットフィールド&lt;x2/&gt;のいずれかにある）画像をダブルクリックし、HUD の画像プレビューエリアの右上にある「編集」ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To learn more about modules, see the &lt;x1/&gt;Yii documentation&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222933Z" creationid="Toru Kokubun" creationdate="20180916T222933Z">
+        <seg>モジュールの詳細については、&lt;x1/&gt;Yii documentation&lt;x2/&gt; を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23348,6 +25032,22 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Translation Categories</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232850Z" creationid="Toru Kokubun" creationdate="20180916T232850Z">
+        <seg>翻訳カテゴリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Translation categories can be added programmatically by adding a new translation source onto the &lt;x1/&gt; array.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233634Z" creationid="Toru Kokubun" creationdate="20180916T233612Z">
+        <seg>翻訳カテゴリは、 &lt;x1/&gt; 配列に新しい翻訳ソースを加えることにより、プログラムで追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Treating Queries as Arrays</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T230131Z" creationid="Toru Kokubun" creationdate="20180420T230131Z">
@@ -23440,6 +25140,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T032340Z" creationid="Toru Kokubun" creationdate="20180427T032340Z">
         <seg>Twig と Craft は、テンプレートタグ内で利用できるいくつかのファンクションを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Twig extensions can be registered for Craft’s Twig environment by calling &lt;x1/&gt; method:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T090151Z" creationid="Toru Kokubun" creationdate="20180917T090135Z">
+        <seg>Twig エクステンションは、&lt;x1/&gt; メソッドを呼び出すことで Craft の Twig 環境向けに登録できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23596,6 +25304,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Type Declarations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T004955Z" creationid="Toru Kokubun" creationdate="20180916T004955Z">
+        <seg>型宣言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Type&lt;x1/&gt; – The type of content allowed in the column.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180426T011446Z" creationid="Toru Kokubun" creationdate="20180426T011020Z">
@@ -23684,6 +25400,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unset variables created by reference in foreach-loops after the loop is finished.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232011Z" creationid="Toru Kokubun" creationdate="20180915T232011Z">
+        <seg>ループ処理の終了後、foreach ループの参照によって作成された変数を解除してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unwelcome sexual attention.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T234820Z" creationid="Toru Kokubun" creationdate="20180414T234820Z">
@@ -23696,6 +25420,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T232505Z" creationid="Toru Kokubun" creationdate="20180420T060926Z">
         <seg>「ファイルシステムのパス」設定を新しいフォルダのロケーションにしてアップデートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update the application config</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222046Z" creationid="Toru Kokubun" creationdate="20180916T222046Z">
+        <seg>アプリケーション設定のアップデート</seg>
       </tuv>
     </tu>
     <tu>
@@ -23828,10 +25560,34 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;$obj-&gt;property !== null&lt;x2/&gt; rather than &lt;x3/&gt;isset($obj-&gt;property)&lt;x4/&gt; in conditions that check if an object property is set.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T222327Z" creationid="Toru Kokubun" creationdate="20180915T221705Z">
+        <seg>オブジェクトのプロパティがセットされているかをチェックする条件文では、&lt;x3/&gt;isset($obj-&gt;property)&lt;x4/&gt; よりむしろ &lt;x1/&gt;$obj-&gt;property !== null&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;$str === ''&lt;x2/&gt; rather than &lt;x3/&gt;strlen($str) === 0&lt;x4/&gt; when checking if a string is empty.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T231653Z" creationid="Toru Kokubun" creationdate="20180915T231653Z">
+        <seg>文字列が空かどうかをチェックする際は、&lt;x3/&gt;strlen($str) === 0&lt;x4/&gt; よりむしろ &lt;x1/&gt;$str === ''&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;(int)$foo&lt;x2/&gt;/&lt;x3/&gt;(float)$bar&lt;x4/&gt; rather than &lt;x5/&gt;intval($foo)&lt;x6/&gt;/&lt;x7/&gt;floatval($bar)&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T110119Z" creationid="Toru Kokubun" creationdate="20180625T110119Z">
         <seg>&lt;x5/&gt;intval($foo)&lt;x6/&gt; / &lt;x7/&gt;floatval($bar)&lt;x8/&gt; よりむしろ &lt;x1/&gt;(int)$foo&lt;x2/&gt; / &lt;x3/&gt;(float)$bar&lt;x4/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;bool&lt;x2/&gt; and &lt;x3/&gt;int&lt;x4/&gt; instead of &lt;x5/&gt;boolean&lt;x6/&gt; and &lt;x7/&gt;integer&lt;x8/&gt; in type declarations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T012309Z" creationid="Toru Kokubun" creationdate="20180916T012309Z">
+        <seg>型定義では、&lt;x5/&gt;boolean&lt;x6/&gt; と &lt;x7/&gt;integer&lt;x8/&gt; の代わりに &lt;x1/&gt;bool&lt;x2/&gt; と &lt;x3/&gt;int&lt;x4/&gt; を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23852,6 +25608,46 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;empty()&lt;x2/&gt;/&lt;x3/&gt;!empty()&lt;x4/&gt; in conditions that check if an array is/isn’t empty.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T221818Z" creationid="Toru Kokubun" creationdate="20180915T221818Z">
+        <seg>配列が空である / ではないをチェックする条件文では、&lt;x1/&gt;empty()&lt;x2/&gt; / &lt;x3/&gt;!empty()&lt;x4/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;implode()&lt;x2/&gt; rather than &lt;x3/&gt;join()&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232034Z" creationid="Toru Kokubun" creationdate="20180915T232034Z">
+        <seg>&lt;x3/&gt;join()&lt;x4/&gt; よりむしろ &lt;x1/&gt;implode()&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;in_array()&lt;x2/&gt; rather than &lt;x3/&gt;array_search(...) !== false&lt;x4/&gt; when the position of the needle isn’t needed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232224Z" creationid="Toru Kokubun" creationdate="20180915T232224Z">
+        <seg>needle の位置が必要でない場合、&lt;x3/&gt;array_search(...) !== false&lt;x4/&gt; よりむしろ &lt;x1/&gt;in_array()&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;self::CONSTANT&lt;x2/&gt; rather than &lt;x3/&gt;static::CONSTANT&lt;x4/&gt; (unnecessary overhead).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T225909Z" creationid="Toru Kokubun" creationdate="20180915T225909Z">
+        <seg>&lt;x3/&gt;static::CONSTANT&lt;x4/&gt;（不必要なオーバーヘッド）よりむしろ &lt;x1/&gt;self::CONSTANT&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;self::_foo()&lt;x2/&gt; rather than &lt;x3/&gt;static::_foo()&lt;x4/&gt; when calling private static functions, since &lt;x5/&gt;static::&lt;x6/&gt; would break if the class is extended.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T230308Z" creationid="Toru Kokubun" creationdate="20180915T225750Z">
+        <seg>クラスが拡張されている場合に &lt;x5/&gt;static::&lt;x6/&gt; が壊れるため、プライベートな static ファンクションを呼び出す際、&lt;x3/&gt;static::_foo()&lt;x4/&gt; ではなく &lt;x1/&gt;self::_foo()&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;sourceElement&lt;x2/&gt; if you want to find elements related to the given element, where the given element is the source of the relation</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T003303Z">
@@ -23860,10 +25656,90 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;strpos($foo, $bar) === 0&lt;x2/&gt; rather than &lt;x3/&gt;strncmp($foo, $bar, $barLength) === 0&lt;x4/&gt; when checking if one string begins with another string, for short strings.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T231554Z" creationid="Toru Kokubun" creationdate="20180915T231429Z">
+        <seg>短い文字列向けに他の文字列がある文字列ではじまるかをチェックする際は、&lt;x3/&gt;strncmp($foo, $bar, $barLength) === 0&lt;x4/&gt; よりむしろ &lt;x1/&gt;strpos($foo, $bar) === 0&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use &lt;x1/&gt;targetElement&lt;x2/&gt; if you want to find elements related to the given element, where the given element is the target of the relation</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T003810Z">
         <seg>与えられたエレメントのターゲットとして関連付くエレメントだけを見つけたい場合、&lt;x1/&gt;targetElement&lt;x2/&gt; を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use &lt;x1/&gt;them&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T034534Z" creationid="Toru Kokubun" creationdate="20180916T034534Z">
+        <seg>&lt;x1/&gt;Happy Path&lt;x2/&gt; を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use PHP 7.0-supported &lt;x1/&gt;argument type declarations&lt;x2/&gt; for all function arguments whenever possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010726Z" creationid="Toru Kokubun" creationdate="20180916T005213Z">
+        <seg>可能な限り、すべてのファンクションの引数に PHP 7.0 でサポートされる&lt;x1/&gt;引数の型宣言&lt;x2/&gt;を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use PHP 7.0-supported &lt;x1/&gt;return type declarations&lt;x2/&gt; for all methods whenever possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T010739Z" creationid="Toru Kokubun" creationdate="20180916T010624Z">
+        <seg>可能な限り、すべてのメソッドに PHP 7.0 でサポートされる&lt;x1/&gt;戻り値の型宣言&lt;x2/&gt;を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use a &lt;x1/&gt;behavior&lt;x2/&gt; to add custom properties or methods directly onto the &lt;x3/&gt;craft&lt;x4/&gt; variable (e.g. &lt;x5/&gt;craft.foo()&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085644Z" creationid="Toru Kokubun" creationdate="20180917T084901Z">
+        <seg>カスタムプロパティ、または、メソッドを直接 &lt;x3/&gt;craft&lt;x4/&gt; 変数に追加するために、&lt;x1/&gt;ビヘイビア&lt;x2/&gt;を使用します（例：&lt;x5/&gt;craft.foo()&lt;x6/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use a &lt;x1/&gt;service&lt;x2/&gt; to add a sub-object to the &lt;x3/&gt;craft&lt;x4/&gt; variable, which can be accessed with a custom property name, called the service’s “ID”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085607Z" creationid="Toru Kokubun" creationdate="20180917T085138Z">
+        <seg>&lt;x3/&gt;craft&lt;x4/&gt; 変数に、サービスの「ID」と呼ばれるカスタムプロパティ名でアクセスできるサブオブジェクトを追加するために、&lt;x1/&gt;サービス&lt;x2/&gt;を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use full sentences with proper capitalization, grammar, and punctuation in docblock descriptions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T011944Z" creationid="Toru Kokubun" creationdate="20180916T011944Z">
+        <seg>適切な大文字、文法、および、句読点を持つ完全な文章を docblock の説明に使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use shortcut operators (&lt;x1/&gt;+=&lt;x2/&gt;, &lt;x3/&gt;-=&lt;x4/&gt;, &lt;x5/&gt;*=&lt;x6/&gt;, &lt;x7/&gt;/=&lt;x8/&gt;, &lt;x9/&gt;%=&lt;x10/&gt;, &lt;x11/&gt;.=&lt;x12/&gt;, etc.) whenever possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232636Z" creationid="Toru Kokubun" creationdate="20180915T232636Z">
+        <seg>可能であれば、ショートカット演算子（&lt;x1/&gt;+=&lt;x2/&gt;、&lt;x3/&gt;-=&lt;x4/&gt;、&lt;x5/&gt;*=&lt;x6/&gt;、&lt;x7/&gt;/=&lt;x8/&gt;、&lt;x9/&gt;%=&lt;x10/&gt;、&lt;x11/&gt;.=&lt;x12/&gt; など）を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use shortcut regex patterns (&lt;x1/&gt;\d&lt;x2/&gt;, &lt;x3/&gt;\D&lt;x4/&gt;, &lt;x5/&gt;\w&lt;x6/&gt;, &lt;x7/&gt;\W&lt;x8/&gt;, etc.) whenever possible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232828Z" creationid="Toru Kokubun" creationdate="20180915T232828Z">
+        <seg>可能であれば、ショートカット正規表現パターン（&lt;x1/&gt;\d&lt;x2/&gt;、&lt;x3/&gt;\D&lt;x4/&gt;、&lt;x5/&gt;\w&lt;x6/&gt;、&lt;x7/&gt;\W&lt;x8/&gt; など）を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use single quotes (&lt;x1/&gt;'&lt;x2/&gt;) whenever double quotes (&lt;x3/&gt;"&lt;x4/&gt;) aren’t needed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232507Z" creationid="Toru Kokubun" creationdate="20180915T232507Z">
+        <seg>ダブルクォート（&lt;x3/&gt;"&lt;x4/&gt;）が不要な場合、シングルクォート（&lt;x1/&gt;'&lt;x2/&gt;）を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23878,8 +25754,40 @@ automatically if left blank.</seg>
       <tuv lang="EN-US">
         <seg>Use the &lt;x1/&gt; config setting instead</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T004744Z" creationid="Toru Kokubun" creationdate="20180714T004744Z">
-        <seg>代わりに、コンフィグ設定の &lt;x1/&gt; を使ってください</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074237Z" creationid="Toru Kokubun" creationdate="20180714T004744Z">
+        <seg>代わりに、コンフィグ設定の &lt;x1/&gt; を使用してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the &lt;x1/&gt;DIRECTORY_SEPARATOR&lt;x2/&gt; constant rather than &lt;x3/&gt;'/'&lt;x4/&gt; when defining file paths.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T232923Z" creationid="Toru Kokubun" creationdate="20180915T232923Z">
+        <seg>ファイルパスを定義する際は、&lt;x3/&gt;'/'&lt;x4/&gt; よりむしろ &lt;x1/&gt;DIRECTORY_SEPARATOR&lt;x2/&gt; 定数を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the &lt;x1/&gt;['col1' =&gt; SORT_ASC, 'col2' =&gt; SORT_DESC]&lt;x2/&gt; syntax with &lt;x3/&gt;orderBy()&lt;x4/&gt; instead of &lt;x5/&gt;'col1, col2 desc'&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074354Z" creationid="Toru Kokubun" creationdate="20180916T074354Z">
+        <seg>&lt;x5/&gt;'col1, col2 desc'&lt;x6/&gt; の代わりに、&lt;x3/&gt;orderBy()&lt;x4/&gt; で &lt;x1/&gt;['col1' =&gt; SORT_ASC, 'col2' =&gt; SORT_DESC]&lt;x2/&gt; 構文を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the &lt;x1/&gt;['col1', 'col2']&lt;x2/&gt; syntax with &lt;x3/&gt;select()&lt;x4/&gt; and &lt;x5/&gt;groupBy()&lt;x6/&gt; instead of &lt;x7/&gt;'col1, col2'&lt;x8/&gt;,  even if only referencing a single column</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074111Z" creationid="Toru Kokubun" creationdate="20180916T074111Z">
+        <seg>単一のカラムを参照する場合でも、&lt;x7/&gt;'col1, col2'&lt;x8/&gt; の代わりに &lt;x3/&gt;select()&lt;x4/&gt; および &lt;x5/&gt;groupBy()&lt;x6/&gt; で &lt;x1/&gt;['col1', 'col2']&lt;x2/&gt; 構文を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the &lt;x1/&gt;['{{%tablename}}']&lt;x2/&gt; syntax with &lt;x3/&gt;from()&lt;x4/&gt; instead of &lt;x5/&gt;'{{%tablename}}'&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T074217Z" creationid="Toru Kokubun" creationdate="20180916T074217Z">
+        <seg>&lt;x5/&gt;'{{%tablename}}'&lt;x6/&gt; の代わりに、&lt;x3/&gt;from()&lt;x4/&gt; で &lt;x1/&gt;['{{%tablename}}']&lt;x2/&gt; 構文を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23916,6 +25824,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use this template as a starting point for your &lt;x1/&gt;Module.php&lt;x2/&gt; file:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222734Z" creationid="Toru Kokubun" creationdate="20180916T222734Z">
+        <seg>&lt;x1/&gt;Module.php&lt;x2/&gt; ファイルの出発点として、このテンプレートを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use this template as a starting point for your &lt;x1/&gt;Plugin.php&lt;x2/&gt; file:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T005240Z" creationid="Toru Kokubun" creationdate="20180625T005240Z">
@@ -23932,10 +25848,26 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use this template as a starting point for your asset bundle class:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055152Z" creationid="Toru Kokubun" creationdate="20180917T055152Z">
+        <seg>アセットバンドルクラスの出発点として、このテンプレートを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>User Groups</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T010446Z" creationid="Toru Kokubun" creationdate="20180428T010446Z">
         <seg>ユーザーグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>User Permissions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T231727Z" creationid="Toru Kokubun" creationdate="20180916T231727Z">
+        <seg>ユーザー権限</seg>
       </tuv>
     </tu>
     <tu>
@@ -24332,6 +26264,22 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We call these &lt;x5/&gt;class-oriented methods&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T074649Z" creationid="Toru Kokubun" creationdate="20180917T074635Z">
+        <seg>私たちは、これらを&lt;x5/&gt;クラス指向メソッド&lt;x6/&gt;と呼びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We call these &lt;x5/&gt;interface-oriented methods&lt;x6/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T080712Z" creationid="Toru Kokubun" creationdate="20180917T080712Z">
+        <seg>私たちは、これらを&lt;x5/&gt;インターフェース指向メソッド&lt;x6/&gt;と呼びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We can determine the current block type’s handle by checking &lt;x1/&gt;`block.type`&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180425T212846Z" creationid="Toru Kokubun" creationdate="20180425T212846Z">
@@ -24532,6 +26480,14 @@ automatically if left blank.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We’ll go with &lt;x1/&gt;FooBundle&lt;x2/&gt; here.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T055045Z" creationid="Toru Kokubun" creationdate="20180917T055045Z">
+        <seg>ここでは &lt;x1/&gt;FooBundle&lt;x2/&gt; とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What Goes Inside</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T012741Z" creationid="Toru Kokubun" creationdate="20180910T012741Z">
@@ -24544,6 +26500,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T085646Z" creationid="Toru Kokubun" creationdate="20180624T085646Z">
         <seg>プラグインとは？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What are Services?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T071337Z" creationid="Toru Kokubun" creationdate="20180917T071337Z">
+        <seg>サービスとは？</seg>
       </tuv>
     </tu>
     <tu>
@@ -24648,6 +26612,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T220147Z" creationid="Toru Kokubun" creationdate="20180429T220147Z">
         <seg>リクエストが届くと、Craft は初めにこのファイルをチェックし、次に「設定 &gt; ルート」に定義されたルートをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a template references &lt;x4/&gt;craft.entries&lt;x5/&gt; or &lt;x6/&gt;craft.entries()&lt;x7/&gt;, it’s calling &lt;x8/&gt;CraftVariable::entries()&lt;x9/&gt; behind the scenes, for example.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T084502Z" creationid="Toru Kokubun" creationdate="20180917T084502Z">
+        <seg>例えば、テンプレートが &lt;x4/&gt;craft.entries&lt;x5/&gt; または &lt;x6/&gt;craft.entries()&lt;x7/&gt; を参照する際、 その裏で &lt;x8/&gt;CraftVariable::entries()&lt;x9/&gt; が呼び出されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25504,6 +27476,22 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With that in place, all that is left is to register the asset bundle wherever its JS/CSS files are needed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T065857Z" creationid="Toru Kokubun" creationdate="20180917T065857Z">
+        <seg>ファイルをあるべき場所に用意したら、あとは JS / CSS ファイルを必要とされる場所でアセットバンドルに登録するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With that in place, go to your project’s directory in your terminal, and run the following command:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T221748Z" creationid="Toru Kokubun" creationdate="20180916T221723Z">
+        <seg>そこにモジュールを配置したら、ターミナル上でプロジェクトのディレクトリに移動し、次のコマンドを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With that in place, you can start referencing your new aliases from your asset volume settings:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T233330Z" creationid="Toru Kokubun" creationdate="20180908T233324Z">
@@ -25632,6 +27620,14 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can access your service from anywhere in the codebase using &lt;x1/&gt;MyPlugin::getInstance()-&gt;serviceName&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073623Z" creationid="Toru Kokubun" creationdate="20180917T073623Z">
+        <seg>&lt;x1/&gt;MyPlugin::getInstance()-&gt;serviceName&lt;x2/&gt; を使用して、コードベースのどこからでもサービスにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add First Page and Last Page links into the mix, you can do that too:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T215338Z" creationid="Toru Kokubun" creationdate="20180623T215338Z">
@@ -25652,6 +27648,14 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T013904Z" creationid="Toru Kokubun" creationdate="20180424T013840Z">
         <seg>ElementCriteriaModel オブジェクトにパラメータを追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can add your module to your project’s &lt;x1/&gt;application configuration&lt;x2/&gt; by listing it in the &lt;x3/&gt;modules&lt;x4/&gt; and &lt;x5/&gt;bootstrap&lt;x6/&gt; arrays.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T222308Z" creationid="Toru Kokubun" creationdate="20180916T222154Z">
+        <seg>&lt;x3/&gt;modules&lt;x4/&gt; および &lt;x5/&gt;bootstrap&lt;x6/&gt; 配列にリストすることによって、プロジェクトの&lt;x1/&gt;アプリケーション設定&lt;x2/&gt;にモジュールを追加できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25728,6 +27732,14 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also see if any given user has a permission by calling &lt;x1/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232801Z" creationid="Toru Kokubun" creationdate="20180916T232801Z">
+        <seg>&lt;x1/&gt; を呼び出すことで、指定されたユーザーが権限を持っているかを確認することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also set the &lt;x1/&gt;order&lt;x2/&gt; parameter to &lt;x3/&gt;'score'&lt;x4/&gt; if you want results ordered by best-match to worst-match:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T220316Z" creationid="Toru Kokubun" creationdate="20180429T235115Z">
@@ -25800,6 +27812,14 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can attach your behavior or service to the &lt;x1/&gt;CraftVariable&lt;x2/&gt; instance by registering an &lt;x3/&gt;EVENT_INIT&lt;x4/&gt; event handler from your plugin’s &lt;x5/&gt;init()&lt;x6/&gt; method:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T085520Z" creationid="Toru Kokubun" creationdate="20180917T085424Z">
+        <seg>プラグインの &lt;x5/&gt;init()&lt;x6/&gt; メソッドから &lt;x3/&gt;EVENT_INIT&lt;x4/&gt; イベントハンドラを登録することで、&lt;x1/&gt;CraftVariable&lt;x2/&gt; インスタンスにビヘイビア、または、サービスを付加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can change that behavior by enabling the &lt;x1/&gt; config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T074725Z" creationid="Toru Kokubun" creationdate="20180909T074709Z">
@@ -25820,6 +27840,14 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180430T011226Z" creationid="Toru Kokubun" creationdate="20180430T011226Z">
         <seg>追加のサイトを作成すると、プライマリサイトを変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can check if the logged-in user has a permission by calling &lt;x1/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T232632Z" creationid="Toru Kokubun" creationdate="20180916T232632Z">
+        <seg>&lt;x1/&gt; を呼び出すことで、ログインしているユーザーが権限を持っているかを確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26513,6 +28541,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can register it from a template using this code:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T065940Z" creationid="Toru Kokubun" creationdate="20180917T065927Z">
+        <seg>次のコードを使用して、テンプレートから登録できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can rename a subfolder by right-clicking on the subfolder in the left sidebar, and then choosing “Rename folder”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T092045Z" creationid="Toru Kokubun" creationdate="20180909T091920Z">
@@ -26969,6 +29005,30 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>['col' =&gt; $value]&lt;x1/&gt;  instead of &lt;x2/&gt;['=', 'col', $value]&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T081146Z" creationid="Toru Kokubun" creationdate="20180916T081146Z">
+        <seg>&lt;x2/&gt;['=', 'col', $value]&lt;x3/&gt; の代わりに ['col' =&gt; $value]&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>['col' =&gt; $values]&lt;x1/&gt;  instead of &lt;x2/&gt;['in', 'col', $values]&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T080616Z" creationid="Toru Kokubun" creationdate="20180916T080331Z">
+        <seg>&lt;x2/&gt;['in', 'col', $values]&lt;x3/&gt; の代わりに ['col' =&gt; $values]&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>['like', 'col', 'value']&lt;x1/&gt;  instead of &lt;x2/&gt;['like', 'col', '%value%', false]&lt;x3/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T081345Z" creationid="Toru Kokubun" creationdate="20180916T081210Z">
+        <seg>&lt;x2/&gt;['like', 'col', '%value%', false]&lt;x3/&gt; の代わりに ['like', 'col', 'value']&lt;x1/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[`craftcms/cms`]&lt;x1/&gt; – This is the Composer package that contains all of Craft’s source code.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180418T001735Z" creationid="Toru Kokubun" creationdate="20180415T072905Z">
@@ -27385,6 +29445,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>class&lt;x1/&gt; – The &lt;x2/&gt;Plugin class&lt;x3/&gt; name.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230938Z" creationid="Toru Kokubun" creationdate="20180916T230938Z">
+        <seg>class&lt;x1/&gt; – &lt;x2/&gt;プラグインクラス&lt;x3/&gt;名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>class&lt;x1/&gt; – The &lt;x2/&gt;primary Plugin class&lt;x3/&gt; name.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T235659Z" creationid="Toru Kokubun" creationdate="20180624T235659Z">
@@ -27481,6 +29549,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>developer/repo&lt;x1/&gt; with the actual GitHub account and repository names where the plugin will live.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230454Z" creationid="Toru Kokubun" creationdate="20180916T230454Z">
+        <seg>developer/repo&lt;x1/&gt; をプラグインが稼働している実際の GitHub アカウントとリポジトリ名にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>developer&lt;x1/&gt; – The developer name.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T002426Z" creationid="Toru Kokubun" creationdate="20180625T002258Z">
@@ -27525,6 +29601,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T002621Z" creationid="Toru Kokubun" creationdate="20180429T002555Z">
         <seg>element&lt;x1/&gt;, &lt;x2/&gt;sourceElement&lt;x3/&gt;、または &lt;x4/&gt;targetElement&lt;x5/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>email@developer-website.tld&lt;x1/&gt; with your support email.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230352Z" creationid="Toru Kokubun" creationdate="20180916T230352Z">
+        <seg>email@developer-website.tld&lt;x1/&gt; をサポートのメールアドレスにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27577,6 +29661,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>handle&lt;x1/&gt; – The plugin handle &lt;x2/&gt;(required)&lt;x3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230908Z" creationid="Toru Kokubun" creationdate="20180916T230859Z">
+        <seg>handle&lt;x1/&gt; – プラグインハンドル &lt;x2/&gt;（必須）&lt;x3/&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hasCpSection&lt;x1/&gt; – Whether the plugin has its own section in the Control Panel (should be &lt;x2/&gt;true&lt;x3/&gt; or &lt;x4/&gt;false&lt;x5/&gt;).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T003357Z" creationid="Toru Kokubun" creationdate="20180625T003338Z">
@@ -27597,6 +29689,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T222322Z" creationid="Toru Kokubun" creationdate="20180624T222241Z">
         <seg>https://developer-url.com&lt;x1/&gt; をコントロールパネルの開発者名にリンクするウェブサイトの URL にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://developer-website.tld&lt;x1/&gt; with the URL to the website the developer name should link to in the Control Panel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230342Z" creationid="Toru Kokubun" creationdate="20180916T230342Z">
+        <seg>https://developer-website.tld&lt;x1/&gt; をコントロールパネルの開発者名にリンクするウェブサイトの URL にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27701,6 +29801,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T000116Z" creationid="Toru Kokubun" creationdate="20180625T000116Z">
         <seg>name&lt;x1/&gt; – プラグイン名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>namespace\\prefix\\&lt;x1/&gt; with your namespace prefix.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T230509Z" creationid="Toru Kokubun" creationdate="20180916T230509Z">
+        <seg>namespace\\prefix\\&lt;x1/&gt; を名前空間接頭辞にします。</seg>
       </tuv>
     </tu>
     <tu>
