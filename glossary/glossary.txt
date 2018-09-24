@@ -112,3 +112,17 @@ Further Reading	参考文献
 logged-in user	ログインしているユーザー
 call	呼びます	「We call these A.」のような文脈の場合は「名付ける」という意味合いを考慮。
 behind the scenes	陰の、舞台裏の
+Alternatively	あるいは、または、その代わりに
+reinventing the wheel	車輪を再発明している
+leaner	無駄のない、スリムな
+whereas	その一方で
+base class	基本クラス
+equivalent	匹敵するもの
+arbitrary	任意の
+powered by	〜を備えた
+foreign keys	外部キー
+Namely	すなわち
+assumptions	仮定、想定
+wiggle room	余地、余裕、自由
+Eventually	最終的に
+grunt work	つまらない仕事、単純作業
