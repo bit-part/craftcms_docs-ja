@@ -80,13 +80,17 @@ OmegaT の設定で調整できないようでしたら、訳文ファイルを�
 
 なお、確認している修正が必要なファイルは以下の通りです。
 
-* target/ja/category-fields.md
-* target/ja/dev/tags/cache.html
-* target/ja/extend/coding-guidelines.html
-* target/ja/routing.html
-* target/ja/upgrade.md
+* target/docs/ja/category-fields.md
+* target/docs/ja/dev/tags/cache.html
+* target/docs/ja/extend/coding-guidelines.html
+* target/docs/ja/extend/element-types.md
+* target/docs/ja/extend/updating-plugins.md
+* target/docs/ja/routing.html
+* target/docs/ja/upgrade.md
 
-`target/ja/extend/coding-guidelines.html` のみ、「インターフェース 対 実装クラス」と「条件」のインライン表記部分のバッククォートも修正が必要です。
+`target/docs/ja/extend/coding-guidelines.html` では、「インターフェース 対 実装クラス」と「条件」のインライン表記部分のバッククォートも修正が必要です。
+
+`target/docs/ja/extend/updating-plugins.md` では、「Yii 2」の `アセット → Assets`、「翻訳」のインライン表記部分のバッククォートも修正が必要です。
 
 # 管理者
 
