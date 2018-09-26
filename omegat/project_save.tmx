@@ -833,6 +833,16 @@ Craft をヘッドレス CMS として使用する方法について学ぶため
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+Craft doesn’t ever automatically create links to your Forgot Password page – only your own templates will link to it – so you don’t need to set any config settings with the path to this page, unlike other pages in the password-reset flow (e.g. &lt;x1/&gt; and &lt;x2/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T214906Z" creationid="Toru Kokubun" creationdate="20180926T214819Z">
+        <seg>::: tip
+Craft がパスワードを忘れた際のページを自動的に作成することはありません。あなた自身がテンプレートにリンクを設定するだけです。そのため、パスワードリセットフローの他のページとは異なり、このページのパスにコンフィグ設定をセットする必要はありません（例：&lt;x1/&gt; および &lt;x2/&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 Craft doesn’t require you to create additional &lt;x1/&gt;web/&lt;x2/&gt; directories for new sites, though it’s fine if you need to.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T080508Z" creationid="Toru Kokubun" creationdate="20180623T080508Z">
@@ -1503,6 +1513,16 @@ You can customize your site’s 404 page by placing a &lt;x1/&gt;404.html&lt;x2/
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+You can customize your site’s 404 page by placing a &lt;x1/&gt;404.twig&lt;x2/&gt; template at the root of your &lt;x3/&gt;templates/&lt;x4/&gt; directory.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T212806Z" creationid="Toru Kokubun" creationdate="20180926T212806Z">
+        <seg>::: tip
+&lt;x1/&gt;404.twig&lt;x2/&gt; テンプレートを &lt;x3/&gt;templates/&lt;x4/&gt; ディレクトリのルートに配置することで、サイトの404ページをカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 You can only nest categories up to the level specified in the Max Level field Category Group settings.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T071808Z" creationid="Toru Kokubun" creationdate="20180623T071808Z">
@@ -1548,6 +1568,16 @@ You can safely ignore the &lt;x1/&gt;safeDown()&lt;x2/&gt; method, as Craft does
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180923T060356Z" creationid="Toru Kokubun" creationdate="20180923T060356Z">
         <seg>::: tip
 Craft にはコントロールパネルからプラグインのマイグレーションを元に戻す方法がないため、&lt;x1/&gt;safeDown()&lt;x2/&gt; メソッドを無視しても問題ありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+You can use the &lt;x1/&gt; config setting to customize what comes before the actual page number in your URLs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220433Z" creationid="Toru Kokubun" creationdate="20180926T220433Z">
+        <seg>::: tip
+URL の実際のページ番号の前にあるものをカスタマイズするために、コンフィグ設定の &lt;x1/&gt; を使用することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1668,6 +1698,16 @@ One caveat of &lt;x1/&gt;path&lt;x2/&gt; Composer repositories is that Composer 
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180625T015724Z" creationid="Toru Kokubun" creationdate="20180625T014859Z">
         <seg>::: warning
 &lt;x1/&gt;path&lt;x2/&gt; Composer リポジトリの難点の1つは、&lt;x5/&gt;composer update&lt;x6/&gt; を実行した際に Composer が &lt;x3/&gt;path&lt;x4/&gt; ベースの依存関係を無視することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: warning
+Only a single &lt;x1/&gt;{% paginate %}&lt;x2/&gt; tag should be used per request.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220447Z" creationid="Toru Kokubun" creationdate="20180926T220447Z">
+        <seg>::: warning
+リクエストごとに、1つの &lt;x1/&gt;{% paginate %}&lt;x2/&gt; タグだけを使用しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1872,6 +1912,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x11/&gt;*ty&lt;x12/&gt; | containing a word that ends with “ty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213226Z" creationid="Toru Kokubun" creationdate="20180926T213209Z">
+        <seg>&lt;x11/&gt;*ty&lt;x12/&gt; | 「ty」で終わる単語を含んでいる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x11/&gt;sal*&lt;x12/&gt; | containing a word that begins with “sal”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073701Z" creationid="Toru Kokubun" creationdate="20180623T073701Z">
@@ -1904,6 +1952,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x13/&gt;*alt*&lt;x14/&gt; | containing a word that contains “alt”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213239Z" creationid="Toru Kokubun" creationdate="20180926T213239Z">
+        <seg>&lt;x13/&gt;*alt*&lt;x14/&gt; | 「alt」を含む単語を含んでいる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x13/&gt;*ty&lt;x14/&gt; | containing a word that ends with “ty”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073715Z" creationid="Toru Kokubun" creationdate="20180623T073715Z">
@@ -1928,10 +1984,26 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x15/&gt;body:salty&lt;x16/&gt; | where the &lt;x17/&gt;body&lt;x18/&gt; field contains “salty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213253Z" creationid="Toru Kokubun" creationdate="20180926T213253Z">
+        <seg>&lt;x15/&gt;body:salty&lt;x16/&gt; | &lt;x17/&gt;body&lt;x18/&gt; フィールドに「salty」を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x17/&gt;body:salty&lt;x18/&gt; | where the &lt;x19/&gt;body&lt;x20/&gt; field contains “salty”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073945Z" creationid="Toru Kokubun" creationdate="20180623T073945Z">
         <seg>&lt;x17/&gt;body:salty&lt;x18/&gt; | &lt;x19/&gt;body&lt;x20/&gt; フィールドに「salty」を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x19/&gt;body:salty body:dog&lt;x20/&gt; | where the &lt;x21/&gt;body&lt;x22/&gt; field contains both “salty” and “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213321Z" creationid="Toru Kokubun" creationdate="20180926T213321Z">
+        <seg>&lt;x19/&gt;body:salty body:dog&lt;x20/&gt; | &lt;x21/&gt;body&lt;x22/&gt; フィールドに「salty」と「dog」の両方を含む。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1952,6 +2024,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x23/&gt;body:salty OR body:dog&lt;x24/&gt; | where the &lt;x25/&gt;body&lt;x26/&gt; field contains either “salty” or “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213348Z" creationid="Toru Kokubun" creationdate="20180926T213336Z">
+        <seg>&lt;x23/&gt;body:salty OR body:dog&lt;x24/&gt; | &lt;x25/&gt;body&lt;x26/&gt; フィールドに「salty」または「dog」のいずれかを含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x25/&gt;body:salty OR body:dog&lt;x26/&gt; | where the &lt;x27/&gt;body&lt;x28/&gt; field contains either “salty” or “dog”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074221Z" creationid="Toru Kokubun" creationdate="20180623T074221Z">
@@ -1964,6 +2044,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233037Z" creationid="Toru Kokubun" creationdate="20180429T232256Z">
         <seg>&lt;x26/&gt;「salty」と「dog」の両方を含んでいる&lt;x27/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x27/&gt;body:salty -body:dog&lt;x28/&gt; | where the &lt;x29/&gt;body&lt;x30/&gt; field contains “salty” but not “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213402Z" creationid="Toru Kokubun" creationdate="20180926T213402Z">
+        <seg>&lt;x27/&gt;body:salty -body:dog&lt;x28/&gt; | &lt;x29/&gt;body&lt;x30/&gt; フィールドに「salty」を含むが「dog」を含まない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1986,8 +2074,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>&lt;x3/&gt;salty dog&lt;x4/&gt; | containing both “salty” and “dog”.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073441Z" creationid="Toru Kokubun" creationdate="20180623T073441Z">
-        <seg>&lt;x3/&gt;salty dog&lt;x4/&gt; | 「salty」と「dog」の両方を含んでいる</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213212Z" creationid="Toru Kokubun" creationdate="20180623T073441Z">
+        <seg>&lt;x3/&gt;salty dog&lt;x4/&gt; | 「salty」と「dog」の両方を含んでいる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1996,6 +2084,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T221830Z" creationid="Toru Kokubun" creationdate="20180506T221830Z">
         <seg>&lt;x3/&gt;{% cache %}&lt;x4/&gt; は高速なデータベース接続、効率的なテンプレート、または適度なクエリ数に代わるものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x31/&gt;body:"salty dog"&lt;x32/&gt; | where the &lt;x33/&gt;body&lt;x34/&gt; field contains the exact phrase “salty dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213419Z" creationid="Toru Kokubun" creationdate="20180926T213419Z">
+        <seg>&lt;x31/&gt;body:"salty dog"&lt;x32/&gt; | &lt;x33/&gt;body&lt;x34/&gt; フィールドに正確なフレーズとして「salty dog」を含む。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2016,6 +2112,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x35/&gt;body:*ty&lt;x36/&gt; | where the &lt;x37/&gt;body&lt;x38/&gt; field contains a word that ends with “ty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213447Z" creationid="Toru Kokubun" creationdate="20180926T213447Z">
+        <seg>&lt;x35/&gt;body:*ty&lt;x36/&gt; | &lt;x37/&gt;body&lt;x38/&gt; フィールドに「ty」で終わる単語を含む。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x37/&gt;body:sal*&lt;x38/&gt; | where the &lt;x39/&gt;body&lt;x40/&gt; field contains a word that begins with “sal”.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074945Z" creationid="Toru Kokubun" creationdate="20180623T074443Z">
@@ -2028,6 +2132,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233050Z" creationid="Toru Kokubun" creationdate="20180429T232418Z">
         <seg>&lt;x38/&gt;「salty」または「dog」のいずれか（または、両方）を含んでいる&lt;x39/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x39/&gt;body:*alt*&lt;x40/&gt; | where the &lt;x41/&gt;body&lt;x42/&gt; field contains a word that contains “alt”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213502Z" creationid="Toru Kokubun" creationdate="20180926T213502Z">
+        <seg>&lt;x39/&gt;body:*alt*&lt;x40/&gt; | &lt;x41/&gt;body&lt;x42/&gt; フィールドに「alt」を含む単語を含む。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2048,6 +2160,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x43/&gt;body::salty&lt;x44/&gt; | where the &lt;x45/&gt;body&lt;x46/&gt; field is set to “salty” and nothing more.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213517Z" creationid="Toru Kokubun" creationdate="20180926T213517Z">
+        <seg>&lt;x43/&gt;body::salty&lt;x44/&gt; | &lt;x45/&gt;body&lt;x46/&gt; フィールドに「salty」がセットされ、それ以外のものがない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x44/&gt;where the ‘body’ field contains either “salty” or “dog”.&lt;x45/&gt;</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T232453Z" creationid="Toru Kokubun" creationdate="20180429T232453Z">
@@ -2060,6 +2180,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T075003Z" creationid="Toru Kokubun" creationdate="20180623T074603Z">
         <seg>&lt;x45/&gt;body:*alt*&lt;x46/&gt; | &lt;x47/&gt;body&lt;x48/&gt; フィールドに「alt」を含む単語を含む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x47/&gt;body::"salty dog"&lt;x48/&gt; | where the &lt;x49/&gt;body&lt;x50/&gt; field is set to “salty dog” and nothing more.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213533Z" creationid="Toru Kokubun" creationdate="20180926T213533Z">
+        <seg>&lt;x47/&gt;body::"salty dog"&lt;x48/&gt; | &lt;x49/&gt;body&lt;x50/&gt; フィールドに「salty dog」がセットされ、それ以外のものがない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2106,8 +2234,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>&lt;x5/&gt;salty OR dog&lt;x6/&gt; | containing either “salty” or “dog” (or both).</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073501Z" creationid="Toru Kokubun" creationdate="20180623T073501Z">
-        <seg>&lt;x5/&gt;salty OR dog&lt;x6/&gt; | 「salty」または「dog」のいずれか（または、両方）を含んでいる</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213216Z" creationid="Toru Kokubun" creationdate="20180623T073501Z">
+        <seg>&lt;x5/&gt;salty OR dog&lt;x6/&gt; | 「salty」または「dog」のいずれか（または、両方）を含んでいる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2120,10 +2248,26 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;x51/&gt;body::salty*&lt;x52/&gt; | where the &lt;x53/&gt;body&lt;x54/&gt; field begins with “salty”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213544Z" creationid="Toru Kokubun" creationdate="20180926T213544Z">
+        <seg>&lt;x51/&gt;body::salty*&lt;x52/&gt; | &lt;x53/&gt;body&lt;x54/&gt; フィールドが「salty」ではじまる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;x53/&gt;body::"salty dog"&lt;x54/&gt; | where the &lt;x55/&gt;body&lt;x56/&gt; field is set to “salty dog” and nothing more.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074707Z" creationid="Toru Kokubun" creationdate="20180623T074707Z">
         <seg>&lt;x53/&gt;body::"salty dog"&lt;x54/&gt; | &lt;x55/&gt;body&lt;x56/&gt; フィールドに「salty dog」がセットされ、それ以外のものがない</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x55/&gt;body::*dog&lt;x56/&gt; | where the &lt;x57/&gt;body&lt;x58/&gt; field ends with “dog”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213556Z" creationid="Toru Kokubun" creationdate="20180926T213556Z">
+        <seg>&lt;x55/&gt;body::*dog&lt;x56/&gt; | &lt;x57/&gt;body&lt;x58/&gt; フィールドが「dog」で終わる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2140,6 +2284,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T074836Z" creationid="Toru Kokubun" creationdate="20180623T074836Z">
         <seg>&lt;x57/&gt;body::salty*&lt;x58/&gt; | &lt;x59/&gt;body&lt;x60/&gt; フィールドが「salty」ではじまる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x59/&gt;body:*&lt;x60/&gt; | where the &lt;x61/&gt;body&lt;x62/&gt; field contains any value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213608Z" creationid="Toru Kokubun" creationdate="20180926T213608Z">
+        <seg>&lt;x59/&gt;body:*&lt;x60/&gt; | &lt;x61/&gt;body&lt;x62/&gt; フィールドになんらかの値を含む。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2164,6 +2316,14 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180429T233108Z" creationid="Toru Kokubun" creationdate="20180429T232634Z">
         <seg>&lt;x62/&gt;正確なフレーズとして「salty dog」を含んでいる&lt;x63/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;x63/&gt;-body:*&lt;x64/&gt; | where the &lt;x65/&gt;body&lt;x66/&gt; field is empty.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213621Z" creationid="Toru Kokubun" creationdate="20180926T213621Z">
+        <seg>&lt;x63/&gt;-body:*&lt;x64/&gt; | &lt;x65/&gt;body&lt;x66/&gt; フィールドが空である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2194,8 +2354,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>&lt;x7/&gt;salty -dog&lt;x8/&gt; | containing “salty” but not “dog”.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073531Z" creationid="Toru Kokubun" creationdate="20180623T073531Z">
-        <seg>&lt;x7/&gt;salty -dog&lt;x8/&gt; | 「salty」を含むが「dog」を含んでいない</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213220Z" creationid="Toru Kokubun" creationdate="20180623T073531Z">
+        <seg>&lt;x7/&gt;salty -dog&lt;x8/&gt; | 「salty」を含むが「dog」を含んでいない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2226,8 +2386,8 @@ Craft CMS が非常に大きな画像の処理、または、データベース�
       <tuv lang="EN-US">
         <seg>&lt;x9/&gt;"salty dog"&lt;x10/&gt; | containing the exact phrase “salty dog”.</seg>
       </tuv>
-      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180623T073548Z" creationid="Toru Kokubun" creationdate="20180623T073548Z">
-        <seg>&lt;x9/&gt;"salty dog"&lt;x10/&gt; | 正確なフレーズとして「salty dog」を含んでいる</seg>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213223Z" creationid="Toru Kokubun" creationdate="20180623T073548Z">
+        <seg>&lt;x9/&gt;"salty dog"&lt;x10/&gt; | 正確なフレーズとして「salty dog」を含んでいる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3310,6 +3470,14 @@ resetting user account passwords.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T031904Z" creationid="Toru Kokubun" creationdate="20180507T031904Z">
         <seg>&lt;x1/&gt;&lt;x2/&gt;&lt;x3/&gt; タグに含めるべき、HTML 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any changes to this array will result in changes to the template’s variables for any tags that follow the &lt;x3/&gt;{% hook %}&lt;x4/&gt; tag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T233344Z" creationid="Toru Kokubun" creationdate="20180926T233344Z">
+        <seg>この配列を変更すると、&lt;x3/&gt;{% hook %}&lt;x4/&gt; タグに続くすべてのタグのテンプレートの変数が変更されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6324,6 +6492,14 @@ purposes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft Pro allows you to set permissions on users and groups, such as the ability to access the Control Panel, edit content within certain sections, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T214009Z" creationid="Toru Kokubun" creationdate="20180926T214009Z">
+        <seg>Craft Pro では、コントロールパネルにアクセスしたり、特定セクションのコンテンツを編集するといった権限をユーザーやグループに許可できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft Pro allows you to set permissions on users and groups, such as the ability to access the control panel, edit content within certain sections, etc.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T014404Z" creationid="Toru Kokubun" creationdate="20180428T014250Z">
@@ -6708,10 +6884,26 @@ purposes.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Craft templates can give modules and plugins an opportunity to hook into them using &lt;x1/&gt;hook&lt;x2/&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T222559Z" creationid="Toru Kokubun" creationdate="20180926T222546Z">
+        <seg>Craft テンプレートでは、&lt;x1/&gt;hook&lt;x2/&gt; タグを使用してモジュールやプラグインにフックする機会を与えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Craft treats templates with names prefixed with an underscore, for example &lt;x1/&gt;recipes/_entry.html&lt;x2/&gt;, as hidden templates that are not directly accessible.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T001422Z" creationid="Toru Kokubun" creationdate="20180427T001309Z">
         <seg>Craft は、&lt;x1/&gt;recipes/_entry.html&lt;x2/&gt; のように、名前の接頭辞にアンダースコアが付いたテンプレートを直接アクセスできない不可視テンプレートとして扱います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Craft treats templates with names prefixed with an underscore, for example &lt;x1/&gt;recipes/_entry.twig&lt;x2/&gt;, as hidden templates that are not directly accessible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220026Z" creationid="Toru Kokubun" creationdate="20180926T220026Z">
+        <seg>Craft は、&lt;x1/&gt;recipes/_entry.twig&lt;x2/&gt; のように、名前の接頭辞にアンダースコアが付いたテンプレートを直接アクセスできない不可視テンプレートとして扱います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9774,6 +9966,14 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;x1/&gt;{% exit 404 %}&lt;x2/&gt; will get Craft to return the &lt;x3/&gt;404.twig&lt;x4/&gt; template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220330Z" creationid="Toru Kokubun" creationdate="20180926T220330Z">
+        <seg>例えば、&lt;x1/&gt;{% exit 404 %}&lt;x2/&gt; は Craft に &lt;x3/&gt;404.twig&lt;x4/&gt; テンプレートを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;x12/&gt;pixelandtonic/craft-recipes&lt;x13/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T212732Z" creationid="Toru Kokubun" creationdate="20180624T212726Z">
@@ -9879,10 +10079,26 @@ servers.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, if you have a template located at &lt;x1/&gt;templates/recipes/entry.twig&lt;x2/&gt;, the following template paths would point to it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215547Z" creationid="Toru Kokubun" creationdate="20180926T215547Z">
+        <seg>例えば、&lt;x1/&gt;templates/recipes/entry.twig&lt;x2/&gt; にテンプレートがある場合、次のテンプレートパスで指し示すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, if you have a template located at &lt;x1/&gt;templates/recipes/ingredients/index.html&lt;x2/&gt;, the following template paths would point to it:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T022722Z" creationid="Toru Kokubun" creationdate="20180910T022722Z">
         <seg>例えば、&lt;x1/&gt;templates/recipes/ingredients/index.html&lt;x2/&gt;にテンプレートがある場合、次のテンプレートパスで指し示すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you have a template located at &lt;x1/&gt;templates/recipes/ingredients/index.twig&lt;x2/&gt;, the following template paths would point to it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215637Z" creationid="Toru Kokubun" creationdate="20180926T215637Z">
+        <seg>例えば、&lt;x1/&gt;templates/recipes/ingredients/index.twig&lt;x2/&gt; にテンプレートがある場合、次のテンプレートパスで指し示すことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9939,6 +10155,14 @@ servers.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T023306Z" creationid="Toru Kokubun" creationdate="20180910T023306Z">
         <seg>例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合、&lt;x1/&gt;templates/de/welcome.html&lt;x2/&gt; に保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, if you want to create a special template welcoming your German customers, but there’s no need for it on your English site, then you could save it in &lt;x1/&gt;templates/de/welcome.twig&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220142Z" creationid="Toru Kokubun" creationdate="20180926T220142Z">
+        <seg>例えば、ドイツのカスタマーを歓迎するための特別なテンプレートを作成したいものの、英語版サイトで必要ない場合、&lt;x1/&gt;templates/de/welcome.twig&lt;x2/&gt; に保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11195,6 +11419,14 @@ if you wanted to enable a SSL database connection (assuming SSL is enabled in My
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;x1/&gt;Mode&lt;x2/&gt; is set to “Crop”, an additional “Default Focal Point” setting will appear, where you can define which area of the image Craft should center the crop on, for images without a &lt;x3/&gt;focal point&lt;x4/&gt; set.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T212650Z" creationid="Toru Kokubun" creationdate="20180926T211742Z">
+        <seg>&lt;x1/&gt;モード&lt;x2/&gt;で「切り抜き」がセットされた場合、&lt;x3/&gt;焦点&lt;x4/&gt;が設定されていない画像に対して Craft がどのエリアを切り抜きの中心にすべきかを決定する「デフォルトの焦点」プルダウンが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If &lt;x1/&gt;mode&lt;x2/&gt; is set to &lt;x3/&gt;'crop'&lt;x4/&gt;, you can pass a &lt;x5/&gt;position&lt;x6/&gt; property, set to either &lt;x7/&gt;'top-left'&lt;x8/&gt;, &lt;x9/&gt;'top-center'&lt;x10/&gt;, &lt;x11/&gt;'top-right'&lt;x12/&gt;, &lt;x13/&gt;'center-left'&lt;x14/&gt;, &lt;x15/&gt;'center-center'&lt;x16/&gt;, &lt;x17/&gt;'center-right'&lt;x18/&gt;, &lt;x19/&gt;'bottom-left'&lt;x20/&gt;, &lt;x21/&gt;'bottom-center'&lt;x22/&gt;, or &lt;x23/&gt;'bottom-right'&lt;x24/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T070826Z" creationid="Toru Kokubun" creationdate="20180624T070826Z">
@@ -12180,6 +12412,14 @@ connect to the Unix socket, instead of the server and port.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you access &lt;x1/&gt;http://my-project.test/blog/archive/2018&lt;x2/&gt;, your &lt;x3/&gt;blog/_archive.twig&lt;x4/&gt; template will get loaded a &lt;x5/&gt;year&lt;x6/&gt; variable set to &lt;x7/&gt;2018&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T212913Z" creationid="Toru Kokubun" creationdate="20180926T212913Z">
+        <seg>&lt;x1/&gt;http://my-project.test/blog/archive/2018&lt;x2/&gt; にアクセスすると、&lt;x3/&gt;blog/_archive.twig&lt;x4/&gt; テンプレートは、変数 &lt;x5/&gt;year&lt;x6/&gt; に &lt;x7/&gt;2018&lt;x8/&gt; をセットした状態で読み込まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are including a Checkboxes field on a front-end &lt;x1/&gt;entry from&lt;x2/&gt;, make sure to include a hidden input before the checkboxes, so that an empty value is submitted if no checkboxes are checked.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T222714Z" creationid="Toru Kokubun" creationdate="20180425T001954Z">
@@ -12679,6 +12919,14 @@ verification link in the email.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have templates located at both &lt;x1/&gt;templates/recipes/ingredients.twig&lt;x2/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215912Z" creationid="Toru Kokubun" creationdate="20180926T215912Z">
+        <seg>&lt;x1/&gt;templates/recipes/ingredients.twig&lt;x2/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have tried a commercial plugin and are ready to buy it, return to the Plugin Store and click on the Cart icon in the header area.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180714T221542Z" creationid="Toru Kokubun" creationdate="20180714T221542Z">
@@ -12835,6 +13083,14 @@ verification link in the email.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T000524Z" creationid="Toru Kokubun" creationdate="20180427T000524Z">
         <seg>テンプレートの名前が &lt;x1/&gt;index.html&lt;x2/&gt; の場合、テンプレートパスで明示的に記述する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you name your template &lt;x1/&gt;index.twig&lt;x2/&gt;, you don’t need to specify it in the template path.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215609Z" creationid="Toru Kokubun" creationdate="20180926T215609Z">
+        <seg>テンプレートの名前が &lt;x1/&gt;index.twig&lt;x2/&gt; の場合、テンプレートパスで明示的に記述する必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14174,6 +14430,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T235504Z" creationid="Toru Kokubun" creationdate="20180910T235504Z">
         <seg>この例では、&lt;x1/&gt;templates/_entry.html&lt;x2/&gt; にあるテンプレートを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this example, we'll use a template located at &lt;x1/&gt;templates/_entry.twig&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215019Z" creationid="Toru Kokubun" creationdate="20180926T215019Z">
+        <seg>この例では、&lt;x1/&gt;templates/_entry.twig&lt;x2/&gt; にあるテンプレートを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18893,6 +19157,14 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugins and modules can register methods to be called by template hooks using &lt;x1/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T222831Z" creationid="Toru Kokubun" creationdate="20180926T222727Z">
+        <seg>プラグインやモジュールは &lt;x1/&gt; を使用してテンプレートフックに呼び出されることで、メソッドを登録できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins are mini applications that run alongside Craft’s core code.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T205954Z" creationid="Toru Kokubun" creationdate="20180624T205954Z">
@@ -20718,6 +20990,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x1/&gt;Template Hooks&lt;x2/&gt; for details on plugins and modules can work with &lt;x3/&gt;{% hook %}&lt;x4/&gt; tags.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T222002Z" creationid="Toru Kokubun" creationdate="20180926T221811Z">
+        <seg>プラグインやモジュールが &lt;x3/&gt;{% hook %}&lt;x4/&gt; タグで作動できる詳細については、&lt;x1/&gt;テンプレートフック&lt;x2/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;x1/&gt;Updating Plugins for Craft 3&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180428T000454Z" creationid="Toru Kokubun" creationdate="20180421T001720Z">
@@ -20882,6 +21162,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T012158Z" creationid="Toru Kokubun" creationdate="20180427T012037Z">
         <seg>詳細については、&lt;x3/&gt;ローカライゼーションガイド&lt;x4/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See the &lt;x1/&gt;Users&lt;x2/&gt; page for a list of available permissions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220609Z" creationid="Toru Kokubun" creationdate="20180926T220609Z">
+        <seg>利用可能な権限のリストは、&lt;x1/&gt;ユーザー&lt;x2/&gt;ページを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22754,6 +23042,14 @@ distortion in the image.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Template Hooks</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T222507Z" creationid="Toru Kokubun" creationdate="20180926T222507Z">
+        <seg>テンプレートフック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Template Localization</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T012313Z" creationid="Toru Kokubun" creationdate="20180427T011012Z">
@@ -23981,6 +24277,14 @@ failed login attempts.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The callback method will pass a &lt;x1/&gt;$context&lt;x2/&gt; argument, which represents the current template context (all of the currently defined template variables).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T233239Z" creationid="Toru Kokubun" creationdate="20180926T222903Z">
+        <seg>コールバックメソッドは、現在のテンプレートのコンテキスト（現在定義されているすべてのテンプレート変数）を表す &lt;x1/&gt;$context&lt;x2/&gt; 引数を渡します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The category group ID(s) that the resulting categories must be in</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180503T032243Z" creationid="Toru Kokubun" creationdate="20180503T032243Z">
@@ -24473,6 +24777,14 @@ failed login attempts.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T032008Z" creationid="Toru Kokubun" creationdate="20180421T010849Z">
         <seg>エントリは、通常コントロールパネルの投稿フォームから入力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The entry being saved will be available to the template as a variabled named &lt;x1/&gt;object&lt;x2/&gt;, and each of the entry’s properties and custom field values will also be available as their own variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T213848Z" creationid="Toru Kokubun" creationdate="20180926T213848Z">
+        <seg>保存されているエントリは、&lt;x1/&gt;object&lt;x2/&gt; と名付けられた変数としてテンプレートで利用できます。さらに、各エントリのプロパティやカスタムフィールドの値は、それぞれの変数として利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25042,6 +25354,14 @@ unzipping and updating.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T015401Z" creationid="Toru Kokubun" creationdate="20180716T015401Z">
         <seg>許可される最大のアップロードファイルサイズ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The method can optionally return a string, which will be output where the &lt;x1/&gt;{% hook %}&lt;x2/&gt; tag is in the template.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T233525Z" creationid="Toru Kokubun" creationdate="20180926T233503Z">
+        <seg>このメソッドは、テンプレート内の &lt;x1/&gt;{% hook %}&lt;x2/&gt; タグがある場所に出力される文字列をオプションで返すことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26127,6 +26447,14 @@ directly accessible via a matching URL).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T003525Z" creationid="Toru Kokubun" creationdate="20180624T003121Z">
         <seg>次に、フォームの送信先にあたるテンプレート（例：&lt;x1/&gt;search/results.html&lt;x2/&gt;）で &lt;x3/&gt;GET&lt;x4/&gt; / &lt;x5/&gt;POST&lt;x6/&gt; データから検索クエリを取り出し、それを &lt;x7/&gt;search&lt;x8/&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then, on whatever template your form submits to (e.g. &lt;x1/&gt;search/results.twig&lt;x2/&gt;), just pull the search query from the &lt;x3/&gt;GET&lt;x4/&gt;/&lt;x5/&gt;POST&lt;x6/&gt; data, and pass it to the &lt;x7/&gt;search&lt;x8/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215352Z" creationid="Toru Kokubun" creationdate="20180926T215352Z">
+        <seg>次に、フォームの送信先にあたるテンプレート（例：&lt;x1/&gt;search/results.twig&lt;x2/&gt;）で &lt;x3/&gt;GET&lt;x4/&gt; / &lt;x5/&gt;POST&lt;x6/&gt; データから検索クエリを取り出し、それを &lt;x7/&gt;search&lt;x8/&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27218,6 +27546,14 @@ setting) when they are already logged in.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This tag gives plugins and modules an opportunity to hook into the template, to either return additional HTML or make changes to the available template variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T221546Z" creationid="Toru Kokubun" creationdate="20180926T221546Z">
+        <seg>このタグは、テンプレート内でプラグインやモジュールに追加の HTML を返すか、利用可能なテンプレート変数を変更する機会を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This tag helps create a hierarchical navigation menu for entries in a &lt;x1/&gt;Structure section&lt;x2/&gt; or a &lt;x3/&gt;Category Group&lt;x4/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180507T043543Z" creationid="Toru Kokubun" creationdate="20180507T043339Z">
@@ -27823,6 +28159,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180923T001947Z" creationid="Toru Kokubun" creationdate="20180923T001920Z">
         <seg>プラグインに設定ページを追加するには、プラグインのソースディレクトリに &lt;x1/&gt;templates/&lt;x2/&gt; フォルダを作成し、その中に &lt;x3/&gt;settings.html&lt;x4/&gt; ファイルを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To give your plugin a settings page, create a &lt;x1/&gt;templates/&lt;x2/&gt; directory within your plugin’s source directory, and create a &lt;x3/&gt;settings.twig&lt;x4/&gt; file within it:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T222135Z" creationid="Toru Kokubun" creationdate="20180926T222135Z">
+        <seg>プラグインに設定ページを追加するには、プラグインのソースディレクトリに &lt;x1/&gt;templates/&lt;x2/&gt; フォルダを作成し、その中に  &lt;x3/&gt;settings.twig&lt;x4/&gt; ファイルを作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29623,6 +29967,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180427T010540Z" creationid="Toru Kokubun" creationdate="20180427T010528Z">
         <seg>そこで、Craft が不可視ファイルだとみなすようファイル名を &lt;x1/&gt;_entry.html&lt;x2/&gt; に変更し、セクションの設定をアップデートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We change its file name to &lt;x1/&gt;_entry.twig&lt;x2/&gt; so it is considered hidden by Craft and update the settings in our Section.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T220057Z" creationid="Toru Kokubun" creationdate="20180926T220057Z">
+        <seg>そこで、Craft が不可視ファイルだとみなすようファイル名を &lt;x1/&gt;_entry.twig&lt;x2/&gt; に変更し、セクションの設定をアップデートします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33888,6 +34240,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>templates/recipes/ingredients/index.twig&lt;x1/&gt;, the template path &lt;x2/&gt;recipes/ingredients&lt;x3/&gt; will match &lt;x4/&gt;ingredients.twig&lt;x5/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T215942Z" creationid="Toru Kokubun" creationdate="20180926T215942Z">
+        <seg>templates/recipes/ingredients/index.twig&lt;x1/&gt; の両方にテンプレートがある場合、&lt;x2/&gt;recipes/ingredients&lt;x3/&gt; は &lt;x4/&gt;ingredients.twig&lt;x5/&gt; にマッチします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>the database connection settings.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T085100Z" creationid="Toru Kokubun" creationdate="20180415T085100Z">
@@ -34140,6 +34500,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180910T222450Z" creationid="Toru Kokubun" creationdate="20180910T222450Z">
         <seg>{% header %}&lt;x1/&gt; タグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>{% hook %}&lt;x1/&gt; Tags</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20180926T221415Z" creationid="Toru Kokubun" creationdate="20180926T221415Z">
+        <seg>{% hook %}&lt;x1/&gt; タグ</seg>
       </tuv>
     </tu>
     <tu>
