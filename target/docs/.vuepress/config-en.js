@@ -72,6 +72,7 @@ module.exports = {
                     // 'behaviors',
                     'template-roots',
                     'extending-twig',
+                    'template-hooks',
                     // 'front-end-controllers',
                 ]
             }
@@ -98,6 +99,7 @@ module.exports = {
                     'tags/css',
                     'tags/exit',
                     'tags/header',
+                    'tags/hook',
                     'tags/js',
                     'tags/nav',
                     'tags/paginate',
@@ -199,11 +201,9 @@ module.exports = {
                     'routing',
                     'relations',
                     'searching',
-                    'reference-tags',
                     'sites',
                     ['localization', 'Localization'],
                     'static-translations',
-                    'content-migrations',
                     'plugins',
                 ]
             },
@@ -213,6 +213,14 @@ module.exports = {
                 children: [
                     'dev/',
                     'extend/',
+                ]
+            },
+            {
+                title: 'Advanced',
+                collapsable: false,
+                children: [
+                    'content-migrations',
+                    'reference-tags',
                 ]
             },
         ]
