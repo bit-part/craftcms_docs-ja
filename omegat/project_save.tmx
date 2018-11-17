@@ -803,6 +803,16 @@ SVG 内の &lt;x1/&gt;id&lt;x2/&gt; 属性は自動的に名前空間になり�
     <tu>
       <tuv lang="EN-US">
         <seg>::: tip
+Any changes you make to the Mailer component from &lt;x1/&gt;config/app.php&lt;x2/&gt; will not be reflected when testing email settings from Settings → Email.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T020707Z" creationid="Toru Kokubun" creationdate="20181117T020707Z">
+        <seg>::: tip
+&lt;x1/&gt;config/app.php&lt;x2/&gt; から Mailer コンポーネントに行った変更は、「設定 &gt; メール」からメールの設定をテストする際には反映されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
 By default you won’t be able to create multiple tags that are too similar in name.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T074734Z" creationid="Toru Kokubun" creationdate="20180909T074557Z">
@@ -1238,6 +1248,16 @@ The &lt;x1/&gt;limit&lt;x2/&gt; and &lt;x3/&gt;offset&lt;x4/&gt; parameters will
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180911T215405Z" creationid="Toru Kokubun" creationdate="20180911T215345Z">
         <seg>::: tip
 &lt;x5/&gt;count()&lt;x6/&gt; を呼び出す際、&lt;x1/&gt;limit&lt;x2/&gt; および &lt;x3/&gt;offset&lt;x4/&gt; パラメータは無視されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>::: tip
+The base CP URL should &lt;x1/&gt;not&lt;x2/&gt; include the &lt;x3/&gt;CP trigger word&lt;x4/&gt; (e.g. &lt;x5/&gt;/admin&lt;x6/&gt;).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T012353Z" creationid="Toru Kokubun" creationdate="20181117T012308Z">
+        <seg>::: tip
+ベース CP URL に &lt;x3/&gt;CP トリガーワード&lt;x4/&gt;（例：&lt;x5/&gt;/admin&lt;x6/&gt;）を &lt;x1/&gt;含めない&lt;x2/&gt; でください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3594,6 +3614,14 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Application Configuration</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015433Z" creationid="Toru Kokubun" creationdate="20181117T015433Z">
+        <seg>アプリケーション設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apply the custom criteria parameters as conditions on the query</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180923T222614Z" creationid="Toru Kokubun" creationdate="20180923T222614Z">
@@ -4450,6 +4478,14 @@ resetting user account passwords.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default Craft will run &lt;x1/&gt;mysql&lt;x2/&gt; or &lt;x3/&gt;psql&lt;x4/&gt;, provided that those libraries are in the &lt;x5/&gt;$PATH&lt;x6/&gt;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T013923Z" creationid="Toru Kokubun" creationdate="20181117T013923Z">
+        <seg>provided that those libraries are in the &lt;x5/&gt;$PATH&lt;x6/&gt;By default Craft will run &lt;x1/&gt;mysql&lt;x2/&gt; or &lt;x3/&gt;psql&lt;x4/&gt;, </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default Craft will run &lt;x1/&gt;mysql&lt;x2/&gt; or &lt;x3/&gt;psql&lt;x4/&gt;, provided that those libraries are in the &lt;x5/&gt;$PATH&lt;x6/&gt; variable for the user the web server  is running as.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T031322Z" creationid="Toru Kokubun" creationdate="20180908T031322Z">
@@ -4807,6 +4843,14 @@ user registrations.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180420T235241Z" creationid="Toru Kokubun" creationdate="20180420T235241Z">
         <seg>CSRF プロテクションは、Craft 3 ではデフォルトで有効になりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cache Component</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015813Z" creationid="Toru Kokubun" creationdate="20181117T015753Z">
+        <seg>Cache コンポーネント</seg>
       </tuv>
     </tu>
     <tu>
@@ -7621,6 +7665,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Defaults to &lt;x7/&gt;'auto'&lt;x8/&gt;, which will set the secure flag if the page you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T014359Z" creationid="Toru Kokubun" creationdate="20181117T014359Z">
+        <seg>デフォルトは &lt;x7/&gt;'auto'&lt;x8/&gt; で、現在のアクセスが &lt;x9/&gt;https://&lt;x10/&gt; 越しの場合に secure フラグがセットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Defaults to an empty string, which means it will use as much memory as it possibly can.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023018Z" creationid="Toru Kokubun" creationdate="20180716T022953Z">
@@ -8541,6 +8593,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each time the function is called, the given sequence will be automatically incremented.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T025029Z" creationid="Toru Kokubun" creationdate="20181117T024945Z">
+        <seg>ファンクションが呼び出されるたびに、与えられたシーケンスは自動的にインクリメントされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each transform has the following settings:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T034023Z" creationid="Toru Kokubun" creationdate="20180624T034023Z">
@@ -9237,6 +9297,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entry form:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T003625Z" creationid="Toru Kokubun" creationdate="20181117T003614Z">
+        <seg>投稿フォーム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Entry queries support the following parameters:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180914T221337Z" creationid="Toru Kokubun" creationdate="20180914T221337Z">
@@ -9873,6 +9941,14 @@ you're currently accessing is over &lt;x9/&gt;https://&lt;x10/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T095018Z" creationid="Toru Kokubun" creationdate="20180909T095018Z">
         <seg>カスタムフィールド以外で利用できる追加のグローバル設定のプロパティについては、リファレンスの &lt;x1/&gt; を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For an example of how you would do it from a cron job that ran every minute:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T014209Z" creationid="Toru Kokubun" creationdate="20181117T014209Z">
+        <seg>1分ごとに実行される cron ジョブをどのように設定するかの例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12541,6 +12617,14 @@ through your "forgot password" workflow.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't, the only way they can set their password is to go through your "forgot password" workflow.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T012914Z" creationid="Toru Kokubun" creationdate="20181117T012853Z">
+        <seg>そうでなければ「パスワードを忘れた」際のワークフローを経由することがパスワードを設定できる唯一の方法となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you don’t have a Craft ID account yet, you can create one by going to &lt;x1/&gt;id.craftcms.com/register&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T221526Z" creationid="Toru Kokubun" creationdate="20180716T221526Z">
@@ -12873,6 +12957,14 @@ through your "forgot password" workflow.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T233729Z" creationid="Toru Kokubun" creationdate="20180916T233729Z">
         <seg>&lt;x1/&gt;アプリケーション設定&lt;x2/&gt;をコントロールできる場合、そこから翻訳カテゴリを追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you have email verification enabled, new users will set their password once they've clicked on the verification link in the email.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T012741Z" creationid="Toru Kokubun" creationdate="20181117T012741Z">
+        <seg>メールアドレスの確認が有効になっている場合、新しいユーザーは通知メールに記載されたリンクをクリックしてパスワードを設定できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15066,6 +15158,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It will be determined automatically if left blank.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T012131Z" creationid="Toru Kokubun" creationdate="20181117T012131Z">
+        <seg>空白の場合、自動的に決定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It will either return the element or &lt;x5/&gt;null&lt;x6/&gt; if no matching element exists.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180911T214853Z" creationid="Toru Kokubun" creationdate="20180911T214830Z">
@@ -15514,6 +15614,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List of extra locale IDs that the application should support, and users should be able to select as their Preferred Language.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T013232Z" creationid="Toru Kokubun" creationdate="20181117T013232Z">
+        <seg>アプリケーションがサポートすべき追加のロケール ID のリストで、ユーザーが優先言語として選択できる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>List of file extensions that will be merged into the &lt;x1/&gt;$allowedFileExtensions&lt;x2/&gt; config setting.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180715T223426Z" creationid="Toru Kokubun" creationdate="20180715T223426Z">
@@ -15698,6 +15806,30 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Loop through all of the available checkboxes:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T003336Z" creationid="Toru Kokubun" creationdate="20181117T003336Z">
+        <seg>利用可能なすべてのチェックボックスをループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loop through all of the available options:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T004117Z" creationid="Toru Kokubun" creationdate="20181117T004117Z">
+        <seg>利用可能なすべてのオブションをループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loop through all of the available radio buttons:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T023855Z" creationid="Toru Kokubun" creationdate="20181117T023855Z">
+        <seg>利用可能なすべてのラジオボタンをループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Loop through the Matrix blocks using a &lt;x1/&gt;for&lt;x2/&gt; tag to output the contents.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T025258Z" creationid="Toru Kokubun" creationdate="20180915T025258Z">
@@ -15722,10 +15854,26 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Loop through the checked checkboxes:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T003254Z" creationid="Toru Kokubun" creationdate="20181117T003254Z">
+        <seg>選択されたチェックボックスをループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Loop through the entries using a &lt;x1/&gt;for&lt;x2/&gt; tag to output the blog post HTML.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180914T221251Z" creationid="Toru Kokubun" creationdate="20180914T221251Z">
         <seg>&lt;x1/&gt;for&lt;x2/&gt; タグを使用してエントリをループ処理し、ブログ投稿の HTML を出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loop through the selected options:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021650Z" creationid="Toru Kokubun" creationdate="20181117T021650Z">
+        <seg>選択されたオプションをループ</seg>
       </tuv>
     </tu>
     <tu>
@@ -16042,6 +16190,14 @@ prefix here to avoid table naming conflicts per install.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Memcached Example</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T020403Z" creationid="Toru Kokubun" creationdate="20181117T020403Z">
+        <seg>Memcached の実例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Method Names</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T234321Z" creationid="Toru Kokubun" creationdate="20180915T234321Z">
@@ -16174,6 +16330,14 @@ prefix here to avoid table naming conflicts per install.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180916T215910Z" creationid="Toru Kokubun" creationdate="20180916T215910Z">
         <seg>モジュール ID&lt;x1/&gt; – プロジェクト内のプラグインを一意に識別する何か。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015818Z" creationid="Toru Kokubun" creationdate="20181117T015818Z">
+        <seg>モジュール</seg>
       </tuv>
     </tu>
     <tu>
@@ -18437,6 +18601,15 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only use this setting if your server has the Intl PHP extension, or if you’ve saved the corresponding
+&lt;x1/&gt;locale data&lt;x2/&gt; into your &lt;x3/&gt;config/locales/&lt;x4/&gt; folder.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T013556Z" creationid="Toru Kokubun" creationdate="20181117T013527Z">
+        <seg>サーバーに Intl PHP エクステンションがあるか、対応する&lt;x1/&gt;ロケールデータ&lt;x2/&gt;を &lt;x3/&gt;config/locales/&lt;x4/&gt; フォルダに保存している場合のみ、この設定を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open the file in your text editor and use this template as its starting point:</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180917T073225Z" creationid="Toru Kokubun" creationdate="20180917T073225Z">
@@ -18653,6 +18826,38 @@ degrade site performance.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output the selected option’s label:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T004101Z" creationid="Toru Kokubun" creationdate="20181117T004101Z">
+        <seg>選択されたオプションのラベルを出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output the selected option’s value:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T004048Z" creationid="Toru Kokubun" creationdate="20181117T004048Z">
+        <seg>選択されたオプションの値を出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output the selected radio button’s label:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T023841Z" creationid="Toru Kokubun" creationdate="20181117T023841Z">
+        <seg>選択されたラジオボタンのラベルを出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output the selected radio button’s value:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T023830Z" creationid="Toru Kokubun" creationdate="20181117T023830Z">
+        <seg>選択されたラジオボタンの値を出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Outputs a date in the ISO-8601 format (which should be used for Atom feeds, among other things).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T235709Z" creationid="Toru Kokubun" creationdate="20180504T235709Z">
@@ -18713,6 +18918,14 @@ degrade site performance.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T231739Z" creationid="Toru Kokubun" creationdate="20180504T231739Z">
         <seg>「head」に登録されたスクリプトやスタイルを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outputs the next or current number in a sequence, defined by &lt;x1/&gt;name&lt;x2/&gt;:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T025355Z" creationid="Toru Kokubun" creationdate="20181117T024843Z">
+        <seg>&lt;x1/&gt;name&lt;x2/&gt; で定義されたシーケンスの次または現在の番号を出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19938,6 +20151,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Redis Example</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T020419Z" creationid="Toru Kokubun" creationdate="20181117T020419Z">
+        <seg>Redis の実例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Refer to class names using the &lt;x1/&gt;::class&lt;x2/&gt; keyword (&lt;x3/&gt;Foo::class&lt;x4/&gt;) rather than as a string (&lt;x5/&gt;'some\nmspace\Foo'&lt;x6/&gt;) or &lt;x7/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T224720Z" creationid="Toru Kokubun" creationdate="20180915T224720Z">
@@ -21118,6 +21339,14 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;x3/&gt;How to Build a Module&lt;x4/&gt; for more info.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021057Z" creationid="Toru Kokubun" creationdate="20181117T020953Z">
+        <seg>詳細については、&lt;x3/&gt;モジュールの構築方法&lt;x4/&gt;を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;x5/&gt;Routing&lt;x6/&gt; for more details.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180908T012152Z" creationid="Toru Kokubun" creationdate="20180908T012137Z">
@@ -21138,6 +21367,38 @@ If you set this, then the &lt;x1/&gt;$server&lt;x2/&gt;, &lt;x3/&gt;$port&lt;x4/
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180716T023612Z" creationid="Toru Kokubun" creationdate="20180716T023126Z">
         <seg>受け入れられる値については、 http://php.net/manual/en/faq.using.php&lt;x1/&gt;faq.using.shorthandbytes のリストを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See if a particular checkbox is checked:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T003536Z" creationid="Toru Kokubun" creationdate="20181117T003523Z">
+        <seg>特定のチェックボックスが選択されているかを確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See if a particular option is selected:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021726Z" creationid="Toru Kokubun" creationdate="20181117T021726Z">
+        <seg>特定のオプションが選択されているかを確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See if any checkboxes are checked:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T003433Z" creationid="Toru Kokubun" creationdate="20181117T003433Z">
+        <seg>いずれかのチェックボックスが選択されているかを確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See if any options are selected:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021715Z" creationid="Toru Kokubun" creationdate="20181117T021715Z">
+        <seg>いずれかのオプションが選択されているかを確認</seg>
       </tuv>
     </tu>
     <tu>
@@ -23182,6 +23443,14 @@ distortion in the image.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180414T012414Z" creationid="Toru Kokubun" creationdate="20180414T012414Z">
         <seg>テンプレート記法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Templating Examples</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T003215Z" creationid="Toru Kokubun" creationdate="20181117T003215Z">
+        <seg>テンプレートの実例</seg>
       </tuv>
     </tu>
     <tu>
@@ -26531,6 +26800,14 @@ directly accessible via a matching URL).</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways to configure Craft depending on your needs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015140Z" creationid="Toru Kokubun" creationdate="20181117T015140Z">
+        <seg>必要に応じて Craft を設定するには、いくつかの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are three different Section Types in Craft: Channels, Structures, and Singles.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180421T005416Z" creationid="Toru Kokubun" creationdate="20180421T005416Z">
@@ -28471,6 +28748,14 @@ automatically if left blank.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T032457Z" creationid="Toru Kokubun" creationdate="20180504T032457Z">
         <seg>Redis キャッシュストレージを利用するには、あらかじめ &lt;x1/&gt;yii2-redis&lt;x2/&gt; ライブラリをインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To view the current number in the sequence without incrementing it, set the &lt;x1/&gt;next&lt;x2/&gt; argument to &lt;x3/&gt;false&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T025329Z" creationid="Toru Kokubun" creationdate="20181117T025329Z">
+        <seg>インクリメントせずにシーケンスの現在の数字を表示するには、&lt;x1/&gt;next&lt;x2/&gt; 引数に &lt;x3/&gt;false&lt;x4/&gt; をセットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31479,6 +31764,14 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also customize Craft’s application configuration for only web requests or console requests from &lt;x1/&gt;config/app.web.php&lt;x2/&gt; and &lt;x3/&gt;config/app.console.php&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T020200Z" creationid="Toru Kokubun" creationdate="20181117T020200Z">
+        <seg>&lt;x1/&gt;config/app.web.php&lt;x2/&gt; および &lt;x3/&gt;config/app.console.php&lt;x4/&gt; から、ウェブリクエストやコンソールリクエストだけに対して Craft のアプリケーション設定をカスタマイズすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also define transforms directly in your templates.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T065654Z" creationid="Toru Kokubun" creationdate="20180624T065654Z">
@@ -31639,10 +31932,26 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can configure Craft to use alternative &lt;x3/&gt;cache storage&lt;x4/&gt; by overriding the &lt;x5/&gt;cache&lt;x6/&gt; application component from &lt;x7/&gt;config/app.php&lt;x8/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T020338Z" creationid="Toru Kokubun" creationdate="20181117T020324Z">
+        <seg>&lt;x7/&gt;config/app.php&lt;x8/&gt; で &lt;x5/&gt;cache&lt;x6/&gt; アプリケーションコンポーネントを上書きすることによって、代替の&lt;x3/&gt;キャッシュストレージ&lt;x4/&gt;を使うよう Craft を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can configure Craft to use an alternative &lt;x3/&gt;cache storage&lt;x4/&gt; by overriding the &lt;x5/&gt;cache&lt;x6/&gt; application component from &lt;x7/&gt;config/app.php&lt;x8/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180504T031604Z" creationid="Toru Kokubun" creationdate="20180504T031526Z">
         <seg>&lt;x7/&gt;config/app.php&lt;x8/&gt; で &lt;x5/&gt;cache&lt;x6/&gt; アプリケーションコンポーネントを上書きすることによって代替の&lt;x3/&gt;キャッシュストレージ&lt;x4/&gt;を使うよう Craft を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can configure core settings like system file paths and the active environment by defining certain &lt;x1/&gt;PHP constants&lt;x2/&gt; in &lt;x3/&gt;web/index.php&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015419Z" creationid="Toru Kokubun" creationdate="20181117T015419Z">
+        <seg>&lt;x3/&gt;web/index.php&lt;x4/&gt; に特定の &lt;x1/&gt;PHP 定数&lt;x2/&gt; を定義することで、システムファイルパスやアクティブな環境などのコア設定を設定できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31731,6 +32040,22 @@ being run through &lt;x1/&gt;Craft::t()&lt;x2/&gt; or the &lt;x3/&gt;|translate&
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180909T093333Z" creationid="Toru Kokubun" creationdate="20180909T093333Z">
         <seg>画像を切り抜いたり、まっすぐにしたり、回転させたり、反転させたり、さらに焦点を選択することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize Craft’s &lt;x1/&gt;application configuration&lt;x2/&gt; from &lt;x3/&gt;config/app.php&lt;x4/&gt;, such as overriding component configs, or adding new modules and components.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015646Z" creationid="Toru Kokubun" creationdate="20181117T015646Z">
+        <seg>&lt;x3/&gt;config/app.php&lt;x4/&gt; から、コンポーネント設定を上書きしたり新しいモジュールやコンポーネントを追加するような Craft の &lt;x1/&gt;アプリケーション設定&lt;x2/&gt; をカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize Craft’s entire &lt;x1/&gt;Yii application configuration&lt;x2/&gt; from &lt;x3/&gt;config/app.php&lt;x4/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T015942Z" creationid="Toru Kokubun" creationdate="20181117T015919Z">
+        <seg>&lt;x3/&gt;config/app.php&lt;x4/&gt; から、Craft の &lt;x1/&gt;Yii アプリケーション設定&lt;x2/&gt; 全体をカスタマイズできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32216,6 +32541,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can optionally have the number be zero-padded to a certain length.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T025148Z" creationid="Toru Kokubun" creationdate="20181117T025148Z">
+        <seg>オプションで特定の長さにゼロ詰めした数値にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can optionally pass &lt;x1/&gt;false&lt;x2/&gt; to it if you want group symbols to be omitted (e.g. commas in English).</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180506T003019Z" creationid="Toru Kokubun" creationdate="20180506T002800Z">
@@ -32444,6 +32777,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180423T013747Z" creationid="Toru Kokubun" creationdate="20180422T093648Z">
         <seg>エントリの &lt;x3/&gt;プロパティ&lt;x4/&gt; は、次の2つの方法で参照できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can register and bootstrap custom Yii modules into the application from &lt;x1/&gt;config/app.php&lt;x2/&gt; as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021132Z" creationid="Toru Kokubun" creationdate="20181117T020922Z">
+        <seg>&lt;x1/&gt;config/app.php&lt;x2/&gt; からカスタム Yii モジュールを登録し bootstrap することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32716,6 +33057,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180424T214300Z" creationid="Toru Kokubun" creationdate="20180424T213830Z">
         <seg>オプションの値とラベルを別々に設定したり、デフォルトでチェックしておくものを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You even get to set the option values and labels separately, and choose which ones should be selected by default.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021621Z" creationid="Toru Kokubun" creationdate="20181117T021621Z">
+        <seg>オプションの値とラベルを別々に設定したり、デフォルトで選択状態にしておくものを選択できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33748,6 +34097,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180624T071038Z" creationid="Toru Kokubun" creationdate="20180624T071023Z">
         <seg>format&lt;x1/&gt; には、&lt;x2/&gt;'jpg'&lt;x3/&gt;、&lt;x4/&gt;'gif'&lt;x5/&gt;、&lt;x6/&gt;'png'&lt;x7/&gt;、または &lt;x8/&gt;'Auto'&lt;x9/&gt; をセットできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>format&lt;x1/&gt; can be set to &lt;x2/&gt;'jpg'&lt;x3/&gt;, &lt;x4/&gt;'gif'&lt;x5/&gt;, &lt;x6/&gt;'png'&lt;x7/&gt;, or omitted.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T021413Z" creationid="Toru Kokubun" creationdate="20181117T021335Z">
+        <seg>format&lt;x1/&gt; には、&lt;x2/&gt;'jpg'&lt;x3/&gt;、&lt;x4/&gt;'gif'&lt;x5/&gt;、&lt;x6/&gt;'png'&lt;x7/&gt; をセットするか、省略できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35008,6 +35365,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>| &lt;x2/&gt;'pending'&lt;x3/&gt; | that are pending (enabled with a Post Date in the future).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T024353Z" creationid="Toru Kokubun" creationdate="20181117T024236Z">
+        <seg>| &lt;x2/&gt;'pending'&lt;x3/&gt; | 保留しているもの（未来の投稿日がセットされた有効なもの）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>| &lt;x2/&gt;false&lt;x3/&gt; | whether they are enabled or not in the site.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180913T063240Z" creationid="Toru Kokubun" creationdate="20180913T063240Z">
@@ -35264,6 +35629,14 @@ either &lt;x1/&gt;'imagick'&lt;x2/&gt; or &lt;x3/&gt;'gd'&lt;x4/&gt; here to ove
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180915T012915Z" creationid="Toru Kokubun" creationdate="20180915T012915Z">
         <seg>| &lt;x4/&gt;'expired'&lt;x5/&gt; | 期限切れのもの（投稿日が過去の有効なもの）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>| &lt;x4/&gt;'expired'&lt;x5/&gt; | that are expired (enabled with an Expiry Date in the past).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20181117T024328Z" creationid="Toru Kokubun" creationdate="20181117T024328Z">
+        <seg>| &lt;x4/&gt;'expired'&lt;x5/&gt; | 期限切れのもの（過去の有効期限日がセットされた有効なもの）。</seg>
       </tuv>
     </tu>
     <tu>
