@@ -81,16 +81,31 @@ OmegaT の設定で調整できないようでしたら、訳文ファイルを�
 なお、確認している修正が必要なファイルは以下の通りです。
 
 * target/docs/ja/category-fields.md
+* target/docs/ja/config/config-settings.md
+* target/docs/ja/dev/functions.html
 * target/docs/ja/dev/tags/cache.html
 * target/docs/ja/extend/coding-guidelines.html
 * target/docs/ja/extend/element-types.md
+* target/docs/ja/extend/plugin-editions.md
+* target/docs/ja/extend/plugin-guide.md
+* target/docs/ja/extend/soft-deletes.md
 * target/docs/ja/extend/updating-plugins.md
+* target/docs/ja/localization.md
+* target/docs/ja/project-config.md
 * target/docs/ja/routing.html
 * target/docs/ja/upgrade.md
 
-`target/docs/ja/extend/coding-guidelines.html` では、「インターフェース 対 実装クラス」と「条件」のインライン表記部分のバッククォートも修正が必要です。
+`target/docs/ja/config/config-settings.md` では、リンク URL の `https://docs.craftcms.com/v3/` を相対パスに変更する必要があります。
+
+`target/docs/ja/extend/coding-guidelines.html` では、「条件」のインライン表記部分のバッククォートも修正が必要です。
+
+`target/docs/ja/extend/plugin-editions.html` では、比較演算子の表組みが正しく表示されるよう調整する必要があります。
+
+`target/docs/ja/extend/plugin-guide.html` では、`[Craft License](https://craftcms.github.io/license/) を使用する計画の場合、MIT` 部分のバッククォートを `MIT` のみにする修正が必要です。
 
 `target/docs/ja/extend/updating-plugins.md` では、「Yii 2」の `アセット → Assets`、「翻訳」のインライン表記部分のバッククォートも修正が必要です。
+
+`target/docs/ja/localization.md` では、リンク URL から `https://docs.craftcms.com/v3/` を除去する必要があります。
 
 # 管理者
 
