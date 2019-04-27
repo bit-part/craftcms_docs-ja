@@ -7,7 +7,8 @@ module.exports = {
         apiKey: '1014b55e7f916b20c5d6834bf7666dc3',
         indexName: 'craftcms',
         algoliaOptions: {
-            facetFilters: ['version:v3', 'tags:doc', 'tags:en']
+            facetFilters: ['version:v3', 'tags:doc', 'tags:en'],
+            hitsPerPage: 10
         }
     },
     sidebar: {
@@ -34,8 +35,9 @@ module.exports = {
                     'plugin-guide',
                     'updating-plugins',
                     'plugin-settings',
-                    'plugin-migrations',
+                    'project-config',
                     'changelogs-and-updates',
+                    'plugin-editions',
                     'plugin-store',
                 ]
             },
@@ -65,6 +67,7 @@ module.exports = {
                 title: 'More',
                 collapsable: false,
                 children: [
+                    'migrations',
                     'user-permissions',
                     'translation-categories',
                     'asset-bundles',
@@ -73,6 +76,8 @@ module.exports = {
                     'template-roots',
                     'extending-twig',
                     'template-hooks',
+                    'soft-deletes',
+                    'environmental-settings',
                     // 'front-end-controllers',
                 ]
             }
@@ -148,32 +153,18 @@ module.exports = {
                 children: [
                     '',
                     'coc',
-                    'how-to-use-the-documentation'
+                    'directory-structure',
                 ]
             },
             {
-                title: 'Installing Craft',
+                title: 'Installing & Updating',
                 collapsable: false,
                 children: [
                     'requirements',
-                    'installation'
-                ]
-            },
-            {
-                title: 'Updating Craft',
-                collapsable: false,
-                children: [
-                    'upgrade',
+                    'installation',
                     'updating',
-                    'changes-in-craft-3'
-                ]
-            },
-            {
-                title: 'Getting Started',
-                collapsable: false,
-                children: [
-                    'the-pieces-of-craft',
-                    'directory-structure'
+                    'upgrade',
+                    'changes-in-craft-3',
                 ]
             },
             {
@@ -209,6 +200,28 @@ module.exports = {
                 ]
             },
             {
+                title: 'Field Types',
+                collapsable: false,
+                children: [
+                    'assets-fields',
+                    'categories-fields',
+                    'checkboxes-fields',
+                    'color-fields',
+                    'date-time-fields',
+                    'dropdown-fields',
+                    'entries-fields',
+                    'lightswitch-fields',
+                    'matrix-fields',
+                    'multi-select-fields',
+                    'number-fields',
+                    'plain-text-fields',
+                    'radio-buttons-fields',
+                    'table-fields',
+                    'tags-fields',
+                    'users-fields',
+                ]
+            },
+            {
                 title: 'Development',
                 collapsable: false,
                 children: [
@@ -217,10 +230,11 @@ module.exports = {
                 ]
             },
             {
-                title: 'Advanced',
+                title: 'More',
                 collapsable: false,
                 children: [
-                    'content-migrations',
+                    'project-config',
+                    'gc',
                     'reference-tags',
                 ]
             },
