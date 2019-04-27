@@ -126,3 +126,13 @@ assumptions	仮定、想定
 wiggle room	余地、余裕、自由
 Eventually	最終的に
 grunt work	つまらない仕事、単純作業
+interaction	インタラクション
+Soft Deletes	ソフトデリート
+Project Config	プロジェクトコンフィグ
+iterate	反復する
+pre-fetched	プリフェッチされた
+Breaking it down	分析
+No matter what	たとえ何があろうと
+feature toggles	機能トグル
+multi	マルチ、複数	環境、サイト、レベル、エディションなどの場合は「マルチ」と表現、他は「複数」とする
+trait	トレイト	https://www.php.net/manual/ja/language.oop5.traits.php
