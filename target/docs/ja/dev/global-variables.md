@@ -15,9 +15,7 @@
 :::
 
 ```twig
-{% if craft.app.config.general.devMode %}
-    <p>This site is running in Dev Mode.</p>
-{% endif %}
+{% set field = craft.app.fields.getFieldByHandle('body') %}
 ```
 
 ## `currentSite`
@@ -34,7 +32,7 @@
 <nav>
     <ul>
         {% for site in currentSite.group.sites %}
-            <li><a href="{{ alias(site.baseUrl) }}">{{ site.name }}</a></li> 
+            <li><a href="{{ alias(site.baseUrl) }}">{{ site.name }}</a></li>
         {% endfor %}
     </ul>
 </nav>
@@ -47,6 +45,16 @@
 ```twig
 {% if currentUser %}
     Welcome, {{ currentUser.friendlyName }}!
+{% endif %}
+```
+
+## `devMode`
+
+コンフィグ設定 <config:devMode> が現在有効になっているかどうか。
+
+```twig
+{% if devMode %}
+    Craft is running in dev mode.
 {% endif %}
 ```
 

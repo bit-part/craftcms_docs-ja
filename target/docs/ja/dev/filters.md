@@ -4,7 +4,7 @@
 
 ## `atom`
 
-（とりわけ、Atom フィードで使用される）ISO-8601 形式の日付を出力します。
+とりわけ Atom フィードで使用される、ISO-8601 タイムスタンプ（例：`2019-01-29T10:00:00-08:00`）に日付を変換します。
 
 ```twig
 {{ entry.postDate|atom }}
@@ -27,11 +27,11 @@
 {% set entryIds = entries|column('id') %}
 ```
 
-## `currency( currency, numberOptions, textOptions, stripZeroCents )`
+## `currency( currency, numberOptions, textOptions, stripZeros )`
 
 ユーザーが優先する言語に応じて指定された通貨で、数値をフォーマットします。
 
-最後の引数に `true` を渡すと、セントがゼロであれば「.00」が削除されます。
+最後の引数に `true` を渡すと、フォーマットされる値が小数値（例：cents）を持たない場合、小数部の桁が削除されます。
 
 利用可能な `numberOptions` は、[こちらのリスト](api:yii\i18n\Formatter::$numberFormatterOptions)を参照してください。
 
@@ -176,8 +176,8 @@ PHP の `date()` ファンクションでサポートされるものと同じ [�
 PHP スクリプトは、[Security::validateData()](api:yii\base\Security::validateData()) を経由して値を検証できます。
 
 ```php
-$foo = craft()->request->getPost('foo');
-$foo = craft()->security->validateData($foo);
+$foo = Craft::$app->request->getPost('foo');
+$foo = Craft::$app->security->validateData($foo);
 
 if ($foo !== false) {
     // data is valid
@@ -247,6 +247,14 @@ if ($foo !== false) {
 
 Twig の [json_encode](https://twig.symfony.com/doc/2.x/filters/json_encode.html) フィルタと同様ですが、引数 `options` がセットされておらず、レスポンスのコンテンツタイプが `text/html` または `application/xhtml+xml` の場合、デフォルトで `JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT` になります。
 
+## `json_decode`
+
+<api:yii\helpers\Json::decode()> を通して、文字列を JSON デコードし配列にします。
+
+```twig
+{% set arr = '[1, 2, 3]'|json_decode %}
+```
+
 ## `kebab`
 
 「kebab-case」でフォーマットされた文字列を返します。
@@ -264,7 +272,7 @@ Twig の [json_encode](https://twig.symfony.com/doc/2.x/filters/json_encode.html
 
 ## `literal`
 
-文字列に <api:craft\helpers\Db::escapeParam> を実行します。
+文字列に <api:craft\helpers\Db::escapeParam()> を実行します。
 
 ## `markdown` または `md`
 
@@ -276,7 +284,7 @@ Twig の [json_encode](https://twig.symfony.com/doc/2.x/filters/json_encode.html
 
 The only *real* computer keyboard ever made was famously
 the [Apple Extended Keyboard II] [1].
-    
+
     [1]: https://www.flickr.com/photos/gruber/sets/72157604797968156/
 {% endset %}
 
@@ -311,7 +319,7 @@ the [Apple Extended Keyboard II] [1].
 {% set content %}
     {entry:blog/hello-world:link} was my first blog post. Pretty geeky, huh?
 {% endset %}
-    
+
 {{ content|parseRefs|raw }}
 ```
 
@@ -354,7 +362,16 @@ the [Apple Extended Keyboard II] [1].
 置換文字列の値の最初と最後にスラッシュを付けてマッチするものを検索することで、正規表現も利用できます。
 
 ```twig
-{{ tag.name|lower|replace('/[^\\w]+/', '-') }}
+{{ tag.title|lower|replace('/[^\\w]+/', '-') }}
+```
+
+## `round`
+
+最も近い整数値に数を丸めます。
+
+```twig
+{{ 42.1|round }} → 42
+{{ 42.9|round }} → 43
 ```
 
 ## `rss`

@@ -37,7 +37,7 @@ templates/
 {% endif %}
 ```
 
-テンプレート全体の文字列に Craft の静的翻訳サポートを利用することもできます。
+テンプレート全体の文字列に Craft の[静的翻訳](static-translations.html)サポートを利用することもできます。
 
 ```twig
 {{ "Welcome!"|t }}
