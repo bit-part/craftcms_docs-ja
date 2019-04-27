@@ -14266,6 +14266,14 @@ connect to the Unix socket, instead of the server and port.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you believe someone is violating the code of conduct, we ask that you report it by contacting us from &lt;x1/&gt;craftcms.com/contact&lt;x2/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="Toru Kokubun" changedate="20190427T031256Z" creationid="Toru Kokubun" creationdate="20190427T031256Z">
+        <seg>もし誰かが行動規範に違反したと確信したなら、&lt;x1/&gt;craftcms.com/contact&lt;x2/&gt; から連絡してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you believe someone is violating the code of conduct, we ask that you report it by emailing &lt;x1/&gt;support@craftcms.com&lt;x2/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="Toru Kokubun" changedate="20180415T073713Z" creationid="Toru Kokubun" creationdate="20180414T032913Z">
