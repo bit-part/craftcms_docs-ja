@@ -3,7 +3,7 @@ character encoding	文字コード
 User	ユーザー
 Required	必須の	見出しでこの文字列からはじまる場合
 Browser	ブラウザ
-CP	CP	Craft の管理画面は「CP」と表現されるため、このままにしておく
+CP	コントロールパネル	Craft 3.5 あたりから「CP」という表現を使わなくなったので、こちらで統一
 or later	以降
 glutton for punishment	「つらい仕事をいくらでもやる人」「他人がやりたがらないことを進んでやる人」	参考：http://www.eigo-eikaiwa.com/0615.html
 ground rules	根本原理
@@ -31,7 +31,7 @@ filters	フィルタ
 Conditionals	条件文
 fair game	公正なゲーム、かっこうの標的
 primary CP nav	CP のメインナビゲーション	管理画面の左側に表示されるナビゲーションのこと
-Entry URI Formats	エントリー URI 形式	管理画面の「セクション」画面の表記に合わせる
+Entry URI Formats	エントリ URI 形式	管理画面の「セクション」画面の表記に合わせる
 Category	カテゴリ	管理画面の「設定」画面の表記に合わせる
 Entries	エントリ	管理画面のグローバルナビゲーションの表記に合わせる
 Matrix	行列	管理画面の表記に合わせる
@@ -102,7 +102,7 @@ structure	構造
 under the hood	「何かを念入りに調べるとき」の比喩表現として、文脈に応じた訳をする	参考：https://www.eigowithluke.com/2010/09/under-the-hood/
 order	順序
 broaden	（幅が）広がる、（範囲や程度が）拡大する
-image transform indexes	イメージ変換インデックス
+image transform indexes	画像変換インデックス
 relevant	関係がある
 operators	演算子
 fully qualified name	完全修飾名
@@ -136,3 +136,13 @@ No matter what	たとえ何があろうと
 feature toggles	機能トグル
 multi	マルチ、複数	環境、サイト、レベル、エディションなどの場合は「マルチ」と表現、他は「複数」とする
 trait	トレイト	https://www.php.net/manual/ja/language.oop5.traits.php
+in conjunction with this	これと共に、これと併せて
+placeholder	プレースホルダ
+draft	下書き	「ドラフト」ではなく「下書き」で統一
+input	入力欄、入力項目	特定の名前付き input を指す場合は「入力項目 XXX」、それ以外は「入力欄」とする
+delimiters	デリミタ
+arithmetic progression	等差数列
+named transform	名前付けされた画像変換
+In a similar fashion	同様に
+fixture	フィクスチャ
+invalidate	無効にする
