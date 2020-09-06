@@ -36,11 +36,11 @@ OmegaT を起動後、メニューから `プロジェクト > チームプロ�
 
 * [Craft CMS documentation](https://github.com/craftcms/docs)
 
-取得した `docs` ディレクトリをローカルフォルダの `source` ディレクトリの中に移動し、以下の変更を加えます。
+取得した `docs/3.x` ディレクトリをローカルフォルダの `source/3.x` ディレクトリの中に移動し、以下の変更を加えます。
 
-* `docs/ja` ディレクトリに含まれるすべてのディレクトとファイルを削除
-* `docs/.vuepress` を削除
-* `docs/ja` を除く、すべてのディレクトリとファイルを `docs/ja` に移動
+* `source/docs/3.x/ja` ディレクトリに含まれるすべてのディレクトとファイルを削除
+* `source/docs/3.x/ja` を新規作成
+* `source/docs/3.x/ja` を除く、すべてのディレクトリとファイルを `source/docs/3.x/ja` に移動
 
 これによって、元の英文ファイルをソースとする日本語版の翻訳が可能となります。
 
@@ -75,37 +75,13 @@ OmegaT 日本語化プロジェクトの Wiki を参考にしてください。
 
 # OmegaT で訳文ファイルを出力後、調整が必要なファイルについて
 
-リストの項目内に `TIPS` や `ソースコード` を含む場合、インデントがずれてしまう影響で、表示が崩れる可能性があります。  
-OmegaT の設定で調整できないようでしたら、訳文ファイルを生成後に手動で調整してください。
+## 訳文ファイル全体
 
-なお、確認している修正が必要なファイルは以下の通りです。
+リンク URL の `https://craftcms.com/docs/3.x/` をルート相対パス `/docs/3.x/ja/` に変更する必要があります。
 
-* target/docs/ja/category-fields.md
-* target/docs/ja/config/config-settings.md
-* target/docs/ja/dev/functions.html
-* target/docs/ja/dev/tags/cache.html
-* target/docs/ja/extend/coding-guidelines.html
-* target/docs/ja/extend/element-types.md
-* target/docs/ja/extend/plugin-editions.md
-* target/docs/ja/extend/plugin-guide.md
-* target/docs/ja/extend/soft-deletes.md
-* target/docs/ja/extend/updating-plugins.md
-* target/docs/ja/localization.md
-* target/docs/ja/project-config.md
-* target/docs/ja/routing.html
-* target/docs/ja/upgrade.md
+## target/docs/3.x/ja/console-commands.md
 
-`target/docs/ja/config/config-settings.md` では、リンク URL の `https://docs.craftcms.com/v3/` を相対パスに変更する必要があります。
-
-`target/docs/ja/extend/coding-guidelines.html` では、「条件」のインライン表記部分のバッククォートも修正が必要です。
-
-`target/docs/ja/extend/plugin-editions.html` では、比較演算子の表組みが正しく表示されるよう調整する必要があります。
-
-`target/docs/ja/extend/plugin-guide.html` では、`[Craft License](https://craftcms.github.io/license/) を使用する計画の場合、MIT` 部分のバッククォートを `MIT` のみにする修正が必要です。
-
-`target/docs/ja/extend/updating-plugins.md` では、「Yii 2」の `アセット → Assets`、「翻訳」のインライン表記部分のバッククォートも修正が必要です。
-
-`target/docs/ja/localization.md` では、リンク URL から `https://docs.craftcms.com/v3/` を除去する必要があります。
+`backup/db` の「オプション」に含まれるリストにインデントを加える必要があります。
 
 # 管理者
 
